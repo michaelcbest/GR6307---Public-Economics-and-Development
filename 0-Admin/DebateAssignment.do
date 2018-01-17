@@ -25,23 +25,32 @@ gen SpeakSpanish = "" //Do you speak Spanish?
 replace Name = "Lorenzo L" if Name == "Lorenzo" & Surname == "Lagos"
 replace Name = "Lorenzo P" if Name == "Lorenzo" & Surname == "Pessina"
 isid Name //double-check there aren't 2 people with the same name
-replace SpeakSpanish = "Yes" if Name == "Motaz"
-replace SpeakSpanish = "No" if Name == "Kim"
-replace SpeakSpanish = "Yes" if Name == "Micah"
-replace SpeakSpanish = "No" if Name == "Louise"
+replace SpeakSpanish = "" if Name == "Motaz"
+replace SpeakSpanish = "" if Name == "Kim"
+replace SpeakSpanish = "No" if Name == "Micah"
+replace SpeakSpanish = "Yes" if Name == "Louise"
 replace SpeakSpanish = "Yes" if Name == "Lucas"
-replace SpeakSpanish = "No" if Name == "Vinayak"
-replace SpeakSpanish = "Yes" if Name == "James"
+replace SpeakSpanish = "" if Name == "Vinayak"
+replace SpeakSpanish = "No" if Name == "James"
 replace SpeakSpanish = "No" if Name == "Paul"
-replace SpeakSpanish = "Yes" if Name == "Sang Hoon"
-replace SpeakSpanish = "No" if Name == "Lorenzo P"
-replace SpeakSpanish = "Yes" if Name == "Lorenzo L"
-replace SpeakSpanish = "Yes" if Name == "Christine"
-replace SpeakSpanish = "No" if Name == "Dario Alberto"
-replace SpeakSpanish = "Yes" if Name == "Arpita"
-replace SpeakSpanish = "No" if Name == "Mengdi"
+replace SpeakSpanish = "No" if Name == "Sang Hoon"
+replace SpeakSpanish = "Yes" if Name == "Lorenzo P"
+replace SpeakSpanish = "" if Name == "Lorenzo L"
+replace SpeakSpanish = "" if Name == "Christine"
+replace SpeakSpanish = "Yes" if Name == "Dario Alberto"
+replace SpeakSpanish = "" if Name == "Arpita"
+replace SpeakSpanish = "" if Name == "Mengdi"
 replace SpeakSpanish = "Yes" if Name == "Joo-Hyung"
 count if SpeakSpanish == ""
+count
+local newobs = `r(N)' + 1
+set obs `newobs'
+replace Name = "Ryo" in l
+replace SpeakSpanish = "No" if Name == "Ryo"
+replace Name = "Sabrina" in -1
+replace SpeakSpanish = "Yes" if Name == "Sabrina"
+drop if Name == "Motaz"
+drop if Name == "Mengdi"
 assert `r(N)' == 0
 
 gen rvar1 = runiform() //random, uniform variable to use to sort people randomly

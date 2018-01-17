@@ -259,6 +259,24 @@ GR 6307 - Syllabus
 \end_layout
 
 \begin_layout Standard
+In the syllabus, I will mark the absolutely required readings with two stars
+ (**).
+ Each week, there will also be a few readings with one star (*MM/DD).
+ Each week, you are required to prepare 
+\emph on
+one
+\emph default
+ 6-slide (excluding the title slide) summary of one of these papers and
+ bring it with you to class on a USB drive.
+ I will randomly call on someone to present their summary each week.
+ NB the randomization will be with replacement, so don't think that you
+ can't be called more than once! The summary should take the form of a general
+ overview outlining why the paper is interesting/important, how the authors
+ approached their question, the methods/data they used, and their main results
+ (copy the tables into your slides).
+\end_layout
+
+\begin_layout Standard
 This is the first year I'm teaching the course, so I'm sure there will be
  typos in my slides.
  If you spot one, please point it out.
@@ -596,7 +614,7 @@ A couple of useful resources for writing referee reports:
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "Jonathan Berk, Campbell R. Harvey, and David A. Hirshleifer, \"Preparing a Referee Report: Fuidelines and Perspectives\""
+name "Jonathan Berk, Campbell R. Harvey, and David A. Hirshleifer, \"Preparing a Referee Report: Guidelines and Perspectives\""
 target "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2547191"
 
 \end_inset

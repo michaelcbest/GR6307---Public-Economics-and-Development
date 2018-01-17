@@ -292,7 +292,7 @@
     \entry{Alstadsaeteretal2017}{unpublished}{}
       \name{author}{3}{}{%
         {{hash=a87586b20bd77a97c6219601ceded255}{%
-           family={Alstads{\ae{}}ter},
+           family={Alstads{æ}ter},
            familyi={A\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
@@ -2343,6 +2343,27 @@
       \field{year}{2016}
       \field{pages}{790\bibrangedash 794}
       \range{pages}{5}
+    \endentry
+    \entry{Jensen2016}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=bc3e2ca38466b8b20a9fdd9c635eaba6}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc3e2ca38466b8b20a9fdd9c635eaba6}
+      \strng{fullhash}{bc3e2ca38466b8b20a9fdd9c635eaba6}
+      \strng{authornamehash}{bc3e2ca38466b8b20a9fdd9c635eaba6}
+      \strng{authorfullhash}{bc3e2ca38466b8b20a9fdd9c635eaba6}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: Harvard Kennedy School}
+      \field{title}{Employment Structure and the Rise of the Modern Tax System}
+      \field{year}{2016}
     \endentry
     \entry{Kangetal2013}{inproceedings}{}
       \name{author}{4}{}{%
