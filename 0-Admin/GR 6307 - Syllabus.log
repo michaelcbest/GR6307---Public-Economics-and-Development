@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 JAN 2018 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 JAN 2018 10:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -320,13 +320,13 @@ Package biblatex Info: Reference segment=0 on input line 6.
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
  [4] [5] [6]
-Overfull \hbox (6.75275pt too wide) in paragraph at lines 110--111
+Overfull \hbox (6.75275pt too wide) in paragraph at lines 112--113
 \OT1/cmr/m/n/10 Trans-fers to the Ex-tremely Poor''. In \OT1/cmr/m/it/10 Pro-ce
 ed-ings of the 20th ACM SIGKDD
  []
 
 
-Overfull \hbox (0.74815pt too wide) in paragraph at lines 110--111
+Overfull \hbox (0.74815pt too wide) in paragraph at lines 112--113
 \OT1/cmr/m/it/10 In-ter-na-tional Con-fer-ence on Knowl-edge Dis-cov-ery and Da
 ta Min-ing\OT1/cmr/m/n/10 , 1563{
  []
@@ -337,17 +337,17 @@ Package logreq Info: Writing requests to '"GR 6307 - Syllabus".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 7622 strings out of 492995
- 140864 string characters out of 6132704
- 627267 words of memory out of 5000000
- 11166 multiletter control sequences out of 15000+600000
+ 7624 strings out of 492995
+ 140940 string characters out of 6132704
+ 627331 words of memory out of 5000000
+ 11168 multiletter control sequences out of 15000+600000
  4591 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,4n,52p,809b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (9 pages, 79150 bytes).
+Output written on "GR 6307 - Syllabus.pdf" (9 pages, 79880 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

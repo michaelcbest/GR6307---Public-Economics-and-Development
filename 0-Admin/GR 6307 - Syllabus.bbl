@@ -1113,6 +1113,91 @@
       \field{pages}{1\bibrangedash 27}
       \range{pages}{27}
     \endentry
+    \entry{BrewerSaezShephard2010}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=63877661f1f9bf9d477273cf601ae28b}{%
+           family={Brewer},
+           familyi={B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=467f8c8be68130dadf909e4d5b63fe4e}{%
+           family={Saez},
+           familyi={S\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f64e803e709c2fac442f56735256a2b6}{%
+           family={Shephard},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{10}{}{%
+        {{hash=bc1997ee304e13f818e89fec31ef5085}{%
+           family={Mirrlees},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f8964a362c61d577a17dddc098586404}{%
+           family={Adam},
+           familyi={A\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5b476483c449b84438e52b86e872c2ca}{%
+           family={Besley},
+           familyi={B\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3008604acce0ff57213ad482a8d58796}{%
+           family={Blundell},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=00be04c859cf926fedb464c698c05d18}{%
+           family={Bond},
+           familyi={B\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=18e3d493e8354b5af5b08b1ce6341218}{%
+           family={Chote},
+           familyi={C\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7cf620d4cc78a35af4b9ccd0715f5c1b}{%
+           family={Gammie},
+           familyi={G\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=91d9ba804c75816bc371156a21e456aa}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=38f9a8f94847c5e9c2d2e9c4fbe55872}{%
+           family={Myles},
+           familyi={M\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=de456495d1f5e033673e767fe7a49720}{%
+           family={Poterba},
+           familyi={P\bibinitperiod},
+           given={JM},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0dc384db88af397b538810a6bc82d24}
+      \strng{fullhash}{e0dc384db88af397b538810a6bc82d24}
+      \strng{authornamehash}{e0dc384db88af397b538810a6bc82d24}
+      \strng{authorfullhash}{e0dc384db88af397b538810a6bc82d24}
+      \strng{editornamehash}{fa2b7a85a1a9098f58fd8cbd1da26b73}
+      \strng{editorfullhash}{fa2b7a85a1a9098f58fd8cbd1da26b73}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Mirrlees Review: Reforming the Tax System for the 21st Century}
+      \field{title}{Means Testing and Tax Rates on Earnings}
+      \field{year}{2010}
+    \endentry
     \entry{Brolloetal2016}{unpublished}{}
       \name{author}{3}{}{%
         {{hash=6d4464dc5af8654351a9bc4f841042b4}{%
@@ -3047,6 +3132,47 @@
       \field{year}{2002}
       \field{pages}{1039\bibrangedash 1073}
       \range{pages}{35}
+    \endentry
+    \entry{Saez2006}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=467f8c8be68130dadf909e4d5b63fe4e}{%
+           family={Saez},
+           familyi={S\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=049f998199448809de9a1a14e212758d}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1dc104e4639fe10211e3723909b9e07c}{%
+           family={Benabou},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2a78a05977854e56a51b10dd5e2dd54e}{%
+           family={Mookherjee},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{467f8c8be68130dadf909e4d5b63fe4e}
+      \strng{fullhash}{467f8c8be68130dadf909e4d5b63fe4e}
+      \strng{authornamehash}{467f8c8be68130dadf909e4d5b63fe4e}
+      \strng{authorfullhash}{467f8c8be68130dadf909e4d5b63fe4e}
+      \strng{editornamehash}{71f0fee65c458e967ac3e4693c6036c5}
+      \strng{editorfullhash}{71f0fee65c458e967ac3e4693c6036c5}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Understanding Poverty}
+      \field{chapter}{13}
+      \field{title}{Redistribution Toward Low Incomes in Richer Countries}
+      \field{year}{2006}
     \endentry
     \entry{Sequeira2016}{article}{}
       \name{author}{1}{}{%
