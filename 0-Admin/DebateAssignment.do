@@ -9,49 +9,13 @@
   
 */
 
-import delimited "/Users/michael/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/ClassList_20170115.tsv", delimiter(tab) clear
+import excel using "/Users/michael//Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/DebateParticipants.xlsx", firstrow allstring clear
 set more off
-set seed 20180117
-
-
-keep in 4/l //First 3 rows are header/blank
-ren v1 Surname
-ren v2 Name
-ren v5 email
-keep Surname Name email
-compress
-
-gen SpeakSpanish = "" //Do you speak Spanish?
-replace Name = "Lorenzo L" if Name == "Lorenzo" & Surname == "Lagos"
-replace Name = "Lorenzo P" if Name == "Lorenzo" & Surname == "Pessina"
+set seed 20180124
+replace Name = strtrim(stritrim(Name))
 isid Name //double-check there aren't 2 people with the same name
-replace SpeakSpanish = "" if Name == "Motaz"
-replace SpeakSpanish = "" if Name == "Kim"
-replace SpeakSpanish = "No" if Name == "Micah"
-replace SpeakSpanish = "Yes" if Name == "Louise"
-replace SpeakSpanish = "Yes" if Name == "Lucas"
-replace SpeakSpanish = "" if Name == "Vinayak"
-replace SpeakSpanish = "No" if Name == "James"
-replace SpeakSpanish = "No" if Name == "Paul"
-replace SpeakSpanish = "No" if Name == "Sang Hoon"
-replace SpeakSpanish = "Yes" if Name == "Lorenzo P"
-replace SpeakSpanish = "" if Name == "Lorenzo L"
-replace SpeakSpanish = "" if Name == "Christine"
-replace SpeakSpanish = "Yes" if Name == "Dario Alberto"
-replace SpeakSpanish = "" if Name == "Arpita"
-replace SpeakSpanish = "" if Name == "Mengdi"
-replace SpeakSpanish = "Yes" if Name == "Joo-Hyung"
 count if SpeakSpanish == ""
-count
-local newobs = `r(N)' + 1
-set obs `newobs'
-replace Name = "Ryo" in l
-replace SpeakSpanish = "No" if Name == "Ryo"
-replace Name = "Sabrina" in -1
-replace SpeakSpanish = "Yes" if Name == "Sabrina"
-drop if Name == "Motaz"
-drop if Name == "Mengdi"
-assert `r(N)' == 0
+assert `r(N)' == 0 //double-check we know spanish status of everyone
 
 gen rvar1 = runiform() //random, uniform variable to use to sort people randomly
 gen rvar2 = runiform()
@@ -93,4 +57,4 @@ if mod(`NoSpan',2)==0 | mod(`YesSpan',2)==0 { //if there is an even number of ei
 save "/Users/michael/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/DebateAssignments.dta", replace
 
 sort Team SpeakSpanish
-list
+list Name email Team

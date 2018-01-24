@@ -202,10 +202,10 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{2}
+      \field{issue}{4}
       \field{journaltitle}{American Economic Review}
       \field{title}{Targeting the Poor: Evidence from a Field Experiment in Indonesia}
-      \field{volume}{104}
+      \field{volume}{102}
       \field{year}{2012}
       \field{pages}{1206\bibrangedash 1240}
       \range{pages}{35}
@@ -2897,13 +2897,13 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{3}
+      \field{issue}{2}
       \field{journaltitle}{American Economic Review}
       \field{title}{Targeting Transfers Through Restrictions on Recipients}
-      \field{volume}{61}
+      \field{volume}{72}
       \field{year}{1982}
-      \field{pages}{312\bibrangedash 323}
-      \range{pages}{12}
+      \field{pages}{372\bibrangedash 377}
+      \range{pages}{6}
     \endentry
     \entry{Bertrandetal2013}{article}{}
       \name{author}{4}{}{%
