@@ -9,7 +9,7 @@
   
 */
 
-import excel using "/Users/michael//Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/DebateParticipants.xlsx", firstrow allstring clear
+import excel using "/Users/michael/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/DebateParticipants.xlsx", firstrow allstring clear
 set more off
 set seed 20180124
 replace Name = strtrim(stritrim(Name))
