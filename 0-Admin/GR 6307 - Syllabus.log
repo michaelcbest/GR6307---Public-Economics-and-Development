@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  24 JAN 2018 06:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  31 JAN 2018 10:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -843,7 +843,13 @@ Overfull \hbox (0.89694pt too wide) in paragraph at lines 50--51
 ur-nal of Po-lit-i-cal Econ-omy \T1/ppl/m/n/10.95 117:504^^U
  []
 
-[3] [4] [5] [6]
+[3] [4] [5]
+Overfull \hbox (9.83609pt too wide) in paragraph at lines 88--89
+[]\T1/ppl/b/n/10.95 A.L. Nichols and R.J. Zeck-hauser. 1982. ``Tar-get-ing Tran
+s-fers Through
+ []
+
+[6]
 Overfull \hbox (7.40077pt too wide) in paragraph at lines 101--102
 \T1/ppl/m/n/10.95 getters: Se-lec-tion and Per-for-mance in Pub-lic Ser-vice De
 -liv-ery''. Mimeo:
@@ -915,7 +921,7 @@ ype1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/palatino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/pala
 tino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (12 pages, 137717 bytes).
+Output written on "GR 6307 - Syllabus.pdf" (12 pages, 139490 bytes).
 PDF statistics:
  230 PDF objects out of 1000 (max. 8388607)
  206 compressed objects within 3 object streams
