@@ -1,0 +1,11735 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usepackage{ifthen}
+\usepackage{multirow,bigstrut}
+\usepackage{tikz}
+\usetikzlibrary{patterns,decorations.pathreplacing,shapes,snakes}
+\usetikzlibrary{arrows}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{makecell}
+\usepackage{graphicx}
+\usepackage{animate}
+\usepackage{pifont}
+\usepackage{booktabs}
+\usepackage{relsize}
+%\usepackage{adjustbox}
+%\usepackage{txfonts}
+%\usepackage{handoutWithNotes}
+%\pgfpagesuselayout{3 on 1 with notes}[a4paper,border shrink=5mm]
+
+% FOOTLINE - PAGE NUMBER RIGHT
+\defbeamertemplate*{footline}{guildford foot theme}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.7\paperwidth,ht=1cm,dp=0ex,left]{}%
+    {
+    \insertsectionnavigationhorizontal{.5\paperwidth}{}{}
+    }
+ \end{beamercolorbox}
+ \begin{beamercolorbox}[wd=0.31\paperwidth,ht=1cm,dp=0ex,right]{}%
+{\tiny
+\insertframenumber{} / \inserttotalframenumber\hspace*{5ex}
+}
+ \end{beamercolorbox}}%
+  \vskip5pt%
+}
+
+\beamertemplatenavigationsymbolsempty
+\usefonttheme{professionalfonts}
+\usecolortheme[RGB={0,0,125}]{structure} 
+\setbeamersize{ text margin left=10px}
+%\definecolor{newblue}{rgb}{0,0,0.6}
+%\setbeamercolor{alerted text}{fg=newblue}
+\setbeamertemplate{frametitle}[default][center]
+
+%{\bfseries\insertframetitle\par}
+
+\RequirePackage{ifthen}
+
+\newboolean{sectiontoc}
+\setboolean{sectiontoc}{true} % default to true
+
+\AtBeginSubsection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide] 
+  \end{frame} 
+} 
+}
+
+\AtBeginSection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/hide/hide] 
+  \end{frame} 
+} 
+}
+
+\newcommand{\toclesssection}[1]{
+   \setboolean{sectiontoc}{false}
+   \section{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\toclesssubsection}[1]{
+   \setboolean{sectiontoc}{false}
+   \subsection{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\setbeameroption{hide notes}
+
+\newcommand{\ShortNameSection}[2][]{
+   \setboolean{sectiontoc}{false}
+   \section[#1]{#2}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\light}[1]{\textcolor{gray}{#1}}
+\end_preamble
+\options notes=show
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding T1
+\font_roman "cmr" "default"
+\font_sans "helvet" "default"
+\font_typewriter "cmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{framenumber}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+GR 6307
+\begin_inset Newline newline
+\end_inset
+
+Public Economics and Development
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\;$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+2.
+ Anti-Poverty Programs:
+\begin_inset Newline newline
+\end_inset
+
+Reaching the Poor
+\end_layout
+
+\begin_layout Author
+Michael Best
+\end_layout
+
+\begin_layout Date
+Spring 2018
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+Motivating Facts
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trends in Social Programs over time and across countries
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+
+\emph on
+It is shortage of resources, and not inadequate incentives, which limits
+ the pace of economic development.
+ Indeed the importance of public revenue from the point of view of accelerated
+ economic development could hardly be exaggerated.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size small
+Nicholas Kaldor, 
+\emph on
+“Taxation for Economic Development,”
+\emph default
+ Journal of Modern African Studies, 1963, p.
+ 7.
+\size default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Theory
+\end_layout
+
+\begin_layout Subsection
+Saez (QJE 2002) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Optimal Income Transfer Programs: Intensive Versus Extensive Labor Supply
+ Responses
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Overview
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Most rich countries provide 
+\emph on
+lots
+\emph default
+ of income support programs
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+2 Key margins along which people can respond:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Intensive
+\emph default
+ margin: Work, but earn less pre-tax/transfer income
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Extensive 
+\emph default
+margin:
+\emph on
+ 
+\emph default
+Stop working
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This paper takes an optimal-tax approach to the design of income support
+ programs.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Key results
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Simple theory with both intensive- and extensive- margins
+\end_layout
+
+\begin_layout Enumerate
+Apply to 2 types of policies: Negative income taxes and Earned Income Tax
+ Credit
+\end_layout
+
+\begin_layout Enumerate
+Conditions for EITC 
+\begin_inset Formula $\succ$
+\end_inset
+
+ NIT: Extensive margin responses stronger than intensive-
+\end_layout
+
+\begin_layout Enumerate
+Calibration to US suggests EITC 
+\begin_inset Formula $\succ$
+\end_inset
+
+ NIT
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): NIT vs EITC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Saez 2002 1.png
+	scale 23
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Model Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There are 
+\begin_inset Formula $I+1$
+\end_inset
+
+ occupations.
+ Occupation 0 is unemployment.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Salaries: 
+\begin_inset Formula $w_{0}=0$
+\end_inset
+
+, 
+\begin_inset Formula $w_{1}<\ldots<w_{i}<\ldots w_{I}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Government observes income and charges net taxes 
+\begin_inset Formula $T_{i}\rightarrow c_{i}=w_{i}-T_{i}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Total population normalized to one.
+ 
+\begin_inset Formula $h_{i}=$
+\end_inset
+
+proportion of individuals in occupation 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\sum_{i=0}^{I}h_{i}=1$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Individuals choose which occupation to work in.
+ In principle, depending on consumption in every occupation:
+\begin_inset Formula 
+\[
+h_{i}=h_{i}\left(c_{0},c_{1},\ldots,c_{I}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset Formula $h_{i}$
+\end_inset
+
+s embody all the behavioral responses
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Model Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The government sets taxes to maximize welfare.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Subject to resource constraint: Has to finance 
+\begin_inset Formula $H$
+\end_inset
+
+ of per-capita government spending
+\begin_inset Formula 
+\[
+\sum_{i=0}^{I}h_{i}T_{i}=H
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Government attaches welfare weight 
+\begin_inset Formula $g_{i}$
+\end_inset
+
+ to people in each occupation
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+NB not clear if 
+\begin_inset Formula $g_{0}\lessgtr g_{1}$
+\end_inset
+
+: e.g.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Lazy Poor
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow g_{0}<g_{1}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Weights are endogenous, depend on the tax schedule.
+ Without income effects
+\begin_inset Formula 
+\[
+\sum_{i=0}^{I}h_{i}g_{i}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Only Extensive Margin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose every individual is indowed with a skill 
+\begin_inset Formula $i\in\left\{ 0,1,\ldots,I\right\} $
+\end_inset
+
+.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Only 
+\emph on
+extensive margin 
+\emph default
+choice: work as 
+\begin_inset Formula $i$
+\end_inset
+
+ or be unemployed.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Without income effects, participation depends only on 
+\begin_inset Formula $c_{i}-c_{0}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Clearly 
+\begin_inset Formula $c_{i}\geq c_{0}\forall i$
+\end_inset
+
+.
+ Define extensive elasticities
+\begin_inset Formula 
+\[
+\eta_{i}=\frac{c_{i}-c_{0}}{h_{i}}\frac{\partial h_{i}}{\partial\left(c_{i}-c_{0}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Only Extensive Margin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Proposition 1
+\emph default
+: The optimal tax schedule satisfies
+\begin_inset Formula 
+\[
+\frac{T_{i}-T_{0}}{c_{i}-c_{0}}=\frac{1}{\eta_{i}}\left(1-g_{i}\right)
+\]
+
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Heuristic proof: Consider small increase 
+\begin_inset Formula $dT_{i}$
+\end_inset
+
+ in 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+.
+ 2 effects
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Mechanical Effect: 
+\begin_inset Formula $dM=\left(1-g_{i}\right)h_{i}dT_{i}$
+\end_inset
+
+ 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Behavioral Effect: 
+\begin_inset Formula $dB=\left(T_{i}-T_{0}\right)dh_{i}=-\left(T_{i}-T_{0}\right)h_{i}\eta_{i}\frac{dT_{i}}{\left(c_{i}-c_{0}\right)}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Optimality: 
+\begin_inset Formula $dM+dB=0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Extensive Margin: Implications for NIT vs EITC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the model with only extensive responses, NIT is always suboptimal, and
+ EITC is usually optimal
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Saez 2002 2.png
+	scale 23
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Only Intensive Margin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose now that people are only choosing how much to work.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Really, people in occupation 
+\begin_inset Formula $i$
+\end_inset
+
+ are choosing whether to switch to 
+\begin_inset Formula $i-1$
+\end_inset
+
+ or 
+\begin_inset Formula $i+1$
+\end_inset
+
+ .
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Then (again, w/out income effects) we can write the employment shares 
+\begin_inset Formula $h_{i}\left(c_{i+1}-c_{i},c_{i}-c_{i-1}\right)$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now we can define the intensive elasticities
+\begin_inset Formula 
+\[
+\zeta_{i}=\frac{c_{i}-c_{i-1}}{h_{i}}\frac{\partial h_{i}}{\partial\left(c_{i}-c_{i-1}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Only Intensive Margin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proposition 2: The optimal tax schedule satisifies
+\begin_inset Formula 
+\[
+\frac{T_{i}-T_{i-1}}{c_{i}-c_{i-1}}=\frac{1}{\zeta_{i}}\frac{\left(1-g_{i}\right)h_{i}+\left(1-g_{i+1}\right)h_{i+1}+\ldots+\left(1-g_{I}\right)h_{I}}{h_{i}}
+\]
+
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Heuristic proof: Consider small increase in tax for all jobs above 
+\begin_inset Formula $i$
+\end_inset
+
+: 
+\begin_inset Formula $dT_{i}=dT_{i+1}=\ldots=dT_{I}=dT$
+\end_inset
+
+.
+ 2 Effects:
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Mechanical Effect: People above 
+\begin_inset Formula $i$
+\end_inset
+
+ pay 
+\begin_inset Formula $dT$
+\end_inset
+
+ more.
+ Valued at 
+\begin_inset Formula 
+\[
+dM=\left(1-g_{i}\right)h_{i}+\left(1-g_{i+1}\right)h_{i+1}+\ldots+\left(1-g_{I}\right)h_{I}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Behavioral effects: 
+\begin_inset Formula $dB=\left(T_{i}-T_{i-1}\right)dh_{i}=-\left(T_{i}-T_{i-1}\right)h_{i}\zeta_{i}\frac{dT}{c_{i}-c_{i-1}}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Optimality: 
+\begin_inset Formula $dM+dB=0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Intensive Margin: Implications for NIT vs EITC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Look at optimality condition for 
+\begin_inset Formula $i=1$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\frac{T_{1}-T_{0}}{c_{1}-c_{0}}=\frac{1}{\zeta_{1}}\left[\frac{\left(g_{0}-1\right)h_{0}}{h_{1}}\right]
+\]
+
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Positive marginal tax (Negative Income Tax) iff 
+\begin_inset Formula $g_{0}>1$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+More generally, 
+\begin_inset Formula $g_{i}>g_{i+1}$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ increasing marginal tax rates, and no negative marginal tax rates (no EITC)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Saez (2002): Both Margins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the model with both margins, the optimal tax schedule satisfies
+\begin_inset Formula 
+\[
+\frac{T_{i}-T_{i-1}}{c_{i}-c_{i-1}}=\frac{1}{\zeta_{i}h_{i}}\sum_{j=i}^{I}h_{j}\left[1-g_{j}-\eta_{j}\frac{T_{j}-T_{0}}{c_{j}-c_{0}}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ambiguous implications for optimal transfers: Depends on relative sizes
+ of 
+\begin_inset Formula $\eta$
+\end_inset
+
+s and 
+\begin_inset Formula $\zeta$
+\end_inset
+
+s.
+\end_layout
+
+\begin_layout Itemize
+Calibration:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Extensive elasticity: 
+\begin_inset Formula $\eta\in\left\{ 0,0.5,1\right\} $
+\end_inset
+
+ below $20K, 0 above $20K
+\end_layout
+
+\begin_layout Itemize
+Intensive elasticity 
+\begin_inset Formula $\zeta$
+\end_inset
+
+: Use traditional estimates of 
+\begin_inset Formula $\epsilon=d\log y/d\log\left(1-\tau\right)$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\epsilon_{L}\in\left\{ 0,0.25,0.5\right\} $
+\end_inset
+
+ below $20K, 
+\begin_inset Formula $\epsilon_{H}\in\left\{ 0.25,0.5\right\} $
+\end_inset
+
+ above $20K
+\end_layout
+
+\begin_layout Itemize
+No income effects.
+\end_layout
+
+\begin_layout Itemize
+Welfare: 
+\begin_inset Formula $g\left(c\right)=1/\left(p\cdot c^{v}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $p$
+\end_inset
+
+=marginal value of public funds, higher 
+\begin_inset Formula $v$
+\end_inset
+
+ = more redistributive prefrerences
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $H=\$5K$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Income distribution calibrated using 1997 CPS and current tax schedule
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Saez 2002 3.png
+	scale 22
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Akerlof (AER 1978) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The Economics of 
+\begin_inset Quotes eld
+\end_inset
+
+Tagging
+\begin_inset Quotes erd
+\end_inset
+
+ as Applied to the Optimal Income Tax, Welfare Programs, and Manpower Planning
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Akerlof (1978): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why not use the tax system to target transfers to the poor?
+\end_layout
+
+\begin_layout Itemize
+Contrast two extreme cases:
+\end_layout
+
+\begin_layout Enumerate
+Negative Income Tax: 
+\begin_inset Formula $T=-\alpha\bar{Y}+tY$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\bar{Y}$
+\end_inset
+
+ is per capita income, 
+\begin_inset Formula $t$
+\end_inset
+
+ is marginal tax rate.
+ 
+\begin_inset Formula 
+\[
+\sum_{i}T=-\alpha n\bar{Y}+t\sum_{i}Y_{i}\Rightarrow t=\alpha+g\quad g\equiv\sum_{i}T_{i}/\sum_{i}Y_{i}
+\]
+
+\end_inset
+
+Giving the poor a bigger transfer 
+\begin_inset Formula $\left(\alpha\right)$
+\end_inset
+
+ requires a one-for-one increase in 
+\begin_inset Formula $t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Perfect tag: Imagine we can identify a group of size 
+\begin_inset Formula $\beta n$
+\end_inset
+
+ that contains all the poor people and we give the amount 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ to everyone in this group.
+ Now 
+\begin_inset Formula 
+\[
+t=\beta\alpha+g
+\]
+
+\end_inset
+
+Giving more to the poor only costs 
+\begin_inset Formula $\beta<1$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Akerlof (1978): Simple Optimal Tax Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2 types of workers, skilled & unskilled.
+ Each 50% of the population
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+2 types of jobs.
+ Easy and difficult.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Skilled worker's output in difficult job is 
+\begin_inset Formula $q_{D}>q_{E}=$
+\end_inset
+
+ skilled worker's output in easy job
+\end_layout
+
+\begin_layout Itemize
+Unskilled workers only work in the easy job.
+ Produce output 
+\begin_inset Formula $q_{E}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Workers in difficult job pay tax 
+\begin_inset Formula $t_{D}$
+\end_inset
+
+.
+ Utility of skilled workers in difficult job is 
+\begin_inset Formula $u\left(q_{D}-t_{D}\right)-\delta$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Utility of both types in easy job is 
+\begin_inset Formula $u\left(q_{E}+t_{E}\right)$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $u\left(q_{D}\right)-\delta>u\left(q_{E}\right)$
+\end_inset
+
+ (otherwise everyone always takes easy job).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Akerlof (1978): Simple Optimal Tax Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government chooses 
+\begin_inset Formula $t_{D},t_{E}$
+\end_inset
+
+ to maximize expected utility
+\begin_inset Formula 
+\[
+U=\tfrac{1}{2}\max\left\{ u\left(q_{D}-t_{D}\right)-\delta,u\left(q_{E}+t_{E}\right)\right\} +\tfrac{1}{2}u\left(q_{E}+t_{E}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Budget balance requires
+\begin_inset Formula 
+\begin{align*}
+t_{D} & =t_{E}\quad\text{if}\quad u\left(q_{D}-t_{D}\right)-\delta\geq u\left(q_{E}+t_{E}\right)\\
+t_{E} & =0\quad\text{if}\quad u\left(q_{D}-t_{D}\right)-\delta<u\left(q_{E}+t_{E}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Optimum:
+\begin_inset Formula 
+\begin{align*}
+t_{D}^{*}=t_{E}^{*} & \quad\text{(budget balance)}\\
+u\left(q_{D}-t_{D}^{*}\right)-\delta=u\left(q_{E}+t_{E}^{*}\right) & \quad\text{(binding IC)}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Akerlof (1978): Tagging in Simple Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Introduce tagging: A proportion 
+\begin_inset Formula $\beta$
+\end_inset
+
+ of the poor have an observable tag.
+\end_layout
+
+\begin_layout Itemize
+Difficult job taxed 
+\begin_inset Formula $T_{D}$
+\end_inset
+
+.
+ Untagged in easy job get 
+\begin_inset Formula $T_{E}$
+\end_inset
+
+.
+ Tagged get 
+\begin_inset Formula $\tau$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Government problem is now
+\begin_inset Formula 
+\begin{align*}
+\max_{T_{D},T_{E},\tau}U^{Tag} & =\tfrac{1}{2}\max\left\{ u\left(q_{D}-T_{D}\right)-\delta,u\left(q_{E}+T_{E}\right)\right\} \\
+ & \quad+\tfrac{1}{2}\left(1-\beta\right)u\left(q_{E}+T_{E}\right)+\tfrac{1}{2}\beta u\left(q_{E}+\tau\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Subject to
+\begin_inset Formula 
+\begin{align*}
+T_{D}=\left(1-\beta\right)T_{E}+\beta\tau & \text{ if }u\left(q_{D}-T_{D}\right)-\delta\geq u\left(q_{E}+T_{E}\right)\\
+\left(2-\beta\right)T_{E}+\beta\tau=0 & \text{ if }u\left(q_{D}-T_{D}\right)-\delta<u\left(q_{E}+T_{E}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Akerlof (1978): Tagging Optimum
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Optimum features binding IC constraint
+\begin_inset Formula 
+\[
+u\left(q_{D}-T_{D}^{*}\right)-\delta=u\left(q_{E}+T_{E}^{*}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+More importantly, tagging allows more redistribution: 
+\begin_inset Formula $\tau^{*}>t_{E}^{*}$
+\end_inset
+
+.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rough proof by contradiction: Suppose that 
+\begin_inset Formula $\tau^{*}\leq T_{E}^{*}$
+\end_inset
+
+.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Consider reducing 
+\begin_inset Formula $T_{E}$
+\end_inset
+
+ by 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ and increasing 
+\begin_inset Formula $\tau$
+\end_inset
+
+ by 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+Nobody is worse off (envelope theorem)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+This perturbation raises revenue
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+This revenue can be used to redistribute
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\tau^{*}$
+\end_inset
+
+ or 
+\begin_inset Formula $T_{E}^{*}$
+\end_inset
+
+ is not optimally set
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Akerlof (1978): Tags
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What makes a good tag?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Easily Observable.
+ Low admin costs of using the tag
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Correlated with need.
+ Good at discriminating between needy and not (high 
+\begin_inset Formula $\beta$
+\end_inset
+
+)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Immutable.
+ People can't endogenously aquire the tag
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Examples?
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Nichols & Zeckhauser (AER 1982) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Targeting Transfers Through Restrictions on Recipients
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nichols & Zeckhauser (1982): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What instruments should the government use to redistribute? 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Atkinson-Stiglitz (1976) 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ only income taxes/cash transfers.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Akerlof (1978) 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ income taxes/cash transfers, but possibly dependent on 
+\emph on
+tags.
+\emph default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+What about in-kind benefits? Commodity taxes/subsidies? Ordeals?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This paper shows under what conditions to use these other instruments and
+ how.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nichols & Zeckhauser (1982): Income Tax Benchmark
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose there are two individuals.
+ Beneficiary 
+\begin_inset Formula $B$
+\end_inset
+
+ and high-wage earner 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Want 
+\begin_inset Formula $A$
+\end_inset
+
+ to finance a transfer to 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ What is the most efficient way to do it?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Both individuals have the same utility 
+\begin_inset Formula $U\left(C,E\right)$
+\end_inset
+
+, 
+\begin_inset Formula $C=Y+T$
+\end_inset
+
+ consumption, 
+\begin_inset Formula $E$
+\end_inset
+
+ effort.
+\end_layout
+
+\begin_layout Itemize
+Government can't see wages or hours, only income.
+\end_layout
+
+\begin_layout Itemize
+Optimal policy takes the form: If 
+\begin_inset Formula $Y>\bar{Y}$
+\end_inset
+
+ pay tax 
+\begin_inset Formula $T$
+\end_inset
+
+; if 
+\begin_inset Formula $Y\leq\bar{Y}$
+\end_inset
+
+ receive transfer 
+\begin_inset Formula $T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+IC constraint that the high type doesn't masquerade is
+\begin_inset Formula 
+\[
+U\left(Y_{A}^{*}-T,Y_{A}^{*}/W_{A}\right)>U\left(\bar{Y}+T,\bar{Y}/W_{A}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Result: 
+\begin_inset Formula $\bar{Y}<Y_{B}^{*}$
+\end_inset
+
+.
+ It's optimal to distort 
+\begin_inset Formula $B$
+\end_inset
+
+'s choice
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nichols & Zeckhauser (1982): Income Constraint
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Nichols Zeckhauser 1.png
+	lyxscale 50
+	scale 21
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nichols & Zeckhauser (1982): In-Kind Transfers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Can it be optimal to give some of the transfer through an in-kind transfer
+ instead of its cash equivalent?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Usually, we think people must be at least as well off with the cash, so
+ no.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is the case when demand depends only on its price and income (i.e.
+ it's independent of leisure, ability, other observables).
+ When it doesn't, it might act as a tag.
+ N&Z call these 
+\emph on
+Indicator goods
+\emph default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Return to the simple income tax model.
+ Out of total income 
+\begin_inset Formula $\bar{Y}+T$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+ buys 
+\begin_inset Formula $X_{B}^{*}$
+\end_inset
+
+ of good 
+\begin_inset Formula $X$
+\end_inset
+
+ (at price 1).
+ If 
+\begin_inset Formula $A$
+\end_inset
+
+ masquerades, she would only buy 
+\begin_inset Formula $\hat{X}_{A}^{*}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $X$
+\end_inset
+
+ is an indicator good.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nichols & Zeckhauser (1982): In-Kind Transfers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Nichols Zeckhauser 2.png
+	lyxscale 50
+	scale 21
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nichols & Zeckhauser (1982): In-Kind Transfers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider changing the transfer.
+ Receive 
+\begin_inset Formula $\bar{X}$
+\end_inset
+
+ in kind, remaining 
+\begin_inset Formula $T-\bar{X}$
+\end_inset
+
+ in cash.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $\bar{X}<\hat{X}_{A}^{*}$
+\end_inset
+
+, no effect
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $\hat{X}_{A}^{*}<\bar{X}\leq X_{B}^{*}$
+\end_inset
+
+ 
+\begin_inset Formula $B$
+\end_inset
+
+ suffers no loss, but makes mimicry more costly for 
+\begin_inset Formula $A$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In general it is optimal to have 
+\begin_inset Formula $\bar{X}>X_{B}^{*}$
+\end_inset
+
+ for deterrence.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Similar argument can be applied to subsidies.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Besley & Coate (AER 1992) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Workfare versus Welfare: Incentive Arguments for Work Requirements in Poverty-Al
+leviation Programs
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Should people who receive transfers be required to work in exchange?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Common policy, but is it efficient? 2 possible reasons
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Screening
+\emph default
+.
+ When we can't (easily) observe earnings (ability), work requirement 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ self-targeting
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Deterrence.
+
+\emph default
+ Encourage poverty-reducing investments
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+B&C formalize this, provide sufficient conditions for workfare to dominate
+ cash transfers.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $n$
+\end_inset
+
+ individuals.
+ Fraction 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ of low types have ability 
+\begin_inset Formula $a_{L}<a_{H}=$
+\end_inset
+
+ ability of high types
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u\left(y,l\right)=y-h\left(l\right)$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Poverty-alleviation program: 
+\begin_inset Formula $\left\{ b_{i},c_{i}\right\} _{i=L,H}$
+\end_inset
+
+.
+ Transfer 
+\begin_inset Formula $b_{i}$
+\end_inset
+
+ and requirement of 
+\begin_inset Formula $c_{i}$
+\end_inset
+
+ hours of work.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+PAP costs 
+\begin_inset Formula $n\left[\gamma b_{L}+\left(1-\gamma\right)b_{H}\right]$
+\end_inset
+
+.
+ Government objective is to minimize cost of guaranteeing everyone income
+ 
+\begin_inset Formula $z$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Individuals who accept 
+\begin_inset Formula $\left\{ b_{i},c_{i}\right\} $
+\end_inset
+
+ can also provide private-sector labor:
+\begin_inset Formula 
+\[
+l\left(b,c,a_{i}\right)=\begin{cases}
+\hat{l}\left(a_{i}\right)-c & \text{if }c\leq\hat{l}\left(a_{i}\right)\\
+0 & \text{otherwise}
+\end{cases}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\hat{l}$
+\end_inset
+
+ is optimal labor supply without PAP 
+\begin_inset Formula $\left(h^{\prime}\left(\hat{l}\right)=a_{i}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Yields private-sector earnings
+\begin_inset Formula 
+\[
+y\left(c,a_{i}\right)=\begin{cases}
+a_{i}\left[\hat{l}\left(a_{i}\right)-c\right] & \text{if }c\leq\hat{l}\left(a_{i}\right)\\
+0 & \text{otherwise}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+and indirect utility
+\begin_inset Formula 
+\[
+v\left(b,c,a_{i}\right)=b+y\left(c,a_{i}\right)-h\left(l\left(c,a_{i}\right)+c\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Individuals will take the package intended for them iff
+\begin_inset Formula 
+\[
+v\left(b_{i},c_{i},a_{i}\right)\geq v\left(0,0,a_{i}\right)
+\]
+
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assume that only the 
+\begin_inset Formula $L$
+\end_inset
+
+ types are poor without government intervention
+\begin_inset Formula 
+\[
+y\left(0,a_{H}\right)>z>y\left(0,a_{L}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): First-best benchmark
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose policymakers observe abilities 
+\begin_inset Formula $a_{L},a_{H}$
+\end_inset
+
+.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now the government has to satisfy two constraints:
+\end_layout
+
+\begin_layout Enumerate
+Participation constraints: 
+\begin_inset Formula $v\left(b_{i},c_{i},a_{i}\right)\geq v\left(0,0,a_{i}\right),\;i=L,H$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $L$
+\end_inset
+
+ types must escape poverty: 
+\begin_inset Formula $b_{L}+y\left(c_{L},a_{L}\right)\geq z$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+proposition 1
+\shape default
+: 
+\emph on
+Cost-minimizing PSP is a welfare program.
+ Low-ability individuals are offered a cash transfer that is just high enough
+ to get them out of poverty, 
+\begin_inset Formula $z-y\left(0,a_{L}\right)$
+\end_inset
+
+, and high-ability individuals are offered no benefits.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Screening
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now suppose, govt only knows 
+\begin_inset Formula $\gamma$
+\end_inset
+
+, the proportion of 
+\begin_inset Formula $L$
+\end_inset
+
+ types.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now the government also needs to respect incentive compatibility constraints:
+\begin_inset Formula 
+\[
+v\left(b_{L},c_{L},a_{L}\right)\geq v\left(b_{H},c_{H},a_{L}\right)\quad v\left(b_{H},c_{H},a_{H}\right)\geq v\left(b_{L},c_{L},a_{H}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note, without work requirements, these imply 
+\begin_inset Formula $b_{L}=b_{H}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The work requirement will allow the government to screen because 
+\begin_inset Formula $H$
+\end_inset
+
+ types have a higher opportunity cost of government work.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+But, the work requirement reduces the 
+\begin_inset Formula $L$
+\end_inset
+
+ types' income, so requires a bigger transfer to get them back to 
+\begin_inset Formula $y_{L}=z$
+\end_inset
+
+.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tradeoff of increasing work requirement: lower transfers to 
+\begin_inset Formula $H$
+\end_inset
+
+ to respect IC, and higher transfers to 
+\begin_inset Formula $L$
+\end_inset
+
+ to achieve 
+\begin_inset Formula $y_{L}=z$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Screening
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Define the 
+\emph on
+separating work requirement
+\emph default
+ 
+\begin_inset Formula $c_{L}^{s}$
+\end_inset
+
+ that gets the poor out of poverty and prevents masquerading
+\begin_inset Formula 
+\[
+v\left(0,0,a_{H}\right)=v\left(z-y\left(c_{L}^{s},a_{L}\right),c_{L}^{s},a_{H}\right)
+\]
+
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+proposition 2
+\shape default
+: 
+\emph on
+If both income-generating abilities and incomes are unobservable, one of
+ the following two PAPs is cost-minimizing: (i) (welfare) impose no work
+ requirements and offer both ability groups a transfer of 
+\begin_inset Formula $z=y\left(0,a_{L}\right)$
+\end_inset
+
+; (ii) (workfare) offer self-categorized high-ability individuals no benefits
+ and offer self-categorized low-ability individuals a transfer of 
+\begin_inset Formula $z-y\left(c_{L}^{s},a\right)$
+\end_inset
+
+ in exchange for a work requirement of 
+\begin_inset Formula $c_{L}^{s}$
+\end_inset
+
+.
+ A sufficient condition for the workfare solution to be cost-minimizing
+ is that 
+\begin_inset Formula $a_{L}<\left(1-\gamma\right)a_{H}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Screening
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the previous case we assumed the government can't observe earnings (so
+ transfers can't depend on earnings).
+ 
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+When the government 
+\emph on
+can
+\emph default
+ observe earnings, to mimic the low type, the high type must reduce her
+ earnings to 
+\begin_inset Formula $y\left(c_{L},a_{L}\right)$
+\end_inset
+
+, requiring labor supply 
+\begin_inset Formula $y\left(c_{L},a_{L}\right)/a_{H}$
+\end_inset
+
+.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We might even be able to implement the first-best benchmark if
+\begin_inset Formula 
+\[
+v\left(0,0,a_{H}\right)\geq z-h\left(\frac{y\left(0,a_{L}\right)}{a_{H}}\right)
+\]
+
+\end_inset
+
+(
+\begin_inset Formula $H$
+\end_inset
+
+ prefers no benefit to earning 
+\begin_inset Formula $y\left(0,a_{L}\right)$
+\end_inset
+
+ and consuming 
+\begin_inset Formula $z$
+\end_inset
+
+)
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If this condition isn't met, we have to satisfy the IC constraint
+\begin_inset Formula 
+\[
+v\left(b_{H},c_{H},a_{H}\right)\geq b_{L}+y\left(c_{L},a_{L}\right)-h\left(\frac{y\left(c_{L},a_{L}\right)}{a_{H}}+c_{L}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Screening
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Again, define the separating work requirement that satisfies
+\begin_inset Formula 
+\[
+v\left(0,0,a_{H}\right)=z-h\left(\frac{y\left(\hat{c}_{L}^{s},a_{L}\right)}{a_{H}}+\hat{c}_{L}^{s}\right)
+\]
+
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+proposition 3:
+\shape default
+ 
+\emph on
+If income-generating abilities are unobservable, individuals' incomes are
+ observable and the benchmark PAP is not implementable, one of the following
+ two programs is cost-minimizing: (i) (welfare) impose no work requirements
+ and offer self-categorized high-ability individuals a transfer of 
+\begin_inset Formula $z-h\left(y\left(0,a_{L}\right)/a_{H}\right)-v\left(0,0,a_{H}\right)$
+\end_inset
+
+ and offer self-categorized low-ability individuals a transfer of 
+\begin_inset Formula $z-y\left(0,a_{L}\right)$
+\end_inset
+
+; (ii) (workfare) offer self-categorized high-ability individuals no benefits
+ and offer self-categorized low-ability individuals a transfer of 
+\begin_inset Formula $z-y\left(\hat{c}_{L}^{s},a_{L}\right)$
+\end_inset
+
+ in exchange for a work requirement of 
+\begin_inset Formula $\hat{c}_{L}^{s}$
+\end_inset
+
+.
+ A sufficient condition for the workfare solution to be cost-minimizing
+ is that 
+\begin_inset Formula $\gamma a_{L}<\left(1-\gamma\right)h^{\prime}\left(\frac{y\left(0,a_{L}\right)}{a_{H}}\right)\left(1-\frac{a_{L}}{a_{H}}\right)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Deterrence
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume again that the government observes ability.
+ However ability depends on effort earlier in life.
+\end_layout
+
+\begin_layout Itemize
+Probability of being high ability is 
+\begin_inset Formula $\pi\left(e\right)$
+\end_inset
+
+ (strictly concave), costs 
+\begin_inset Formula $e$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Individuals will choose 
+\begin_inset Formula $e$
+\end_inset
+
+ to maximize
+\begin_inset Formula 
+\[
+\pi\left(e\right)v\left(b_{H},c_{H},a_{H}\right)+\left[1-\pi\left(e\right)\right]v\left(b_{L},c_{L},a_{L}\right)-e
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $e^{*}$
+\end_inset
+
+ increasing in ex-post difference between high- and low-ability
+\begin_inset Formula 
+\[
+e^{*}\left(\chi\left(\cdot\right)\right)\quad\chi\left(b_{L},c_{L},b_{H},c_{H}\right)\equiv v\left(b_{H},c_{H},a_{H}\right)-v\left(b_{L},c_{L},a_{L}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Coate (1992): Deterrence
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Define the 
+\emph on
+maximal work requirement
+\emph default
+ 
+\begin_inset Formula $c_{L}^{m}$
+\end_inset
+
+ that satisfies
+\begin_inset Formula 
+\[
+v\left(z-y\left(c_{L}^{m},a_{L}\right),c_{L}^{m},a_{L}\right)=v\left(0,0,a_{L}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note that 
+\begin_inset Formula $c_{L}^{m}>\hat{l}\left(a_{L}\right)$
+\end_inset
+
+ and so the low-ability individuals do not work.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+proposition 4: 
+\shape default
+\emph on
+If income-generating abilities are observable but depend partly on choices
+ made earlier in life, the cost-minimizing PAP either imposes no work requiremen
+ts and offers low-ability individuals a transfer of 
+\begin_inset Formula $z-y\left(0,a_{L}\right)$
+\end_inset
+
+, or imposes the maximal work requirement 
+\begin_inset Formula $c_{L}^{m}$
+\end_inset
+
+ on low-ability individuals and offers them a transfer of 
+\begin_inset Formula $z$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Niehaus, Atanassova, Bertrand & Mullainathan (AEJ:Pol 2013) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Targeting with Agents
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How should targeting rules be designed when they must be implemented by
+ corruptible agents?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Consider a proxy means test (PMT) that must be implemented by an official
+ who may be corrupt.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Show that having more indicators (which makes identifying the poor easier
+ statistically) can backfire if enforcement is weak, by making it easier
+ to pretend that ineligible households are eligible and hence easier to
+ receive bribes.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Test the theory with data on Below Poverty Line (BPL) cards in Karnataka,
+ India.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Households
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The principal wants to allocate slots among a set of households.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Household 
+\begin_inset Formula $i$
+\end_inset
+
+ has 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Income 
+\begin_inset Formula $y_{i}\in\left\{ \underline{y},\overline{y}\right\} $
+\end_inset
+
+ 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+other characteristics 
+\begin_inset Formula $\mathbf{x}_{i}\in\mathbf{X}$
+\end_inset
+
+ 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Values the slot at 
+\begin_inset Formula $v_{i}\sim G\left(v_{i}\right)$
+\end_inset
+
+, exponential with rate 
+\begin_inset Formula $1/\eta$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Joint distribution of attributes is 
+\begin_inset Formula $F\left(y_{i},\mathbf{x}_{i}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Official
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Principal would like to use 
+\begin_inset Formula $y_{i}$
+\end_inset
+
+ for targeting, but it's unobserved.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Instead, use easier to observe characteristics 
+\begin_inset Formula $\mathbf{x}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A targeting rule is a subset 
+\begin_inset Formula $R\subseteq\mathbf{X}$
+\end_inset
+
+: A household is eligible iff 
+\begin_inset Formula $\mathbf{x}_{i}\in R$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The official (agent) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implements 
+\begin_inset Formula $R$
+\end_inset
+
+.
+ 
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Observes 
+\begin_inset Formula $y_{i},\mathbf{x}_{i}$
+\end_inset
+
+, but not 
+\begin_inset Formula $v_{i}$
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cares about his income 
+\begin_inset Formula $Y$
+\end_inset
+
+ and the allocation.
+ 
+\begin_inset Formula 
+\[
+U\left(Y,\left\{ a_{i}\right\} \right)=Y+\underline{\alpha}\int_{y_{i}=\underline{y}}a_{i}di+\overline{\alpha}\int_{y_{i}=\overline{y}}a_{i}di
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $a_{i}\in\left\{ 0,1\right\} $
+\end_inset
+
+ indicates whether household 
+\begin_inset Formula $i$
+\end_inset
+
+ gets a slot; 
+\begin_inset Formula $\left(\underline{\alpha},\overline{\alpha}\right)$
+\end_inset
+
+ summarize the official's distributive preferences
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Official
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If official violates 
+\begin_inset Formula $R$
+\end_inset
+
+, he is caught with probability 
+\begin_inset Formula $\pi\left(a_{i},\mathbf{x}_{i},R\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\pi\left(a,\mathbf{x},R\right)=0$
+\end_inset
+
+ if 
+\begin_inset Formula $a=\mathbf{1}\left\{ \mathbf{x}\in R\right\} $
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\pi\left(a,\mathbf{x},R\right)>0$
+\end_inset
+
+ if 
+\begin_inset Formula $a\neq\mathbf{1}\left\{ \mathbf{x}\in R\right\} $
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Punishment is a fine 
+\begin_inset Formula $f$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Official allocates slots by establishing a menu of prices 
+\begin_inset Formula $p\left(y_{i},\mathbf{x}_{i}\right)\geq0$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\max_{\left\{ p_{i}\right\} }\int\left[1-G\left(p_{i}\right)\right]\left[p_{i}-c\left(y_{i},\mathbf{x}_{i}\right)\right]dF\left(y_{i},\mathbf{x}_{i}\right)
+\]
+
+\end_inset
+
+where the implicit marginal cost 
+\begin_inset Formula $c\left(y_{i},\mathbf{x}_{i}\right)$
+\end_inset
+
+ is
+\begin_inset Formula 
+\[
+c\left(y_{i},\mathbf{x}_{i}\right)=f\left[\pi\left(1,\mathbf{x}_{i},R\right)-\pi\left(0,\mathbf{x}_{i},R\right)\right]-\underline{\alpha}\mathbf{1}\left\{ y_{i}=\underline{y}\right\} -\overline{\alpha}\mathbf{1}\left\{ y_{i}=\overline{y}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Official
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The official's problem looks just like a monopolist's problem.
+\end_layout
+
+\begin_layout Itemize
+The solution will satisfy MR = MC, markups follow the rule 
+\begin_inset Formula $\left(p-c\right)/p=-1/\epsilon$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p^{*}\left(y_{i},\mathbf{x}_{i}\right)=\max\left\{ 0,c\left(y_{i},\mathbf{x}_{i}\right)+\eta\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The probability that household 
+\begin_inset Formula $i$
+\end_inset
+
+ gets a slot is then
+\begin_inset Formula 
+\[
+\textsf{Pr}\left(a_{i}=1\vert\mathbf{x}_{i},y_{i}\right)=1-G\left(\max\left\{ 0,c\left(y_{i},\mathbf{x}_{i}\right)+\eta\right\} \right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Comparative statics:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+prices increase in income iff 
+\begin_inset Formula $\underline{\alpha}>\overline{\alpha}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+prices decrease in eligibility (strictly if 
+\begin_inset Formula $f>0$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $f$
+\end_inset
+
+ is sufficiently large, all eligible households get a slot at price 0.
+ But might require arbitrarily harsh penalties, which seems unlikely.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Principal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Principal values the poor's surplus at 
+\begin_inset Formula $\underline{\omega}$
+\end_inset
+
+.
+ Similarly for the rich at 
+\begin_inset Formula $\overline{\omega}<1/\eta<\underline{\omega}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Normalize cost of slots to 
+\begin_inset Formula $1$
+\end_inset
+
+.
+\begin_inset Formula 
+\begin{align*}
+V\left(\left\{ p_{i}\right\} \right) & =\int_{y_{i}=\underline{y}}\mathbf{1}\left\{ v_{i}>p_{i}\right\} \left[\underline{\omega}\left(v_{i}-p_{i}\right)-1\right]dG\left(v_{i}\right)dF\left(y_{i},\mathbf{x}_{i}\right)\\
+ & \quad+\int_{y_{i}=\overline{y}}\mathbf{1}\left\{ v_{i}>p_{i}\right\} \left[\overline{\omega}\left(v_{i}-p_{i}\right)-1\right]dG\left(v_{i}\right)dF\left(y_{i},\mathbf{x}_{i}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Using the exponential distribution 
+\begin_inset Formula $G\left(v_{i}\right)=e^{-v_{i}/\eta}/\eta$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+V\left(\left\{ p_{i}\right\} \right) & =\left(\underline{\omega}\eta-1\right)\int_{y_{i}=\underline{y}}e^{-p_{i}/\eta}dF\left(y_{i},\mathbf{x}_{i}\right)\\
+ & \quad+\left(\overline{\omega}\eta-1\right)\int_{y_{i}=\overline{y}}e^{-p_{i}/\eta}dF\left(y_{i},\mathbf{x}_{i}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): When agency doesn't matter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Contrast with the case where the agent is completely honest, 
+\begin_inset Formula $p_{i}=0$
+\end_inset
+
+ if 
+\begin_inset Formula $\mathbf{x}_{i}\in R$
+\end_inset
+
+, 
+\begin_inset Formula $p_{i}=\infty$
+\end_inset
+
+ if 
+\begin_inset Formula $\mathbf{x}_{i}\notin R$
+\end_inset
+
+.
+ Now, principal solves
+\begin_inset Formula 
+\begin{align*}
+\max_{R\subseteq\mathbf{X}} & \left(\underline{\omega}\eta-1\right)\int_{y_{i}=\underline{y}}\mathbf{1}\left\{ \mathbf{x}_{i}\in R\right\} dF\left(y_{i},\mathbf{x}_{i}\right)\\
+ & +\left(\overline{\omega}\eta-1\right)\int_{y_{i}=\overline{y}}\mathbf{1}\left\{ \mathbf{x}_{i}\in R\right\} dF\left(y_{i},\mathbf{x}_{i}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+proposition 1:
+\shape default
+ 
+\emph on
+Let 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ be statistically optimal (solves above equation).
+ Then
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+As 
+\begin_inset Formula $f\rightarrow\infty$
+\end_inset
+
+ the payoff from 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ approaches the constrained optimal payoff.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+As 
+\begin_inset Formula $\underline{\alpha}\rightarrow\infty$
+\end_inset
+
+ while 
+\begin_inset Formula $\overline{\alpha}\rightarrow-\infty$
+\end_inset
+
+ the payoff from 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ approaches the constrained optimal payoff.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+If 
+\begin_inset Formula $\underline{\alpha}=\overline{\alpha}$
+\end_inset
+
+ and there exists 
+\begin_inset Formula $\tilde{\pi}$
+\end_inset
+
+ such that 
+\begin_inset Formula $\pi\left(a_{i},\mathbf{x}_{i},R\right)=\tilde{\pi}\cdot\mathbf{1}\left\{ a_{i}\neq\mathbf{1}\left\{ \mathbf{x}_{i}\in R\right\} \right\} $
+\end_inset
+
+ then rule 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ yields at least as high a payoff as any other nontrivial rule.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): When agency doesn't matter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In any of these cases agency issues are unimportant: Principal wants to
+ use the statistically optimal rule.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Third case is the interesting one: What does 
+\emph on
+
+\begin_inset Formula $\pi\left(a_{i},\mathbf{x}_{i},R\right)=\tilde{\pi}\cdot\mathbf{1}\left\{ a_{i}\neq\mathbf{1}\left\{ \mathbf{x}_{i}\in R\right\} \right\} $
+\end_inset
+
+ 
+\emph default
+mean?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Principal detects deviations from 
+\begin_inset Formula $R$
+\end_inset
+
+ with pr 
+\begin_inset Formula $\tilde{\pi}$
+\end_inset
+
+, 
+\emph on
+regardless of what 
+\begin_inset Formula $R$
+\end_inset
+
+ is.
+ 
+\emph default
+(e.g.
+ random audits which fully verify 
+\begin_inset Formula $\mathbf{x}_{i}\in/\notin R$
+\end_inset
+
+)
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+That means the choice of 
+\begin_inset Formula $R$
+\end_inset
+
+ doesn't affect how likely it is that the principal can detect deviations.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+That means the choice of 
+\begin_inset Formula $R$
+\end_inset
+
+ doesn't affect the official's incentives to deviate from 
+\begin_inset Formula $R$
+\end_inset
+
+.
+ Every household is equally risky.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Then changing 
+\begin_inset Formula $R$
+\end_inset
+
+ to make one household eligible won't affect the probability that any other
+ households get a slot.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now question of what 
+\begin_inset Formula $R$
+\end_inset
+
+ should be is only question of whether 
+\begin_inset Formula $R$
+\end_inset
+
+ includes eligible households, the statistical question.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Full verification of 
+\begin_inset Formula $R$
+\end_inset
+
+ seems like a stretch though.
+ So what happens with more realistic information structures?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Means testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let's apply this framework to pure means testing 
+\begin_inset Formula $\mathbf{X}=\left\{ \underline{y},\overline{y}\right\} $
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $\underline{\alpha}=\overline{\alpha}=0$
+\end_inset
+
+.
+ Official only cares about profit
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+w/pr 
+\begin_inset Formula $\pi_{e}$
+\end_inset
+
+ the principal observes the existence of a household
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+w/pr 
+\begin_inset Formula $\pi_{t}\leq\pi_{e}$
+\end_inset
+
+ the principal observe 
+\begin_inset Formula $y_{i}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Consider 2 policies:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Universal eligibility: 
+\begin_inset Formula $R=\mathbf{X}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Means testing by official: 
+\begin_inset Formula $R=\underline{y}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Let's work through the math of which one is better
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Means testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Start with Universal Eligibility:
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The poor: 
+\begin_inset Formula $c\left(\underline{y}\right)=f\left[0-\pi_{e}\right]\rightarrow p\left(\underline{y}\right)=\eta-f\pi_{e}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The rich: 
+\begin_inset Formula $c\left(\overline{y}\right)=f\left[0-\pi_{e}\right]\rightarrow p\left(\overline{y}\right)=\eta-f\pi_{e}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Principal's value:
+\begin_inset Formula 
+\[
+V\left(UE\right)=\left(\underline{\omega}\eta-1\right)e^{\left(\frac{f\pi_{e}}{\eta}-1\right)}F\left(\underline{y}\right)+\left(\overline{\omega}\eta-1\right)e^{\left(\frac{f\pi_{e}}{\eta}-1\right)}\left[1-F\left(\underline{y}\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Means testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What about Means Testing?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The poor: 
+\begin_inset Formula $c\left(\underline{y}\right)=f\left[0-\pi_{t}\right]\rightarrow p\left(\underline{y}\right)=\eta-f\pi_{t}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The rich: 
+\begin_inset Formula $c\left(\overline{y}\right)=f\left[\pi_{t}-0\right]\rightarrow p\left(\overline{y}\right)=f\pi_{t}+\eta$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Principal's value:
+\begin_inset Formula 
+\[
+V\left(MT\right)=\left(\underline{\omega}\eta-1\right)e^{\left(\frac{f\pi_{t}}{\eta}-1\right)}F\left(\underline{y}\right)+\left(\overline{\omega}\eta-1\right)e^{\left(-\frac{f\pi_{t}}{\eta}-1\right)}\left[1-F\left(\underline{y}\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Means testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Comparing the two:
+\begin_inset Formula 
+\begin{align*}
+V\left(MT\right)-V\left(UE\right) & =\left(1-\overline{\omega}\eta\right)\underbrace{\left[e^{f\pi_{e}/\eta}-e^{-f\pi_{t}/\eta}\right]}_{\text{fewer rich recipients}}\tfrac{F\left(\underline{y}\right)}{e^{\eta}}\\
+ & \quad-\left(\underline{\omega}\eta-1\right)\underbrace{\left[e^{f\pi_{e}/\eta}-e^{f\pi_{t}/\eta}\right]}_{\text{fewer poor recipients if }\pi_{e}>\pi_{t}}\tfrac{1-F\left(\underline{y}\right)}{e^{\eta}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+With perfect enforcement or 
+\begin_inset Formula $\pi_{t}=\pi_{e}$
+\end_inset
+
+, targeting is optimal.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+If exclusion errors are sufficiently costly (high 
+\begin_inset Formula $\underline{\omega}$
+\end_inset
+
+, 
+\begin_inset Formula $F\left(\underline{y}\right)$
+\end_inset
+
+ relative to 
+\begin_inset Formula $\overline{\omega}$
+\end_inset
+
+, 
+\begin_inset Formula $1-F\left(\overline{y}\right)$
+\end_inset
+
+) the constrained optimal policy is universal eligibility.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Proxy Means Testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now imagine that the principal wants to use land 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ and jewelry 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ as proxies for poverty.
+ 
+\end_layout
+
+\begin_layout Itemize
+Should she use both? Or just land?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The principal considers anyone whose total assets 
+\begin_inset Formula $x_{i}^{1}+x_{i}^{2}\leq y^{*}$
+\end_inset
+
+ as poor.
+ Optimal rule statistically is simply
+\begin_inset Formula 
+\[
+R_{12}\equiv\left\{ \mathbf{x}:x^{1}+x^{2}\leq y^{*}\right\} 
+\]
+
+\end_inset
+
+achieving perfect targeting when no agency concerns.
+\end_layout
+
+\begin_layout Itemize
+Consider using just land:
+\begin_inset Formula 
+\[
+R_{1}\equiv\left\{ \mathbf{x}:x^{1}\leq x^{1*}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+NB these are both scoring rules of the type 
+\begin_inset Formula $\sum h_{n}\left(x^{n}\right)<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Suppose the principal learns 
+\begin_inset Formula $x_{j},\;j\in\left\{ 1,2\right\} $
+\end_inset
+
+ for household 
+\begin_inset Formula $i$
+\end_inset
+
+ with independent probability 
+\begin_inset Formula $\phi_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If the principal learns enough to determine the household is incorrectly
+ classified, she fines the official 
+\begin_inset Formula $f$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Proxy Means Testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\shape smallcaps
+lemma 1: 
+\shape default
+\emph on
+Fix any 
+\begin_inset Formula $\phi_{1}>0$
+\end_inset
+
+ and let 
+\begin_inset Formula $x^{1*}$
+\end_inset
+
+ satisfy
+\begin_inset Formula 
+\begin{align*}
+\mathbb{P}\left(x^{1}+x^{2}\leq y^{*}\vert x^{1}=x^{1*}\right)\underline{\omega}\qquad\\
++\left[1-\mathbb{P}\left(x^{1}+x^{2}\leq y^{*}\vert x^{1}=x^{1*}\right)\right]\overline{\omega} & =1/\eta,
+\end{align*}
+
+\end_inset
+
+or 
+\begin_inset Formula $x^{1*}=0$
+\end_inset
+
+ if that equation has no solution.
+ Then the rule 
+\begin_inset Formula $R_{1}$
+\end_inset
+
+ defined by threshold 
+\begin_inset Formula $x^{1*}$
+\end_inset
+
+ is uniquely optimal within the class of rules that condition only on 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+.
+\emph default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equate marginal benefits (
+\begin_inset Formula $\mathbb{P}$
+\end_inset
+
+ more poor people and 
+\begin_inset Formula $1-\mathbb{P}$
+\end_inset
+
+ more rich people get the transfer) with the marginal cost 
+\begin_inset Formula $1/\eta$
+\end_inset
+
+.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+..Even when there are agency issues.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Proxy Means Testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Is there a rule that uses 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ that's preferable to 
+\begin_inset Formula $R_{1}$
+\end_inset
+
+?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+proposition 2: 
+\shape default
+\emph on
+Given a fixed rule 
+\begin_inset Formula $R$
+\end_inset
+
+ that conditions nontrivially on 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+, there exists 
+\begin_inset Formula $\phi_{2}^{*}\left(R\right)>0$
+\end_inset
+
+ such that if 
+\begin_inset Formula $\phi_{2}<\phi_{2}^{*}\left(R\right)$
+\end_inset
+
+, then rule 
+\begin_inset Formula $R_{1}$
+\end_inset
+
+ yields a strictly higher payoff than 
+\begin_inset Formula $R$
+\end_inset
+
+
+\emph default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Intuition: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Using 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ improves targeting.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Using 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ is harder to enforce for poor
+\begin_inset Quotes erd
+\end_inset
+
+ish
+\begin_inset Quotes erd
+\end_inset
+
+ people: need to observe both 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ to be sure that someone is ineligible
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Using 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ is actually easier to enforce for very rich people: Observing 
+\emph on
+either
+\emph default
+ 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+ or 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ sufficient to determine ineligibility.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Balance of effects depends on 
+\begin_inset Formula $\phi_{2}$
+\end_inset
+
+.
+ As 
+\begin_inset Formula $\phi_{2}\rightarrow0$
+\end_inset
+
+ 
+\begin_inset Formula $R_{1}$
+\end_inset
+
+ becomes easier to enforce.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Niehaus et al (2013): Proxy Means Testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Is it always the case that having stronger enforcement increases welfare?
+ No!
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+proposition 3: 
+\shape default
+\emph on
+Let the probability of detecting a violation be constant (
+\begin_inset Formula $\pi\left(a_{i},\mathbf{x}_{i},R\right)=\pi>0$
+\end_inset
+
+ whenever 
+\begin_inset Formula $a_{i}\neq\mathbf{1}\left\{ \mathbf{x}_{i}\in R\right\} $
+\end_inset
+
+), If 
+\begin_inset Formula $R$
+\end_inset
+
+ perfectly targets the poor, then 
+\begin_inset Formula $\partial V/\partial f\geq0$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $R$
+\end_inset
+
+ does not perfectly target the poor, so that there are some ineligible poor
+ and some eligible rich, then there exist a scalar 
+\begin_inset Formula $f^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{\alpha}^{*}\left(f\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $\overline{\alpha}^{*}\left(f\right)$
+\end_inset
+
+ such that if 
+\begin_inset Formula $f>f^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $\underline{\alpha}>\underline{\alpha}^{*}\left(f\right)$
+\end_inset
+
+, and 
+\begin_inset Formula $\overline{\alpha}<\overline{\alpha}^{*}\left(f\right)$
+\end_inset
+
+ then 
+\begin_inset Formula $\partial V/\partial f<0$
+\end_inset
+
+.
+\emph default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Intuition: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If you have a perfect rule, you want to force the official to use it
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If you have an imperfect rule, then how much you want to force the official
+ to use it depends on how much you disagree about who is deserving.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If sufficiently aligned: 
+\begin_inset Formula $\underline{\alpha}$
+\end_inset
+
+ is large, and 
+\begin_inset Formula $\overline{\alpha}$
+\end_inset
+
+ is small, then let the official use his discretion to violate your rule
+ sometimes.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Rich Country Evidence
+\end_layout
+
+\end_inset
+
+Evidence from Rich Countries
+\end_layout
+
+\begin_layout Subsection
+Chetty, Friedman & Saez (AER 2013): 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Using Differences in Knowledge Across Neighborhoods to Uncover the Impacts
+ of the EITC on Earnings
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty et al (2013): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How do income support programs affect workers' earnings?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Direct effect on the earnings of the beneficiaries
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Indirect effect on earnings of all workers in the same labor market
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Very hard to estimate these market-level impacts.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Use variation across zip-codes in how many people are aware of EITC to estimate
+ impact of EITC on the whole earnings distribution
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty et al (2013): EITC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 1.png
+	lyxscale 30
+	scale 37
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty et al (2013): EITC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 2.png
+	lyxscale 30
+	scale 36
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty et al (2013): A Simple Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Individuals make two choices: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+labor supply 
+\begin_inset Formula $l_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+tax evasion 
+\begin_inset Formula $e_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $z_{i}=wl_{i}$
+\end_inset
+
+ is true earnings.
+ Report 
+\begin_inset Formula $\hat{z}_{i}=wl_{i}-e_{i}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Taxes:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When 
+\begin_inset Formula $\hat{z}_{i}<K$
+\end_inset
+
+ tax rate is 
+\begin_inset Formula $\tau_{1}<0$
+\end_inset
+
+ (a work subsidy)
+\end_layout
+
+\begin_layout Itemize
+When 
+\begin_inset Formula $\hat{z}_{i}>K$
+\end_inset
+
+ tax rate is 
+\begin_inset Formula $\tau_{2}>0$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\boldsymbol{\tau}=\left(\tau_{1},\tau_{2}\right)$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Compliance behavior
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Non-compliers always report 
+\begin_inset Formula $\hat{z}_{i}=K$
+\end_inset
+
+ to maximize refund.
+\end_layout
+
+\begin_layout Itemize
+Compliers always report the truth 
+\begin_inset Formula $\hat{z}_{i}=z_{i}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Utility 
+\begin_inset Formula $U\left(C_{i},l_{i},\alpha_{i}\right)=C_{i}-h\left(l_{i},\alpha_{i}\right)$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Heterogeneity in 
+\begin_inset Formula $\alpha_{i}$
+\end_inset
+
+ gives rise to earnings distribution 
+\begin_inset Formula $F\left(z\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty et al (2013): A Simple Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There are 
+\begin_inset Formula $N$
+\end_inset
+
+ cities of equal size 
+\begin_inset Formula $c=1,\ldots,N$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In city 
+\begin_inset Formula $c$
+\end_inset
+
+, fraction 
+\begin_inset Formula $\lambda_{c}$
+\end_inset
+
+ of the workers are aware of taxes.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Remaining 
+\begin_inset Formula $1-\lambda_{c}$
+\end_inset
+
+ optimize as if 
+\begin_inset Formula $\boldsymbol{\tau}=\mathbf{0}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cities differ in skill distributions 
+\begin_inset Formula $G_{c}\left(\alpha_{i}\right)$
+\end_inset
+
+ and the fraction of non-compliers 
+\begin_inset Formula $\theta_{c}$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Each city has an earnings distribution 
+\begin_inset Formula $F_{c}\left(z\vert\boldsymbol{\tau}\right)$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The goal is to estimate 
+\begin_inset Formula 
+\[
+F_{c}\left(z\vert\boldsymbol{\tau}\neq\mathbf{0}\right)-F_{c}\left(z\vert\boldsymbol{\tau}=\mathbf{0}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty et al (2013): Empirical Strategy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Basic strategy is to use cities where 
+\begin_inset Formula $\lambda_{c}=0$
+\end_inset
+
+ to estimate the counterfactual:
+\begin_inset Formula 
+\[
+F_{c}\left(z\vert\boldsymbol{\tau}\neq\mathbf{0},\lambda_{c}=0\right)=F_{c}\left(z\vert\boldsymbol{\tau}=\mathbf{0},\lambda_{c}=0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How to measure 
+\begin_inset Formula $\lambda_{c}$
+\end_inset
+
+? Use the degree of sharp bunching at 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Denote the fraction of indivduals reporting 
+\begin_inset Formula $\hat{z}_{i}=K$
+\end_inset
+
+ by 
+\begin_inset Formula $\phi_{c}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\phi_{c}=\theta_{c}\lambda_{c}$
+\end_inset
+
+ and so
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+assumption 1
+\shape default
+ (Tax Knowledge): 
+\emph on
+Individuals in neighborhoods with no sharp bunching at the kink have no
+ knowledge of the policy’s marginal incentives and perceive 
+\begin_inset Formula $\boldsymbol{\tau}=0$
+\end_inset
+
+: 
+\begin_inset Formula $\phi_{c}=0\Rightarrow\lambda_{c}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Under assumption 1 cities with no bunching reveal the distribution when
+ there are no taxes:
+\begin_inset Formula 
+\[
+F_{c}\left(z\vert\boldsymbol{\tau}\neq\mathbf{0},\phi_{c}=0\right)=F_{c}\left(z\vert\boldsymbol{\tau}=\mathbf{0},\phi_{c}=0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty et al (2013): Empirical Strategy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Can we use cities with no bunching as a counterfactual for cities with bunching?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+assumption 2A
+\shape default
+ (Cross-Sectional Identification): 
+\emph on
+Individuals’ skills do not vary across cities with different levels of knowledge
+ about the tax credit:
+\begin_inset Formula 
+\[
+G\left(\alpha_{i}\vert\lambda_{c}\right)=G\left(\alpha_{i}\right)\:\forall\lambda_{c}
+\]
+
+\end_inset
+
+
+\emph default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now we can compare cities with and without bunching:
+\begin_inset Formula 
+\[
+\hat{\Delta F}=F\left(z\vert\boldsymbol{\tau}\right)-F\left(z\vert\boldsymbol{\tau},\phi_{c}=0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty et al (2013): Empirical Strategy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assumption 2A is strong (why?)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We can relax it by studying earnings changes when people become eligible
+ for EITC.
+ Here, use birth of first child which makes people eligible for EITC.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\shape smallcaps
+assumption 2B
+\shape default
+ (Panel Identification): 
+\emph on
+Changes in skills when an individual becomes eligible for the credit do
+ not vary across cities with different levels of knowledge about the tax
+ credit:
+\emph default
+ 
+\begin_inset Formula 
+\[
+G_{t}\left(\alpha_{i}\vert\lambda_{c}\right)-G_{t-1}\left(\alpha_{i}\vert\lambda_{c}\right)=G_{t}\left(\alpha_{i}\right)-G_{t-1}\left(\alpha_{i}\right)\,\forall\lambda_{c}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Under this assumption we can construct a difference in differences estimator:
+\begin_inset Formula 
+\begin{align*}
+\hat{\Delta F}_{DD} & =\left[F_{t}\left(z\vert\boldsymbol{\tau}\right)-F_{t}\left(z\vert\boldsymbol{\tau},\phi_{c}=0\right)\right]\\
+ & \quad-\left[F_{t-1}\left(z\vert\boldsymbol{\tau}\right)-F_{t-1}\left(z\vert\boldsymbol{\tau},\phi_{c}=0\right)\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty et al (2013): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Universe of US tax returns 1996-2009.
+ Restrict to ppl with a dependent, income<$50K 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 77.6 mn taxpayers, 1 bn obs.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 3.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 4.png
+	lyxscale 30
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 5.png
+	lyxscale 30
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 6.png
+	lyxscale 30
+	scale 36
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 7.png
+	lyxscale 30
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 8.png
+	lyxscale 30
+	scale 38
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 9.png
+	lyxscale 30
+	scale 38
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 10.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 11.png
+	lyxscale 30
+	scale 34
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 12.png
+	lyxscale 30
+	scale 34
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 13.png
+	lyxscale 30
+	scale 34
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 14.png
+	lyxscale 30
+	scale 34
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 15.png
+	lyxscale 30
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty et al 2013 16.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Deshpande & Li (2017) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Who is Screened Out? Application Costs and the Targeting of Disability Programs
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When eligibility is hard to observe/verify, application costs can act as
+ a screening device (ordeal).
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Study this in the context of disability insurance.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Use closings of Social Security Administration offices to get variation
+ in application costs.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Find large impacts, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Fewer people apply
+\end_layout
+
+\begin_layout Itemize
+Targeting worsens
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Suggests social costs of closing SSA offices outweigh social benefits 5
+ to 1
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): A Simple Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider an increase in application costs from 
+\begin_inset Formula $\eta$
+\end_inset
+
+ to 
+\begin_inset Formula $\eta^{\prime}>\eta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Assume adjudicators don't change their standards.
+ Then targeting efficiency increases iff
+\begin_inset Formula 
+\[
+\mathbb{P}\left(R\vert A,\eta^{\prime}\right)>\mathbb{P}\left(R\vert A,\eta\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathbb{P}\left(R\vert A,\eta\right)$
+\end_inset
+
+ is the probability of receiving benefits conditional on applying.
+\end_layout
+
+\begin_layout Itemize
+Rewrite: Targeting improves iff
+\begin_inset Formula 
+\[
+1<\frac{\mathbb{P}\left(R\vert A,\eta^{\prime}\right)}{\mathbb{P}\left(R\vert A,\eta\right)}=\frac{\frac{\mathbb{P}\left(R\vert\eta^{\prime}\right)}{\mathbb{P}\left(A\vert\eta^{\prime}\right)}}{\frac{\mathbb{P}\left(R\vert\eta\right)}{\mathbb{P}\left(A\vert\eta\right)}}=\frac{\frac{\mathbb{P}\left(R\vert\eta^{\prime}\right)}{\mathbb{P}\left(R\vert\eta\right)}}{\frac{\mathbb{P}\left(A\vert\eta^{\prime}\right)}{\mathbb{P}\left(A\vert\eta\right)}}=\frac{\Delta_{R}+1}{\Delta_{A}=1}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\Delta_{R}=\frac{\mathbb{P}\left(R\vert\eta^{\prime}\right)-\mathbb{P}\left(R\vert\eta\right)}{\mathbb{P}\left(R\vert\eta\right)}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta_{A}=\frac{\mathbb{P}\left(A\vert\eta^{\prime}\right)-\mathbb{P}\left(A\vert\eta\right)}{\mathbb{P}\left(A\vert\eta\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To get Social Security Disability Insurance (SSDI) and Supplemental Security
+ Income (SSI), you have to apply to the Social Security Administration.
+\end_layout
+
+\begin_layout Itemize
+They review medical/work history, determine eligibility.
+\end_layout
+
+\begin_layout Itemize
+1,230 Social Security Field Offices provide in-person help.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 1.png
+	lyxscale 25
+	scale 16
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): SSA Office Closures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 2.png
+	lyxscale 30
+	scale 22
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Data from the Social Security Administration
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All field offices with addresses & closing dates
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+wlk-in wait times
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Staff numbers at each office
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+volume of calls to 800 numbers
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+application data
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+decision data
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ZIP code of applicants
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Collapse by ZIP and assign each ZIP code a nearest, second nearest, and
+ third nearest SSA office.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Empirical Approach
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Compare applications and receipts in the ZIP codes where the office closed
+ to ZIP codes where the office hasn't closed yet, but will do.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For each closure, take the ZIPs that experience the closure as treated,
+ and ZIPS that experience a closure more than 2 years in the future are
+ control
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Event Study estimates:
+\begin_inset Formula 
+\[
+Y_{isct}=\alpha_{i}+\gamma_{st}+\sum_{\tau}D_{ct}^{\tau}+\sum\delta_{\tau}\left(Treated_{ic}\times D_{ct}^{\tau}\right)+\epsilon_{isct}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $Y_{isct}$
+\end_inset
+
+ is outcome for ZIP 
+\begin_inset Formula $i$
+\end_inset
+
+ in state 
+\begin_inset Formula $s$
+\end_inset
+
+ for closure 
+\begin_inset Formula $c$
+\end_inset
+
+ in quarter 
+\begin_inset Formula $t$
+\end_inset
+
+; 
+\begin_inset Formula $\alpha_{i}$
+\end_inset
+
+ are ZIP FEs; 
+\begin_inset Formula $\gamma_{st}$
+\end_inset
+
+ are state
+\begin_inset Formula $\times$
+\end_inset
+
+quarter FEs; 
+\begin_inset Formula $Treated_{ic}$
+\end_inset
+
+ indicates treatment; 
+\begin_inset Formula $D_{ct}^{\tau}$
+\end_inset
+
+ are indicators for observations 
+\begin_inset Formula $\tau$
+\end_inset
+
+ quarters before/after the closure.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 3.png
+	lyxscale 40
+	scale 23
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Subgroups
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 4.png
+	lyxscale 40
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Subgroups
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 5.png
+	lyxscale 40
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Subgroups
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 6.png
+	lyxscale 40
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Spillovers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 7.png
+	lyxscale 40
+	scale 26
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Mechanisms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How do office closures affect applications?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Congestion at neighboring offices
+\end_layout
+
+\begin_layout Enumerate
+Travel time
+\begin_inset Formula 
+\[
+Y_{isct}=\alpha_{i}+\gamma_{st}+\beta Congestion_{ict}+\kappa Distance_{ict}+\delta NewOffice_{ict}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+To overcome endogeneity (why?) use closures and difference with next-closest
+ office as instruments:
+\begin_inset Formula 
+\begin{align*}
+Congestion_{isct} & =\alpha_{i}+\gamma_{st}+\beta_{1}\left(Treated_{ic}\times Post_{t}\times WDiff_{ic}\right)\\
+ & \quad+\beta_{2}\left(TreatedNbr_{ic}\times Post_{t}\right)+\nu_{isct}\\
+Distance_{isct} & =\alpha_{i}+\gamma_{st}+\kappa_{1}\left(Treated_{ic}\times Post_{t}\times DDiff_{ic}\right)+\xi_{isct}
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $WDiff_{isc}$
+\end_inset
+
+ is difference in walk-in times with now-closest office; 
+\begin_inset Formula $TreatedNbr_{ic}$
+\end_inset
+
+ indicates closing neighbor; 
+\begin_inset Formula $DDiff_{ic}$
+\end_inset
+
+ is difference in driving distance with the now-closest office
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Mechanisms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 8.png
+	lyxscale 40
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Welfare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let the benefits of approving a disability application be
+\begin_inset Formula 
+\[
+b_{r}\left(n\right)\equiv b_{1}-c_{1}-c_{2}\left(n\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $b_{1}$
+\end_inset
+
+ is net social benefit of providing benefits, 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ is cost of reviewing application and 
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ is the cost to the applicant
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Let the costs of rejecting an application be 
+\begin_inset Formula 
+\[
+b_{n}\left(n\right)\equiv c_{1}+c_{2}\left(n\right)
+\]
+
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+And let 
+\begin_inset Formula $F$
+\end_inset
+
+ be the cost of running an office.
+ Then social benefit of 
+\begin_inset Formula $n$
+\end_inset
+
+ offices is
+\begin_inset Formula 
+\begin{align*}
+W\left(n\right) & =b_{r}\left(n\right)r\left(n\right)-b_{n}\left(n\right)\left[a\left(n\right)-r\left(n\right)\right]-Fn\\
+ & =b_{1}r\left(n\right)-\left[c_{1}+c_{2}\left(n\right)\right]a\left(n\right)-Fn
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Welfare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+And so change in welfare from closing one office is
+\begin_inset Formula 
+\begin{align*}
+W\left(n-1\right)-W\left(n\right) & =\underbrace{b_{1}\left[r\left(n-1\right)-r\left(n\right)\right]}_{\text{benefits to fewer recipients}}\\
+ & \quad-\underbrace{\left[c_{2}\left(n-1\right)-c_{2}\left(n\right)\right]a\left(n-1\right)}_{\text{higher costs for applicants}}\\
+ & \quad-\underbrace{c_{1}\left[a\left(n-1\right)-a\left(n\right)\right]}_{\text{review fewer applications}}\\
+ & \quad-\underbrace{c_{2}\left(n\right)\left[a\left(n-1\right)-a\left(n\right)\right]}_{\text{fewer applicants}}+F
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Welfare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 9.png
+	lyxscale 40
+	scale 34
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Targeting in Developing Countries
+\end_layout
+
+\end_inset
+
+Targeting in Developing Countries: Who gets the Benefit?
+\end_layout
+
+\begin_layout Subsection
+Alatas, Banerjee, Hanna, Olken & Tobias (AER 2012) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Targeting the Poor: Evidence from a Field Experiment in Indonesia
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How effective are proxy means tests (PMT) in practice in a developing country?
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In particular, do communities know more than the proxies and can that be
+ leveraged to improve targeting?
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+What is the tradeoff? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Communities have better information.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assets capture permanent income.
+ Wouldn't observe severe negative shocks.
+\end_layout
+
+\begin_layout Itemize
+Poor PMT seen as ilegitimate by community.
+ 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Communities may disagree with government
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+May perceive poverty differently
+\end_layout
+
+\begin_layout Itemize
+May favor friends/relatives of elites
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+This paper does an experiment in Indonesia to explore this
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): Experimental Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Indonesia has a large targeted cash transfer: Bantuan Langsung Tunai (BLT)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Provides $10/month to 19 million households
+\end_layout
+
+\begin_layout Itemize
+Seen as badly targeted: WB estimates 45% of funds go to nonpoor households,
+ 47% of poor excluded.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+For the experiment sample 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+640 villages in 3 provinces (North Sumatra, South Sulawesi, Central Java).
+ 
+\end_layout
+
+\begin_layout Itemize
+Within each, sample a neighborhood.
+\end_layout
+
+\begin_layout Itemize
+30% urban, 70% rural
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In each village, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government and an Indonesian NGO Mitra Samya implemented an unconditional
+ cash transfer.
+ 
+\end_layout
+
+\begin_layout Itemize
+Each beneficiary household to receive RP.
+ 30,000 (
+\begin_inset Formula $\sim$
+\end_inset
+
+$3)
+\end_layout
+
+\begin_layout Itemize
+Overall number of beneficiaries set in advance
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): Experimental Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+T1
+\end_layout
+
+\end_inset
+
+
+\emph on
+PMT
+\emph default
+.
+ Government used 49 indicators (home attributes, assets, hh composition,
+ education, occupation etc) and a regression to create poverty scores.
+ Enumerators collect this data and generate poverty scores.
+ Lowest scores got the transfer.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+T2
+\end_layout
+
+\end_inset
+
+
+\emph on
+Community Targeting.
+
+\emph default
+ Facilitator holds community meeting.
+ List all households in the village and go through them one by one to rank
+ them by poverty.
+ After ranking finalized, quota of beneficiaries revealed.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+T3
+\end_layout
+
+\end_inset
+
+
+\emph on
+Hybrid.
+
+\emph default
+ Do the community ranking.
+ Then 
+\begin_inset Quotes eld
+\end_inset
+
+verify
+\begin_inset Quotes erd
+\end_inset
+
+ 1.5 
+\begin_inset Formula $\times$
+\end_inset
+
+ quota using PMT scores.
+ 
+\end_layout
+
+\begin_layout Itemize
+Community subtreatments:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Elite capture: Either whole community or only elite invited to the meeting
+\end_layout
+
+\begin_layout Itemize
+Randomize the order in which households are ranked to test for effort effects
+ (fatigue).
+\end_layout
+
+\begin_layout Itemize
+Preferences: Some meetings in the day (more women) others in the evening
+ (more men), others place high emphasis on poverty.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): Randomization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To ensure balance, create 51 strata by geography.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Randomize 640 subvillages into the 3 main treatments.
+ Equal proportions in each stratum (up to integer constraint)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Randomize the community and hybrid villages into subtreatments, stratifying
+ by stratum 
+\begin_inset Formula $\times$
+\end_inset
+
+ treatment
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Timing
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Nov/Dec 2008.
+ Carry out baseline survey
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Dec 2008/ Jan 2009: Implement treatments, create beneficiary lists
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Feb 2009: Distribute funds, interview village heads
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+March 2009: Endline survey
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): Randomization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2012 1.png
+	lyxscale 40
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): BLT targeting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2012 2.png
+	lyxscale 30
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): Targeting Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2012 3.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): Targeting Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2012 4.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): Elite Capture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Is the reason that community targeting doesn't dominate PMT elite capture?
+\end_layout
+
+\begin_layout Itemize
+Include elite subtreatment.
+\end_layout
+
+\begin_layout Itemize
+Also estimate whether households connected to the elite are more likely
+ to receive the transfer.
+\begin_inset Formula 
+\begin{align*}
+ERROR_{ivk} & =\alpha+\beta_{1}COMMUNITY_{ivk}+\beta_{2}HYBRID_{ivk}\\
+ & \quad+\beta_{3}ELITE_{ivk}+\beta_{4}CONN_{ivk}\\
+ & \quad+\beta_{5}\left(COMMUNITY_{ivk}\times CONN_{ivk}\right)\\
+ & \quad+\beta_{6}\left(HYBRID_{ivk}\times CONN_{ivk}\right)\\
+ & \quad+\beta_{7}\left(ELITE_{ivk}\times CONN_{ivk}\right)+\gamma_{k}+\varepsilon_{ivk}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2012 5.png
+	lyxscale 30
+	height 90pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2012): Alternative Welfare Metrics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\size small
+\begin_inset Formula $RANKCORR_{vkR}=\alpha+\beta_{1}COMMUNITY_{vk}+\beta_{2}HYBRID_{vk}+\gamma_{k}+\varepsilon_{vkR}$
+\end_inset
+
+
+\size default
+, 
+\begin_inset Formula $RANKCORR_{vkR}$
+\end_inset
+
+ is rank correlation between targeting rank list and well-being measure
+ 
+\begin_inset Formula $R$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2012 6.png
+	lyxscale 30
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2012 7.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2012 8.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2012 9.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Alatas, Banerjee, Hanna, Olken, Purnamasari & Wai-Poi (JPE 2016) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Self-Targeting: Evidence from a Field Experiment in Indonesia
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do application costs (ordeals a la Nichols & Zeckhauser) improve targeting
+ in a developing country context?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If so, how big should application costs be?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Implement an experiment in Indonesia to learn about this.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Use experimental results together with a model to learn about selection
+ margins and effects of alternative policies.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study a large transfer program in Indonesia: Program Keluarga Harapan (PKH)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Targeted at households with consumption/capita < 80% of poverty line, and
+ with pregnant woman/children 0-5/children with <9 years of schooling.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Recipients get $67–$250/year (3.5–13% of avg consumption)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+2.4 million househlods enrolled in 2013.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Targeting is hard: per-capita consumption is hard to observe.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The government does a PMT.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Every 3 years, stats bureau does a nationwide survey.
+\end_layout
+
+\begin_layout Itemize
+Potentially eligible households + local leaders' recommendations surveyed.
+ Asked 30 questions.
+ 
+\end_layout
+
+\begin_layout Itemize
+Supplemented with location-level data
+\end_layout
+
+\begin_layout Itemize
+Generate district-level formula for predicting consumption.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Targeting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 1.png
+	lyxscale 40
+	width 87page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Targeting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 2.png
+	width 87page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Experiment Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+PKH expanded to new areas in 2011
+\end_layout
+
+\begin_layout Itemize
+Work in six districts (2 each in Lampung, South Sumatra, and Central Java)
+\end_layout
+
+\begin_layout Itemize
+randomly select 400 villages stratifying to have 30% urban, 70% rural and
+ by geography.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+T1
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+Automatic Screening
+\emph default
+: Government enumerators make list of potentially poor households.
+ Administer survey.
+ Computer generated scores below cutoff for that district 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ receive transfer
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+T2
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+Self-Targeting:
+\emph default
+ The test was the same, but households had to go to a central registration
+ station to apply.
+ Meetings held in each village to publicize the program, and emphasize that
+ survey would be verified.
+ On predetermined day, housholds could visit office from 8AM-5PM, get a
+ number and line up for their interview.
+\end_layout
+
+\begin_layout Itemize
+Within Self-targeting treatment also cary distance between village and office.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Experimental Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 3.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Timing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 4.png
+	width 95page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Households live for two periods.
+ risk neutral, care about consumption.
+\end_layout
+
+\begin_layout Itemize
+Per-period income of 
+\begin_inset Formula $y$
+\end_inset
+
+.
+ Only 
+\begin_inset Formula $y^{o}$
+\end_inset
+
+ is observable to the government, so 
+\begin_inset Formula $y=y^{o}+y^{u}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Applying for the transfer costs 
+\begin_inset Formula $c\left(l,y\right)$
+\end_inset
+
+ where 
+\begin_inset Formula $l$
+\end_inset
+
+ is the distance to the office.
+\end_layout
+
+\begin_layout Itemize
+If apply, receive the transfer with probability 
+\begin_inset Formula $\mu\left(y^{o}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\mu^{\prime}\leq0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Even observable income measured with error by PMT so 
+\begin_inset Formula $\mu\left(y^{o}\right)=\mathbb{P}\left(y^{o}+\pi<y^{*}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\pi$
+\end_inset
+
+ is iid noise.
+\end_layout
+
+\begin_layout Itemize
+2 types of households:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+sophisticated: Understand 
+\begin_inset Formula $\mu\left(y^{o}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+unsophisticated: Know 
+\begin_inset Formula $\lambda\left(y\right)$
+\end_inset
+
+=probability someone with income 
+\begin_inset Formula $y$
+\end_inset
+
+ receives transfer
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Transfer recipients receive income 
+\begin_inset Formula $b$
+\end_inset
+
+ in second period.
+ 
+\begin_inset Formula $\delta$
+\end_inset
+
+ is discount factor
+\end_layout
+
+\begin_layout Itemize
+Households also get a utility shock 
+\begin_inset Formula $\varepsilon\sim F\left(\varepsilon\right)$
+\end_inset
+
+ that encourages/discourages them from applying.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Application decision
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sophisticated households who apply have expected utility
+\begin_inset Formula 
+\[
+y-c\left(l,y\right)+\mu\left(y^{o}\right)\delta\left(y+b\right)+\left[1-\mu\left(y^{o}\right)\right]\delta y+\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Unsophisticated households who apply have EU
+\begin_inset Formula 
+\[
+y-c\left(l,y\right)+\lambda\left(y\right)\delta\left(y+b\right)+\left[1-\lambda\left(y\right)\right]\delta y+\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If households don't apply, they have EU 
+\begin_inset Formula $y+\delta y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Expected gain from applying for the sophisticated hhs is
+\begin_inset Formula 
+\[
+-c\left(l,y\right)+\mu\left(y^{o}\right)\delta b+\varepsilon\equiv g\left(y^{o},y,l\right)+\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For unsophisticated, it's
+\begin_inset Formula 
+\[
+-c\left(l,y\right)+\lambda\left(y\right)\delta b+\varepsilon\equiv h\left(y,l\right)+\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Application decision
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Application probabilities:
+\begin_inset Formula 
+\begin{align*}
+A_{s}\left(y^{o},y,l\right) & =\mathbb{P}\left(g\left(y^{o},y,l\right)>\varepsilon\right)=1-F\left(-g\left(y^{o},y,l\right)\right)\\
+A_{u}\left(y,l\right) & =\mathbb{P}\left(h\left(y,l\right)>\varepsilon\right)=1-F\left(-h\left(y,l\right)\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Unsophisticated households have consistent beliefs:
+\begin_inset Formula 
+\[
+\lambda\left(y\right)=\lambda_{ind}\left(y\right)=\frac{\left(\begin{array}{c}
+\alpha\int\int\mu\left(y^{o}\right)A_{s}\left(y^{o},y,l\right)\vartheta\left(y^{o},l\vert y\right)dldy\\
++\left(1-\alpha\right)\int\int\mu\left(y^{o}\right)A_{u}\left(y,l\right)\vartheta\left(y^{o},l\vert y\right)dldy
+\end{array}\right)}{\left(\begin{array}{c}
+\alpha\int\int A_{s}\left(y^{o},y,l\right)\vartheta\left(y^{o},l\vert y\right)dldy\\
++\left(1-\alpha\right)\int\int A_{u}\left(y,l\right)\vartheta\left(y^{o},l\vert y\right)dldy
+\end{array}\right)}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ is proportion of sophisticated hhs
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Application cost
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simple benchmark: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+all hhs unsophisticated.
+ 
+\end_layout
+
+\begin_layout Itemize
+Time cost of applying is 
+\begin_inset Formula $\tau l$
+\end_inset
+
+.
+ Wages are 
+\begin_inset Formula $w=\phi y$
+\end_inset
+
+ so monetary cost is 
+\begin_inset Formula $\tau l\phi y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+No shocks 
+\begin_inset Formula $\varepsilon=0$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{apply iff }h\left(y\right)=-\tau l\phi y+\delta\lambda\left(y\right)b\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+lhs is decreasing in 
+\begin_inset Formula $y$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ threshold 
+\begin_inset Formula $y^{*}$
+\end_inset
+
+ below which people apply (Nichols & Zeckhauser 1982).
+\end_layout
+
+\begin_layout Itemize
+Now add back in shocks:
+\begin_inset Formula 
+\[
+\text{apply iff }\tau l\phi y-\delta\lambda\left(y\right)b\leq\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Consider 
+\begin_inset Formula $y_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{2}>y_{1}$
+\end_inset
+
+: They show up at relative rates
+\begin_inset Formula 
+\[
+\frac{1-F\left(\tau l\phi y_{1}-\delta\lambda\left(y_{1}\right)b\right)}{1-F\left(\tau l\phi y_{2}-\delta\lambda\left(y_{2}\right)b\right)}
+\]
+
+\end_inset
+
+the higher this is, the better targeted the transfer
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Application cost
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now consider increasing the ordeal 
+\begin_inset Formula $l$
+\end_inset
+
+: Differentiating, targeting improves iff
+\begin_inset Formula 
+\[
+\frac{f\left(\tau l\phi y_{2}-\delta\lambda\left(y_{2}\right)b\right)}{1-F\left(\tau l\phi y_{2}-\delta\lambda\left(y_{2}\right)b\right)}\tau\phi y_{2}-\frac{f\left(\tau l\phi y_{1}-\delta\lambda\left(y_{1}\right)b\right)}{1-F\left(\tau l\phi y_{1}-\delta\lambda\left(y_{1}\right)b\right)}\tau\phi y_{1}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+More generally, a sufficient condition for targeting efficiency to be improving
+ as 
+\begin_inset Formula $l$
+\end_inset
+
+ increases is that the hazard rate is increasing in 
+\begin_inset Formula $y$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{\partial}{\partial y}\frac{f\left(\tau l\phi y-\delta\lambda\left(y\right)b\right)}{1-F\left(\tau l\phi y-\delta\lambda\left(y\right)b\right)}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This rules out thick tailed income distributions.
+\end_layout
+
+\begin_layout Itemize
+More generally, shows that single crossing 
+\begin_inset Formula $\left(c_{ly}>0\right)$
+\end_inset
+
+ isn't sufficient to make ordeal optimal
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Nonlinear application cost
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Application costs may affect poor and rich households differently.
+ 
+\end_layout
+
+\begin_layout Itemize
+To capture this, put a kink in the application cost: There are two ways
+ to get to the office, by bus or walking.
+\end_layout
+
+\begin_layout Itemize
+Walking: calorie cost 
+\begin_inset Formula $\gamma l$
+\end_inset
+
+; time cost 
+\begin_inset Formula $\tau lw$
+\end_inset
+
+: slow but cheap
+\end_layout
+
+\begin_layout Itemize
+Bus: fixed cost 
+\begin_inset Formula $\nu$
+\end_inset
+
+; time cost 
+\begin_inset Formula $\lambda w$
+\end_inset
+
+: fast but costly: 
+\begin_inset Formula $\lambda<\tau$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+D=\begin{cases}
+\text{bus} & \text{if }v+\lambda l\phi y<\gamma l+\tau l\phi y\\
+\text{walk } & \text{if }\nu+\lambda l\phi y\geq\gamma l+\tau l\phi y
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Apply iff
+\begin_inset Formula 
+\[
+-\min\left\{ \gamma l+\tau l\phi y,\nu+\lambda l\phi y\right\} +\delta\lambda\left(y\right)b\geq\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+lhs decreasing in 
+\begin_inset Formula $y$
+\end_inset
+
+ so richer hhs apply less.
+\end_layout
+
+\begin_layout Itemize
+Effect of change in 
+\begin_inset Formula $l$
+\end_inset
+
+ also stronger for people who walk, who are on average poorer.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Sophistication
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All this so far only for unsophisticated households.
+ Perceive pr of transfer as 
+\begin_inset Formula $\lambda\left(y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Sophisticated households understand the probability is 
+\begin_inset Formula $\mu\left(y^{o}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How does unobserved income 
+\begin_inset Formula $y^{u}$
+\end_inset
+
+ affect behavior?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For sophisticated hhs, only effect is through 
+\begin_inset Formula $c\left(l,y^{o}+y^{u}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For unsophisticated, both through 
+\begin_inset Formula $\lambda\left(y^{o}+y^{u}\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $c\left(l,y^{o}+y^{u}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+expect more selection on unobservables for unsophisticated HHs
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Selection on unobservables is good though when income is poorly observed
+ by PMT:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sophisticated rich households who know they can pass PMT apply
+\end_layout
+
+\begin_layout Itemize
+unsophisticated rich households unsure they can pass PMT so don't apply
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ benefit of unsophisticated households? Secret PMT formula?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Self-Selection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 5.png
+	width 85page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Selection on Observables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 6.png
+	width 85page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Selection on Unobservables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 7.png
+	width 85page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Self-Selection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Logit: 
+\begin_inset Formula $\mathbb{P}\left(\text{show-up}_{i}=1\right)=\exp\left(\alpha+\gamma y_{i}^{o}+\psi y_{i}^{u}\right)/1+\exp\left(\alpha+\gamma y_{i}^{o}+\psi y_{i}^{u}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 8.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Self-Targeting vs Automatic
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 9.png
+	width 85page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Self-Targeting vs Automatic
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 11.png
+	width 95page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 12.png
+	width 95page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Changing the Ordeal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Compare far (average 1.83 km) to close (0.27 km) subtreatments
+\begin_inset Formula 
+\[
+\mathbb{P}\left(\text{show-up}_{i}=1\right)=\tfrac{\exp\left(\alpha+\beta\text{Close}_{v}+\gamma y_{vi}+\eta\text{Close}_{v}\times y_{vi}\right)}{1+\exp\left(\alpha+\beta\text{Close}_{v}+\gamma y_{vi}+\eta\text{Close}_{v}\times y_{vi}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 13.png
+	width 95page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Model and Mechanisms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use GMM to estimate model parameters.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assumptions:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\varepsilon\sim logistic$
+\end_inset
+
+ with mean 
+\begin_inset Formula $v_{\varepsilon}$
+\end_inset
+
+ and sd 
+\begin_inset Formula $\sigma_{\varepsilon}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Unsophisticated beliefs: probit 
+\begin_inset Formula $\lambda\left(y\right)=\Phi\left(\gamma+\pi y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Transfer's NPV.
+ Use government credit scheme's interest rate 22%
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+5 parameters to fit: 
+\begin_inset Formula $v_{\varepsilon},\sigma_{\varepsilon},\alpha,\lambda\left(y\right),\gamma,\pi$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Speciffy 
+\begin_inset Formula $c\left(y_{i},l_{i}\right)=\text{wage}_{i}\times\left(\text{traveltime}_{i}+\text{waitingtime}\right)+\text{travelmoney}_{i}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Model and Mechanisms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Moments:
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Show-up rates in 5 quintiles of consumption and far/close treatments 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 10 moments
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Show-up rates in {top/bottom tercile 
+\begin_inset Formula $y^{o}$
+\end_inset
+
+} 
+\begin_inset Formula $\times$
+\end_inset
+
+ {top/bottom tercile 
+\begin_inset Formula $y^{u}$
+\end_inset
+
+} 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 4 moments
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Show-up rates in top/bottom quartiles of distance 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 2 moments
+\begin_inset Formula 
+\begin{align*}
+\textsf{E}\left[\Phi\left(\gamma+\pi y_{i}\right)-\text{benefit}_{i}\vert\text{show-up}_{i}=1\right] & =0\\
+\textsf{E}\left[\left[\Phi\left(\gamma+\pi y_{i}\right)-\text{benefit}_{i}\right]\left(y_{i}-\overline{y}\right)\vert\text{show-up}_{i}=1\right] & =0\\
+\textsf{E}\left[\lambda_{ind}\left(y_{i}\right)-\text{benefit}_{i}\vert\text{show-up}_{i}=1\right] & =0\\
+\textsf{E}\left[\left[\lambda_{ind}\left(y_{i}\right)-\text{benefit}_{i}\right]\left(y_{i}-\overline{y}\right)\vert\text{show-up}_{i}=1\right] & =0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Model Parameters
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 14.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Mechanisms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 15.png
+	width 95page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 16.png
+	width 95page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alatas et al (2016): Alternative Policies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 17.png
+	width 95page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Alatas et al 2016 18.png
+	width 95page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Cohen Dupas & Schaner (AER 2015) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Price Subsidies, Diagnostic Tests, and Targeting of Malaria Treatment: Evidence
+ from a Randomized Controlled Trial
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Usually, the targeting tradeoff is that people who know they are ineligible
+ may try to mimic the deserving types in order to gain access to the transfer.
+\end_layout
+
+\begin_layout Itemize
+What if incentives are aligned (government and households agree on who should
+ receive the transfer) but households don't know whether they're eligible?
+\end_layout
+
+\begin_layout Itemize
+Here: Malaria treatments: artemisinin combination therapies (ACT)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Huge benefits if have malaria.
+\end_layout
+
+\begin_layout Itemize
+no direct benefits if don't have malaria, people don't learn real reason
+ they're sick, speeds up development of parasite's resistence.
+\end_layout
+
+\begin_layout Itemize
+But people who are sick don't know for sure whether they have malaria (or
+ something else) so many people take malaria treatments just in case.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Experiment in Kenya to test impact of 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+better diagnosis technology
+\end_layout
+
+\begin_layout Itemize
+subsidies for ACTs
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Malaria causes 200 million illnesses, kills 600K people a year
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Many countries (ncluding Kenya) provide ACTs for free at public health facilitie
+s if diagnosed with malaria.
+ But...
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+diagnosis often incorrect
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+stockouts common
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Have to pay fees, travel far, line up, etc...
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Many households go to private drugstores to get ACTs or other over-the-counter
+ medications (40–97% of the market!)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Large subsidies to ACTs to improve access.
+ Subsidy 
+\begin_inset Formula $\sim95\%$
+\end_inset
+
+ of cost 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When households receive an illness shock they pick an action 
+\begin_inset Formula 
+\[
+a\in\begin{cases}
+h & \text{seek diagnosis at a formal health facility}\\
+s & \text{buy ACTs at a shop}\\
+n & \text{buy non-ACT drugs or do nothing}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Households who fall ill form a subjective probability that the illnes is
+ malaria with probability 
+\begin_inset Formula $\pi$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+V^{a}\left(\pi\right) & =\pi\left[U_{P}^{a}\left(\pi\right)-p_{P}^{a}\left(\pi\right)\right]+\left(1-\pi\right)\left[U_{N}^{a}\left(\pi\right)-p_{N}^{a}\left(\pi\right)\right]\\
+ & =\pi V_{P}^{a}\left(\pi\right)+\left(1-\pi\right)V_{N}^{a}\left(\pi\right)
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $P$
+\end_inset
+
+ denotes malaria-positive, 
+\begin_inset Formula $N$
+\end_inset
+
+ malaria negative.
+\end_layout
+
+\begin_layout Itemize
+Assume value of acting increasing with 
+\begin_inset Formula $\pi$
+\end_inset
+
+: 
+\begin_inset Formula $\partial\left(V^{a}\left(\pi\right)-V^{n}\left(\pi\right)\right)/\partial\pi>0$
+\end_inset
+
+ for 
+\begin_inset Formula $a\in\left\{ h,s\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Go to the drug shop iff
+\begin_inset Formula 
+\[
+V^{s}\left(\pi\right)>\max\left\{ V^{h}\left(\pi\right),V^{n}\left(\pi\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 1.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Adding an ACT Subsidy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 2.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Effects of subsidy:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+More access: More people get ACTs
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Worse targeting: People induced to use ACTs have lower 
+\begin_inset Formula $\pi$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Better targeting possible if lots of poor people with high 
+\begin_inset Formula $\pi$
+\end_inset
+
+ can't afford ACTs.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What about Retail Diagnosis Test (RDT) to improve accuracy of 
+\begin_inset Formula $\pi$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+introduce 
+\begin_inset Formula $V^{r}\left(\pi\right)$
+\end_inset
+
+: Value of taking the RDT and then getting ACT if positive.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $V^{r}\left(\pi\right)>V^{s}\left(\pi\right)$
+\end_inset
+
+ at low 
+\begin_inset Formula $\pi$
+\end_inset
+
+ since 
+\begin_inset Formula $V^{s}$
+\end_inset
+
+ relatively more attractive as 
+\begin_inset Formula $\pi$
+\end_inset
+
+ increases.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Effect of RDT
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 3.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Experimental Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Experiment in Western Kenya in May–December 2009
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Sample 4 rural drug shops.
+ Sample all households in 4 km catchment radius
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ecery household interviewed for baseline survey
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+At the end of the interview, households get 2 ACT vouchers and 2 RDT vouchers
+ if applicable.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Vouchers redeemable at the local drug shop
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Enumerators explain what RDT is and how it works
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Experimental Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 4.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Balance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 5.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Balance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 6.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Balance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 7.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+3 data sources
+\end_layout
+
+\begin_layout Enumerate
+Administrative data from drug shop.
+ Captured by surveyors posted at the 4 shops every single day.
+ Contains 1,700 drug shop visits over 4 months.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Also administer 
+\begin_inset Quotes eld
+\end_inset
+
+surprise ADTs
+\begin_inset Quotes erd
+\end_inset
+
+ to random subset of people who redeem ACT voucher (to measure true malarial
+ status)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Endline survey data from 4 months after vouchers distributed.
+ Includes recall data on all illnesses, where/what treatment sought.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Symptoms database: 1-year after vouchers, surveyors did unannounced household
+ survey.
+ Ask if anyone is ill and collect all symptoms and administer RDT.
+ Use these to construct 
+\begin_inset Quotes eld
+\end_inset
+
+predicted
+\begin_inset Quotes erd
+\end_inset
+
+ malaria scores (proxy for 
+\begin_inset Formula $\pi$
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): ACT Acces
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y_{eh}=\delta+\textbf{ACTsub}_{h}^{\prime}\boldsymbol{\alpha}+\mathbf{x}_{h}^{\prime}\boldsymbol{\gamma}+\lambda_{strata}+\varepsilon_{eh}
+\]
+
+\end_inset
+
+
+\begin_inset VSpace -1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 8.png
+	width 87page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Subsidy Level
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 9.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Targeting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+pos_{h}=\beta_{0}+\beta_{1}ACT88_{h}+\beta_{2}ACT80_{h}+\varepsilon_{h}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 10.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Mechanism
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 11.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): RDT
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 12.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): RDT and targeting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 13.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): RDT compliance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 14.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cohen et al (2015): Alternative Subsidy Schemes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cohen et al 15.png
+	width 90page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Transfer Design
+\end_layout
+
+\end_inset
+
+Transfer Design: What is the Benefit?
+\end_layout
+
+\begin_layout Subsection
+Baird McIntosh & Özler (QJE 2011) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Cash or Condition? Evidence from a Cash Transfer Experiment
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Should cash transfers come with conditions?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CCT: Market failures lead to underinvestment in education/health, conditions
+ make transfers easier to 
+\begin_inset Quotes eld
+\end_inset
+
+sell
+\begin_inset Quotes erd
+\end_inset
+
+ politically
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+UCT: Conditions uneffective, and very costly to enforce
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Conditions are common around the world (attend school, attend clinics for
+ checkups, government work) but
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+are they effective at increasing targeted behavior?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+What other behaviors do they end up distorting?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Explore these questions in an experiment in Malawi
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work in Zomba District in southern Malawi
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Sample 176 of the 550 Enumeration Areas (EAs) in 3 strata.
+ 29 in Zomba city 119 within 16 km, 28 
+\begin_inset Quotes eld
+\end_inset
+
+far rural
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Survey to get census of never-married females aged 13-22.
+ Those in school at baseline (87%) are the target population for the study.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Randomly sample, stratifying by age and stratum, to get 2,907 schoolgirls.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+T1:
+\end_layout
+
+\end_inset
+
+CCT arm (46 EAs).
+ 12/2007 & 1/2008.
+ offered parents monthly transfer on condition regularly attend school.
+ Transfer amount to the parent randomly varied, $4, $6, $8, $10/month, and
+ to the schoolgirl $1, $2, $3, $4, $5.
+ Paid school fees.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+T2: 
+\end_layout
+
+\end_inset
+
+UCT arm (27 EAs).
+ Identical offers, but no requirement to attend school
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Controls: (88 EAs).
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Track attendance, other outcomes for 2008, 2009
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Attrition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 1.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Enrolment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 2.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Misreporting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 3.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Attendance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 4.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Attainment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 5.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Marriage & Pregnancy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 6.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Decomposition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How to rationalize these results? Imagine 3 strata of schoolgirls:
+\end_layout
+
+\begin_layout Enumerate
+UCT Compliers: UCT is sufficient to keep them in school.
+ Differences in program impact must be due to intensive margin responses
+ to conditionality
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+CCT Compliers: Enrolled under CCT but not UCT.
+ Conditionality lowers opportunity cost of schooling.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Noncompliers: Never enrol.
+ Only receive transfers under UCT.
+\end_layout
+
+\begin_layout Itemize
+Overall effects depend on sizes of the three strata and effects in each
+ group.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Strata Sizes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 7.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Enrolment and Marriage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 8.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (2011): Age Heterogeneity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 9.png
+	width 85page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Baird et al (20110: Transfer Amount Elasticities
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 10.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Subsection
+Cunha, De Giorgi & Jayachandran (2017) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The Price Effects of Cash Versus In-Kind Transfers
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Should transfers be cash or in-kind?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In-kind transfers could do better at targeting.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cash transfers have lower admin costs, and give recipients freedom to choose.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Also: transfers may affect prices.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+cash transfers increase demand for normal goods 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ prices increase
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+in-kind transfers increase demand for normal goods, but also increase supply
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ lower prices under in-kind transfer
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Test this in an experiment in Mexico.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Conceptual Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Small open economy 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ no price effects.
+ Prices pinned down by world prices
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Think of partially-closed village economies.
+ Prices depend on local conditions.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Local suppliers are shopkeepers, supplying packaged food bought from outside
+ the village.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case 1: Perfect competition
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cash transfer of 
+\begin_inset Formula $X_{Cash}$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ demand shifts out, prices go up: 
+\begin_inset Formula $\partial p/\partial X_{Cash}>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In-kind transfer with value 
+\begin_inset Formula $X_{InKind}$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ same demand shift.
+ Influx of supply 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ residual demand facing local suppliers shifts left.
+ 
+\begin_inset Formula 
+\[
+\frac{\partial p}{\partial X_{InKind}}-\frac{\partial p}{\partial X_{Cash}}<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cunha et al 1.png
+	height 90pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cunha et al 2.png
+	height 90pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Conceptual Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Case 3: Cournot-Nash.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $N$
+\end_inset
+
+ firms with constant MC 
+\begin_inset Formula $c$
+\end_inset
+
+ and linear demand 
+\begin_inset Formula $p=d-Q$
+\end_inset
+
+.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equilibrium prices: 
+\begin_inset Formula $p=\left(d+Nc\right)/\left(N+1\right)$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Transfer changes 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\Delta d$
+\end_inset
+
+ larger for cash transfer.
+ Then 
+\begin_inset Formula $\Delta p/p=\Delta d/\left(d+Nc\right)$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In a more general Cournot model, can show dependence on degree of competition
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial^{2}p}{\partial N\partial X_{Cash}} & <0\\
+\frac{\partial}{\partial N}\left(\frac{\partial p}{\partial X_{InKind}}-\frac{\partial p}{\partial X_{Cash}}\right) & >0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study Programa de Apoyo Alimentario (PAL) in Mexico
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Operates in 5,000 very poor, rural villages in Mexico.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Villages eligible if population under 2.5K, and classified as highly marginalized.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Typically poorer than Progresa/Oportunidades villages.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+PAL provides monthly in-kind allotment:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+7 basics (corn flour, rice, beans, pasta, biscuits, fortified milk powder,
+ vegetable oil)
+\end_layout
+
+\begin_layout Itemize
+2-4 supplements (canned tuna/sardines, lentils, corn starch, chocolate powder,
+ cereal)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Allotment inframarginal for most households (consumption > allotment)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Experimental Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+During roll-out of the program, 208 villages randomly selected
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Each village randomly assigned to in-kind, cash, or control.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In-kind transfer of MX$150 is 
+\begin_inset Formula $\sim18\%$
+\end_inset
+
+ of households' food expenditures.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cash transfer is 
+\begin_inset Formula $\sim8\%$
+\end_inset
+
+ of recipients' income, 
+\begin_inset Formula $7\%$
+\end_inset
+
+ increase in village income.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Value of the in-kind transfer: Market value is MX$ 206
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+116 pesos-worth consumed (infra-marginal)
+\end_layout
+
+\begin_layout Itemize
+35 pesos of extra consumption of transferred goods (extra-marginal, value
+ at 2/3 discount)
+\end_layout
+
+\begin_layout Itemize
+55 pesos not consumed, presumably resold (extra-marginal, assume transaction
+ costs of selling 2/3 of value)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ value to recipients is 146 pesos
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): PAL transfer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cunha et al 3.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Data and Empirical Strategy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Want to estimate regressions like 
+\begin_inset Formula 
+\[
+p_{gsv}=\alpha+\beta_{1}InKind_{v}+\beta_{2}Cash_{v}+\phi p_{gv,t-1}+\sigma I_{gv}+\varepsilon_{gsv}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $p_{gsv}$
+\end_inset
+
+ is price of good 
+\begin_inset Formula $g$
+\end_inset
+
+ at store 
+\begin_inset Formula $s$
+\end_inset
+
+ in village 
+\begin_inset Formula $v$
+\end_inset
+
+, 
+\begin_inset Formula $I_{gv}$
+\end_inset
+
+ indicates imputed price
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Data from surveys of stores and households.
+ Baseline data from 2003Q4 & 2004Q1.
+ Follow-up survey in 2005Q4.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Survey data on prices of 66 food items from stores, markets.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Price data missing for 19% of village-goods.
+ Impute from household survey (expenditure/quantity).
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+End up with 360 stores in 194 villages and 12,940 good-village-store observation
+s
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Price Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cunha et al 4.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Persistence
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cunha et al 5.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Heterogeneity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cunha et al 6.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cunha et al (2017): Effects on Producers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Cunha et al 7.png
+	width 82page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Open Questions
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Open Questions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How do taxes interact with labor market informality?
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How regressive are taxes that are commonly evaded?
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Does technology allow developing-country tax administrations to leapfrog
+ rich countries and improve enforcement?
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How do policy and administration interact?
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How does politics affect tax systems' design and administration?
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How do taxes affect market structure when there's lots of informality?
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How should tax administrations be organized? Hierarchically? By function?
+ By geography? Independent of government?
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
