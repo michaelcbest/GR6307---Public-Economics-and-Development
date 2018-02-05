@@ -265,32 +265,172 @@ Trends in Social Programs over time and across countries
 \begin_deeper
 \begin_layout Standard
 \align center
+\begin_inset Graphics
+	filename World Bank 1.png
+	width 90page%
 
-\emph on
-It is shortage of resources, and not inadequate incentives, which limits
- the pace of economic development.
- Indeed the importance of public revenue from the point of view of accelerated
- economic development could hardly be exaggerated.
- 
-\end_layout
-
-\begin_layout Standard
-
-\size small
-Nicholas Kaldor, 
-\emph on
-“Taxation for Economic Development,”
-\emph default
- Journal of Modern African Studies, 1963, p.
- 7.
-\size default
-
-\begin_inset VSpace bigskip
 \end_inset
 
 
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trends in Social Programs over time and across countries
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename World Bank 2.png
+	width 93page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trends in Social Programs over time and across countries
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename World Bank 3.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trends in Social Programs over time and across countries
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename World Bank 4.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trends in Social Programs over time and across countries
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename World Bank 5.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trends in Social Programs over time and across countries
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename World Bank 6.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_deeper
 \end_deeper
 \begin_layout Section
 Theory
@@ -11677,7 +11817,8 @@ Open Questions
 
 \begin_deeper
 \begin_layout Itemize
-How do taxes interact with labor market informality?
+How do transfers interact with labor market formality? Should transfers
+ be made conditional on having (previously held) formal work?
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -11685,7 +11826,8 @@ How do taxes interact with labor market informality?
 \end_layout
 
 \begin_layout Itemize
-How regressive are taxes that are commonly evaded?
+How can governments reduce the administrative burden of enforcing conditionality
+/eligibility? What role does technology play in this?
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -11693,8 +11835,8 @@ How regressive are taxes that are commonly evaded?
 \end_layout
 
 \begin_layout Itemize
-Does technology allow developing-country tax administrations to leapfrog
- rich countries and improve enforcement?
+What types of transfer programs face the fewest political economy challenges?
+ In what circumstances will governments adopt what types of policies?
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -11702,7 +11844,8 @@ Does technology allow developing-country tax administrations to leapfrog
 \end_layout
 
 \begin_layout Itemize
-How do policy and administration interact?
+Who should administer transfer programs? What level of government? How much
+ to rely on self-reporting? 
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -11710,24 +11853,8 @@ How do policy and administration interact?
 \end_layout
 
 \begin_layout Itemize
-How does politics affect tax systems' design and administration?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How do taxes affect market structure when there's lots of informality?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How should tax administrations be organized? Hierarchically? By function?
- By geography? Independent of government?
+How much do eligibility requirements reduce incentives to graduate out of
+ eligibility? To stay in rural areas?
 \end_layout
 
 \end_deeper
