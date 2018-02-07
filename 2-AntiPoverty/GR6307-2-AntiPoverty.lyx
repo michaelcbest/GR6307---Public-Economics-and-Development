@@ -857,7 +857,7 @@ Saez (2002): Only Extensive Margin
 
 \begin_deeper
 \begin_layout Itemize
-Suppose every individual is indowed with a skill 
+Suppose every individual is endowed with a skill 
 \begin_inset Formula $i\in\left\{ 0,1,\ldots,I\right\} $
 \end_inset
 
@@ -1350,16 +1350,16 @@ Intensive elasticity
 \end_inset
 
 : Use traditional estimates of 
-\begin_inset Formula $\epsilon=d\log y/d\log\left(1-\tau\right)$
+\begin_inset Formula $\varepsilon=d\log y/d\log\left(1-\tau\right)$
 \end_inset
 
 .
  
-\begin_inset Formula $\epsilon_{L}\in\left\{ 0,0.25,0.5\right\} $
+\begin_inset Formula $\varepsilon_{L}\in\left\{ 0,0.25,0.5\right\} $
 \end_inset
 
  below $20K, 
-\begin_inset Formula $\epsilon_{H}\in\left\{ 0.25,0.5\right\} $
+\begin_inset Formula $\varepsilon_{H}\in\left\{ 0.25,0.5\right\} $
 \end_inset
 
  above $20K

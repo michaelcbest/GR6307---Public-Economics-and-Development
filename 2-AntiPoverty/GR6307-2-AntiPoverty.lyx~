@@ -311,6 +311,14 @@ Trends in Social Programs over time and across countries
 
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -335,6 +343,14 @@ Trends in Social Programs over time and across countries
 	filename World Bank 3.png
 	width 92page%
 
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
@@ -369,6 +385,14 @@ Trends in Social Programs over time and across countries
 
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -393,6 +417,14 @@ Trends in Social Programs over time and across countries
 	filename World Bank 5.png
 	width 92page%
 
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
@@ -427,10 +459,6 @@ Trends in Social Programs over time and across countries
 
 \end_layout
 
-\end_deeper
-\end_deeper
-\end_deeper
-\end_deeper
 \end_deeper
 \begin_layout Section
 Theory
@@ -829,7 +857,7 @@ Saez (2002): Only Extensive Margin
 
 \begin_deeper
 \begin_layout Itemize
-Suppose every individual is indowed with a skill 
+Suppose every individual is endowed with a skill 
 \begin_inset Formula $i\in\left\{ 0,1,\ldots,I\right\} $
 \end_inset
 
