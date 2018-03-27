@@ -903,7 +903,7 @@ Banerjee et al.
 
 \begin_deeper
 \begin_layout Itemize
-Assume the government cares about social welfare only (could generalize.
+Assume the government only cares about social value of slots (Could generalize.
  How?)
 \end_layout
 
@@ -913,15 +913,46 @@ Government's objective is to choose the rules
 \end_inset
 
  to maximize
+\size small
+
 \begin_inset Formula 
 \begin{align*}
-\underbrace{\int N_{H}\pi_{HS}\left(R\left(\mathcal{R},\gamma\right)\right)HdG\left(\gamma\right)}_{\text{(expected) social value of slots to \ensuremath{H}}}+\underbrace{\int N_{L}\pi_{LS}\left(R\left(\mathcal{R},\gamma\right)\right)\left[1-\phi_{L}\left(t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)\right)\right]LdG\left(\gamma\right)}_{\text{social value of slots to \ensuremath{L} who pass test}}\\
-+\underbrace{\int N_{L}\pi_{LF}\left(R\left(\mathcal{R},\gamma\right)\right)\phi_{L}\left(t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)\right)LdG\left(\gamma\right)}_{\text{social value of slots to \ensuremath{L} who fail test}}-
+\underbrace{\int N_{H}\pi_{HS}\left(R\left(\mathcal{R},\gamma\right)\right)HdG\left(\gamma\right)}_{\text{(expected) social value of slots to \ensuremath{H}}}\\
++\underbrace{\int N_{L}\pi_{LS}\left(R\left(\mathcal{R},\gamma\right)\right)\left[1-\phi_{L}\left(t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)\right)\right]LdG\left(\gamma\right)}_{\text{social value of slots to \ensuremath{L} who pass test}}\\
++\underbrace{\int N_{L}\pi_{LF}\left(R\left(\mathcal{R},\gamma\right)\right)\phi_{L}\left(t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)\right)LdG\left(\gamma\right)}_{\text{social value of slots to \ensuremath{L} who fail test}}\\
+-\underbrace{\int\left(\nu+\delta\right)N_{H}t_{H}\left(R\left(\mathcal{R},\gamma\right)\right)dG\left(\gamma\right)}_{\text{social cost of testing \ensuremath{H}}}-\underbrace{\int\left(\nu+\delta\right)N_{L}t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)dG\left(\gamma\right)}_{\text{social cost of testing \ensuremath{L}}}
 \end{align*}
 
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: 4 Cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+TABLE
 \end_layout
 
 \end_deeper
@@ -938,8 +969,26 @@ Financial Incentives
 Financial Incentives
 \end_layout
 
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Papers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 Duflo teachers pictures with intro on absenteeism
+\end_layout
+
+\begin_layout Standard
+Karthik and Sandip's 2011
 \end_layout
 
 \begin_layout Standard
@@ -947,13 +996,10 @@ Khan Khwaja Olken
 \end_layout
 
 \begin_layout Standard
-Karthik 2011
+auditors reputation paper
 \end_layout
 
-\begin_layout Standard
-auditors reputation paper?
-\end_layout
-
+\end_deeper
 \begin_layout Section
 \begin_inset Argument 2
 status open
@@ -967,6 +1013,20 @@ Non-financial Incentives
 Non-financial Incentives
 \end_layout
 
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Papers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 Khan Khwaja Olken
 \end_layout
@@ -983,19 +1043,34 @@ Callen personalities
 discretion paper
 \end_layout
 
+\end_deeper
 \begin_layout Section
 \begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-Transfer Design
+Recruitment & Selection
 \end_layout
 
 \end_inset
 
-Selection
+Recruitment & Selection
 \end_layout
 
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Papers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 Do gooders
 \end_layout
@@ -1008,8 +1083,17 @@ Dal Bo
 Erika
 \end_layout
 
+\begin_layout Standard
+Weaver or Iyer
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Subsection
-Stuff
+Ashraf et al.
 \end_layout
 
 \begin_layout Section
@@ -1031,44 +1115,7 @@ Open Questions
 
 \begin_deeper
 \begin_layout Itemize
-How do transfers interact with labor market formality? Should transfers
- be made conditional on having (previously held) formal work?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How can governments reduce the administrative burden of enforcing conditionality
-/eligibility? What role does technology play in this?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-What types of transfer programs face the fewest political economy challenges?
- In what circumstances will governments adopt what types of policies?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Who should administer transfer programs? What level of government? How much
- to rely on self-reporting? 
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How much do eligibility requirements reduce incentives to graduate out of
- eligibility? To stay in rural areas?
+?
 \end_layout
 
 \end_deeper

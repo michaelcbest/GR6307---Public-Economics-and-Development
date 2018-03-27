@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -116,6 +116,8 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -155,6 +157,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -163,7 +166,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -951,10 +957,2558 @@ Banerjee et al.
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-TABLE
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valuation
 \end_layout
 
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agent's Relative Ability to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+of Slot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}\leq y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h>l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case I: Alignment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case III: Inability to Pay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h\leq l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case II: Unwillingness to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case IV: Misalignment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case I: Social and private value rankings align
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Pure market case 
+\begin_inset Formula $H=h=y_{H}$
+\end_inset
+
+, 
+\begin_inset Formula $L=l=y_{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Choosing an efficient contractor: 
+\begin_inset Formula $H$
+\end_inset
+
+ types are more efficient, make more money 
+\begin_inset Formula $h>l$
+\end_inset
+
+.
+ Also probably 
+\begin_inset Formula $y_{H}=h$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{L}=l$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Allocating import licenses: 
+\begin_inset Formula $H$
+\end_inset
+
+ types make most profits.
+ But credit constraints might bind: 
+\begin_inset Formula $y_{H}<h=H$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{L}<l=L$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: 4 Cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valuation
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agent's Relative Ability to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+of Slot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}\leq y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h>l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case I: Alignment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case III: Inability to Pay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h\leq l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case II: Unwillingness to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case IV: Misalignment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case II: Seems pretty unlikely.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A merit good? e.g.
+ subsidized condoms.
+ 
+\begin_inset Formula $H$
+\end_inset
+
+ are high risk types.
+ But they like risk so 
+\begin_inset Formula $h<l$
+\end_inset
+
+.
+ Could also be richer so 
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: 4 Cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valuation
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agent's Relative Ability to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+of Slot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}\leq y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h>l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case I: Alignment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case III: Inability to Pay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h\leq l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case II: Unwillingness to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case IV: Misalignment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case III: Social and pivate values are aligned, but the high value types
+ can't afford it as much as the low value types
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hospital beds.
+ 
+\begin_inset Formula $H$
+\end_inset
+
+ needs bed urgently (e.g.
+ cardiac vs cosmetic surgery).
+ 
+\begin_inset Formula $H=h>L=l$
+\end_inset
+
+.
+ But no reason to assume 
+\begin_inset Formula $H$
+\end_inset
+
+ can afford more.
+ e.g.
+ 
+\begin_inset Formula $y_{H}=y_{L}=y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Targeting subsidized food to the poor.
+ 
+\begin_inset Formula $H=h>L=l$
+\end_inset
+
+ but 
+\begin_inset Formula $y_{H}<y_{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Allocating government jobs.
+ Best candidates also value job the most (possibly because of private benefits!).
+ But constrained in how much they can pay for the job up front.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: 4 Cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valuation
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agent's Relative Ability to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+of Slot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}\leq y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h>l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case I: Alignment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case III: Inability to Pay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h\leq l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case II: Unwillingness to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case IV: Misalignment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case IV: The government wants to give the slots to those who value it the
+ least
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Law enforcement: Slot is avoiding jail 
+\begin_inset Formula $H>0>L$
+\end_inset
+
+, 
+\begin_inset Formula $y_{H}=y_{L}=y$
+\end_inset
+
+, 
+\begin_inset Formula $h=l>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Driving licenses.
+ Bad drivers more likely to get in trouble, so 
+\begin_inset Formula $H>0>L$
+\end_inset
+
+, 
+\begin_inset Formula $y_{H}=y_{L}=y$
+\end_inset
+
+.
+ 
+\begin_inset Formula $h<l$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Procurement: Imagine there are high and low quality firms.
+ The slot is the contract.
+ Want to buy from high quality firms 
+\begin_inset Formula $\left(H>L\right)$
+\end_inset
+
+ even though costs higher 
+\begin_inset Formula $\left(l>h\right)$
+\end_inset
+
+.
+ Without credit constriants, 
+\begin_inset Formula $y_{H}=h$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{L}=l$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $N_{H}<1$
+\end_inset
+
+ but 
+\begin_inset Formula $L>0$
+\end_inset
+
+ so optimal to give leftover slots to 
+\begin_inset Formula $L$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We will analyze 4 possible mechanisms:
+\end_layout
+
+\begin_layout Enumerate
+The socially optimal mechanism
+\end_layout
+
+\begin_layout Enumerate
+All slots to the highest bidder: The 
+\emph on
+auction
+\emph default
+ mechanism
+\end_layout
+
+\begin_layout Enumerate
+Pay to avoid missing out on a slot: The 
+\emph on
+monopoly
+\emph default
+ mechanism
+\end_layout
+
+\begin_layout Enumerate
+Using testing to deter mimicry: The 
+\emph on
+testing
+\emph default
+ mechanism
+\end_layout
+
+\begin_layout Itemize
+We will characterize each mechanism and show when the bureaucrat will pick
+ each one
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Candidate solution:
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =y_{L}+\epsilon,\:p_{L}=y_{L}\\
+\pi_{H} & =1,\:\pi_{L}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Low types can't mimic (can't afford 
+\begin_inset Formula $p_{H}$
+\end_inset
+
+).
+ High types won't mimic as long as 
+\begin_inset Formula 
+\[
+\underbrace{h-\left(y_{L}+\varepsilon\right)}_{\text{slot for sure at }p_{H}}\geq\underbrace{\frac{1-N_{H}}{N_{L}}\left(h-y_{L}\right)}_{\text{slot w/pr }\left(1-N_{H}\right)/N_{L}\text{ at price }p_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This can always be guaranteed for small enough 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Affordable to 
+\begin_inset Formula $H$
+\end_inset
+
+ since 
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Feasible since 
+\begin_inset Formula $\pi_{L}$
+\end_inset
+
+ chosen to satisfy slot constraint
+\end_layout
+
+\begin_layout Itemize
+Let 
+\begin_inset Formula $E$
+\end_inset
+
+ be set of 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+s such that this mechanism is in 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Will the bureaucrat choose 
+\begin_inset Formula $\epsilon\in E$
+\end_inset
+
+? Given the fixed cost of breaking the rules, if he breaks them, he'll maximize
+ his profits.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How can the bureaucrat extract more rents? Given 
+\begin_inset Formula $\pi_{L}$
+\end_inset
+
+ the highest price he can charge 
+\begin_inset Formula $H$
+\end_inset
+
+s is
+\begin_inset Formula 
+\[
+p_{H}=p_{H}^{*}=\min\left\{ y_{H},y_{L}+\left(h-y_{L}\right)\frac{N-1}{N_{L}}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Auction mechanism
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =p_{H}^{*},\:p_{L}=y_{L}\\
+\pi_{H} & =1,\:\pi_{L}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The auction mechanism still leave 
+\begin_inset Formula $H$
+\end_inset
+
+s positive surplus: 
+\begin_inset Formula $p_{H}^{*}<y_{H}$
+\end_inset
+
+.
+ Can the bureaucrat extract more?
+\end_layout
+
+\begin_layout Itemize
+He needs to satisfy the mimicry constraint.
+ So he can play with 
+\begin_inset Formula $\pi_{L}$
+\end_inset
+
+ to do this and maybe get more money.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ the Monopoly mechanism.
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =\tilde{p}_{H}\leq y_{H},\:p_{L}=y_{L}\\
+\pi_{H} & =1,\:\pi_{L}=\min\left\{ \frac{h-\tilde{p}_{H}}{h-y_{L}},\frac{1-N_{H}}{1-N_{L}}\right\} \\
+t_{H} & =t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note, this mechanism is inefficient whenever 
+\begin_inset Formula $\pi_{L}<\left(1-N_{H}\right)/\left(1-N_{L}\right)$
+\end_inset
+
+.
+ Slots are wasted
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Will the bureaucrat prefer the auction or monopoly mechanism?
+\end_layout
+
+\begin_layout Itemize
+The profits to the bureaucrat from the monopoly mechanism are
+\begin_inset Formula 
+\[
+N_{H}\left(\tilde{p}_{H}-p\right)+N_{L}\frac{h-\tilde{p}_{H}}{h-y_{L}}\left(y_{L}-p\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note that at 
+\begin_inset Formula $\tilde{p}=y_{L}+\left(h-y_{L}\right)\left(N-1\right)/N_{L}$
+\end_inset
+
+ he gets the auction mechanism profit
+\end_layout
+
+\begin_layout Itemize
+Profits are increasing in 
+\begin_inset Formula $\tilde{p}_{H}$
+\end_inset
+
+ iff
+\begin_inset Formula 
+\[
+N_{H}>N_{L}\frac{y_{L}-p}{h-y_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If this condition holds, the monopoly mechanism with 
+\begin_inset Formula $\tilde{p}_{H}=y_{H}$
+\end_inset
+
+ dominates.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Finally, consider the testing mechanism:
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =\min\left\{ y_{H},h-\left(h-l\right)\frac{1-N_{H}}{N_{L}}\right\} ,\:p_{LS}=p_{LF}=y_{L}\\
+\pi_{H} & =1,\:\pi_{LS}=\pi_{LF}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =0,\:t_{L}=\max\left\{ 0,\frac{1}{\delta}\min\left\{ \left(h-y_{L}\right)\frac{1-N_{H}}{N_{L}}-\left(h-y_{H}\right),\right.\right.\\
+ & \qquad\qquad\qquad\qquad\qquad\qquad\left.\left.\left(l-y_{L}\right)\frac{1-N_{H}}{N_{L}}\right\} \right\} 
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Aim: Use testing to relax the IC constraint that 
+\begin_inset Formula $H$
+\end_inset
+
+s don't mimic 
+\begin_inset Formula $L$
+\end_inset
+
+s
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note testing here is completely wasteful: Nothing depends on the outcome.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $H$
+\end_inset
+
+ types more likely to pass, so don't want to reward passing (trying to discourag
+e pretending to be 
+\begin_inset Formula $L$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $H$
+\end_inset
+
+ types can fail on purpose, so don't want to reward failing
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Testing relaxes the IC constraint though:
+\begin_inset Formula 
+\[
+h-p_{H}\geq\left(h-y_{L}\right)\frac{1-N_{H}}{N_{L}}-\delta t_{L}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+RHS decreasing in 
+\begin_inset Formula $t_{L}$
+\end_inset
+
+ so can increase 
+\begin_inset Formula $p_{H}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Can't go past 
+\begin_inset Formula $y_{H}$
+\end_inset
+
+ so 
+\begin_inset Formula 
+\[
+\delta t_{L}\leq h-y_{H}-\left(h-y_{L}\right)\frac{1-N_{H}}{N_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Also can't scare away all the 
+\begin_inset Formula $L$
+\end_inset
+
+s
+\begin_inset Formula 
+\[
+\delta t_{L}\leq\left(l-y_{L}\right)\frac{1-N_{H}}{N_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This doesn't exhaust all possible mechanisms, but they're useful archetypes.
+ So which one will the bureaucrat choose?
+\end_layout
+
+\begin_layout Itemize
+Scenario 1: Suppose that 
+\begin_inset Formula $\left(h-y_{L}\right)\frac{N-1}{N_{L}}+y_{L}\geq y_{H}$
+\end_inset
+
+.
+ Now the auction mechanism extracts the most rents.
+ The government gives the bureaucrat full discretion and sets 
+\begin_inset Formula $p$
+\end_inset
+
+ to dicide the surplus between them.
+\end_layout
+
+\begin_layout Itemize
+Scenario 2: 
+\begin_inset Formula $\left(h-y_{L}\right)\frac{N-1}{N_{L}}+y_{L}<y_{H}$
+\end_inset
+
+ but testing is a) easy: 
+\begin_inset Formula $\nu=0$
+\end_inset
+
+, and b) effective, 
+\begin_inset Formula $y_{H}\leq h-\left(h-l\right)\frac{1-N_{H}}{N_{L}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government can set a rule that price must be below 
+\begin_inset Formula $\left(h-y_{L}\right)\frac{N-1}{N_{L}}+y_{L}$
+\end_inset
+
+ and there cannot be any testing.
+ Bureaucrats with high 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ will follow this rule and choose the auction mechanism.
+ Those with low 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ will break it and choose either the testing or monopoly mechanism.
+ In equilibrium there are both bribes and inefficiency.
+\end_layout
+
+\begin_layout Itemize
+Note that therefore the optimal rules depend on the degree of corruptibility
+ of the bureaucrats.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scenario 3: 
+\begin_inset Formula $\left(h-y_{L}\right)\frac{N-1}{N_{L}}+y_{L}<y_{H}$
+\end_inset
+
+ but testing is hard: 
+\begin_inset Formula $\nu\gg0$
+\end_inset
+
+ so bureaucrats don't use red tape.
+\end_layout
+
+\begin_layout Itemize
+Without rules the bureaucrats choose either auction or monopoly mechanism.
+\end_layout
+
+\begin_layout Itemize
+They choose the monopoly mechanism (which the govt dislikes) if
+\begin_inset Formula 
+\[
+N_{H}>N_{L}\frac{y_{L}-p}{h-y_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government can set low 
+\begin_inset Formula $p$
+\end_inset
+
+ to avoid monopoly mechanism
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Government may prefer to cap the price again.
+ There will be bribery, and also inefficiency amongst those choosing the
+ monopoly mechanism.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Inability to Pay
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Focus on Banerjee (1997) special case: 
+\begin_inset Formula $L>0$
+\end_inset
+
+, 
+\begin_inset Formula $N_{H}<1$
+\end_inset
+
+, 
+\begin_inset Formula $h>l$
+\end_inset
+
+, 
+\begin_inset Formula $y_{H}=y_{L}=y<l$
+\end_inset
+
+, 
+\begin_inset Formula $\phi_{L}\left(t\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Three mechanisms:
+\end_layout
+
+\begin_layout Enumerate
+Auction mechanism:
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =y,\;p_{L}=l-\frac{N_{L}}{1-N_{H}}\left(l-y\right)\\
+\pi_{H} & =1,\:\pi_{L}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $H$
+\end_inset
+
+ types prefer paying the higher price and getting the slot for sure.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Inability to Pay
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+Testing mechanism:
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =y,\:p_{L}=y\\
+\pi_{H} & =1,\:\pi_{L}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =\frac{N_{H}+N_{L}-1}{N_{L}}\left(l-y\right),\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Satisfy the IC constraint by making 
+\begin_inset Formula $H$
+\end_inset
+
+ types do the test, even though they're guaranteed to pass.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Lottery mechanism: 
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =y,\:p_{L}=y\\
+\pi_{H} & =\pi_{L}=\frac{1}{N_{H}+H_{L}}\\
+t_{H} & =0,\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Inability to Pay
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scenario: 
+\begin_inset Formula $\nu=0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+With no rules, the bureaucrat prefers the lottery 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ inefficient allocation of slots
+\end_layout
+
+\begin_layout Itemize
+Suppose rule is set to require 
+\begin_inset Formula $\pi_{H}=1$
+\end_inset
+
+, 
+\begin_inset Formula $\pi_{L}=\left(1-N_{H}\right)/N_{L}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Now bureaucrat uses the testing mechanism.
+ Yields same payoff as lottery.
+\end_layout
+
+\begin_layout Itemize
+To stop this the government can set rule that the auction mechanism must
+ be followed.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bureaucrats with high 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ will follow the rule.
+ Bureaucrats with low 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ will use the testing mechanism.
+ 
+\end_layout
+
+\begin_layout Itemize
+Bribery and red tape.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Alternatively the government could have the rule be the lottery.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No corruption and no red tape.
+ But misallocation
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Misalignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Focus on the following case:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $N_{H}>1$
+\end_inset
+
+: Slots are scarce.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $y_{L}=l>h=y_{H}$
+\end_inset
+
+: social and private values are misaligned
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L<0$
+\end_inset
+
+: Low types should not have a slot.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consider three types of mechanisms the bureaucrat might use
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Misalignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+testing + auction
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p_{HS} & =p_{H}^{*},\:p_{HF}=p_{L}=l\\
+\pi_{HS} & =1/N_{H},\:\pi_{HF}=\pi_{L}=0\\
+t_{H} & =t_{H}^{*},\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $t_{H}^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{H}^{*}$
+\end_inset
+
+ solve
+\begin_inset Formula 
+\begin{align*}
+h-\delta t_{H}^{*}-p_{H}^{*} & =0\\
+\left(1-\phi_{L}\left(t_{H}\right)\right)\left(l-p_{H}^{*}\right)-\delta t_{H}^{*} & =0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note the IC constraint for the 
+\begin_inset Formula $L$
+\end_inset
+
+ types: 
+\begin_inset Formula 
+\[
+\left(1-\phi_{L}\left(t_{H}\right)\right)\left(l-p_{H}^{*}\right)-\delta t_{H}^{*}\leq0
+\]
+
+\end_inset
+
+they have to prefer not getting the slot to pretending to be 
+\begin_inset Formula $H$
+\end_inset
+
+ and getting it with some probability
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Misalignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+auction
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =p_{L}=l\\
+\pi_{H} & =0,\:\pi_{L}=1/N_{L}\\
+t_{H} & =0,\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+Noone is tested, but the allocation is terrible: Only 
+\begin_inset Formula $L$
+\end_inset
+
+s get slots
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+lottery
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =p_{L}=h\\
+\pi_{H} & =\pi_{L}=1/\left(N_{L}+N_{H}\right)\\
+t_{H} & =0,\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Misalignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What should the government do?
+\end_layout
+
+\begin_layout Itemize
+With no rules the bureaucrats choose the auction mechanism.
+ Terrible!
+\end_layout
+
+\begin_layout Itemize
+Government could set rules to be the testing + auction mechanism.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bureaucrats with low 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ break rules and use the auction mechanism.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Government could set rules to be the lottery
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bureaucrats make more money 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ smaller incentive to deviate
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ fewer bureaucrats give all slots to 
+\begin_inset Formula $L$
+\end_inset
+
+s
+\end_layout
+
+\begin_layout Itemize
+But some slots go to 
+\begin_inset Formula $L$
+\end_inset
+
+ types even when rules are followed.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Aghion & Tirole (JPE 1997) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Formal and Real Authority in Organizations
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Model Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Principal-agent framework: Agent is choosing among 
+\begin_inset Formula $n\geq3$
+\end_inset
+
+ a priori identical projects.
+\end_layout
+
+\begin_layout Itemize
+Project 
+\begin_inset Formula $k$
+\end_inset
+
+ has profit 
+\begin_inset Formula $B_{k}$
+\end_inset
+
+ for the principal and private benefit 
+\begin_inset Formula $b_{k}$
+\end_inset
+
+ for the agent.
+\end_layout
+
+\begin_layout Itemize
+They can also do nothing: 
+\begin_inset Formula $B_{0}=b_{0}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Congruence:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Choosing the principal's preferred project gives her 
+\begin_inset Formula $B$
+\end_inset
+
+ and the agent 
+\begin_inset Formula $\beta b$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Choosing the agent's preferred project gives him 
+\begin_inset Formula $b$
+\end_inset
+
+ and the principal 
+\begin_inset Formula $\alpha B$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $0<\alpha,\beta\leq1$
+\end_inset
+
+ are exogenous parameters
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Model Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Principal is risk neutral.
+ Utility is 
+\begin_inset Formula 
+\[
+B_{k}-w
+\]
+
+\end_inset
+
+
+\begin_inset Formula $w$
+\end_inset
+
+ is wage paid to the agent
+\end_layout
+
+\begin_layout Itemize
+Agent is risk averse and has limited liability: 
+\begin_inset Formula $w\geq0$
+\end_inset
+
+.
+ Utility is
+\begin_inset Formula 
+\[
+u\left(w\right)+b_{k}
+\]
+
+\end_inset
+
+Agent is so risk averse that 
+\begin_inset Formula $w$
+\end_inset
+
+ can't depend on outcomes
+\end_layout
+
+\begin_layout Itemize
+Initially, nobody knows projects' payoffs.
+ Gathering information is costly.
+\end_layout
+
+\begin_layout Itemize
+If agent pays cost 
+\begin_inset Formula $g_{A}\left(e\right)$
+\end_inset
+
+ he learns the payoffs of all projects with probability 
+\begin_inset Formula $e$
+\end_inset
+
+.
+ With probability 
+\begin_inset Formula $1-e$
+\end_inset
+
+ he learns nothing.
+\end_layout
+
+\begin_layout Itemize
+Principal can pay cost 
+\begin_inset Formula $g_{P}\left(E\right)$
+\end_inset
+
+ to learn payoffs with probability 
+\begin_inset Formula $E$
+\end_inset
+
+.
+ With probability 
+\begin_inset Formula $1-E$
+\end_inset
+
+ she learns nothing.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Authority
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+P-formal authority:
+\emph default
+ The principal has formal authority.
+ She may overrule the agent's recommendation.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+A-formal authority: 
+\emph default
+The agent picks his preferred project and cannot be overruled by the principal.
+\end_layout
+
+\begin_layout Itemize
+Contracts specify an allocation of formal authority to either the principal
+ or the agent.
+\end_layout
+
+\begin_layout Itemize
+Timing:
+\end_layout
+
+\begin_layout Enumerate
+Prinicpal proposes a contract
+\end_layout
+
+\begin_layout Enumerate
+Parties gather information
+\end_layout
+
+\begin_layout Enumerate
+The party without formal authority communicates a subset of the projects'
+ payoffs (s)he has learned
+\end_layout
+
+\begin_layout Enumerate
+The controlling party picks a project
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Under 
+\emph on
+P-
+\emph default
+formal authority, the utilities are:
+\begin_inset Formula 
+\begin{align*}
+u_{P} & =\underbrace{EB}_{\text{P picks her preferred project}}+\underbrace{\left(1-E\right)e\alpha B}_{\text{A suggests his preferred project}}-g_{P}\left(E\right)\\
+u_{A} & =\underbrace{E\beta b}_{\text{P picks her preferred project}}+\underbrace{\left(1-E\right)eb}_{\text{A suggests his preferred project}}-g_{A}\left(e\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Under 
+\emph on
+A-
+\emph default
+formal authority, the utilities are:
+\begin_inset Formula 
+\begin{align*}
+u_{P}^{d} & =\underbrace{e\alpha B}_{\text{A picks his preferred project}}+\underbrace{\left(1-e\right)EB}_{\text{P suggests her preferred project}}-g_{P}\left(E\right)\\
+u_{A}^{d} & =\underbrace{eb}_{\text{A picks his preferred project}}+\underbrace{\left(1-e\right)E\beta b}_{\text{P suggests her preferred project}}-g_{A}\left(e\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In this model there is a basic tradeoff between loss of control and initiative.
+\end_layout
+
+\begin_layout Itemize
+The reason is that efforts are 
+\emph on
+strategic substitutes: 
+\emph default
+The more effort the principal makes, the less the agent wants to (&vv).
+\end_layout
+
+\begin_layout Itemize
+To see this, the FOCs for effort are
+\begin_inset Formula 
+\begin{align*}
+\left(1-\alpha e\right)B & =g_{P}^{\prime}\left(E\right)\\
+\left(1-E\right)b & =g_{A}^{\prime}\left(e\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Both of these reaction curves slope 
+\emph on
+down
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Imagine the principal's effort became more costly: 
+\begin_inset Formula $g_{P}^{\prime}\uparrow$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Probability of learning the best project goes down.
+ The principal loses real authority (control)
+\end_layout
+
+\begin_layout Itemize
+The reduction in 
+\begin_inset Formula $E$
+\end_inset
+
+ will encourage initiative by the agent:, 
+\begin_inset Formula $e\uparrow$
+\end_inset
+
+.
+ The principal gains 
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Section
 \begin_inset Argument 2
