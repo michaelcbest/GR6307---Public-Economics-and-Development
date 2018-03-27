@@ -1,0 +1,1123 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usepackage{ifthen}
+\usepackage{multirow,bigstrut}
+\usepackage{tikz}
+\usetikzlibrary{patterns,decorations.pathreplacing,shapes,snakes}
+\usetikzlibrary{arrows}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{makecell}
+\usepackage{graphicx}
+\usepackage{animate}
+\usepackage{pifont}
+\usepackage{booktabs}
+\usepackage{relsize}
+%\usepackage{adjustbox}
+%\usepackage{txfonts}
+%\usepackage{handoutWithNotes}
+%\pgfpagesuselayout{3 on 1 with notes}[a4paper,border shrink=5mm]
+
+% FOOTLINE - PAGE NUMBER RIGHT
+\defbeamertemplate*{footline}{guildford foot theme}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.7\paperwidth,ht=1cm,dp=0ex,left]{}%
+    {
+    \insertsectionnavigationhorizontal{.5\paperwidth}{}{}
+    }
+ \end{beamercolorbox}
+ \begin{beamercolorbox}[wd=0.31\paperwidth,ht=1cm,dp=0ex,right]{}%
+{\tiny
+\insertframenumber{} / \inserttotalframenumber\hspace*{5ex}
+}
+ \end{beamercolorbox}}%
+  \vskip5pt%
+}
+
+\beamertemplatenavigationsymbolsempty
+\usefonttheme{professionalfonts}
+\usecolortheme[RGB={0,0,125}]{structure} 
+\setbeamersize{ text margin left=10px}
+%\definecolor{newblue}{rgb}{0,0,0.6}
+%\setbeamercolor{alerted text}{fg=newblue}
+\setbeamertemplate{frametitle}[default][center]
+
+%{\bfseries\insertframetitle\par}
+
+\RequirePackage{ifthen}
+
+\newboolean{sectiontoc}
+\setboolean{sectiontoc}{true} % default to true
+
+\AtBeginSubsection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide] 
+  \end{frame} 
+} 
+}
+
+\AtBeginSection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/hide/hide] 
+  \end{frame} 
+} 
+}
+
+\newcommand{\toclesssection}[1]{
+   \setboolean{sectiontoc}{false}
+   \section{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\toclesssubsection}[1]{
+   \setboolean{sectiontoc}{false}
+   \subsection{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\setbeameroption{hide notes}
+
+\newcommand{\ShortNameSection}[2][]{
+   \setboolean{sectiontoc}{false}
+   \section[#1]{#2}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\light}[1]{\textcolor{gray}{#1}}
+\end_preamble
+\options notes=show
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding T1
+\font_roman "cmr" "default"
+\font_sans "helvet" "default"
+\font_typewriter "cmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{framenumber}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+GR 6307
+\begin_inset Newline newline
+\end_inset
+
+Public Economics and Development
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\;$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+3.
+ The Personnel Economics 
+\begin_inset Newline newline
+\end_inset
+
+of the Developing State:
+\begin_inset Newline newline
+\end_inset
+
+Delivering Services to the Poor
+\end_layout
+
+\begin_layout Author
+Michael Carlos Best
+\end_layout
+
+\begin_layout Date
+Spring 2018
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Theory
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Papers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Besley-Ghatak
+\end_layout
+
+\begin_layout Standard
+Prendergast?
+\end_layout
+
+\begin_layout Standard
+Aghion-Tirole?
+\end_layout
+
+\begin_layout Standard
+Benabou-Tirole?
+\end_layout
+
+\begin_layout Standard
+Banerjee-Hanna-Mullainathan 2012 intro model
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Banerjee, Hanna & Mullainathan (2012) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Corruption
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee 
+\emph on
+et al.
+
+\emph default
+ 2012: Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The government is allocating 
+\begin_inset Quotes eld
+\end_inset
+
+slots
+\begin_inset Quotes erd
+\end_inset
+
+ through a bureaucrat
+\end_layout
+
+\begin_layout Itemize
+Continuum of slots of size 
+\begin_inset Formula $1$
+\end_inset
+
+ to be allocated to population of size 
+\begin_inset Formula $N>1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+2 types of agents, 
+\begin_inset Formula $H$
+\end_inset
+
+ and 
+\begin_inset Formula $L$
+\end_inset
+
+ with masses 
+\begin_inset Formula $N_{H}$
+\end_inset
+
+, 
+\begin_inset Formula $N_{L}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Social value of a slot for type 
+\begin_inset Formula $H$
+\end_inset
+
+ if 
+\begin_inset Formula $H$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+ for type 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $H>L$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+private benefits are 
+\begin_inset Formula $l$
+\end_inset
+
+, and 
+\begin_inset Formula $h$
+\end_inset
+
+, and ability to pay is 
+\begin_inset Formula $y_{h}\leq h$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{l}\leq l$
+\end_inset
+
+ due to credit constraints.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee 
+\emph on
+et al.
+
+\emph default
+ 2012: Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Testing technology.
+ Test for an amount of time 
+\begin_inset Formula $t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+probability type 
+\begin_inset Formula $L$
+\end_inset
+
+ fails (outcome 
+\begin_inset Formula $F$
+\end_inset
+
+) is 
+\begin_inset Formula $\phi_{L}\left(t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\phi_{L}^{\prime}\left(t\right)\geq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Type 
+\begin_inset Formula $H$
+\end_inset
+
+ never fails (always get outcome 
+\begin_inset Formula $S$
+\end_inset
+
+) if she wants to pass.
+\end_layout
+
+\begin_layout Itemize
+Both can opt to deliberately fail
+\end_layout
+
+\begin_layout Itemize
+Cost of testing is 
+\begin_inset Formula $\nu t$
+\end_inset
+
+ to the bureaucrat and 
+\begin_inset Formula $\delta t$
+\end_inset
+
+ to the applicant
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee 
+\emph on
+et al.
+ 
+\emph default
+2012: Possible Mechanisms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bureaucrats announce direct mechanisms that they commit to ex ante.
+\end_layout
+
+\begin_layout Itemize
+A mechanism is a vector 
+\begin_inset Formula $R=\left(t_{x},p_{xr},\pi_{xr}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $t_{x}$
+\end_inset
+
+ amount of testing of each announced type 
+\begin_inset Formula $x=H,L$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\pi_{xr}$
+\end_inset
+
+ is the probability of getting a slot if announce type 
+\begin_inset Formula $x$
+\end_inset
+
+ and get result 
+\begin_inset Formula $r=F,S$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p_{xr}$
+\end_inset
+
+ is the price paid by 
+\begin_inset Formula $xr$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Restrict to winner-pay mechanisms
+\end_layout
+
+\begin_layout Itemize
+2 incentive compatibility constraints:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+High types prefer not to mimic low types:
+\begin_inset Formula 
+\[
+\pi_{HS}\left(h-p_{HS}\right)-\delta t_{H}\geq\pi_{LS}\left(h-p_{LS}\right)-\delta t_{L}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Low types don't mimic high types:
+\begin_inset Formula 
+\begin{align*}
+ & \pi_{LS}\left(l-p_{LS}\right)\left[1-\phi_{L}\left(t_{L}\right)\right]+\pi_{LF}\left(l-p_{LF}\right)\phi_{L}\left(t_{L}\right)-\delta t_{L}\\
+\geq & \pi_{HS}\left(l-p_{HS}\right)\left[1-\phi_{L}\left(t_{H}\right)\right]+\pi_{HF}\left(l-p_{HF}\right)\phi_{L}\left(t_{H}\right)-\delta t_{H}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee 
+\emph on
+et al.
+ 
+\emph default
+2012: Possible Mechanisms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Clients can also walk away 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 2 participation constraints:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+High types don't walk away
+\begin_inset Formula 
+\begin{align*}
+\pi_{HS}\left(h-p_{HS}\right)-\delta t_{H} & \geq0\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Low types don't walk away
+\begin_inset Formula 
+\[
+\pi_{LS}\left(l-p_{LS}\right)\left[1-\phi_{L}\left(t_{L}\right)\right]+\pi_{LF}\left(l-p_{LF}\right)\phi_{L}\left(t_{L}\right)-\delta t_{L}\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+There is only a mass 1 of slots so
+\begin_inset Formula 
+\[
+N_{H}\pi_{HS}+N_{L}\pi_{LS}\left[1-\phi_{L}\left(t_{L}\right)\right]+N_{L}\pi_{LF}\phi_{L}\left(t_{L}\right)\leq1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Finally the clients can't borrow, so they can't pay more than they have
+\begin_inset Formula 
+\begin{align*}
+p_{Hr} & \leq y_{H},\;r=F,S\\
+p_{Lr} & \leq y_{L},\;r=F,S
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Define 
+\begin_inset Formula $\mathbf{R}$
+\end_inset
+
+ as the set of rules 
+\begin_inset Formula $R$
+\end_inset
+
+ that satisfy these constraints
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Rules
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The government sets rules 
+\begin_inset Formula $\mathcal{R}=\left(T_{x},P_{xr,}\Pi_{xr}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $T_{x}$
+\end_inset
+
+ are permitted tests 
+\begin_inset Formula $t_{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{xr}$
+\end_inset
+
+ are permitted prices for each type
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Pi_{xr}$
+\end_inset
+
+ are permitted assignment probabilities 
+\begin_inset Formula $\pi_{xr}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assume that 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+ is feasible: There's at least one 
+\begin_inset Formula $R\in\mathbf{R}$
+\end_inset
+
+ satisfying the rules.
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+ is not a singleton, then the bureaucrat has 
+\emph on
+discretion
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Government also chooses 
+\begin_inset Formula $p$
+\end_inset
+
+ a price the bureaucrat has to pay the government for each slot he gives
+ out.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Bureaucrats
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For each mechanism 
+\begin_inset Formula $R\in\mathbf{R}\cap\mathcal{R}$
+\end_inset
+
+ that follow the rules, the bureaucrat's payoff is
+\begin_inset Formula 
+\begin{align*}
+\underbrace{N_{H}\pi_{HS}\left(p_{HS}-p\right)}_{\text{profits from \ensuremath{H} types}}+\underbrace{N_{L}\pi_{LS}\left(p_{LS}-p\right)\left(1-\phi_{L}\left(t_{L}\right)\right)}_{\text{profits from \ensuremath{L} types who pass}}\\
++\underbrace{N_{L}\pi_{LF}\left(p_{LF}-p\right)\phi_{L}\left(t_{L}\right)}_{\text{profits from \ensuremath{L} types who fail}}-\underbrace{\nu N_{H}t_{H}-\nu N_{L}t_{L}}_{\text{costs of testing}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If the bureaucrat uses a mechanism 
+\begin_inset Formula $R\in\mathbf{R}\cap\mathcal{R}^{c}$
+\end_inset
+
+ that's against the rules, there's an extra cost 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ of breaking the rules.
+\end_layout
+
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ comes from a distribution 
+\begin_inset Formula $G\left(\gamma\right)$
+\end_inset
+
+.
+ As a result, 
+\begin_inset Formula $R\left(\mathcal{R},\gamma\right)$
+\end_inset
+
+ will be the mechanism chosen by a bureaucrat with corruption cost 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ when the rule is 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: The Government
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume the government only cares about social value of slots (Could generalize.
+ How?)
+\end_layout
+
+\begin_layout Itemize
+Government's objective is to choose the rules 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+ to maximize
+\size small
+
+\begin_inset Formula 
+\begin{align*}
+\underbrace{\int N_{H}\pi_{HS}\left(R\left(\mathcal{R},\gamma\right)\right)HdG\left(\gamma\right)}_{\text{(expected) social value of slots to \ensuremath{H}}}\\
++\underbrace{\int N_{L}\pi_{LS}\left(R\left(\mathcal{R},\gamma\right)\right)\left[1-\phi_{L}\left(t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)\right)\right]LdG\left(\gamma\right)}_{\text{social value of slots to \ensuremath{L} who pass test}}\\
++\underbrace{\int N_{L}\pi_{LF}\left(R\left(\mathcal{R},\gamma\right)\right)\phi_{L}\left(t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)\right)LdG\left(\gamma\right)}_{\text{social value of slots to \ensuremath{L} who fail test}}\\
+-\underbrace{\int\left(\nu+\delta\right)N_{H}t_{H}\left(R\left(\mathcal{R},\gamma\right)\right)dG\left(\gamma\right)}_{\text{social cost of testing \ensuremath{H}}}-\underbrace{\int\left(\nu+\delta\right)N_{L}t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)dG\left(\gamma\right)}_{\text{social cost of testing \ensuremath{L}}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: 4 Cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+TABLE
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Financial Incentives
+\end_layout
+
+\end_inset
+
+Financial Incentives
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Papers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Duflo teachers pictures with intro on absenteeism
+\end_layout
+
+\begin_layout Standard
+Karthik and Sandip's 2011
+\end_layout
+
+\begin_layout Standard
+Khan Khwaja Olken
+\end_layout
+
+\begin_layout Standard
+auditors reputation paper
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Non-financial Incentives
+\end_layout
+
+\end_inset
+
+Non-financial Incentives
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Papers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Khan Khwaja Olken
+\end_layout
+
+\begin_layout Standard
+Ashraf no mission
+\end_layout
+
+\begin_layout Standard
+Callen personalities
+\end_layout
+
+\begin_layout Standard
+discretion paper
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Recruitment & Selection
+\end_layout
+
+\end_inset
+
+Recruitment & Selection
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Papers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Do gooders
+\end_layout
+
+\begin_layout Standard
+Dal Bo
+\end_layout
+
+\begin_layout Standard
+Erika
+\end_layout
+
+\begin_layout Standard
+Weaver or Iyer
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Subsection
+Ashraf et al.
+\end_layout
+
+\begin_layout Section
+Open Questions
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Open Questions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+?
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
