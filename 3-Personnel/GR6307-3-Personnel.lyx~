@@ -246,12 +246,42 @@ Spring 2018
 Theory
 \end_layout
 
+\begin_layout Subsection
+Aghion & Tirole (JPE 1997) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Formal and Real Authority in Organizations
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Papers
+Aghion & Tirole (1997): Model Setup
 \end_layout
 
 \end_inset
@@ -260,26 +290,818 @@ Papers
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-Besley-Ghatak
+\begin_layout Itemize
+Principal-agent framework: Agent is choosing among 
+\begin_inset Formula $n\geq3$
+\end_inset
+
+ a priori identical projects.
 \end_layout
 
-\begin_layout Standard
-Prendergast?
+\begin_layout Itemize
+Project 
+\begin_inset Formula $k$
+\end_inset
+
+ has profit 
+\begin_inset Formula $B_{k}$
+\end_inset
+
+ for the principal and private benefit 
+\begin_inset Formula $b_{k}$
+\end_inset
+
+ for the agent.
 \end_layout
 
-\begin_layout Standard
-Aghion-Tirole?
+\begin_layout Itemize
+They can also do nothing: 
+\begin_inset Formula $B_{0}=b_{0}=0$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-Benabou-Tirole?
+\begin_layout Itemize
+Congruence:
 \end_layout
 
-\begin_layout Standard
-Banerjee-Hanna-Mullainathan 2012 intro model
+\begin_deeper
+\begin_layout Itemize
+Choosing the principal's preferred project gives her 
+\begin_inset Formula $B$
+\end_inset
+
+ and the agent 
+\begin_inset Formula $\beta b$
+\end_inset
+
+.
+ 
 \end_layout
 
+\begin_layout Itemize
+Choosing the agent's preferred project gives him 
+\begin_inset Formula $b$
+\end_inset
+
+ and the principal 
+\begin_inset Formula $\alpha B$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $0<\alpha,\beta\leq1$
+\end_inset
+
+ are exogenous parameters
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Model Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Principal is risk neutral.
+ Utility is 
+\begin_inset Formula 
+\[
+B_{k}-w
+\]
+
+\end_inset
+
+
+\begin_inset Formula $w$
+\end_inset
+
+ is wage paid to the agent
+\end_layout
+
+\begin_layout Itemize
+Agent is risk averse and has limited liability: 
+\begin_inset Formula $w\geq0$
+\end_inset
+
+.
+ Utility is
+\begin_inset Formula 
+\[
+u\left(w\right)+b_{k}
+\]
+
+\end_inset
+
+Agent is so risk averse that 
+\begin_inset Formula $w$
+\end_inset
+
+ can't depend on outcomes
+\end_layout
+
+\begin_layout Itemize
+Initially, nobody knows projects' payoffs.
+ Gathering information is costly.
+\end_layout
+
+\begin_layout Itemize
+If agent pays cost 
+\begin_inset Formula $g_{A}\left(e\right)$
+\end_inset
+
+ he learns the payoffs of all projects with probability 
+\begin_inset Formula $e$
+\end_inset
+
+.
+ With probability 
+\begin_inset Formula $1-e$
+\end_inset
+
+ he learns nothing.
+\end_layout
+
+\begin_layout Itemize
+Principal can pay cost 
+\begin_inset Formula $g_{P}\left(E\right)$
+\end_inset
+
+ to learn payoffs with probability 
+\begin_inset Formula $E$
+\end_inset
+
+.
+ With probability 
+\begin_inset Formula $1-E$
+\end_inset
+
+ she learns nothing.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Authority
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+P-formal authority:
+\emph default
+ The principal has formal authority.
+ She may overrule the agent's recommendation.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+A-formal authority: 
+\emph default
+The agent picks his preferred project and cannot be overruled by the principal.
+\end_layout
+
+\begin_layout Itemize
+Contracts specify an allocation of formal authority to either the principal
+ or the agent.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Real authority:
+\emph default
+ Who actually gets to make the decision? Either because agent has formal
+ authority or because P is just 
+\begin_inset Quotes eld
+\end_inset
+
+rubber-stamping
+\begin_inset Quotes erd
+\end_inset
+
+ agent's recommendation
+\end_layout
+
+\begin_layout Itemize
+Timing:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Prinicpal proposes a contract
+\end_layout
+
+\begin_layout Enumerate
+Parties gather information
+\end_layout
+
+\begin_layout Enumerate
+The party without formal authority communicates a subset of the projects'
+ payoffs (s)he has learned
+\end_layout
+
+\begin_layout Enumerate
+The controlling party picks a project
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Utilities
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Under 
+\emph on
+P-
+\emph default
+formal authority, the utilities are:
+\begin_inset Formula 
+\begin{align*}
+u_{P} & =\underbrace{EB}_{\text{P picks her preferred project}}+\underbrace{\left(1-E\right)e\alpha B}_{\text{A suggests his preferred project}}-g_{P}\left(E\right)\\
+u_{A} & =\underbrace{E\beta b}_{\text{P picks her preferred project}}+\underbrace{\left(1-E\right)eb}_{\text{A suggests his preferred project}}-g_{A}\left(e\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Under 
+\emph on
+A-
+\emph default
+formal authority, the utilities are:
+\begin_inset Formula 
+\begin{align*}
+u_{P}^{d} & =\underbrace{e\alpha B}_{\text{A picks his preferred project}}+\underbrace{\left(1-e\right)EB}_{\text{P suggests her preferred project}}-g_{P}\left(E\right)\\
+u_{A}^{d} & =\underbrace{eb}_{\text{A picks his preferred project}}+\underbrace{\left(1-e\right)E\beta b}_{\text{P suggests her preferred project}}-g_{A}\left(e\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Basic Tradeoff
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In this model there is a basic tradeoff between loss of control and initiative.
+\end_layout
+
+\begin_layout Itemize
+The reason is that efforts are 
+\emph on
+strategic substitutes: 
+\emph default
+The more effort the principal makes, the less the agent wants to (&vv).
+\end_layout
+
+\begin_layout Itemize
+To see this, the FOCs for effort when the principal has formal authority
+ are
+\begin_inset Formula 
+\begin{align*}
+\left(1-\alpha e\right)B & =g_{P}^{\prime}\left(E\right)\\
+\left(1-E\right)b & =g_{A}^{\prime}\left(e\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Both of these reaction curves slope 
+\emph on
+down
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Imagine the principal's effort became more costly: 
+\begin_inset Formula $g_{P}^{\prime}\uparrow$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Probability of learning the best project goes down.
+ The principal loses real authority (control)
+\end_layout
+
+\begin_layout Itemize
+The reduction in 
+\begin_inset Formula $E$
+\end_inset
+
+ will encourage initiative by the agent:, 
+\begin_inset Formula $e\uparrow$
+\end_inset
+
+.
+ The principal gains
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Delegation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the principal cedes formal authority to the agent the effort FOCs become
+\begin_inset Formula 
+\begin{align*}
+\left(1-e\right)B & =g_{P}^{\prime}\left(E\right)\\
+\left(1-\beta E\right)b & =g_{A}^{\prime}\left(e\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+These yield an equilibrium 
+\begin_inset Formula $\left(E^{d},e^{d}\right)$
+\end_inset
+
+ where
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $e<e^{d}$
+\end_inset
+
+: Greater initiative by the agent
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $E>E^{d}$
+\end_inset
+
+: Loss of formal 
+\emph on
+and
+\emph default
+ real authority to the agent.
+ 
+\end_layout
+
+\begin_layout Itemize
+Less effort required from principal 
+\end_layout
+
+\begin_layout Itemize
+Agent is better off 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ slackens participation constraint so could lower wage
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Span of Control
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider a principal with multiple agents where the principal doesn't want
+ to delegate.
+ 
+\end_layout
+
+\begin_layout Itemize
+How many agents to hire? How to encourage effort among many agents? 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $m$
+\end_inset
+
+ identical agents.
+ Each one solving the problem above.
+ 
+\end_layout
+
+\begin_layout Itemize
+Principal's disutility is 
+\begin_inset Formula $g_{P}\left(\sum_{i}E_{i}\right)$
+\end_inset
+
+, agents' tasks are independent.
+ Fixed cost 
+\begin_inset Formula $f$
+\end_inset
+
+ per agent.
+\begin_inset Formula 
+\[
+u_{P}=\sum_{i}\left[E_{i}B+\left(1-E_{i}\right)e_{i}\alpha B-f\right]-g_{P}\left(\sum_{i}E_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Span of Control
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume a symmetric equilibrium, each agent gets the same effort 
+\begin_inset Formula $E$
+\end_inset
+
+ from the principal.
+ FOCs are
+\begin_inset Formula 
+\begin{align*}
+\left(1-\alpha e\right)B & =g_{P}^{\prime}\left(mE\right)\\
+\left(1-E\right)b & =g_{A}^{\prime}\left(e\right)
+\end{align*}
+
+\end_inset
+
+with solution 
+\begin_inset Formula $\left\{ E\left(m\right),e\left(m\right)\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Principal's utility from 
+\begin_inset Formula $m$
+\end_inset
+
+ agents is
+\begin_inset Formula 
+\[
+u_{P}\left(m\right)\equiv mR\left(E\left(m\right),e\left(m\right)\right)-g_{P}\left(mE\left(m\right)\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $R\left(E\left(m\right),e\left(m\right)\right)\equiv E\left(m\right)B+\left[1-E\left(m\right)\right]e\left(m\right)\alpha B-f$
+\end_inset
+
+ is revenue per agent.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Span of Control
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The optimal team size 
+\begin_inset Formula $m$
+\end_inset
+
+ then satisfies 
+\begin_inset Formula 
+\begin{align*}
+\frac{du_{P}}{dm} & =\underbrace{\underbrace{R\left(E\left(m\right),e\left(m\right)\right)}_{\text{extra revenue}}-\underbrace{E\left(m\right)g_{P}^{\prime}\left(mE\left(m\right)\right)}_{\text{overload cost}}}_{\text{Marginal profit}<0}\\
+ & \quad+\underbrace{m\frac{\partial R}{\partial e}\frac{\partial e}{\partial m}}_{\text{initiative effect }>0}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Principal commits to overhiring, being overloaded and underinvesting in
+ 
+\begin_inset Formula $E$
+\end_inset
+
+ in order to encourage initiative 
+\begin_inset Formula $e$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Wages and Effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now reintroduce wage effects in the model where the principal has formal
+ authority.
+\end_layout
+
+\begin_layout Itemize
+How do changes in wages affect real authority? 
+\end_layout
+
+\begin_layout Itemize
+Suppose that two of the projects are relevant and give the principal profits
+ of 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $0$
+\end_inset
+
+.
+ This implies 
+\begin_inset Formula $\alpha=\beta=$
+\end_inset
+
+probability they have the same preferred project.
+\end_layout
+
+\begin_layout Itemize
+The agent gets a wage 
+\begin_inset Formula $w\geq0$
+\end_inset
+
+ when the principal's profit is 
+\begin_inset Formula $B$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Principal's net gain is now 
+\begin_inset Formula $B-w$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If the agent has information and real authority, his average net payoff
+ is 
+\begin_inset Formula 
+\[
+\tilde{b}=\begin{cases}
+\underbrace{b}_{\text{choose preferred proj}}+\underbrace{\alpha u\left(w\right)}_{\text{w/pr }\alpha\text{, congruence}} & \text{if }u\left(w\right)<b\\
+\underbrace{u\left(w\right)}_{\text{choose principal's preferred proj}}+\underbrace{\alpha b}_{\text{w/pr }\alpha\text{, congruence}} & \text{if }u\left(w\right)\geq b
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aghion & Tirole (1997): Wages and Effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now the FOCs are
+\begin_inset Formula 
+\begin{align*}
+\left(1-\alpha e\right)\tilde{B} & =g_{P}^{\prime}\left(E\right)\\
+\left(1-E\right)\tilde{b} & =g_{A}^{\prime}\left(e\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Denote solution to this as 
+\begin_inset Formula $\left\{ E\left(w\right),e\left(w\right)\right\} $
+\end_inset
+
+.
+ Then by backward induction solve for 
+\begin_inset Formula $w$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\frac{du_{P}}{dw} & =\underbrace{\left(1-E\right)\alpha\left(B-w\right)\frac{de}{dw}}_{\text{additional effort}}\\
+ & \quad-\underbrace{\left[E+\left(1-E\right)e\alpha\right]}_{\text{higher wage bill}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Higher wages increase real authority:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Stronger incentives 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ agent more likely to make a recommendation
+\end_layout
+
+\begin_layout Enumerate
+Principal monitors less 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ less likely to overrule the agent
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Subsection
 Banerjee, Hanna & Mullainathan (2012) 
@@ -3091,8 +3913,15 @@ But some slots go to
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Aghion & Tirole (JPE 1997) 
+Benabou & Tirole (AER 2006) 
 \begin_inset ERT
 status open
 
@@ -3107,7 +3936,7 @@ textit{
 
 \end_inset
 
-Formal and Real Authority in Organizations
+Incentives and Prosocial Behavior
 \begin_inset ERT
 status open
 
@@ -3126,7 +3955,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Model Setup
+Benabou & Tirole 2006:
 \end_layout
 
 \end_inset
@@ -3134,79 +3963,6 @@ Aghion & Tirole (1997): Model Setup
 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Principal-agent framework: Agent is choosing among 
-\begin_inset Formula $n\geq3$
-\end_inset
-
- a priori identical projects.
-\end_layout
-
-\begin_layout Itemize
-Project 
-\begin_inset Formula $k$
-\end_inset
-
- has profit 
-\begin_inset Formula $B_{k}$
-\end_inset
-
- for the principal and private benefit 
-\begin_inset Formula $b_{k}$
-\end_inset
-
- for the agent.
-\end_layout
-
-\begin_layout Itemize
-They can also do nothing: 
-\begin_inset Formula $B_{0}=b_{0}=0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Congruence:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Choosing the principal's preferred project gives her 
-\begin_inset Formula $B$
-\end_inset
-
- and the agent 
-\begin_inset Formula $\beta b$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Itemize
-Choosing the agent's preferred project gives him 
-\begin_inset Formula $b$
-\end_inset
-
- and the principal 
-\begin_inset Formula $\alpha B$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $0<\alpha,\beta\leq1$
-\end_inset
-
- are exogenous parameters
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -3214,111 +3970,29 @@ Choosing the agent's preferred project gives him
 
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
+\begin_layout Subsection
+Besley & Ghatak (AER 2005) 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Model Setup
+
+
+\backslash
+protect
+\backslash
+textit{
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Principal is risk neutral.
- Utility is 
-\begin_inset Formula 
-\[
-B_{k}-w
-\]
-
-\end_inset
-
-
-\begin_inset Formula $w$
-\end_inset
-
- is wage paid to the agent
-\end_layout
-
-\begin_layout Itemize
-Agent is risk averse and has limited liability: 
-\begin_inset Formula $w\geq0$
-\end_inset
-
-.
- Utility is
-\begin_inset Formula 
-\[
-u\left(w\right)+b_{k}
-\]
-
-\end_inset
-
-Agent is so risk averse that 
-\begin_inset Formula $w$
-\end_inset
-
- can't depend on outcomes
-\end_layout
-
-\begin_layout Itemize
-Initially, nobody knows projects' payoffs.
- Gathering information is costly.
-\end_layout
-
-\begin_layout Itemize
-If agent pays cost 
-\begin_inset Formula $g_{A}\left(e\right)$
-\end_inset
-
- he learns the payoffs of all projects with probability 
-\begin_inset Formula $e$
-\end_inset
-
-.
- With probability 
-\begin_inset Formula $1-e$
-\end_inset
-
- he learns nothing.
-\end_layout
-
-\begin_layout Itemize
-Principal can pay cost 
-\begin_inset Formula $g_{P}\left(E\right)$
-\end_inset
-
- to learn payoffs with probability 
-\begin_inset Formula $E$
-\end_inset
-
-.
- With probability 
-\begin_inset Formula $1-E$
-\end_inset
-
- she learns nothing.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
+Competition and Incentives with Prosocial Agents
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Authority
+
+}
 \end_layout
 
 \end_inset
@@ -3326,190 +4000,6 @@ Aghion & Tirole (1997): Authority
 
 \end_layout
 
-\begin_deeper
-\begin_layout Enumerate
-
-\emph on
-P-formal authority:
-\emph default
- The principal has formal authority.
- She may overrule the agent's recommendation.
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-A-formal authority: 
-\emph default
-The agent picks his preferred project and cannot be overruled by the principal.
-\end_layout
-
-\begin_layout Itemize
-Contracts specify an allocation of formal authority to either the principal
- or the agent.
-\end_layout
-
-\begin_layout Itemize
-Timing:
-\end_layout
-
-\begin_layout Enumerate
-Prinicpal proposes a contract
-\end_layout
-
-\begin_layout Enumerate
-Parties gather information
-\end_layout
-
-\begin_layout Enumerate
-The party without formal authority communicates a subset of the projects'
- payoffs (s)he has learned
-\end_layout
-
-\begin_layout Enumerate
-The controlling party picks a project
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Aghion & Tirole (1997)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Under 
-\emph on
-P-
-\emph default
-formal authority, the utilities are:
-\begin_inset Formula 
-\begin{align*}
-u_{P} & =\underbrace{EB}_{\text{principal picks her preferred project}}+\underbrace{\left(1-E\right)e\alpha B}_{\text{agent suggests his preferred project}}-g_{P}\left(E\right)\\
-u_{A} & =\underbrace{E\beta b}_{\text{principal picks her preferred project}}+\underbrace{\left(1-E\right)eb}_{\text{agent suggests his preferred project}}-g_{A}\left(e\right)
-\end{align*}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Under 
-\emph on
-A-
-\emph default
-formal authority, the utilities are:
-\begin_inset Formula 
-\begin{align*}
-u_{P}^{d} & =\underbrace{e\alpha B}_{\text{agent picks his preferred project}}+\underbrace{\left(1-e\right)EB}_{\text{principal suggests her preferred project}}-g_{P}\left(E\right)\\
-u_{A}^{d} & =\underbrace{eb}_{\text{agent picks his preferred project}}+\underbrace{\left(1-e\right)E\beta b}_{\text{principal suggests her preferred project}}-g_{A}\left(e\right)
-\end{align*}
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Aghion & Tirole (1997)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In this model there is a basic tradeoff between loss of control and initiative.
-\end_layout
-
-\begin_layout Itemize
-The reason is that efforts are 
-\emph on
-strategic substitutes: 
-\emph default
-The more effort the principal makes, the less the agent wants to (&vv).
-\end_layout
-
-\begin_layout Itemize
-To see this, the FOCs for effort are
-\begin_inset Formula 
-\begin{align*}
-\left(1-\alpha e\right)B & =g_{P}^{\prime}\left(E\right)\\
-\left(1-E\right)b & =g_{A}^{\prime}\left(e\right)
-\end{align*}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Both of these reaction curves slope 
-\emph on
-down
-\emph default
-.
-\end_layout
-
-\begin_layout Itemize
-Imagine the principal's effort became more costly: 
-\begin_inset Formula $g_{P}^{\prime}\uparrow$
-\end_inset
-
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Probability of learning the best project goes down.
- The principal loses real authority (control)
-\end_layout
-
-\begin_layout Itemize
-The reduction in 
-\begin_inset Formula $E$
-\end_inset
-
- will encourage initiative by the agent:, 
-\begin_inset Formula $e\uparrow$
-\end_inset
-
-.
- The principal gains 
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Section
 \begin_inset Argument 2
 status open
