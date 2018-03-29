@@ -3955,7 +3955,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006:
+Benabou & Tirole 2006: Introduction
 \end_layout
 
 \end_inset
@@ -3963,6 +3963,597 @@ Benabou & Tirole 2006:
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+People often do things that are costly to themselves and primarily benefit
+ others.
+ Why?
+\end_layout
+
+\begin_layout Enumerate
+Rewards and punishments for prosocial behavior sometimes backfire.
+\end_layout
+
+\begin_layout Enumerate
+Social pressure and norms successfully use honor and shame to direct behavior
+\end_layout
+
+\begin_layout Enumerate
+People care about their 
+\emph on
+self-image
+\emph default
+.
+ People want to think they are prosocial.
+\end_layout
+
+\begin_layout Itemize
+Develop a theory of prosocial behavior.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Heterogeneity in degree of altruism/greed
+\end_layout
+
+\begin_layout Itemize
+desire for social reputation/self-respect
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+People's behavior has 3 motivations 
+\emph on
+intrinsic, extrinsic, 
+\emph default
+and 
+\emph on
+reputational.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Agents are choosing how much to participate in a pro-social activity.
+ 
+\end_layout
+
+\begin_layout Itemize
+Choose 
+\begin_inset Formula $a$
+\end_inset
+
+ from choice set 
+\begin_inset Formula $A\subset\mathbb{R}$
+\end_inset
+
+ incurring cost 
+\begin_inset Formula $C\left(a\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Monetary reward is 
+\begin_inset Formula $ya$
+\end_inset
+
+, 
+\begin_inset Formula $y\lessgtr0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Agents' types are 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $v_{a}$
+\end_inset
+
+: intrinsic valuation
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v_{y}$
+\end_inset
+
+: extrinsic valuation
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\mathbf{v}\equiv\left(v_{a},v_{y}\right)\in\mathbb{R}^{2}$
+\end_inset
+
+.
+ continuous density 
+\begin_inset Formula $f\left(\mathbf{v}\right)$
+\end_inset
+
+ and mean 
+\begin_inset Formula $\left(\bar{v}_{a},\bar{v}_{y}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Direct benefit of participating is 
+\begin_inset Formula 
+\[
+\left(v_{a}+v_{y}y\right)a-C\left(a\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Participation decisions also create reputational costs/benefits.
+\end_layout
+
+\begin_layout Itemize
+Assume these depend linearly on observers' posterior expectations of the
+ agent's type 
+\begin_inset Formula $\mathbf{v}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+R\left(a,y\right)\equiv x\left(\gamma_{a}\mathbb{E}\left[v_{a}\vert a,y\right]-\gamma_{y}\mathbb{E}\left[v_{y}\vert a,y\right]\right),\;\gamma_{a}\geq0,\:\gamma_{y}\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ people want to be seen as 
+\emph on
+prosocial 
+\emph default
+
+\begin_inset Formula $\gamma_{a}\geq0$
+\end_inset
+
+ and 
+\emph on
+disinterested
+\emph default
+ 
+\begin_inset Formula $\gamma_{y}\geq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x>0$
+\end_inset
+
+ measures the visibility/salience of actions.
+ Defining 
+\begin_inset Formula $\mu_{a}=x\gamma_{a}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu_{y}=x\gamma_{y}$
+\end_inset
+
+, agents solve
+\begin_inset Formula 
+\[
+\max_{a\in A}\left(v_{a}+v_{y}y\right)a-C\left(a\right)+\mu_{a}\mathbb{E}\left[v_{a}\vert a,y\right]+\mu_{y}\mathbb{E}\left[v_{y}\vert a,y\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Choice of 
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The agent's optimal choice satisfies the FOC
+\begin_inset Formula 
+\begin{align*}
+C^{\prime}\left(a\right) & =v_{a}+v_{y}y+r\left(a,y;\boldsymbol{\mu}\right)\\
+r\left(a,y;\boldsymbol{\mu}\right) & \equiv\mu_{a}\frac{\partial\mathbb{E}\left[v_{a}\vert a,y\right]}{\partial a}-\mu_{y}\frac{\partial\mathbb{E}\left[v_{y}\vert a,y\right]}{\partial a}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Observing 
+\begin_inset Formula $a$
+\end_inset
+
+ reveals the 
+\emph on
+sum
+\emph default
+ of intrinsic, extrinsic & reputational concerns 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ signal extraction problem
+\end_layout
+
+\begin_layout Enumerate
+A higher incentive 
+\begin_inset Formula $y$
+\end_inset
+
+ makes 
+\begin_inset Formula $a$
+\end_inset
+
+ more informative about 
+\begin_inset Formula $v_{y}$
+\end_inset
+
+ but less about 
+\begin_inset Formula $v_{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\boldsymbol{\mu}$
+\end_inset
+
+ makes inference about 
+\begin_inset Formula $v_{a}$
+\end_inset
+
+ and 
+\begin_inset Formula $v_{y}$
+\end_inset
+
+ noisier.
+ This gets worse when actions are more visible (higher 
+\begin_inset Formula $x$
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Start with the case where 
+\begin_inset Formula $\mu_{a}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu_{y}$
+\end_inset
+
+ are fixed.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Benabou Tirole 1.png
+	width 94text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Add a few assumptions: 
+\begin_inset Formula $A=\mathbb{R}$
+\end_inset
+
+, 
+\begin_inset Formula $C\left(a\right)=ka^{2}/2$
+\end_inset
+
+, 
+\begin_inset Formula 
+\[
+\mathbf{v}\equiv\left(\begin{array}{c}
+v_{a}\\
+v_{y}
+\end{array}\right)\sim\mathcal{N}\left(\begin{array}{c}
+\bar{v}_{a}\\
+\bar{v}_{y}
+\end{array},\begin{array}{cc}
+\sigma_{a}^{2} & \sigma_{ay}\\
+\sigma_{ay} & \sigma_{y}^{2}
+\end{array}\right),\quad\bar{v}_{a}\lessgtr0,\;\bar{v}_{y}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Start with case where 
+\begin_inset Formula $\boldsymbol{\mu}$
+\end_inset
+
+ is fixed.
+ Implies that
+\begin_inset Formula 
+\[
+\bar{r}\left(a,y\right)\equiv\bar{\mu}_{a}\frac{\partial\mathbb{E}\left[v_{a}\vert a,y\right]}{\partial a}-\bar{\mu}_{y}\frac{\partial\mathbb{E}\left[v_{y}\vert a,y\right]}{\partial a}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+With normal 
+\begin_inset Formula $\mathbf{v}$
+\end_inset
+
+, the posteriors are
+\begin_inset Formula 
+\begin{align*}
+\mathbb{E}\left[v_{a}\vert a,y\right] & =\bar{v}_{a}+\rho\left(y\right)\left[ka-\bar{v}_{a}-\bar{v}_{y}y-\bar{r}\left(a,y\right)\right]\\
+\mathbb{E}\left[v_{y}\vert a,y\right] & =\bar{v}_{y}+\chi\left(y\right)\left[ka-\bar{v}_{a}-\bar{v}_{y}y-\bar{r}\left(a,y\right)\right]
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\rho\left(y\right)=\frac{\sigma_{a}^{2}+y\sigma_{ay}}{\sigma_{a}^{2}+2y\sigma_{ay}+y^{2}\sigma_{y}^{2}}$
+\end_inset
+
+ and 
+\begin_inset Formula $y\chi\left(y\right)\equiv1-\rho\left(y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equilibrium solves these two differential equations.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+proposition 1: 
+\shape default
+\emph on
+Let all agents have the same image concern 
+\begin_inset Formula $\left(\bar{\mu}_{a},\bar{\mu}_{y}\right)$
+\end_inset
+
+.
+ There is a unique (differentiable-reputation) equilibrium, in which an
+ agent with preferences 
+\begin_inset Formula $\left(v_{a},v_{y}\right)$
+\end_inset
+
+ contributes at the level
+\begin_inset Formula 
+\[
+a=\frac{v_{a}+v_{y}y}{k}+\bar{\mu}_{a}\rho\left(y\right)-\bar{\mu}_{y}\chi\left(y\right)
+\]
+
+\end_inset
+
+The reputational returns are 
+\begin_inset Formula $\partial\mathbb{E}\left[v_{a}\vert a,y\right]/\partial a=\rho\left(y\right)k$
+\end_inset
+
+ and 
+\begin_inset Formula $\partial\mathbb{E}\left[v_{y}\vert a,y\right]/\partial a=\chi\left(y\right)k$
+\end_inset
+
+, resulting in a net value 
+\begin_inset Formula $\bar{r}\left(y\right)=k\left(\bar{\mu}_{a}\rho\left(y\right)-\bar{\mu}_{y}\chi\left(y\right)\right)$
+\end_inset
+
+, independent of 
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+How do extrinsic incentives affect inference and behavior? higher 
+\begin_inset Formula $y$
+\end_inset
+
+ increases direct payoff, but decreases both dimensions of signaling.
+ e.g.
+ when 
+\begin_inset Formula $\sigma_{ay}=0$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\rho\left(y\right)=\frac{1}{1+y^{2}\sigma_{y}^{2}/\sigma_{a}^{2}}\quad\chi\left(y\right)=\frac{y\sigma_{y}^{2}/\sigma_{a}^{2}}{1+y^{2}\sigma_{y}^{2}/\sigma_{a}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Higher 
+\begin_inset Formula $y$
+\end_inset
+
+ is like increasing the noise to signal ratio 
+\begin_inset Formula $\sigma_{y}/\sigma_{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+When 
+\begin_inset Formula $\sigma_{ay}\neq0$
+\end_inset
+
+ 
+\backslash
+, 
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -3993,6 +4584,19 @@ status open
 \begin_layout Plain Layout
 
 }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005:
 \end_layout
 
 \end_inset
