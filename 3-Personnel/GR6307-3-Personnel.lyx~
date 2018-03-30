@@ -4454,7 +4454,7 @@ Equilibrium solves these two differential equations.
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Analysis
+Benabou & Tirole 2006: Signal Extraction
 \end_layout
 
 \end_inset
@@ -4548,9 +4548,641 @@ When
 \begin_inset Formula $\sigma_{ay}\neq0$
 \end_inset
 
+, a positive correlation amplifies this.
  
-\backslash
-, 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Crowd-out
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Aggregate supply of the public good 
+\begin_inset Formula $\bar{a}\left(y\right)=\int_{i}a_{i}di$
+\end_inset
+
+ has slope
+\begin_inset Formula 
+\[
+\bar{a}^{\prime}\left(y\right)=\frac{\bar{v}_{y}}{k}+\bar{\mu}_{a}\rho^{\prime}\left(y\right)-\bar{\mu}_{x}\chi^{\prime}\left(y\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+proposition 2
+\shape default
+ (Overjustification and crowding out): 
+\emph on
+Let 
+\begin_inset Formula $\sigma_{ay}=0$
+\end_inset
+
+ and define 
+\begin_inset Formula $\theta\equiv\sigma_{y}/\sigma_{a}$
+\end_inset
+
+.
+ Incentives are counterproductive, 
+\begin_inset Formula $\bar{a}^{\prime}\left(y\right)<0$
+\end_inset
+
+, at all levels such that
+\begin_inset Formula 
+\[
+\frac{\bar{v}_{y}}{k}<\bar{\mu}_{a}\frac{2y\theta^{2}}{\left(1+y^{2}\theta^{2}\right)^{2}}+\bar{\mu}_{y}\frac{\theta^{2}\left(1-y^{2}\theta^{2}\right)}{\left(1+y^{2}\theta^{2}\right)^{2}}
+\]
+
+\end_inset
+
+Consequently, for all 
+\begin_inset Formula $\bar{\mu}_{a}$
+\end_inset
+
+ above some thershold 
+\begin_inset Formula $\mu_{a}^{*}\geq0$
+\end_inset
+
+, there exists a range 
+\begin_inset Formula $\left[y_{1},y_{2}\right]$
+\end_inset
+
+ such that 
+\begin_inset Formula $\bar{a}\left(y\right)$
+\end_inset
+
+ is decreasing on 
+\begin_inset Formula $\left[y_{1},y_{2}\right]$
+\end_inset
+
+ and increasing everywhere else on 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\bar{\mu}_{y}<\bar{v}_{y}/k\theta^{2}$
+\end_inset
+
+, then 
+\begin_inset Formula $\mu_{a}^{*}>0$
+\end_inset
+
+ and 
+\begin_inset Formula $0<y_{1}<y_{2}$
+\end_inset
+
+; as 
+\begin_inset Formula $\bar{\mu}_{a}$
+\end_inset
+
+ increases, 
+\begin_inset Formula $y_{1}$
+\end_inset
+
+ falls and 
+\begin_inset Formula $y_{2}$
+\end_inset
+
+ rises, so 
+\begin_inset Formula $\left[y_{1},y_{2}\right]$
+\end_inset
+
+ widens.
+ If 
+\begin_inset Formula $\bar{\mu}_{y}>\bar{v}_{y}/k\theta^{2}$
+\end_inset
+
+, then 
+\begin_inset Formula $\mu_{a}^{*}=0$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{1}<0<y_{2}$
+\end_inset
+
+; as 
+\begin_inset Formula $\bar{\mu}_{a}$
+\end_inset
+
+ increases both 
+\begin_inset Formula $y_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{2}$
+\end_inset
+
+ rise and, for 
+\begin_inset Formula $\bar{\mu}_{a}$
+\end_inset
+
+ large enough, 
+\begin_inset Formula $\left[y_{1},y_{2}\right]$
+\end_inset
+
+ again widens.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Crowd-out
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename Benabou Tirole 2.png
+	lyxscale 25
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Image Rewards
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We have studied how extrinsic incentives 
+\begin_inset Formula $\left(y\right)$
+\end_inset
+
+ affect participation.
+ Can providing visibility to contributions 
+\begin_inset Formula $\left(x\right)$
+\end_inset
+
+ do a better job of encouraging participation?
+\end_layout
+
+\begin_layout Itemize
+Yes, but: When we have a homothetic increase in 
+\begin_inset Formula $\mu_{a},\mu_{y}$
+\end_inset
+
+ this works, but with heterogeneity people may suspect that contributors
+ are just doing it to look good: That they are 
+\emph on
+image-motivated
+\emph default
+.
+ This dampens incentives to participate.
+\end_layout
+
+\begin_layout Itemize
+Allow image concerns also to be heterogeneneous:
+\begin_inset Formula 
+\[
+\left(\begin{array}{c}
+\mu_{a}\\
+\mu_{y}
+\end{array}\right)\sim\mathcal{N}\left(\begin{array}{c}
+\bar{\mu}_{a}\\
+\bar{\mu}_{y}
+\end{array},\left[\begin{array}{cc}
+\omega_{a}^{2} & \omega_{ay}\\
+\omega_{ay} & \omega_{y}^{2}
+\end{array}\right]\right),\;\bar{\mu}_{a},\bar{\mu}_{y}\geq0
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula $\mathbf{v}$
+\end_inset
+
+ and 
+\begin_inset Formula $\boldsymbol{\mu}$
+\end_inset
+
+ are independent.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Image Rewards
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The first order condition for the choice of 
+\begin_inset Formula $a$
+\end_inset
+
+ is still
+\begin_inset Formula 
+\[
+C^{\prime}\left(a\right)=v_{a}+v_{y}y+r\left(a,y;\boldsymbol{\mu}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now the reputational concern term in the first order condition 
+\begin_inset Formula $r\left(a,y;\boldsymbol{\mu}\right)$
+\end_inset
+
+ is also normally distributed, with mean 
+\begin_inset Formula $\bar{r}\left(a,y;\boldsymbol{\mu}\right)$
+\end_inset
+
+ and variance
+\begin_inset Formula 
+\begin{align*}
+\Omega\left(a,y\right)^{2} & \equiv\left(\frac{\partial\mathbb{E}\left[v_{a}\vert a,y\right]}{\partial a}-\frac{\partial\mathbb{E}\left[v_{y}\vert a,y\right]}{\partial a}\right)\\
+ & \quad\times\left(\begin{array}{cc}
+\omega_{a}^{2} & \omega_{ay}\\
+\omega_{ay} & \omega_{y}^{2}
+\end{array}\right)\times\left(\begin{array}{c}
+\frac{\partial\mathbb{E}\left[v_{a}\vert a,y\right]}{\partial a}\\
+-\frac{\partial\mathbb{E}\left[v_{y}\vert a,y\right]}{\partial a}
+\end{array}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Image Rewards
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Updating still satisfies 
+\begin_inset Formula 
+\begin{align*}
+\mathbb{E}\left[v_{a}\vert a,y\right] & =\bar{v}_{a}+\rho\left(a,y\right)\left[ka-\bar{v}_{a}-\bar{v}_{y}y-\bar{r}\left(a,y\right)\right]\\
+\mathbb{E}\left[v_{y}\vert a,y\right] & =\bar{v}_{y}+\chi\left(a,y\right)\left[ka-\bar{v}_{a}-\bar{v}_{y}y-\bar{r}\left(a,y\right)\right]
+\end{align*}
+
+\end_inset
+
+but now
+\begin_inset Formula 
+\begin{align*}
+\rho\left(a,y\right) & \equiv\frac{\sigma^{2}+y\sigma_{ay}}{\sigma_{a}^{2}+2y\sigma_{ay}+y^{2}\sigma_{y}^{2}+\Omega\left(a,y\right)^{2}}\\
+\chi\left(a,y\right) & \equiv\frac{y\sigma^{2}+\sigma_{ay}}{\sigma_{a}^{2}+2y\sigma_{ay}+y^{2}\sigma_{y}^{2}+\Omega\left(a,y\right)^{2}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equilibrium solves these differential equations.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+But note they are now nonlinear because of the 
+\begin_inset Formula $\Omega^{2}$
+\end_inset
+
+ term.
+\end_layout
+
+\begin_layout Itemize
+Restrict attention to equilibria in the class where 
+\begin_inset Formula $\Omega\perp a$
+\end_inset
+
+.
+ This keeps reputations linear in 
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Image Rewards
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+proposition 4
+\shape default
+: (1) 
+\emph on
+A linear-reputation equilibrium corresponds to a fixed point 
+\begin_inset Formula $\Omega\left(y\right)$
+\end_inset
+
+, solution to
+\begin_inset Formula 
+\[
+\frac{\Omega\left(y\right)^{2}}{k^{2}}=\omega_{a}^{2}\rho\left(y\right)^{2}-2\omega_{ay}\rho\left(y\right)\chi\left(y\right)+\omega_{y}^{2}\chi\left(y\right)^{2}
+\]
+
+\end_inset
+
+The optimal action chosen by an agent with type 
+\begin_inset Formula $\left(\mathbf{v},\boldsymbol{\mu}\right)$
+\end_inset
+
+ is then 
+\begin_inset Formula 
+\[
+a=\frac{v_{a}+v_{y}y}{k}+\mu_{a}\rho\left(y\right)-\mu_{y}\chi\left(y\right)
+\]
+
+\end_inset
+
+and the marginal reputations are 
+\begin_inset Formula $\partial\mathbb{E}\left[v_{a}\vert a,y\right]/\partial a=\rho\left(y\right)k$
+\end_inset
+
+ and 
+\begin_inset Formula $\partial\mathbb{E}\left[v_{y}\vert a,y\right]/\partial a=\chi\left(y\right)k$
+\end_inset
+
+, with a net value of 
+\begin_inset Formula $r\left(y;\boldsymbol{\mu}\right)=\left[\mu_{a}\rho\left(y\right)-\mu_{y}\chi\left(y\right)\right]k$
+\end_inset
+
+ for the agent.
+\begin_inset Newline newline
+\end_inset
+
+(2) There always exists such an equilibrium, and if 
+\begin_inset Formula $\omega_{ay}=0$
+\end_inset
+
+ it is unique (in the linear reputation class)
+\end_layout
+
+\begin_layout Itemize
+Fixed point intuition:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The more variable image motives are, the noisier behavior is as a signal
+ of 
+\begin_inset Formula $v_{a},v_{y}$
+\end_inset
+
+, reducing 
+\begin_inset Formula $\rho\left(y\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $\chi\left(y\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+But the variance is endogenous to behavior which takes into account its
+ effect on signal-extraction.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benabou & Tirole 2006: Image Rewards
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Image rewards give rise to an offsetting 
+\emph on
+overjustification effect
+\emph default
+.
+ To see this, consider scaling all the reputational weights 
+\begin_inset Formula $\boldsymbol{\mu}=\left(\mu_{a},\mu_{y}\right)$
+\end_inset
+
+ up by a prominence factor 
+\begin_inset Formula $x$
+\end_inset
+
+ holding the material incentive 
+\begin_inset Formula $y$
+\end_inset
+
+ constant.
+\end_layout
+
+\begin_layout Itemize
+Aggregate supply is 
+\begin_inset Formula 
+\[
+\bar{a}\left(y,x\right)=\frac{\bar{v}_{a}+\bar{v}_{y}y}{k}+x\left[\bar{\mu}_{a}\rho\left(y,x\right)-\bar{\mu}\chi\left(y,x\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Increasing 
+\begin_inset Formula $x$
+\end_inset
+
+ has 2 effects:
+\end_layout
+
+\begin_layout Enumerate
+Direct 
+\emph on
+amplifying
+\emph default
+ effect with sign 
+\begin_inset Formula $=sign\left(\mu_{a}\rho\left(y,x\right)-\mu_{y}\chi\left(y,x\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+For socially minded people with 
+\begin_inset Formula $\mu_{a}\gg\mu_{y}$
+\end_inset
+
+ this increases incentives to contribute
+\end_layout
+
+\begin_layout Enumerate
+People worried not to look greedy 
+\begin_inset Formula $\mu_{a}\ll\mu_{y}$
+\end_inset
+
+ decreases incentives.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Indirect 
+\emph on
+dampening
+\emph default
+ effect.
+ Increasing 
+\begin_inset Formula $x$
+\end_inset
+
+ increases the noise 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ people attribute behavior more to image-seeking 
+\begin_inset Formula $\rho\left(y,x\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $\chi\left(y,x\right)$
+\end_inset
+
+ shrink 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ people respond less to image rewards.
 \end_layout
 
 \end_deeper
