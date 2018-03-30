@@ -4595,7 +4595,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005:
+Besley & Ghatak 2005: Introduction
 \end_layout
 
 \end_inset
@@ -4603,6 +4603,607 @@ Besley & Ghatak 2005:
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Money is not the only way that workers are motivated
+\end_layout
+
+\begin_layout Itemize
+Many organizations, especially in the non-profit & public sectors have a
+ 
+\begin_inset Quotes eld
+\end_inset
+
+mission
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+(some) workers too care about the mission of the organization they work
+ with.
+\end_layout
+
+\begin_layout Itemize
+Build a model to study this.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Matching on mission 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ less need for explicit incentives
+\end_layout
+
+\begin_layout Itemize
+But, entrenches conservatism/resistance to innovation.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Principal-Agent Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A firm = a risk-neutral principal, and a risk-neutral agent.
+\end_layout
+
+\begin_layout Itemize
+Principal needs agent to do a project.
+\end_layout
+
+\begin_layout Itemize
+Project outcome is high 
+\begin_inset Formula $\rightarrow Y_{H}$
+\end_inset
+
+ or lof 
+\begin_inset Formula $\rightarrow Y_{L}<Y_{H}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Probability of high outcome is effort by agent 
+\begin_inset Formula $e$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Effort is non-contractible and costs agent 
+\begin_inset Formula $e^{2}/2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Agent has limited liability so requires wage 
+\begin_inset Formula $\text{\ensuremath{\underline{w}}}\geq0$
+\end_inset
+
+ every period.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Organizational Mission
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+3 types of principals 
+\begin_inset Formula $i\in\left\{ 0,1,2\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If project succeeds, principal gets 
+\begin_inset Formula $\pi_{i}>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Type 0 principals are 
+\begin_inset Quotes eld
+\end_inset
+
+standard
+\begin_inset Quotes erd
+\end_inset
+
+: 
+\begin_inset Formula $\pi_{0}$
+\end_inset
+
+ is purely monetary.
+ Think of them as the private sector, the 
+\begin_inset Quotes eld
+\end_inset
+
+Profit-oriented sector
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Types 1 and 2: Part of 
+\begin_inset Formula $\pi_{1},\pi_{2}$
+\end_inset
+
+ are nonpecuniary payoffs: Think of them as non-profits/govt, the 
+\begin_inset Quotes eld
+\end_inset
+
+Mission-oriented sector
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $\pi_{1}=\pi_{2}=\hat{\pi}\rightarrow$
+\end_inset
+
+ this is a model of horizontal matching: no productivity differences across
+ orgs when there is efficient matching.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Intrinsic Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+3 types of agents 
+\begin_inset Formula $j\in\left\{ 0,1,2\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Agents get a nonpecuniary benefit 
+\begin_inset Formula $\theta_{ij}$
+\end_inset
+
+ from working at a type 
+\begin_inset Formula $i$
+\end_inset
+
+ organization
+\end_layout
+
+\begin_layout Itemize
+Type 0s don't care: 
+\begin_inset Formula $\theta_{i0}=0$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Itemize
+Types 1 and 2 are 
+\begin_inset Quotes eld
+\end_inset
+
+Motivated Agents
+\begin_inset Quotes erd
+\end_inset
+
+: Get 
+\begin_inset Formula $\bar{\theta}$
+\end_inset
+
+ from working at 
+\begin_inset Quotes eld
+\end_inset
+
+their
+\begin_inset Quotes erd
+\end_inset
+
+ type, 
+\begin_inset Formula $\underline{\theta}$
+\end_inset
+
+ from working at the other type.
+ 
+\begin_inset Formula $\bar{\theta}>\underline{\theta}\geq0$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\theta_{ij}=\begin{cases}
+0 & \text{if }i=0\text{ and/or }j=0\\
+\text{\ensuremath{\underline{\theta}}} & \text{if }i\in\left\{ 1,2\right\} ,j\in\left\{ 1,2\right\} ,i\neq j\\
+\bar{\theta} & \text{if }i\in\left\{ 1,2\right\} ,j\in\left\{ 1,2\right\} ,i=j
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assume: 
+\begin_inset Formula $\max\left\{ \pi_{0},\hat{\pi}+\bar{\theta}\right\} <1$
+\end_inset
+
+ to guarantee interior solutions for effort in all matches
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Optimal Contracts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Contracts have 2 terms
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A fixed wage 
+\begin_inset Formula $w_{ij}$
+\end_inset
+
+ paid regardless of the project outcome
+\end_layout
+
+\begin_layout Enumerate
+A bonus 
+\begin_inset Formula $b_{ij}$
+\end_inset
+
+ if the outcome is 
+\begin_inset Formula $Y_{H}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consider the first-best as a benchmark.
+ Effort is contractible and solves
+\begin_inset Formula 
+\[
+\max_{e}e\left[\pi_{i}+\theta_{ij}\right]+\left(1-e\right)\left[0\right]-e^{2}/2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+First-best optimal effort:
+\begin_inset Formula 
+\[
+e=\pi_{i}+\theta_{ij}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Generates total surplus
+\begin_inset Formula 
+\[
+\frac{\left(\pi_{i}+\theta_{ij}\right)^{2}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Optimal Contracts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the second best, effort is not contractible.
+ Principal solves
+\begin_inset Formula 
+\[
+\max_{\left[b_{ij},w_{ij}\right]}u_{ij}^{P}=\left(\pi_{i}-b_{ij}\right)e_{ij}-w_{ij}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Subject to 3 constraints:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+limited liability: Agent gets at least 
+\begin_inset Formula $\underline{w}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+b_{ij}+w_{ij}\geq\underline{w}\quad w_{ij}\geq\underline{w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+participation: Agent prefers this to outside option 
+\begin_inset Formula 
+\[
+u_{ij}^{a}=e_{ij}\left(b_{ij}+\theta_{ij}\right)+w_{ij}-\frac{1}{2}e_{ij}^{2}\geq\bar{u}_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Incentive compatibility: Agent picks 
+\begin_inset Formula $e_{ij}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+e_{ij}-\arg\max_{e_{ij}\in\left[0,1\right]}\left\{ e_{ij}\left(b_{ij}+\theta_{ij}\right)+w_{ij}-\frac{1}{2}e_{ij}^{2}\right\} 
+\]
+
+\end_inset
+
+which simplifies to 
+\begin_inset Formula $e_{ij}=b_{ij}+\theta_{ij}$
+\end_inset
+
+ as long as this is 
+\begin_inset Formula $\in\left[0,1\right]$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assume the project is always worth trying:
+\begin_inset Formula 
+\[
+\frac{1}{4}\left[\min\left\{ \pi_{0},\hat{\pi}\right\} \right]^{2}-\underline{w}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Define 
+\begin_inset Formula $\bar{v}_{ij}$
+\end_inset
+
+ as the value of the reservation payoff to an agent of type 
+\begin_inset Formula $j$
+\end_inset
+
+ such that a principal of type 
+\begin_inset Formula $i$
+\end_inset
+
+ makes zero expected profits under the optimal contract.
+ And define 
+\begin_inset Formula $\underline{v}_{ij}$
+\end_inset
+
+ as the lowest 
+\begin_inset Formula $\bar{u}_{j}$
+\end_inset
+
+ for which the participation constraint binds.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Optimal Contracts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+proposition 1:
+\shape default
+ 
+\emph on
+Suppose Assumptions 1 and 2 hold.
+ An optimal contract 
+\begin_inset Formula $\text{\left(b_{ij}^{*},w_{ij}^{*}\right)}$
+\end_inset
+
+ between a principal of type 
+\begin_inset Formula $i$
+\end_inset
+
+ and an agent of type 
+\begin_inset Formula $j$
+\end_inset
+
+ given a reservation payoff 
+\begin_inset Formula $\bar{u}_{j}\in\left[0,\bar{v}_{ij}\right]$
+\end_inset
+
+ exists, and has the following features:
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+The fixed wage is set at the subsistence level: 
+\begin_inset Formula $w_{ij}^{*}=\underline{w}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+The bonus payment is characterized by
+\begin_inset Formula 
+\[
+b_{ij}^{*}=\begin{cases}
+\max\left\{ 0,\frac{\pi_{i}-\theta_{ij}}{2}\right\}  & \text{if }\bar{u}_{j}\in\left[0,\underline{v}_{ij}\right]\\
+\sqrt{2\left(\bar{u}_{j}-\underline{w}\right)}-\theta_{ij} & \text{if }\bar{u}_{j}\in\left[\underline{v}_{ij},\bar{v}_{ij}\right]
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+The optimal effort level solves: 
+\begin_inset Formula $e_{ij}^{*}=b_{ij}^{*}+\theta_{ij}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Section
 \begin_inset Argument 2
 status open
