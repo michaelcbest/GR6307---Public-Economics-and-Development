@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -46,8 +46,6 @@ theorems-ams-bytype
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures false
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -87,7 +85,6 @@ theorems-ams-bytype
 \suppress_date false
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -100,10 +97,7 @@ theorems-ams-bytype
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -145,7 +139,6 @@ LatexCommand href
 name "michael.best@columbia.edu"
 target "michael.best@columbia.edu"
 type "mailto:"
-literal "false"
 
 \end_inset
 
@@ -170,7 +163,6 @@ signup beforehand at
 LatexCommand href
 name "https://tinyurl.com/ybywuefw"
 target "https://tinyurl.com/ybywuefw"
-literal "false"
 
 \end_inset
 
@@ -232,7 +224,6 @@ I am publishing all the course materials in a
 LatexCommand href
 name "github"
 target "https://github.com/"
-literal "false"
 
 \end_inset
 
@@ -241,7 +232,6 @@ literal "false"
 LatexCommand href
 name "https://github.com/michaelcbest/GR6307---Public-Economics-and-Development"
 target "https://github.com/michaelcbest/GR6307---Public-Economics-and-Developmenthttps://github.com/michaelcbest/GR6307---Public-Economics-and-Development"
-literal "false"
 
 \end_inset
 
@@ -296,7 +286,6 @@ This is the first year I'm teaching the course, so I'm sure there will be
 LatexCommand href
 name "https://guides.github.com/activities/hello-world/"
 target "https://guides.github.com/activities/hello-world/"
-literal "false"
 
 \end_inset
 
@@ -512,7 +501,6 @@ Basic income as a policy option: Can it add up?
 LatexCommand href
 name "https://www.oecd.org/els/emp/Basic-Income-Policy-Option-2017.pdf"
 target "https://www.oecd.org/els/emp/Basic-Income-Policy-Option-2017.pdf"
-literal "false"
 
 \end_inset
 
@@ -521,7 +509,6 @@ literal "false"
 LatexCommand href
 name "https://www.oecd.org/els/soc/Basic-Income-Policy-Option-2017-Brackground-Technical-Note.pdf"
 target "https://www.oecd.org/els/soc/Basic-Income-Policy-Option-2017-Brackground-Technical-Note.pdf"
-literal "false"
 
 \end_inset
 
@@ -534,7 +521,6 @@ Y-combinator:
 LatexCommand href
 name "https://basicincome.ycr.org/"
 target "https://basicincome.ycr.org/"
-literal "false"
 
 \end_inset
 
@@ -547,7 +533,6 @@ IMF Fiscal monitor October 2017:
 LatexCommand href
 name "https://www.imf.org/en/Publications/FM/Issues/2017/10/05/fiscal-monitor-october-2017"
 target "https://www.imf.org/en/Publications/FM/Issues/2017/10/05/fiscal-monitor-october-2017"
-literal "false"
 
 \end_inset
 
@@ -560,7 +545,6 @@ Survey data on Mexico:
 LatexCommand href
 name "http://www.inegi.org.mx/biinegi/"
 target "http://www.inegi.org.mx/biinegi/"
-literal "false"
 
 \end_inset
 
@@ -584,7 +568,6 @@ All students will write a referee report on either
 LatexCommand href
 name "Edoardo Teso, Emanuele Colonnelli, and Mounu Prem, “Patronage in the Allocation of Public Sector Jobs”"
 target "https://scholar.harvard.edu/files/edoardoteso/files/edoardoteso_jmp.pdf"
-literal "false"
 
 \end_inset
 
@@ -593,7 +576,6 @@ literal "false"
 LatexCommand href
 name "Jeffrey Weaver, \"Jobs for Sale: Corruption and Misallocation in Hiring\""
 target "https://www.dropbox.com/s/6bktr62uondsenl/JeffWeaverJMPfinal.pdf?dl=0"
-literal "false"
 
 \end_inset
 
@@ -609,7 +591,6 @@ If you choose to do a second referee report rather than the research proposal,
 LatexCommand href
 name "Michael Callen, Saad Gulzar, Ali Hasanain, Muhammad Yasir Khan, and Arman Rezaee, \"The Political Economy of Public Sector Absence\""
 target "https://dl.dropboxusercontent.com/content_link/K8jIZD6rHNoT1jAZ706vOZhC5jP0CxECGSjQpcmFzXseHduKplbg2y5Nxiun3tLG/file"
-literal "false"
 
 \end_inset
 
@@ -618,7 +599,6 @@ literal "false"
 LatexCommand href
 name "Juan Carlos Suarez Serrato, Xiao Yu Wang and Shuang Zhang, \"The Limits of Meritocracy: Screening Bureaucrats Under Imperfect Verifiability\""
 target "http://jcsuarez.com/Files/Suarez_Serrato_Wang_Zhang.pdf"
-literal "false"
 
 \end_inset
 
@@ -636,7 +616,6 @@ A couple of useful resources for writing referee reports:
 LatexCommand href
 name "Jonathan Berk, Campbell R. Harvey, and David A. Hirshleifer, \"Preparing a Referee Report: Guidelines and Perspectives\""
 target "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2547191"
-literal "false"
 
 \end_inset
 
@@ -648,7 +627,6 @@ literal "false"
 LatexCommand href
 name "A template"
 target "http://users.nber.org/~nikolovp/studentresources/refreport.pdf"
-literal "false"
 
 \end_inset
 
@@ -666,7 +644,6 @@ Thanks to
 LatexCommand href
 name "Owen Zidar"
 target "http://faculty.chicagobooth.edu/owen.zidar/teaching/Fall2017/Zidar_econ523_F17_syllabus.pdf"
-literal "false"
 
 \end_inset
 
@@ -767,7 +744,7 @@ Schedule
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="14" columns="3">
+<lyxtabular version="3" rows="13" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -969,7 +946,7 @@ Anti-Poverty 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Debate 
+Debate + Taxation 4
 \end_layout
 
 \end_inset
@@ -989,7 +966,7 @@ Debate
 \begin_inset Text
 
 \begin_layout Plain Layout
-3/28
+3/21
 \end_layout
 
 \end_inset
@@ -998,7 +975,7 @@ Debate
 \begin_inset Text
 
 \begin_layout Plain Layout
-Rebuttals + Taxation 4
+Rebuttals + Personnel 1
 \end_layout
 
 \end_inset
@@ -1018,36 +995,7 @@ Rebuttals + Taxation 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Personnel 1
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4/11
+3/28
 \end_layout
 
 \end_inset
@@ -1067,7 +1015,7 @@ Personnel 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+9
 \end_layout
 
 \end_inset
@@ -1076,7 +1024,7 @@ Personnel 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/12
+4/4
 \end_layout
 
 \end_inset
@@ -1086,6 +1034,35 @@ Personnel 2
 
 \begin_layout Plain Layout
 Personnel 3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4/11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personnel 4
 \end_layout
 
 \end_inset
@@ -1114,35 +1091,6 @@ Personnel 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 4
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4/25
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 Data & Technology 1
 \end_layout
 
@@ -1154,7 +1102,7 @@ Data & Technology 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-13
+12
 \end_layout
 
 \end_inset
@@ -1163,7 +1111,7 @@ Data & Technology 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/26
+4/25
 \end_layout
 
 \end_inset
