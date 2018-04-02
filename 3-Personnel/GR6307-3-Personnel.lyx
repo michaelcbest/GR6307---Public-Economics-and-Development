@@ -5712,6 +5712,28 @@ which simplifies to
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Optimal Contracts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Assume the project is always worth trying:
 \begin_inset Formula 
@@ -5836,6 +5858,854 @@ The optimal effort level solves:
 
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Optimal Contracts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gives rise to 3 cases
+\end_layout
+
+\begin_layout Enumerate
+If the agent is more motivated than the principal and the outside option
+ is low, 
+\begin_inset Formula $b_{ij}^{*}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If the principal is more motivated than the agent and the outside option
+ is low, 
+\begin_inset Formula $b_{ij}^{*}=\tfrac{1}{2}\left(\pi_{i}-\theta_{ij}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If the outside option is high, then 
+\begin_inset Formula $b_{ij}^{*}=\sqrt{2\left(\bar{u}_{ij}-\underline{w}\right)}-\theta_{ij}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Optimal Contracts in the Profit-Oriented Sector
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+corollary 1:
+\shape default
+ 
+\emph on
+In the profit-oriented sector 
+\begin_inset Formula $\left(i=0\right)$
+\end_inset
+
+, the optimal contract is characterized by the following:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+(a)
+\end_layout
+
+\end_inset
+
+
+\emph on
+The fixed wage is set at the subsistence level, i.e., 
+\begin_inset Formula $w_{0j}^{*}=\underline{w}$
+\end_inset
+
+ 
+\begin_inset Formula $\left(j=0,1,2\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+(b)
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+The bonus payment is characterized by
+\begin_inset Formula 
+\[
+b_{0j}^{*}=\begin{cases}
+\frac{\pi_{0}}{2} & \text{if }\bar{u}_{j}\in\left[0,\underline{v}_{0j}\right]\\
+\sqrt{2\left(\bar{u}_{j}-\underline{w}\right)} & \text{if }\bar{u}_{j}\in\left[\underline{v}_{0j},\bar{v}_{0j}\right]
+\end{cases}
+\]
+
+\end_inset
+
+for 
+\begin_inset Formula $j=0,1,2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+(c)
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+The optimal effort level solves: 
+\begin_inset Formula $e_{0j}^{*}=b_{0j}^{*}$
+\end_inset
+
+ 
+\begin_inset Formula $\left(j=0,1,2\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Optimal Contracts in the Mission-oriented sector
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+corollary 2:
+\shape default
+ 
+\emph on
+Suppose that 
+\begin_inset Formula $\bar{u}_{0}=\bar{u}_{1}=\bar{u}_{2}$
+\end_inset
+
+.
+ Then, in the mission-oriented sector 
+\begin_inset Formula $\left(i=1,2\right)$
+\end_inset
+
+, effort is higher and the bonus payment is lower if the agent's type is
+ the same as that of the principal.
+\end_layout
+
+\begin_layout Itemize
+bonuses and intrinsic motivation are perfect substitutes
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+corollary 3:
+\shape default
+ 
+\emph on
+Suppose that 
+\begin_inset Formula $\bar{u}_{0}=\bar{u}_{1}=\bar{u}_{2}$
+\end_inset
+
+.
+ Then, in the mission-oriented sector 
+\begin_inset Formula $\left(i=1,2\right)$
+\end_inset
+
+ bonus payments and effort are negatively correlated in a cross section
+ of organizations
+\end_layout
+
+\begin_layout Itemize
+This is a selection effect: Places with better match will have lower bonuses
+ because of corollary 2.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Competing for Workers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What happens when the different sectors are competing for workers?
+\end_layout
+
+\begin_layout Itemize
+Define 
+\begin_inset Formula $\mathcal{A}_{p}=\left\{ p_{0},p_{1},p_{2}\right\} $
+\end_inset
+
+ as the set of types of the principals.
+ 
+\begin_inset Formula $\mathcal{A}_{a}=\left\{ a_{0},a_{1},a_{2}\right\} $
+\end_inset
+
+ is the set of types of the agents.
+\end_layout
+
+\begin_layout Itemize
+A matching process is a matching function 
+\begin_inset Formula $\mu:\mathcal{A}_{p}\cup\mathcal{A}_{a}\rightarrow\mathcal{A}_{p}\cup\mathcal{A}_{a}$
+\end_inset
+
+ such that
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mu\left(p_{i}\right)\in\mathcal{A}_{a}\cup\left\{ p_{i}\right\} \;\forall p_{i}\in\mathcal{A}_{p}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mu\left(a_{j}\right)\in\mathcal{A}_{p}\cup\left\{ a_{j}\right\} \:\forall a_{i}\in\mathcal{A}_{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mu\left(p_{i}\right)=a_{j}\iff\mu\left(a_{j}\right)=p_{i}\;\forall\left(p_{i},a_{j}\right)\in\mathcal{A}_{p}\times\mathcal{A}_{j}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $n_{i}^{p}$
+\end_inset
+
+ = number of principals of type 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Analogously 
+\begin_inset Formula $n_{j}^{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $n_{1}^{a}=n_{1}^{p}$
+\end_inset
+
+ and 
+\begin_inset Formula $n_{2}^{a}=n_{2}^{p}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+However, allow 
+\emph on
+unemployment 
+\emph default
+
+\begin_inset Formula $\left(n_{0}^{a}>n_{0}^{p}\right)$
+\end_inset
+
+ and 
+\emph on
+full employment 
+\emph default
+
+\begin_inset Formula $\left(n_{0}^{a}<n_{0}^{p}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Competing for Workers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume that the individuals on the long side of the market gets none of
+ the surplus.
+\end_layout
+
+\begin_layout Itemize
+This pins down the outside options.
+ For any set of outside options, proposition 1 tells us the optimal contracts.
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+proposition 2
+\shape default
+: 
+\emph on
+Consider a matching 
+\begin_inset Formula $\mu$
+\end_inset
+
+ and associated optimal contracts 
+\begin_inset Formula $\left(w_{ij}^{*},b_{ij}^{*}\right)$
+\end_inset
+
+ for 
+\begin_inset Formula $i=0,1,2$
+\end_inset
+
+ and 
+\begin_inset Formula $j=0,1,2$
+\end_inset
+
+.
+ Then this matching is stable only if 
+\begin_inset Formula $\mu\left(p_{i}\right)=a_{i}$
+\end_inset
+
+ for 
+\begin_inset Formula $i=0,1,2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assume that when the two sectors are competing it's still worth having mission-o
+riented production (surplus is high enough):
+\begin_inset Formula 
+\[
+\bar{\theta}+\hat{\pi}\geq\pi_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Competing for Workers: Full Employment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+proposition 3
+\shape default
+: 
+\emph on
+Suppose that 
+\begin_inset Formula $n_{0}^{a}<n_{0}^{p}$
+\end_inset
+
+ (full employment in the profit-oriented sector).
+ Then the following matching 
+\begin_inset Formula $\mu$
+\end_inset
+
+ is stable: 
+\begin_inset Formula $\mu\left(a_{j}\right)=p_{j}$
+\end_inset
+
+ for 
+\begin_inset Formula $j=0,1,2$
+\end_inset
+
+ and the associated optimal contracts have the following features:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+(a)
+\end_layout
+
+\end_inset
+
+
+\emph on
+The fixed wage is set at the subsistence level, i.e.
+ 
+\begin_inset Formula $w_{ij}^{*}=\underline{w}$
+\end_inset
+
+ for 
+\begin_inset Formula $j=0,1,2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+(b)
+\end_layout
+
+\end_inset
+
+
+\emph on
+The bonus payment in the mission-oriented sector is
+\begin_inset Formula 
+\[
+b_{11}^{*}=b_{22}^{*}=\tfrac{1}{2}\max\left\{ \max\left\{ \bar{\theta},\hat{\pi}\right\} ,\pi_{0}+\sqrt{\pi_{0}^{2}-4\underline{w}}-\bar{\theta}\right\} 
+\]
+
+\end_inset
+
+and the bonus payment in the profit-oriented sector is
+\begin_inset Formula 
+\[
+b_{00}^{*}=\frac{\pi_{0}+\sqrt{\pi_{0}^{2}-4\underline{w}}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+(c)
+\end_layout
+
+\end_inset
+
+The optimal effort level solves: 
+\begin_inset Formula $e_{jj}^{*}=b_{jj}^{*}+\bar{\theta}$
+\end_inset
+
+ for 
+\begin_inset Formula $j=1,2$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{00}^{*}=b_{00}^{*}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Competing for Workers: Full Employment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Competition for workers and incentives interact in important ways
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+matching effect
+\emph default
+.
+ Less heterogeneity in contracts compared to a world in which principals
+ and agents don't match assortatively.
+ When the participation constraint doesn't bind, incentive pay is lower.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+outside option effect.
+
+\emph default
+ Full employment drives profit-oriented principals' payoff to zero.
+ Motivated agent's reservation utility is what she'd get by switching to
+ the profit-oriented sector.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+When productivity is high in the profit-oriented sector, the mission-oriented
+ sector has to pay more and use incentive pay more.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Even with a binding participation constraint, incentive pay is lower in
+ the mission-oriented sector than in the profit-oriented sector
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Competing for Workers: Unemployment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+proposition 4
+\shape default
+: 
+\emph on
+Suppose that 
+\begin_inset Formula $n_{0}^{a}>n_{0}^{p}$
+\end_inset
+
+ (unemployment in the profit-oriented sector).
+ Then the following matching 
+\begin_inset Formula $\mu$
+\end_inset
+
+ is stable: 
+\begin_inset Formula $\mu\left(a_{j}\right)=p_{j}$
+\end_inset
+
+ for 
+\begin_inset Formula $j=0,1,2$
+\end_inset
+
+ and the associated optimal contracts have the following features:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+(a)
+\end_layout
+
+\end_inset
+
+The fixed wage is set at the subsistence level 
+\begin_inset Formula $w_{ij}^{*}=\underline{w}$
+\end_inset
+
+ for 
+\begin_inset Formula $j=0,1,2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+(b)
+\end_layout
+
+\end_inset
+
+
+\emph on
+The bonus payment in the mission-oriented sector is:
+\begin_inset Formula 
+\[
+b_{11}^{*}=b_{22}^{*}=\frac{\max\left\{ \bar{\theta},\hat{\pi}\right\} -\bar{\theta}}{2}
+\]
+
+\end_inset
+
+and the bonus payment in the profit-oriented sector is
+\begin_inset Formula 
+\[
+b_{00}^{*}=\frac{\pi_{0}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+(c)
+\end_layout
+
+\end_inset
+
+
+\emph on
+The optimal effort level solves: 
+\begin_inset Formula $e_{ij}^{*}=b_{ij}^{*}+\bar{\theta}$
+\end_inset
+
+ for 
+\begin_inset Formula $j=1,2$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{00}^{*}=b_{00}^{*}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Besley & Ghatak 2005: Competing for Workers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now there's only a matching effect.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Application of BG framework to public sector bureaucracy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Lower powered incentives due to mission-oriented production
+\end_layout
+
+\begin_layout Itemize
+If an election changes the mission, may reduce productivity of bureaucracy
+\end_layout
+
+\begin_layout Itemize
+If private-sector opportunities improve 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ more high-powered incentives in bureaucracy
+\end_layout
+
+\begin_layout Itemize
+Lack of innovation: In profit-oriented sector, any innovation that increases
+ 
+\begin_inset Formula $\pi_{0}$
+\end_inset
+
+ will be adopted.
+ However, in a mission-oriented organization, only innovations that increase
+ 
+\begin_inset Formula $\pi_{i}+\theta_{ij}$
+\end_inset
+
+ will be adopted.
+ If the innovation increases 
+\begin_inset Formula $\pi_{i}$
+\end_inset
+
+ but decreases 
+\begin_inset Formula $\theta_{ij}$
+\end_inset
+
+ it may not be adopted.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Section
 \begin_inset Argument 2
