@@ -1621,8 +1621,8 @@
     \endentry
     \entry{DalBoetal2013}{article}{}
       \name{author}{3}{}{%
-        {{hash=bd5b2b7992ab7c3542a803313ca44cfc}{%
-           family={{Dal B{'o}}},
+        {{hash=1cc259472078875f9195cf430998a286}{%
+           family={{Dal Bó}},
            familyi={D\bibinitperiod},
            given={E},
            giveni={E\bibinitperiod}}}%
@@ -1637,10 +1637,10 @@
            given={M.A.},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{61bc5e59719fde8f938e23a56322b6f2}
-      \strng{fullhash}{61bc5e59719fde8f938e23a56322b6f2}
-      \strng{authornamehash}{61bc5e59719fde8f938e23a56322b6f2}
-      \strng{authorfullhash}{61bc5e59719fde8f938e23a56322b6f2}
+      \strng{namehash}{30cbf31f69c67b7454c95633bcd076b3}
+      \strng{fullhash}{30cbf31f69c67b7454c95633bcd076b3}
+      \strng{authornamehash}{30cbf31f69c67b7454c95633bcd076b3}
+      \strng{authorfullhash}{30cbf31f69c67b7454c95633bcd076b3}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labeldatesource}{year}
