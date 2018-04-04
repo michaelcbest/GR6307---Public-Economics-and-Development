@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  31 JAN 2018 10:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 APR 2018 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,13 +855,13 @@ Overfull \hbox (7.40077pt too wide) in paragraph at lines 101--102
 -liv-ery''. Mimeo:
  []
 
-
-Overfull \hbox (12.46123pt too wide) in paragraph at lines 102--103
-[]\T1/ppl/m/n/10.95 A Baner-jee, R Hanna, and S Mul-lainathan. 2012. ``Cor-rup-
-tion''. Chap. 27
+[7]
+Overfull \hbox (62.88539pt too wide) in paragraph at lines 108--109
+\T1/ppl/m/n/10.95 Salary In-crease in In-done-sia''. Forth-com-ing, Quar-terly 
+Jour-nal of Economics.$[]$ 
  []
 
-[7] [8]
+[8]
 Overfull \hbox (15.47102pt too wide) in paragraph at lines 115--116
 \T1/ppl/m/n/10.95 per-i-men-tal Ev-i-dence on In-cen-tiviz-ing Bu-reau-crats th
 rough Performance-
@@ -921,7 +921,7 @@ ype1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/palatino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/pala
 tino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (12 pages, 139490 bytes).
+Output written on "GR 6307 - Syllabus.pdf" (12 pages, 142543 bytes).
 PDF statistics:
  230 PDF objects out of 1000 (max. 8388607)
  206 compressed objects within 3 object streams

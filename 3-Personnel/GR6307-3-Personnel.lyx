@@ -6720,6 +6720,1312 @@ Financial Incentives
 Financial Incentives
 \end_layout
 
+\begin_layout Subsection
+Duflo, Hanna & Ryan (AER 2012) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Incentives Work: Getting Teachers to Come to School
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Access to primary school has increased dramatically in low-income countries,
+ but school quality hasn't
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+65% of children in grades 2-5 in Indian government schools in 2006 couldn't
+ read a simple paragraph (Pratham 2006)
+\end_layout
+
+\begin_layout Itemize
+24% of teachers in India are absent in unannounced visits (Kremer et al
+ 2005)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This paper: Experiment and structural model of direct monitoring of para-teacher
+s' attendance in India.
+\end_layout
+
+\begin_layout Itemize
+Ambiguous effect on presence.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Standard labor supply model predicts more effort, but only if strong enough
+ incentives
+\end_layout
+
+\begin_layout Itemize
+Incentives could crowd out intrinsic motivation (Benabou & Tirole 2006).
+\end_layout
+
+\begin_layout Itemize
+Teachers may stop working after reaching target income (Fehr & Goette 2007)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Will presence increase learning?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Multitasking means incentives for presence could crowd out other dimensions
+ of effort (Holmstrom & Milgrom 1991).
+\end_layout
+
+\begin_layout Itemize
+Incentives may demotalize teacher or reduce their intrinsic motivation to
+ teach.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+But if the main reason people fon't show up is the opportunity cost of being
+ at the school and the marginal cost of teaching once you're at the school
+ is low, this might just work.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Setting & Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The setting are rural nonformal education centers (NFEs) in Udaipur, Rajasthan,
+ India.
+\end_layout
+
+\begin_layout Itemize
+In september 2003 Seva Mandir, the operator chose 120 schools for the experiment.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In 60 schools the teachers got a camera and were told that one of the students
+ had to take a photograph of the teacher with the children at the start
+ and the end of the day.
+ Cameras had a tamper-proof date & time function.
+\end_layout
+
+\begin_layout Itemize
+The other 60 schools are controls
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Teachers' base salary was Rs.
+ 1,000 for at least 20 days of work per month.
+\end_layout
+
+\begin_layout Itemize
+Treatment teachers got a Rs.
+ 50 bonus for every day in excess of 20 days and a Rs.
+ 50 fine for each day of the 20 that they skip.
+ Fines capped at Rs.
+ 500
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Attendance data
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+1 random, unannounced visit to each school each month.
+\end_layout
+
+\begin_layout Enumerate
+Camera and payment data for treatment schools
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Additional data from random checks.
+ How many children, whether anything on the board, whether the teacher was
+ talking to the children, and roll call.
+\end_layout
+
+\begin_layout Itemize
+3 basic competency exams.Oral exams testing simple math, basic Hindi vocabulary.
+ Written exam testing addition, multiplication, ability to construct sentences,
+ and reading comprehension.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+a pretest in August 2003
+\end_layout
+
+\begin_layout Enumerate
+a mid-test in April 2004
+\end_layout
+
+\begin_layout Enumerate
+a post-test in September 2004
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_1.png
+	height 93pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Attendance Increased
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Attendance Increased
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Attendance Increased
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Financial Incentives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+People in the treatment group got both financial incentives and monitoring,
+ so difficult to disentangle the two
+\end_layout
+
+\begin_layout Itemize
+The cap of Rs.
+ 500 on the fine makes the incentive scheme non-linear permiting an assessment
+ of the financial incentives independent of the monitoring as follows:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Imagine a teacher who was sick a lot one month and missed most of the first
+ 20 days of school.
+ Assume on day 21 he has worked 5 days and has 5 days to go.
+ Even if he works all 5 days, he will earn Rs.
+ 500, the same as if he works none.
+ At the start of the next month the clock resets, so he has an incentive
+ to start working again.
+\end_layout
+
+\begin_layout Itemize
+Now imagine a teacher who has worked 10 days by the 21st day of the month.
+ She earns Rs.
+ 50 for every day she works.
+ No different before or after the end of the month.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Financial Incentives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Financial Incentives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For teachers in the treatment group.
+ create a dataset of attendance records around the end of the month.
+ The last day of a month and the first day of the next month form a pair
+ 
+\begin_inset Formula $m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Work_{itm}$
+\end_inset
+
+ is a dummy for working in day 
+\begin_inset Formula $t$
+\end_inset
+
+ of pair 
+\begin_inset Formula $m$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+Work_{itm} & =\alpha+\beta\mathbf{1}_{im}\left(d>10\right)+\gamma Firstday_{t}\\
+ & \quad+\lambda\mathbf{1}_{im}\left(d>10\right)\times Firstday_{t}+v_{i}+\mu_{m}+\epsilon_{itm}
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathbf{1}_{im}\left(d>10\right)$
+\end_inset
+
+ is a dummy =1 in both 
+\begin_inset Formula $t$
+\end_inset
+
+ if the teacher is 
+\begin_inset Quotes eld
+\end_inset
+
+in the money
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Formula $Firstday_{t}$
+\end_inset
+
+ indicates the first day of the month
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Financial Incentives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Dynamic Labor Supply Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Teachers on day 
+\begin_inset Formula $t=\left\{ 1,\ldots,T_{m}\right\} $
+\end_inset
+
+ of month 
+\begin_inset Formula $m$
+\end_inset
+
+ value consumption 
+\begin_inset Formula $C_{tm}$
+\end_inset
+
+ and leisure 
+\begin_inset Formula $L_{tm}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+U_{tm}=U\left(C_{tm},L_{tm}\right)=\beta C_{tm}\left(\pi_{m}\right)+\left(\mu_{tm}-P\right)L_{tm}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $P$
+\end_inset
+
+ is nonpecuniary cost of missing work.
+\end_layout
+
+\begin_layout Itemize
+Consumption depends on earned income 
+\begin_inset Formula $\pi_{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\beta$
+\end_inset
+
+ turns rupees of consumption into utility.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L_{tm}$
+\end_inset
+
+ is 1 if the teacher doesn't attend work, and zero otherwise.
+\end_layout
+
+\begin_layout Itemize
+Leisure coefficient has deterministic and stochastic parts
+\begin_inset Formula 
+\[
+\mu_{tm}=\mu+\epsilon_{tm}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\epsilon_{tm}$
+\end_inset
+
+ is assumed to be normal.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Dynamic Labor Supply Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Not attending school has two costs: 
+\begin_inset Formula $P$
+\end_inset
+
+ and a probability 
+\begin_inset Formula $p_{m}\left(t,d\right)$
+\end_inset
+
+ of being fired that depends on the number of days worked 
+\begin_inset Formula $d$
+\end_inset
+
+ by time 
+\begin_inset Formula $t$
+\end_inset
+
+ in month 
+\begin_inset Formula $m$
+\end_inset
+
+.
+ If they are fired, teachers get 
+\begin_inset Formula $F$
+\end_inset
+
+, their outside option.
+\end_layout
+
+\begin_layout Itemize
+Income in the treatment group is 
+\begin_inset Formula 
+\[
+\pi_{m}=500+50\max\left\{ 0,d_{m-1}-10\right\} 
+\]
+
+\end_inset
+
+while in the control group 
+\begin_inset Formula $\pi_{m}$
+\end_inset
+
+ is Rs.
+ 1000.
+\end_layout
+
+\begin_layout Itemize
+Control group has simple binary choice.
+ Bellman equation on every day except last day of the month:
+\begin_inset Formula 
+\begin{align*}
+V_{m}\left(t,d;\epsilon_{tm}\right) & =p_{m}\left(t,d\right)F+\left[1-p_{m}\left(t,d\right)\right]\times\\
+ & \quad\max\left\{ \mu-P+\epsilon_{tm}+EV_{m}\left(t+1,d;\epsilon_{t,m+1}\right)\right.\\
+ & \qquad\quad\left.,EV_{m}\left(t+1,d+1;\epsilon_{t,m+1}\right)\right\} 
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Dynamic Labor Supply Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Treatment group have a very different problem to solve since they face incentive
+s for attendance.
+\end_layout
+
+\begin_layout Itemize
+In periods 
+\begin_inset Formula $t<T_{m}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+V_{m}\left(t,d;\epsilon_{tm}\right) & =p_{m}\left(t,d\right)+\left(1-p_{m}\left(t,d\right)\right)\times\\
+ & \quad\max\left\{ \mu-P+\epsilon_{tm}+EV_{m}\left(t+1,d;\epsilon_{t,m+1}\right)\right.\\
+ & \qquad\quad\left.,EV_{m}\left(t+1,d+1;\epsilon_{t,m+1}\right)\right\} 
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In period 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+V_{m}\left(T_{m},d;\epsilon_{T_{m},m}\right) & =p_{m}\left(T_{m},d\right)F+\left[1-p_{m}\left(T_{m},d\right)\right]\times\\
+ & \quad\max\left\{ \mu-\bar{P}+\epsilon_{T_{m},m}+\beta\pi\left(d\right)\right.\\
+ & \qquad\qquad+EV_{m+1}\left(1,0;\epsilon_{t,m+1}\right)\\
+ & \qquad\quad\left.,\beta\pi\left(d+1\right)+EV_{m+1}\left(1,0;\epsilon_{t,m+1}\right)\right\} 
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In period 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+, 
+\begin_inset Formula $EV_{m+1}$
+\end_inset
+
+ doesn't depend on action in 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+ so we can solve the model backwards.
+\end_layout
+
+\begin_layout Itemize
+Need to make some assumptions about 
+\begin_inset Formula $\mu$
+\end_inset
+
+ and the distribution of 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In the data noone ever gets fired, so assume that teachers perceive 
+\begin_inset Formula $p_{m}\left(t,d\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Model 1: iid errors.
+ Simplest case.
+ In period 
+\begin_inset Formula $t<T$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\mathbb{P}\left(work;t,d,\theta\right) & =\mathbb{P}\left(\mu+\epsilon_{tm}+EV\left(t+1,d\right)<EV\left(t+1,d+1\right)\right)\\
+ & =\mathbb{P}\left(\epsilon_{tm}<EV\left(t+1,d+1\right)-EV\left(t+1,d\right)-\mu\right)\\
+ & =\Phi\left(EV\left(t+1,d+1\right)-EV\left(t+1,d\right)-\mu\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each value function can be computed using backword recursion.
+\end_layout
+
+\begin_layout Itemize
+Let 
+\begin_inset Formula $w_{imt}$
+\end_inset
+
+ be an indicator for working on day 
+\begin_inset Formula $t$
+\end_inset
+
+ in month 
+\begin_inset Formula $m$
+\end_inset
+
+.
+ Then the log likelihood is
+\begin_inset Formula 
+\begin{align*}
+LLH\left(\theta\right) & =\sum_{i=1}^{N}\sum_{m=1}^{M_{i}}\sum_{t=1}^{T_{m}}\left[w_{imt}\mathbb{P}\left(work;t,d,\theta\right)\right.\\
+ & \qquad\qquad\left.+\left(1-w_{imt}\right)\left(1-\mathbb{P}\left(work,t,d,\theta\right)\right)\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This likelihood is concave and can be evaluated quickly, no numerical integratio
+n is needed.
+ Just need to evaluate it at many points.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now introduce some serial correlation in two ways.
+\end_layout
+
+\begin_layout Itemize
+Approach 1: Serially correlated preference shocks
+\begin_inset Formula 
+\[
+\mu_{mt}=\mu+w_{m,t-1}\gamma
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now the likelihood is
+\begin_inset Formula 
+\begin{align*}
+LLH\left(\theta\right) & =\sum_{i=1}^{N}\sum_{m=1}^{M_{i}}\sum_{t=1}^{T_{m}}\left[w_{imt}\mathbb{P}\left(work;t,d,\theta,w_{m,t-1}\right)\right.\\
+ & \qquad\qquad\left.+\left(1-w_{imt}\right)\left(1-\mathbb{P}\left(work,t,d,\theta,w_{m,t-1}\right)\right)\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Approach 2: Serially correlated cost shocks:
+\begin_inset Formula 
+\[
+\epsilon_{mt}=\rho\epsilon_{m,t-1}+\nu_{mt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Can't estimate this by ML, need to use Method of Simulated Moments.
+ Match sequences of attendance of length 5.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Extend the above in 2 ways
+\end_layout
+
+\begin_layout Enumerate
+Incorporate observables into 
+\begin_inset Formula $\mu$
+\end_inset
+
+.
+ Use attendance in control group in same geographic block and teacher's
+ score on the admission exam to shift 
+\begin_inset Formula $\mu$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Relax assumption that the outside option is the same for everyone.
+ Estimate fixed effects 
+\begin_inset Formula $\mu_{i}$
+\end_inset
+
+ or random coefficients 
+\begin_inset Formula $\mu_{im}$
+\end_inset
+
+ drawn from normal distribution or from a mixture of two normally distributed
+ types.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Counterfactual Policies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With the model we can do counterfactuals.
+ Authors use model V.
+\end_layout
+
+\begin_layout Itemize
+Find the cost minimizing combination of the bonus size and the threshold
+ to get a bonus that yield a particular number of expected work days.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Teacher performance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2012: Student Achievement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Run treatment regressions of scores in mid- and end-term exams.
+ Test scores are highly autocorrelated so gain lots of precision by controlling
+ for pre-scores.
+\begin_inset Formula 
+\begin{align*}
+Score_{ijk} & =\beta_{1}+\beta_{2}Treat_{j}+\beta_{3}Pre\_Writ_{ij}+\beta_{r}Oral\_Score_{ij}\\
+ & \quad+\beta_{5}Written\_Score_{ij}+\varepsilon_{ijk}
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $Pre\_Writ_{ij}$
+\end_inset
+
+ is a dummy for taking the written test at baseline (they did either the
+ written or oral test), 
+\begin_inset Formula $Oral\_Score_{ij}$
+\end_inset
+
+ is the score on the oral exam (or 0 if did the written exam) and 
+\begin_inset Formula $Written\_Score_{ij}$
+\end_inset
+
+ is the score on the written exam (or 0 if did the oral exam).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Duflo2012_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -6734,10 +8040,6 @@ Papers
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-Duflo teachers pictures with intro on absenteeism
-\end_layout
-
 \begin_layout Standard
 Karthik and Sandip's 2011
 \end_layout
