@@ -8011,7 +8011,7 @@ where
 \align center
 \begin_inset Graphics
 	filename Duflo2012_11.png
-	height 100pheight%
+	width 100text%
 
 \end_inset
 
