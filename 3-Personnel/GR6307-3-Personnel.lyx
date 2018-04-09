@@ -9686,6 +9686,506 @@ Supervisors performance pay
 status open
 
 \begin_layout Plain Layout
+Khan et al 2016: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Khanetal2016_1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Measurement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2 main data sources
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Administrative data at the circle-level 
+\end_layout
+
+\begin_layout Enumerate
+Survey data at property/taxpayer-level to measure accuracy of tax assessment,
+ customer satisfaction and corruption.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Create a measure of under/overtaxation
+\begin_inset Formula 
+\[
+TaxGap=\frac{GARV_{\text{Inspector}}-GARV_{\text{Survey}}}{GARV_{\text{Inspector}}+GARV_{\text{Survey}}}
+\]
+
+\end_inset
+
+sample mean is -0.10 suggesting undertaxation
+\end_layout
+
+\begin_layout Itemize
+Use absolute value of 
+\begin_inset Formula $TaxGap$
+\end_inset
+
+ as measure of inaccuracy (mean 0.34)
+\end_layout
+
+\begin_layout Itemize
+Bribes are common: Respondents report average bribes of Rs.2000 (US$20) which
+ 
+\begin_inset Formula $\sim$
+\end_inset
+
+ 50% of reported property taxes paid
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Small amount of attrition (refuse to participate/transferred out) so use
+ 2SLS: Instrument actual treatment status with randomization outcome
+\begin_inset Formula 
+\[
+\ln Y_{cst}=\alpha_{s}+\beta Treatment_{cst}+\gamma\ln Y_{cs0}+\epsilon_{cst}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $Y_{cst}$
+\end_inset
+
+ is outcome in circle 
+\begin_inset Formula $c$
+\end_inset
+
+ in stratum 
+\begin_inset Formula $s$
+\end_inset
+
+ at time 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ 
+\begin_inset Formula $Treatment_{cst}$
+\end_inset
+
+ is continuous between 0 & 1 representing fraction of treated circle staff
+ present in circle 
+\begin_inset Formula $c$
+\end_inset
+
+ in the last quarter of year 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+For survey-based outcomes estimate 
+\begin_inset Formula 
+\[
+Y_{ics}=\alpha_{s}+\beta Treatment_{cs}+\epsilon_{ics}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Khanetal2016_2.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Khanetal2016_3.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Collusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The model suggests that the incentive payments will alter the nature of
+ collusion
+\end_layout
+
+\begin_layout Enumerate
+How many properties get revalued? i.e.
+ how often does collusion break down?
+\end_layout
+
+\begin_layout Enumerate
+How does collusion change? if collusion breaks down, tax should go up and
+ bribes should go down.
+ If collusion doesn't break down bribes + tax should go up.
+ How shared depends on 
+\begin_inset Formula $\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+When does collusion break down? Which properties are the ones the inspectors
+ reassess?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Khanetal2016_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Khanetal2016_5.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Khanetal2016_6.png
+	lyxscale 50
+	width 105text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Khanetal2016_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Evidence broadly consistent with model:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Inspectors do reassess houses and bring in new ones
+\end_layout
+
+\begin_layout Itemize
+where reassessed, more likely to pay more tax, pay less bribes
+\end_layout
+
+\begin_layout Itemize
+Suggestive evidence it's richer, more powerful people who get reassessed
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Was this worthwhile for the benefit? We can do a cost-benefit assessment
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Cost-Benefit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Khanetal2016_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Papers
 \end_layout
 
