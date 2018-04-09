@@ -7024,7 +7024,7 @@ Muralidharan & Sundararaman 2011: Experiment
 \align center
 \begin_inset Graphics
 	filename MuralidharanSundararaman_1.png
-	scale 40
+	scale 38
 
 \end_inset
 
@@ -9067,6 +9067,396 @@ where
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Khan, Khwaja & Olken (QJE 2016) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Tax Farming Redux: Experimental Evidence on Performance Pay for Tax Collectors
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Focus on a bureaucrat (tax inspector) who has to assess, enforce, and audit
+ property taxes.
+\end_layout
+
+\begin_layout Itemize
+One possibility: sell the right to collect taxes to the bureaucrat and then
+ let the bureaucrat keep most/all of the revenue: 
+\begin_inset Quotes eld
+\end_inset
+
+Tax Farming
+\begin_inset Quotes erd
+\end_inset
+
+ common throughout history (Rome, France etc.)
+\end_layout
+
+\begin_layout Itemize
+But this is a setting where the bureaucrat and the citizen might collude.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+performance incentives affect division of rents without necessarily increasing
+ revenue.
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ if collusion is costless, then performance pay increases bribes without
+ increasing revenue since taxpayer now has to compensate the inspector for
+ the foregone bonus.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Conduct an experiment in Punjab, Pakistan to investigate these issues.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Punjab population >80 million.
+ Very low property tax collection.
+\end_layout
+
+\begin_layout Itemize
+Tax levied on the Gross Annual Rental Value (GARV) of the property.
+ Determined by a formula with size of land and buildings as inputs.
+\end_layout
+
+\begin_layout Itemize
+Different rates for owner-occupied and rental properties.
+ And for residential and commercial.
+ This is main way tax evasion happens.
+\end_layout
+
+\begin_layout Itemize
+Tax administered in 
+\begin_inset Quotes eld
+\end_inset
+
+circles
+\begin_inset Quotes erd
+\end_inset
+
+: geographic areas covering 2-10K houses.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each circle has 3 officers: An 
+\begin_inset Quotes eld
+\end_inset
+
+inspector
+\begin_inset Quotes erd
+\end_inset
+
+ (boss) a 
+\begin_inset Quotes eld
+\end_inset
+
+clerk
+\begin_inset Quotes erd
+\end_inset
+
+ (records) and a 
+\begin_inset Quotes eld
+\end_inset
+
+constable
+\begin_inset Quotes erd
+\end_inset
+
+ (assists inspector)
+\end_layout
+
+\begin_layout Itemize
+Each year they send the taxpayer a bill.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Taxpayer has true tax liability 
+\begin_inset Formula $\tau_{i}^{*}$
+\end_inset
+
+.
+ Inspector knows 
+\begin_inset Formula $\tau_{i}^{*}$
+\end_inset
+
+ but can choose to report 
+\begin_inset Formula $\tau_{i}<\tau_{i}^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Inspector receives incentive payment 
+\begin_inset Formula $r\tau_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Colluding to underreport is costly
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+taxpayer cost: 
+\begin_inset Formula $\alpha\left(\tau_{i}^{*}-\tau_{i}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+inspector cost: 
+\begin_inset Formula $\beta\left(\tau_{i}^{*}-\tau_{i}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Taxpayer and inspector Nash bargain over bribe 
+\begin_inset Formula $b_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If they don't agree a bribe, the taxpayer gets 
+\begin_inset Formula $-\tau_{i}^{*}$
+\end_inset
+
+ and the inspector gets 
+\begin_inset Formula $r\tau_{i}^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If they agree, the taxpayer gets 
+\begin_inset Formula $-\tau_{i}-\alpha_{i}\left(\tau_{i}^{*}-\tau_{i}\right)-b_{i}$
+\end_inset
+
+ and the inspector gets 
+\begin_inset Formula $r\tau_{i}-\beta\left(\tau_{i}^{*}-\tau_{i}\right)+b_{i}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Joint surplus is
+\begin_inset Formula 
+\begin{align*}
+\underbrace{\tau_{i}^{*}-\tau_{i}-\alpha_{i}\left(\tau_{i}^{*}-\tau_{i}\right)-b_{i}}_{\text{taxpayer}}+\underbrace{r\left(\tau_{i}-\tau_{i}^{*}\right)-\beta_{i}\left(\tau_{i}^{*}-\tau_{i}\right)+b_{i}}_{\text{inspector}}\\
+=\quad-\tau_{i}\left(1-\alpha_{i}-\beta_{i}-r\right)+\tau_{i}^{*}\left(1-\alpha_{i}-\beta_{i}-r\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Two cases
+\begin_inset Formula 
+\[
+\tau_{i}=\begin{cases}
+0 & \text{if }r+\alpha_{i}+\beta_{i}<1\\
+\tau_{i}^{*} & \text{if }r+\alpha_{i}+\beta_{i}>1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+With bargaining weight 
+\begin_inset Formula $\gamma_{i}$
+\end_inset
+
+ on the taxpayer
+\begin_inset Formula 
+\[
+b_{i}=\left[\left(\beta_{i}+r\right)\gamma_{i}+\left(1-\gamma_{i}\right)\left(1-\alpha_{i}\right)\right]\tau_{i}^{*}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If we increase 
+\begin_inset Formula $r$
+\end_inset
+
+ the effect depends on how many people are tipped from one case to the other
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2016: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What happens to total revenue 
+\begin_inset Formula $T$
+\end_inset
+
+? Denote 
+\begin_inset Formula $f\left(\alpha,\beta,\tau^{*}\right)$
+\end_inset
+
+ joint dist of 
+\begin_inset Formula $\alpha,\beta,\tau^{*}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{dT}{dr}=\underset{r+\alpha+\beta=1,\tau^{*}\in\left(0,\infty\right)}{\int\int\int}\tau^{*}f\left(\alpha,\beta,\tau^{*}\right)d\alpha d\beta d\tau^{*}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -9088,10 +9478,6 @@ Papers
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-Karthik and Sandip's 2011
-\end_layout
-
 \begin_layout Standard
 Khan Khwaja Olken
 \end_layout
