@@ -10174,6 +10174,135 @@ Khan et al 2016: Cost-Benefit
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Duflo Greenstone Pande & Ryan (QJE 2013): 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Truth-telling by Third-party Auditors and the Response of Polluting Firms:
+ Experimental Evidence from India
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2013: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Third-party audits are a common mechanism to monitor compliance with regulations
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+financial accounting of firms
+\end_layout
+
+\begin_layout Itemize
+food safety, health care, flowers etc in consumer & commodity markets
+\end_layout
+
+\begin_layout Itemize
+environmental regulation
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Usually, the auditor is chosen by, pair by, and reports to the audited firm.
+ 
+\end_layout
+
+\begin_layout Itemize
+Creates a conflict of interest: Report the truth or report what is beneficial
+ for your client?
+\end_layout
+
+\begin_layout Itemize
+Conduct an experiment in India to investigate whether this can be overcome.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2013: Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study conducted in Gujarat: 5% of India's population but 9% of manufacturing
+ employment and 19% of output
+\end_layout
+
+\begin_layout Itemize
+3 of the 5 most polluted rivers in India are in Gujarat.
+ Air pollution dangerous for human health in the cities.
+\end_layout
+
+\begin_layout Itemize
+Gujarat Pollution Control Board (GPCB) has a stringent regulatory framework
+ for pollution control.
+\end_layout
+
+\begin_layout Itemize
+2 Main instruments to enforce regulations
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Inspections (next week)
+\end_layout
+
+\begin_layout Itemize
+third-party environmental audits.
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -10288,7 +10417,7 @@ Erika
 \end_layout
 
 \begin_layout Standard
-Weaver or Iyer
+Guo
 \end_layout
 
 \end_deeper
