@@ -10293,11 +10293,11 @@ Gujarat Pollution Control Board (GPCB) has a stringent regulatory framework
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Inspections (next week)
+\begin_layout Enumerate
+Inspections (Duflo et al 2018 next week)
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 third-party environmental audits.
 \end_layout
 
@@ -10315,7 +10315,234 @@ third-party environmental audits.
 status open
 
 \begin_layout Plain Layout
-Papers
+Duflo et al 2013: Audits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Plants with high pollution potential must submit a yearly environmental
+ audit
+\end_layout
+
+\begin_layout Itemize
+Auditors 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+visit each plant for about one day in each of three seasons of the year.
+\end_layout
+
+\begin_layout Itemize
+Observe environmental management practices and measure pollution.
+\end_layout
+
+\begin_layout Itemize
+Compile findings into a standardized format.
+\end_layout
+
+\begin_layout Itemize
+Submit report to the plant and to GPCB by February 15 of the following year.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Auditors:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+audit at most 15 plants a year and audit a plant at most 3 years in a row.
+\end_layout
+
+\begin_layout Itemize
+Auditors with inaccurate reports are liable to be decertified.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firms
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+no audit report 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ can have water & electricity cut off.
+\end_layout
+
+\begin_layout Itemize
+Reports showing noncompliance with regs 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+can be closed or fined (fines happen often)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work with GPCB to implement a modified auditing system
+\end_layout
+
+\begin_layout Itemize
+663 small/medium scale plants in Ahmedabad & Surat selected
+\end_layout
+
+\begin_layout Itemize
+Just before 2009 audits, randomly assigned half to audit treatment
+\end_layout
+
+\begin_layout Itemize
+Then collect detailed data on each plant to determine eligibility 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 473 plants, of which 49.2% in the treatment group.
+\end_layout
+
+\begin_layout Itemize
+Treatment plants assigned to the audit treatment in year 1 (2009) and year
+ 2 (2010)
+\end_layout
+
+\begin_layout Itemize
+Notified by letter from GPCB that their audit rules had changed.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2013: Treatment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Treatment with 3 components
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Assignment and Fixed Pay
+\emph default
+.
+ Auditors randomly assigned to treatment plants and paid a flat fee (Rs.
+ 45,000)
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Backchecks
+\emph default
+.
+ Randomly selected 20% of readings to be redone by technical staff from
+ engineering colleges roughly 10 days after auditor's visit.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Incentive Pay.
+ 
+\emph default
+In year 2 added explicit incentive pay for auditor accuracy.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\delta_{p}$
+\end_inset
+
+: difference between audit and backcheck for pollutant 
+\begin_inset Formula $p$
+\end_inset
+
+.
+ Average it: 
+\begin_inset Formula $\Delta_{\text{Water}}=\sum_{p\in\text{Water}}\delta_{p}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta_{\text{Air}}=\sum_{p\in\text{Air}}\delta_{p}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta_{\text{All}}=\left(\Delta_{\text{Water}}+\Delta_{\text{Air}}\right)/2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Rank auditors: Least accurate quartile get Rs.
+ 35,000 per audit.
+ Next least accurate quartile get Rs.
+ 40,000.
+ Most accurate half get Rs.
+ 52,500 (NB average pay unchanged)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -10325,11 +10552,498 @@ Papers
 
 \begin_deeper
 \begin_layout Standard
-Khan Khwaja Olken
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_1.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
+\end_deeper
 \begin_layout Standard
-auditors reputation paper
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_2.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_3.png
+	width 105text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2013: Misreporting in Control Group
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do auditors misreport?
+\end_layout
+
+\begin_layout Enumerate
+Compare distribution of pollution scores in audit reports to backcheck data
+\end_layout
+
+\begin_layout Enumerate
+Regression version.
+ Stack data from audit and backchecks and run
+\begin_inset Formula 
+\[
+\mathbf{1}\left\{ \text{Compliant}\right\} _{ij}=\beta_{1}\mathbf{1}\left\{ \text{AuditReport}\right\} +\alpha_{r}+\epsilon_{ij}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathbf{1}\left\{ \text{Compliant}\right\} _{ij}$
+\end_inset
+
+ denotes pollutant 
+\begin_inset Formula $i$
+\end_inset
+
+ at plant 
+\begin_inset Formula $j$
+\end_inset
+
+ being between 75% and 100% of the regulatory standard.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_4.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2013: Treatment Effects on Misreporting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Does the treatment improve auditors' reporting?
+\end_layout
+
+\begin_layout Enumerate
+Compare distribution of pollution scores in audit reports and backcheck
+ data
+\end_layout
+
+\begin_layout Enumerate
+Run difference in difference regression
+\begin_inset Formula 
+\begin{align*}
+\mathbf{1}\left\{ \text{Compliant}\right\} _{ij} & =\beta_{1}\mathbf{1}\left\{ \text{AuditReport}\right\} \times T_{j}+\beta_{2}\mathbf{1}\left\{ \text{AuditReport}\right\} \\
+ & \quad+\beta_{3}T_{j}+\alpha_{r}+\epsilon_{ij}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_6.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_7.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2013: Plant Responses
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do plants reduce pollution now that the auditors tell the truth?
+\end_layout
+
+\begin_layout Itemize
+In endline survey (after year 2) gather new pollution measurements from
+ all plants, not just those who submit audit reports
+\end_layout
+
+\begin_layout Itemize
+Estimate effects on pollution
+\begin_inset Formula 
+\[
+y_{ij}=\alpha_{r}+\beta T_{j}+\epsilon_{ij}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Also estimate quantile regressions:
+\begin_inset Formula 
+\[
+Q_{y_{ij}\vert X_{j}}\left(\tau\right)=\beta T_{j}+\alpha_{r}+\epsilon_{ij}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2013_11.png
+	height 100theight%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
