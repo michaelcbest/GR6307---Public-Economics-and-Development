@@ -10430,7 +10430,7 @@ Then collect detailed data on each plant to determine eligibility
 \end_layout
 
 \begin_layout Itemize
-Treatment plants assigned to teh audit treatment in year 1 (2009) and year
+Treatment plants assigned to the audit treatment in year 1 (2009) and year
  2 (2010)
 \end_layout
 
@@ -11060,6 +11060,780 @@ Non-financial Incentives
 Non-financial Incentives
 \end_layout
 
+\begin_layout Subsection
+Ashraf Bandiera & Jack (JPubE 2014) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+No Margin, No Mission? A Field Experiment on Incentives for Public Service
+ Delivery
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Evidence on performance pay for pro-social tasks is mixed (teachers papers)
+\end_layout
+
+\begin_layout Itemize
+Theory says that intrinsic motivation will interact with extrinsic incentives
+ (Benabou & Tirole, Besley & Ghatak)
+\end_layout
+
+\begin_layout Itemize
+Design an experiment to compare effects of intrinsic and extrinsic motivation
+ and their interaction.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work with Society for Family Health (SFH), a public health NGO working in
+ Lusaka, Zambia
+\end_layout
+
+\begin_layout Itemize
+SFH program to distribute female condoms through hair salons.
+ Study ran 12/09-12/10
+\end_layout
+
+\begin_layout Itemize
+Hair salons:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+familiarity between stylists and clients permits targeting and, duting styling,
+ a captive audience to explain benefits to.
+\end_layout
+
+\begin_layout Itemize
+Many many salons throughout salons: census found 2500 for a population of
+ 
+\begin_inset Formula $\sim$
+\end_inset
+
+2 million people in Lusaka
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Agents have to exert effort to diffuse information
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+about HIV
+\end_layout
+
+\begin_layout Itemize
+about the product, which is unfamiliar to many
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Rrecruitment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+SFH attempts to invite 1,222 stylists to a 1-day training program
+\end_layout
+
+\begin_layout Enumerate
+981 can be reached and get the letter
+\end_layout
+
+\begin_layout Enumerate
+771 accept and do the training
+\end_layout
+
+\begin_layout Enumerate
+747 join up.
+ They get 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+12 packs at a subsidized price of 2,000 ZMK (US$.033 per pack)
+\end_layout
+
+\begin_layout Enumerate
+a range of promotional materials
+\end_layout
+
+\begin_layout Enumerate
+access to more packs at 500 ZMK per pack
+\end_layout
+
+\begin_layout Enumerate
+Retail price set at 500 ZMK per pack, same as male condoms
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ashrafetal2014_1.png
+	width 105text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Treatments
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+4 treatment groups
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Control
+\emph default
+ group recruited as volunteers.
+ No incentives
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Large financial-margin 
+\emph default
+treatment receive 450 ZMK for each pack sold, a 90% margin over retail
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Small financial-margin
+\emph default
+ treatment get 50 ZMK for each pack sold, a 10% margin.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Non-financial reward (star) 
+\emph default
+treatment.
+ Get a thermometer display and each sale is rewarded with a star stamped
+ on the thermometer.
+ Stylists told if they sell >216 packs they will get a certificate at a
+ ceremony
+\end_layout
+
+\begin_layout Itemize
+Rewards paid only on restocks, not the original 12 packs.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Randomization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Treatment is at the neighborhood level.
+ All salons in each neighborhood in the same treatment arm
+\end_layout
+
+\begin_layout Itemize
+Census of hair salons with GPS coordinates and characteristics
+\end_layout
+
+\begin_layout Itemize
+Make a grid: 650m x 650m cells with 75m buffers on all sides.
+ 
+\end_layout
+
+\begin_layout Itemize
+grid cells are the unit of randomization
+\end_layout
+
+\begin_layout Itemize
+salons in the buffer zones not invited to join
+\end_layout
+
+\begin_layout Itemize
+Final sample: 205 cells with 1222 hair salons in them
+\end_layout
+
+\begin_layout Itemize
+Balance randomization on variables likely to affect sales (type, size, location)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+do 1,000 random draws
+\end_layout
+
+\begin_layout Itemize
+for each draw calculate the t-stats on all the differences in the attributes.
+\end_layout
+
+\begin_layout Itemize
+the maximum t-stat is this draw's score
+\end_layout
+
+\begin_layout Itemize
+choose the draw with the lowest score: 
+\begin_inset Quotes eld
+\end_inset
+
+minmax t-stat method
+\begin_inset Quotes erd
+\end_inset
+
+ (see Bruhn & McKenzie 2009 for discussion of this and other balancing methods)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ashrafetal2014_2.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To evaluate impact on sales, estimate
+\begin_inset Formula 
+\[
+y_{ic}=\alpha+\sum_{j=1}^{3}\delta_{0j}\text{treat}_{c}^{j}+\mathbf{X}_{i}\eta_{i}+u_{ic}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Not everyone who was invited got the letter, and not everyone who got the
+ letter came to the training.
+ To look for selection, estimate same equation with participation on lhs.
+ No effects of the treatments.
+\end_layout
+
+\begin_layout Itemize
+The buffer zones are there to deal with spillovers.
+ But
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+People move around.
+ Stylists only kept their treatment status if moved within a neighborhood,
+ or to another neighborhood with the same treatment status
+\end_layout
+
+\begin_layout Enumerate
+People talk.
+ Gathered data on relationships with other stylists.
+ Median only has 1.
+ during first 4 months, 60-80% of stylists make one new connection to a
+ stylist, but none after 4 months.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ashrafetal2014_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ashrafetal2014_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ashrafetal2014_5.png
+	width 110text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ashrafetal2014_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Expect different effects according to how pro-socially motivated people
+ are.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Play dictator game: At signup agents told that on-top of 40,000 ZMK show-up
+ fee, they'll get 12,500 ZMK to donate to a well known HIV/AIDS charity
+ or keep.
+ Amount donated measures prosociality.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We also expect different effects for high/low socio-economic status (utility
+ is concave).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+measure with education level and English speaking ability (19% classified
+ as low status)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Allow treatment effects to be heterogeneous by motivation.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+y_{ic} & =\alpha+\mathbf{X}_{i}\beta+\gamma\sigma_{i}\\
+ & \quad+\sum_{j=1}^{3}\delta_{0j}\text{treat}_{c}^{j}\left(1-\sigma_{i}\right)+\sum_{j=1}^{3}\delta_{1j}\text{treat}_{c}^{j}\sigma_{i}+u_{ic}
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\sigma_{i}=1$
+\end_inset
+
+ if the agent's donation in the dictator game is above the median and zero
+ otherwise or =1 if low socio-economic status
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ashrafetal2014_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Signaling
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The signaling value of the stars might be higher when there are more peers
+ in the neighborhood to see them
+\end_layout
+
+\begin_layout Itemize
+Experiment is balanced on number of salons, so exploit random variation
+ in the number of peers.
+\begin_inset Formula 
+\[
+y_{ic}=\alpha+\mathbf{X}_{i}\beta+\gamma N_{c}+\sum_{j=1}^{3}\delta_{0j}\text{treat}_{c}^{j}+\sum_{j=1}^{3}\delta_{1j}\text{treat}_{c}^{j}\times N_{c}+u_{ic}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ashrafetal2014_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -11076,10 +11850,6 @@ Papers
 \begin_deeper
 \begin_layout Standard
 Khan Khwaja Olken
-\end_layout
-
-\begin_layout Standard
-Ashraf no mission
 \end_layout
 
 \begin_layout Standard
