@@ -5399,7 +5399,11 @@ standard
 \begin_inset Quotes eld
 \end_inset
 
+
+\series bold
 Profit-oriented sector
+\series default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -5415,7 +5419,11 @@ Types 1 and 2: Part of
 \begin_inset Quotes eld
 \end_inset
 
+
+\series bold
 Mission-oriented sector
+\series default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -5695,7 +5703,7 @@ Incentive compatibility: Agent picks
 
 \begin_inset Formula 
 \[
-e_{ij}-\arg\max_{e_{ij}\in\left[0,1\right]}\left\{ e_{ij}\left(b_{ij}+\theta_{ij}\right)+w_{ij}-\frac{1}{2}e_{ij}^{2}\right\} 
+e_{ij}\in\arg\max_{e_{ij}\in\left[0,1\right]}\left\{ e_{ij}\left(b_{ij}+\theta_{ij}\right)+w_{ij}-\frac{1}{2}e_{ij}^{2}\right\} 
 \]
 
 \end_inset
