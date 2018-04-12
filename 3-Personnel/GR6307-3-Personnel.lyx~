@@ -5399,7 +5399,11 @@ standard
 \begin_inset Quotes eld
 \end_inset
 
+
+\series bold
 Profit-oriented sector
+\series default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -5415,7 +5419,11 @@ Types 1 and 2: Part of
 \begin_inset Quotes eld
 \end_inset
 
+
+\series bold
 Mission-oriented sector
+\series default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -5695,7 +5703,7 @@ Incentive compatibility: Agent picks
 
 \begin_inset Formula 
 \[
-e_{ij}-\arg\max_{e_{ij}\in\left[0,1\right]}\left\{ e_{ij}\left(b_{ij}+\theta_{ij}\right)+w_{ij}-\frac{1}{2}e_{ij}^{2}\right\} 
+e_{ij}\in\arg\max_{e_{ij}\in\left[0,1\right]}\left\{ e_{ij}\left(b_{ij}+\theta_{ij}\right)+w_{ij}-\frac{1}{2}e_{ij}^{2}\right\} 
 \]
 
 \end_inset
@@ -11824,6 +11832,695 @@ status open
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Duflo, Greenstone, Pande & Ryan (WP 2017): 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The Value of Regulatory Discretion: Estimates from Environmental Inspections
+ in India
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pollution is high despite strict standards for emissions.
+\end_layout
+
+\begin_layout Itemize
+Why aren't the standards enforced?
+\end_layout
+
+\begin_layout Itemize
+Typical explanations: Lack of resources, corruption
+\end_layout
+
+\begin_layout Itemize
+Gujarat Pollution Control Board (GPCB) has limited resources, so uses discretion
+ to pick which plants to inspect.
+\end_layout
+
+\begin_layout Itemize
+How does the regulator choose who to inspect? Would removing that discretion
+ help or hurt enforcement?
+\end_layout
+
+\begin_layout Itemize
+Experiment and structural model in Gujarat to investigate these issues
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Industrial plants are subject to stringent air and water emissions standards
+\end_layout
+
+\begin_layout Itemize
+GPCB inspects plants to observe its condition, environmental management,
+ and often collects pollution samples.
+\end_layout
+
+\begin_layout Itemize
+Regulation mandates routine inspection.
+ Every 90 days for large- or medium-scale plants, and once a year for small-scal
+e plants.
+\end_layout
+
+\begin_layout Itemize
+At baseline, 42% of control plants inspected less than prescribed.
+\end_layout
+
+\begin_layout Itemize
+Penalties can be harsh.
+ Regulator can mandate installation of abatement equipment, require a bond
+ be posted against future performance, order utilities disconnected.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Experiment increased inspection frequency between August 2009 and May 2011
+\end_layout
+
+\begin_layout Itemize
+Identified population of 3,455 red-category (high pollution) small- and
+ medium-scale plants in 3 regions (Ahmedabad, Surat & Valsad).
+\end_layout
+
+\begin_layout Itemize
+Drew sample of 960 plants:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+all 473 audit-eligible plants in Ahmedabad and Surat (see Duflo et al 2013)
+\end_layout
+
+\begin_layout Itemize
+random sample of 488 plants from the remaining audit-ineligible population.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Randomly assign inspection treatment stratifying by region 
+\begin_inset Formula $\times$
+\end_inset
+
+ audit-treatment-status.
+\end_layout
+
+\begin_layout Itemize
+481 plants assigned to inspection guaranteed at least one annual inspection
+ and up to 4 a year.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In Q1 assigned an initial inspection, and then each quarter inspected again
+ w/pr 0.66,
+\end_layout
+
+\begin_layout Itemize
+Additional inspections done by 3 recently retired GPCB scientists rehired
+ for the project
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Balance table part 1
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+balance table part 2
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Table 1 part 1
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Table 1 part 2
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Table 2
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Figure 1
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Treatment doesn't increase inspection of severe violators
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+figure 7a
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Treatment doesn't increase inspection of severe violators
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+figure 2
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Build a model of regulator-plant interactions with 2 stages
+\end_layout
+
+\begin_layout Enumerate
+Targeting stage
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+regulator chooses an inspection targeting rule
+\end_layout
+
+\begin_layout Enumerate
+plants choose whether to run abatement equipment
+\end_layout
+
+\begin_layout Enumerate
+regulator observes a signal of plant pollution and inspects plants by applying
+ the targeting rule
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Penalty stage
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Regulator acts as a regulatory machine, following exogenous rules for follow-up
+\end_layout
+
+\begin_layout Enumerate
+plants play a dynamic game against the machine, deciding whether to comply
+ or risk future penalties
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Plant 
+\begin_inset Formula $j$
+\end_inset
+
+ has latent pollution in period 
+\begin_inset Formula $m$
+\end_inset
+
+ of 
+\begin_inset Formula 
+\[
+\log\tilde{P}_{jm}=\phi_{0}+\phi_{1}X_{j}+u_{1j}+u_{2jm}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ are plant observables, and the shocks are normal: 
+\begin_inset Formula $u_{1j}\sim\mathcal{N}\left(0,\sigma_{1}^{2}\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $u_{2jm}\sim\mathcal{N}\left(0,\sigma_{2}^{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Regulator sets a targeting rule 
+\begin_inset Formula $\mathcal{I}\left(u_{1j}\vert X_{j},T_{j},\theta_{T}\right)$
+\end_inset
+
+ that assigns annual number of routine inspections as a function of the
+ shock 
+\begin_inset Formula $u_{1j}$
+\end_inset
+
+, plant characteristics, treatment status, and targeting parameters 
+\begin_inset Formula $\theta_{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Plants, know 
+\begin_inset Formula $\mathcal{I}\left(\cdot\vert\cdot\right)$
+\end_inset
+
+, their 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+,
+\begin_inset Formula $T_{j}$
+\end_inset
+
+ and 
+\begin_inset Formula $u_{1j}$
+\end_inset
+
+ so can calculate how often they will be inspected.
+\end_layout
+
+\begin_layout Itemize
+Plants also know their abatement cost 
+\begin_inset Formula $c_{j}$
+\end_inset
+
+, 
+\begin_inset Formula $\log c_{j}\sim\mathcal{N}\left(\mu_{c},\sigma_{c}^{2}\right)$
+\end_inset
+
+ and decide whether to 
+\begin_inset Formula $Run$
+\end_inset
+
+ their equipment (which the regulator doesn't observe), which reduces their
+ pollution to 
+\begin_inset Formula 
+\[
+\log P_{jm}=\log\tilde{P}_{jm}+\phi_{2}Run,\quad\phi_{2}<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Summarize the costs of regulation to plants by a penalty value function
+ 
+\begin_inset Formula $V_{0}\left(P_{jm}\right)$
+\end_inset
+
+ giving the money value to the plant of an initial inspection that finds
+ pollution 
+\begin_inset Formula $P_{jm}$
+\end_inset
+
+ (expected value of all regulatory actions in penalty stage)
+\end_layout
+
+\begin_layout Itemize
+If a plant expects to be inspected 
+\begin_inset Formula $I_{j}$
+\end_inset
+
+ times, the abatement equipment will be run if benefit exceeds maintenance
+ costs
+\begin_inset Formula 
+\[
+Run^{*}=\mathbf{1}\left\{ I_{j}\times\left(V_{0}\left(P_{jm}\right)-V_{0}\left(\tilde{P}_{jm}\right)\right)>c_{j}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The regulator wants to set a rule that maximizes total abatement.
+\end_layout
+
+\begin_layout Itemize
+The rule depends on parameters 
+\begin_inset Formula $\lambda,\beta,\rho\in\theta_{T}$
+\end_inset
+
+ but we assume 
+\begin_inset Formula $\beta$
+\end_inset
+
+ & 
+\begin_inset Formula $\rho$
+\end_inset
+
+ are exogenous, so regulator picks (vector) 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ to solve
+\begin_inset Formula 
+\begin{align*}
+\lambda^{*} & \in\arg\max_{\lambda}\sum_{j=1}^{N}\int\int\mathbb{P}\left(\mathcal{I}\left(u_{1j}\vert X_{j},T_{j},\theta_{T}\right)\left[V_{0}\left(P_{jm}\right)-V_{0}\left(\tilde{P}_{jm}\right)\right]\right)\\
+ & \quad\times\tilde{P}_{jm}\left(1-e^{\phi_{2}}\right)dF\left(U_{2}\right)dF\left(U_{1}\right)
+\end{align*}
+
+\end_inset
+
+such that 
+\begin_inset Formula 
+\[
+\sum_{j=1}^{N}\int\mathcal{I}\left(u_{1j},X_{j},T_{j},\theta_{T}\right)dF\left(U_{1}\right)=N\bar{I}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -11847,10 +12544,6 @@ Papers
 \begin_deeper
 \begin_layout Standard
 Khan Khwaja Olken
-\end_layout
-
-\begin_layout Standard
-Callen personalities
 \end_layout
 
 \begin_layout Standard
@@ -11891,10 +12584,6 @@ Do gooders
 
 \begin_layout Standard
 Dal Bo
-\end_layout
-
-\begin_layout Standard
-Erika
 \end_layout
 
 \begin_layout Standard
