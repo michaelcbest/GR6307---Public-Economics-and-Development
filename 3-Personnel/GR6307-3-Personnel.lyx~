@@ -12043,7 +12043,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Balance table part 1
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_1.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -12069,7 +12076,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-balance table part 2
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_2.png
+	height 100theight%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -12095,7 +12109,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Table 1 part 1
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_3.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -12121,7 +12142,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Table 1 part 2
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_4.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -12147,7 +12175,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Table 2
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_5.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -12173,7 +12208,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Figure 1
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_6.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -12199,7 +12241,14 @@ Treatment doesn't increase inspection of severe violators
 
 \begin_deeper
 \begin_layout Standard
-figure 7a
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_7.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -12225,7 +12274,14 @@ Treatment doesn't increase inspection of severe violators
 
 \begin_deeper
 \begin_layout Standard
-figure 2
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_8.png
+	width 90text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -12520,6 +12576,865 @@ such that
 
 \end_layout
 
+\begin_layout Itemize
+For estimation assume
+\begin_inset Formula 
+\[
+\mathcal{I}\left(u_{1j}\vert X_{j},T_{j},\theta_{T}\right)=\lambda_{2}\Phi\left(\frac{\lambda_{1}+X_{j}^{\prime}\beta_{1}+T_{j}^{\prime}\beta_{2}+u_{1}}{\rho}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We want to estimate the value function 
+\begin_inset Formula $V_{0}\left(P_{jm}\right)$
+\end_inset
+
+ by modeling the game after an initial inspection as a dynamic discrete
+ choice problem.
+\end_layout
+
+\begin_layout Itemize
+Game starts in round 1 with an initial inspection.
+\end_layout
+
+\begin_layout Itemize
+In subsequent rounds, plant 
+\begin_inset Formula $j$
+\end_inset
+
+ and the regulatory machine 
+\begin_inset Formula $R$
+\end_inset
+
+ alternate moves.
+\end_layout
+
+\begin_layout Itemize
+When the plant moves, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+it can 
+\begin_inset Formula $Comply$
+\end_inset
+
+ or 
+\begin_inset Formula $Ignore$
+\end_inset
+
+ the regulatory machine.
+ 
+\end_layout
+
+\begin_layout Itemize
+Complying means paying to install abatement equipment.
+ 
+\end_layout
+
+\begin_layout Itemize
+Acts to minimize regulatory cost
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+When the regulatory machine moves, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+it has four actions 
+\begin_inset Formula $a_{R_{t}}:Inspect,Warn,Punish,Accept$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Regulatory machine: fixed probabilities of any action conditional on state
+ (assume known to the plant)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scanned and coded up 9,624 documents on interactions with plants.
+\end_layout
+
+\begin_layout Itemize
+Use maximum likelihood to estimate the game
+\end_layout
+
+\begin_layout Itemize
+The state space is the pollution reading, the last two actions by the regulator
+ and the plant, and the game round 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Estimate transition probabilities using count estimator
+\end_layout
+
+\begin_layout Itemize
+Estimate action probabilities for the regulatory machine conditional on
+ the state using multinomial logit.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Have to specify 
+\end_layout
+
+\begin_layout Itemize
+the cost of inspections 
+\begin_inset Formula $b\left(p_{jt},a_{j-}\right)=\left(1-\mathbf{1}\left\{ a_{j-}=Comply\right\} \right)\times\left(\nu_{1}\mathbf{1}\left\{ \bar{p}<p_{jt}<2\bar{p}\right\} +\nu_{2}\mathbf{1}\left\{ 2\bar{p}\leq p_{jt}<5\bar{p}\right\} +\nu_{3}\mathbf{1}\left(5\bar{p}\leq p_{jt}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $h\left(p_{jt}\right)$
+\end_inset
+
+ cost if regulator picks punish: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $-\tau_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $-\tau_{1}\mathbf{1}\left\{ \bar{p}<p_{jt}<2\bar{p}\right\} -\tau_{2}\mathbf{1}\left\{ 2\bar{p}\leq p_{jt}<5\bar{p}\right\} -\tau_{3}\mathbf{1}\left\{ 5\bar{p}\leq p_{jt}\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $k$
+\end_inset
+
+, cost of abatement equipment: 
+\begin_inset Formula $k=\$17,000$
+\end_inset
+
+, average cost observed in data
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Now for each action 
+\begin_inset Formula $a_{jt}$
+\end_inset
+
+ we know the within-round payoff 
+\begin_inset Formula $\pi_{j}\left(a_{jt}\vert st\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The plant's utility of taking action 
+\begin_inset Formula $a_{jt}$
+\end_inset
+
+ in state 
+\begin_inset Formula $s_{t}$
+\end_inset
+
+ is now
+\begin_inset Formula 
+\begin{align*}
+v_{j}\left(a_{jt}\right) & =\underbrace{\pi_{j}\left(a_{jt}\vert s_{t}\right)+e_{j}\left(a_{jt}\vert s_{t}\right)}_{\text{payoff today}}\\
+ & \quad+\delta\sum_{s_{t+1}}\underbrace{f\left(s_{t+1}\vert a_{jt},s_{t}\right)}_{\text{state transition prob}}\sum_{a_{R,t+1}}\underbrace{\mathbb{P}\left(a_{R,t+1}\vert s_{t+1}\right)}_{\text{machine's action prob}}\times\\
+ & \qquad\left\{ \underbrace{\pi_{j}\left(a_{R,t+1}\vert s_{t+1}\right)}_{\text{payoff from }a_{R,t+1}}+\delta\sum_{s_{t+2}}\underbrace{f\left(s_{t+2}\vert a_{R,t+1},s_{t+1}\right)}_{\text{state transition prob}}V_{j}\left(s_{t+2}\right)\right\} 
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $e_{j}\left(a_{jt}\vert s_{t}\right)$
+\end_inset
+
+ are utility shocks with type-I EV distribution and 
+\begin_inset Formula $\delta$
+\end_inset
+
+ is the discount factor
+\end_layout
+
+\begin_layout Itemize
+The machine's action probabilities and the state transition probabilities
+ are known to the plant
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Yields value of the state
+\begin_inset Formula 
+\[
+V_{j}\left(s_{t}\right)=\max_{a\in A_{p}}v_{j}\left(a_{jt}\vert s_{t}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+By backward induction, solve for the state values given 
+\begin_inset Formula $\theta_{p}=\left\{ \tau,\nu\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now we have the actions the plant will take for any parameters and probabilities.
+\end_layout
+
+\begin_layout Itemize
+Estimate the state transitions with 
+\begin_inset Formula 
+\[
+\hat{f}\left(s^{\prime}\vert a_{jt},s_{t}\right)=\frac{\sum_{j,c,t}\mathbf{1}\left(s_{j,t+1}=s^{\prime}\vert s_{jt},a_{jt}\right)}{\sum_{j,c,t}\mathbf{1}\left(s_{jt},a_{jt}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Estimate the conditional action probabilities with
+\begin_inset Formula 
+\[
+\mathbb{P}\left(a_{Rt}=a\vert s_{t}\right)=\frac{\exp\left(q\left(s_{t}\right)^{\prime}\omega_{a}\right)}{\sum_{a^{\prime}}\exp\left(q\left(s_{t}\right)^{\prime}\omega_{a}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now, the likelihood of observing a set of 
+\begin_inset Formula $n$
+\end_inset
+
+ chains of regulator actions is
+\begin_inset Formula 
+\[
+\mathcal{L}\left(\theta_{p}\right)=\prod_{n}\prod_{t=1}^{T_{jn}}\mathbb{P}\left(a_{jnt}\vert s_{jnt},\theta_{P}\right)
+\]
+
+\end_inset
+
+which can be maximized numerically
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating the Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Parameters to estimate 
+\begin_inset Formula $\theta_{T}=\left\{ \underbrace{\phi}_{\text{pollution}},\underbrace{\beta,\lambda_{1},\lambda_{2}}_{\text{targeting rule}},\underbrace{\mu_{c}}_{\text{mean abatement cost}},\underbrace{\sigma_{1},\sigma_{2}}_{\text{pollution shocks}}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Estimate by GMM using data on the number of inspections 
+\begin_inset Formula $N_{j}$
+\end_inset
+
+, observables 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+, treatment status 
+\begin_inset Formula $T_{j}$
+\end_inset
+
+, pollution 
+\begin_inset Formula $P_{j}$
+\end_inset
+
+ and abatement costs of abaters 
+\begin_inset Formula $c_{j}\times Run$
+\end_inset
+
+ and the estimated 
+\begin_inset Formula $\hat{V}_{0}\left(p_{j}\right)$
+\end_inset
+
+ from the penalty stage
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating the Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Moments to use
+\end_layout
+
+\begin_layout Enumerate
+Pollution equation: Let 
+\begin_inset Formula $Z_{j}=\left[\begin{array}{ccc}
+1 & X_{j} & T_{j}\end{array}\right]$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+g_{1}\left(\phi\right)=Z_{j}^{\prime}\left(\log P_{j}-\phi_{0}-\phi_{1}X_{j}-\phi_{2}Run\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Expected inspections
+\begin_inset Formula 
+\begin{align*}
+g_{2}\left(\lambda,\beta\right) & =\mathbf{1}^{\prime}\left(\mathbb{E}\left[\mathcal{I}\left(u_{1j}\vert X_{j},T_{j},\lambda,\beta,\rho\right)\right]-I_{j}\right)\\
+g_{3}\left(\lambda,\beta\right) & =\mathbf{1}^{\prime}\left(\mathbb{E}\left[\mathcal{I}^{2}\left(u_{1j}\vert X_{j},T_{j},\lambda,\beta,\rho\right)\right]-I_{j}^{2}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Proabability and cost of runnning abatement equipment
+\begin_inset Formula 
+\begin{align*}
+g_{4}\left(\phi,\mu,\sigma\right) & =\mathbb{P}\left(Run=1\vert\phi,\mu,\sigma\right)-\frac{1}{N}\sum_{j}\mathbf{1}\left\{ c_{j}>0\right\} \\
+g_{5}\left(\phi,\mu,\sigma\right) & =\mathbb{E}\left[c_{j}\vert Run=1,\phi,\mu,\sigma\right]-\frac{1}{\sum_{j}\mathbf{1}\left\{ c_{j}>0\right\} }\sum_{j}\mathbf{1}\left\{ c_{j}>0\right\} c_{j}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating the Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+
+Variance of pollution shocks and covariance with inspections
+\begin_inset Formula 
+\begin{align*}
+g_{6}\left(\beta,\phi,\sigma\right) & =\mathbb{E}\left[\varepsilon_{2}^{2}\vert\beta,\phi,\sigma\right]-\sum_{j}\hat{\varepsilon}_{2}^{2}/N=\sigma_{1}^{2}+\sigma_{2}^{2}-\sum_{j}\hat{\varepsilon}_{2}^{2}/N\\
+g_{7}\left(\beta,\phi,\sigma\right) & =\mathbb{E}\left[\varepsilon_{2}\cdot\mathcal{I}\vert\theta\right]-\sum_{j}\hat{\varepsilon}_{2j}\times I_{j}/N
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+stack all these moments to form 
+\begin_inset Formula $g\left(\theta_{T}\right)=\left[\begin{array}{cccc}
+g_{1}^{\prime} & g_{2}^{\prime} & \ldots & g_{7}^{\prime}\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Minimize 
+\begin_inset Formula $gWg^{\prime}$
+\end_inset
+
+ to estimate 
+\begin_inset Formula $\hat{\theta}_{T}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_12.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_10.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_11.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_13.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_14.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_15.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_16.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -12544,10 +13459,6 @@ Papers
 \begin_deeper
 \begin_layout Standard
 Khan Khwaja Olken
-\end_layout
-
-\begin_layout Standard
-discretion paper
 \end_layout
 
 \end_deeper
