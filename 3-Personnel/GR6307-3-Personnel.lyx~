@@ -12277,7 +12277,7 @@ Treatment doesn't increase inspection of severe violators
 \align center
 \begin_inset Graphics
 	filename Dufloetal2017_8.png
-	width 90text%
+	width 85text%
 
 \end_inset
 
@@ -13436,6 +13436,95 @@ status open
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Khan, Khwaja & Olken (WP 2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Making Moves Matter: Experimental Evidence on Incentivizing Bureaucrats
+ through Performance-Based Postings
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Incentivizing workers in the government is doubly hard.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scope for performance pay often limited
+\end_layout
+
+\begin_layout Itemize
+promotion often mechanical
+\end_layout
+
+\begin_layout Itemize
+punishment hard
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+One thing we might try and leverage is transfers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+bureaucrats are transfered all the time, but largely because of personal/politic
+al connections, idiosyncratic preferences, or arbitrariness
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Run an experiment in Punjab, Pakistan with property tax inspectors to test
+ this.
+\end_layout
+
+\begin_layout Itemize
+Design and implement a 
+\emph on
+performance-ranked serial dictatorship 
+\emph default
+(PRSD) mechanism
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -13448,7 +13537,124 @@ status open
 status open
 
 \begin_layout Plain Layout
-Papers
+Khan et al 2018: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study urban property tax in Punjab, Pakistan (population 110 million)
+\end_layout
+
+\begin_layout Itemize
+Same tax setting as in Khan et al 2016.
+\end_layout
+
+\begin_layout Itemize
+About 1/3 inspectors is transferred each year
+\end_layout
+
+\begin_layout Itemize
+Inspectors care about where they are posted, the circles are very heterogeneous.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Size: 90th %ile has 3x properties of 10th %ile
+\end_layout
+
+\begin_layout Itemize
+Ease of collecting taxes, opportunities for corruption
+\end_layout
+
+\begin_layout Itemize
+Amenities
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Current transfer process is opaque and subject to political influence, so
+ limited use as incentive.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Admin data on tax performance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+quarterly inspector reports showing collections and tax base
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Preference data.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ask inspectors to rank all circles (average 10) in their district.
+ 
+\end_layout
+
+\begin_layout Itemize
+Told preferences would be used in treatments (incentive compatible to reveal
+ true preferences) but before told treatment status
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Calculate the allocation that makes no inspector worse off, and no inspector
+ or group of inspectors would want to deviate (Shapley & Scarf, 1974).
+ 15% of inspectors would move, and these individuals would move 30%iles
+ up their preference ordering.
+\end_layout
+
+\begin_layout Itemize
+15% relatively small, suggests that the incentive scheme will create both
+ winners and losers.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -13458,10 +13664,835 @@ Papers
 
 \begin_deeper
 \begin_layout Standard
-Khan Khwaja Olken
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_1.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Treatment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Worked with Excise & Taxation department on the 
+\begin_inset Quotes eld
+\end_inset
+
+Merit-Based Transfers and Postings
+\begin_inset Quotes erd
+\end_inset
+
+ (MBTP) scheme
+\end_layout
+
+\begin_layout Itemize
+Inspectors in MBTP scheme randomized into groups of 10 circles within districts.
+\end_layout
+
+\begin_layout Itemize
+Inspectors told they would be ranked based on performance, and then based
+ on ranking they would be given a choic of circles within their group.
+\end_layout
+
+\begin_layout Itemize
+Performance based on 2 measures (randomized)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Recovery: y-o-y percentage increase in tax collected
+\end_layout
+
+\begin_layout Enumerate
+Demand: y-o-y percentage increase in assessed tax base
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Modeling Incentives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Inspector 
+\begin_inset Formula $i$
+\end_inset
+
+ gets utility 
+\begin_inset Formula $u_{ij}$
+\end_inset
+
+ from being assigned to circle 
+\begin_inset Formula $j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Denote overall preference matrix by 
+\begin_inset Formula $\mathbf{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+growth rate in revenue is 
+\begin_inset Formula $y_{i}=y_{i0}+e_{i}+\epsilon_{i}$
+\end_inset
+
+, 
+\begin_inset Formula $\epsilon_{i}\sim iid$
+\end_inset
+
+ with sd 
+\begin_inset Formula $\sigma_{\epsilon}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For a vector of outcomes 
+\begin_inset Formula $\mathbf{y}$
+\end_inset
+
+, the PRSD mechanism yields an allocation 
+\begin_inset Formula $r_{i}\left(\mathbf{y},\mathbf{P}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If effort has convex cost 
+\begin_inset Formula $c\left(e_{i}\right)$
+\end_inset
+
+ then each inspector maximizes
+\begin_inset Formula 
+\[
+\max_{e_{i}}\sum_{j=1}^{J}u_{ij}\mathbb{P}\left(j=r_{i}\left(\mathbf{y},\mathbf{P}\right)\right)-c\left(e_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+effort choice satisfies
+\begin_inset Formula 
+\[
+\frac{d\mathbb{E}\left[u\right]}{de_{i}}=\sum_{j=1}^{J}u_{ij}\frac{\partial\mathbb{P}\left(j=r_{i}\left(y_{i},\mathbf{y}_{-i},\mathbf{P}\right)\right)}{\partial y_{i}}=c^{\prime}\left(e_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Influences on Incentives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Preferences 
+\begin_inset Formula $\mathbf{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+imagine everyone has the same preferences.
+ Then all that matters is the inspector's rank in the performance distribution.
+ 
+\begin_inset Formula $r_{i}=Rank\left(y_{i},\mathbf{y}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Imagine nobody shares a first-choice with anyone else.
+ Then they all get their first choice, and scheme provides 
+\emph on
+no
+\emph default
+ 
+\emph on
+incentives
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Distribution of 
+\begin_inset Formula $y_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If they are all close together, then small effort changes can change ranks:
+ strong incentives.
+\end_layout
+
+\begin_layout Enumerate
+If they are far apart, need lots of effort to change rank: weak incentives
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Preferences 
+\begin_inset Formula $u_{ij}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+With common preferences and common 
+\begin_inset Formula $y_{0}$
+\end_inset
+
+, Lazear & Rosen (1981) show that you can replicate the efficient piece
+ rate with a tournament
+\end_layout
+
+\begin_layout Enumerate
+With general preferences, it's not clear how close we are to a piece rate.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Marginal return to effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simulate the model under different assumptions about what the inspectors
+ know about 
+\begin_inset Formula $\mathbf{P}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbf{y}_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For a given effort vector 
+\begin_inset Formula $\mathbf{e}$
+\end_inset
+
+, solve for the Nash equilibrium efforts.
+\end_layout
+
+\begin_layout Itemize
+Need to parameterize
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $u_{ij}$
+\end_inset
+
+: take ordinal preferences and linearize 
+\begin_inset Formula $u_{ij}=1$
+\end_inset
+
+ for top circle and 
+\begin_inset Formula $u_{ij}=0$
+\end_inset
+
+ for bottom circle
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\mathbf{y}_{0}$
+\end_inset
+
+: regress revenue changes on 2 lags of revenu and tax base in the control
+ group.
+ get 
+\begin_inset Formula $\mathbf{y}_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{\epsilon}^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Evaluate the lhs of the FOC 
+\begin_inset Formula $d\mathbb{E}\left[u\right]/de_{i}$
+\end_inset
+
+ at 
+\begin_inset Formula $\mathbf{e}=0$
+\end_inset
+
+ under different assumptions:
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Marginal return to effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Marginal return to effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Marginal return to effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+At start of year 1, circles randomly assigned into groups of 9-11 circles
+ within metropolitan area.
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 41 groups.
+\end_layout
+
+\begin_layout Itemize
+Randomized into treatment, control.
+ Within treatment into recovery/demand measure of performance.
+\end_layout
+
+\begin_layout Itemize
+In year 2, groups rerandomized into treatment/control stratifying by year-1
+ treatment status.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estimate treatment effects in circle 
+\begin_inset Formula $c$
+\end_inset
+
+ with
+\begin_inset Formula 
+\[
+\log y_{ct}=\alpha_{t}+\gamma{}_{t}\log y_{c0}+\beta TREAT_{c}+\epsilon_{ct}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Using model simulations, ge predicted equilibrium effort 
+\begin_inset Formula $\tilde{e}_{i}$
+\end_inset
+
+ from each inspector and estimate
+\begin_inset Formula 
+\begin{align*}
+\log y_{ct} & =\alpha_{t}+\alpha_{g}+\gamma_{t}\log y_{c0}+\beta_{1}TREAT_{c}\times\tilde{e}_{i}\\
+ & \quad+\beta_{2}\tilde{e}_{i}+\beta_{3}TREAT_{c}\times X_{c}+\beta_{4}X_{c}+\epsilon_{ct}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Estimate effect of re-randomizing with
+\begin_inset Formula 
+\begin{align*}
+\log y_{ct} & =\alpha+\gamma\log y_{c0}+\beta_{1}TREAT\text{\_}Y1_{c}+\beta_{2}TREAT\text{\_}Y2_{c}\\
+ & \quad+\beta_{3}TREAT\_Y1_{c}\times TREAT\_Y2_{c}+\varepsilon_{ct}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Revenue Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_12.png
+	width 100cm
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Section
 \begin_inset Argument 2
 status open
