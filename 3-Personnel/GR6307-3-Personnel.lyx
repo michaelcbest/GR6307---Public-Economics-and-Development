@@ -15683,7 +15683,710 @@ status open
 
 \end_deeper
 \begin_layout Subsection
-Ashraf et al.
+Ashraf, Bandiera & Lee (2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Losing Prosociality in the Quest for Talent? Sorting, Selection, and Productivit
+y in the Delivery of Public Services
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Over the course of the economic development of a nation, informal service
+ providers are replaced with qualified, career professionals.
+\end_layout
+
+\begin_layout Itemize
+Create and foster an identity based on a career as a civil servant.
+ 
+\end_layout
+
+\begin_layout Itemize
+But does this displace providers whose identity is based on altruism towards
+ beneficiaries?
+\end_layout
+
+\begin_layout Itemize
+If so, how does this affect the quality of service delivery and the welfare
+ of citizens?
+\end_layout
+
+\begin_layout Itemize
+This paper: an experiment with the government of Zambia reruiting nurses
+ to test these questions.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Context: Delivery of health services in remote rural areas of Zambia
+\end_layout
+
+\begin_layout Itemize
+Trained staff reluctant to be posted in remote areas so turnover is high
+\end_layout
+
+\begin_layout Itemize
+Government created Community Health Assistant (CHA) post.
+ Effectively formalizing informal community health workers.
+\end_layout
+
+\begin_layout Itemize
+CHAs' main task is to visit households and refer them to health facilities
+\end_layout
+
+\begin_layout Itemize
+CHAs join the civil service and can advance to higher-ranked and better
+ paid (nurses paid about double for e.g.) cadres
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hard to separate selection effect (who becomes a CHA) from the incentive
+ effect (promotion incentives to perform well)
+\end_layout
+
+\begin_layout Itemize
+Design an experiment to separate the two things
+\end_layout
+
+\begin_layout Enumerate
+Selection: Use recruitment posters posted in public spaces.
+ Randomly vary content of poster:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Some posters emphasize career benefits of the job
+\end_layout
+
+\begin_layout Enumerate
+Othes emphasize community service
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Shut down incentives: All successful applicants offered the same career
+ opportunities on the job.
+ All train together, all get the same information.
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ any performance differences are only due to how they were selected.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Posters
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Applicants choose between CHA and their outside option.
+\end_layout
+
+\begin_layout Itemize
+Material benefits of being a CHA are 
+\begin_inset Formula $M$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Individuals differ in ability 
+\begin_inset Formula $a$
+\end_inset
+
+ and social preferences towards the community 
+\begin_inset Formula $s\in\left[0,1\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If work as CHA, produce health 
+\begin_inset Formula $H\left(a\right)$
+\end_inset
+
+ valued at 
+\begin_inset Formula $sH\left(a\right)\Rightarrow U\left(s_{i}H\left(a_{i}\right),M\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Applying requires paying cost 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ Probability of getting job is 
+\begin_inset Formula $p\left(a\right)$
+\end_inset
+
+ (concave).
+\end_layout
+
+\begin_layout Itemize
+Outisde option is 
+\begin_inset Formula $V\left(a\right)$
+\end_inset
+
+ where 
+\begin_inset Formula $V_{a}>U_{a}>0\;\forall a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Apply iff
+\begin_inset Formula 
+\[
+E\left(a,s\right)=p\left(a\right)U\left(a,s\right)-c>V\left(a\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume that 
+\begin_inset Formula $E\left(0\right)<V\left(0\right)$
+\end_inset
+
+.
+ Then there's a threshold 
+\begin_inset Formula $\underline{a}$
+\end_inset
+
+ such that 
+\begin_inset Formula $a_{i}<\underline{a}$
+\end_inset
+
+ don't apply.
+ If curvatures of 
+\begin_inset Formula $U$
+\end_inset
+
+ and 
+\begin_inset Formula $V$
+\end_inset
+
+ suitable, then there's another threshold where 
+\begin_inset Formula $E\left(\bar{a}\right)=V\left(\bar{a}\right)$
+\end_inset
+
+ and only 
+\begin_inset Formula $\underline{a}<a_{i}<\bar{a}$
+\end_inset
+
+ apply.
+ Focus on this case.
+\end_layout
+
+\begin_layout Itemize
+What happens when we increase 
+\begin_inset Formula $M$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Higher ability people apply now
+\end_layout
+
+\begin_layout Enumerate
+Low ability applicants might be discouraged since less likely to get the
+ job: 
+\begin_inset Formula $\partial^{2}p/\partial a\partial M>0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\shape smallcaps
+result 1
+\shape default
+: 
+\emph on
+Increasing material benefits 
+\begin_inset Formula $M$
+\end_inset
+
+ will attract higher ability applicants who would not apply othersiwe 
+\begin_inset Formula $\left(\partial\bar{a}/\partial M>0\right)$
+\end_inset
+
+ and either (i) lower the ability of the lowest ranked applicant 
+\begin_inset Formula $\left(\partial\underline{a}/\partial M<0\right)$
+\end_inset
+
+ and increase the total number of applicants, or (ii) discourage low ability
+ applicants 
+\begin_inset Formula $\left(\partial\underline{a}/\partial M>0\right)$
+\end_inset
+
+ and have an ambiguous impact on the total number of applicants.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Since 
+\begin_inset Formula $V_{a}>U_{a}$
+\end_inset
+
+ the threshold 
+\begin_inset Formula $\bar{a}\left(s_{i}\right)$
+\end_inset
+
+ will be increasing in 
+\begin_inset Formula $s$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Similarly 
+\begin_inset Formula $\underline{a}\left(s_{i}\right)$
+\end_inset
+
+ is decreasing in 
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Talent and pro-sociality are positively correlated for highest ability applicant
+s, and negatively correlated for lowst ability applicants, even when they're
+ not correlated in the population.
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+result 2
+\shape default
+: 
+\emph on
+Under any 
+\begin_inset Formula $M$
+\end_inset
+
+, the most able applicant is also the most prosocial.
+ An increase in 
+\begin_inset Formula $M$
+\end_inset
+
+ leaves the prosociality of the marginal applicant unchanged and has an
+ ambiguous effect on the prosociality of the average applicant
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Applicants and Selection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recruitment drive 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 2,457 applications (average 7.3 for each position).
+ 1,804 met eligbility requirements, 1,585 came for interview and answered
+ questionnaire.
+\end_layout
+
+\begin_layout Itemize
+Use grade 12 (o-level) exam scores as ability measure
+\end_layout
+
+\begin_layout Itemize
+For non-cognitive skills, use career ambition (
+\begin_inset Quotes eld
+\end_inset
+
+what will you be doing in 5 years' time
+\begin_inset Quotes erd
+\end_inset
+
+=
+\begin_inset Quotes erd
+\end_inset
+
+higher position in the Ministry
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+For pro-sociality, use self-reported willingness to stay in the community
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Inclusion of Others in Self (IOS)
+\begin_inset Quotes erd
+\end_inset
+
+ scale
+\end_layout
+
+\begin_layout Itemize
+Selection panels chose 2 candidates to serve as CHA in the posts.
+ Panels = district health official, health post's health center representatice,
+ 3 members of the neighborhood health committee.
+\begin_inset Formula 
+\[
+s_{ih}=\sum_{j\in J}\alpha_{j}^{c}C_{h}X_{i}^{j}+\sum_{j\in J}\alpha_{j}^{s}\left(1-C_{h}\right)X_{i}^{j}+\sum_{j\in J}\beta_{j}\bar{X}_{h}^{j}+\gamma N_{h}+\zeta_{ih}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $s_{ih}=1$
+\end_inset
+
+ if selected, 
+\begin_inset Formula $C_{h}=1$
+\end_inset
+
+ for treatment posts, 
+\begin_inset Formula $X_{i}^{j}=1$
+\end_inset
+
+ if candidate 
+\begin_inset Formula $i$
+\end_inset
+
+ in top 3 of trait 
+\begin_inset Formula $j$
+\end_inset
+
+, 
+\begin_inset Formula $N_{h}$
+\end_inset
+
+ is number of interviewees.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Density picture
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Quantile TEs
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Applicant table
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Selection effect table
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
