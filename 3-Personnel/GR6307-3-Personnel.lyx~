@@ -14477,7 +14477,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename KhanEtAl2018_12.png
-	width 100cm
+	width 100text%
 
 \end_inset
 
@@ -14504,6 +14504,1182 @@ Recruitment & Selection
 \end_inset
 
 Recruitment & Selection
+\end_layout
+
+\begin_layout Subsection
+Dal Bó, Finan & Rossi (QJE 2013) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Strengthening State Capabilities: The Role of Financial Incentives in the
+ Call to Public Service
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+States need good people in order to function well.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Good
+\begin_inset Quotes erd
+\end_inset
+
+ bureaucrats has many dimensions, how do pecuniary and non-pecuniary incentives
+ of government jobs attract more or less of these dimensions?
+\end_layout
+
+\begin_layout Itemize
+Run an experiment inside Mexico's Regional Development Program to ask
+\end_layout
+
+\begin_layout Enumerate
+Do higher wages attract higher quality applicants?
+\end_layout
+
+\begin_layout Enumerate
+Do higher wages allow the government to hire more people?
+\end_layout
+
+\begin_layout Enumerate
+How do job location disadvantages affect recruitment?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2011: Regional Development Program (RDP) launched to increase state presence
+\end_layout
+
+\begin_layout Itemize
+Create network of 350 community development agents & 50 coordinators to
+ identify needs in the community and report to federal government to get
+ resources to meet demands.
+\end_layout
+
+\begin_layout Itemize
+Program implemented in 10 regions, 167 municipalities, 000s of localities.
+\end_layout
+
+\begin_layout Itemize
+Each community development position is assigned to a particular municipality,
+ selected on an index of socioeconomic characteristics.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Employer faces a residual labor supply of large number of workers.
+\end_layout
+
+\begin_layout Itemize
+2 periods, no discounting.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Worker decides whether to incur cost 
+\begin_inset Formula $c>0$
+\end_inset
+
+ of attending interview for job with posted wage 
+\begin_inset Formula $w$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If worker interviewed, receives offer w/pr 
+\begin_inset Formula $\rho\in(0,1]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Individuals differ in 2 ways:
+\end_layout
+
+\begin_layout Enumerate
+Market quality 
+\begin_inset Formula $v\in[0,\infty)$
+\end_inset
+
+ with distribution 
+\begin_inset Formula $F\left(v\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Public Sector Motivation (PSM) 
+\begin_inset Formula $\pi\in[0,\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Utility from getting the job is 
+\begin_inset Formula $w+\pi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In period 2, accept if better than market opportunity with value 
+\begin_inset Formula $v+\varepsilon$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Shock 
+\begin_inset Formula $\varepsilon\sim G\left(\varepsilon\right)$
+\end_inset
+
+ realized before getting the offer
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Solve the model backwards: Workers will accept if 
+\begin_inset Formula $v+\varepsilon\leq w+\pi$
+\end_inset
+
+.
+ This happens w/pr 
+\begin_inset Formula $G\left(w+\pi-v\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Action in the entry decision will be driven by relationship between 
+\begin_inset Formula $\pi$
+\end_inset
+
+ and 
+\begin_inset Formula $v$
+\end_inset
+
+.
+ 2 cases:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\pi$
+\end_inset
+
+ and 
+\begin_inset Formula $v$
+\end_inset
+
+ independent
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $v=m\left(\pi\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is fixed (at 1).
+ In particular, doesn't depend on type of the worker.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Effects on Applicant Pool
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+proposition 1
+\shape default
+:
+\end_layout
+
+\begin_layout Enumerate
+Given the assumptions of our model, an increase in wages increases the size
+ and average quality of the applicant pool.
+\end_layout
+
+\begin_layout Enumerate
+In the case where PSM and quality are independent in the population, an
+ increase in wages decreases the average PSM of the applicant pool.
+\end_layout
+
+\begin_layout Enumerate
+In the case where PSM and quality are positively correlated according to
+ the function 
+\begin_inset Formula $m\left(\pi\right)$
+\end_inset
+
+, an increase in wages increases the average PSM of the applicant pool.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Effects on Recruitment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simplify: 
+\begin_inset Formula $\pi=0$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\Rightarrow\exists\bar{v}$
+\end_inset
+
+ type and all 
+\begin_inset Formula $v\leq\bar{v}$
+\end_inset
+
+ attend the interview, 
+\begin_inset Formula $v>\bar{v}$
+\end_inset
+
+ do not.
+ 
+\begin_inset Formula $\partial\bar{v}/\partial w>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Overall labor supplys at wage 
+\begin_inset Formula $w$
+\end_inset
+
+ is
+\begin_inset Formula 
+\[
+S=\int_{0}^{\bar{v}}G\left(w-v\right)f\left(v\right)dv=\underbrace{F\left(\bar{v}\right)}_{\text{applicant pool}}\underbrace{\int_{0}^{\bar{v}}G\left(w-v\right)\frac{f\left(v\right)}{F\left(\bar{v}\right)}dv}_{\gamma:\text{ conversion rate}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+proposition 2
+\shape default
+:
+\end_layout
+
+\begin_layout Enumerate
+The measure of recruited candidates in our model, and the labor supplied
+ to the firm in equilibrium, can be written as the product 
+\begin_inset Formula $F\left(\bar{v}\right)\gamma\left(w,\bar{v}\right)$
+\end_inset
+
+ of the applicant pool size and the conversion rate.
+ Thus, the elasticity of labor supply facing the employer is 
+\begin_inset Formula $\eta=\frac{dS}{sw}\frac{w}{S}=\frac{dF}{dw}\frac{w}{F}+\frac{d\gamma}{dw}\frac{w}{\gamma}\equiv\xi_{F\left(\bar{v}\right)}+\xi_{\gamma\left(w,\bar{v}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Under the assumptions of the model, the elasticity of the applicant pool
+ size is positive 
+\begin_inset Formula $\left(\xi_{F\left(\bar{v}\right)}>0\right)$
+\end_inset
+
+ while the sign of the elasticity of the conversion rate 
+\begin_inset Formula $\xi_{\gamma\left(w,\bar{v}\right)}$
+\end_inset
+
+ is ambiguous
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recruitment happened June - August 2011.
+\end_layout
+
+\begin_layout Itemize
+recruitment sites: 113 schools in 106 localities in 10 target regions received
+ job postings.
+\end_layout
+
+\begin_layout Itemize
+Job ad provided general description of the job, and a toll-free number and
+ email address.
+\end_layout
+
+\begin_layout Itemize
+Respondents gave contact info and basic educ and employment history.
+ Then, based on where they saw the ad, told the salary and a date/place
+ for the interview.
+\end_layout
+
+\begin_layout Itemize
+1,920 individuals registered.
+ 1,665 by phone, 208 by email, 47 did both.
+\end_layout
+
+\begin_layout Itemize
+Experiment 1: Salaries randomly allocated across recruitment sites.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+65 localities posted 5,000 pesos/month (
+\begin_inset Formula $\sim$
+\end_inset
+
+US$500)
+\end_layout
+
+\begin_layout Itemize
+41 localities posted 3,750 pesos
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Estimate effect on individual 
+\begin_inset Formula $i$
+\end_inset
+
+ applying in locality 
+\begin_inset Formula $c$
+\end_inset
+
+ in region 
+\begin_inset Formula $r$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+Y_{icr}=\beta_{1}T_{c}+\zeta_{r}+\epsilon_{icr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_1.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+During the interview, applicants did a 3-hour exam measuring personal characteri
+stics (more below).
+\end_layout
+
+\begin_layout Itemize
+Raven matrices used to measure IQ
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_2.png
+	width 45text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename DalBoetal_3.png
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scores below 7 deemed ineligible for job.
+\end_layout
+
+\begin_layout Itemize
+4 strata: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+high wage & high IQ (score above 9)
+\end_layout
+
+\begin_layout Enumerate
+high wage & normal IQ (score 7-9)
+\end_layout
+
+\begin_layout Enumerate
+low wage & high IQ
+\end_layout
+
+\begin_layout Enumerate
+low wage & normal IQ
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The 350 vacancies randomied to one of these strata and then offers made
+ randomly to applicants in that stratum (sometimes conditioning on knowing
+ the local indigenous language as well)
+\end_layout
+
+\begin_layout Itemize
+Analyze acceptance 
+\begin_inset Formula $A_{ics}$
+\end_inset
+
+ by individual 
+\begin_inset Formula $i$
+\end_inset
+
+ in locality 
+\begin_inset Formula $c$
+\end_inset
+
+ and stratum 
+\begin_inset Formula $s$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+A_{ics}=\gamma_{1}T_{c}+X_{i}^{\prime}\beta+\zeta_{s}+\epsilon_{ics}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+and effect of municipality characteristics (since individuals randomly assigned
+ to municipalities)
+\begin_inset Formula 
+\[
+A_{ics}=\gamma_{1}T_{c}+\gamma_{2}\left(T_{c}\times W_{m}\right)+\gamma_{3}W_{m}+X_{i}^{\prime}\beta+\zeta_{s}+\epsilon_{icms}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Personality data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Aptitude data
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Outside wages: current/previous earnings.
+\end_layout
+
+\begin_layout Itemize
+Ravens matrices (above)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Big 5
+\begin_inset Quotes erd
+\end_inset
+
+ personality traits: openness to experience, conscientiousness, extraversion,
+ agreeableness, neuroticism.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Public Service Motivation (PSM)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Perry 1996 scale to elicit opinions of attractiveness of politics, public
+ service, and prosocial activities.
+\end_layout
+
+\begin_layout Enumerate
+6 modules: Attraction to Policy Making, Commitment to Policy Making, Social
+ Justice, Civic Duty, Compassion, Self-Sacrifice
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_12.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_13.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_14.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_15.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Ashraf et al.
 \end_layout
 
 \begin_layout Frame
@@ -14533,14 +15709,6 @@ Guo
 \end_layout
 
 \end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Subsection
-Ashraf et al.
-\end_layout
-
 \begin_layout Section
 Open Questions
 \end_layout
