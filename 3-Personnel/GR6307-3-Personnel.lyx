@@ -11832,6 +11832,78 @@ status open
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Duflo, Greenstone, Pande & Ryan (WP 2017): 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The Value of Regulatory Discretion: Estimates from Environmental Inspections
+ in India
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pollution is high despite strict standards for emissions.
+\end_layout
+
+\begin_layout Itemize
+Why aren't the standards enforced?
+\end_layout
+
+\begin_layout Itemize
+Typical explanations: Lack of resources, corruption
+\end_layout
+
+\begin_layout Itemize
+Gujarat Pollution Control Board (GPCB) has limited resources, so uses discretion
+ to pick which plants to inspect.
+\end_layout
+
+\begin_layout Itemize
+How does the regulator choose who to inspect? Would removing that discretion
+ help or hurt enforcement?
+\end_layout
+
+\begin_layout Itemize
+Experiment and structural model in Gujarat to investigate these issues
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -11844,7 +11916,124 @@ status open
 status open
 
 \begin_layout Plain Layout
-Papers
+Duflo et al 2017: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Industrial plants are subject to stringent air and water emissions standards
+\end_layout
+
+\begin_layout Itemize
+GPCB inspects plants to observe its condition, environmental management,
+ and often collects pollution samples.
+\end_layout
+
+\begin_layout Itemize
+Regulation mandates routine inspection.
+ Every 90 days for large- or medium-scale plants, and once a year for small-scal
+e plants.
+\end_layout
+
+\begin_layout Itemize
+At baseline, 42% of control plants inspected less than prescribed.
+\end_layout
+
+\begin_layout Itemize
+Penalties can be harsh.
+ Regulator can mandate installation of abatement equipment, require a bond
+ be posted against future performance, order utilities disconnected.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Experiment increased inspection frequency between August 2009 and May 2011
+\end_layout
+
+\begin_layout Itemize
+Identified population of 3,455 red-category (high pollution) small- and
+ medium-scale plants in 3 regions (Ahmedabad, Surat & Valsad).
+\end_layout
+
+\begin_layout Itemize
+Drew sample of 960 plants:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+all 473 audit-eligible plants in Ahmedabad and Surat (see Duflo et al 2013)
+\end_layout
+
+\begin_layout Itemize
+random sample of 488 plants from the remaining audit-ineligible population.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Randomly assign inspection treatment stratifying by region 
+\begin_inset Formula $\times$
+\end_inset
+
+ audit-treatment-status.
+\end_layout
+
+\begin_layout Itemize
+481 plants assigned to inspection guaranteed at least one annual inspection
+ and up to 4 a year.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In Q1 assigned an initial inspection, and then each quarter inspected again
+ w/pr 0.66,
+\end_layout
+
+\begin_layout Itemize
+Additional inspections done by 3 recently retired GPCB scientists rehired
+ for the project
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -11854,18 +12043,2456 @@ Papers
 
 \begin_deeper
 \begin_layout Standard
-Khan Khwaja Olken
-\end_layout
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_1.png
+	width 100text%
 
-\begin_layout Standard
-Callen personalities
-\end_layout
+\end_inset
 
-\begin_layout Standard
-discretion paper
+
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_2.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Treatment doesn't increase inspection of severe violators
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Treatment doesn't increase inspection of severe violators
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_8.png
+	width 85text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Build a model of regulator-plant interactions with 2 stages
+\end_layout
+
+\begin_layout Enumerate
+Targeting stage
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+regulator chooses an inspection targeting rule
+\end_layout
+
+\begin_layout Enumerate
+plants choose whether to run abatement equipment
+\end_layout
+
+\begin_layout Enumerate
+regulator observes a signal of plant pollution and inspects plants by applying
+ the targeting rule
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Penalty stage
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Regulator acts as a regulatory machine, following exogenous rules for follow-up
+\end_layout
+
+\begin_layout Enumerate
+plants play a dynamic game against the machine, deciding whether to comply
+ or risk future penalties
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Plant 
+\begin_inset Formula $j$
+\end_inset
+
+ has latent pollution in period 
+\begin_inset Formula $m$
+\end_inset
+
+ of 
+\begin_inset Formula 
+\[
+\log\tilde{P}_{jm}=\phi_{0}+\phi_{1}X_{j}+u_{1j}+u_{2jm}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ are plant observables, and the shocks are normal: 
+\begin_inset Formula $u_{1j}\sim\mathcal{N}\left(0,\sigma_{1}^{2}\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $u_{2jm}\sim\mathcal{N}\left(0,\sigma_{2}^{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Regulator sets a targeting rule 
+\begin_inset Formula $\mathcal{I}\left(u_{1j}\vert X_{j},T_{j},\theta_{T}\right)$
+\end_inset
+
+ that assigns annual number of routine inspections as a function of the
+ shock 
+\begin_inset Formula $u_{1j}$
+\end_inset
+
+, plant characteristics, treatment status, and targeting parameters 
+\begin_inset Formula $\theta_{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Plants, know 
+\begin_inset Formula $\mathcal{I}\left(\cdot\vert\cdot\right)$
+\end_inset
+
+, their 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+,
+\begin_inset Formula $T_{j}$
+\end_inset
+
+ and 
+\begin_inset Formula $u_{1j}$
+\end_inset
+
+ so can calculate how often they will be inspected.
+\end_layout
+
+\begin_layout Itemize
+Plants also know their abatement cost 
+\begin_inset Formula $c_{j}$
+\end_inset
+
+, 
+\begin_inset Formula $\log c_{j}\sim\mathcal{N}\left(\mu_{c},\sigma_{c}^{2}\right)$
+\end_inset
+
+ and decide whether to 
+\begin_inset Formula $Run$
+\end_inset
+
+ their equipment (which the regulator doesn't observe), which reduces their
+ pollution to 
+\begin_inset Formula 
+\[
+\log P_{jm}=\log\tilde{P}_{jm}+\phi_{2}Run,\quad\phi_{2}<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Summarize the costs of regulation to plants by a penalty value function
+ 
+\begin_inset Formula $V_{0}\left(P_{jm}\right)$
+\end_inset
+
+ giving the money value to the plant of an initial inspection that finds
+ pollution 
+\begin_inset Formula $P_{jm}$
+\end_inset
+
+ (expected value of all regulatory actions in penalty stage)
+\end_layout
+
+\begin_layout Itemize
+If a plant expects to be inspected 
+\begin_inset Formula $I_{j}$
+\end_inset
+
+ times, the abatement equipment will be run if benefit exceeds maintenance
+ costs
+\begin_inset Formula 
+\[
+Run^{*}=\mathbf{1}\left\{ I_{j}\times\left(V_{0}\left(P_{jm}\right)-V_{0}\left(\tilde{P}_{jm}\right)\right)>c_{j}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The regulator wants to set a rule that maximizes total abatement.
+\end_layout
+
+\begin_layout Itemize
+The rule depends on parameters 
+\begin_inset Formula $\lambda,\beta,\rho\in\theta_{T}$
+\end_inset
+
+ but we assume 
+\begin_inset Formula $\beta$
+\end_inset
+
+ & 
+\begin_inset Formula $\rho$
+\end_inset
+
+ are exogenous, so regulator picks (vector) 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ to solve
+\begin_inset Formula 
+\begin{align*}
+\lambda^{*} & \in\arg\max_{\lambda}\sum_{j=1}^{N}\int\int\mathbb{P}\left(\mathcal{I}\left(u_{1j}\vert X_{j},T_{j},\theta_{T}\right)\left[V_{0}\left(P_{jm}\right)-V_{0}\left(\tilde{P}_{jm}\right)\right]\right)\\
+ & \quad\times\tilde{P}_{jm}\left(1-e^{\phi_{2}}\right)dF\left(U_{2}\right)dF\left(U_{1}\right)
+\end{align*}
+
+\end_inset
+
+such that 
+\begin_inset Formula 
+\[
+\sum_{j=1}^{N}\int\mathcal{I}\left(u_{1j},X_{j},T_{j},\theta_{T}\right)dF\left(U_{1}\right)=N\bar{I}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For estimation assume
+\begin_inset Formula 
+\[
+\mathcal{I}\left(u_{1j}\vert X_{j},T_{j},\theta_{T}\right)=\lambda_{2}\Phi\left(\frac{\lambda_{1}+X_{j}^{\prime}\beta_{1}+T_{j}^{\prime}\beta_{2}+u_{1}}{\rho}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We want to estimate the value function 
+\begin_inset Formula $V_{0}\left(P_{jm}\right)$
+\end_inset
+
+ by modeling the game after an initial inspection as a dynamic discrete
+ choice problem.
+\end_layout
+
+\begin_layout Itemize
+Game starts in round 1 with an initial inspection.
+\end_layout
+
+\begin_layout Itemize
+In subsequent rounds, plant 
+\begin_inset Formula $j$
+\end_inset
+
+ and the regulatory machine 
+\begin_inset Formula $R$
+\end_inset
+
+ alternate moves.
+\end_layout
+
+\begin_layout Itemize
+When the plant moves, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+it can 
+\begin_inset Formula $Comply$
+\end_inset
+
+ or 
+\begin_inset Formula $Ignore$
+\end_inset
+
+ the regulatory machine.
+ 
+\end_layout
+
+\begin_layout Itemize
+Complying means paying to install abatement equipment.
+ 
+\end_layout
+
+\begin_layout Itemize
+Acts to minimize regulatory cost
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+When the regulatory machine moves, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+it has four actions 
+\begin_inset Formula $a_{R_{t}}:Inspect,Warn,Punish,Accept$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Regulatory machine: fixed probabilities of any action conditional on state
+ (assume known to the plant)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scanned and coded up 9,624 documents on interactions with plants.
+\end_layout
+
+\begin_layout Itemize
+Use maximum likelihood to estimate the game
+\end_layout
+
+\begin_layout Itemize
+The state space is the pollution reading, the last two actions by the regulator
+ and the plant, and the game round 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Estimate transition probabilities using count estimator
+\end_layout
+
+\begin_layout Itemize
+Estimate action probabilities for the regulatory machine conditional on
+ the state using multinomial logit.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al.
+ 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Have to specify 
+\end_layout
+
+\begin_layout Itemize
+the cost of inspections 
+\begin_inset Formula $b\left(p_{jt},a_{j-}\right)=\left(1-\mathbf{1}\left\{ a_{j-}=Comply\right\} \right)\times\left(\nu_{1}\mathbf{1}\left\{ \bar{p}<p_{jt}<2\bar{p}\right\} +\nu_{2}\mathbf{1}\left\{ 2\bar{p}\leq p_{jt}<5\bar{p}\right\} +\nu_{3}\mathbf{1}\left(5\bar{p}\leq p_{jt}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $h\left(p_{jt}\right)$
+\end_inset
+
+ cost if regulator picks punish: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $-\tau_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $-\tau_{1}\mathbf{1}\left\{ \bar{p}<p_{jt}<2\bar{p}\right\} -\tau_{2}\mathbf{1}\left\{ 2\bar{p}\leq p_{jt}<5\bar{p}\right\} -\tau_{3}\mathbf{1}\left\{ 5\bar{p}\leq p_{jt}\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $k$
+\end_inset
+
+, cost of abatement equipment: 
+\begin_inset Formula $k=\$17,000$
+\end_inset
+
+, average cost observed in data
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Now for each action 
+\begin_inset Formula $a_{jt}$
+\end_inset
+
+ we know the within-round payoff 
+\begin_inset Formula $\pi_{j}\left(a_{jt}\vert st\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The plant's utility of taking action 
+\begin_inset Formula $a_{jt}$
+\end_inset
+
+ in state 
+\begin_inset Formula $s_{t}$
+\end_inset
+
+ is now
+\begin_inset Formula 
+\begin{align*}
+v_{j}\left(a_{jt}\right) & =\underbrace{\pi_{j}\left(a_{jt}\vert s_{t}\right)+e_{j}\left(a_{jt}\vert s_{t}\right)}_{\text{payoff today}}\\
+ & \quad+\delta\sum_{s_{t+1}}\underbrace{f\left(s_{t+1}\vert a_{jt},s_{t}\right)}_{\text{state transition prob}}\sum_{a_{R,t+1}}\underbrace{\mathbb{P}\left(a_{R,t+1}\vert s_{t+1}\right)}_{\text{machine's action prob}}\times\\
+ & \qquad\left\{ \underbrace{\pi_{j}\left(a_{R,t+1}\vert s_{t+1}\right)}_{\text{payoff from }a_{R,t+1}}+\delta\sum_{s_{t+2}}\underbrace{f\left(s_{t+2}\vert a_{R,t+1},s_{t+1}\right)}_{\text{state transition prob}}V_{j}\left(s_{t+2}\right)\right\} 
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $e_{j}\left(a_{jt}\vert s_{t}\right)$
+\end_inset
+
+ are utility shocks with type-I EV distribution and 
+\begin_inset Formula $\delta$
+\end_inset
+
+ is the discount factor
+\end_layout
+
+\begin_layout Itemize
+The machine's action probabilities and the state transition probabilities
+ are known to the plant
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Yields value of the state
+\begin_inset Formula 
+\[
+V_{j}\left(s_{t}\right)=\max_{a\in A_{p}}v_{j}\left(a_{jt}\vert s_{t}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+By backward induction, solve for the state values given 
+\begin_inset Formula $\theta_{p}=\left\{ \tau,\nu\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating Penalty Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now we have the actions the plant will take for any parameters and probabilities.
+\end_layout
+
+\begin_layout Itemize
+Estimate the state transitions with 
+\begin_inset Formula 
+\[
+\hat{f}\left(s^{\prime}\vert a_{jt},s_{t}\right)=\frac{\sum_{j,c,t}\mathbf{1}\left(s_{j,t+1}=s^{\prime}\vert s_{jt},a_{jt}\right)}{\sum_{j,c,t}\mathbf{1}\left(s_{jt},a_{jt}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Estimate the conditional action probabilities with
+\begin_inset Formula 
+\[
+\mathbb{P}\left(a_{Rt}=a\vert s_{t}\right)=\frac{\exp\left(q\left(s_{t}\right)^{\prime}\omega_{a}\right)}{\sum_{a^{\prime}}\exp\left(q\left(s_{t}\right)^{\prime}\omega_{a}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now, the likelihood of observing a set of 
+\begin_inset Formula $n$
+\end_inset
+
+ chains of regulator actions is
+\begin_inset Formula 
+\[
+\mathcal{L}\left(\theta_{p}\right)=\prod_{n}\prod_{t=1}^{T_{jn}}\mathbb{P}\left(a_{jnt}\vert s_{jnt},\theta_{P}\right)
+\]
+
+\end_inset
+
+which can be maximized numerically
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating the Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Parameters to estimate 
+\begin_inset Formula $\theta_{T}=\left\{ \underbrace{\phi}_{\text{pollution}},\underbrace{\beta,\lambda_{1},\lambda_{2}}_{\text{targeting rule}},\underbrace{\mu_{c}}_{\text{mean abatement cost}},\underbrace{\sigma_{1},\sigma_{2}}_{\text{pollution shocks}}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Estimate by GMM using data on the number of inspections 
+\begin_inset Formula $N_{j}$
+\end_inset
+
+, observables 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+, treatment status 
+\begin_inset Formula $T_{j}$
+\end_inset
+
+, pollution 
+\begin_inset Formula $P_{j}$
+\end_inset
+
+ and abatement costs of abaters 
+\begin_inset Formula $c_{j}\times Run$
+\end_inset
+
+ and the estimated 
+\begin_inset Formula $\hat{V}_{0}\left(p_{j}\right)$
+\end_inset
+
+ from the penalty stage
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating the Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Moments to use
+\end_layout
+
+\begin_layout Enumerate
+Pollution equation: Let 
+\begin_inset Formula $Z_{j}=\left[\begin{array}{ccc}
+1 & X_{j} & T_{j}\end{array}\right]$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+g_{1}\left(\phi\right)=Z_{j}^{\prime}\left(\log P_{j}-\phi_{0}-\phi_{1}X_{j}-\phi_{2}Run\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Expected inspections
+\begin_inset Formula 
+\begin{align*}
+g_{2}\left(\lambda,\beta\right) & =\mathbf{1}^{\prime}\left(\mathbb{E}\left[\mathcal{I}\left(u_{1j}\vert X_{j},T_{j},\lambda,\beta,\rho\right)\right]-I_{j}\right)\\
+g_{3}\left(\lambda,\beta\right) & =\mathbf{1}^{\prime}\left(\mathbb{E}\left[\mathcal{I}^{2}\left(u_{1j}\vert X_{j},T_{j},\lambda,\beta,\rho\right)\right]-I_{j}^{2}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Proabability and cost of runnning abatement equipment
+\begin_inset Formula 
+\begin{align*}
+g_{4}\left(\phi,\mu,\sigma\right) & =\mathbb{P}\left(Run=1\vert\phi,\mu,\sigma\right)-\frac{1}{N}\sum_{j}\mathbf{1}\left\{ c_{j}>0\right\} \\
+g_{5}\left(\phi,\mu,\sigma\right) & =\mathbb{E}\left[c_{j}\vert Run=1,\phi,\mu,\sigma\right]-\frac{1}{\sum_{j}\mathbf{1}\left\{ c_{j}>0\right\} }\sum_{j}\mathbf{1}\left\{ c_{j}>0\right\} c_{j}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Duflo et al 2017: Estimating the Targeting Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+
+Variance of pollution shocks and covariance with inspections
+\begin_inset Formula 
+\begin{align*}
+g_{6}\left(\beta,\phi,\sigma\right) & =\mathbb{E}\left[\varepsilon_{2}^{2}\vert\beta,\phi,\sigma\right]-\sum_{j}\hat{\varepsilon}_{2}^{2}/N=\sigma_{1}^{2}+\sigma_{2}^{2}-\sum_{j}\hat{\varepsilon}_{2}^{2}/N\\
+g_{7}\left(\beta,\phi,\sigma\right) & =\mathbb{E}\left[\varepsilon_{2}\cdot\mathcal{I}\vert\theta\right]-\sum_{j}\hat{\varepsilon}_{2j}\times I_{j}/N
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+stack all these moments to form 
+\begin_inset Formula $g\left(\theta_{T}\right)=\left[\begin{array}{cccc}
+g_{1}^{\prime} & g_{2}^{\prime} & \ldots & g_{7}^{\prime}\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Minimize 
+\begin_inset Formula $gWg^{\prime}$
+\end_inset
+
+ to estimate 
+\begin_inset Formula $\hat{\theta}_{T}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_12.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_10.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_11.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_13.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_14.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_15.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Dufloetal2017_16.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Khan, Khwaja & Olken (WP 2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Making Moves Matter: Experimental Evidence on Incentivizing Bureaucrats
+ through Performance-Based Postings
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Incentivizing workers in the government is doubly hard.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scope for performance pay often limited
+\end_layout
+
+\begin_layout Itemize
+promotion often mechanical
+\end_layout
+
+\begin_layout Itemize
+punishment hard
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+One thing we might try and leverage is transfers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+bureaucrats are transfered all the time, but largely because of personal/politic
+al connections, idiosyncratic preferences, or arbitrariness
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Run an experiment in Punjab, Pakistan with property tax inspectors to test
+ this.
+\end_layout
+
+\begin_layout Itemize
+Design and implement a 
+\emph on
+performance-ranked serial dictatorship 
+\emph default
+(PRSD) mechanism
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study urban property tax in Punjab, Pakistan (population 110 million)
+\end_layout
+
+\begin_layout Itemize
+Same tax setting as in Khan et al 2016.
+\end_layout
+
+\begin_layout Itemize
+About 1/3 inspectors is transferred each year
+\end_layout
+
+\begin_layout Itemize
+Inspectors care about where they are posted, the circles are very heterogeneous.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Size: 90th %ile has 3x properties of 10th %ile
+\end_layout
+
+\begin_layout Itemize
+Ease of collecting taxes, opportunities for corruption
+\end_layout
+
+\begin_layout Itemize
+Amenities
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Current transfer process is opaque and subject to political influence, so
+ limited use as incentive.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Admin data on tax performance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+quarterly inspector reports showing collections and tax base
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Preference data.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ask inspectors to rank all circles (average 10) in their district.
+ 
+\end_layout
+
+\begin_layout Itemize
+Told preferences would be used in treatments (incentive compatible to reveal
+ true preferences) but before told treatment status
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Calculate the allocation that makes no inspector worse off, and no inspector
+ or group of inspectors would want to deviate (Shapley & Scarf, 1974).
+ 15% of inspectors would move, and these individuals would move 30%iles
+ up their preference ordering.
+\end_layout
+
+\begin_layout Itemize
+15% relatively small, suggests that the incentive scheme will create both
+ winners and losers.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Treatment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Worked with Excise & Taxation department on the 
+\begin_inset Quotes eld
+\end_inset
+
+Merit-Based Transfers and Postings
+\begin_inset Quotes erd
+\end_inset
+
+ (MBTP) scheme
+\end_layout
+
+\begin_layout Itemize
+Inspectors in MBTP scheme randomized into groups of 10 circles within districts.
+\end_layout
+
+\begin_layout Itemize
+Inspectors told they would be ranked based on performance, and then based
+ on ranking they would be given a choic of circles within their group.
+\end_layout
+
+\begin_layout Itemize
+Performance based on 2 measures (randomized)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Recovery: y-o-y percentage increase in tax collected
+\end_layout
+
+\begin_layout Enumerate
+Demand: y-o-y percentage increase in assessed tax base
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Modeling Incentives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Inspector 
+\begin_inset Formula $i$
+\end_inset
+
+ gets utility 
+\begin_inset Formula $u_{ij}$
+\end_inset
+
+ from being assigned to circle 
+\begin_inset Formula $j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Denote overall preference matrix by 
+\begin_inset Formula $\mathbf{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+growth rate in revenue is 
+\begin_inset Formula $y_{i}=y_{i0}+e_{i}+\epsilon_{i}$
+\end_inset
+
+, 
+\begin_inset Formula $\epsilon_{i}\sim iid$
+\end_inset
+
+ with sd 
+\begin_inset Formula $\sigma_{\epsilon}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For a vector of outcomes 
+\begin_inset Formula $\mathbf{y}$
+\end_inset
+
+, the PRSD mechanism yields an allocation 
+\begin_inset Formula $r_{i}\left(\mathbf{y},\mathbf{P}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If effort has convex cost 
+\begin_inset Formula $c\left(e_{i}\right)$
+\end_inset
+
+ then each inspector maximizes
+\begin_inset Formula 
+\[
+\max_{e_{i}}\sum_{j=1}^{J}u_{ij}\mathbb{P}\left(j=r_{i}\left(\mathbf{y},\mathbf{P}\right)\right)-c\left(e_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+effort choice satisfies
+\begin_inset Formula 
+\[
+\frac{d\mathbb{E}\left[u\right]}{de_{i}}=\sum_{j=1}^{J}u_{ij}\frac{\partial\mathbb{P}\left(j=r_{i}\left(y_{i},\mathbf{y}_{-i},\mathbf{P}\right)\right)}{\partial y_{i}}=c^{\prime}\left(e_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Influences on Incentives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Preferences 
+\begin_inset Formula $\mathbf{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+imagine everyone has the same preferences.
+ Then all that matters is the inspector's rank in the performance distribution.
+ 
+\begin_inset Formula $r_{i}=Rank\left(y_{i},\mathbf{y}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Imagine nobody shares a first-choice with anyone else.
+ Then they all get their first choice, and scheme provides 
+\emph on
+no
+\emph default
+ 
+\emph on
+incentives
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Distribution of 
+\begin_inset Formula $y_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If they are all close together, then small effort changes can change ranks:
+ strong incentives.
+\end_layout
+
+\begin_layout Enumerate
+If they are far apart, need lots of effort to change rank: weak incentives
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Preferences 
+\begin_inset Formula $u_{ij}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+With common preferences and common 
+\begin_inset Formula $y_{0}$
+\end_inset
+
+, Lazear & Rosen (1981) show that you can replicate the efficient piece
+ rate with a tournament
+\end_layout
+
+\begin_layout Enumerate
+With general preferences, it's not clear how close we are to a piece rate.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Marginal return to effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simulate the model under different assumptions about what the inspectors
+ know about 
+\begin_inset Formula $\mathbf{P}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbf{y}_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For a given effort vector 
+\begin_inset Formula $\mathbf{e}$
+\end_inset
+
+, solve for the Nash equilibrium efforts.
+\end_layout
+
+\begin_layout Itemize
+Need to parameterize
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $u_{ij}$
+\end_inset
+
+: take ordinal preferences and linearize 
+\begin_inset Formula $u_{ij}=1$
+\end_inset
+
+ for top circle and 
+\begin_inset Formula $u_{ij}=0$
+\end_inset
+
+ for bottom circle
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\mathbf{y}_{0}$
+\end_inset
+
+: regress revenue changes on 2 lags of revenu and tax base in the control
+ group.
+ get 
+\begin_inset Formula $\mathbf{y}_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{\epsilon}^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Evaluate the lhs of the FOC 
+\begin_inset Formula $d\mathbb{E}\left[u\right]/de_{i}$
+\end_inset
+
+ at 
+\begin_inset Formula $\mathbf{e}=0$
+\end_inset
+
+ under different assumptions:
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Marginal return to effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Marginal return to effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Marginal return to effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+At start of year 1, circles randomly assigned into groups of 9-11 circles
+ within metropolitan area.
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 41 groups.
+\end_layout
+
+\begin_layout Itemize
+Randomized into treatment, control.
+ Within treatment into recovery/demand measure of performance.
+\end_layout
+
+\begin_layout Itemize
+In year 2, groups rerandomized into treatment/control stratifying by year-1
+ treatment status.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estimate treatment effects in circle 
+\begin_inset Formula $c$
+\end_inset
+
+ with
+\begin_inset Formula 
+\[
+\log y_{ct}=\alpha_{t}+\gamma{}_{t}\log y_{c0}+\beta TREAT_{c}+\epsilon_{ct}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Using model simulations, ge predicted equilibrium effort 
+\begin_inset Formula $\tilde{e}_{i}$
+\end_inset
+
+ from each inspector and estimate
+\begin_inset Formula 
+\begin{align*}
+\log y_{ct} & =\alpha_{t}+\alpha_{g}+\gamma_{t}\log y_{c0}+\beta_{1}TREAT_{c}\times\tilde{e}_{i}\\
+ & \quad+\beta_{2}\tilde{e}_{i}+\beta_{3}TREAT_{c}\times X_{c}+\beta_{4}X_{c}+\epsilon_{ct}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Estimate effect of re-randomizing with
+\begin_inset Formula 
+\begin{align*}
+\log y_{ct} & =\alpha+\gamma\log y_{c0}+\beta_{1}TREAT\text{\_}Y1_{c}+\beta_{2}TREAT\text{\_}Y2_{c}\\
+ & \quad+\beta_{3}TREAT\_Y1_{c}\times TREAT\_Y2_{c}+\varepsilon_{ct}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Khan et al 2018: Revenue Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename KhanEtAl2018_12.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Section
 \begin_inset Argument 2
 status open
@@ -11877,6 +14504,1889 @@ Recruitment & Selection
 \end_inset
 
 Recruitment & Selection
+\end_layout
+
+\begin_layout Subsection
+Dal Bó, Finan & Rossi (QJE 2013) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Strengthening State Capabilities: The Role of Financial Incentives in the
+ Call to Public Service
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+States need good people in order to function well.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Good
+\begin_inset Quotes erd
+\end_inset
+
+ bureaucrats has many dimensions, how do pecuniary and non-pecuniary incentives
+ of government jobs attract more or less of these dimensions?
+\end_layout
+
+\begin_layout Itemize
+Run an experiment inside Mexico's Regional Development Program to ask
+\end_layout
+
+\begin_layout Enumerate
+Do higher wages attract higher quality applicants?
+\end_layout
+
+\begin_layout Enumerate
+Do higher wages allow the government to hire more people?
+\end_layout
+
+\begin_layout Enumerate
+How do job location disadvantages affect recruitment?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2011: Regional Development Program (RDP) launched to increase state presence
+\end_layout
+
+\begin_layout Itemize
+Create network of 350 community development agents & 50 coordinators to
+ identify needs in the community and report to federal government to get
+ resources to meet demands.
+\end_layout
+
+\begin_layout Itemize
+Program implemented in 10 regions, 167 municipalities, 000s of localities.
+\end_layout
+
+\begin_layout Itemize
+Each community development position is assigned to a particular municipality,
+ selected on an index of socioeconomic characteristics.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Employer faces a residual labor supply of large number of workers.
+\end_layout
+
+\begin_layout Itemize
+2 periods, no discounting.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Worker decides whether to incur cost 
+\begin_inset Formula $c>0$
+\end_inset
+
+ of attending interview for job with posted wage 
+\begin_inset Formula $w$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If worker interviewed, receives offer w/pr 
+\begin_inset Formula $\rho\in(0,1]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Individuals differ in 2 ways:
+\end_layout
+
+\begin_layout Enumerate
+Market quality 
+\begin_inset Formula $v\in[0,\infty)$
+\end_inset
+
+ with distribution 
+\begin_inset Formula $F\left(v\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Public Sector Motivation (PSM) 
+\begin_inset Formula $\pi\in[0,\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Utility from getting the job is 
+\begin_inset Formula $w+\pi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In period 2, accept if better than market opportunity with value 
+\begin_inset Formula $v+\varepsilon$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Shock 
+\begin_inset Formula $\varepsilon\sim G\left(\varepsilon\right)$
+\end_inset
+
+ realized before getting the offer
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Solve the model backwards: Workers will accept if 
+\begin_inset Formula $v+\varepsilon\leq w+\pi$
+\end_inset
+
+.
+ This happens w/pr 
+\begin_inset Formula $G\left(w+\pi-v\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Action in the entry decision will be driven by relationship between 
+\begin_inset Formula $\pi$
+\end_inset
+
+ and 
+\begin_inset Formula $v$
+\end_inset
+
+.
+ 2 cases:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\pi$
+\end_inset
+
+ and 
+\begin_inset Formula $v$
+\end_inset
+
+ independent
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $v=m\left(\pi\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is fixed (at 1).
+ In particular, doesn't depend on type of the worker.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Effects on Applicant Pool
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+proposition 1
+\shape default
+:
+\end_layout
+
+\begin_layout Enumerate
+Given the assumptions of our model, an increase in wages increases the size
+ and average quality of the applicant pool.
+\end_layout
+
+\begin_layout Enumerate
+In the case where PSM and quality are independent in the population, an
+ increase in wages decreases the average PSM of the applicant pool.
+\end_layout
+
+\begin_layout Enumerate
+In the case where PSM and quality are positively correlated according to
+ the function 
+\begin_inset Formula $m\left(\pi\right)$
+\end_inset
+
+, an increase in wages increases the average PSM of the applicant pool.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Effects on Recruitment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simplify: 
+\begin_inset Formula $\pi=0$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\Rightarrow\exists\bar{v}$
+\end_inset
+
+ type and all 
+\begin_inset Formula $v\leq\bar{v}$
+\end_inset
+
+ attend the interview, 
+\begin_inset Formula $v>\bar{v}$
+\end_inset
+
+ do not.
+ 
+\begin_inset Formula $\partial\bar{v}/\partial w>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Overall labor supplys at wage 
+\begin_inset Formula $w$
+\end_inset
+
+ is
+\begin_inset Formula 
+\[
+S=\int_{0}^{\bar{v}}G\left(w-v\right)f\left(v\right)dv=\underbrace{F\left(\bar{v}\right)}_{\text{applicant pool}}\underbrace{\int_{0}^{\bar{v}}G\left(w-v\right)\frac{f\left(v\right)}{F\left(\bar{v}\right)}dv}_{\gamma:\text{ conversion rate}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+proposition 2
+\shape default
+:
+\end_layout
+
+\begin_layout Enumerate
+The measure of recruited candidates in our model, and the labor supplied
+ to the firm in equilibrium, can be written as the product 
+\begin_inset Formula $F\left(\bar{v}\right)\gamma\left(w,\bar{v}\right)$
+\end_inset
+
+ of the applicant pool size and the conversion rate.
+ Thus, the elasticity of labor supply facing the employer is 
+\begin_inset Formula $\eta=\frac{dS}{sw}\frac{w}{S}=\frac{dF}{dw}\frac{w}{F}+\frac{d\gamma}{dw}\frac{w}{\gamma}\equiv\xi_{F\left(\bar{v}\right)}+\xi_{\gamma\left(w,\bar{v}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Under the assumptions of the model, the elasticity of the applicant pool
+ size is positive 
+\begin_inset Formula $\left(\xi_{F\left(\bar{v}\right)}>0\right)$
+\end_inset
+
+ while the sign of the elasticity of the conversion rate 
+\begin_inset Formula $\xi_{\gamma\left(w,\bar{v}\right)}$
+\end_inset
+
+ is ambiguous
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recruitment happened June - August 2011.
+\end_layout
+
+\begin_layout Itemize
+recruitment sites: 113 schools in 106 localities in 10 target regions received
+ job postings.
+\end_layout
+
+\begin_layout Itemize
+Job ad provided general description of the job, and a toll-free number and
+ email address.
+\end_layout
+
+\begin_layout Itemize
+Respondents gave contact info and basic educ and employment history.
+ Then, based on where they saw the ad, told the salary and a date/place
+ for the interview.
+\end_layout
+
+\begin_layout Itemize
+1,920 individuals registered.
+ 1,665 by phone, 208 by email, 47 did both.
+\end_layout
+
+\begin_layout Itemize
+Experiment 1: Salaries randomly allocated across recruitment sites.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+65 localities posted 5,000 pesos/month (
+\begin_inset Formula $\sim$
+\end_inset
+
+US$500)
+\end_layout
+
+\begin_layout Itemize
+41 localities posted 3,750 pesos
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Estimate effect on individual 
+\begin_inset Formula $i$
+\end_inset
+
+ applying in locality 
+\begin_inset Formula $c$
+\end_inset
+
+ in region 
+\begin_inset Formula $r$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+Y_{icr}=\beta_{1}T_{c}+\zeta_{r}+\epsilon_{icr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_1.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+During the interview, applicants did a 3-hour exam measuring personal characteri
+stics (more below).
+\end_layout
+
+\begin_layout Itemize
+Raven matrices used to measure IQ
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_2.png
+	width 42text%
+
+\end_inset
+
+
+\begin_inset Formula $\quad\ldots\quad$
+\end_inset
+
+
+\begin_inset Graphics
+	filename DalBoetal_3.png
+	width 42text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scores below 7 deemed ineligible for job.
+\end_layout
+
+\begin_layout Itemize
+4 strata: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+high wage & high IQ (score above 9)
+\end_layout
+
+\begin_layout Enumerate
+high wage & normal IQ (score 7-9)
+\end_layout
+
+\begin_layout Enumerate
+low wage & high IQ
+\end_layout
+
+\begin_layout Enumerate
+low wage & normal IQ
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The 350 vacancies randomied to one of these strata and then offers made
+ randomly to applicants in that stratum (sometimes conditioning on knowing
+ the local indigenous language as well)
+\end_layout
+
+\begin_layout Itemize
+Analyze acceptance 
+\begin_inset Formula $A_{ics}$
+\end_inset
+
+ by individual 
+\begin_inset Formula $i$
+\end_inset
+
+ in locality 
+\begin_inset Formula $c$
+\end_inset
+
+ and stratum 
+\begin_inset Formula $s$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+A_{ics}=\gamma_{1}T_{c}+X_{i}^{\prime}\beta+\zeta_{s}+\epsilon_{ics}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+and effect of municipality characteristics (since individuals randomly assigned
+ to municipalities)
+\begin_inset Formula 
+\[
+A_{ics}=\gamma_{1}T_{c}+\gamma_{2}\left(T_{c}\times W_{m}\right)+\gamma_{3}W_{m}+X_{i}^{\prime}\beta+\zeta_{s}+\epsilon_{icms}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Personality data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Aptitude data
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Outside wages: current/previous earnings.
+\end_layout
+
+\begin_layout Itemize
+Ravens matrices (above)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Big 5
+\begin_inset Quotes erd
+\end_inset
+
+ personality traits: openness to experience, conscientiousness, extraversion,
+ agreeableness, neuroticism.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Public Service Motivation (PSM)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Perry 1996 scale to elicit opinions of attractiveness of politics, public
+ service, and prosocial activities.
+\end_layout
+
+\begin_layout Enumerate
+6 modules: Attraction to Policy Making, Commitment to Policy Making, Social
+ Justice, Civic Duty, Compassion, Self-Sacrifice
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_12.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_13.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_14.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_15.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Ashraf, Bandiera & Lee (2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Losing Prosociality in the Quest for Talent? Sorting, Selection, and Productivit
+y in the Delivery of Public Services
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Over the course of the economic development of a nation, informal service
+ providers are replaced with qualified, career professionals.
+\end_layout
+
+\begin_layout Itemize
+Create and foster an identity based on a career as a civil servant.
+ 
+\end_layout
+
+\begin_layout Itemize
+But does this displace providers whose identity is based on altruism towards
+ beneficiaries?
+\end_layout
+
+\begin_layout Itemize
+If so, how does this affect the quality of service delivery and the welfare
+ of citizens?
+\end_layout
+
+\begin_layout Itemize
+This paper: an experiment with the government of Zambia reruiting nurses
+ to test these questions.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Context: Delivery of health services in remote rural areas of Zambia
+\end_layout
+
+\begin_layout Itemize
+Trained staff reluctant to be posted in remote areas so turnover is high
+\end_layout
+
+\begin_layout Itemize
+Government created Community Health Assistant (CHA) post.
+ Effectively formalizing informal community health workers.
+\end_layout
+
+\begin_layout Itemize
+CHAs' main task is to visit households and refer them to health facilities
+\end_layout
+
+\begin_layout Itemize
+CHAs join the civil service and can advance to higher-ranked and better
+ paid (nurses paid about double for e.g.) cadres
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hard to separate selection effect (who becomes a CHA) from the incentive
+ effect (promotion incentives to perform well)
+\end_layout
+
+\begin_layout Itemize
+Design an experiment to separate the two things
+\end_layout
+
+\begin_layout Enumerate
+Selection: Use recruitment posters posted in public spaces.
+ Randomly vary content of poster:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Some posters emphasize career benefits of the job
+\end_layout
+
+\begin_layout Enumerate
+Othes emphasize community service
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Shut down incentives: All successful applicants offered the same career
+ opportunities on the job.
+ All train together, all get the same information.
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ any performance differences are only due to how they were selected.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Posters
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Applicants choose between CHA and their outside option.
+\end_layout
+
+\begin_layout Itemize
+Material benefits of being a CHA are 
+\begin_inset Formula $M$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Individuals differ in ability 
+\begin_inset Formula $a$
+\end_inset
+
+ and social preferences towards the community 
+\begin_inset Formula $s\in\left[0,1\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If work as CHA, produce health 
+\begin_inset Formula $H\left(a\right)$
+\end_inset
+
+ valued at 
+\begin_inset Formula $sH\left(a\right)\Rightarrow U\left(s_{i}H\left(a_{i}\right),M\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Applying requires paying cost 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ Probability of getting job is 
+\begin_inset Formula $p\left(a\right)$
+\end_inset
+
+ (concave).
+\end_layout
+
+\begin_layout Itemize
+Outisde option is 
+\begin_inset Formula $V\left(a\right)$
+\end_inset
+
+ where 
+\begin_inset Formula $V_{a}>U_{a}>0\;\forall a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Apply iff
+\begin_inset Formula 
+\[
+E\left(a,s\right)=p\left(a\right)U\left(a,s\right)-c>V\left(a\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume that 
+\begin_inset Formula $E\left(0\right)<V\left(0\right)$
+\end_inset
+
+.
+ Then there's a threshold 
+\begin_inset Formula $\underline{a}$
+\end_inset
+
+ such that 
+\begin_inset Formula $a_{i}<\underline{a}$
+\end_inset
+
+ don't apply.
+ If curvatures of 
+\begin_inset Formula $U$
+\end_inset
+
+ and 
+\begin_inset Formula $V$
+\end_inset
+
+ suitable, then there's another threshold where 
+\begin_inset Formula $E\left(\bar{a}\right)=V\left(\bar{a}\right)$
+\end_inset
+
+ and only 
+\begin_inset Formula $\underline{a}<a_{i}<\bar{a}$
+\end_inset
+
+ apply.
+ Focus on this case.
+\end_layout
+
+\begin_layout Itemize
+What happens when we increase 
+\begin_inset Formula $M$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Higher ability people apply now
+\end_layout
+
+\begin_layout Enumerate
+Low ability applicants might be discouraged since less likely to get the
+ job: 
+\begin_inset Formula $\partial^{2}p/\partial a\partial M>0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\shape smallcaps
+result 1
+\shape default
+: 
+\emph on
+Increasing material benefits 
+\begin_inset Formula $M$
+\end_inset
+
+ will attract higher ability applicants who would not apply othersiwe 
+\begin_inset Formula $\left(\partial\bar{a}/\partial M>0\right)$
+\end_inset
+
+ and either (i) lower the ability of the lowest ranked applicant 
+\begin_inset Formula $\left(\partial\underline{a}/\partial M<0\right)$
+\end_inset
+
+ and increase the total number of applicants, or (ii) discourage low ability
+ applicants 
+\begin_inset Formula $\left(\partial\underline{a}/\partial M>0\right)$
+\end_inset
+
+ and have an ambiguous impact on the total number of applicants.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Since 
+\begin_inset Formula $V_{a}>U_{a}$
+\end_inset
+
+ the threshold 
+\begin_inset Formula $\bar{a}\left(s_{i}\right)$
+\end_inset
+
+ will be increasing in 
+\begin_inset Formula $s$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Similarly 
+\begin_inset Formula $\underline{a}\left(s_{i}\right)$
+\end_inset
+
+ is decreasing in 
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Talent and pro-sociality are positively correlated for highest ability applicant
+s, and negatively correlated for lowst ability applicants, even when they're
+ not correlated in the population.
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+result 2
+\shape default
+: 
+\emph on
+Under any 
+\begin_inset Formula $M$
+\end_inset
+
+, the most able applicant is also the most prosocial.
+ An increase in 
+\begin_inset Formula $M$
+\end_inset
+
+ leaves the prosociality of the marginal applicant unchanged and has an
+ ambiguous effect on the prosociality of the average applicant
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Applicants and Selection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recruitment drive 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 2,457 applications (average 7.3 for each position).
+ 1,804 met eligbility requirements, 1,585 came for interview and answered
+ questionnaire.
+\end_layout
+
+\begin_layout Itemize
+Use grade 12 (o-level) exam scores as ability measure
+\end_layout
+
+\begin_layout Itemize
+For non-cognitive skills, use career ambition (
+\begin_inset Quotes eld
+\end_inset
+
+what will you be doing in 5 years' time
+\begin_inset Quotes erd
+\end_inset
+
+=
+\begin_inset Quotes erd
+\end_inset
+
+higher position in the Ministry
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+For pro-sociality, use self-reported willingness to stay in the community
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Inclusion of Others in Self (IOS)
+\begin_inset Quotes erd
+\end_inset
+
+ scale
+\end_layout
+
+\begin_layout Itemize
+Selection panels chose 2 candidates to serve as CHA in the posts.
+ Panels = district health official, health post's health center representatice,
+ 3 members of the neighborhood health committee.
+\begin_inset Formula 
+\[
+s_{ih}=\sum_{j\in J}\alpha_{j}^{c}C_{h}X_{i}^{j}+\sum_{j\in J}\alpha_{j}^{s}\left(1-C_{h}\right)X_{i}^{j}+\sum_{j\in J}\beta_{j}\bar{X}_{h}^{j}+\gamma N_{h}+\zeta_{ih}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $s_{ih}=1$
+\end_inset
+
+ if selected, 
+\begin_inset Formula $C_{h}=1$
+\end_inset
+
+ for treatment posts, 
+\begin_inset Formula $X_{i}^{j}=1$
+\end_inset
+
+ if candidate 
+\begin_inset Formula $i$
+\end_inset
+
+ in top 3 of trait 
+\begin_inset Formula $j$
+\end_inset
+
+, 
+\begin_inset Formula $N_{h}$
+\end_inset
+
+ is number of interviewees.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Density picture
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Quantile TEs
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Applicant table
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Selection effect table
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -11902,22 +16412,10 @@ Dal Bo
 \end_layout
 
 \begin_layout Standard
-Erika
-\end_layout
-
-\begin_layout Standard
 Guo
 \end_layout
 
 \end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Subsection
-Ashraf et al.
-\end_layout
-
 \begin_layout Section
 Open Questions
 \end_layout
