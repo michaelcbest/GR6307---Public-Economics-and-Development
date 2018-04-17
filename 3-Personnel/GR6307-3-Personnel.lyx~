@@ -15876,7 +15876,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Posters
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_1.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -16300,7 +16307,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Density picture
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_2.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -16326,7 +16340,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Quantile TEs
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_3.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -16352,7 +16373,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Applicant table
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_4.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -16378,7 +16406,282 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Selection effect table
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_5.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Service Delivery
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CHAs are required to keep records of all their visits, and issue receipts
+ to households that they visit.
+\end_layout
+
+\begin_layout Itemize
+CHAs send summary information by text message to Ministry of Health.
+\end_layout
+
+\begin_layout Itemize
+At the end of each month each health post sends aggregated data to the ministry.
+\end_layout
+
+\begin_layout Itemize
+Conduct validation visits to households.
+\begin_inset Formula 
+\[
+v_{ihdp}=\alpha+\beta C_{id}+Z_{h}\gamma+\delta E_{d}+\rho_{p}+\epsilon_{ihdp}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $v_{ihds}$
+\end_inset
+
+ is the number of visits CHA 
+\begin_inset Formula $i$
+\end_inset
+
+ in catchment area 
+\begin_inset Formula $h$
+\end_inset
+
+ in district 
+\begin_inset Formula $d$
+\end_inset
+
+ and province 
+\begin_inset Formula $p$
+\end_inset
+
+ does.
+ 
+\begin_inset Formula $C_{id}$
+\end_inset
+
+ is treatment
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Service Utilization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The treatment increased health staff inputs.
+ Does it also increase households' use of facilities? Health outcomes?
+\end_layout
+
+\begin_layout Itemize
+Admin data on household visits to facilities
+\begin_inset Formula 
+\[
+y_{hdpt}=\alpha+\beta C_{hd}+\gamma A_{t}+\delta C_{hd}\times A_{t}+Z_{h}\theta+E_{d}\phi+\rho_{p}+\xi_{hdpt}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $y_{hdpt}$
+\end_inset
+
+ is the outcome at facility 
+\begin_inset Formula $h$
+\end_inset
+
+ in district 
+\begin_inset Formula $d$
+\end_inset
+
+ and province 
+\begin_inset Formula $p$
+\end_inset
+
+ in quarter 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ 
+\begin_inset Formula $A_{t}$
+\end_inset
+
+ denotes quarters after the arrival of the CHAs (2012Q4).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_9.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -16442,6 +16745,39 @@ But if it disincentivizes subordinates, it's detrimental.
 \begin_layout Itemize
 This project: Study impact of patronage on state performance in the Colonial
  Office of the British Empire.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_1.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -16524,7 +16860,56 @@ Magna Carta of the Colonial Service
 status open
 
 \begin_layout Plain Layout
-Papers
+Xu 2017: Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Digitized data to construct an individual-level personnel dataset on the
+ Colonial Office
+\end_layout
+
+\begin_layout Enumerate
+Colonial Lists.
+ Data on postings, backgrounds, and salaries of governors 1860–1966
+\end_layout
+
+\begin_layout Enumerate
+Blue Books 1821–1949.
+ administrative statistics with detailed data on public finance (revenues,
+ expenditures), demographics, trade and socio-economic statistic, and prices.
+\end_layout
+
+\begin_layout Enumerate
+Genealogical data.
+ Biographical information from UK Who-is-Who
+\end_layout
+
+\begin_layout Enumerate
+Genealogical data and family tree data from The Peerage to crease a family
+ network of the British elite.
+ To measure connectedness.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -16534,15 +16919,739 @@ Papers
 
 \begin_deeper
 \begin_layout Standard
-Do gooders
+\align center
+\begin_inset Graphics
+	filename Xu2017_2.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
+\end_deeper
 \begin_layout Standard
-Dal Bo
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
-Guo
+\align center
+\begin_inset Graphics
+	filename Xu2017_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Measuring Connectedness
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A good measure has to be
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+objective.
+ Hard because cannot directly observe ties
+\end_layout
+
+\begin_layout Itemize
+exogenous.
+ If high ability people both get promoted and make ties, then ties measure
+ ability.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Shared ancestry.
+ Use family networks from family tree data as a proxy.
+\end_layout
+
+\begin_layout Enumerate
+Membership of the aristocracy
+\end_layout
+
+\begin_layout Enumerate
+Attendance of elite schools (Eton, Oxbridge)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Effect on Salaries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To estimate impact of social connections on governor 
+\begin_inset Formula $i$
+\end_inset
+
+ of colony 
+\begin_inset Formula $s$
+\end_inset
+
+ at time 
+\begin_inset Formula $t$
+\end_inset
+
+'s salary
+\begin_inset Formula 
+\[
+\log w_{ist}=\beta c_{it}+\theta_{i}+x_{it}^{\prime}\gamma+\tau_{t}+\varepsilon_{ist}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $c_{it}\in\left\{ 0,1\right\} $
+\end_inset
+
+ denotes connectedness to the Secretary of State 
+\end_layout
+
+\begin_layout Itemize
+Is the effect driven by increasing the salary of a given job, or by moving
+ governors around to higher paid jobs?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+estimate the same equation but with colony FEs
+\end_layout
+
+\begin_layout Itemize
+If it's moving, what types of moves drive salary increases?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Effects of Abolition of Patronage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use the Warren Fisher reform of 1930 as a natural experiment
+\begin_inset Formula 
+\[
+\log w_{ist}=\beta_{0}c_{it}+\beta_{1}c_{it}\times\mathbf{1}\left\{ t\geq1930\right\} +x_{it}^{\prime}\gamma+\theta_{i}+\tau_{t}+\varepsilon_{ist}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Performance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the performance of connected governors is also better, then the salary
+ premium need not be problematic
+\end_layout
+
+\begin_layout Itemize
+Estimate performance effects
+\begin_inset Formula 
+\[
+y_{ist}=\beta c_{it}+\gamma^{\prime}x_{it}+\nu_{is}+\tau_{t}+\varepsilon_{ist}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+note that the 
+\begin_inset Formula $\nu_{is}$
+\end_inset
+
+ means use only within-appointment-spell shocks to connections (avoid problems
+ with match-specific effects)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Long-Run Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do connected governors cause long-term damage?
+\end_layout
+
+\begin_layout Itemize
+Would like to estimate
+\begin_inset Formula 
+\[
+y_{s}=\beta C_{s}+\gamma^{\prime}x_{s}+\mu_{R\left(s\right)}+\varepsilon_{s}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $C_{s}=\sum_{t}c_{I\left(s,t\right),t}$
+\end_inset
+
+ denotes the number of years under a connected governor, 
+\begin_inset Formula $i=I\left(s,t\right)$
+\end_inset
+
+ returns the identity of the governor 
+\begin_inset Formula $i$
+\end_inset
+
+ serving in colony 
+\begin_inset Formula $s$
+\end_inset
+
+ at time 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+But assignment of connected governors is endogenous.
+\end_layout
+
+\begin_layout Itemize
+Construct an instrument based on
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Allocation rule: governorships limited to 6 years
+\end_layout
+
+\begin_layout Enumerate
+Turnover of the secretary of state
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Share of connected governors with at least 6 years of tenure when a colony
+ becomes vacant is an instrument:
+\begin_inset Formula 
+\[
+p_{t}=\frac{\sum_{i}\mathbf{1}\left\{ T_{it}\geq6\right\} \times c_{it}}{\sum_{i}\mathbf{1}\left\{ T_{it}\geq6\right\} }
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Expected number of connected appointments is then 
+\begin_inset Formula $P_{s}=\sum_{t}p_{t-1}\times\mathbf{1}\left\{ T_{I\left(s,t\right),t}=1\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_12.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_13.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_14.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_15.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_16.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
