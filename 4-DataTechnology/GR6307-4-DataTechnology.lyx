@@ -683,6 +683,202 @@ So what's the alternative? ML techniques minimize
 
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Formula $R\left(f\right)$
+\end_inset
+
+ is a 
+\emph on
+regularizer
+\emph default
+ that penalizes choosing functions that create variance.
+ Constructed so that the set of functions 
+\begin_inset Formula $\mathcal{F}_{c}=\left\{ f\vert R\left(f\right)\leq c\right\} $
+\end_inset
+
+ creates more variable predictions as 
+\begin_inset Formula $c$
+\end_inset
+
+ increases.
+\end_layout
+
+\begin_layout Itemize
+For linear models, larger coefficients generate more variable predictions
+ so a natural regularizer is 
+\begin_inset Formula $R\left(f_{\beta}\right)=\left\Vert \beta\right\Vert ^{d}$
+\end_inset
+
+ (
+\begin_inset Formula $d=1$
+\end_inset
+
+=LASSO, 
+\begin_inset Formula $d=2$
+\end_inset
+
+=ridge)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the price at which we trade off variance and bias.
+ OLS has infinite price for bias 
+\begin_inset Formula $1/\lambda=\infty$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2015: Machine Learning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How should we pick 
+\begin_inset Formula $\lambda$
+\end_inset
+
+? A key insight of machine learning is that you can ask the data to tell
+ you:
+\end_layout
+
+\begin_layout Itemize
+Split the data into 
+\begin_inset Formula $f$
+\end_inset
+
+ subsets (folds).
+ 
+\end_layout
+
+\begin_layout Itemize
+For a set of potential 
+\begin_inset Formula $\lambda$
+\end_inset
+
+s estimate the algorithm on 
+\begin_inset Formula $f-1$
+\end_inset
+
+ of the folds and then see which 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ predicts best on the 
+\begin_inset Formula $f$
+\end_inset
+
+th fold (the hold-out fold).
+ This procedure is called (
+\begin_inset Formula $f$
+\end_inset
+
+-fold)
+\emph on
+ cross-validation
+\end_layout
+
+\begin_layout Itemize
+This is cool because they expand the set of predictors we can consider:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They allow for 
+\emph on
+wide
+\emph default
+ data (e.g.
+ text data, internet activity data) where we have many more variables than
+ data points.
+\end_layout
+
+\begin_layout Itemize
+Much more flexible functional forms
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+But NB, you will get a great 
+\begin_inset Formula $\hat{y}$
+\end_inset
+
+, you don't get any guarantee that you have useful 
+\begin_inset Formula $\hat{\beta}$
+\end_inset
+
+s
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2015: Policy Examples
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Who should get joint replacement surgery?
+\end_layout
+
+\begin_layout Enumerate
+Which teacher will have the greatest value added?
+\end_layout
+
+\begin_layout Enumerate
+How long will unemployment spells last?
+\end_layout
+
+\begin_layout Enumerate
+How should health inspections be targeted?
+\end_layout
+
+\begin_layout Enumerate
+Predicting at-risk youth
+\end_layout
+
+\begin_layout Enumerate
+Which borrowers are credit-worthy?
+\end_layout
+
 \end_deeper
 \begin_layout Subsection
 Kleinberg, Lakkarju, Leskovec, Ludwig & Mullainathan (WP 2017) 
