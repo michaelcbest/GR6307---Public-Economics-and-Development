@@ -650,40 +650,6 @@ MSE\left(x\right) & \equiv\mathbb{E}_{D}\left[\left(\hat{f}\left(x\right)-y\righ
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Kleinberg et al 2015: Machine Learning
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-So what's the alternative? ML techniques minimize
-\begin_inset Formula 
-\[
-\hat{f}_{ML}=\underset{f\in\mathcal{F}}{\arg\min}\sum_{i=1}^{n}\left(y_{i}-f\left(x_{i}\right)\right)^{2}+\lambda R\left(f\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \begin_layout Subsection
 Kleinberg, Lakkarju, Leskovec, Ludwig & Mullainathan (WP 2017) 
 \begin_inset ERT
