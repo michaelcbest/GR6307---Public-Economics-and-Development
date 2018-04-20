@@ -1,0 +1,751 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usepackage{ifthen}
+\usepackage{multirow,bigstrut}
+\usepackage{tikz}
+\usetikzlibrary{patterns,decorations.pathreplacing,shapes,snakes}
+\usetikzlibrary{arrows}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{makecell}
+\usepackage{graphicx}
+\usepackage{animate}
+\usepackage{pifont}
+\usepackage{booktabs}
+\usepackage{relsize}
+%\usepackage{adjustbox}
+%\usepackage{txfonts}
+%\usepackage{handoutWithNotes}
+%\pgfpagesuselayout{3 on 1 with notes}[a4paper,border shrink=5mm]
+
+% FOOTLINE - PAGE NUMBER RIGHT
+\defbeamertemplate*{footline}{guildford foot theme}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.7\paperwidth,ht=1cm,dp=0ex,left]{}%
+    {
+    \insertsectionnavigationhorizontal{.5\paperwidth}{}{}
+    }
+ \end{beamercolorbox}
+ \begin{beamercolorbox}[wd=0.31\paperwidth,ht=1cm,dp=0ex,right]{}%
+{\tiny
+\insertframenumber{} / \inserttotalframenumber\hspace*{5ex}
+}
+ \end{beamercolorbox}}%
+  \vskip5pt%
+}
+
+\beamertemplatenavigationsymbolsempty
+\usefonttheme{professionalfonts}
+\usecolortheme[RGB={0,0,125}]{structure} 
+\setbeamersize{ text margin left=10px}
+%\definecolor{newblue}{rgb}{0,0,0.6}
+%\setbeamercolor{alerted text}{fg=newblue}
+\setbeamertemplate{frametitle}[default][center]
+
+%{\bfseries\insertframetitle\par}
+
+\RequirePackage{ifthen}
+
+\newboolean{sectiontoc}
+\setboolean{sectiontoc}{true} % default to true
+
+\AtBeginSubsection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide] 
+  \end{frame} 
+} 
+}
+
+\AtBeginSection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/hide/hide] 
+  \end{frame} 
+} 
+}
+
+\newcommand{\toclesssection}[1]{
+   \setboolean{sectiontoc}{false}
+   \section{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\toclesssubsection}[1]{
+   \setboolean{sectiontoc}{false}
+   \subsection{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\setbeameroption{hide notes}
+
+\newcommand{\ShortNameSection}[2][]{
+   \setboolean{sectiontoc}{false}
+   \section[#1]{#2}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\light}[1]{\textcolor{gray}{#1}}
+\end_preamble
+\options notes=show
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding T1
+\font_roman "cmr" "default"
+\font_sans "helvet" "default"
+\font_typewriter "cmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{framenumber}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+GR 6307
+\begin_inset Newline newline
+\end_inset
+
+Public Economics and Development
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\;$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+4.
+ Building State Capacity
+\begin_inset Newline newline
+\end_inset
+
+with Data & Technology
+\end_layout
+
+\begin_layout Author
+Michael Best
+\end_layout
+
+\begin_layout Date
+Spring 2018
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Prediction in Government
+\end_layout
+
+\end_inset
+
+Prediction Problems in Government
+\end_layout
+
+\begin_layout Subsection
+Kleinberg, Ludwig, Mullainathan & Obermeyer (AER PnP 2015) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Prediction Policy Problems
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2015: Prediction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In empirical policy research, we often focus on 
+\emph on
+causal inference
+\emph default
+.
+ Policy choices depend on understanding the counterfactual–what would happen
+ without the policy.
+\end_layout
+
+\begin_layout Itemize
+But, there are many policy problems where causal inference is not central,
+ or even necessary!
+\end_layout
+
+\begin_layout Itemize
+Consider 2 toy examples:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+There is a drought.
+ Should we invest in a rain dance to increase the chance of rain?
+\end_layout
+
+\begin_layout Enumerate
+It is cloudy.
+ Should I take an umbrella to work?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In both cases data are going to be useful.
+ But they require different estimators:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Do rain dances cause rain? 
+\emph on
+Causal inference
+\end_layout
+
+\begin_layout Enumerate
+Is the chance of rain high enough to merit an umbrella? 
+\emph on
+Prediction inference
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This paper: Policy prediction problems are everywhere, and machine learning
+ can help us solve them more effectively.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2015: Prediction and Causation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider this framework for thinking about this.
+\end_layout
+
+\begin_layout Itemize
+Let 
+\begin_inset Formula $Y$
+\end_inset
+
+ be an outcome (rain) that depends on 
+\begin_inset Formula $X_{0}$
+\end_inset
+
+ (a policy choice) and other 
+\begin_inset Formula $X$
+\end_inset
+
+s.
+\end_layout
+
+\begin_layout Itemize
+The policymaker must pick 
+\begin_inset Formula $X_{0}$
+\end_inset
+
+ (umbrella, rain dance) to maximize known payoff 
+\begin_inset Formula $\pi\left(X_{0},Y\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Decision depends on 
+\begin_inset Formula 
+\[
+\frac{d\pi\left(X_{0},Y\right)}{dX_{0}}=\frac{\partial}{\partial X_{0}}\underbrace{\pi\left(Y\right)}_{\text{prediction}}+\frac{\partial\pi}{\partial Y}\underbrace{\frac{\partial Y}{\partial X_{0}}}_{\text{causation}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Prediction: We know the payoff, but we need to evaluate it at 
+\begin_inset Formula $Y$
+\end_inset
+
+, so we need to predict what 
+\begin_inset Formula $Y$
+\end_inset
+
+ will be
+\end_layout
+
+\begin_layout Enumerate
+Causality: How much will 
+\begin_inset Formula $Y$
+\end_inset
+
+ change if I change 
+\begin_inset Formula $X_{0}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Itemize
+2 things to note
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Prediction is useful when 
+\begin_inset Formula $\partial\pi/\partial X$
+\end_inset
+
+ depends on 
+\begin_inset Formula $Y$
+\end_inset
+
+ (benefit of umbrella depends on rain)
+\end_layout
+
+\begin_layout Enumerate
+Only 
+\begin_inset Formula $\hat{Y}$
+\end_inset
+
+ enters the decision, so we just need a low error estimate of 
+\begin_inset Formula $\hat{Y}$
+\end_inset
+
+, not an unbiased or causal one
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2015: Machine Learning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Standard empirical techniques aren't great for prediction because they focus
+ on 
+\series bold
+unbiasedness
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ Suppose you have 2 variables to predict 
+\begin_inset Formula $y$
+\end_inset
+
+ and you get OLS estimates 
+\begin_inset Formula $\hat{\beta}_{1}=1\pm0.001$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\beta}_{2}=4\pm10$
+\end_inset
+
+.
+ What's the best prediction? 
+\begin_inset Formula $x_{1}+4x_{2}$
+\end_inset
+
+? or perhaps the unbiased estimator 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ since 
+\begin_inset Formula $\hat{\beta}_{2}$
+\end_inset
+
+ is noisy?
+\end_layout
+
+\begin_layout Itemize
+General setup: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose you have a dataset 
+\begin_inset Formula $D$
+\end_inset
+
+ of 
+\begin_inset Formula $n$
+\end_inset
+
+ points 
+\begin_inset Formula $\left(y_{i},x_{i}\right)\sim G$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Use this data to pick a function 
+\begin_inset Formula $\hat{f}\in\mathcal{F}$
+\end_inset
+
+ to predict the 
+\begin_inset Formula $y$
+\end_inset
+
+ value of a new data point 
+\begin_inset Formula $\left(y,x\right)\sim G$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Goal is to minimize a loss function 
+\begin_inset Formula $\mathcal{L}\left(y,\hat{f}\right)=\left(y-\hat{f}\left(x\right)\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2015: Machine Learning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+OLS minimizes 
+\emph on
+in-sample 
+\emph default
+error by choosing among linear functions 
+\begin_inset Formula $\mathcal{F}_{lin}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\hat{f}_{OLS}=\underset{f_{\beta}\in\mathcal{F}_{lin}}{\arg\min}\sum_{i=1}^{n}\left(y_{i}-f\left(x_{i}\right)\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This does great in-sample (sum over the 
+\begin_inset Formula $i$
+\end_inset
+
+s in 
+\emph on
+this
+\emph default
+ dataset).
+ But could do 
+\emph on
+arbitrarily
+\emph default
+ 
+\emph on
+badly
+\emph default
+ on a new dataset (out of sample)!!
+\begin_inset Formula 
+\begin{align*}
+MSE\left(x\right) & \equiv\mathbb{E}_{D}\left[\left(\hat{f}\left(x\right)-y\right)^{2}\right]\\
+ & =\underbrace{\mathbb{E}_{D}\left[\left(\hat{f}\left(x\right)-\mathbb{E}_{D}\left[\hat{y}_{0}\right]\right)^{2}\right]}_{\text{Variance}}+\underbrace{\left(\mathbb{E}_{D}\left[\hat{y}_{0}\right]-y\right)^{2}}_{\text{Bias}^{2}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Kleinberg, Lakkarju, Leskovec, Ludwig & Mullainathan (WP 2017) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Human Decisions and Machine Predictions
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2017
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+things
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Data & Technology in Development
+\end_layout
+
+\end_inset
+
+Examples of Data & Technology in Development
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Papers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Abelson targeting
+\end_layout
+
+\begin_layout Itemize
+Blumenstock et al phones prediction
+\end_layout
+
+\begin_layout Itemize
+Marshall's satellite prediction
+\end_layout
+
+\begin_layout Itemize
+Banerjee et al ID cards
+\end_layout
+
+\begin_layout Itemize
+Muralidharan et al
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
