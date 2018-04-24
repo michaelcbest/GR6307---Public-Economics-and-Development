@@ -986,7 +986,7 @@ Selective labels:
 status open
 
 \begin_layout Plain Layout
-D
+Kleinberg et al 2017: Data & Context
 \end_layout
 
 \end_inset
@@ -994,6 +994,504 @@ D
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Shortly after someone is arrested, there's a bail hearing.
+ Judges can a) release; b) set a dollar bail; c) detain with no chance of
+ bail.
+\end_layout
+
+\begin_layout Itemize
+Judges asked to decide based on a prediction of whether the defendant would
+ fail to appear in court or be re-arrested for a new crime.
+\end_layout
+
+\begin_layout Itemize
+Data on all arrests in NYC between 11/2008 and 11/2013: 1,460,462 cases.
+\end_layout
+
+\begin_layout Itemize
+758,027 subject to a pre-trial release decision.
+ Randomly sample 203,338 cases to keep in a 
+\begin_inset Quotes eld
+\end_inset
+
+lock box
+\begin_inset Quotes erd
+\end_inset
+
+: Not used for training the algorithm or writing drafts of the paper, will
+ only be used for the final version.
+\end_layout
+
+\begin_layout Itemize
+Working data is 554,689 cases.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Table 1 part 1
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Table 1 part 2
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Table 1 part 3
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2017: Machine Learning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Form predictions 
+\begin_inset Formula $\hat{y}=m\left(x\right)$
+\end_inset
+
+ to minimize loss function 
+\begin_inset Formula $L\left(y,\hat{y}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Consider functions 
+\begin_inset Formula $m\left(x\right)$
+\end_inset
+
+ that generate predicted probabilities in 
+\begin_inset Formula $\left[0,1\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Use Bernoulli loss
+\begin_inset Formula 
+\[
+L\left(y_{i},m\left(x_{i}\right)\right)=-\left[y_{i}\log\left(m\left(x_{i}\right)\right)+\left(1-y_{i}\right)\log\left(1-m\left(x_{i}\right)\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For this paper, use gradient boosted decision trees to form 
+\begin_inset Formula $m\left(x_{i}\right)$
+\end_inset
+
+.
+ Average multiple trees built sequentially where each iteration up-weights
+ observations that fit poorly in the sequence of trees up to that point.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Figure 2
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2017: Misranking?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The riskiest 1% of defendants have a predicted risk of 62.6%, but 48.5% of
+ them are released, and reoffend 56.3% of the time!
+\end_layout
+
+\begin_layout Itemize
+Suggests Judges are misranking the defendants.
+ But could also be that the judges use an even higher threshold risk for
+ detention.
+\end_layout
+
+\begin_layout Itemize
+Look across judges of different leniencies.
+ If it's the case that more lenient judges just have a higher threshold
+ risk, then the predicted risk scores should be good at predicting which
+ people will be jailed by a less lenient judge relative to a lenient judge.
+\end_layout
+
+\begin_layout Itemize
+Identified by quasi-random assignment of cases to judges: It depends on
+ who happens to be on duty in that bourough 
+\begin_inset Formula $\times$
+\end_inset
+
+ court house 
+\begin_inset Formula $\times$
+\end_inset
+
+ day
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Figure 3
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Figure 5
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2017: Alternative Policies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+So can we use the algorithm to improve release decisions?
+\end_layout
+
+\begin_layout Itemize
+Consider 2 types of policies
+\end_layout
+
+\begin_layout Enumerate
+Contraction: A warning whenever the judge is about to release a high-risk
+ defendant.
+ Like a driver assist system that warns when the car does something potentially
+ dangerous.
+\end_layout
+
+\begin_layout Enumerate
+Reranking: Risk tool danks defendants and makes recommendations for all
+ decisions.
+ Like an auto-pilot that the judge could overrule.
+ Improves both high- and low-risk decisions.
+\end_layout
+
+\begin_layout Itemize
+Now we need a counterfactual: 2 issues arise
+\end_layout
+
+\begin_layout Enumerate
+Compliance: Will the judge pay attention to the warnings / comply with the
+ risk score?
+\end_layout
+
+\begin_layout Enumerate
+Reranking involves releasing some of the jailed defendants.
+ How much crime 
+\emph on
+would they have
+\emph default
+ committed? A missing labels problem.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2017: Contraction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What threshold risk score should trigger the warning? 
+\end_layout
+
+\begin_layout Itemize
+Low threshold averts more crime, but triggers more warnings, and increases
+ jailings of people who would not reoffend.
+ 
+\end_layout
+
+\begin_layout Itemize
+Implicitly, the judges have some threshold too that we can compare to.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Figure 7
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleinberg et al 2017: Reranking
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Reranking creates a selective labels problem: We only see crime rates of
+ those who are jailed.
+ 
+\end_layout
+
+\begin_layout Itemize
+Approach here: Impute based on observables.
+ Then do 2 bounding exercises
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Decompose algorithm's gains into 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+jail a high risk 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Assume imputing underestimates by 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and use a prediced risk of 
+\begin_inset Formula $\min\left\{ 1,\alpha\hat{y}\right\} $
+\end_inset
+
+ and do robustness to 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Section
 \begin_inset Argument 2
 status open
