@@ -915,7 +915,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Kleinberg et al 2017
+Kleinberg et al 2017: Introduction
 \end_layout
 
 \end_inset
@@ -925,7 +925,52 @@ Kleinberg et al 2017
 
 \begin_deeper
 \begin_layout Itemize
-things
+Machine learning is all about prediction.
+ This paper looks at what, at first glance, is an ideal application.
+\end_layout
+
+\begin_layout Itemize
+After an arrest, judges decide whether defendants await trial in jail or
+ at home.
+ Law says this bail decision depends only on the judges prediction of whether
+ the defendant wil reoffend or flee if released.
+\end_layout
+
+\begin_layout Itemize
+Here use data on 758,027 defendands in NYC between 2008 and 2013 to predict
+ probability of reoffending.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Can we use these predictions to understand and improve judges' decisions?
+\end_layout
+
+\begin_layout Enumerate
+Needs methods from 
+\emph on
+both
+\emph default
+ machine learning and microeconometrics.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Omitted payoffs:
+\emph default
+ We can predict probability of reoffending, but what if there are other
+ things judges care about?
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Selective labels:
+\emph default
+ We only see the crime outcomes of people who are released.
+ What would those who were jailed have done if they had been released?
 \end_layout
 
 \end_deeper
