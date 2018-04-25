@@ -1670,12 +1670,42 @@ Data & Technology in Development
 Examples of Data & Technology in Development
 \end_layout
 
+\begin_layout Subsection
+Abelson, Varshney & Sun (2014): 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Targeting Direct Cash Transfers to the Extremely Poor
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Papers
+Abelson et al 2014
 \end_layout
 
 \end_inset
@@ -1685,23 +1715,814 @@ Papers
 
 \begin_deeper
 \begin_layout Itemize
-Abelson targeting
+Work with GiveDirectly to see how data can be used to improve targeting.
 \end_layout
 
 \begin_layout Itemize
-Blumenstock et al phones prediction
+Use satellite data and roof material (thatch vs metal) to predict poverty.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Metal roof better: Mosquitos live in thatch, leak and collapse regularly.
 \end_layout
 
 \begin_layout Itemize
-Marshall's satellite prediction
+Metal roof is expensive: 
+\begin_inset Formula $\$564$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Itemize
-Banerjee et al ID cards
+Good proxy for poverty
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Aggregate up to the village level to rank villages for GiveDirectly operations.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Abelson et al 2014
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AbelsonEtAl2014_1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Abelson et al 2014
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AbelsonEtAl2014_2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Abelson et al 2014
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Data has issues:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Satellite data is from google maps: Sometimes there are clouds, some pictures
+ from the wet season, others from the dry season.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Training data from GiveDirectly which does census in villages it works in
+ and has roof type in it.
 \end_layout
 
 \begin_layout Itemize
-Muralidharan et al
+Set up a crowdsourcing application (using Flask in Python)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Abelson et al 2014
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AbelsonEtAl2014_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Abelson et al 2014
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Train algorithms for two problems:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many roofs in each 400 x 400 pixel satellite image?
+\end_layout
+
+\begin_layout Enumerate
+What fraction of the roods are metal?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Use random forests for this problem.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Abelson et al 2014
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AbelsonEtAl2014_4.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Abelson et al 2014
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AbelsonEtAl2014_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Abelson et al 2014
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AbelsonEtAl2014_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Blumenstock, Cadamuro & On (Science 2015) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Predicting Poverty and Wealth from Mobile Phone Metadata
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Blumenstock et al 2015
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In many countries, survey data is either completely missing, or unreliable
+ (national stats shown to be off by as much as 50%)
+\end_layout
+
+\begin_layout Itemize
+This paper will try to use metadata from mobile phone users to predict the
+ user's socioeconomic characteristics.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Very fine-grained prediction
+\end_layout
+
+\begin_layout Itemize
+Usedul for applications that require individual-level information (targeting,
+ policy interventions etc)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Use data on billions of interactions over Rwanda's largest mobile phone
+ network and a follow-up phone survey of 856 individual subscribers.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Blumenstock et al 2015
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BlumenstockEtAl2015_1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Blumenstock et al 2015
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BlumenstockEtAl2015_2.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Blumenstock et al 2015
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BlumenstockEtAl2015_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Blumenstock et al 2015
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BlumenstockEtAl2015_4.png
+	width 107text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Blumenstock et al 2015
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BlumenstockEtAl2015_5.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Jean, Burke, Xie, Davis, Lobell & Ermon 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Combining Satellite Imagery and Machine Learning to Predict Poverty
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jean et al 2016
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Focus on 5 African countries: Nigeria, Tanzania, Uganda, Malawi & Rwanda.
+\end_layout
+
+\begin_layout Itemize
+One popular approach in data-scarce environments has been to use nightlights
+ in satellite images.
+\end_layout
+
+\begin_layout Itemize
+Combine satellite data with:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+World Bank Living Standards Measurement Study (LSMS) surveys: measures expenditu
+re
+\end_layout
+
+\begin_layout Itemize
+Demographic and Health Surveys (DHS): measures welath.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Proceed in 3 steps
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Train a Convolutional Neural Network (CNN) on ImageNet to identify low-level
+ features of images common to many image classification tasks
+\end_layout
+
+\begin_layout Enumerate
+Fine-tune the CNN by getting it to predict nightlights using daytime satellite
+ images.
+ Reduce the dimensionality of the daytime pictures to the features that
+ tend to predict nightlights: a coarse measure of wellbeing
+\end_layout
+
+\begin_layout Enumerate
+Use ridge regession of survey data on cluster-level image features to predict
+ expenditure and wealth.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jean et al 2016
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename JeanEtAl2016_1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename JeanEtAl2016_2.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jean et al 2016
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename JeanEtAl2016_3.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jean et al 2016
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename JeanEtAl2016_4.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename JeanEtAl2016_5.png
+	height 105theight%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1726,14 +2547,6 @@ Papers
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Abelson targeting
-\end_layout
-
-\begin_layout Itemize
-Blumenstock et al phones prediction
-\end_layout
-
 \begin_layout Itemize
 Marshall's satellite prediction
 \end_layout
