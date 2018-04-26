@@ -2526,6 +2526,1301 @@ status open
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Muralidharan, Niehaus & Sukhtankar (AER 2016) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Building State Capacity: Evidence from Biometric Smartcards in India
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implementing antipoverty programs in developing countries is hard.
+ 
+\end_layout
+
+\begin_layout Itemize
+Identifying beneficiaries and delivering payments to them is a key challenge.
+\end_layout
+
+\begin_layout Itemize
+Lots of optimism around the use of biometric technology to supplant PIN
+ numbers or paper-based IDs.
+\end_layout
+
+\begin_layout Itemize
+But:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+requires all steps of implementation to go right, 
+\end_layout
+
+\begin_layout Enumerate
+If it threatens rents, could be subverted by incumbent rent-seekers.
+\end_layout
+
+\begin_layout Enumerate
+Could exclude genuine beneficiaries due to technical problems
+\end_layout
+
+\begin_layout Enumerate
+Could just displace corruption to somewhere else and weaken bureaucrats'
+ incentives to implement the program at all.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Study the randomized rollout of a Smartcard payment system in NREGS workfare
+ program in India
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+NREGS is the world's largest guaranteed employment scheme.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All households guaranteed 100 days' paid work a year.
+\end_layout
+
+\begin_layout Itemize
+Participants get jobcards to record employment & payment.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Logistics, leakage and access have been issues in implementation.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+slow and unreliable payment
+\end_layout
+
+\begin_layout Itemize
+overreporting of work and underpayment of workers are problems.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Social Security Pensions (SSP) program targets Below Poverty Line families
+ and old, widowed, or disabled people.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Figure 1
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work directly with government of Andhra Pradesh.
+\end_layout
+
+\begin_layout Itemize
+Randomize the order in which the Smartcard system rolled out across mandals
+ (sub-districts)
+\end_layout
+
+\begin_layout Itemize
+Randomized 296 mandals into
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+treatment (112)
+\end_layout
+
+\begin_layout Itemize
+control (45)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+buffer
+\begin_inset Quotes erd
+\end_inset
+
+ (139)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Buffer to maximize time between treatment and control and to permit gathering
+ endline data in treatment mandals before rollout to control districts.
+\end_layout
+
+\begin_layout Itemize
+Randomization stratified by district and the first principal component of
+ mandal-level socio-economic characteristics.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_1.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Household surveys representative of universe of NREGS jobcard holders (Octobber
+ 2010 baseline and 2012 endline)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+sample of jobcard holders who had recently participated in NREGS
+\end_layout
+
+\begin_layout Enumerate
+sampled a panel of 880 villages, avg 6 households sampled per village.
+\end_layout
+
+\begin_layout Enumerate
+Audits of worksites to count workers.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Administrative data
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+land under cultivation from District Statistical Handbooks
+\end_layout
+
+\begin_layout Enumerate
+Cost data and prices from National Sample Survey 
+\end_layout
+
+\begin_layout Enumerate
+mandal-level headcounts of livestock.
+\end_layout
+
+\begin_layout Enumerate
+Geocoded locations of each census village in the 2001 census.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: First Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Figure 3
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Table 1
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Muralidharan, Niehaus & Sukhtankar (2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+General Equilibrium Effects of (Improving) Public Employment Programs: Experimen
+tal Evidence from India
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Public employment programs are a common anti-poverty policy in developing
+ countries.
+\end_layout
+
+\begin_layout Itemize
+India's National Rural Employment Guarantee Scheme (NREGS) is the world's
+ largest such program: 600 million eligible participants and 0.5% of GDP.
+\end_layout
+
+\begin_layout Itemize
+Given the scale of the program, you might expect such a program to have
+ important GE effects.
+\end_layout
+
+\begin_layout Itemize
+But these are very hard to estimate:
+\end_layout
+
+\begin_layout Enumerate
+No experimental variation
+\end_layout
+
+\begin_layout Enumerate
+NREGs implemented very differently in different places, so not clear what
+ you'd be comparing: 
+\begin_inset Quotes eld
+\end_inset
+
+construct validity
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Spillovers across districts make identification very challenging.
+\end_layout
+
+\begin_layout Itemize
+This paper tries to overcome these challenges with an experiment in Andhra
+ Pradesh
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+NREGS program in India is enormous.
+\end_layout
+
+\begin_layout Itemize
+But several well-known issues with program implementation:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rationing of jobs
+\end_layout
+
+\begin_layout Itemize
+Corruption through over-invoicing for work not done, or paying workers less
+ than their due.
+\end_layout
+
+\begin_layout Itemize
+Payment slow and unreliable.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Government of AP introduced smartcards to improve program implementation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Payments delivered by banks instead of government-run post offices
+\end_layout
+
+\begin_layout Itemize
+identification through biometric smartcard instead of paper documents and
+ ink stamps
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work directly with government of Andhra Pradesh.
+\end_layout
+
+\begin_layout Itemize
+Randomize the order in which the Smartcard system rolled out across mandals
+ (sub-districts)
+\end_layout
+
+\begin_layout Itemize
+Randomized 296 mandals into
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+treatment (112)
+\end_layout
+
+\begin_layout Itemize
+control (45)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+buffer
+\begin_inset Quotes erd
+\end_inset
+
+ (139)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Buffer to maximize time between treatment and control and to permit gathering
+ endline data in treatment mandals before rollout to control districts.
+\end_layout
+
+\begin_layout Itemize
+Randomization stratified by district and the first principal component of
+ mandal-level socio-economic characteristics.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_1.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Socio-Economic and Caste Census (SECC).
+ independent nation-wide census to rank households by socio-economic status
+ to tdetermine whteher 
+\begin_inset Quotes eld
+\end_inset
+
+Below Poverty Line
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Household surveys representative of universe of NREGS jobcard holders (Octobber
+ 2010 baseline and 2012 endline)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+sample of jobcard holders who had recently participated in NREGS
+\end_layout
+
+\begin_layout Enumerate
+sampled a panel of 880 villages, avg 6 households sampled per village.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Administrative data
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+land under cultivation from District Statistical Handbooks
+\end_layout
+
+\begin_layout Enumerate
+Cost data and prices from National Sample Survey 
+\end_layout
+
+\begin_layout Enumerate
+mandal-level headcounts of livestock.
+\end_layout
+
+\begin_layout Enumerate
+Geocoded locations of each census village in the 2001 census.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Start out by just estimating the difference between treated and control
+ mandals:
+\begin_inset Formula 
+\[
+Y_{imd}=\alpha+\beta Treated_{md}+\delta District_{d}+\lambda PC_{md}+\epsilon_{imd}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $Y_{imd}$
+\end_inset
+
+ is outcome of household 
+\begin_inset Formula $i$
+\end_inset
+
+ in mandal 
+\begin_inset Formula $m$
+\end_inset
+
+ in district 
+\begin_inset Formula $d$
+\end_inset
+
+ and 
+\begin_inset Formula $PC_{md}$
+\end_inset
+
+ is the principal component of socioeconomic variables used for stratification.
+\end_layout
+
+\begin_layout Itemize
+In the survey data, to increase precision, also include the baseline panchayat-m
+ean level of the outcome:
+\begin_inset Formula 
+\[
+Y_{ipmd}=\alpha+\beta Treated_{md}+\gamma\bar{Y}_{pmd}^{0}+\delta District_{d}+\lambda PC_{md}+\epsilon_{ipmd}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Many possible channels, 
+\begin_inset Formula $\Rightarrow\beta$
+\end_inset
+
+ is the composite effect of a mix of several factors.
+ But this is the policy-relevant GE estimate of the total effect due to
+ the effective presence of NREGS
+\end_layout
+
+\begin_layout Itemize
+If spillovers across mandals, then 
+\begin_inset Formula $\beta$
+\end_inset
+
+ misestimates the Total Treatment Effect (TTE): The difference in average
+ outcomes when all units are treated and when no units are treated.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Income
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Wages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Employment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Spillovers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Want to test for spillovers between neighboring mandals, and to estimate
+ a total treatment effect that accounts for them.
+\end_layout
+
+\begin_layout Itemize
+In principle, outomes in each panchayat could be arbitrary functions of
+ the treatment status of 
+\emph on
+all
+\emph default
+ other GPs.
+ Need to make some sort of functional form assumptions to make progress.
+\end_layout
+
+\begin_layout Itemize
+Assume that spillovers are a function of the fraction of GPs within a radius
+ 
+\begin_inset Formula $R$
+\end_inset
+
+ of panchayat 
+\begin_inset Formula $p$
+\end_inset
+
+ that are treated: 
+\begin_inset Formula $N_{p}^{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Despite random assignment, 
+\begin_inset Formula $N_{p}^{R}$
+\end_inset
+
+ isn't random, its correlated with location: It's larger for GPs in the
+ middle of the Mandal than near the edges.
+\end_layout
+
+\begin_layout Itemize
+Construct 
+\begin_inset Formula $\tilde{N}_{p}^{R}$
+\end_inset
+
+: fraction of GPs within a radius 
+\begin_inset Formula $R$
+\end_inset
+
+ of panchayat 
+\begin_inset Formula $p$
+\end_inset
+
+ that are treated 
+\emph on
+and
+\emph default
+ in a different mandal.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+use 
+\begin_inset Formula $\tilde{N}_{p}^{R}$
+\end_inset
+
+ to test for existence of spillovers and as an instrument
+\begin_inset Formula 
+\[
+Y_{ipmd}=\alpha+\beta\tilde{N}_{p}^{R}+\delta District_{d}+\lambda PC_{md}+\epsilon_{imd}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Total Treatment Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To estimate the total treatment effect, estimate
+\begin_inset Formula 
+\[
+Y_{ipmd}=\alpha+\beta_{T}T_{m}+\beta_{N}N_{p}^{R}+\beta_{TN}T_{m}\cdot N_{p}^{R}+\delta District_{d}+\lambda PC_{md}+\epsilon_{ipmd}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Then the total treatment effect of a universal rollout is
+\begin_inset Formula 
+\[
+\bar{\beta}=\beta_{T}+\beta_{N}+\beta_{TN}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Instrument for 
+\begin_inset Formula $N_{p}^{R}$
+\end_inset
+
+ using 
+\begin_inset Formula $\tilde{N}_{p}^{R}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2547,10 +3842,6 @@ Papers
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Marshall's satellite prediction
-\end_layout
-
 \begin_layout Itemize
 Banerjee et al ID cards
 \end_layout
