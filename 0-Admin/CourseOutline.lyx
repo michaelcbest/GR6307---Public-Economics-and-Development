@@ -125,7 +125,7 @@ Public Economics and Development
 \begin_inset Newline newline
 \end_inset
 
-Wednesdays, 10.10-12, Room 1101
+Wednesdays, 10.10-12, Room 1101 IAB
 \end_layout
 
 \begin_layout Standard
@@ -153,7 +153,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Office Hours: Wednesdays 3–4:15 in 1105A IAB.
+Office Hours: Wednesdays 2:00–3:00 & 3:30–4:00 in 1112 IAB.
  
 \end_layout
 
@@ -287,8 +287,8 @@ one
 \end_layout
 
 \begin_layout Standard
-This is the first year I'm teaching the course, so I'm sure there will be
- typos in my slides.
+This is the second year I'm teaching the course, so I'm sure there will
+ be typos in my slides.
  If you spot one, please point it out.
  Or even better, fix it and send me a pull request! If you're unfamiliar
  with github and version control, you can learn more about it here: 
@@ -314,33 +314,15 @@ You will be evaluated in 4 ways
 \end_layout
 
 \begin_layout Enumerate
-Team-score in the debate (see section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Debate"
-
-\end_inset
-
-) [20%]
+Referee report 1 [20%]
 \end_layout
 
 \begin_layout Enumerate
-A referee report (see section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Referee-Report"
-
-\end_inset
-
-) [20%]
+Referee report 2 / Replication [20%]
 \end_layout
 
 \begin_layout Enumerate
-
-\emph on
-Either
-\emph default
- a second referee report, or a virtual paper (see section 
+Virtual paper (see section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Virtual-Paper"
@@ -357,214 +339,7 @@ Class participation [20%]
 
 \begin_layout Standard
 You will receive letter grades for referee reports.
- If you choose to write the virtual paper, I will give you more detailed
- feedback.
-\end_layout
-
-\begin_layout Section
-Debate
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Debate"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-In our 6th meeting, we will have a debate.
- The motion we will debate is
-\end_layout
-
-\begin_layout Quote
-
-\series bold
-\emph on
-\begin_inset Quotes eld
-\end_inset
-
-This house believes that Mexico should implement a universal basic income.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-In our first meeting, I will randomly assign you into two teams: 
-\begin_inset Quotes eld
-\end_inset
-
-For
-\begin_inset Quotes erd
-\end_inset
-
- and 
-\begin_inset Quotes eld
-\end_inset
-
-Against
-\begin_inset Quotes erd
-\end_inset
-
- stratifying by whether or not you think you would be able to get by using
- a code manual in Spanish plus Google Translate.
- For full transparency and replicability, you can find the code I will use
- here.
-\end_layout
-
-\begin_layout Standard
-Your team will have the following 6 weeks to prepare your arguments.
- This is not a high-school debate, I'd like it to be much more scientific
- than that.
- That is, you should support your argument at every point with evidence,
- both empirical and theoretical.
- If it were me, I think I would approach it as follows (though feel free
- to approach it however you think best).
-\end_layout
-
-\begin_layout Enumerate
-Write down a conceptual framework within which to think about this question.
- This framework should allow you to pinpoint the key behavioral responses
- that will inform your answer (what 
-\emph on
-would 
-\emph default
-happen if Mexico implements a UBI), and the normative framework you use
- to weigh all the pros and cons (the 
-\emph on
-should
-\emph default
- part of the argument).
-\end_layout
-
-\begin_layout Enumerate
-Gather up as much existing evidence as you can and summarize it.
-\end_layout
-
-\begin_layout Enumerate
-Gather up as much relevant data as you can and start to analyze it to see
- if you can learn about the key empirical objects you need to answer the
- question.
-\end_layout
-
-\begin_layout Standard
-In our 6th meeting, each team will have 40 minutes to present their argument.
- The opposing team may ask questions, but not prevent the presenters from
- finishing their arguments.
- At the end of the debate, each team must provide the other team with
-\end_layout
-
-\begin_layout Enumerate
-Their presentation slides (including source code if in LaTeX/LyX)
-\end_layout
-
-\begin_layout Enumerate
-The data they used for their empirical analysis
-\end_layout
-
-\begin_layout Enumerate
-Replication code for their empirical analysis
-\end_layout
-
-\begin_layout Standard
-Then, in our 7th meeting, each team will have 15 minutes to present a rebuttal
- of the other team's argument.
- This rebuttal should engage critically with the other team's analysis.
- Point out key assumptions in the model which you think are incorrect and
- how an extended model would provide a better answer.
- Look through the empirical analysis and find key decisions about data cleaning
- that can drive the answers.
- Do more robustness checks of the main results to see if they are stable,
- etc.
-\end_layout
-
-\begin_layout Standard
-Ultimately, this is a class in economics, not in debate style, so the actual
- answer 
-\emph on
-for
-\emph default
- or 
-\emph on
-against
-\emph default
- the UBI isn't important.
- What's important is to show how you can take a concrete policy question,
- apply economic reasoning to it, and come up with evidence to support/contradict
- the policy.
- Also, I hope that it will show us how fragile our conclusions can sometimes
- be to seemingly small assumptions along the way.
-\end_layout
-
-\begin_layout Subsection
-UBI Resources
-\end_layout
-
-\begin_layout Itemize
-OECD Policy Briefing: 
-\emph on
-Basic income as a policy option: Can it add up? 
-\emph default
-
-\begin_inset CommandInset href
-LatexCommand href
-name "https://www.oecd.org/els/emp/Basic-Income-Policy-Option-2017.pdf"
-target "https://www.oecd.org/els/emp/Basic-Income-Policy-Option-2017.pdf"
-literal "false"
-
-\end_inset
-
- and accompanying technical report: 
-\begin_inset CommandInset href
-LatexCommand href
-name "https://www.oecd.org/els/soc/Basic-Income-Policy-Option-2017-Brackground-Technical-Note.pdf"
-target "https://www.oecd.org/els/soc/Basic-Income-Policy-Option-2017-Brackground-Technical-Note.pdf"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-Y-combinator: 
-\begin_inset CommandInset href
-LatexCommand href
-name "https://basicincome.ycr.org/"
-target "https://basicincome.ycr.org/"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-IMF Fiscal monitor October 2017: 
-\begin_inset CommandInset href
-LatexCommand href
-name "https://www.imf.org/en/Publications/FM/Issues/2017/10/05/fiscal-monitor-october-2017"
-target "https://www.imf.org/en/Publications/FM/Issues/2017/10/05/fiscal-monitor-october-2017"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Survey data on Mexico: 
-\begin_inset CommandInset href
-LatexCommand href
-name "http://www.inegi.org.mx/biinegi/"
-target "http://www.inegi.org.mx/biinegi/"
-literal "false"
-
-\end_inset
-
-
+ I will give you more detailed feedback on your virtual paper.
 \end_layout
 
 \begin_layout Section
@@ -580,6 +355,38 @@ name "sec:Referee-Report"
 
 \begin_layout Standard
 All students will write a referee report on either 
+\begin_inset CommandInset href
+LatexCommand href
+name "Juliana Londoño-Velez & Javier Ávila-Mahecha - \"Can Wealth Taxation Work in Developing Countries? Quasi-Experimental Evidence from Colombia\""
+target "https://uc5c3d095e703e2855a439355d41.dl.dropboxusercontent.com/cd/0/inline2/AZ7YcxYzu5R-CY--WOEgJcKGdFR7xbCRo2QEc9U3sVEG1cAIEM452v7Tz5ERFT1hs5x642uFEe7xJoXaYIIOkD5l2T735Sf7aLvll0D727o2C0KtosNArTYW9bn7NVW7Tl4Bl5cYZNq-ahI054UqNg3xa5ONTMkLeaFrwlKVY83NhtiUsA34tLUq6gV2pXwo4rEJuRab6HvLB4slIWTuOGoTMPC8BYsxIPpKgNRkFCjUQyddXX_ZRb3Srwkfo2-SrBz_ctZE0ctDZ_OP2mi8gYamXGQklS7bc_AnxtCmZaF83X3-5lwvIfUND6z0zeEAeabtv8JlX-Ql_PEpX_WH1G4ceEsbxdg5391w2X6iFrVKQ4H0P7VPjJUfx-zFCa2o2sdC-3rHQflVbhhVY2RqvJvQ2fjCSD2BYiFukEYLnSuM6CA3To0OEr4AKSVQjU1T22W0NeBjAB6OoYxcyD6wb8s1/file#"
+literal "false"
+
+\end_inset
+
+ or 
+\begin_inset CommandInset href
+LatexCommand href
+name "Katy Bergstrom & William Dodds - \"The Targeting Benefit of Conditional Cash Transfers\""
+target "http://web.stanford.edu/~katyberg/The%20Targeting%20Benefit%20of%20Conditional%20Cash%20Transfers.pdf"
+literal "false"
+
+\end_inset
+
+.
+ This referee report will be due on 2/20.
+ Please send the referee report to me as a pdf by 5pm.
+ I will share your reports with the authors, since they could be helpful
+ to them as they revise the papers for submission.
+ Therefore, please 
+\series bold
+DO NOT put your name on the pdf
+\series default
+ you send me (and make sure it's not in the header metadata either)!
+\end_layout
+
+\begin_layout Standard
+If you choose to do a second referee report rather than the replication
+ exercise, you will write it on either 
 \begin_inset CommandInset href
 LatexCommand href
 name "Edoardo Teso, Emanuele Colonnelli, and Mounu Prem, “Patronage in the Allocation of Public Sector Jobs”"
@@ -598,37 +405,12 @@ literal "false"
 \end_inset
 
 .
- This referee report will be due on 3/28.
- Please send the referee report to me as a pdf by 5pm.
-\end_layout
-
-\begin_layout Standard
-If you choose to do a second referee report rather than the research proposal,
- you will write it on either 
-\begin_inset CommandInset href
-LatexCommand href
-name "Michael Callen, Saad Gulzar, Ali Hasanain, and Muhammad Yasir Khan, \"The Political Economy of Public Sector Absence\""
-target "http://scholar.harvard.edu/files/michael-callen/files/pe_absence_june5.pdf?m=1466002769"
-literal "false"
-
-\end_inset
-
- or 
-\begin_inset CommandInset href
-LatexCommand href
-name "Juan Carlos Suarez Serrato, Xiao Yu Wang and Shuang Zhang, \"The Limits of Meritocracy: Screening Bureaucrats Under Imperfect Verifiability\""
-target "http://jcsuarez.com/Files/Suarez_Serrato_Wang_Zhang.pdf"
-literal "false"
-
-\end_inset
-
-.
- This report will be due on 4/18.
+ This report will be due on 4/3.
  Please send the report to me as a pdf by 5pm.
 \end_layout
 
 \begin_layout Standard
-A couple of useful resources for writing referee reports:
+Here are a couple of useful resources for writing referee reports:
 \end_layout
 
 \begin_layout Itemize
@@ -653,6 +435,91 @@ literal "false"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Replication Exercise
+\end_layout
+
+\begin_layout Standard
+If you are a PhD student, I 
+\series bold
+\emph on
+strongly
+\series default
+\emph default
+ recommend you do the replication exercise rather than the second referee
+ report.
+ The idea here is for you to get your hands dirty with some real data to
+ do two things.
+ First, to play with the data but with the reassurance of knowing what the
+ answer 
+\begin_inset Quotes eld
+\end_inset
+
+should
+\begin_inset Quotes erd
+\end_inset
+
+ be when you run a certain regression so you don't need to agonize about
+ all the decisions you made to get there.
+ Second, to see how many agonizing decisions go into producing the small
+ number of tables/figures you see in a finished paper.
+\end_layout
+
+\begin_layout Standard
+To do this, go through our syllabus and pick a paper to try and replicate
+ (you can also pick another paper on a related topic, but check with me
+ first please).
+ Most recent papers also post replication data/code on the authors' websites,
+ the journal's website or both.
+ Download the replication code and data.
+ There will be a readme file that explains what all the pieces of code and
+ data are and how to use them to replicate the paper's results.
+ Read this first, before you start playing with the code and data, it will
+ save you time.
+ Run the code to replicate the paper's results.
+ Double-check you get the same thing as in the paper.
+\end_layout
+
+\begin_layout Standard
+Then, prepare a replication report in which you detail 
+\end_layout
+
+\begin_layout Enumerate
+Where you got the code/data from and what issues, if any, you had in replicating
+ the paper's findings.
+\end_layout
+
+\begin_layout Enumerate
+One interesting robustness check.
+ For example, this can be robustness to the criteria used to build the sample
+ that's used for analysis.
+ Many decisions fo into constructing the sample that's used for the analysis,
+ how robust are the findings to making other sensible choices? How sensible
+ are the choices that the paper makes? Or it could be robustness to statistical
+ methods.
+ For example using logit instead of a linear probability model, or using
+ randomization inference instead of asymptotic standard errors.
+ What are the advantages and weaknesses of the methods used in the paper
+ versus other possibilities? Or it could be robustness to adding additional
+ controls (or removing controls you suspect could be bad controls).
+\end_layout
+
+\begin_layout Enumerate
+One interesting extension.
+ Do some new analysis with this data.
+ Does the model in the paper have an additional prediction you can test?
+ Can you write a model that delivers an additional prediction you can test?
+ Can you bring in additional data that allows you to test additional predictions
+ to get at mechanisms? Is there a subsequent paper whose findings should
+ replicate in this sample? 
+\end_layout
+
+\begin_layout Enumerate
+A summary of what you learned from the exercise.
+ Reflect on how this exercise will change the way you approach analyzing
+ data in your own research.
 \end_layout
 
 \begin_layout Section
@@ -694,14 +561,7 @@ name "sec:Virtual-Paper"
 \end_layout
 
 \begin_layout Standard
-If you are a PhD student, I 
-\series bold
-\emph on
-strongly
-\series default
-\emph default
- recommend you do the virtual paper rather than the second referee report.
- The assignment here is not to finish a paper, it is to have a viable plan
+The assignment here is not to finish a paper, it is to have a viable plan
  for a paper.
  I'd rather that you get 50% of the way toward a project that you're excited
  to continue after the semester finishes than that you complete a less ambitious
@@ -767,7 +627,7 @@ Schedule
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="14" columns="3">
+<lyxtabular version="3" rows="15" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -815,7 +675,7 @@ Agenda
 \begin_inset Text
 
 \begin_layout Plain Layout
-1/17
+1/23
 \end_layout
 
 \end_inset
@@ -844,7 +704,7 @@ Taxation 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-1/24
+1/30
 \end_layout
 
 \end_inset
@@ -873,7 +733,7 @@ Taxation 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-1/31
+2/6
 \end_layout
 
 \end_inset
@@ -902,7 +762,7 @@ Taxation 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/7
+2/13
 \end_layout
 
 \end_inset
@@ -911,7 +771,7 @@ Taxation 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 1
+Taxation 4
 \end_layout
 
 \end_inset
@@ -931,7 +791,7 @@ Anti-Poverty 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/14
+2/20
 \end_layout
 
 \end_inset
@@ -940,7 +800,7 @@ Anti-Poverty 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 2
+Anti-Poverty 1
 \end_layout
 
 \end_inset
@@ -960,7 +820,7 @@ Anti-Poverty 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/28
+2/27
 \end_layout
 
 \end_inset
@@ -969,7 +829,7 @@ Anti-Poverty 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Debate 
+Anti-Poverty 2
 \end_layout
 
 \end_inset
@@ -989,7 +849,7 @@ Debate
 \begin_inset Text
 
 \begin_layout Plain Layout
-3/28
+3/6
 \end_layout
 
 \end_inset
@@ -998,7 +858,7 @@ Debate
 \begin_inset Text
 
 \begin_layout Plain Layout
-Rebuttals + Taxation 4
+Anti-Poverty 3
 \end_layout
 
 \end_inset
@@ -1018,7 +878,7 @@ Rebuttals + Taxation 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/4
+3/13
 \end_layout
 
 \end_inset
@@ -1027,7 +887,7 @@ Rebuttals + Taxation 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 1
+Anti-Poverty 4
 \end_layout
 
 \end_inset
@@ -1047,7 +907,7 @@ Personnel 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/11
+3/27
 \end_layout
 
 \end_inset
@@ -1056,7 +916,7 @@ Personnel 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 2
+Personnel 1
 \end_layout
 
 \end_inset
@@ -1076,7 +936,7 @@ Personnel 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/12
+4/3
 \end_layout
 
 \end_inset
@@ -1085,7 +945,7 @@ Personnel 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 3
+Personnel 2
 \end_layout
 
 \end_inset
@@ -1105,7 +965,7 @@ Personnel 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/18
+4/10
 \end_layout
 
 \end_inset
@@ -1114,7 +974,7 @@ Personnel 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 4
+Personnel 3
 \end_layout
 
 \end_inset
@@ -1134,7 +994,36 @@ Personnel 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/25
+4/17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personnel 4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4/19?
 \end_layout
 
 \end_inset
@@ -1154,7 +1043,7 @@ Data & Technology 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-13
+14
 \end_layout
 
 \end_inset
@@ -1163,7 +1052,7 @@ Data & Technology 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/26
+5/1
 \end_layout
 
 \end_inset

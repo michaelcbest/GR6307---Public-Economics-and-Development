@@ -503,17 +503,15 @@ One interesting robustness check.
  randomization inference instead of asymptotic standard errors.
  What are the advantages and weaknesses of the methods used in the paper
  versus other possibilities? Or it could be robustness to adding additional
- controls (or removing controls you suspect could be bad controls).
+ controls (or removing controls y
 \end_layout
 
 \begin_layout Enumerate
 One interesting extension.
  Do some new analysis with this data.
  Does the model in the paper have an additional prediction you can test?
- Can you write a model that delivers an additional prediction you can test?
- Can you bring in additional data that allows you to test additional predictions
- to get at mechanisms? Is there a subsequent paper whose findings should
- replicate in this sample? 
+ Can you write a model that delivers such a prediction? Is there a subsequent
+ paper whose findings should replicate in this sample? 
 \end_layout
 
 \begin_layout Enumerate
