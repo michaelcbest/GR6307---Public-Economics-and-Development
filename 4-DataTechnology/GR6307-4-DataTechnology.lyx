@@ -2526,6 +2526,117 @@ status open
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Muralidharan, Niehaus & Sukhtankar (2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+General Equilibrium Effects of (Improving) Public Employment Programs: Experimen
+tal Evidence from India
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Public employment programs are common in many countries.
+ But they're incredibly difficult to run.
+\end_layout
+
+\begin_layout Itemize
+India's National Rural Employment Guarantee Scheme (NREGS) is the world's
+ largest workfare program, and 0.5% of GDP.
+\end_layout
+
+\begin_layout Itemize
+A program of this scale is likely to have GE effects.
+\end_layout
+
+\begin_layout Itemize
+But these GE effects are very hard to estimate
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+No experimental variation
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+construct validity
+\begin_inset Quotes erd
+\end_inset
+
+: NREGS is different in different parts of India.
+\end_layout
+
+\begin_layout Enumerate
+Market-level effects will spill across districts, so spillovers pose an
+ identification challenge.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Here: Do a market-level experiment in Andhra Pradesh (AP) to address these
+ 3 challenges and estimate GE effects of NREGS.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
