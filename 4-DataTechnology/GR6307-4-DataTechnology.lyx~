@@ -44,7 +44,7 @@
 
 \beamertemplatenavigationsymbolsempty
 \usefonttheme{professionalfonts}
-\usecolortheme[RGB={0,0,125}]{structure} 
+\usecolortheme[RGB={0,0,125}]{structure}
 \setbeamersize{ text margin left=10px}
 %\definecolor{newblue}{rgb}{0,0,0.6}
 %\setbeamercolor{alerted text}{fg=newblue}
@@ -57,24 +57,24 @@
 \newboolean{sectiontoc}
 \setboolean{sectiontoc}{true} % default to true
 
-\AtBeginSubsection[] 
-{ 
+\AtBeginSubsection[]
+{
   \ifthenelse{\boolean{sectiontoc}}{
   \begin{frame}[plain]
-    \frametitle{Outline} 
-    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide] 
-  \end{frame} 
-} 
+    \frametitle{Outline}
+    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide]
+  \end{frame}
+}
 }
 
-\AtBeginSection[] 
-{ 
+\AtBeginSection[]
+{
   \ifthenelse{\boolean{sectiontoc}}{
   \begin{frame}[plain]
-    \frametitle{Outline} 
-    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/hide/hide] 
-  \end{frame} 
-} 
+    \frametitle{Outline}
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/hide/hide]
+  \end{frame}
+}
 }
 
 \newcommand{\toclesssection}[1]{
@@ -252,7 +252,7 @@ Prediction Problems in Government
 \end_layout
 
 \begin_layout Subsection
-Kleinberg, Ludwig, Mullainathan & Obermeyer (AER PnP 2015) 
+Kleinberg, Ludwig, Mullainathan & Obermeyer (AER PnP 2015)
 \begin_inset ERT
 status open
 
@@ -296,7 +296,7 @@ Kleinberg et al 2015: Prediction
 
 \begin_deeper
 \begin_layout Itemize
-In empirical policy research, we often focus on 
+In empirical policy research, we often focus on
 \emph on
 causal inference
 \emph default
@@ -333,13 +333,13 @@ In both cases data are going to be useful.
 
 \begin_deeper
 \begin_layout Enumerate
-Do rain dances cause rain? 
+Do rain dances cause rain?
 \emph on
 Causal inference
 \end_layout
 
 \begin_layout Enumerate
-Is the chance of rain high enough to merit an umbrella? 
+Is the chance of rain high enough to merit an umbrella?
 \emph on
 Prediction inference
 \end_layout
@@ -377,15 +377,15 @@ Consider this framework for thinking about this.
 \end_layout
 
 \begin_layout Itemize
-Let 
+Let
 \begin_inset Formula $Y$
 \end_inset
 
- be an outcome (rain) that depends on 
+ be an outcome (rain) that depends on
 \begin_inset Formula $X_{0}$
 \end_inset
 
- (a policy choice) and other 
+ (a policy choice) and other
 \begin_inset Formula $X$
 \end_inset
 
@@ -393,11 +393,11 @@ s.
 \end_layout
 
 \begin_layout Itemize
-The policymaker must pick 
+The policymaker must pick
 \begin_inset Formula $X_{0}$
 \end_inset
 
- (umbrella, rain dance) to maximize known payoff 
+ (umbrella, rain dance) to maximize known payoff
 \begin_inset Formula $\pi\left(X_{0},Y\right)$
 \end_inset
 
@@ -405,8 +405,8 @@ The policymaker must pick
 \end_layout
 
 \begin_layout Itemize
-Decision depends on 
-\begin_inset Formula 
+Decision depends on
+\begin_inset Formula
 \[
 \frac{d\pi\left(X_{0},Y\right)}{dX_{0}}=\frac{\partial}{\partial X_{0}}\underbrace{\pi\left(Y\right)}_{\text{prediction}}+\frac{\partial\pi}{\partial Y}\underbrace{\frac{\partial Y}{\partial X_{0}}}_{\text{causation}}
 \]
@@ -417,11 +417,11 @@ Decision depends on
 \end_layout
 
 \begin_layout Enumerate
-Prediction: We know the payoff, but we need to evaluate it at 
+Prediction: We know the payoff, but we need to evaluate it at
 \begin_inset Formula $Y$
 \end_inset
 
-, so we need to predict what 
+, so we need to predict what
 \begin_inset Formula $Y$
 \end_inset
 
@@ -429,11 +429,11 @@ Prediction: We know the payoff, but we need to evaluate it at
 \end_layout
 
 \begin_layout Enumerate
-Causality: How much will 
+Causality: How much will
 \begin_inset Formula $Y$
 \end_inset
 
- change if I change 
+ change if I change
 \begin_inset Formula $X_{0}$
 \end_inset
 
@@ -446,11 +446,11 @@ Causality: How much will
 
 \begin_deeper
 \begin_layout Enumerate
-Prediction is useful when 
+Prediction is useful when
 \begin_inset Formula $\partial\pi/\partial X$
 \end_inset
 
- depends on 
+ depends on
 \begin_inset Formula $Y$
 \end_inset
 
@@ -458,11 +458,11 @@ Prediction is useful when
 \end_layout
 
 \begin_layout Enumerate
-Only 
+Only
 \begin_inset Formula $\hat{Y}$
 \end_inset
 
- enters the decision, so we just need a low error estimate of 
+ enters the decision, so we just need a low error estimate of
 \begin_inset Formula $\hat{Y}$
 \end_inset
 
@@ -494,7 +494,7 @@ Kleinberg et al 2015: Machine Learning
 \begin_deeper
 \begin_layout Itemize
 Standard empirical techniques aren't great for prediction because they focus
- on 
+ on
 \series bold
 unbiasedness
 \series default
@@ -503,28 +503,28 @@ unbiasedness
 
 \begin_layout Itemize
 e.g.
- Suppose you have 2 variables to predict 
+ Suppose you have 2 variables to predict
 \begin_inset Formula $y$
 \end_inset
 
- and you get OLS estimates 
+ and you get OLS estimates
 \begin_inset Formula $\hat{\beta}_{1}=1\pm0.001$
 \end_inset
 
- and 
+ and
 \begin_inset Formula $\hat{\beta}_{2}=4\pm10$
 \end_inset
 
 .
- What's the best prediction? 
+ What's the best prediction?
 \begin_inset Formula $x_{1}+4x_{2}$
 \end_inset
 
-? or perhaps the unbiased estimator 
+? or perhaps the unbiased estimator
 \begin_inset Formula $x_{1}$
 \end_inset
 
- since 
+ since
 \begin_inset Formula $\hat{\beta}_{2}$
 \end_inset
 
@@ -532,20 +532,20 @@ e.g.
 \end_layout
 
 \begin_layout Itemize
-General setup: 
+General setup:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Suppose you have a dataset 
+Suppose you have a dataset
 \begin_inset Formula $D$
 \end_inset
 
- of 
+ of
 \begin_inset Formula $n$
 \end_inset
 
- points 
+ points
 \begin_inset Formula $\left(y_{i},x_{i}\right)\sim G$
 \end_inset
 
@@ -553,15 +553,15 @@ Suppose you have a dataset
 \end_layout
 
 \begin_layout Itemize
-Use this data to pick a function 
+Use this data to pick a function
 \begin_inset Formula $\hat{f}\in\mathcal{F}$
 \end_inset
 
- to predict the 
+ to predict the
 \begin_inset Formula $y$
 \end_inset
 
- value of a new data point 
+ value of a new data point
 \begin_inset Formula $\left(y,x\right)\sim G$
 \end_inset
 
@@ -569,7 +569,7 @@ Use this data to pick a function
 \end_layout
 
 \begin_layout Itemize
-Goal is to minimize a loss function 
+Goal is to minimize a loss function
 \begin_inset Formula $\mathcal{L}\left(y,\hat{f}\right)=\left(y-\hat{f}\left(x\right)\right)^{2}$
 \end_inset
 
@@ -600,16 +600,16 @@ Kleinberg et al 2015: Machine Learning
 
 \begin_deeper
 \begin_layout Itemize
-OLS minimizes 
+OLS minimizes
 \emph on
-in-sample 
+in-sample
 \emph default
-error by choosing among linear functions 
+error by choosing among linear functions
 \begin_inset Formula $\mathcal{F}_{lin}$
 \end_inset
 
 
-\begin_inset Formula 
+\begin_inset Formula
 \[
 \hat{f}_{OLS}=\underset{f_{\beta}\in\mathcal{F}_{lin}}{\arg\min}\sum_{i=1}^{n}\left(y_{i}-f\left(x_{i}\right)\right)^{2}
 \]
@@ -620,25 +620,25 @@ error by choosing among linear functions
 \end_layout
 
 \begin_layout Itemize
-This does great in-sample (sum over the 
+This does great in-sample (sum over the
 \begin_inset Formula $i$
 \end_inset
 
-s in 
+s in
 \emph on
 this
 \emph default
  dataset).
- But could do 
+ But could do
 \emph on
 arbitrarily
 \emph default
- 
+
 \emph on
 badly
 \emph default
  on a new dataset (out of sample)!!
-\begin_inset Formula 
+\begin_inset Formula
 \begin{align*}
 MSE\left(x\right) & \equiv\mathbb{E}_{D}\left[\left(\hat{f}\left(x\right)-y\right)^{2}\right]\\
  & =\underbrace{\mathbb{E}_{D}\left[\left(\hat{f}\left(x\right)-\mathbb{E}_{D}\left[\hat{y}_{0}\right]\right)^{2}\right]}_{\text{Variance}}+\underbrace{\left(\mathbb{E}_{D}\left[\hat{y}_{0}\right]-y\right)^{2}}_{\text{Bias}^{2}}
@@ -673,7 +673,7 @@ Kleinberg et al 2015: Machine Learning
 \begin_deeper
 \begin_layout Itemize
 So what's the alternative? ML techniques minimize
-\begin_inset Formula 
+\begin_inset Formula
 \[
 \hat{f}_{ML}=\underset{f\in\mathcal{F}}{\arg\min}\sum_{i=1}^{n}\left(y_{i}-f\left(x_{i}\right)\right)^{2}+\lambda R\left(f\right)
 \]
@@ -687,16 +687,16 @@ So what's the alternative? ML techniques minimize
 \begin_inset Formula $R\left(f\right)$
 \end_inset
 
- is a 
+ is a
 \emph on
 regularizer
 \emph default
  that penalizes choosing functions that create variance.
- Constructed so that the set of functions 
+ Constructed so that the set of functions
 \begin_inset Formula $\mathcal{F}_{c}=\left\{ f\vert R\left(f\right)\leq c\right\} $
 \end_inset
 
- creates more variable predictions as 
+ creates more variable predictions as
 \begin_inset Formula $c$
 \end_inset
 
@@ -705,7 +705,7 @@ regularizer
 
 \begin_layout Itemize
 For linear models, larger coefficients generate more variable predictions
- so a natural regularizer is 
+ so a natural regularizer is
 \begin_inset Formula $R\left(f_{\beta}\right)=\left\Vert \beta\right\Vert ^{d}$
 \end_inset
 
@@ -713,7 +713,7 @@ For linear models, larger coefficients generate more variable predictions
 \begin_inset Formula $d=1$
 \end_inset
 
-=LASSO, 
+=LASSO,
 \begin_inset Formula $d=2$
 \end_inset
 
@@ -725,7 +725,7 @@ For linear models, larger coefficients generate more variable predictions
 \end_inset
 
  is the price at which we trade off variance and bias.
- OLS has infinite price for bias 
+ OLS has infinite price for bias
 \begin_inset Formula $1/\lambda=\infty$
 \end_inset
 
@@ -755,7 +755,7 @@ Kleinberg et al 2015: Machine Learning
 
 \begin_deeper
 \begin_layout Itemize
-How should we pick 
+How should we pick
 \begin_inset Formula $\lambda$
 \end_inset
 
@@ -764,28 +764,28 @@ How should we pick
 \end_layout
 
 \begin_layout Itemize
-Split the data into 
+Split the data into
 \begin_inset Formula $f$
 \end_inset
 
  subsets (folds).
- 
+
 \end_layout
 
 \begin_layout Itemize
-For a set of potential 
+For a set of potential
 \begin_inset Formula $\lambda$
 \end_inset
 
-s estimate the algorithm on 
+s estimate the algorithm on
 \begin_inset Formula $f-1$
 \end_inset
 
- of the folds and then see which 
+ of the folds and then see which
 \begin_inset Formula $\lambda$
 \end_inset
 
- predicts best on the 
+ predicts best on the
 \begin_inset Formula $f$
 \end_inset
 
@@ -805,7 +805,7 @@ This is cool because they expand the set of predictors we can consider:
 
 \begin_deeper
 \begin_layout Itemize
-They allow for 
+They allow for
 \emph on
 wide
 \emph default
@@ -822,11 +822,11 @@ Much more flexible functional forms
 \begin_layout Itemize
 
 \series bold
-But NB, you will get a great 
+But NB, you will get a great
 \begin_inset Formula $\hat{y}$
 \end_inset
 
-, you don't get any guarantee that you have useful 
+, you don't get any guarantee that you have useful
 \begin_inset Formula $\hat{\beta}$
 \end_inset
 
@@ -881,7 +881,7 @@ Which borrowers are credit-worthy?
 
 \end_deeper
 \begin_layout Subsection
-Kleinberg, Lakkarju, Leskovec, Ludwig & Mullainathan (WP 2017) 
+Kleinberg, Lakkarju, Leskovec, Ludwig & Mullainathan (WP 2017)
 \begin_inset ERT
 status open
 
@@ -948,7 +948,7 @@ Can we use these predictions to understand and improve judges' decisions?
 \end_layout
 
 \begin_layout Enumerate
-Needs methods from 
+Needs methods from
 \emph on
 both
 \emph default
@@ -1012,7 +1012,7 @@ Data on all arrests in NYC between 11/2008 and 11/2013: 1,460,462 cases.
 
 \begin_layout Itemize
 758,027 subject to a pre-trial release decision.
- Randomly sample 203,338 cases to keep in a 
+ Randomly sample 203,338 cases to keep in a
 \begin_inset Quotes eld
 \end_inset
 
@@ -1153,11 +1153,11 @@ Kleinberg et al 2017: Machine Learning
 
 \begin_deeper
 \begin_layout Itemize
-Form predictions 
+Form predictions
 \begin_inset Formula $\hat{y}=m\left(x\right)$
 \end_inset
 
- to minimize loss function 
+ to minimize loss function
 \begin_inset Formula $L\left(y,\hat{y}\right)$
 \end_inset
 
@@ -1165,11 +1165,11 @@ Form predictions
 \end_layout
 
 \begin_layout Itemize
-Consider functions 
+Consider functions
 \begin_inset Formula $m\left(x\right)$
 \end_inset
 
- that generate predicted probabilities in 
+ that generate predicted probabilities in
 \begin_inset Formula $\left[0,1\right]$
 \end_inset
 
@@ -1178,7 +1178,7 @@ Consider functions
 
 \begin_layout Itemize
 Use Bernoulli loss
-\begin_inset Formula 
+\begin_inset Formula
 \[
 L\left(y_{i},m\left(x_{i}\right)\right)=-\left[y_{i}\log\left(m\left(x_{i}\right)\right)+\left(1-y_{i}\right)\log\left(1-m\left(x_{i}\right)\right)\right]
 \]
@@ -1189,7 +1189,7 @@ L\left(y_{i},m\left(x_{i}\right)\right)=-\left[y_{i}\log\left(m\left(x_{i}\right
 \end_layout
 
 \begin_layout Itemize
-For this paper, use gradient boosted decision trees to form 
+For this paper, use gradient boosted decision trees to form
 \begin_inset Formula $m\left(x_{i}\right)$
 \end_inset
 
@@ -1274,11 +1274,11 @@ Look across judges of different leniencies.
 
 \begin_layout Itemize
 Identified by quasi-random assignment of cases to judges: It depends on
- who happens to be on duty in that bourough 
+ who happens to be on duty in that bourough
 \begin_inset Formula $\times$
 \end_inset
 
- court house 
+ court house
 \begin_inset Formula $\times$
 \end_inset
 
@@ -1406,7 +1406,7 @@ Compliance: Will the judge pay attention to the warnings / comply with the
 
 \begin_layout Enumerate
 Reranking involves releasing some of the jailed defendants.
- How much crime 
+ How much crime
 \emph on
 would they have
 \emph default
@@ -1436,18 +1436,18 @@ Kleinberg et al 2017: Contraction
 
 \begin_deeper
 \begin_layout Itemize
-What threshold risk score should trigger the warning? 
+What threshold risk score should trigger the warning?
 \end_layout
 
 \begin_layout Itemize
 Low threshold averts more crime, but triggers more warnings, and increases
  jailings of people who would not reoffend.
- 
+
 \end_layout
 
 \begin_layout Itemize
 Implicitly, the judges have some threshold too that we can compare to.
- 
+
 \end_layout
 
 \end_deeper
@@ -1508,7 +1508,7 @@ Kleinberg et al 2017: Reranking
 \begin_layout Itemize
 Reranking creates a selective labels problem: We only see crime rates of
  those who are jailed.
- 
+
 \end_layout
 
 \begin_layout Itemize
@@ -1518,20 +1518,20 @@ Approach here: Impute based on observables.
 
 \begin_deeper
 \begin_layout Enumerate
-Decompose algorithm's gains into 
+Decompose algorithm's gains into
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-jail a high risk defendant and release an 
+jail a high risk defendant and release an
 \emph on
-average 
+average
 \emph default
 risk defendant
 \end_layout
 
 \begin_layout Enumerate
-release a low risk defendant and jail an 
+release a low risk defendant and jail an
 \emph on
 average
 \emph default
@@ -1541,15 +1541,15 @@ average
 
 \end_deeper
 \begin_layout Enumerate
-Assume imputing underestimates by 
+Assume imputing underestimates by
 \begin_inset Formula $\alpha$
 \end_inset
 
- and use a prediced risk of 
+ and use a prediced risk of
 \begin_inset Formula $\min\left\{ 1,\alpha\hat{y}\right\} $
 \end_inset
 
- and do robustness to 
+ and do robustness to
 \begin_inset Formula $\alpha$
 \end_inset
 
@@ -1671,7 +1671,7 @@ Examples of Data & Technology in Development
 \end_layout
 
 \begin_layout Subsection
-Abelson, Varshney & Sun (2014): 
+Abelson, Varshney & Sun (2014):
 \begin_inset ERT
 status open
 
@@ -1728,12 +1728,12 @@ Metal roof better: Mosquitos live in thatch, leak and collapse regularly.
 \end_layout
 
 \begin_layout Itemize
-Metal roof is expensive: 
+Metal roof is expensive:
 \begin_inset Formula $\$564$
 \end_inset
 
 .
- 
+
 \end_layout
 
 \begin_layout Itemize
@@ -2034,7 +2034,7 @@ Abelson et al 2014
 \end_layout
 
 \begin_layout Subsection
-Blumenstock, Cadamuro & On (Science 2015) 
+Blumenstock, Cadamuro & On (Science 2015)
 \begin_inset ERT
 status open
 
@@ -2270,7 +2270,7 @@ Blumenstock et al 2015
 
 \end_deeper
 \begin_layout Subsection
-Jean, Burke, Xie, Davis, Lobell & Ermon 
+Jean, Burke, Xie, Davis, Lobell & Ermon
 \begin_inset ERT
 status open
 
@@ -2527,7 +2527,402 @@ status open
 
 \end_deeper
 \begin_layout Subsection
-Muralidharan, Niehaus & Sukhtankar (2018) 
+Muralidharan, Niehaus & Sukhtankar (AER 2016)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Building State Capacity: Evidence from Biometric Smartcards in India
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implementing antipoverty programs in developing countries is hard.
+
+\end_layout
+
+\begin_layout Itemize
+Identifying beneficiaries and delivering payments to them is a key challenge.
+\end_layout
+
+\begin_layout Itemize
+Lots of optimism around the use of biometric technology to supplant PIN
+ numbers or paper-based IDs.
+\end_layout
+
+\begin_layout Itemize
+But:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+requires all steps of implementation to go right,
+\end_layout
+
+\begin_layout Enumerate
+If it threatens rents, could be subverted by incumbent rent-seekers.
+\end_layout
+
+\begin_layout Enumerate
+Could exclude genuine beneficiaries due to technical problems
+\end_layout
+
+\begin_layout Enumerate
+Could just displace corruption to somewhere else and weaken bureaucrats'
+ incentives to implement the program at all.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Study the randomized rollout of a Smartcard payment system in NREGS workfare
+ program in India
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+NREGS is the world's largest guaranteed employment scheme.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All households guaranteed 100 days' paid work a year.
+\end_layout
+
+\begin_layout Itemize
+Participants get jobcards to record employment & payment.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Logistics, leakage and access have been issues in implementation.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+slow and unreliable payment
+\end_layout
+
+\begin_layout Itemize
+overreporting of work and underpayment of workers are problems.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Social Security Pensions (SSP) program targets Below Poverty Line families
+ and old, widowed, or disabled people.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Figure 1
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work directly with government of Andhra Pradesh.
+\end_layout
+
+\begin_layout Itemize
+Randomize the order in which the Smartcard system rolled out across mandals
+ (sub-districts)
+\end_layout
+
+\begin_layout Itemize
+Randomized 296 mandals into
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+treatment (112)
+\end_layout
+
+\begin_layout Itemize
+control (45)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+buffer
+\begin_inset Quotes erd
+\end_inset
+
+ (139)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Buffer to maximize time between treatment and control and to permit gathering
+ endline data in treatment mandals before rollout to control districts.
+\end_layout
+
+\begin_layout Itemize
+Randomization stratified by district and the first principal component of
+ mandal-level socio-economic characteristics.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_1.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Household surveys representative of universe of NREGS jobcard holders (Octobber
+ 2010 baseline and 2012 endline)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+sample of jobcard holders who had recently participated in NREGS
+\end_layout
+
+\begin_layout Enumerate
+sampled a panel of 880 villages, avg 6 households sampled per village.
+\end_layout
+
+\begin_layout Enumerate
+Audits of worksites to count workers.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Administrative data
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+land under cultivation from District Statistical Handbooks
+\end_layout
+
+\begin_layout Enumerate
+Cost data and prices from National Sample Survey
+\end_layout
+
+\begin_layout Enumerate
+mandal-level headcounts of livestock.
+\end_layout
+
+\begin_layout Enumerate
+Geocoded locations of each census village in the 2001 census.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: First Stage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Figure 3
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Table 1
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Muralidharan, Niehaus & Sukhtankar (2018)
 \begin_inset ERT
 status open
 
@@ -2572,29 +2967,31 @@ Muralidharan et al 2018: Introduction
 
 \begin_deeper
 \begin_layout Itemize
-Public employment programs are common in many countries.
- But they're incredibly difficult to run.
+Public employment programs are a common anti-poverty policy in developing
+ countries.
 \end_layout
 
 \begin_layout Itemize
 India's National Rural Employment Guarantee Scheme (NREGS) is the world's
- largest workfare program, and 0.5% of GDP.
+ largest such program: 600 million eligible participants and 0.5% of GDP.
 \end_layout
 
 \begin_layout Itemize
-A program of this scale is likely to have GE effects.
+Given the scale of the program, you might expect such a program to have
+ important GE effects.
 \end_layout
 
 \begin_layout Itemize
-But these GE effects are very hard to estimate
+But these are very hard to estimate:
 \end_layout
 
-\begin_deeper
 \begin_layout Enumerate
 No experimental variation
 \end_layout
 
 \begin_layout Enumerate
+NREGs implemented very differently in different places, so not clear what
+ you'd be comparing:
 \begin_inset Quotes eld
 \end_inset
 
@@ -2602,15 +2999,695 @@ construct validity
 \begin_inset Quotes erd
 \end_inset
 
-: NREGS is different in different parts of India.
+
 \end_layout
 
 \begin_layout Enumerate
-Market-level effects will spill across districts, so spillovers pose an
- identification challenge.
+Spillovers across districts make identification very challenging.
+\end_layout
+
+\begin_layout Itemize
+This paper tries to overcome these challenges with an experiment in Andhra
+ Pradesh
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+NREGS program in India is enormous.
+\end_layout
+
+\begin_layout Itemize
+But several well-known issues with program implementation:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rationing of jobs
+\end_layout
+
+\begin_layout Itemize
+Corruption through over-invoicing for work not done, or paying workers less
+ than their due.
+\end_layout
+
+\begin_layout Itemize
+Payment slow and unreliable.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Government of AP introduced smartcards to improve program implementation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Payments delivered by banks instead of government-run post offices
+\end_layout
+
+\begin_layout Itemize
+identification through biometric smartcard instead of paper documents and
+ ink stamps
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work directly with government of Andhra Pradesh.
+\end_layout
+
+\begin_layout Itemize
+Randomize the order in which the Smartcard system rolled out across mandals
+ (sub-districts)
+\end_layout
+
+\begin_layout Itemize
+Randomized 296 mandals into
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+treatment (112)
+\end_layout
+
+\begin_layout Itemize
+control (45)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+buffer
+\begin_inset Quotes erd
+\end_inset
+
+ (139)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Buffer to maximize time between treatment and control and to permit gathering
+ endline data in treatment mandals before rollout to control districts.
+\end_layout
+
+\begin_layout Itemize
+Randomization stratified by district and the first principal component of
+ mandal-level socio-economic characteristics.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_1.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Socio-Economic and Caste Census (SECC).
+ independent nation-wide census to rank households by socio-economic status
+ to tdetermine whteher
+\begin_inset Quotes eld
+\end_inset
+
+Below Poverty Line
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Household surveys representative of universe of NREGS jobcard holders (Octobber
+ 2010 baseline and 2012 endline)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+sample of jobcard holders who had recently participated in NREGS
+\end_layout
+
+\begin_layout Enumerate
+sampled a panel of 880 villages, avg 6 households sampled per village.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Administrative data
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+land under cultivation from District Statistical Handbooks
+\end_layout
+
+\begin_layout Enumerate
+Cost data and prices from National Sample Survey
+\end_layout
+
+\begin_layout Enumerate
+mandal-level headcounts of livestock.
+\end_layout
+
+\begin_layout Enumerate
+Geocoded locations of each census village in the 2001 census.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Start out by just estimating the difference between treated and control
+ mandals:
+\begin_inset Formula
+\[
+Y_{imd}=\alpha+\beta Treated_{md}+\delta District_{d}+\lambda PC_{md}+\epsilon_{imd}
+\]
+
+\end_inset
+
+where
+\begin_inset Formula $Y_{imd}$
+\end_inset
+
+ is outcome of household
+\begin_inset Formula $i$
+\end_inset
+
+ in mandal
+\begin_inset Formula $m$
+\end_inset
+
+ in district
+\begin_inset Formula $d$
+\end_inset
+
+ and
+\begin_inset Formula $PC_{md}$
+\end_inset
+
+ is the principal component of socioeconomic variables used for stratification.
+\end_layout
+
+\begin_layout Itemize
+In the survey data, to increase precision, also include the baseline panchayat-m
+ean level of the outcome:
+\begin_inset Formula
+\[
+Y_{ipmd}=\alpha+\beta Treated_{md}+\gamma\bar{Y}_{pmd}^{0}+\delta District_{d}+\lambda PC_{md}+\epsilon_{ipmd}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Many possible channels,
+\begin_inset Formula $\Rightarrow\beta$
+\end_inset
+
+ is the composite effect of a mix of several factors.
+ But this is the policy-relevant GE estimate of the total effect due to
+ the effective presence of NREGS
+\end_layout
+
+\begin_layout Itemize
+If spillovers across mandals, then
+\begin_inset Formula $\beta$
+\end_inset
+
+ misestimates the Total Treatment Effect (TTE): The difference in average
+ outcomes when all units are treated and when no units are treated.
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Income
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Wages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Employment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Spillovers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Want to test for spillovers between neighboring mandals, and to estimate
+ a total treatment effect that accounts for them.
+\end_layout
+
+\begin_layout Itemize
+In principle, outomes in each panchayat could be arbitrary functions of
+ the treatment status of
+\emph on
+all
+\emph default
+ other GPs.
+ Need to make some sort of functional form assumptions to make progress.
+\end_layout
+
+\begin_layout Itemize
+Assume that spillovers are a function of the fraction of GPs within a radius
+
+\begin_inset Formula $R$
+\end_inset
+
+ of panchayat
+\begin_inset Formula $p$
+\end_inset
+
+ that are treated:
+\begin_inset Formula $N_{p}^{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Despite random assignment,
+\begin_inset Formula $N_{p}^{R}$
+\end_inset
+
+ isn't random, its correlated with location: It's larger for GPs in the
+ middle of the Mandal than near the edges.
+\end_layout
+
+\begin_layout Itemize
+Construct
+\begin_inset Formula $\tilde{N}_{p}^{R}$
+\end_inset
+
+: fraction of GPs within a radius
+\begin_inset Formula $R$
+\end_inset
+
+ of panchayat
+\begin_inset Formula $p$
+\end_inset
+
+ that are treated
+\emph on
+and
+\emph default
+ in a different mandal.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+use
+\begin_inset Formula $\tilde{N}_{p}^{R}$
+\end_inset
+
+ to test for existence of spillovers and as an instrument
+\begin_inset Formula
+\[
+Y_{ipmd}=\alpha+\beta\tilde{N}_{p}^{R}+\delta District_{d}+\lambda PC_{md}+\epsilon_{imd}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To estimate the total treatment effect, estimate
+\begin_inset Formula
+\[
+Y_{ipmd}=\alpha+\beta_{T}T_{m}+\beta_{N}N_{p}^{R}+\beta_{TN}T_{m}\cdot N_{p}^{R}+\delta District_{d}+\lambda PC_{md}+\epsilon_{ipmd}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Then the total treatment effect of a universal rollout is
+\begin_inset Formula
+\[
+\bar{\beta}=\beta_{T}+\beta_{N}+\beta_{TN}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Instrument for
+\begin_inset Formula $N_{p}^{R}$
+\end_inset
+
+ using
+\begin_inset Formula $\tilde{N}_{p}^{R}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
