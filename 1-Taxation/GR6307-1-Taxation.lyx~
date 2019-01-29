@@ -674,7 +674,7 @@ If don't use financial sector, informal firm and no tax:
 
 \begin_layout Itemize
 If use finance, generate paper trail, but more efficient 
-\begin_inset Formula $\Pi=\frac{1+a_{j}}{1+s_{j}}p_{j}^{*}f_{j}-rK_{j}-w_{L_{j}}$
+\begin_inset Formula $\Pi=\frac{1+a_{j}}{1+s_{j}}p_{j}^{*}f_{j}-rK_{j}-wL_{j}$
 \end_inset
 
 
@@ -1699,7 +1699,7 @@ Besley & Persson (2013): Household Optimization
 Households have preference
 \begin_inset Formula 
 \[
-x_{0,s}^{J}=u\left(x_{1,s}^{J},\ldots,x_{N,s}^{J}\right)-\phi\left(L_{s}^{J}\right)+\alpha_{s}^{J}H\left(g_{s}\right)
+x_{0,s}^{J}+u\left(x_{1,s}^{J},\ldots,x_{N,s}^{J}\right)-\phi\left(L_{s}^{J}\right)+\alpha_{s}^{J}H\left(g_{s}\right)
 \]
 
 \end_inset

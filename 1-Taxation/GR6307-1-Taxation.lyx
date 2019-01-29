@@ -1699,7 +1699,7 @@ Besley & Persson (2013): Household Optimization
 Households have preference
 \begin_inset Formula 
 \[
-x_{0,s}^{J}=u\left(x_{1,s}^{J},\ldots,x_{N,s}^{J}\right)-\phi\left(L_{s}^{J}\right)+\alpha_{s}^{J}H\left(g_{s}\right)
+x_{0,s}^{J}+u\left(x_{1,s}^{J},\ldots,x_{N,s}^{J}\right)-\phi\left(L_{s}^{J}\right)+\alpha_{s}^{J}H\left(g_{s}\right)
 \]
 
 \end_inset
@@ -2857,7 +2857,9 @@ Effect of tax rate in A-S model:
 \end_layout
 
 \begin_layout Itemize
-Ambiguous prediction seems unintuitive.
+Substitution effect (consumption cheaper in unaudited state) seems unintuitive,
+ drives ambiguous prediction.
+ 
 \begin_inset VSpace medskip
 \end_inset
 
