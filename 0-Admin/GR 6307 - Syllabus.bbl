@@ -984,7 +984,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Public Economics}
-      \field{title}{Can Enhancing the Benefits of Fomrmalization Induce Informal Firms to Become Formal? Experimental Evidence from Benin}
+      \field{title}{Can Enhancing the Benefits of Formalization Induce Informal Firms to Become Formal? Experimental Evidence from Benin}
       \field{volume}{157}
       \field{year}{2018}
       \field{pages}{1\bibrangedash 14}
@@ -3295,6 +3295,30 @@
       \field{note}{Mimeo: London School of Economics}
       \field{title}{Consumers as Tax Auditors}
       \field{year}{2016}
+    \endentry
+    \entry{Naritomi2018}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=e31b92b117c442df662961d72a452b51}{%
+           family={Naritomi},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e31b92b117c442df662961d72a452b51}
+      \strng{fullhash}{e31b92b117c442df662961d72a452b51}
+      \strng{bibnamehash}{e31b92b117c442df662961d72a452b51}
+      \strng{authorbibnamehash}{e31b92b117c442df662961d72a452b51}
+      \strng{authornamehash}{e31b92b117c442df662961d72a452b51}
+      \strng{authorfullhash}{e31b92b117c442df662961d72a452b51}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: London School of Economics}
+      \field{title}{Consumers as Tax Auditors}
+      \field{year}{2018}
     \endentry
     \entry{NicholsZeckhauser1982}{article}{}
       \name{author}{2}{}{%
