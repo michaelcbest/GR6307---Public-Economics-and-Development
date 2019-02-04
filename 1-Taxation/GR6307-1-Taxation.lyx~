@@ -2857,7 +2857,9 @@ Effect of tax rate in A-S model:
 \end_layout
 
 \begin_layout Itemize
-Ambiguous prediction seems unintuitive.
+Substitution effect (consumption cheaper in unaudited state) seems unintuitive,
+ drives ambiguous prediction.
+ 
 \begin_inset VSpace medskip
 \end_inset
 
@@ -7987,7 +7989,7 @@ Use the setup in Chetty (2009) to characterize DWL
 
 \end_deeper
 \begin_layout Subsection
-Jensen (WP 2016) 
+Jensen (WP 2019) 
 \begin_inset ERT
 status open
 
@@ -8021,7 +8023,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Overview
+Jensen (2019): Overview
 \end_layout
 
 \end_inset
@@ -8102,7 +8104,7 @@ Shows same, striking, patterns.
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Data
+Jensen (2019): Data
 \end_layout
 
 \end_inset
@@ -8188,7 +8190,7 @@ Dates of passage and implementation of IDBs
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Stylized Facts
+Jensen (2019): Stylized Facts
 \end_layout
 
 \end_inset
@@ -8221,7 +8223,7 @@ Jensen (2016): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Stylized Facts
+Jensen (2019): Stylized Facts
 \end_layout
 
 \end_inset
@@ -8254,7 +8256,7 @@ Jensen (2016): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Stylized Facts
+Jensen (2019): Stylized Facts
 \end_layout
 
 \end_inset
@@ -8267,7 +8269,7 @@ Jensen (2016): Stylized Facts
 \begin_inset Graphics
 	filename Jensen 3.png
 	lyxscale 40
-	scale 18
+	scale 22
 
 \end_inset
 
@@ -8287,7 +8289,7 @@ Jensen (2016): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Stylized Facts
+Jensen (2019): Stylized Facts
 \end_layout
 
 \end_inset
@@ -8300,7 +8302,7 @@ Jensen (2016): Stylized Facts
 \begin_inset Graphics
 	filename Jensen 4.png
 	lyxscale 40
-	scale 18
+	scale 22
 
 \end_inset
 
@@ -8320,7 +8322,7 @@ Jensen (2016): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Stylized Facts
+Jensen (2019): Stylized Facts
 \end_layout
 
 \end_inset
@@ -8333,7 +8335,7 @@ Jensen (2016): Stylized Facts
 \begin_inset Graphics
 	filename Jensen 5.png
 	lyxscale 40
-	scale 18
+	scale 23
 
 \end_inset
 
@@ -8353,7 +8355,106 @@ Jensen (2016): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Causal Evidence
+Jensen (2019): Stylized Facts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename Jensen 6.png
+	lyxscale 40
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Stylized Facts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename Jensen 7.png
+	lyxscale 40
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Stylized Facts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename Jensen 8.png
+	lyxscale 40
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Causal Evidence
 \end_layout
 
 \end_inset
@@ -8415,7 +8516,7 @@ status open
  Look at time trends around implementation date.
 \begin_inset Formula 
 \[
-y_{st}=\beta+\alpha\mathbf{1}\left(\text{Vote in}\right)_{st}+\theta\mathbf{1}\left(\text{Upheld}\right)_{st}+\lambda\mathbf{X}_{st}+\mu_{s}+\gamma_{t}+\phi_{s}\cdot t+\varepsilon_{st}
+y_{st}=\beta+\alpha\mathbf{1}\left(\text{Vote in}\right)_{st}+\theta\mathbf{1}\left(\text{Upheld}\right)_{st}+\lambda\mathbf{X}_{st}+\mu_{s}+\gamma_{t}+\varepsilon_{st}
 \]
 
 \end_inset
@@ -8424,34 +8525,14 @@ y_{st}=\beta+\alpha\mathbf{1}\left(\text{Vote in}\right)_{st}+\theta\mathbf{1}\l
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Jensen (2016): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Jensen 6.png
-	lyxscale 40
-	scale 18
+\begin_layout Itemize
+Argue that mechanism is change in fiscal enforcement cost.
+ Heterogeneity: with(out) Exchange of Information (EOI) w/ IRS.
+\begin_inset Formula 
+\begin{align*}
+y_{st} & =\beta+\alpha\mathbf{1}\left(\text{Vote in}\right)_{st}+\theta\mathbf{1}\left(\text{Upheld}\right)_{st}+\sigma\mathbf{1}\left(\text{Upheld}\right)_{st}\times\mathbf{1}\left(\text{EoI}\right)_{st}\\
+ & \quad+\lambda\mathbf{X}_{st}+\mu_{s}+\gamma_{t}+\varepsilon_{st}
+\end{align*}
 
 \end_inset
 
@@ -8471,75 +8552,7 @@ Jensen (2016): Results
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Jensen 7.png
-	lyxscale 40
-	scale 20
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Jensen (2016): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Jensen 8.png
-	lyxscale 40
-	scale 17
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Jensen (2016): Results
+Jensen (2019): Results
 \end_layout
 
 \end_inset
@@ -8553,7 +8566,7 @@ Jensen (2016): Results
 \begin_inset Graphics
 	filename Jensen 9.png
 	lyxscale 40
-	scale 18
+	scale 29
 
 \end_inset
 
@@ -8573,7 +8586,7 @@ Jensen (2016): Results
 status open
 
 \begin_layout Plain Layout
-Jensen (2016): Results
+Jensen (2019): Results
 \end_layout
 
 \end_inset
@@ -8587,7 +8600,177 @@ Jensen (2016): Results
 \begin_inset Graphics
 	filename Jensen 10.png
 	lyxscale 40
-	scale 19
+	scale 29
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Jensen 11.png
+	lyxscale 40
+	scale 31
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Jensen 12.png
+	lyxscale 40
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Jensen 13.png
+	lyxscale 40
+	scale 29
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Jensen 14.png
+	lyxscale 40
+	scale 21
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Jensen 15.png
+	lyxscale 40
+	scale 21
 
 \end_inset
 
