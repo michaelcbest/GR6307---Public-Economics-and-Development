@@ -9507,7 +9507,971 @@ Naritomi (2018): Overview
 
 \begin_deeper
 \begin_layout Itemize
-Things
+Kleven et al (2011) shows how important third-party information is for suppressi
+ng evasion.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pomeranz (2015) shows that audit (threats) spill over onto firms connected
+ through paper trails.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+What happens when there's an increase in the level of third-party information?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Naritomi (2018) studies the impact of a program in Sao Paulo, Brazil that
+ increases third-party information on firms' sales:
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+When consumers got a receipt for their purchases, the receipt acted as a
+ lottery ticket.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider an Allingham-Sandmo style model with only government monitoring
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+When firms evade an amount 
+\begin_inset Formula $E=\overline{Y}-Y$
+\end_inset
+
+, they are audited with probability 
+\begin_inset Formula $a\left(E\right)$
+\end_inset
+
+.
+ If audited, evasion is detected with probability 
+\begin_inset Formula $d$
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Caught evading with probability 
+\begin_inset Formula $p=a\left(E\right)d$
+\end_inset
+
+, 
+\begin_inset Formula $p^{\prime}\left(E\right)>0$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+Y^{*}=\arg\max_{Y}\pi=\left(\overline{Y}-\tau Y\right)\left(1-p\right)+\left[\left(1-\tau\right)\overline{Y}-\theta\tau\left(\overline{Y}-Y\right)\right]p
+\]
+
+\end_inset
+
+with FOC
+\begin_inset Formula 
+\[
+\left[a\left(E\right)+a^{\prime}\left(E\right)\cdot E\right]d\left(1+\theta\right)=1
+\]
+
+\end_inset
+
+(same as in Kleven 
+\emph on
+et al.
+
+\emph default
+ 2011)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now add in consumer monitoring.
+ Consumers receive reward 
+\begin_inset Formula $\alpha\in\left[0,1\right]$
+\end_inset
+
+ share of the tax 
+\begin_inset Formula $\tau$
+\end_inset
+
+ that firms pay on the transaction.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Consumers value the rewards at 
+\begin_inset Formula $\kappa\left(\alpha\right)\geq0$
+\end_inset
+
+.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\kappa\left(0\right)=0$
+\end_inset
+
+ = government monitoring only.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+with rewards, why might 
+\begin_inset Formula $\kappa\left(\alpha\right)\neq\alpha$
+\end_inset
+
+?
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firms and consumers can split the surplus from not issuing a receipt.
+ Assume firms make take it or leave it offer of a discount 
+\begin_inset Formula $\left(\overline{y}-y\right)$
+\end_inset
+
+ to the consumer.
+ Consumer accepts if discount matches the reward 
+\begin_inset Formula $\kappa\left(\alpha\right)\tau\left(\overline{y}-y\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With probability 
+\begin_inset Formula $\varepsilon>0$
+\end_inset
+
+ the discount bargaining breaks down and the consumer blows the whistle
+ on the firm, triggering an audit.
+ With 
+\begin_inset Formula $N$
+\end_inset
+
+ consumers probability of detection is now
+\begin_inset Formula 
+\[
+d_{c}\left(N\right)=1-\left(1-d\right)\left(1-\varepsilon\right)^{N}\geq d
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+To attempt to strike a deal with a consumer has a fixed cost of 
+\begin_inset Formula $\rho$
+\end_inset
+
+.
+ Evasion requires colluding with all consumers (can be relaxed)
+\begin_inset Formula 
+\begin{align*}
+Y^{**}=\arg\max_{Y}\pi & =\left(\overline{Y}-\tau Y\right)\left(1-p_{c}\right)+\left[\left(1-\tau\right)\overline{Y}-\theta\tau\left(\overline{Y}-Y\right)\right]p_{c}\\
+ & \qquad-\underbrace{\kappa\left(\alpha\right)\tau\left(\overline{Y}-Y\right)}_{\text{discounts}}-\underbrace{\rho N}_{\text{fixed cost}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now optimal evasion satisfies
+\begin_inset Formula 
+\[
+\left[a+a^{\prime}\left(E\right)\cdot E\right]d_{c}\left(1+\theta\right)=1-\kappa\left(\alpha\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The MC (LHS) is higher: 
+\begin_inset Formula $d_{c}\geq d$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The MB (RHS) is lower: 
+\begin_inset Formula $\kappa\left(\alpha\right)\geq0$
+\end_inset
+
+.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Fixed cost 
+\begin_inset Formula $\rho N$
+\end_inset
+
+ affects extensive margin (comply fully vs optimal evasion)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Revenue effects: 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Lottery costs 
+\begin_inset Formula $\alpha\tau Y^{**}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Revenue increase is 
+\begin_inset Formula $\tau(Y^{**}-Y^{*})$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Need 
+\begin_inset Formula $\left(Y^{**}-Y^{*}\right)/Y^{*}>\alpha/\left(1-\alpha\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sao Paulo's 
+\emph on
+Nota Fiscal Paulista
+\emph default
+ (NFP) program
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Created in 2007 to increase VAT compliance
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Introduced targeted incentives for consumers to ensure firms report final
+ sales
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Targets 2 types of evasion
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+not reporting a transaction at all
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+underreporting the transaction value
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consumers report their SSN at time of purchase.
+ SSN attached to receipt sent to tax authority
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Receipts give consumers
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+30% tax rebate
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+a lottery ticket for every US$50 spent (prizes from $5 to $500,000)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Timeline:
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+NFP rolled out 10/2007–12/2008
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Rebates every 6 months from 4/2009
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Lotteries ~15th of every month from 12/2008
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Admin data on firms' tax returns (sales, costs, taxes etc.)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Receipts reported through NFP (consumer ID, firm ID, amount)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Complaints (whistleblowers) issued through NFP
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Lottery results
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firm Sales.
+ Compare retailers to wholesalers.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Naritomi 1.png
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Naritomi 2.png
+	scale 44
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Aggregate firm data to 7-digit-sector 
+\begin_inset Formula $\times$
+\end_inset
+
+ 6-months.
+ Run
+\begin_inset Formula 
+\[
+\ln R_{st}=\eta_{s}+\gamma_{t}+\sum_{k=-8}^{8}\beta^{k}\left(Treat_{s}\cdot Period_{t}^{k}\right)+u_{st}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename Naritomi 3.png
+	lyxscale 60
+	scale 42
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Whistleblower Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Naritomi 4.png
+	scale 74
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Whistleblower Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Naritomi 5.png
+	scale 74
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Lottery Salient?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Naritomi 6.png
+	scale 62
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Lottery Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Naritomi 7.png
+	scale 54
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Compare lottery winners vs losers in event study framework
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Lottery Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Naritomi 8.png
+	scale 61
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Effects on Government Revenue
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Naritomi 9.png
+	scale 59
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Naritomi (2018): Effects on Government Revenue
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Naritomi 10.png
+	lyxscale 50
+	scale 38
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
