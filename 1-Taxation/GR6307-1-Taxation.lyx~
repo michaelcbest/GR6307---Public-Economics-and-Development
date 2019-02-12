@@ -10231,7 +10231,7 @@ Naritomi (2018): Results
 \begin_inset Graphics
 	filename Naritomi 3.png
 	lyxscale 60
-	scale 42
+	scale 44
 
 \end_inset
 
@@ -10264,7 +10264,7 @@ Naritomi (2018): Whistleblower Results
 \align center
 \begin_inset Graphics
 	filename Naritomi 4.png
-	scale 74
+	scale 73
 
 \end_inset
 
@@ -10467,7 +10467,7 @@ Naritomi (2018): Effects on Government Revenue
 \begin_inset Graphics
 	filename Naritomi 10.png
 	lyxscale 50
-	scale 38
+	scale 39
 
 \end_inset
 
@@ -14626,6 +14626,906 @@ Zucman (2013): Results
 \begin_inset Graphics
 	filename Zucman_12.png
 	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Tørsløv, Wier & Zucman (2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The Missing Profits of Nations
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Corporate tax rates have been falling globally (Keen & Konrad, 2013)
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman01.png
+	lyxscale 30
+	scale 14
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How much are profits shifted across borders in response to differences in
+ corporate tax rates?
+\end_layout
+
+\begin_layout Itemize
+How much would reported profits in US/EU LMICs increase if there was tax
+ harmonization?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use new macroeconomic data 
+\begin_inset Quotes eld
+\end_inset
+
+Foreign Affiliates Statistics
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Break down national accounts into foreign-owned vs local firms
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Find that foreign firms are systematically more profitable than local firms
+ in tax haven countries, but not in other countries.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Due mostly to above-normal returns to capital not to shifting of capital
+ across countries.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Calculate that around 40% of profits earned outside of parent country are
+ shifted to tax havens.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+EU countries are the primary losers.
+ Implies rise in capital share actually about twice what the statistics
+ report.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+US companies do this the most aggressively
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tax haven countries are gaining lots of revenue (increase in tax base larger
+ than loss from low rates)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Profit Ratios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Interested in the ratio of pre-tax corporate profits to wages: 
+\begin_inset Formula $\pi$
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Corporate output is divided between workers and capital owners: 
+\begin_inset Formula $Y=F\left(K,AL\right)=rK+wL$
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Define capital share as 
+\begin_inset Formula $\alpha=rK/Y$
+\end_inset
+
+, then ratio of operating surplus to wages is 
+\begin_inset Formula $\alpha/\left(1-\alpha\right)$
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Corporations pay a share 
+\begin_inset Formula $p$
+\end_inset
+
+ of operating surplus in interest, so 
+\begin_inset Formula $\pi=\left(1-p\right)\cdot\alpha/$
+\end_inset
+
+
+\begin_inset Formula $\left(1-\alpha\right)$
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+All numbers net of depreciation since it's tax deductible.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Calculate these numbers separately for foreign 
+\begin_inset Formula $\pi_{f}$
+\end_inset
+
+ and local 
+\begin_inset Formula $\pi_{l}$
+\end_inset
+
+ firms
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ $11.5 trillion of corporate profits.
+ 15% ($1.7tn) made in affiliates of foreign firms.
+ Of this, 36% ($600bn) shifter to tax havens.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Tangible Capital vs Shifting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+High 
+\begin_inset Formula $\pi_{f}$
+\end_inset
+
+ can come about because
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Paper profits are being shifted
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Capital share is high and elasticity of substitution between K and L is
+ high
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Profit shifting = 
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+transfer pricing (sell goods and services within the multinational at tax-advant
+ageous prices)
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+tax-advantageous borrowing within the firm (hi tax borrows from low tax
+ affiliate)
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Locating intangible capital in low tax jurisdictions that then receive royalties
+/interest/revenues)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Tangible Capital vs Shifting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $d\pi/d\left(K/AL\right)$
+\end_inset
+
+ depends on the elasticity of substitution between capital and labor 
+\begin_inset Formula $\sigma$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If 
+\begin_inset Formula $\sigma>1$
+\end_inset
+
+ then high capital 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ high 
+\begin_inset Formula $\pi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+But if 
+\begin_inset Formula $\sigma<1$
+\end_inset
+
+ then high capital makes MPK low and 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ low 
+\begin_inset Formula $\pi$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\pi_{f}=\left(\frac{K}{wL}\right)_{f}\cdot r_{f}\cdot\left(1-p_{f}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $r_{f}$
+\end_inset
+
+ is the measured return to capital.
+ Includes both marginal product and excess returns (including profit shifting).
+ Under assumptions about 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ can decompose.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Specifically, assume:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\pi_{l}$
+\end_inset
+
+ not affected by profit shifting.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\sigma=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\alpha$
+\end_inset
+
+ varies across countries
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ difference betwen 
+\begin_inset Formula $\pi_{f}$
+\end_inset
+
+ and 
+\begin_inset Formula $\pi_{l}$
+\end_inset
+
+ within a given country measures inward profit shifting
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If all countries had the same tax rate, where would all the profits be?
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Allocate shifted profits proportionally to 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+bilateral
+\emph default
+ service exports (focus on intellectual property rights, HQ services, financial
+ services)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+intra-group interest receipts 
+\end_layout
+
+\begin_layout Standard
+reported in the balance of payments of tax haven countries.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Since 2009 balance of payments is available bilaterally, permitting this
+ exercise.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename TorslovWierZucman02.png
+	lyxscale 40
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman03.png
+	lyxscale 40
+	scale 23
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman04.png
+	lyxscale 40
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman05.png
+	lyxscale 40
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman06.png
+	lyxscale 50
+	scale 42
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Capital vs Shifting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman07.png
+	lyxscale 50
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman08.png
+	lyxscale 50
+	scale 42
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman09.png
+	lyxscale 50
+	scale 42
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman10.png
+	lyxscale 50
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TorslovWierZucman11.png
+	lyxscale 50
+	scale 45
 
 \end_inset
 
