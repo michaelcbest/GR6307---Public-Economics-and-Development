@@ -698,6 +698,45 @@
       \field{pages}{1709\bibrangedash 1753}
       \range{pages}{45}
     \endentry
+    \entry{BanerjeeHannaOlkenSumarto2018}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=cfef9e36b401377d44d593aac63fe536}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8a20efa5cda9050f0f81625c3479eaf4}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=17d43e1603097edd4b5a0c67776d4695}{%
+           family={Olken},
+           familyi={O\bibinitperiod},
+           given={B.A.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2692e483a33e843ce9f0bf49b715b06b}{%
+           family={Sumarto},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d7f31d2e1c744b0902de14daf08e5ee}
+      \strng{fullhash}{2d7f31d2e1c744b0902de14daf08e5ee}
+      \strng{bibnamehash}{2d7f31d2e1c744b0902de14daf08e5ee}
+      \strng{authorbibnamehash}{2d7f31d2e1c744b0902de14daf08e5ee}
+      \strng{authornamehash}{2d7f31d2e1c744b0902de14daf08e5ee}
+      \strng{authorfullhash}{2d7f31d2e1c744b0902de14daf08e5ee}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: MIT}
+      \field{title}{The (lack of) Distortionary Effects of Proxy-Means Tests: Results from a Nationwide Experiment in Indonesia}
+      \field{year}{2018}
+    \endentry
     \entry{Banerjeeetal2017}{unpublished}{}
       \name{author}{5}{}{%
         {{hash=049f998199448809de9a1a14e212758d}{%
@@ -1497,6 +1536,55 @@
       \field{year}{1993}
       \field{pages}{762\bibrangedash 830}
       \range{pages}{69}
+    \endentry
+    \entry{CahyadiHannaOlkenPrimaSatriawanSyamsulhakim2018}{unpublished}{}
+      \name{author}{6}{}{%
+        {{hash=b0b4812007f10c4b406ebdc4902dfd2f}{%
+           family={Cahyadi},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8a20efa5cda9050f0f81625c3479eaf4}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=17d43e1603097edd4b5a0c67776d4695}{%
+           family={Olken},
+           familyi={O\bibinitperiod},
+           given={B.A.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8a3ff9b79acbef35c5c095993f39e5f5}{%
+           family={Prima},
+           familyi={P\bibinitperiod},
+           given={R.A.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=28b0eca192f93c1641a1ce587cb38109}{%
+           family={Satriawan},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f19371848ba68dc8889d88fa96826793}{%
+           family={Syamsulhakim},
+           familyi={S\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
+      \strng{fullhash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
+      \strng{bibnamehash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
+      \strng{authorbibnamehash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
+      \strng{authornamehash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
+      \strng{authorfullhash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: MIT}
+      \field{title}{Cumulative Impacts of Conditional Cash Transfer Programs: Experimental Evidence from Indonesia}
+      \field{year}{2018}
     \endentry
     \entry{Callenetal2016}{unpublished}{}
       \name{author}{4}{}{%
@@ -2347,6 +2435,35 @@
       \field{title}{The Personnel Economics of the Developing State}
       \field{year}{2017}
     \endentry
+    \entry{FinkelsteinNoto2019}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=f0f3dfeda1a793aaaef7b115ed16ca27}{%
+           family={Finkelstein},
+           familyi={F\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dadbaa636275a94f451433504ef8864a}{%
+           family={Notowidigdo},
+           familyi={N\bibinitperiod},
+           given={M.J.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{31cc32dedeb7e398547931a35cc66a67}
+      \strng{fullhash}{31cc32dedeb7e398547931a35cc66a67}
+      \strng{bibnamehash}{31cc32dedeb7e398547931a35cc66a67}
+      \strng{authorbibnamehash}{31cc32dedeb7e398547931a35cc66a67}
+      \strng{authornamehash}{31cc32dedeb7e398547931a35cc66a67}
+      \strng{authorfullhash}{31cc32dedeb7e398547931a35cc66a67}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: MIT}
+      \field{title}{Take-up and Targeting: Experimental Evidence from SNAP}
+      \field{year}{2019}
+    \endentry
     \entry{FismanWei2004}{article}{}
       \name{author}{2}{}{%
         {{hash=33602849c96ffe3e4f4f1a94535094f1}{%
@@ -2629,6 +2746,39 @@
       \field{year}{2009}
       \field{pages}{504\bibrangedash 554}
       \range{pages}{51}
+    \endentry
+    \entry{HannaOlken2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3be07f31740fed01b7dd4c336215d569}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=17d43e1603097edd4b5a0c67776d4695}{%
+           family={Olken},
+           familyi={O\bibinitperiod},
+           given={B.A.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{39e8557aa1a463b9d6783a26253f4439}
+      \strng{fullhash}{39e8557aa1a463b9d6783a26253f4439}
+      \strng{bibnamehash}{39e8557aa1a463b9d6783a26253f4439}
+      \strng{authorbibnamehash}{39e8557aa1a463b9d6783a26253f4439}
+      \strng{authornamehash}{39e8557aa1a463b9d6783a26253f4439}
+      \strng{authorfullhash}{39e8557aa1a463b9d6783a26253f4439}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{title}{Universal Basic Incomes versus Targeted Transfers: Anti-Poverty Programs in Developing Countries}
+      \field{volume}{32}
+      \field{year}{2018}
+      \field{pages}{201\bibrangedash 226}
+      \range{pages}{26}
     \endentry
     \entry{ImbertPapp2015}{article}{}
       \name{author}{2}{}{%
@@ -3271,30 +3421,6 @@
       \field{year}{2011}
       \field{pages}{39\bibrangedash 77}
       \range{pages}{39}
-    \endentry
-    \entry{Naritomi2016}{unpublished}{}
-      \name{author}{1}{}{%
-        {{hash=af3ac183beedfbcafc947164060ea80e}{%
-           family={Naritomi},
-           familyi={N\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{af3ac183beedfbcafc947164060ea80e}
-      \strng{fullhash}{af3ac183beedfbcafc947164060ea80e}
-      \strng{bibnamehash}{af3ac183beedfbcafc947164060ea80e}
-      \strng{authorbibnamehash}{af3ac183beedfbcafc947164060ea80e}
-      \strng{authornamehash}{af3ac183beedfbcafc947164060ea80e}
-      \strng{authorfullhash}{af3ac183beedfbcafc947164060ea80e}
-      \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Mimeo: London School of Economics}
-      \field{title}{Consumers as Tax Auditors}
-      \field{year}{2016}
     \endentry
     \entry{Naritomi2018}{unpublished}{}
       \name{author}{1}{}{%

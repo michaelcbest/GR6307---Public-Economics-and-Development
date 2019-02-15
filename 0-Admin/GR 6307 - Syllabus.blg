@@ -1,17 +1,17 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'GR 6307 - Syllabus.blg'
-[30] biber-darwin:313> INFO - === Mon Feb  4, 2019, 11:37:23
-[50] Biber.pm:371> INFO - Reading 'GR 6307 - Syllabus.bcf'
-[153] Biber.pm:857> INFO - Found 106 citekeys in bib section 0
-[164] Biber.pm:3976> INFO - Processing section 0
-[172] Biber.pm:4136> INFO - Looking for bibtex format file 'readinglist.bib' for section 0
-[175] bibtex.pm:1500> INFO - LaTeX decoding ...
-[265] bibtex.pm:1316> INFO - Found BibTeX data source 'readinglist.bib'
-[424] Utils.pm:193> WARN - year field 'forthcoming' in entry 'Banerjeeetal2018' is not an integer - this will probably not sort properly.
-[787] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[788] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[788] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[788] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[867] bbl.pm:617> INFO - Writing 'GR 6307 - Syllabus.bbl' with encoding 'UTF-8'
-[896] bbl.pm:720> INFO - Output to GR 6307 - Syllabus.bbl
-[897] Biber.pm:110> INFO - WARNINGS: 1
+[30] biber-darwin:313> INFO - === Fri Feb 15, 2019, 10:50:40
+[52] Biber.pm:371> INFO - Reading 'GR 6307 - Syllabus.bcf'
+[155] Biber.pm:857> INFO - Found 109 citekeys in bib section 0
+[166] Biber.pm:3976> INFO - Processing section 0
+[176] Biber.pm:4136> INFO - Looking for bibtex format file 'readinglist.bib' for section 0
+[179] bibtex.pm:1500> INFO - LaTeX decoding ...
+[314] bibtex.pm:1316> INFO - Found BibTeX data source 'readinglist.bib'
+[474] Utils.pm:193> WARN - year field 'forthcoming' in entry 'Banerjeeetal2018' is not an integer - this will probably not sort properly.
+[853] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[853] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[853] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[853] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[934] bbl.pm:617> INFO - Writing 'GR 6307 - Syllabus.bbl' with encoding 'UTF-8'
+[964] bbl.pm:720> INFO - Output to GR 6307 - Syllabus.bbl
+[964] Biber.pm:110> INFO - WARNINGS: 1
