@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -116,6 +116,8 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -155,6 +157,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -163,7 +166,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -225,7 +231,7 @@ Michael Best
 \end_layout
 
 \begin_layout Date
-Spring 2018
+Spring 2019
 \begin_inset Newline newline
 \end_inset
 
@@ -1350,16 +1356,16 @@ Intensive elasticity
 \end_inset
 
 : Use traditional estimates of 
-\begin_inset Formula $\epsilon=d\log y/d\log\left(1-\tau\right)$
+\begin_inset Formula $\varepsilon=d\log y/d\log\left(1-\tau\right)$
 \end_inset
 
 .
  
-\begin_inset Formula $\epsilon_{L}\in\left\{ 0,0.25,0.5\right\} $
+\begin_inset Formula $\varepsilon_{L}\in\left\{ 0,0.25,0.5\right\} $
 \end_inset
 
  below $20K, 
-\begin_inset Formula $\epsilon_{H}\in\left\{ 0.25,0.5\right\} $
+\begin_inset Formula $\varepsilon_{H}\in\left\{ 0.25,0.5\right\} $
 \end_inset
 
  above $20K
@@ -6974,7 +6980,33 @@ Deshpande & Li (2017): Welfare
 \end_layout
 
 \end_deeper
-\begin_layout Frame
+\begin_layout Subsection
+Finkelstein & Notowidigdo (2019) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Take-up and Targeting: Experimental Evidence from SNAP
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
