@@ -5443,7 +5443,7 @@ How to measure
 \end_inset
 
 .
- Denote the fraction of indivduals reporting 
+ Denote the fraction of individuals reporting 
 \begin_inset Formula $\hat{z}_{i}=K$
 \end_inset
 
@@ -7026,24 +7026,44 @@ Finkelstein & Notowidigdo (2019): Overview
 \begin_deeper
 \begin_layout Itemize
 Incomplete take-up of safety net programs is pervasive.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 2 typical explanations:
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
 Lack of information about eligibility
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
 Transaction costs of enrollment (including stigma)
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 How does incomplete takeup affect social welfare?
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7057,6 +7077,10 @@ Ordeals
 
  may serve as userful screens (Nichols & Zeckhauser 1982, Besley & Coate
  1992)
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7067,6 +7091,10 @@ Behavioral work suggesting ordeals have higher psychic costs for the poor
 
  Worsening targeting effectiveness.
  
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -7097,21 +7125,37 @@ Finkelstein & Notowidigdo (2019): Overview
 
 \begin_deeper
 \begin_layout Itemize
-This paper
+This paper:
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 framework for welfare effects of ordeal changes: How many people enrol?
  Which types of people?
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 Apply framework to RCT of interventions aimed at elderly non-participants
  in SNAP 
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 30K subjects
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7120,10 +7164,18 @@ Apply framework to RCT of interventions aimed at elderly non-participants
 
 \begin_layout Enumerate
 Information about eligibility
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
 Information plus assistance with application
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
@@ -7167,6 +7219,10 @@ Finkelstein & Notowidigdo (2019): Framework
 
 .
  Unit mass of each type.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7187,6 +7243,10 @@ Individuals choose hours
 \end_inset
 
 .
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7200,6 +7260,10 @@ The program grants benefits
 
 .
  
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7216,6 +7280,10 @@ perceived
 \end_inset
 
 .
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7224,6 +7292,10 @@ perceived
 \end_inset
 
 : underestimate benefits of applying
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7262,6 +7334,10 @@ Finkelstein & Notowidigdo (2019): Framework
 \begin_deeper
 \begin_layout Itemize
 Individuals have common utility 
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7270,6 +7346,10 @@ Individuals have common utility
 \end_inset
 
  if they do not apply
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7277,11 +7357,19 @@ Individuals have common utility
 \end_inset
 
  if they apply
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 Disutility from applying:
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7295,6 +7383,10 @@ Disutility from applying:
 \end_inset
 
 
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7302,6 +7394,10 @@ Disutility from applying:
 \end_inset
 
 : parameter affecting utility cost
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7350,6 +7446,10 @@ Finkelstein & Notowidigdo (2019): Framework
 \begin_deeper
 \begin_layout Itemize
 Individuals make application and labor supply choices.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7366,11 +7466,19 @@ s work
 \end_inset
 
  if they don't.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 Low types: assume 
 \begin_inset Formula $y_{j}^{A},y_{j}^{-A}<r^{*}$
+\end_inset
+
+
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -7386,6 +7494,10 @@ High types: assume
 \end_inset
 
 
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7394,6 +7506,10 @@ NB
 \end_inset
 
  for both types
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7402,10 +7518,7 @@ Individuals with
 \end_inset
 
  will apply.
-\end_layout
-
-\begin_layout Itemize
-Private welfare is therefore
+ Private welfare is therefore
 \begin_inset Formula 
 \begin{align*}
 V_{j} & =\mathbb{P}\left(\text{apply}\right)\mathbb{E}\left[U\left(\right)\vert\text{apply}\right]+\mathbb{P}\left(\not\text{apply}\right)\mathbb{E}\left[U\left(\right)\vert\not\text{apply}\right]\\
@@ -7678,9 +7791,10 @@ Holding constant the change in applications due to an intervention, the
  from an Information Only (or Information Plus Assistance) treatment is
  given by the following expression:
 \begin_inset Formula 
-\[
-\left.\frac{\partial}{\partial\left(de/dT\right)}\left(\frac{dW}{dT}\right)\right|_{\frac{dA}{dT}}=\left[\left(\mu_{L}-\mu_{H}\right)+\left(G_{L}^{A}-G_{L}^{-A}\right)-\left(G_{H}^{A}-G_{H}^{-A}\right)\right]\left(E_{H}+E_{L}\right)
-\]
+\begin{align*}
+\left.\frac{\partial}{\partial\left(de/dT\right)}\left(\frac{dW}{dT}\right)\right|_{\frac{dA}{dT}} & =\left[\left(\mu_{L}-\mu_{H}\right)+\left(G_{L}^{A}-G_{L}^{-A}\right)-\left(G_{H}^{A}-G_{H}^{-A}\right)\right]\\
+ & \quad\times\left(E_{H}+E_{L}\right)
+\end{align*}
 
 \end_inset
 
@@ -7729,6 +7843,10 @@ Finkelstein & Notowidigdo (2019): Empirical Setting
 \begin_deeper
 \begin_layout Itemize
 Work with households aged 60 or over in Pennsylvania in 2016
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7736,11 +7854,19 @@ To enroll in SNAP, individuals must complete an application, provide documents
  verifying circumstances, and do an interview (in person or by phone).
  Provide info on income, various household expenses (medical expenses, rent,
  utilities etc).
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 Once enrolled, eligible for 36 months of benefits.
  Benefits are a decreasing function of net income.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7833,7 +7959,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename FinkelsteinNoto01.png
 	lyxscale 50
-	scale 50
+	scale 25
 
 \end_inset
 
@@ -7867,7 +7993,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename FinkelsteinNoto02.png
 	lyxscale 50
-	scale 50
+	scale 25
 
 \end_inset
 
@@ -7901,7 +8027,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename FinkelsteinNoto03.png
 	lyxscale 50
-	scale 50
+	scale 25
 
 \end_inset
 
@@ -7935,7 +8061,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename FinkelsteinNoto04.png
 	lyxscale 50
-	scale 50
+	scale 25
 
 \end_inset
 
@@ -7969,7 +8095,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename FinkelsteinNoto05.png
 	lyxscale 50
-	scale 50
+	scale 25
 
 \end_inset
 
@@ -8003,7 +8129,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename FinkelsteinNoto06.png
 	lyxscale 50
-	scale 50
+	scale 25
 
 \end_inset
 
@@ -8037,7 +8163,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename FinkelsteinNoto07.png
 	lyxscale 50
-	scale 50
+	scale 25
 
 \end_inset
 
@@ -8071,7 +8197,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename FinkelsteinNoto08.png
 	lyxscale 50
-	scale 50
+	scale 25
 
 \end_inset
 
@@ -8105,7 +8231,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename FinkelsteinNoto09.png
 	lyxscale 50
-	scale 50
+	scale 25
 
 \end_inset
 
@@ -8139,11 +8265,11 @@ How can we take these results back to the normative framework?
 \end_layout
 
 \begin_layout Enumerate
-Add an exogenous probability 
+Add exogenous probability 
 \begin_inset Formula $\pi_{j}$
 \end_inset
 
- that the application is accepted
+ that application is accepted
 \end_layout
 
 \begin_layout Enumerate
@@ -8206,8 +8332,8 @@ Expressions for welfare effects are as before but mechanical effect becomes
 \end_layout
 
 \begin_layout Itemize
-Baseline assumption: Fiscal externality is just public cost of processing
- applications: 
+Baseline: Fiscal externality is public cost of processing applications:
+ 
 \begin_inset Formula $G_{L}^{A}=G_{H}^{A}=-g=-\$267$
 \end_inset
 
@@ -8292,9 +8418,10 @@ Write welfare effect as ratio of marginal benefits (private welfare increase)
  to marginal social costs (mech and fiscal externality) and use these approximat
 ions to get
 \begin_inset Formula 
-\[
-MVPF^{Information}
-\]
+\begin{align*}
+MVPF^{\text{Information}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.89\\
+MVPF^{\text{Info + Assist}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}-\left(A_{H}-A_{L}+\frac{dA_{H}}{dT}+\frac{dA_{L}}{dT}\right)\frac{dc}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.93
+\end{align*}
 
 \end_inset
 
