@@ -7075,6 +7075,1234 @@ Ultimately empirical question
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This paper
+\end_layout
+
+\begin_layout Itemize
+framework for welfare effects of ordeal changes: How many people enrol?
+ Which types of people?
+\end_layout
+
+\begin_layout Itemize
+Apply framework to RCT of interventions aimed at elderly non-participants
+ in SNAP 
+\end_layout
+
+\begin_layout Itemize
+30K subjects
+\end_layout
+
+\begin_layout Itemize
+3 treatment arms
+\end_layout
+
+\begin_layout Enumerate
+Information about eligibility
+\end_layout
+
+\begin_layout Enumerate
+Information plus assistance with application
+\end_layout
+
+\begin_layout Enumerate
+control
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2 types of individuals: 
+\begin_inset Formula $j\in\left\{ L,H\right\} $
+\end_inset
+
+ with unobserved wages 
+\begin_inset Formula $\theta_{j}$
+\end_inset
+
+, 
+\begin_inset Formula $\theta_{H}>\theta_{L}$
+\end_inset
+
+.
+ Unit mass of each type.
+\end_layout
+
+\begin_layout Itemize
+Individuals choose hours 
+\begin_inset Formula $h_{j}$
+\end_inset
+
+ and earn pre-tax income 
+\begin_inset Formula $\theta_{j}h_{j}$
+\end_inset
+
+, incurring taxes 
+\begin_inset Formula $\tau\left(\theta_{j}h_{j}\right)$
+\end_inset
+
+, leading to net of tax earning 
+\begin_inset Formula $y_{j}\equiv\theta_{j}h_{j}-\tau\left(\theta_{j}h_{j}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+The program grants benefits 
+\begin_inset Formula $B$
+\end_inset
+
+ if income is below 
+\begin_inset Formula $r^{*}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Individuals misperceive the benefit by 
+\begin_inset Formula $\epsilon_{j}$
+\end_inset
+
+ so their 
+\emph on
+perceived
+\emph default
+ benefit of applying is 
+\begin_inset Formula $\left(1+\epsilon_{j}\right)B$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\epsilon_{j}<0$
+\end_inset
+
+: underestimate benefits of applying
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\epsilon_{j}=0$
+\end_inset
+
+ for 
+\begin_inset Formula $j\in\left\{ L,H\right\} $
+\end_inset
+
+ is the neoclassical benchmark.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Individuals have common utility 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $u\left(x_{j}\right)-v\left(h_{j}\right)$
+\end_inset
+
+ if they do not apply
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u\left(x_{j}\right)-v\left(h_{j}\right)-\left(\bar{\Lambda}\kappa_{j}+c\right)$
+\end_inset
+
+ if they apply
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Disutility from applying:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $c$
+\end_inset
+
+: individual-specific utility cost of applying.
+ has distribution 
+\begin_inset Formula $f_{j}\left(c\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\bar{\Lambda}$
+\end_inset
+
+: parameter affecting utility cost
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\kappa_{j}$
+\end_inset
+
+: how this utility cost varies across types.
+ e.g.
+ ordeals can impose greater utility cost on 
+\begin_inset Formula $H$
+\end_inset
+
+ types 
+\begin_inset Formula $\left(\kappa_{H}>\kappa_{L}\right)$
+\end_inset
+
+ or low types 
+\begin_inset Formula $\left(\kappa_{H}<\kappa_{L}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Individuals make application and labor supply choices.
+\end_layout
+
+\begin_layout Itemize
+Type 
+\begin_inset Formula $j$
+\end_inset
+
+s work 
+\begin_inset Formula $h_{j}^{A}$
+\end_inset
+
+ hours if they apply, 
+\begin_inset Formula $h_{j}^{-A}$
+\end_inset
+
+ if they don't.
+\end_layout
+
+\begin_layout Itemize
+Low types: assume 
+\begin_inset Formula $y_{j}^{A},y_{j}^{-A}<r^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+High types: assume 
+\begin_inset Formula $y_{j}^{-A}>r^{*}$
+\end_inset
+
+ and to get the benefit, if apply 
+\begin_inset Formula $h_{H}^{A}=r^{*}/\theta_{H}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+NB 
+\begin_inset Formula $h_{j}^{A}\leq h_{j}^{-A}$
+\end_inset
+
+ for both types
+\end_layout
+
+\begin_layout Itemize
+Individuals with 
+\begin_inset Formula $c<c_{j}^{*}$
+\end_inset
+
+ will apply.
+\end_layout
+
+\begin_layout Itemize
+Private welfare is therefore
+\begin_inset Formula 
+\begin{align*}
+V_{j} & =\mathbb{P}\left(\text{apply}\right)\mathbb{E}\left[U\left(\right)\vert\text{apply}\right]+\mathbb{P}\left(\not\text{apply}\right)\mathbb{E}\left[U\left(\right)\vert\not\text{apply}\right]\\
+ & =\int_{0}^{c_{j}^{*}}\left(u\left(y_{j}^{A}+B\right)-v\left(h_{j}^{A}\right)-\bar{\Lambda}\kappa_{j}-c\right)dF_{j}\text{\left(c\right)}\\
+ & \quad+\int_{c_{j}^{*}}^{\infty}\left(u\left(y_{j}^{-A}\right)-v\left(h_{j}^{-A}\right)\right)dF_{j}\left(c\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Individuals' decisions create a fiscal externality: Their hours decisions
+ change tax revenue and this has a social cost that they don't internalize.
+ For people who apply, the fiscal externality is 
+\begin_inset Formula $G_{j}^{A}=\tau\left(h_{j}^{A}\theta_{j}\right)$
+\end_inset
+
+ while for those who don't it's 
+\begin_inset Formula $G_{j}^{-A}=\tau\left(h_{j}^{-A}\theta_{j}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We can write total social welfare as
+\begin_inset Formula 
+\begin{align*}
+W & =\underbrace{V_{L}+V_{H}}_{\text{Private Welfare}}-\underbrace{B\text{\left(A_{L}+A_{H}\right)}}_{\text{Program Cost}}\\
+ & \quad+\underbrace{A_{L}G_{L}^{A}+\left(1-A_{L}\right)G_{L}^{-A}+A_{H}G_{H}^{A}+\left(1-A_{H}\right)G_{H}^{-A}}_{\text{Fiscal Externality}}
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $A_{j}=F_{j}\left(c^{*}\right)$
+\end_inset
+
+, the expected number of applicants of type 
+\begin_inset Formula $j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Planner chooses tax system 
+\begin_inset Formula $\tau\left(\right)$
+\end_inset
+
+ and transfer program (including ordeal 
+\begin_inset Formula $\bar{\Lambda}$
+\end_inset
+
+) to maximize 
+\begin_inset Formula $W$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Characterize the marginal effects on welfare of the two treatments.
+\end_layout
+
+\begin_layout Itemize
+Information treatment: Increase perceived benefits by 
+\begin_inset Formula $d\epsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Information plus assistance: increase benefits 
+\begin_inset Formula $d\epsilon$
+\end_inset
+
+ and reduce cost of applying, 
+\begin_inset Formula $-d\bar{\Lambda}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Define:
+\begin_inset Formula 
+\[
+\mu_{j}\equiv u\left(y_{j}^{A}+B\right)-u\left(y_{j}^{A}+\left(1+\epsilon_{j}\right)B\right)\quad\text{and }\quad\xi_{j}\equiv u^{\prime}\left(y_{j}^{A}+B\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can write the effect of the information treatment on welfare as
+\begin_inset Formula 
+\begin{align*}
+\frac{dW}{dT}^{\text{Information only}} & =\underbrace{\mu_{L}\frac{dA_{L}}{dT}+\mu_{H}\frac{dA_{H}}{dT}}_{\text{Change in Private Welfare}}\\
+ & \quad-\underbrace{B\left(\frac{dA_{L}}{dT}+\frac{dA_{H}}{dT}\right)}_{\text{Change in Mechanical Program Costs}}\\
+ & \quad+\underbrace{\left(G_{L}^{A}-G_{L}^{-A}\right)\frac{dA_{L}}{dT}+\left(G_{H}^{A}-G_{H}^{-A}\right)\frac{dA_{H}}{dT}}_{\text{Fiscal Externality}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can write the effect of the information plus assistance treatment as
+\begin_inset Formula 
+\begin{align*}
+\frac{dW}{dT}^{\text{Information + Assistance}} & =\underbrace{\mu_{L}\frac{dA_{L}}{dT}+\mu_{H}\frac{dA_{H}}{dT}+\kappa_{L}A_{L}+\kappa_{H}A_{H}}_{\text{Change in Private Welfare}}\\
+ & \quad-\underbrace{B\left(\frac{dA_{L}}{dT}+\frac{dA_{H}}{dT}\right)}_{\text{Change in Mechanical Program Costs}}\\
+ & \quad+\underbrace{\left(G_{L}^{A}-G_{L}^{-A}\right)\frac{dA_{L}}{dT}+\left(G_{H}^{A}-G_{H}^{-A}\right)\frac{dA_{H}}{dT}}_{\text{Fiscal Externality}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Define targeting as 
+\begin_inset Formula $e=E_{L}/\left(E_{L}+E_{H}\right)$
+\end_inset
+
+, the share of enrollees who are 
+\begin_inset Formula $L$
+\end_inset
+
+ types.
+\end_layout
+
+\begin_layout Itemize
+Then a treatment 
+\begin_inset Formula $T$
+\end_inset
+
+ increases targeting if 
+\begin_inset Formula $de/dT>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Holding constant the change in applications due to an intervention, the
+ change in social welfare in response to an improvement in targeting 
+\begin_inset Formula $\left(de/dT>0\right)$
+\end_inset
+
+ from an Information Only (or Information Plus Assistance) treatment is
+ given by the following expression:
+\begin_inset Formula 
+\[
+\left.\frac{\partial}{\partial\left(de/dT\right)}\left(\frac{dW}{dT}\right)\right|_{\frac{dA}{dT}}=\left[\left(\mu_{L}-\mu_{H}\right)+\left(G_{L}^{A}-G_{L}^{-A}\right)-\left(G_{H}^{A}-G_{H}^{-A}\right)\right]\left(E_{H}+E_{L}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note this is increasing in 
+\begin_inset Formula $\mu_{L}-\mu_{H}$
+\end_inset
+
+.
+ Sufficient condition for better targeting to increase private welfare is
+ 
+\begin_inset Formula $\epsilon_{L}\leq\epsilon_{H}\leq0$
+\end_inset
+
+ with at least 1 strict inequality, or 
+\begin_inset Formula $\epsilon_{H}=\epsilon_{L}<0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Empirical Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work with households aged 60 or over in Pennsylvania in 2016
+\end_layout
+
+\begin_layout Itemize
+To enroll in SNAP, individuals must complete an application, provide documents
+ verifying circumstances, and do an interview (in person or by phone).
+ Provide info on income, various household expenses (medical expenses, rent,
+ utilities etc).
+\end_layout
+
+\begin_layout Itemize
+Once enrolled, eligible for 36 months of benefits.
+ Benefits are a decreasing function of net income.
+\end_layout
+
+\begin_layout Itemize
+SNAP benefits average 15% of annual income for eligible households.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Interventions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Partnered with Benefits Data Trust (BDT), a national non-profit working
+ to help people access benefits.
+\end_layout
+
+\begin_layout Itemize
+State of Pennsylvania provided BDT admin data on individuals aged >60 and
+ on Medicaid but not SNAP.
+ Likely to be eligible for SNAP.
+\end_layout
+
+\begin_layout Itemize
+Randomized the 30K individuals into equally-sized groups.
+\end_layout
+
+\begin_layout Itemize
+Information Treatment got outreach materials informing them of likely SNAP
+ eligibility and benefits they might receive, and info on how to call DHS
+ to apply.
+\end_layout
+
+\begin_layout Itemize
+Assistance component: Info Treatment contained BDT number.
+ If individuals call BDT, they help with the application.
+ Advise on documents, can populate and submit application on their behalf
+ etc.
+\end_layout
+
+\begin_layout Itemize
+BDT submitted 
+\begin_inset Formula $\sim70\%$
+\end_inset
+
+ of applications in this treatment arm, spent on average 47 mins on phone
+ with applicants, 30 with those who don't end up applying.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename FinkelsteinNoto01.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename FinkelsteinNoto02.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename FinkelsteinNoto03.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename FinkelsteinNoto04.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename FinkelsteinNoto05.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename FinkelsteinNoto06.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename FinkelsteinNoto07.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename FinkelsteinNoto08.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename FinkelsteinNoto09.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Interpreting Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How can we take these results back to the normative framework?
+\end_layout
+
+\begin_layout Enumerate
+Add an exogenous probability 
+\begin_inset Formula $\pi_{j}$
+\end_inset
+
+ that the application is accepted
+\end_layout
+
+\begin_layout Enumerate
+Allow for different benefit levels 
+\begin_inset Formula $\overline{B}$
+\end_inset
+
+ for low types and 
+\begin_inset Formula $B_{min}$
+\end_inset
+
+ for high types with 
+\begin_inset Formula $\overline{B}>B_{min}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Expressions for welfare effects are as before but mechanical effect becomes
+\begin_inset Formula 
+\[
+\pi_{H}B_{min}\frac{dA_{H}}{dT}+\pi_{L}\overline{B}\frac{dA_{L}}{dT}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $B_{min}=\$16/\text{month}$
+\end_inset
+
+, 
+\begin_inset Formula $\overline{B}=\$178/\text{month}$
+\end_inset
+
+ and 
+\begin_inset Formula $\pi_{L}=\pi_{H}=0.75$
+\end_inset
+
+ yields 
+\begin_inset Formula $\pi_{L}B_{L}=\$4,086$
+\end_inset
+
+ for 
+\begin_inset Formula $L$
+\end_inset
+
+ types and 
+\begin_inset Formula $\$432$
+\end_inset
+
+ for 
+\begin_inset Formula $H$
+\end_inset
+
+ types.
+\end_layout
+
+\begin_layout Itemize
+Baseline assumption: Fiscal externality is just public cost of processing
+ applications: 
+\begin_inset Formula $G_{L}^{A}=G_{H}^{A}=-g=-\$267$
+\end_inset
+
+ and 
+\begin_inset Formula $G_{L}^{-A}=G_{H}^{-A}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+First-order approximation to expected utility and time cost of applying
+ of $75 yields 
+\begin_inset Formula $\epsilon_{L}=-0.98$
+\end_inset
+
+ and 
+\begin_inset Formula $\epsilon_{H}=-0.83$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019): Interpreting Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To make statements about social welfare impact of interventions need 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $G_{j}^{A}-G_{j}^{-A}$
+\end_inset
+
+.
+ Use 
+\begin_inset Formula $-g$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\mu_{J}$
+\end_inset
+
+.
+ First-order approximation to utility yields approximations 
+\begin_inset Formula $\mu_{H}\approx\xi_{H}\pi_{H}\epsilon_{H}B_{min}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu_{L}\approx\xi_{L}\pi_{L}\epsilon_{L}\overline{B}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Write welfare effect as ratio of marginal benefits (private welfare increase)
+ to marginal social costs (mech and fiscal externality) and use these approximat
+ions to get
+\begin_inset Formula 
+\begin{align*}
+MVPF^{\text{Information Only}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.89\\
+MVPF^{\text{Information + Assistance}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}-\left(A_{H}-A_{L}+\frac{dA_{H}}{dT}+\frac{dA_{L}}{dT}\right)\frac{dc}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.93
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Section
 \begin_inset Argument 2
 status open
