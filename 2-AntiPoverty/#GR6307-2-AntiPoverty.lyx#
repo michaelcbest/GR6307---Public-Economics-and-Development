@@ -6395,7 +6395,7 @@ All field offices with addresses & closing dates
 \end_layout
 
 \begin_layout Itemize
-wlk-in wait times
+walk-in wait times
 \begin_inset VSpace medskip
 \end_inset
 
@@ -11848,6 +11848,508 @@ Cohen et al (2015): Alternative Subsidy Schemes
 
 \end_inset
 
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Banerjee Hanna Olken & Sumarto (WP 2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The (lack of) Distortionary Effects of Proxy-Means Tests: Results from a
+ Nationwide Experiment in Indonesia
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proxy-means tests are a very common way to target transfers.
+\end_layout
+
+\begin_layout Itemize
+We might expect that these tests induce behavioral responses, distorting
+ consumption baskets.
+\end_layout
+
+\begin_layout Itemize
+This paper:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+add questions to Indonesia's poverty census.
+\end_layout
+
+\begin_layout Itemize
+Survey households 6 months later to ask about consumption 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ reported response
+\end_layout
+
+\begin_layout Itemize
+Look at administrative data on sales to assess 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ actual response
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Indonesia conducts nationwide censuses of the poor approximately every 3
+ years.
+\end_layout
+
+\begin_layout Itemize
+Proxy-means testing determines households' eligibility for transfer programs
+ from cash transfers to health insurance.
+\end_layout
+
+\begin_layout Itemize
+Most recent census: June-August 2015, covered 25 mn households, 92 mn individual
+s.
+\end_layout
+
+\begin_layout Itemize
+Experiment: Add 2 questions to the survey:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+either a question on flat-screen TV ownership or # rooms in the house
+\end_layout
+
+\begin_layout Enumerate
+either a question on # active SIM cards or whether had 
+\begin_inset Quotes eld
+\end_inset
+
+swan neck
+\begin_inset Quotes erd
+\end_inset
+
+ toilet installed
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Households probably believe that these additional questions will be used
+ to determine benefit eligibility
+\end_layout
+
+\begin_layout Itemize
+However the questions were 
+\emph on
+not
+\emph default
+ actually used in the PMT formula.
+\end_layout
+
+\begin_layout Itemize
+Randomized across the 34 provinces (stratifying by 5 regions).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Randomization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BanerjeeEtAl2018_01.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use 3 main datasets
+\end_layout
+
+\begin_layout Enumerate
+household survey data (SUSENAS) for March 2016 and March 2017 (300k households
+ each).
+ Worked with Statistics agency to add relevant questions.
+\end_layout
+
+\begin_layout Enumerate
+Monthly TV sales of flat-screen TVs from January 2013–December 2016.
+ Data aggregated to randomization arm
+\begin_inset Formula $\times$
+\end_inset
+
+month.
+\end_layout
+
+\begin_layout Enumerate
+Yearly active SIM cards by province for 2015–2017 from Ministry of Information
+ and Communications.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Effect on Self-Reported Assets
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estimate
+\begin_inset Formula 
+\[
+Asset_{hdp}=\beta_{0}+\beta_{1}TVTreat_{p}+\beta_{2}CellTreat_{p}+\mathbf{X}_{dp}^{\prime}\boldsymbol{\gamma}+\alpha_{r}+\varepsilon_{hdp}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Asset_{hdp}$
+\end_inset
+
+ is self-reported asset for HH 
+\begin_inset Formula $H$
+\end_inset
+
+ in district 
+\begin_inset Formula $d$
+\end_inset
+
+ in province 
+\begin_inset Formula $p$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Randomization ensures balance in expectation.
+ To improve precision
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Include strata fixed effects 
+\begin_inset Formula $\alpha_{r}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Code 1,388 asset variables from 2007-2015 SUSENAS surveys and average by
+ district 
+\begin_inset Formula $\times$
+\end_inset
+
+ urbanization.
+ Use double-LASSO to select controls (Belloni, Chernozhukov & Hansen, 2014)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Effect on Self-Reported Assets
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BanerjeeEtAl2018_03.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Effect on Self-Reported Assets
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BanerjeeEtAl2018_04.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Effect on Self-Reported Assets
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why only lie for TV? Redo the PMT adding in these 4 attributes.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BanerjeeEtAl2018_02.png
+	height 85theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Effect on Asset Acquisition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To estimate impact on TV sales estimate
+\begin_inset Formula 
+\begin{align*}
+LogSales_{mg} & =\beta_{0}+\beta_{1}TVTreat\times Post_{mg}+\beta_{2}CellTreat\times Post_{mg}\\
+ & \qquad+\beta_{3}Post_{mg}+\alpha_{g}\times m+\varepsilon_{gm}
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $LogSales_{mg}$
+\end_inset
+
+ is sales in month 
+\begin_inset Formula $m$
+\end_inset
+
+ in randomization group 
+\begin_inset Formula $g$
+\end_inset
+
+ (TV-cell, TV-toilet, room-cell, room-toilet)
+\end_layout
+
+\begin_layout Itemize
+Need to think about the time-series structure of the data
+\end_layout
+
+\begin_layout Enumerate
+Use Newey-West (1987) standard errors with 3 lags
+\end_layout
+
+\begin_layout Enumerate
+panel-corrected model with AR(1) errors.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al (2018): Effect on Asset Acquisition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
 
 \end_layout
 
