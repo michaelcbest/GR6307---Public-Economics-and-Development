@@ -8417,10 +8417,13 @@ To make statements about social welfare impact of interventions need
 Write welfare effect as ratio of marginal benefits (private welfare increase)
  to marginal social costs (mech and fiscal externality) and use these approximat
 ions to get
+\size footnotesize
+
 \begin_inset Formula 
 \begin{align*}
-MVPF^{\text{Information}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.89\\
-MVPF^{\text{Info + Assist}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}-\left(A_{H}-A_{L}+\frac{dA_{H}}{dT}+\frac{dA_{L}}{dT}\right)\frac{dc}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.93
+MVPF^{\text{Infomation}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.89\\
+MVPF^{\text{Info + Assist}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}-\left(A_{H}-A_{L}+\frac{dA_{H}}{dT}+\frac{dA_{L}}{dT}\right)\frac{dc}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\\
+ & \approx0.93
 \end{align*}
 
 \end_inset
@@ -11977,7 +11980,7 @@ Banerjee et al (2018): Setting
 \begin_layout Itemize
 Indonesia conducts nationwide censuses of the poor approximately every 3
  years.
-\begin_inset VSpace smallskip
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -11986,7 +11989,7 @@ Indonesia conducts nationwide censuses of the poor approximately every 3
 \begin_layout Itemize
 Proxy-means testing determines households' eligibility for transfer programs
  from cash transfers to health insurance.
-\begin_inset VSpace smallskip
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -11995,7 +11998,7 @@ Proxy-means testing determines households' eligibility for transfer programs
 \begin_layout Itemize
 Most recent census: June-August 2015, covered 25 mn households, 92 mn individual
 s.
-\begin_inset VSpace smallskip
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -12008,7 +12011,7 @@ Experiment: Add 2 questions to the survey:
 \begin_deeper
 \begin_layout Enumerate
 either: Q on flat-screen TV ownership or # rooms in the house
-\begin_inset VSpace smallskip
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -12024,7 +12027,7 @@ swan neck
 \end_inset
 
  toilet
-\begin_inset VSpace smallskip
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -12034,7 +12037,7 @@ swan neck
 \begin_layout Itemize
 Households probably believe that these additional questions will be used
  to determine benefit eligibility
-\begin_inset VSpace smallskip
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -12046,7 +12049,7 @@ The questions were
 not
 \emph default
  actually used in the PMT formula.
-\begin_inset VSpace smallskip
+\begin_inset VSpace medskip
 \end_inset
 
 
