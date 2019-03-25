@@ -698,6 +698,45 @@
       \field{pages}{1709\bibrangedash 1753}
       \range{pages}{45}
     \endentry
+    \entry{Bandieraetal2019}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=ac296e2eb0ff059f58e23d12ae3eddbc}{%
+           family={Bandiera},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=332f00d73ee0fe602ccf4809369780c9}{%
+           family={Best},
+           familyi={B\bibinitperiod},
+           given={M.C.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff60cab055b5d61f68a035a6bfb7df77}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={A.Q.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=09d94d92b32ca2ebca2f38a8e7e7f7ab}{%
+           family={Prat},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{abd399682d79ee3d89b238bfb6935c4b}
+      \strng{fullhash}{abd399682d79ee3d89b238bfb6935c4b}
+      \strng{bibnamehash}{abd399682d79ee3d89b238bfb6935c4b}
+      \strng{authorbibnamehash}{abd399682d79ee3d89b238bfb6935c4b}
+      \strng{authornamehash}{abd399682d79ee3d89b238bfb6935c4b}
+      \strng{authorfullhash}{abd399682d79ee3d89b238bfb6935c4b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: Columbia University}
+      \field{title}{Incentives and the Allocation of Authority in Organizations: A Field Experiment with Bureaucrats}
+      \field{year}{2019}
+    \endentry
     \entry{BanerjeeHannaOlkenSumarto2018}{unpublished}{}
       \name{author}{4}{}{%
         {{hash=cfef9e36b401377d44d593aac63fe536}{%
@@ -1029,6 +1068,49 @@
       \field{pages}{1\bibrangedash 14}
       \range{pages}{14}
     \endentry
+    \entry{BertrandEtAl2007}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a25cba6b139b5ccffa7a9dcf8252a692}{%
+           family={Bertrand},
+           familyi={B\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a444a1e676b5da6ac976ccca4b65224d}{%
+           family={Djankov},
+           familyi={D\bibinitperiod},
+           given={Simeon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=58b741f377dc04079500b92dd0f3fbe7}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={Rema},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0ad4a50fedec7f3fb2ce43f3f64e62d6}{%
+           family={Mullainathan},
+           familyi={M\bibinitperiod},
+           given={Sendhil},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f33fdf886227fa7b304407e7f84f293}
+      \strng{fullhash}{5f33fdf886227fa7b304407e7f84f293}
+      \strng{bibnamehash}{5f33fdf886227fa7b304407e7f84f293}
+      \strng{authorbibnamehash}{5f33fdf886227fa7b304407e7f84f293}
+      \strng{authornamehash}{5f33fdf886227fa7b304407e7f84f293}
+      \strng{authorfullhash}{5f33fdf886227fa7b304407e7f84f293}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{title}{Obtaining a Driving License in India: An Experimental Approach to Studying Corruption}
+      \field{volume}{122}
+      \field{year}{2007}
+      \field{pages}{1639\bibrangedash 1676}
+      \range{pages}{38}
+    \endentry
     \entry{BesleyCoate1992}{article}{}
       \name{author}{2}{}{%
         {{hash=00e6b934f7cdcb375b6fc4e9fe93090a}{%
@@ -1254,6 +1336,40 @@
       \field{year}{2015}
       \field{pages}{1311\bibrangedash 1355}
       \range{pages}{45}
+    \endentry
+    \entry{Bestetal2018}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=332f00d73ee0fe602ccf4809369780c9}{%
+           family={Best},
+           familyi={B\bibinitperiod},
+           given={M.C.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9cb85f4f783f27ed2e1a834b5c611c91}{%
+           family={Hjort},
+           familyi={H\bibinitperiod},
+           given={J.K.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f6c6ba54cab7e73f002f0c4f48f3f0b2}{%
+           family={Szakonyi},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
+      \strng{fullhash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
+      \strng{bibnamehash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
+      \strng{authorbibnamehash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
+      \strng{authornamehash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
+      \strng{authorfullhash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: Columbia University}
+      \field{title}{Individuals and Organizations as Sources of State Effectiveness}
+      \field{year}{2018}
     \endentry
     \entry{Blumenstock2016}{article}{}
       \name{author}{1}{}{%
@@ -2145,7 +2261,7 @@
       \field{title}{Who is Screened Out? Application Costs and the Targeting of Disability Programs}
       \field{year}{2017}
     \endentry
-    \entry{Dufloetal2016}{unpublished}{}
+    \entry{Dufloetal2016}{article}{}
       \name{author}{4}{}{%
         {{hash=0c8b2b66358749b12e5d276e9b8b8bd7}{%
            family={Duflo},
@@ -2180,9 +2296,13 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{mimeo: MIT}
+      \field{issue}{6}
+      \field{journaltitle}{Econometrica}
       \field{title}{The Value of Discretion in the Enforcement of Regulation: Experimental Evidence and Structural Estimates from Environmental Inspections in India}
-      \field{year}{2016}
+      \field{volume}{86}
+      \field{year}{2018}
+      \field{pages}{2123\bibrangedash 2160}
+      \range{pages}{38}
     \endentry
     \entry{Dufloetal2013}{article}{}
       \name{author}{4}{}{%
@@ -3827,6 +3947,39 @@
       \field{year}{2016}
       \field{pages}{3029\bibrangedash 3063}
       \range{pages}{35}
+    \endentry
+    \entry{ShleiferVishny1993}{article}{}
+      \name{author}{2}{}{%
+        {{hash=73d7bf2d3105674f373111fc7356eec3}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod}}}%
+        {{hash=22d72ed559fd54022a13cbcf78876152}{%
+           family={Vishny},
+           familyi={V\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9cda9a3e38c5c3e426caa1cf5d446de5}
+      \strng{fullhash}{9cda9a3e38c5c3e426caa1cf5d446de5}
+      \strng{bibnamehash}{9cda9a3e38c5c3e426caa1cf5d446de5}
+      \strng{authorbibnamehash}{9cda9a3e38c5c3e426caa1cf5d446de5}
+      \strng{authornamehash}{9cda9a3e38c5c3e426caa1cf5d446de5}
+      \strng{authorfullhash}{9cda9a3e38c5c3e426caa1cf5d446de5}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{title}{Corruption}
+      \field{volume}{108}
+      \field{year}{1993}
+      \field{pages}{599\bibrangedash 617}
+      \range{pages}{19}
     \endentry
     \entry{Slemrod2007}{article}{}
       \name{author}{1}{}{%
