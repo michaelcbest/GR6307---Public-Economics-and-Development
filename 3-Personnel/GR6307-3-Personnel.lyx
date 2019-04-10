@@ -10246,7 +10246,7 @@ environmental regulation
 
 \end_deeper
 \begin_layout Itemize
-Usually, the auditor is chosen by, pair by, and reports to the audited firm.
+Usually, the auditor is chosen by, paid by, and reports to the audited firm.
  
 \end_layout
 
@@ -10391,7 +10391,7 @@ Reports showing noncompliance with regs
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-can be closed or fined (fines happen often)
+ can be closed or fined (fines happen often)
 \end_layout
 
 \end_deeper
@@ -13126,7 +13126,7 @@ g_{3}\left(\lambda,\beta\right) & =\mathbf{1}^{\prime}\left(\mathbb{E}\left[\mat
 \end_layout
 
 \begin_layout Enumerate
-Proabability and cost of runnning abatement equipment
+Probability and cost of runnning abatement equipment
 \begin_inset Formula 
 \begin{align*}
 g_{4}\left(\phi,\mu,\sigma\right) & =\mathbb{P}\left(Run=1\vert\phi,\mu,\sigma\right)-\frac{1}{N}\sum_{j}\mathbf{1}\left\{ c_{j}>0\right\} \\
