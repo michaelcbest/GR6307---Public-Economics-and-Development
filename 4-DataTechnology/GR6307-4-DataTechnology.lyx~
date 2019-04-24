@@ -231,7 +231,7 @@ Michael Best
 \end_layout
 
 \begin_layout Date
-Spring 2018
+Spring 2019
 \begin_inset Newline newline
 \end_inset
 
@@ -381,11 +381,11 @@ Let
 \begin_inset Formula $Y$
 \end_inset
 
- be an outcome (rain) that depends on
+ be an outcome (rain) that depends on 
 \begin_inset Formula $X_{0}$
 \end_inset
 
- (a policy choice) and other
+ (a policy choice) and other 
 \begin_inset Formula $X$
 \end_inset
 
@@ -393,11 +393,11 @@ s.
 \end_layout
 
 \begin_layout Itemize
-The policymaker must pick
+The policymaker must pick 
 \begin_inset Formula $X_{0}$
 \end_inset
 
- (umbrella, rain dance) to maximize known payoff
+ (umbrella, rain dance) to maximize known payoff 
 \begin_inset Formula $\pi\left(X_{0},Y\right)$
 \end_inset
 
@@ -406,7 +406,7 @@ The policymaker must pick
 
 \begin_layout Itemize
 Decision depends on
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{d\pi\left(X_{0},Y\right)}{dX_{0}}=\frac{\partial}{\partial X_{0}}\underbrace{\pi\left(Y\right)}_{\text{prediction}}+\frac{\partial\pi}{\partial Y}\underbrace{\frac{\partial Y}{\partial X_{0}}}_{\text{causation}}
 \]
@@ -417,11 +417,11 @@ Decision depends on
 \end_layout
 
 \begin_layout Enumerate
-Prediction: We know the payoff, but we need to evaluate it at
+Prediction: We know the payoff, but we need to evaluate it at 
 \begin_inset Formula $Y$
 \end_inset
 
-, so we need to predict what
+, so we need to predict what 
 \begin_inset Formula $Y$
 \end_inset
 
@@ -429,11 +429,11 @@ Prediction: We know the payoff, but we need to evaluate it at
 \end_layout
 
 \begin_layout Enumerate
-Causality: How much will
+Causality: How much will 
 \begin_inset Formula $Y$
 \end_inset
 
- change if I change
+ change if I change 
 \begin_inset Formula $X_{0}$
 \end_inset
 
@@ -446,11 +446,11 @@ Causality: How much will
 
 \begin_deeper
 \begin_layout Enumerate
-Prediction is useful when
+Prediction is useful when 
 \begin_inset Formula $\partial\pi/\partial X$
 \end_inset
 
- depends on
+ depends on 
 \begin_inset Formula $Y$
 \end_inset
 
@@ -458,11 +458,11 @@ Prediction is useful when
 \end_layout
 
 \begin_layout Enumerate
-Only
+Only 
 \begin_inset Formula $\hat{Y}$
 \end_inset
 
- enters the decision, so we just need a low error estimate of
+ enters the decision, so we just need a low error estimate of 
 \begin_inset Formula $\hat{Y}$
 \end_inset
 
@@ -503,28 +503,28 @@ unbiasedness
 
 \begin_layout Itemize
 e.g.
- Suppose you have 2 variables to predict
+ Suppose you have 2 variables to predict 
 \begin_inset Formula $y$
 \end_inset
 
- and you get OLS estimates
+ and you get OLS estimates 
 \begin_inset Formula $\hat{\beta}_{1}=1\pm0.001$
 \end_inset
 
- and
+ and 
 \begin_inset Formula $\hat{\beta}_{2}=4\pm10$
 \end_inset
 
 .
- What's the best prediction?
+ What's the best prediction? 
 \begin_inset Formula $x_{1}+4x_{2}$
 \end_inset
 
-? or perhaps the unbiased estimator
+? or perhaps the biased estimator 
 \begin_inset Formula $x_{1}$
 \end_inset
 
- since
+ since 
 \begin_inset Formula $\hat{\beta}_{2}$
 \end_inset
 
@@ -537,15 +537,15 @@ General setup:
 
 \begin_deeper
 \begin_layout Itemize
-Suppose you have a dataset
+Suppose you have a dataset 
 \begin_inset Formula $D$
 \end_inset
 
- of
+ of 
 \begin_inset Formula $n$
 \end_inset
 
- points
+ points 
 \begin_inset Formula $\left(y_{i},x_{i}\right)\sim G$
 \end_inset
 
@@ -553,15 +553,15 @@ Suppose you have a dataset
 \end_layout
 
 \begin_layout Itemize
-Use this data to pick a function
+Use this data to pick a function 
 \begin_inset Formula $\hat{f}\in\mathcal{F}$
 \end_inset
 
- to predict the
+ to predict the 
 \begin_inset Formula $y$
 \end_inset
 
- value of a new data point
+ value of a new data point 
 \begin_inset Formula $\left(y,x\right)\sim G$
 \end_inset
 
@@ -569,7 +569,7 @@ Use this data to pick a function
 \end_layout
 
 \begin_layout Itemize
-Goal is to minimize a loss function
+Goal is to minimize a loss function 
 \begin_inset Formula $\mathcal{L}\left(y,\hat{f}\right)=\left(y-\hat{f}\left(x\right)\right)^{2}$
 \end_inset
 
@@ -602,14 +602,14 @@ Kleinberg et al 2015: Machine Learning
 \begin_layout Itemize
 OLS minimizes
 \emph on
-in-sample
+ in-sample
 \emph default
-error by choosing among linear functions
+ error by choosing among linear functions 
 \begin_inset Formula $\mathcal{F}_{lin}$
 \end_inset
 
 
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \hat{f}_{OLS}=\underset{f_{\beta}\in\mathcal{F}_{lin}}{\arg\min}\sum_{i=1}^{n}\left(y_{i}-f\left(x_{i}\right)\right)^{2}
 \]
@@ -620,25 +620,21 @@ error by choosing among linear functions
 \end_layout
 
 \begin_layout Itemize
-This does great in-sample (sum over the
+This does great in-sample (sum over the 
 \begin_inset Formula $i$
 \end_inset
 
 s in
 \emph on
-this
+ this
 \emph default
  dataset).
  But could do
 \emph on
-arbitrarily
-\emph default
-
-\emph on
-badly
+ arbitrarily badly
 \emph default
  on a new dataset (out of sample)!!
-\begin_inset Formula
+\begin_inset Formula 
 \begin{align*}
 MSE\left(x\right) & \equiv\mathbb{E}_{D}\left[\left(\hat{f}\left(x\right)-y\right)^{2}\right]\\
  & =\underbrace{\mathbb{E}_{D}\left[\left(\hat{f}\left(x\right)-\mathbb{E}_{D}\left[\hat{y}_{0}\right]\right)^{2}\right]}_{\text{Variance}}+\underbrace{\left(\mathbb{E}_{D}\left[\hat{y}_{0}\right]-y\right)^{2}}_{\text{Bias}^{2}}
@@ -673,7 +669,7 @@ Kleinberg et al 2015: Machine Learning
 \begin_deeper
 \begin_layout Itemize
 So what's the alternative? ML techniques minimize
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \hat{f}_{ML}=\underset{f\in\mathcal{F}}{\arg\min}\sum_{i=1}^{n}\left(y_{i}-f\left(x_{i}\right)\right)^{2}+\lambda R\left(f\right)
 \]
@@ -689,14 +685,14 @@ So what's the alternative? ML techniques minimize
 
  is a
 \emph on
-regularizer
+ regularizer
 \emph default
  that penalizes choosing functions that create variance.
- Constructed so that the set of functions
+ Constructed so that the set of functions 
 \begin_inset Formula $\mathcal{F}_{c}=\left\{ f\vert R\left(f\right)\leq c\right\} $
 \end_inset
 
- creates more variable predictions as
+ creates more variable predictions as 
 \begin_inset Formula $c$
 \end_inset
 
@@ -705,7 +701,7 @@ regularizer
 
 \begin_layout Itemize
 For linear models, larger coefficients generate more variable predictions
- so a natural regularizer is
+ so a natural regularizer is 
 \begin_inset Formula $R\left(f_{\beta}\right)=\left\Vert \beta\right\Vert ^{d}$
 \end_inset
 
@@ -713,7 +709,7 @@ For linear models, larger coefficients generate more variable predictions
 \begin_inset Formula $d=1$
 \end_inset
 
-=LASSO,
+=LASSO, 
 \begin_inset Formula $d=2$
 \end_inset
 
@@ -725,7 +721,7 @@ For linear models, larger coefficients generate more variable predictions
 \end_inset
 
  is the price at which we trade off variance and bias.
- OLS has infinite price for bias
+ OLS has infinite price for bias 
 \begin_inset Formula $1/\lambda=\infty$
 \end_inset
 
@@ -755,7 +751,7 @@ Kleinberg et al 2015: Machine Learning
 
 \begin_deeper
 \begin_layout Itemize
-How should we pick
+How should we pick 
 \begin_inset Formula $\lambda$
 \end_inset
 
@@ -764,28 +760,27 @@ How should we pick
 \end_layout
 
 \begin_layout Itemize
-Split the data into
+Split the data into 
 \begin_inset Formula $f$
 \end_inset
 
  subsets (folds).
-
 \end_layout
 
 \begin_layout Itemize
-For a set of potential
+For a set of potential 
 \begin_inset Formula $\lambda$
 \end_inset
 
-s estimate the algorithm on
+s estimate the algorithm on 
 \begin_inset Formula $f-1$
 \end_inset
 
- of the folds and then see which
+ of the folds and then see which 
 \begin_inset Formula $\lambda$
 \end_inset
 
- predicts best on the
+ predicts best on the 
 \begin_inset Formula $f$
 \end_inset
 
@@ -807,7 +802,7 @@ This is cool because they expand the set of predictors we can consider:
 \begin_layout Itemize
 They allow for
 \emph on
-wide
+ wide
 \emph default
  data (e.g.
  text data, internet activity data) where we have many more variables than
@@ -822,11 +817,11 @@ Much more flexible functional forms
 \begin_layout Itemize
 
 \series bold
-But NB, you will get a great
+But NB, you will get a great 
 \begin_inset Formula $\hat{y}$
 \end_inset
 
-, you don't get any guarantee that you have useful
+, you don't get any guarantee that you have useful 
 \begin_inset Formula $\hat{\beta}$
 \end_inset
 
@@ -933,11 +928,11 @@ Machine learning is all about prediction.
 After an arrest, judges decide whether defendants await trial in jail or
  at home.
  Law says this bail decision depends only on the judges prediction of whether
- the defendant wil reoffend or flee if released.
+ the defendant will reoffend or flee if released.
 \end_layout
 
 \begin_layout Itemize
-Here use data on 758,027 defendands in NYC between 2008 and 2013 to predict
+Here use data on 758,027 defendants in NYC between 2008 and 2013 to predict
  probability of reoffending.
 \end_layout
 
@@ -1153,11 +1148,11 @@ Kleinberg et al 2017: Machine Learning
 
 \begin_deeper
 \begin_layout Itemize
-Form predictions
+Form predictions 
 \begin_inset Formula $\hat{y}=m\left(x\right)$
 \end_inset
 
- to minimize loss function
+ to minimize loss function 
 \begin_inset Formula $L\left(y,\hat{y}\right)$
 \end_inset
 
@@ -1165,11 +1160,11 @@ Form predictions
 \end_layout
 
 \begin_layout Itemize
-Consider functions
+Consider functions 
 \begin_inset Formula $m\left(x\right)$
 \end_inset
 
- that generate predicted probabilities in
+ that generate predicted probabilities in 
 \begin_inset Formula $\left[0,1\right]$
 \end_inset
 
@@ -1178,7 +1173,7 @@ Consider functions
 
 \begin_layout Itemize
 Use Bernoulli loss
-\begin_inset Formula
+\begin_inset Formula 
 \[
 L\left(y_{i},m\left(x_{i}\right)\right)=-\left[y_{i}\log\left(m\left(x_{i}\right)\right)+\left(1-y_{i}\right)\log\left(1-m\left(x_{i}\right)\right)\right]
 \]
@@ -1189,7 +1184,7 @@ L\left(y_{i},m\left(x_{i}\right)\right)=-\left[y_{i}\log\left(m\left(x_{i}\right
 \end_layout
 
 \begin_layout Itemize
-For this paper, use gradient boosted decision trees to form
+For this paper, use gradient boosted decision trees to form 
 \begin_inset Formula $m\left(x_{i}\right)$
 \end_inset
 
@@ -1274,11 +1269,11 @@ Look across judges of different leniencies.
 
 \begin_layout Itemize
 Identified by quasi-random assignment of cases to judges: It depends on
- who happens to be on duty in that bourough
+ who happens to be on duty in that borough 
 \begin_inset Formula $\times$
 \end_inset
 
- court house
+ court house 
 \begin_inset Formula $\times$
 \end_inset
 
@@ -1408,7 +1403,7 @@ Compliance: Will the judge pay attention to the warnings / comply with the
 Reranking involves releasing some of the jailed defendants.
  How much crime
 \emph on
-would they have
+ would they have
 \emph default
  committed? A missing labels problem.
 \end_layout
@@ -1442,12 +1437,10 @@ What threshold risk score should trigger the warning?
 \begin_layout Itemize
 Low threshold averts more crime, but triggers more warnings, and increases
  jailings of people who would not reoffend.
-
 \end_layout
 
 \begin_layout Itemize
 Implicitly, the judges have some threshold too that we can compare to.
-
 \end_layout
 
 \end_deeper
@@ -1508,7 +1501,6 @@ Kleinberg et al 2017: Reranking
 \begin_layout Itemize
 Reranking creates a selective labels problem: We only see crime rates of
  those who are jailed.
-
 \end_layout
 
 \begin_layout Itemize
@@ -1525,15 +1517,15 @@ Decompose algorithm's gains into
 \begin_layout Enumerate
 jail a high risk defendant and release an
 \emph on
-average
+ average
 \emph default
-risk defendant
+ risk defendant
 \end_layout
 
 \begin_layout Enumerate
 release a low risk defendant and jail an
 \emph on
-average
+ average
 \emph default
  risk defendant.
  Selective labels problem only comes in here.
@@ -1541,15 +1533,15 @@ average
 
 \end_deeper
 \begin_layout Enumerate
-Assume imputing underestimates by
+Assume imputing underestimates by 
 \begin_inset Formula $\alpha$
 \end_inset
 
- and use a prediced risk of
+ and use a prediced risk of 
 \begin_inset Formula $\min\left\{ 1,\alpha\hat{y}\right\} $
 \end_inset
 
- and do robustness to
+ and do robustness to 
 \begin_inset Formula $\alpha$
 \end_inset
 
@@ -1728,12 +1720,11 @@ Metal roof better: Mosquitos live in thatch, leak and collapse regularly.
 \end_layout
 
 \begin_layout Itemize
-Metal roof is expensive:
+Metal roof is expensive: 
 \begin_inset Formula $\$564$
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Itemize
@@ -2355,7 +2346,7 @@ Fine-tune the CNN by getting it to predict nightlights using daytime satellite
 \end_layout
 
 \begin_layout Enumerate
-Use ridge regession of survey data on cluster-level image features to predict
+Use ridge regression of survey data on cluster-level image features to predict
  expenditure and wealth.
 \end_layout
 
@@ -2572,7 +2563,6 @@ Muralidharan et al 2016: Introduction
 \begin_deeper
 \begin_layout Itemize
 Implementing antipoverty programs in developing countries is hard.
-
 \end_layout
 
 \begin_layout Itemize
@@ -2690,7 +2680,14 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Figure 1
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2016_1.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2891,7 +2888,14 @@ Muralidharan et al 2016: First Stage
 
 \begin_deeper
 \begin_layout Standard
-Figure 3
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2016_2.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2917,7 +2921,233 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-Table 1
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2016_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Start out by just estimating the difference between treated and control
+ mandals:
+\begin_inset Formula 
+\[
+Y_{imd}=\alpha+\beta Treated_{md}+\delta District_{d}+\lambda PC_{md}+\epsilon_{imd}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $Y_{imd}$
+\end_inset
+
+ is outcome of household 
+\begin_inset Formula $i$
+\end_inset
+
+ in mandal 
+\begin_inset Formula $m$
+\end_inset
+
+ in district 
+\begin_inset Formula $d$
+\end_inset
+
+ and 
+\begin_inset Formula $PC_{md}$
+\end_inset
+
+ is the principal component of socioeconomic variables used for stratification.
+\end_layout
+
+\begin_layout Itemize
+In the survey data, to increase precision, also include the baseline panchayat-m
+ean level of the outcome:
+\begin_inset Formula 
+\[
+Y_{ipmd}=\alpha+\beta Treated_{md}+\gamma\bar{Y}_{pmd}^{0}+\delta District_{d}+\lambda PC_{md}+\epsilon_{ipmd}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Many possible channels,
+\begin_inset Formula $\Rightarrow\beta$
+\end_inset
+
+ is the composite effect of a mix of several factors.
+ But this is the policy-relevant GE estimate of the total effect due to
+ the effective presence of NREGS
+\end_layout
+
+\begin_layout Itemize
+If spillovers across mandals, then 
+\begin_inset Formula $\beta$
+\end_inset
+
+ misestimates the Total Treatment Effect (TTE): The difference in average
+ outcomes when all units are treated and when no units are treated.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2016: Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2016_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2016_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2016_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2016_7.png
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -3207,7 +3437,7 @@ Below Poverty Line
 \end_layout
 
 \begin_layout Enumerate
-Household surveys representative of universe of NREGS jobcard holders (Octobber
+Household surveys representative of universe of NREGS jobcard holders (October
  2010 baseline and 2012 endline)
 \end_layout
 
@@ -3268,7 +3498,7 @@ Muralidharan et al 2018: Estimation
 \begin_layout Itemize
 Start out by just estimating the difference between treated and control
  mandals:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 Y_{imd}=\alpha+\beta Treated_{md}+\delta District_{d}+\lambda PC_{md}+\epsilon_{imd}
 \]
@@ -3301,7 +3531,7 @@ where
 \begin_layout Itemize
 In the survey data, to increase precision, also include the baseline panchayat-m
 ean level of the outcome:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 Y_{ipmd}=\alpha+\beta Treated_{md}+\gamma\bar{Y}_{pmd}^{0}+\delta District_{d}+\lambda PC_{md}+\epsilon_{ipmd}
 \]
@@ -3322,13 +3552,12 @@ Many possible channels,
 \end_layout
 
 \begin_layout Itemize
-If spillovers across mandals, then
+If spillovers across mandals, then 
 \begin_inset Formula $\beta$
 \end_inset
 
  misestimates the Total Treatment Effect (TTE): The difference in average
  outcomes when all units are treated and when no units are treated.
-
 \end_layout
 
 \end_deeper
@@ -3502,7 +3731,6 @@ all
 
 \begin_layout Itemize
 Assume that spillovers are a function of the fraction of GPs within a radius
-
 \begin_inset Formula $R$
 \end_inset
 
@@ -3510,7 +3738,7 @@ Assume that spillovers are a function of the fraction of GPs within a radius
 \begin_inset Formula $p$
 \end_inset
 
- that are treated:
+ that are treated: 
 \begin_inset Formula $N_{p}^{R}$
 \end_inset
 
@@ -3518,7 +3746,7 @@ Assume that spillovers are a function of the fraction of GPs within a radius
 \end_layout
 
 \begin_layout Itemize
-Despite random assignment,
+Despite random assignment, 
 \begin_inset Formula $N_{p}^{R}$
 \end_inset
 
@@ -3527,15 +3755,15 @@ Despite random assignment,
 \end_layout
 
 \begin_layout Itemize
-Construct
+Construct 
 \begin_inset Formula $\tilde{N}_{p}^{R}$
 \end_inset
 
-: fraction of GPs within a radius
+: fraction of GPs within a radius 
 \begin_inset Formula $R$
 \end_inset
 
- of panchayat
+ of panchayat 
 \begin_inset Formula $p$
 \end_inset
 
@@ -3548,12 +3776,12 @@ and
 
 \begin_deeper
 \begin_layout Itemize
-use
+use 
 \begin_inset Formula $\tilde{N}_{p}^{R}$
 \end_inset
 
  to test for existence of spillovers and as an instrument
-\begin_inset Formula
+\begin_inset Formula 
 \[
 Y_{ipmd}=\alpha+\beta\tilde{N}_{p}^{R}+\delta District_{d}+\lambda PC_{md}+\epsilon_{imd}
 \]
@@ -3577,7 +3805,139 @@ Y_{ipmd}=\alpha+\beta\tilde{N}_{p}^{R}+\delta District_{d}+\lambda PC_{md}+\epsi
 status open
 
 \begin_layout Plain Layout
-Muralidharan et al 2018: Introduction
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Total Treatment Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MuralidharanEtAl2018_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Muralidharan et al 2018: Estimation
 \end_layout
 
 \end_inset
@@ -3588,7 +3948,7 @@ Muralidharan et al 2018: Introduction
 \begin_deeper
 \begin_layout Itemize
 To estimate the total treatment effect, estimate
-\begin_inset Formula
+\begin_inset Formula 
 \[
 Y_{ipmd}=\alpha+\beta_{T}T_{m}+\beta_{N}N_{p}^{R}+\beta_{TN}T_{m}\cdot N_{p}^{R}+\delta District_{d}+\lambda PC_{md}+\epsilon_{ipmd}
 \]
@@ -3600,7 +3960,7 @@ Y_{ipmd}=\alpha+\beta_{T}T_{m}+\beta_{N}N_{p}^{R}+\beta_{TN}T_{m}\cdot N_{p}^{R}
 
 \begin_layout Itemize
 Then the total treatment effect of a universal rollout is
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \bar{\beta}=\beta_{T}+\beta_{N}+\beta_{TN}
 \]
@@ -3611,11 +3971,11 @@ Then the total treatment effect of a universal rollout is
 \end_layout
 
 \begin_layout Itemize
-Instrument for
+Instrument for 
 \begin_inset Formula $N_{p}^{R}$
 \end_inset
 
- using
+ using 
 \begin_inset Formula $\tilde{N}_{p}^{R}$
 \end_inset
 
