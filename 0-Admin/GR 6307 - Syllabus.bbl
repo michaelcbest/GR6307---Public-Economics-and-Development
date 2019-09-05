@@ -2009,6 +2009,7 @@
       \strng{authorfullhash}{a572726d1f98cd7f95ddf70a094849b5}
       \field{sortinit}{C}
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2058,6 +2059,34 @@
       \field{year}{2013}
       \field{pages}{2683\bibrangedash 2721}
       \range{pages}{39}
+    \endentry
+    \entry{Chetty2009ARE}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7a853740afbc544905334cf607b3cd51}{%
+           family={Chetty},
+           familyi={C\bibinitperiod},
+           given={Raj},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a853740afbc544905334cf607b3cd51}
+      \strng{fullhash}{7a853740afbc544905334cf607b3cd51}
+      \strng{bibnamehash}{7a853740afbc544905334cf607b3cd51}
+      \strng{authorbibnamehash}{7a853740afbc544905334cf607b3cd51}
+      \strng{authornamehash}{7a853740afbc544905334cf607b3cd51}
+      \strng{authorfullhash}{7a853740afbc544905334cf607b3cd51}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Economics}
+      \field{title}{Sufficient Statistics for Welfare Analysis: A Bridge Between Structural and Reduced-Form Methods}
+      \field{volume}{1}
+      \field{year}{2009}
+      \field{pages}{451\bibrangedash 488}
+      \range{pages}{38}
     \endentry
     \entry{Cohenetal2015}{article}{}
       \name{author}{3}{}{%
@@ -2505,6 +2534,34 @@
       \field{title}{Poverty from Space: Using High Resolution Satellite Imagery for Estimating Economic Well-being and Geographic Targeting}
       \field{year}{2016}
     \endentry
+    \entry{Feldstein1999}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e6510bac246693d0d3af1e55bb29f123}{%
+           family={Feldstein},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6510bac246693d0d3af1e55bb29f123}
+      \strng{fullhash}{e6510bac246693d0d3af1e55bb29f123}
+      \strng{bibnamehash}{e6510bac246693d0d3af1e55bb29f123}
+      \strng{authorbibnamehash}{e6510bac246693d0d3af1e55bb29f123}
+      \strng{authornamehash}{e6510bac246693d0d3af1e55bb29f123}
+      \strng{authorfullhash}{e6510bac246693d0d3af1e55bb29f123}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Review of Economics and Statistics}
+      \field{title}{Tax Avoidance and the Deadweight Loss of the Income Tax}
+      \field{volume}{81}
+      \field{year}{1999}
+      \field{pages}{674\bibrangedash 680}
+      \range{pages}{7}
+    \endentry
     \entry{Finanetal2017}{incollection}{}
       \name{author}{3}{}{%
         {{hash=9b00f07bf391583622b0d8aafbd36155}{%
@@ -2582,6 +2639,30 @@
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: MIT}
       \field{title}{Take-up and Targeting: Experimental Evidence from SNAP}
+      \field{year}{2019}
+    \endentry
+    \entry{Finkelstein2019}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=8302593e3b893aa848cec33d5fabb13f}{%
+           family={Finkelstein},
+           familyi={F\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8302593e3b893aa848cec33d5fabb13f}
+      \strng{fullhash}{8302593e3b893aa848cec33d5fabb13f}
+      \strng{bibnamehash}{8302593e3b893aa848cec33d5fabb13f}
+      \strng{authorbibnamehash}{8302593e3b893aa848cec33d5fabb13f}
+      \strng{authornamehash}{8302593e3b893aa848cec33d5fabb13f}
+      \strng{authorfullhash}{8302593e3b893aa848cec33d5fabb13f}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: MIT \url{https://economics.mit.edu/files/16272}}
+      \field{title}{Welfare Analysis Meets Causal Inference: A Suggested Interpretation of Hendren}
       \field{year}{2019}
     \endentry
     \entry{FismanWei2004}{article}{}
@@ -2899,6 +2980,59 @@
       \field{year}{2018}
       \field{pages}{201\bibrangedash 226}
       \range{pages}{26}
+    \endentry
+    \entry{Hendren2016}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=8dddc1bd4014bf50f037b3b8772994dd}{%
+           family={Hendren},
+           familyi={H\bibinitperiod},
+           given={Nathaniel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{fullhash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{bibnamehash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{authorbibnamehash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{authornamehash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{authorfullhash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Tax Policy and the Economy, 30}
+      \field{title}{The Policy Elasticity}
+      \field{year}{2016}
+    \endentry
+    \entry{HendrenSprungKeyser2019}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=8dddc1bd4014bf50f037b3b8772994dd}{%
+           family={Hendren},
+           familyi={H\bibinitperiod},
+           given={Nathaniel},
+           giveni={N\bibinitperiod}}}%
+        {{hash=75fa7ea764870018d4e4d78176ea5dfb}{%
+           family={Sprung-Keyser},
+           familyi={S\bibinithyphendelim K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6046c2723b89caa145589177aab2714c}
+      \strng{fullhash}{6046c2723b89caa145589177aab2714c}
+      \strng{bibnamehash}{6046c2723b89caa145589177aab2714c}
+      \strng{authorbibnamehash}{6046c2723b89caa145589177aab2714c}
+      \strng{authornamehash}{6046c2723b89caa145589177aab2714c}
+      \strng{authorfullhash}{6046c2723b89caa145589177aab2714c}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: Harvard university}
+      \field{title}{A Unified Welfare Analysis of Government Policies}
+      \field{year}{2019}
     \endentry
     \entry{ImbertPapp2015}{article}{}
       \name{author}{2}{}{%
@@ -3290,6 +3424,30 @@
       \field{year}{2011}
       \field{pages}{54\bibrangedash 90}
       \range{pages}{37}
+    \endentry
+    \entry{Kleven2018}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=50ce8b4d5b6dfccf1d1ee775377cb356}{%
+           family={Kleven},
+           familyi={K\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{50ce8b4d5b6dfccf1d1ee775377cb356}
+      \strng{fullhash}{50ce8b4d5b6dfccf1d1ee775377cb356}
+      \strng{bibnamehash}{50ce8b4d5b6dfccf1d1ee775377cb356}
+      \strng{authorbibnamehash}{50ce8b4d5b6dfccf1d1ee775377cb356}
+      \strng{authornamehash}{50ce8b4d5b6dfccf1d1ee775377cb356}
+      \strng{authorfullhash}{50ce8b4d5b6dfccf1d1ee775377cb356}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: Princeton University}
+      \field{title}{Sufficient Statistics Revisited}
+      \field{year}{2018}
     \endentry
     \entry{LaPortaShleifer2014}{article}{}
       \name{author}{2}{}{%
