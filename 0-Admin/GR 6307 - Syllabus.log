@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 APR 2019 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  5 SEP 2019 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -537,118 +537,139 @@ meo: Lon-don School
  []
 
 [4]
-Overfull \hbox (5.5911pt too wide) in paragraph at lines 78--79
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 78.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 78.
+
+Overfull \hbox (6.2239pt too wide) in paragraph at lines 79--80
+\T1/ppl/m/n/10.95 Anal-y-sis of Gov-ern-ment Poli-cies''. Mimeo: Har-vard unive
+rsity.$[]\OT1/zplm/m/n/10.95 (\OT1/lmr/m/n/10.95 9\OT1/zplm/m/n/10.95 /\OT1/lmr
+/m/n/10.95 13\OT1/zplm/m/n/10.95 )$ 
+ []
+
+[5]
+Overfull \hbox (1.57309pt too wide) in paragraph at lines 88--89
+\T1/ppl/b/n/10.95 in In-done-sia''. \T1/ppl/b/it/10.95 Jour-nal of Po-lit-i-cal
+ Econ-omy \T1/ppl/b/n/10.95 124 (2): 371^^U427.$[]$ 
+ []
+
+
+Overfull \hbox (5.5911pt too wide) in paragraph at lines 89--90
 \T1/ppl/m/n/10.95 gram: How Do Cash Trans-fers Af-fect In-el-i-gi-bles' Con-sum
 p-tion''. \T1/ppl/m/it/10.95 Amer-
  []
 
-[5] [6]
-Overfull \hbox (42.54959pt too wide) in paragraph at lines 92--93
+[6]
+Overfull \hbox (42.54959pt too wide) in paragraph at lines 103--104
 \T1/ppl/b/n/10.95 of Cash Ver-sus In-Kind Trans-fers''. Mimeo: North-west-ern U
 niversity.$[]$ 
  []
 
 
-Overfull \hbox (9.97311pt too wide) in paragraph at lines 94--95
+Overfull \hbox (22.22511pt too wide) in paragraph at lines 105--106
 \T1/ppl/b/n/10.95 dom-ized Con-trolled Trial in Kenya''. \T1/ppl/b/it/10.95 Sci
 -ence \T1/ppl/b/n/10.95 353 (6302): 889^^U895.$[]$ 
  []
 
-
-Overfull \hbox (7.65399pt too wide) in paragraph at lines 100--101
+[7]
+Overfull \hbox (7.65399pt too wide) in paragraph at lines 111--112
 [][]\T1/ppl/b/n/10.95 A.L. Nichols and R.J. Zeck-hauser. 1982. ``Tar-get-ing Tr
 ans-fers Through
  []
 
-[7]
-Overfull \hbox (2.34593pt too wide) in paragraph at lines 113--114
+[8]
+Overfull \hbox (2.34593pt too wide) in paragraph at lines 124--125
 [][]\T1/ppl/m/n/10.95 N Ashraf, O Bandiera, and S.S. Lee. 2016. ``Do-gooders an
 d Go-getters:
  []
 
-[8]
-Overfull \hbox (19.09206pt too wide) in paragraph at lines 115--116
+
+Overfull \hbox (19.09206pt too wide) in paragraph at lines 126--127
 [][]\T1/ppl/b/n/10.95 A Baner-jee, R Hanna, and S Mul-lainathan. 2012. ``Cor-ru
 p-tion''. Chap. 27
  []
 
 
-Overfull \hbox (5.34003pt too wide) in paragraph at lines 118--119
+Overfull \hbox (5.34003pt too wide) in paragraph at lines 129--130
 [][]\T1/ppl/m/n/10.95 T Besley and M Ghatak. 2005. ``Com-pe-ti-tion and In-cen-
 tives with Proso-
  []
 
-
-Overfull \hbox (57.4149pt too wide) in paragraph at lines 123--124
+[9]
+Overfull \hbox (65.9149pt too wide) in paragraph at lines 134--135
 \T1/ppl/m/n/10.95 Salary In-crease in In-done-sia''. Forth-com-ing, Quar-terly 
 Jour-nal of Economics.$[]$ 
  []
 
-[9]
-Overfull \hbox (15.47102pt too wide) in paragraph at lines 130--131
+[10]
+Overfull \hbox (15.47102pt too wide) in paragraph at lines 141--142
 \T1/ppl/m/n/10.95 per-i-men-tal Ev-i-dence on In-cen-tiviz-ing Bu-reau-crats th
 rough Performance-
  []
 
-[10]
-Overfull \hbox (11.86214pt too wide) in paragraph at lines 144--145
+[11]
+Overfull \hbox (11.86214pt too wide) in paragraph at lines 155--156
 \T1/ppl/m/n/10.95 Trans-fers to the Ex-tremely Poor''. In \T1/ppl/m/it/10.95 Pr
 o-ceed-ings of the 20th ACM SIGKDD
  []
 
-[11]
-Overfull \hbox (7.86086pt too wide) in paragraph at lines 154--155
+[12]
+Overfull \hbox (7.86086pt too wide) in paragraph at lines 165--166
 \T1/ppl/m/n/10.95 Us-ing High Res-o-lu-tion Satel-lite Im-agery for Es-ti-mat-i
 ng Eco-nomic Well-
  []
 
-[12]
-Overfull \hbox (4.55351pt too wide) in paragraph at lines 162--163
+[13]
+Overfull \hbox (4.55351pt too wide) in paragraph at lines 173--174
 \T1/ppl/b/n/10.95 2017. ``Hu-man De-ci-sions and Ma-chine Pre-dic-tions''. NBER
  WP 23180 
  []
 
 
-Overfull \hbox (1.41321pt too wide) in paragraph at lines 165--166
+Overfull \hbox (1.41321pt too wide) in paragraph at lines 176--177
 [][]\T1/ppl/m/n/10.95 K Mu-ralid-ha-ran, Ab-hi-jeet Singh, and Ale-jan-dro Ga-n
 -imian. 2017. ``Dis-
  []
 
-[13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./GR 6307 - Syllabus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `"GR 6307 - Syllabus".out' has not changed.
-(rerunfilecheck)             Checksum: 6C8A8049F5DFC1BB54528EF2236B79EC;240.
+(rerunfilecheck)             Checksum: 7B6B142702773607B9B114858AA42178;299.
 Package logreq Info: Writing requests to '"GR 6307 - Syllabus".run.xml'.
 \openout1 = `"GR 6307 - Syllabus.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
  ) 
 Here is how much of TeX's memory you used:
- 12785 strings out of 492649
- 222749 string characters out of 6129622
- 803722 words of memory out of 5000000
- 16325 multiletter control sequences out of 15000+600000
- 42955 words of font info for 64 fonts, out of 8000000 for 9000
+ 12846 strings out of 492649
+ 223917 string characters out of 6129622
+ 804904 words of memory out of 5000000
+ 16369 multiletter control sequences out of 15000+600000
+ 43273 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,6n,58p,925b,1290s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pa
-latino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/
-uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (14 pages, 172842 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/t
+exmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/l
+m/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtk10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on "GR 6307 - Syllabus.pdf" (14 pages, 201109 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 370 compressed objects within 4 object streams
- 245 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 424 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 258 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

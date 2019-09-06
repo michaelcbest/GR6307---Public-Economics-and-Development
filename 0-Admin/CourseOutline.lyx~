@@ -125,7 +125,7 @@ Public Economics and Development
 \begin_inset Newline newline
 \end_inset
 
-Wednesdays, 10.10-12, Room 1101 IAB
+Fridays, 10.10-12, Room 1102 IAB
 \end_layout
 
 \begin_layout Standard
@@ -153,7 +153,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Office Hours: Wednesdays 2:00–3:00 & 3:30–4:00 in 1112 IAB.
+Office Hours: Wednesdays 10:30am–1:00pm in 1112 IAB.
  
 \end_layout
 
@@ -168,8 +168,8 @@ must
 signup beforehand at 
 \begin_inset CommandInset href
 LatexCommand href
-name "https://tinyurl.com/ybywuefw"
-target "https://tinyurl.com/ybywuefw"
+name "https://tinyurl.com/y4b26pnu"
+target "https://tinyurl.com/y4b26pnu"
 literal "false"
 
 \end_inset
@@ -214,9 +214,9 @@ Personnel Economics of the State: The government is the largest employer
 \end_layout
 
 \begin_layout Enumerate
-Building State Capacity with big data and new technology: Most policy problems
- involve prediction of a counterfactual (what if we raise tax rates?) or
- a state of the world (how much poverty is there?).
+[time permitting] Building State Capacity with big data and new technology:
+ Most policy problems involve prediction of a counterfactual (what if we
+ raise tax rates?) or a state of the world (how much poverty is there?).
  How can machine learning methods help governments make these predictions?
  Can new technologies be used to monitor government workers and increase
  their productivity and/or effort?
@@ -318,7 +318,7 @@ Referee report 1 [20%]
 \end_layout
 
 \begin_layout Enumerate
-Referee report 2 / Replication [20%]
+Replication [20%]
 \end_layout
 
 \begin_layout Enumerate
@@ -358,7 +358,7 @@ All students will write a referee report on either
 \begin_inset CommandInset href
 LatexCommand href
 name "Juliana Londoño-Velez & Javier Ávila-Mahecha - \"Can Wealth Taxation Work in Developing Countries? Quasi-Experimental Evidence from Colombia\""
-target "https://uc5c3d095e703e2855a439355d41.dl.dropboxusercontent.com/cd/0/inline2/AZ7YcxYzu5R-CY--WOEgJcKGdFR7xbCRo2QEc9U3sVEG1cAIEM452v7Tz5ERFT1hs5x642uFEe7xJoXaYIIOkD5l2T735Sf7aLvll0D727o2C0KtosNArTYW9bn7NVW7Tl4Bl5cYZNq-ahI054UqNg3xa5ONTMkLeaFrwlKVY83NhtiUsA34tLUq6gV2pXwo4rEJuRab6HvLB4slIWTuOGoTMPC8BYsxIPpKgNRkFCjUQyddXX_ZRb3Srwkfo2-SrBz_ctZE0ctDZ_OP2mi8gYamXGQklS7bc_AnxtCmZaF83X3-5lwvIfUND6z0zeEAeabtv8JlX-Ql_PEpX_WH1G4ceEsbxdg5391w2X6iFrVKQ4H0P7VPjJUfx-zFCa2o2sdC-3rHQflVbhhVY2RqvJvQ2fjCSD2BYiFukEYLnSuM6CA3To0OEr4AKSVQjU1T22W0NeBjAB6OoYxcyD6wb8s1/file#"
+target "https://ucc78ea17e962e6c4411d5c4b347.dl.dropboxusercontent.com/cd/0/inline2/AoD-eQCOpM64UmRIRMRF1oz39dwVFtdkHSKM7SwuxPJP5Ttsd2AjHOk_mxhNNUrOGtlaXlYm6vp--8IA_bkKohtzM39udk5wOOYFyZ6biXZf7QCDoRVCR5jP7cEDVeGcVGQWpwmLMCHCcTMK63bHtdK_bajHvxzVpa8srP6-r_tJXh-9phNwctFoNvINqL_0K7lz9FqfdBZEA7SHxS80_jD0gF2T4LfLfIXJxpuvk4_FTMxqdJCcZTD2ABvo96SQYWLCbJgVBXM58My7z0lQ1mQZBHynXjldIi0P0c1jIZqWgZs0CaX9HKs_A4nhMMPxdPiKmBbKdBuY_4ufayzzRxrZ/file#"
 literal "false"
 
 \end_inset
@@ -373,7 +373,7 @@ literal "false"
 \end_inset
 
 .
- This referee report will be due on 2/20.
+ This referee report will be due on 10/4.
  Please send the referee report to me as a pdf by 5pm.
  I will share your reports with the authors, since they could be helpful
  to them as they revise the papers for submission.
@@ -385,51 +385,11 @@ DO NOT put your name on the pdf
 \end_layout
 
 \begin_layout Standard
-If you choose to do a second referee report rather than the replication
- exercise, you will write it on either 
-\begin_inset CommandInset href
-LatexCommand href
-name "Edoardo Teso, Emanuele Colonnelli, and Mounu Prem, “Patronage in the Allocation of Public Sector Jobs”"
-target "https://scholar.harvard.edu/files/edoardoteso/files/edoardoteso_jmp.pdf"
-literal "false"
-
-\end_inset
-
- or 
-\begin_inset CommandInset href
-LatexCommand href
-name "Jeffrey Weaver, \"Jobs for Sale: Corruption and Misallocation in Hiring\""
-target "https://www.dropbox.com/s/6bktr62uondsenl/JeffWeaverJMPfinal.pdf?dl=0"
-literal "false"
-
-\end_inset
-
-.
- This report will be due on 4/3.
- Please send the report to me as a pdf by 5pm.
-\end_layout
-
-\begin_layout Standard
-Here are a couple of useful resources for writing referee reports:
-\end_layout
-
-\begin_layout Itemize
+Here is a useful resource for writing referee reports: 
 \begin_inset CommandInset href
 LatexCommand href
 name "Jonathan Berk, Campbell R. Harvey, and David A. Hirshleifer, \"Preparing a Referee Report: Guidelines and Perspectives\""
 target "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2547191"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "A template"
-target "http://users.nber.org/~nikolovp/studentresources/refreport.pdf"
 literal "false"
 
 \end_inset
@@ -442,15 +402,7 @@ Replication Exercise
 \end_layout
 
 \begin_layout Standard
-If you are a PhD student, I 
-\series bold
-\emph on
-strongly
-\series default
-\emph default
- recommend you do the replication exercise rather than the second referee
- report.
- The idea here is for you to get your hands dirty with some real data to
+The idea here is for you to get your hands dirty with some real data to
  do two things.
  First, to play with the data but with the reassurance of knowing what the
  answer 
@@ -523,7 +475,7 @@ A summary of what you learned from the exercise.
 \end_layout
 
 \begin_layout Standard
-This report will be due on 4/3.
+This report will be due on 11/8.
  Please send the report to me as a pdf by 5pm
 \end_layout
 
@@ -625,6 +577,11 @@ Preliminary Results: The extent of the results provided will differ across
  
 \end_layout
 
+\begin_layout Standard
+This paper will be due on 12/13.
+ Please send the paper to me as a pdf by 5pm
+\end_layout
+
 \begin_layout Section
 Schedule
 \end_layout
@@ -632,7 +589,7 @@ Schedule
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="15" columns="3">
+<lyxtabular version="3" rows="14" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -680,7 +637,7 @@ Agenda
 \begin_inset Text
 
 \begin_layout Plain Layout
-1/23
+9/6
 \end_layout
 
 \end_inset
@@ -709,7 +666,7 @@ Taxation 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-1/30
+9/13
 \end_layout
 
 \end_inset
@@ -718,7 +675,7 @@ Taxation 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Taxation 2
+Applied Welfare Analysis
 \end_layout
 
 \end_inset
@@ -738,7 +695,7 @@ Taxation 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/6
+??
 \end_layout
 
 \end_inset
@@ -747,7 +704,7 @@ Taxation 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Taxation 3
+Taxation 2
 \end_layout
 
 \end_inset
@@ -767,7 +724,7 @@ Taxation 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/13
+9/27
 \end_layout
 
 \end_inset
@@ -776,7 +733,7 @@ Taxation 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Taxation 4
+Taxation 3
 \end_layout
 
 \end_inset
@@ -796,7 +753,7 @@ Taxation 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/20
+10/4
 \end_layout
 
 \end_inset
@@ -805,7 +762,7 @@ Taxation 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 1
+Taxation 4
 \end_layout
 
 \end_inset
@@ -825,7 +782,7 @@ Anti-Poverty 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/27
+10/11
 \end_layout
 
 \end_inset
@@ -834,7 +791,7 @@ Anti-Poverty 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 2
+Anti-Poverty 1
 \end_layout
 
 \end_inset
@@ -854,7 +811,7 @@ Anti-Poverty 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-3/6
+10/18
 \end_layout
 
 \end_inset
@@ -863,7 +820,7 @@ Anti-Poverty 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 3
+Anti-Poverty 2
 \end_layout
 
 \end_inset
@@ -883,7 +840,7 @@ Anti-Poverty 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-3/13
+??
 \end_layout
 
 \end_inset
@@ -892,7 +849,7 @@ Anti-Poverty 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 4
+Anti-Poverty 3
 \end_layout
 
 \end_inset
@@ -912,7 +869,7 @@ Anti-Poverty 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-3/27
+11/1
 \end_layout
 
 \end_inset
@@ -921,7 +878,7 @@ Anti-Poverty 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 1
+Anti-Poverty 4
 \end_layout
 
 \end_inset
@@ -941,7 +898,7 @@ Personnel 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/3
+11/8
 \end_layout
 
 \end_inset
@@ -950,7 +907,7 @@ Personnel 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 2
+Personnel 1
 \end_layout
 
 \end_inset
@@ -970,7 +927,7 @@ Personnel 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/10
+11/15
 \end_layout
 
 \end_inset
@@ -979,7 +936,7 @@ Personnel 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 3
+Personnel 2
 \end_layout
 
 \end_inset
@@ -999,7 +956,7 @@ Personnel 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/17
+??
 \end_layout
 
 \end_inset
@@ -1008,14 +965,14 @@ Personnel 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 4
+Personnel 3
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1024,40 +981,11 @@ Personnel 4
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4/19?
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Data & Technology 1
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-14
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5/1
+12/6
 \end_layout
 
 \end_inset
@@ -1066,7 +994,7 @@ Data & Technology 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Data & Technology 2
+Personnel 4
 \end_layout
 
 \end_inset
