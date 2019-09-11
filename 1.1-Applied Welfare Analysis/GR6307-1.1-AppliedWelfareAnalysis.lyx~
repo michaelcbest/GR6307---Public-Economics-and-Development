@@ -1,0 +1,985 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usepackage{ifthen}
+\usepackage{multirow,bigstrut}
+\usepackage{tikz}
+\usetikzlibrary{patterns,decorations.pathreplacing,shapes,snakes}
+\usetikzlibrary{arrows}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{makecell}
+\usepackage{graphicx}
+\usepackage{animate}
+\usepackage{pifont}
+\usepackage{booktabs}
+\usepackage{relsize}
+%\usepackage{adjustbox}
+%\usepackage{txfonts}
+%\usepackage{handoutWithNotes}
+%\pgfpagesuselayout{3 on 1 with notes}[a4paper,border shrink=5mm]
+
+% FOOTLINE - PAGE NUMBER RIGHT
+\defbeamertemplate*{footline}{guildford foot theme}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.7\paperwidth,ht=1cm,dp=0ex,left]{}%
+    {
+    \insertsectionnavigationhorizontal{.5\paperwidth}{}{}
+    }
+ \end{beamercolorbox}
+ \begin{beamercolorbox}[wd=0.31\paperwidth,ht=1cm,dp=0ex,right]{}%
+{\tiny
+\insertframenumber{} / \inserttotalframenumber\hspace*{5ex}
+}
+ \end{beamercolorbox}}%
+  \vskip5pt%
+}
+
+\beamertemplatenavigationsymbolsempty
+\usefonttheme{professionalfonts}
+\usecolortheme[RGB={0,0,125}]{structure} 
+\setbeamersize{ text margin left=10px}
+%\definecolor{newblue}{rgb}{0,0,0.6}
+%\setbeamercolor{alerted text}{fg=newblue}
+\setbeamertemplate{frametitle}[default][center]
+
+%{\bfseries\insertframetitle\par}
+
+\RequirePackage{ifthen}
+
+\newboolean{sectiontoc}
+\setboolean{sectiontoc}{true} % default to true
+
+\AtBeginSubsection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide] 
+  \end{frame} 
+} 
+}
+
+\AtBeginSection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/hide/hide] 
+  \end{frame} 
+} 
+}
+
+\newcommand{\toclesssection}[1]{
+   \setboolean{sectiontoc}{false}
+   \section{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\toclesssubsection}[1]{
+   \setboolean{sectiontoc}{false}
+   \subsection{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\setbeameroption{hide notes}
+
+\newcommand{\ShortNameSection}[2][]{
+   \setboolean{sectiontoc}{false}
+   \section[#1]{#2}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\light}[1]{\textcolor{gray}{#1}}
+\end_preamble
+\options notes=show
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding T1
+\font_roman "cmr" "default"
+\font_sans "helvet" "default"
+\font_typewriter "cmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{framenumber}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+GR 6307
+\begin_inset Newline newline
+\end_inset
+
+Public Economics and Development
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\;$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1.1 Detour:
+\begin_inset Newline newline
+\end_inset
+
+Applied Welfare Analysis
+\end_layout
+
+\begin_layout Author
+Michael Best
+\end_layout
+
+\begin_layout Date
+Fall 2019
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Policy Evaluation
+\end_layout
+
+\end_inset
+
+2 Approaches to Policy Evaluation
+\end_layout
+
+\begin_layout Subsection
+Chetty (ARE 2009) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Sufficient Statistics as Bridge
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty (2009): 2 Competing Paradigms
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can characterize 2 competing paradigms for policy evaluation & welfare
+ analysis
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Structural: 
+\series default
+specify a 
+\emph on
+complete
+\emph default
+ model, and estimate or calibrate the model's primitives.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Reduced form:
+\series default
+ prioritize clean 
+\emph on
+identification
+\emph default
+ of causal effects.
+ Accept narrower scope of analysis.
+\end_layout
+
+\begin_layout Itemize
+PRO structural / CON reduced form:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Estimate statistics that are policy-invariant parameters of models.
+\end_layout
+
+\begin_layout Enumerate
+Can simulate effects of changes in policies on behavior and welfare.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+PRO reduced form / CON of structural approach:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+(quasi-)experimental research designs achieve compelling estimates of treatment
+ effects
+\end_layout
+
+\begin_layout Enumerate
+Need to estimate all primitive parameters.
+ Impossible to be compelling (selection, simultaneity, omitted variables
+ etc)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty (2009): A Bridge Between the 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Public Economics has pioneered an approach to compromise between the two:
+ 
+\series bold
+Sufficient Statistics
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+Setup:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Policy instrument 
+\begin_inset Formula $t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Social welfare 
+\begin_inset Formula $W\left(t\right)$
+\end_inset
+
+ (e.g.
+ 
+\begin_inset Formula $\sum_{h}\gamma_{h}V_{h}\left(t\right)$
+\end_inset
+
+)
+\begin_inset Formula 
+\[
+\text{What is }\frac{dW\text{\left(t\right)}}{dt}\text{??}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Structural approach: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Write model with primitives 
+\begin_inset Formula $\boldsymbol{\omega}=\left(\omega_{1},\ldots,\omega_{N}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Derive 
+\begin_inset Formula 
+\[
+\frac{dW\left(t\right)}{dt}=f\left(\boldsymbol{\omega}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Estimate 
+\begin_inset Formula $\boldsymbol{\omega}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $dW\left(t\right)/dt$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty (2009): A Bridge Between the 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Chetty2009_1.png
+	lyxscale 50
+	width 100page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty (2009): Benefits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Simpler to estimate.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Less data and variation needed to identify marginal treatment effects than
+ full structural model
+\end_layout
+
+\begin_layout Enumerate
+Especially beneficial with heterogeneity and discrete choice (lots of primitives
+, still few MTEs)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Weaker assumptions and design-based empirical methods.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+more transparent and empirically credible estimates.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Can be implemented even when we're uncertain about what the right model
+ is.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Chetty (2009): Costs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Each question requires its own sufficient-statistics formula
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+e.g.
+ unemployment benefit level vs duration of unemployment benefits; tax rate
+ vs tax base etc.
+\end_layout
+
+\begin_layout Enumerate
+In some settings it might be hard to characterize the sufficient statistics
+ formula.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+More potential to be misapplied: A little bit of knowledge is a dangerous
+ thing!
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+One can draw policy conclusions from a sufficient-statistics formula without
+ evaluating the validity of the model it is based on.
+ Structural requires full estimation of the model so can only draw conclusions
+ from models that fit the data.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Precedent: Harberger (1964)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Remember Harberger's deadweight loss triangle? 
+\end_layout
+
+\begin_layout Itemize
+That's the first sufficient statistics formula! 
+\end_layout
+
+\begin_layout Itemize
+The sufficient statistic is the elasticity of equilibrium quantity of the
+ taxed good wrt its after-tax price
+\end_layout
+
+\begin_layout Itemize
+The structural primitives are the demand- and the supply-elasticities of
+ all the goods in the economy
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Precedent: Harberger (1964)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider a static, general equilibrium model.
+\end_layout
+
+\begin_layout Itemize
+An individual is endowed with 
+\begin_inset Formula $Z$
+\end_inset
+
+ units of numeraire good 
+\begin_inset Formula $y$
+\end_inset
+
+ (think of it as labor)
+\end_layout
+
+\begin_layout Itemize
+Firms use the numeraire as input to production of 
+\begin_inset Formula $J$
+\end_inset
+
+ consumption goods 
+\begin_inset Formula $\boldsymbol{x}=\left(x_{1},\ldots,x_{J}\right)$
+\end_inset
+
+ with convex cost functions 
+\begin_inset Formula $c_{j}\left(x_{j}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Total cost of production is 
+\begin_inset Formula $c\left(\boldsymbol{x}\right)=\sum_{j=1}^{J}c_{j}\left(x_{j}\right)$
+\end_inset
+
+.
+ Production is perfectly competitive.
+\end_layout
+
+\begin_layout Itemize
+Government taxes good 1 at rate 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\mathbf{p}=\left(p_{1},\ldots,p_{J}\right)$
+\end_inset
+
+ is the vector of (endogenous) pretax prices
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Precedent: Harberger (1964)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consumer takes prices as given and maximizes quasi-linear utility:
+\begin_inset Formula 
+\begin{align*}
+ & \max_{\boldsymbol{x},y}u\left(x_{1},\ldots,x_{J}\right)+y\\
+ & \text{s.t. }\boldsymbol{p}\cdot\boldsymbol{x}+tx_{1}+y=Z
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Firms take prices as given and solve
+\begin_inset Formula 
+\[
+\max_{\boldsymbol{x}}\boldsymbol{p}\cdot\boldsymbol{x}-c\left(\boldsymbol{x}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+These two problems give us demand and supply of the 
+\begin_inset Formula $J$
+\end_inset
+
+ goods: 
+\begin_inset Formula $\boldsymbol{x}^{D}\left(\boldsymbol{p}\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $\boldsymbol{x}^{S}\left(\boldsymbol{p}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Markets clear to close the model: 
+\begin_inset Formula $\boldsymbol{x}^{D}\left(\boldsymbol{p}\right)=\boldsymbol{x}^{S}\left(\boldsymbol{p}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Theory
+\end_layout
+
+\end_inset
+
+Theory: Welfare Concepts and Sufficient Statistics
+\end_layout
+
+\begin_layout Subsection
+Kleven (2019) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Sufficient Statistics Revisited
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleven (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\ldots$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Finkelstein (2019) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Welfare Analysis Meets Causal Inference: A Suggested Interpretation of Hendren
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein (2019): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\ldots$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Application
+\end_layout
+
+\end_inset
+
+An Application
+\end_layout
+
+\begin_layout Subsection
+Hendren & Sprung-Keyser (2019) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+A Unifierd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Hendren & Sprung-Keyser (2019): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\ldots$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
