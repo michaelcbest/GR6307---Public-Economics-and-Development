@@ -717,7 +717,7 @@ Government taxes good 1 at rate
 
 .
  
-\begin_inset Formula $\mathbf{p}=\left(p_{1},\ldots,p_{J}\right)$
+\begin_inset Formula $\boldsymbol{p}=\left(p_{1},\ldots,p_{J}\right)$
 \end_inset
 
  is the vector of (endogenous) pretax prices
@@ -792,6 +792,601 @@ Markets clear to close the model:
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Precedent: Harberger (1964)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What is the welfare cost of the tax 
+\begin_inset Formula $t$
+\end_inset
+
+? It's the loss of social surplus from transactions that fail to take place
+ because of the tax.
+\end_layout
+
+\begin_layout Itemize
+Conceptual experiment: what is the loss in welfare if we raise the tax rate
+ and rebate the revenues lump sum to consumers?
+\begin_inset Formula 
+\begin{align*}
+W\left(t\right) & =\underbrace{\left\{ \max_{\boldsymbol{x}}u\left(\boldsymbol{x}\right)+Z-tx_{1}-\boldsymbol{p}\left(t\right)\cdot\boldsymbol{x}\right\} }_{\text{consumer surplus \ensuremath{CS\left(\boldsymbol{x};t\right)}}}\\
+ & \quad+\underbrace{\left\{ \max_{\boldsymbol{x}}\boldsymbol{p}\left(t\right)\cdot\boldsymbol{x}-c\left(\boldsymbol{x}\right)\right\} }_{\text{producer surplus }PS\left(\boldsymbol{x};t\right)}+\underbrace{tx_{1}}_{\text{tax revenue}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note: consumers don't take account of change in size of rebate when choosing
+ 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+: It is a 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+fiscal externality
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Precedent: Harberger (1964)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+So how can we estimate 
+\begin_inset Formula $dW\left(t\right)/dt$
+\end_inset
+
+? 
+\end_layout
+
+\begin_layout Enumerate
+Estimate 
+\begin_inset Formula $J$
+\end_inset
+
+ good demand and supply system to get 
+\begin_inset Formula $u\left(\boldsymbol{x}\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $c\left(\boldsymbol{x}\right)$
+\end_inset
+
+.
+ The problem is simultaneity: To get the slope of the demand and supply
+ curves, we need 
+\begin_inset Formula $2J$
+\end_inset
+
+ instruments!
+\end_layout
+
+\begin_layout Enumerate
+Harberger's simpler approach: Exploit the power of the envelope theorem.
+ Consumers and producers are choosing 
+\begin_inset Formula $\boldsymbol{x}$
+\end_inset
+
+ optimally so we can ignore behavioral responses 
+\begin_inset Formula $d\boldsymbol{x}/dt$
+\end_inset
+
+ in the curly brackets: 
+\begin_inset Formula 
+\[
+\frac{dCS\left(\boldsymbol{x};t\right)}{dt}=\frac{\partial CS\left(\boldsymbol{x};t\right)}{\partial\boldsymbol{x}}\frac{d\boldsymbol{x}}{dt}+\frac{\partial CS\left(\boldsymbol{x};t\right)}{\partial t}=\frac{\partial CS\left(\boldsymbol{x};t\right)}{\partial t}
+\]
+
+\end_inset
+
+(and similarly for producer surplus)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Precedent: Harberger (1964)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let's demonstrate this for consumer surplus
+\end_layout
+
+\begin_layout Itemize
+Consumer's FOCs are
+\begin_inset Formula 
+\[
+\frac{\partial u\left(\boldsymbol{x}\right)}{\partial x_{1}}=p_{1}+t\quad\frac{\partial u\left(\boldsymbol{x}\right)}{\partial x_{j}}=p_{j},\:j=2,\ldots,J
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Totally differentiating 
+\begin_inset Formula $CS\left(\boldsymbol{x};t\right)$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\frac{dCS\left(\boldsymbol{x};t\right)}{dt} & =\underbrace{\sum_{j=1}^{J}\left(\frac{\partial u\left(\boldsymbol{x}\right)}{\partial x_{j}}-p_{j}\right)\frac{\partial x_{j}}{\partial t}-t\frac{\partial x_{1}}{\partial t}}_{\partial CS\left(\boldsymbol{x};t\right)/\partial\boldsymbol{x}\;\partial\boldsymbol{x}/\partial t}\underbrace{-\frac{\partial\boldsymbol{p}\left(t\right)}{\partial t}\cdot\boldsymbol{x}-x_{1}}_{\partial CS\left(\boldsymbol{x};t\right)/\partial t}\\
+ & =-\frac{\partial\boldsymbol{p}\left(t\right)}{\partial t}\cdot\boldsymbol{x}-x_{1}=\frac{\partial CS\left(\boldsymbol{x};t\right)}{\partial t}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Precedent: Harberger (1964)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Using the power of the envelope theorem we have
+\begin_inset Formula 
+\begin{align*}
+\frac{dW\left(t\right)}{dt} & =\frac{dCS\left(\boldsymbol{x};t\right)}{dt}+\frac{dPS\left(\boldsymbol{x};t\right)}{dt}+\frac{dtx_{1}}{dt}\\
+ & =\frac{\partial CS\left(\boldsymbol{x};t\right)}{\partial t}+\frac{\partial PS\left(\boldsymbol{x};t\right)}{\partial t}+\frac{dtx_{1}}{dt}\\
+ & =\left(-\frac{\partial\boldsymbol{p}\left(t\right)}{\partial t}\cdot\boldsymbol{x}-x_{1}\right)+\left(\frac{\partial\boldsymbol{p}\left(t\right)}{\partial t}\cdot\boldsymbol{x}\right)+\left(x_{1}+t\frac{dx_{1}}{dt}\right)\\
+ & =t\frac{dx_{1}\left(t\right)}{dt}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $dx_{1}\left(t\right)/dt$
+\end_inset
+
+ is a 
+\series bold
+sufficient statistic
+\series default
+ for the welfare loss
+\end_layout
+
+\begin_layout Enumerate
+Taxes induce behavioral responses 
+\begin_inset Formula $d\boldsymbol{x}/dt$
+\end_inset
+
+ but these have no first-order effects on welfare because households and
+ firms are optimizing (envelope theorem)
+\end_layout
+
+\begin_layout Enumerate
+Taxes induce changes in prices 
+\begin_inset Formula $d\boldsymbol{p}/dt$
+\end_inset
+
+ but these have no first-order effects on welfare, they only redistribute
+ surplus between producers and consumers
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A General Cookbook
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Here's a general cookbook (we'll focus on a single agent in a static model,
+ but easy to generalize)
+\end_layout
+
+\begin_layout Itemize
+Step 1: Specify the structure of the model.
+ What are the agent's choices and constraints? 
+\begin_inset Formula 
+\[
+\max_{x}U\left(\boldsymbol{x}\right)\quad s.t.\;G_{1}\left(\boldsymbol{x},t,T\right),\ldots,G_{M}\left(\boldsymbol{x},t,T\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\boldsymbol{x}=\left(x_{1},\ldots,x_{J}\right)$
+\end_inset
+
+ are choices, 
+\begin_inset Formula $t$
+\end_inset
+
+ is 
+\begin_inset Quotes eld
+\end_inset
+
+tax
+\begin_inset Quotes erd
+\end_inset
+
+ on 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $T\left(t\right)$
+\end_inset
+
+ is transfer in units of 
+\begin_inset Formula $x_{J}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Solution to this problem defines welfare as a function of the policy instrument
+\begin_inset Formula 
+\[
+W\left(t\right)=\max_{x}U\left(\boldsymbol{x}\right)+\sum_{m=1}^{M}\lambda_{m}G_{m}\left(\boldsymbol{x},t,T\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A General Cookbook
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Step 2: Express 
+\begin_inset Formula $dW\left(t\right)/dt$
+\end_inset
+
+ in terms of multipliers:
+\begin_inset Formula 
+\[
+\frac{dW\left(t\right)}{dt}=\sum_{m=1}^{M}\lambda_{m}\left\{ \frac{\partial G_{m}}{\partial T}\frac{\partial T}{\partial t}+\frac{\partial G_{m}}{\partial t}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We know 
+\begin_inset Formula $\partial T/\partial t$
+\end_inset
+
+ from the government budget constraint, and can calculate 
+\begin_inset Formula $\partial G_{m}/\partial T$
+\end_inset
+
+ and 
+\begin_inset Formula $\partial G_{m}/\partial t$
+\end_inset
+
+.
+ The key unknowns are the 
+\begin_inset Formula $\lambda_{m}$
+\end_inset
+
+s.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A General Cookbook
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Step 3: Substitute Multipliers by marginal utilities.
+ The agent's FOCs imply
+\begin_inset Formula 
+\[
+\frac{\partial u\left(\boldsymbol{x}\right)}{\partial x_{j}}=-\sum_{m=1}^{M}\lambda_{m}\frac{\partial G_{m}}{\partial x_{j}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This maps the 
+\begin_inset Formula $\lambda$
+\end_inset
+
+s to the marginal utilities.
+ Let's make an assumption on the structure of the constraints:
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial G_{m}}{\partial t} & =k_{t}\left(\boldsymbol{x},t,T\right)\frac{\partial G_{m}}{\partial x_{1}}\;\forall m=1,\ldots,M\\
+\frac{\partial G_{m}}{\partial T} & =-k_{T}\left(\boldsymbol{x},t,T\right)\frac{\partial G_{M}}{\partial x_{J}}\;\forall m=1,\ldots,M
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A General Cookbook
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now we have
+\begin_inset Formula 
+\begin{align*}
+\frac{dW\left(t\right)}{dt} & =\sum_{m=1}^{M}\lambda_{m}\left\{ \frac{\partial G_{m}}{\partial T}\frac{\partial T}{\partial t}+\frac{\partial G_{m}}{\partial t}\right\} \\
+ & =\sum_{m=1}^{M}\lambda_{m}\left\{ -k_{T}\left(\boldsymbol{x},t,T\right)\frac{\partial G_{M}}{\partial x_{J}}\frac{\partial T}{\partial t}+k_{t}\left(\boldsymbol{x},t,T\right)\frac{\partial G_{m}}{\partial x_{1}}\right\} \\
+ & =-k_{T}\frac{\partial T}{\partial t}\sum_{m=1}^{M}\lambda_{m}\frac{\partial G_{M}}{\partial x_{J}}+k_{t}\sum_{m=1}^{M}\lambda_{m}\frac{\partial G_{m}}{\partial x_{1}}\\
+ & =k_{T}\frac{\partial T}{\partial t}u^{\prime}\left(x_{J}\left(t\right)\right)-k_{t}u^{\prime}\left(x_{1}\left(t\right)\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A General Cookbook
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Step 4: Recover the marginal utilities from observed choices.
+\end_layout
+
+\begin_layout Itemize
+Sometimes we make assumptions about the marginal utilities (e.g.
+ quasilinear utility in the Harberger example means that 
+\begin_inset Formula $u^{\prime}\left(x_{J}\right)=1$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+In general, try and use the fact that the marginal utilites are inputs into
+ observed choices and then recover them from how choices change in response
+ to price/policy changes.
+ e.g.
+ in Harberger example, 
+\begin_inset Formula $u^{\prime}\left(x_{1}\right)=p_{1}+t$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A General Cookbook
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Step 5: Empirical implementation
+\end_layout
+
+\begin_layout Itemize
+The work so far tells us which empirical objects we need to try and estimate:
+\begin_inset Formula 
+\[
+\text{e.g. }\frac{dW\left(t\right)}{dt}=f\left(\frac{\partial x_{1}}{\partial t},\frac{\partial x_{1}}{\partial Z},t\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Estimate these objects using policy/price changes
+\end_layout
+
+\begin_layout Itemize
+Step 6: Model evaluation
+\end_layout
+
+\begin_layout Enumerate
+Test predictions of the model that was needed to get the sufficient statistics
+ model
+\end_layout
+
+\begin_layout Enumerate
+Identify at least one set of structural parameters 
+\begin_inset Formula $\boldsymbol{\omega}$
+\end_inset
+
+ that is consistent with the model
 \end_layout
 
 \end_deeper
