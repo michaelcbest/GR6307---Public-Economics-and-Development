@@ -1438,7 +1438,41 @@ status open
 status open
 
 \begin_layout Plain Layout
-Kleven (2019)
+Kleven (2019): Sufficient Statistics Approaches Have Become Popular
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Kleven2019_1.png
+	lyxscale 50
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleven (2019): Overview
 \end_layout
 
 \end_inset
@@ -1448,7 +1482,165 @@ Kleven (2019)
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $\ldots$
+The sufficient statistics approach we just saw relies on 3 things
+\end_layout
+
+\begin_layout Enumerate
+The reform being analyzed is small
+\end_layout
+
+\begin_layout Enumerate
+There are no other distortions in the economy
+\end_layout
+
+\begin_layout Enumerate
+Decisions about the structure of the environment that pin down which elasticitie
+s are sufficient in a particular setting
+\end_layout
+
+\begin_layout Itemize
+This paper:
+\end_layout
+
+\begin_layout Enumerate
+Provide a general framework to showcase how general sufficient statistics
+ approach is
+\end_layout
+
+\begin_layout Enumerate
+Show how it generalizes when we relax 1.
+ and 2.
+\end_layout
+
+\begin_layout Enumerate
+Show how quickly the estimation requirements go up!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleven (2019): General Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Continuum of individuals indexed by 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Discrete set of goods 
+\begin_inset Formula $j=0,\ldots,J$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+u^{i}\left(x_{0}^{i},\ldots,x_{J}^{i}\right)=u^{i}\left(\boldsymbol{x}^{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Budget constraint (normalize pre-tax prices to 1)
+\begin_inset Formula 
+\[
+\sum_{j=1}^{J}x_{j}^{i}+T\left(x_{0}^{i},\ldots,x_{J}^{i}\right)=y^{i}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $T\left(\boldsymbol{x}\right)$
+\end_inset
+
+ is a tax fundtion that need not be separable embodying all taxes and transfers.
+\end_layout
+
+\begin_layout Itemize
+Assume that 
+\begin_inset Formula $T\left(x_{0}^{i},\ldots,x_{J}^{i}\right)$
+\end_inset
+
+ is piecewise linear and denote marginal tax rates 
+\begin_inset Formula $\partial T/\partial x_{j}^{i}\equiv\tau_{j}^{i}$
+\end_inset
+
+.
+ BC becomes
+\begin_inset Formula 
+\[
+\sum_{j=0}^{J}\left(1+\tau_{j}^{i}\right)x_{j}^{i}=Y^{i}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $Y^{i}=y^{i}+\sum_{j=0}^{J}\tau_{j}^{i}x_{j}^{i}-T\left(x_{0}^{i},\ldots,x_{J}^{i}\right)$
+\end_inset
+
+ is virtual income.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleven (2019): General Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Solution given by FOCs
+\begin_inset Formula 
+\[
+\frac{\partial u^{i}}{\partial x_{j}^{i}}-\lambda^{i}\left(1+\tau_{j}^{i}\right)=0\;\forall j
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Yielding indirect utility
+\begin_inset Formula 
+\[
+v^{i}\left(1+\tau_{0}^{i},\ldots,1+\tau_{J}^{i}\right)=u^{i}\left(x_{0}\left(1+\tau_{0}^{i},\ldots,1+\tau_{J}^{i}\right)\right)
+\]
+
 \end_inset
 
 
@@ -1572,7 +1764,7 @@ Hendren & Sprung-Keyser (2019): Overview
 \begin_inset Formula $\ldots$
 \end_inset
 
-
+Over to you guys
 \end_layout
 
 \end_deeper
