@@ -1452,7 +1452,7 @@ Kleven (2019): Sufficient Statistics Approaches Have Become Popular
 \begin_inset Graphics
 	filename Kleven2019_1.png
 	lyxscale 50
-	height 100theight%
+	width 90page%
 
 \end_inset
 
@@ -2496,7 +2496,90 @@ To go from this to a sufficient statistics formula, assume
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $x_{j}^{i}=x_{j}^{i}\left(1+\tau\right)$
+\begin_inset Formula $x_{j}^{i}=x_{j}^{i}\left(1+\tau_{0}^{i},\ldots,1+\tau_{J}^{i},Y^{i}\right)$
+\end_inset
+
+: Demand doesn't depend on the externalities
+\end_layout
+
+\begin_layout Enumerate
+The externalities take the form 
+\begin_inset Formula $\phi^{i}=\phi_{I_{j}}^{i}\mathbf{1}\left\{ \hat{i}=i\right\} +\phi_{E_{j}}^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now we get
+\begin_inset Formula 
+\begin{align*}
+\left.\frac{dW/d\theta}{\mu}\right|_{g^{i}=1} & =\int_{i}\sum_{j=0}^{J}\left[\left(\tau_{j}^{i}+\tau_{I_{j}}^{i}+\tau_{E_{j}}\right)\frac{dx_{j}^{i}}{d\theta}\right]di\\
+ & =\int_{i}\left[\sum_{j=0}^{J}\sum_{k=0}^{J}\hat{\tau}^{i}x_{j}^{i}\varepsilon_{jk}^{i}\frac{d\tau_{k}^{i}/d\theta}{1+\tau_{k}^{i}}-\sum_{j=0}^{J}\hat{\tau}_{j}x_{j}^{i}\eta_{j}^{i}\frac{\partial T^{i}/\partial\theta}{Y^{i}}\right]di
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\tau_{I_{j}}^{i}\equiv\frac{\partial v^{i}/\partial E_{j}^{i}}{\lambda^{i}}\phi_{I_{j}}^{i}$
+\end_inset
+
+, 
+\begin_inset Formula $\tau_{E_{j}}\equiv\int_{i}\frac{\partial v^{i}/\partial E_{j}^{i}}{\lambda^{i}}\phi_{E_{j}}^{i}$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\tau}_{j}^{i}=\tau_{j}^{i}+\tau_{I_{j}}^{i}+\tau_{E_{j}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Non-Government Distortions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If we specialize to the Harberger case, this becomes
+\begin_inset Formula 
+\[
+\left.\frac{dW/d\theta}{\mu}\right|_{g^{i}=1}=\bar{\varepsilon}_{0}\frac{\hat{\tau}_{0}}{1+\tau_{0}}\frac{d\tau_{0}}{d\theta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The formula is almost the same.
+\end_layout
+
+\begin_layout Itemize
+But we need to estimate 
+\begin_inset Formula $\hat{\tau}_{0}$
+\end_inset
+
+ so the sufficient statistics are 
+\begin_inset Formula $\left\{ \bar{\varepsilon}_{0},\hat{\tau}_{0}\right\} $
 \end_inset
 
 
@@ -2548,10 +2631,221 @@ Finkelstein (2019): Overview
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $\ldots$
+In Public Economics the question we ultimately care about is what the 
+\emph on
+welfare
+\emph default
+ effects of a policy are (rather than 
+\begin_inset Quotes eld
+\end_inset
+
+just
+\begin_inset Quotes erd
+\end_inset
+
+ the effects on earnings, employment, education, etc.)
+\end_layout
+
+\begin_layout Itemize
+How can we measure this 
+\emph on
+empirically
+\emph default
+?
+\end_layout
+
+\begin_layout Itemize
+Problem:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Marginal deadweight loss depends on 
+\emph on
+compensated
+\emph default
+ elasticities, but we usually estimate uncompensated elasticities
+\end_layout
+
+\begin_layout Itemize
+The Marginal Cost of Public Funds (MCPF) approach needs to monetize the
+ welfare impacts of a bunch of changes in non-monetary outcomes, and relate
+ them to 1 + MCPF (0.3??)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A metric popularized by Hendren (2016) is the 
+\series bold
+Marginal Value of Public Funds (MVPF)
+\series default
+
+\begin_inset Formula 
+\[
+MVPF=\frac{\text{"Benefit"}}{\text{"Cost"}}
+\]
+
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Application to Targeted Transfer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider an increase of $1 in the transfer to a specific income group (e.g.
+ through EITC, or anti-poverty program)
+\end_layout
+
+\begin_layout Itemize
+Start with the numerator, the benefit.
+ There are two types of individuals
+\end_layout
+
+\begin_layout Enumerate
+Infra-marginal beneficiaries 
+\begin_inset Formula $I$
+\end_inset
+
+.
+ They value the extra $1 at $1.
+\end_layout
+
+\begin_layout Enumerate
+Marginal beneficiaries 
+\begin_inset Formula $M$
+\end_inset
+
+.
+ They changed their behavior to become just eligible.
+ Envelope theorem tells us they are, to first order, indifferent to this
+ change.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ benefit is 
+\begin_inset Formula $\$1\times$
+\end_inset
+
+number of infra-marginal beneficiaries
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Application to Targeted Transfer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now consider the denominator, the cost.
+ This also comes from two sources:
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+mechanical cost
+\series default
+.
+ $1 per inframarginal recipient: $I
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+fiscal externality
+\series default
+ 
+\begin_inset Formula $FE$
+\end_inset
+
+.
+ The impact of behavioral changes on the government budget.
+\begin_inset Formula 
+\[
+\Rightarrow MVPF=\frac{1}{1+FE}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is great because the Fiscal Externality is the causal effect of the
+ policy change on the government's budget.
+ This object is ideally suited to the use of modern empirical methods to
+ estimate it (in a way that, say, compensated elasticities are not)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Policies that Affect Different Income Groups
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can compare policies that affect the same income group by comparing their
+ MVPF.
+\end_layout
+
+\begin_layout Itemize
+But how can we compare policies that affect different income groups?
 \end_layout
 
 \end_deeper

@@ -2631,10 +2631,314 @@ Finkelstein (2019): Overview
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $\ldots$
+In Public Economics the question we ultimately care about is what the 
+\emph on
+welfare
+\emph default
+ effects of a policy are (rather than 
+\begin_inset Quotes eld
+\end_inset
+
+just
+\begin_inset Quotes erd
+\end_inset
+
+ the effects on earnings, employment, education, etc.)
+\end_layout
+
+\begin_layout Itemize
+How can we measure this 
+\emph on
+empirically
+\emph default
+?
+\end_layout
+
+\begin_layout Itemize
+Problem:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Marginal deadweight loss depends on 
+\emph on
+compensated
+\emph default
+ elasticities, but we usually estimate uncompensated elasticities
+\end_layout
+
+\begin_layout Itemize
+The Marginal Cost of Public Funds (MCPF) approach needs to monetize the
+ welfare impacts of a bunch of changes in non-monetary outcomes, and relate
+ them to 1 + MCPF (0.3??)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A metric popularized by Hendren (2016) is the 
+\series bold
+Marginal Value of Public Funds (MVPF)
+\series default
+
+\begin_inset Formula 
+\[
+MVPF=\frac{\text{"Benefit"}}{\text{"Cost"}}
+\]
+
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Application to Targeted Transfer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider an increase of $1 in the transfer to a specific income group (e.g.
+ through EITC, or anti-poverty program)
+\end_layout
+
+\begin_layout Itemize
+Start with the numerator, the benefit.
+ There are two types of individuals
+\end_layout
+
+\begin_layout Enumerate
+Infra-marginal beneficiaries 
+\begin_inset Formula $I$
+\end_inset
+
+.
+ They value the extra $1 at $1.
+\end_layout
+
+\begin_layout Enumerate
+Marginal beneficiaries 
+\begin_inset Formula $M$
+\end_inset
+
+.
+ They changed their behavior to become just eligible.
+ Envelope theorem tells us they are, to first order, indifferent to this
+ change.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ benefit is 
+\begin_inset Formula $\$1\times$
+\end_inset
+
+number of infra-marginal beneficiaries
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Application to Targeted Transfer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now consider the denominator, the cost.
+ This also comes from two sources:
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+mechanical cost
+\series default
+.
+ $1 per inframarginal recipient: $I
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+fiscal externality
+\series default
+ 
+\begin_inset Formula $FE$
+\end_inset
+
+.
+ The impact of behavioral changes on the government budget.
+\begin_inset Formula 
+\[
+\Rightarrow MVPF=\frac{1}{1+FE}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is great because the Fiscal Externality is the causal effect of the
+ policy change on the government's budget.
+ This object is ideally suited to the use of modern empirical methods to
+ estimate it (in a way that, say, compensated elasticities are not)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Policies that Affect Different Income Groups
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can compare policies that affect the same income group by comparing their
+ MVPF.
+\end_layout
+
+\begin_layout Itemize
+But how can we compare policies that affect different income groups?
+\end_layout
+
+\begin_layout Itemize
+A natural benchmark is to compare the MVPF of a policy affecting income
+ group 
+\begin_inset Formula $y_{i}$
+\end_inset
+
+ to the MVPF of a $1 tax cut at 
+\begin_inset Formula $y_{i}$
+\end_inset
+
+, what Hendren (2017) terms the 
+\begin_inset Quotes eld
+\end_inset
+
+Efficient Welfare Weight
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $v_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now we can compare a policy that transfers resources to income group 
+\begin_inset Formula $y_{i}\left(MVPF_{i}\right)$
+\end_inset
+
+ to a policy that transfers resources to income group 
+\begin_inset Formula $y_{j}\left(MVPF_{j}\right)$
+\end_inset
+
+: We prefer policy 
+\begin_inset Formula $i$
+\end_inset
+
+ to policy 
+\begin_inset Formula $j$
+\end_inset
+
+ if
+\begin_inset Formula 
+\[
+MVPF_{i}\frac{v_{j}}{v_{i}}>MVPF_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Policies that Affect Different Income Groups
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can also provide a way to benchmark a single policy: Is it's MVPF bigger
+ than a tax cut for that group?
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $MVPF_{i}>v_{i}$
+\end_inset
+
+ it suggests we raise taxes on that group by $1 and use the money to do
+ policy 
+\begin_inset Formula $i$
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
@@ -2671,7 +2975,7 @@ textit{
 
 \end_inset
 
-A Unifierd
+A Unified Welfare Analysis of Government Policies
 \begin_inset ERT
 status open
 
