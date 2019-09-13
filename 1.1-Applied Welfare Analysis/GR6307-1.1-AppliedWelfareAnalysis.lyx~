@@ -1452,7 +1452,7 @@ Kleven (2019): Sufficient Statistics Approaches Have Become Popular
 \begin_inset Graphics
 	filename Kleven2019_1.png
 	lyxscale 50
-	height 100theight%
+	height 100pheight%
 
 \end_inset
 
@@ -1598,6 +1598,991 @@ where
 \end_inset
 
  is virtual income.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Kleven (2019): General Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Solution given by FOCs
+\begin_inset Formula 
+\[
+\frac{\partial u^{i}}{\partial x_{j}^{i}}-\lambda^{i}\left(1+\tau_{j}^{i}\right)=0\;\forall j
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Yielding indirect utility
+\begin_inset Formula 
+\begin{align*}
+v^{i}\left(1+\tau_{0}^{i},\ldots,1+\tau_{J}^{i},Y^{i}\right) & =u^{i}\left(x_{0}^{i}\left(1+\tau_{0}^{i},\ldots,1+\tau_{J}^{i},Y^{i}\right),\ldots\right.\\
+ & \qquad\quad\left.\ldots,x_{J}^{i}\left(1+\tau_{0}^{i},\ldots,1+\tau_{J}^{i},Y^{i}\right)\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Remember 1st year micro results:
+\begin_inset Formula 
+\[
+\frac{\partial v^{i}}{\partial Y^{i}}=\lambda^{i},\quad\underbrace{\frac{\partial v^{i}}{\partial\left(1+\tau_{k}^{i}\right)}=-\lambda^{i}x_{k}^{i}}_{\text{Roy's identity}}\quad\underbrace{\frac{\partial x_{j}^{i}}{\partial\left(1+\tau_{k}^{i}\right)}=\frac{\partial\tilde{x}_{j}^{i}}{\partial\left(1+\tau_{k}^{i}\right)}-x_{k}^{i}\frac{\partial x_{j}^{i}}{\partial Y^{i}}}_{\text{Slutsky decomposition}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Welfare Effect of Small Reforms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Specify the tax policy as a function of treatment parameters 
+\begin_inset Formula $\theta$
+\end_inset
+
+: 
+\begin_inset Formula $T\left(x_{0}^{i},\ldots,x_{J}^{i},\theta\right)$
+\end_inset
+
+, and 
+\begin_inset Formula $\tau\left(x_{0}^{i},\ldots,x_{J}^{i},\theta\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Consider a small reform 
+\begin_inset Formula $d\theta\approx0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Money-metric measure of effect on individuals' utility:
+\begin_inset Formula 
+\begin{align*}
+\frac{dv^{i}}{d\theta} & =\sum_{j=0}^{J}\frac{\partial v^{i}}{\partial\left(1+\tau_{j}^{i}\right)}\frac{d\tau_{j}^{i}}{d\theta}+\frac{\partial v^{i}}{\partial Y^{i}}\frac{dY^{i}}{d\theta}\\
+ & =-\lambda^{i}\left(\sum_{j=0}^{J}x_{j}^{i}\frac{d\tau_{j}^{i}}{d\theta}+\frac{dY^{i}}{d\theta}\right)\\
+ & =-\lambda^{i}\frac{\partial T^{i}}{\partial\theta}
+\end{align*}
+
+\end_inset
+
+where the last equality uses 
+\begin_inset Formula $\frac{dY^{i}}{d\theta}=\sum_{j=0}^{J}x_{j}^{i}\frac{d\tau_{j}^{i}}{d\theta}-\frac{\partial T^{i}}{\partial\theta}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+The utility effect is equal to the mechanical revenue effect
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Welfare Effect of Small Reforms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now let's look at the social welfare effect.
+ Define
+\begin_inset Formula 
+\[
+W\left(\theta\right)=\int_{i}\omega^{i}v^{i}\left(\theta\right)di+\mu\int_{i}T^{i}\left(\theta\right)di
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\omega^{i}$
+\end_inset
+
+ is a Pareto weight on individual 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu$
+\end_inset
+
+ is the marginal value of government revenue.
+\end_layout
+
+\begin_layout Itemize
+Differentiating
+\begin_inset Formula 
+\begin{align*}
+\frac{dW\left(\theta\right)/d\theta}{\mu} & =\int_{i}\left[\frac{\omega^{i}}{\mu}\frac{dv^{i}}{d\theta}+\frac{dT^{i}}{d\theta}\right]di=\int_{i}\left[\frac{dT^{i}}{d\theta}-g^{i}\frac{\partial T^{i}}{\partial\theta}\right]di\\
+ & =\int_{i}\left(\underbrace{\left[\frac{dT^{i}}{d\theta}-\frac{\partial T^{i}}{\partial\theta}\right]}_{\text{efficiency}}+\underbrace{\left(1-g^{i}\right)\frac{\partial T^{i}}{\partial\theta}}_{\text{equity}}\right)di
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $g^{i}=\frac{\omega^{i}\lambda^{i}}{\mu}$
+\end_inset
+
+ is each individual's social marginal welfare weight
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Welfare Effects of Small Reforms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The efficiency term is the 
+\emph on
+fiscal externality
+\emph default
+: behavioral changes reduce government revenue and reduce the potential
+ transfer others can receive
+\end_layout
+
+\begin_layout Itemize
+So what are the sufficient statistics? (and are they going to be externally
+ valid?) Using 
+\begin_inset Formula $T\left(x_{0}^{i},\ldots,x_{J}^{i},\theta\right)$
+\end_inset
+
+ the fiscal externality can be rewritten as
+\begin_inset Formula 
+\begin{align*}
+\left.\frac{dW/d\theta}{\mu}\right|_{g^{i}=1} & =\int_{i}\sum_{j=0}^{J}\tau_{j}^{i}\left[\sum_{k=0}^{J}\frac{\partial x_{j}^{i}}{\partial\left(1+\tau_{k}^{i}\right)}\frac{d\tau_{k}^{i}}{d\theta}+\frac{\partial x_{j}^{i}}{\partial Y^{i}}\frac{dY^{i}}{d\theta}\right]di\\
+ & =\int_{i}\sum_{j=0}^{J}\tau_{j}^{i}\left[\sum_{k=0}^{J}\frac{\partial x_{j}^{i}}{\partial\left(1+\tau_{k}^{i}\right)}\frac{d\tau_{k}^{i}}{d\theta}\right.\\
+ & \qquad+\left.\frac{\partial x_{j}^{i}}{\partial Y^{i}}\left(\sum_{k=0}^{J}\frac{d\tau_{k}^{i}}{d\theta}x_{k}^{i}-\frac{\partial T^{i}}{\partial\theta}\right)\right]di\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Welfare Effect of Small Reforms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.\frac{dW/d\theta}{\mu}\right|_{g^{i}=1}=\int_{i}\sum_{j=0}^{J}\left[\sum_{k=0}^{J}\tau_{j}^{i}x_{j}^{i}\varepsilon_{jk}^{i}\frac{d\tau_{k}^{i}/d\theta}{1+\tau_{k}^{i}}-\tau_{j}^{i}x_{j}^{i}\eta_{j}^{i}\frac{\partial T^{i}/\partial\theta}{Y^{i}}\right]
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\varepsilon_{jk}^{i}\equiv\frac{\partial\tilde{x}_{j}^{i}}{\partial\left(1+\tau_{k}^{i}\right)}\frac{1+\tau_{k}^{i}}{x_{j}^{i}}$
+\end_inset
+
+ is the Hicksian (compensated) price elasticity and 
+\begin_inset Formula $\eta_{j}^{i}\equiv\frac{\partial x_{j}^{i}}{\partial Y^{i}}\frac{Y^{i}}{x_{j}^{i}}$
+\end_inset
+
+ is the income elasticity.
+\end_layout
+
+\begin_layout Itemize
+Therefore, the sufficient statistics for evaluating the reform are 
+\begin_inset Formula $\left\{ \varepsilon_{jk}^{i},\eta_{j}^{i}\right\} _{\forall j,k,i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Completely general given 1) small reform; and 2) no non-policy imperfections
+\end_layout
+
+\begin_layout Itemize
+It is also a 
+\emph on
+general equilibrium
+\emph default
+ result, allowing for cross market effects etc.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+But You Said That Sufficient Statistics was Simple!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Of course, the problem is that 
+\begin_inset Formula $J$
+\end_inset
+
+ is potentially very large.
+ So we require restrictions on either a) the tax policy space (what the
+ 
+\begin_inset Formula $d\tau/d\theta$
+\end_inset
+
+ and 
+\begin_inset Formula $\partial T/\partial\theta$
+\end_inset
+
+ terms look like) or on behavioral responses (the 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+s and 
+\begin_inset Formula $\eta$
+\end_inset
+
+s)
+\end_layout
+
+\begin_layout Itemize
+How can we get back to that nice simple Harberger equation? 
+\end_layout
+
+\begin_layout Itemize
+Assume
+\end_layout
+
+\begin_layout Enumerate
+Utility is quasi-linear: 
+\begin_inset Formula $\Rightarrow\eta_{j}^{i}=0\;\forall j,i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Only one good is taxed: 
+\begin_inset Formula $\tau_{0}\neq0;\;\tau_{j}=0\;\forall j=1,\ldots,J$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The tax is linear: 
+\begin_inset Formula $T=\tau_{0}x_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now that big equation collapses down to
+\begin_inset Formula 
+\[
+\left.\frac{dW/d\theta}{\mu}\right|_{g^{i}=1}=\bar{\varepsilon}_{0}\frac{\tau_{0}}{1+\tau_{0}}\frac{d\tau_{0}}{d\theta}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\bar{\varepsilon}_{0}=\int_{i}x_{0}^{i}\varepsilon_{00}^{i}di$
+\end_inset
+
+, the demand-weighted average elasticity is the sufficient statistic
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+But You Said That Sufficient Statistics was Simple!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A different way to do this is to assume quasi-linearity but that goods 
+\begin_inset Formula $0,\ldots,J_{0}$
+\end_inset
+
+ are taxed at rate 
+\begin_inset Formula $\tau_{0}$
+\end_inset
+
+ wile goods 
+\begin_inset Formula $J_{0}+1,\ldots,J$
+\end_inset
+
+ are taxed at rate 
+\begin_inset Formula $\tau_{1}\left(=0\text{ wlog}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now the sufficient statistic is 
+\begin_inset Formula $\bar{\varepsilon}_{0}=\int_{i}\left[\sum_{j=0}^{J_{0}}\sum_{k=0}^{J_{0}}x_{j}^{i}\varepsilon_{jk}^{i}\right]di$
+\end_inset
+
+ is the demand-weighted elasticity across goods 
+\begin_inset Formula $0,\ldots,J_{0}$
+\end_inset
+
+ with respect to their tax rate 
+\begin_inset Formula $\tau_{0}$
+\end_inset
+
+.
+ Still a single elasticity, but a different one.
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ 1: Goods 
+\begin_inset Formula $0,\ldots,J_{0}$
+\end_inset
+
+ are labor supply in different periods and the others are consumption in
+ those periods.
+ Now we can interpret 
+\begin_inset Formula $\bar{\varepsilon}_{0}$
+\end_inset
+
+ as the elasticity of 
+\emph on
+lifetime
+\emph default
+ rather than contemporaneous earnings.
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ 2: Goods 
+\begin_inset Formula $0,\ldots,J_{0}$
+\end_inset
+
+ are multiple dimensions of labor supply (hours, effort, occupation, training
+ etc).
+ Now the elasticity is the elasticity of total labor income: the 
+\emph on
+elasticity of taxable income 
+\emph default
+(Feldstein, 1999)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large Reforms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When reforms are large, the small-reform sufficient statistics are the first-ord
+er Taylor approximation to the welfare effect.
+\end_layout
+
+\begin_layout Itemize
+Can we do better? Consider a large reform to the tax policy 
+\begin_inset Formula $T\left(x_{0}^{i},\ldots x_{J}^{i},\theta\right)$
+\end_inset
+
+ and its associated marginal tax rates 
+\begin_inset Formula $\tau_{j}^{i}\left(\theta\right)$
+\end_inset
+
+.
+ Define marginal tax rates as 
+\begin_inset Formula $\tau_{j}^{i}+\theta\Delta\tau_{j}^{i}$
+\end_inset
+
+ where 
+\begin_inset Formula $\Delta_{j}^{i}$
+\end_inset
+
+ are the reform-induced changes to the MTRs.
+ Then we consider going from 
+\begin_inset Formula $\theta_{0}=0$
+\end_inset
+
+ to 
+\begin_inset Formula $\theta_{1}=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+The change in welfare is
+\begin_inset Formula 
+\[
+\Delta W=W\left(1\right)-W\left(0\right)=\int_{0}^{1}\frac{dW}{d\theta}d\theta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large Reforms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The efficiency effect of a large reform is
+\begin_inset Formula 
+\[
+\left.\frac{\Delta W}{\mu_{0}}\right|_{g^{i}=1}=\int_{0}^{1}\left.\frac{dW/d\theta}{\mu_{0}}\right|_{g^{i}=1}d\theta
+\]
+
+\end_inset
+
+where
+\begin_inset Formula 
+\begin{align*}
+\frac{dW/d\theta}{\mu_{0}} & \approx\int_{i}\sum_{j=0}^{J}\left[\sum_{k=0}^{J}\left(\tau_{j}^{i}+\theta\Delta t_{j}^{i}\right)x_{j}^{i}\left(\theta\right)\varepsilon_{jk}^{i}\left(\theta\right)\frac{\Delta\tau_{k}^{i}}{1+\tau_{k}^{i}+\theta\Delta\tau_{k}^{i}}\right.\\
+ & \qquad\left.-\left(\tau_{j}^{i}+\theta\Delta\tau_{j}^{i}\right)x_{j}^{i}\left(\theta\right)\eta_{j}^{i}\left(\theta\right)\frac{\partial T^{i}/\partial\theta}{Y^{i}\left(\theta\right)}\right]di
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Small-reform expression gets it wrong because
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+wedges change over the reform path
+\end_layout
+
+\begin_layout Itemize
+elasticities change over the reform path
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large Reforms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let's simplify things a little
+\end_layout
+
+\begin_layout Enumerate
+Instead of the full integral, consider the trapezoid approximation
+\begin_inset Formula 
+\[
+\Delta W\approx\frac{1}{2}\left[\frac{dW\left(0\right)}{d\theta}+\frac{dW\left(1\right)}{d\theta}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Assume quasi-linear utility and a single tax rate on taxed goods 
+\begin_inset Formula $\tau_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now we get
+\begin_inset Formula 
+\[
+\left.\frac{\Delta W}{\mu_{0}}\right|_{g^{i}=1}\approx\frac{1}{2}\left\{ \bar{\varepsilon}_{0}\left(0\right)\frac{\tau_{0}}{1+\tau_{0}}\Delta\tau_{0}+\bar{\varepsilon}_{0}\left(1\right)\frac{\tau_{0}+\Delta\tau_{0}}{1+\tau_{0}+\Delta\tau_{0}}\Delta\tau_{0}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large Reforms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now we can see what the correction term is we need to apply to the small-reform
+ sufficient statistics formula:
+\begin_inset Formula 
+\begin{align*}
+\left.\frac{\Delta W}{\mu_{0}}\right|_{g^{i}=1} & \approx\underbrace{\bar{\varepsilon}_{0}\frac{\tau_{0}}{1+\tau_{0}}\Delta\tau_{0}}_{\text{Small reform formula}}\\
+ & \quad+\frac{1}{2}\left\{ \bar{\varepsilon}_{0}\Delta\left[\frac{\tau_{0}}{1+\tau_{0}}\right]+\Delta\bar{\varepsilon}_{0}\frac{\tau_{0}}{1+\tau_{0}}+\Delta\bar{\varepsilon}_{0}\Delta\left[\frac{\tau_{0}}{1+\tau_{0}}\right]\right\} \Delta\tau_{0}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note that now the sufficient statistics are the elasticity 
+\begin_inset Formula $\bar{\varepsilon}_{0}$
+\end_inset
+
+ and the elasticity change 
+\begin_inset Formula $\Delta\bar{\varepsilon}_{0}=\bar{\varepsilon}_{0}\left(1\right)-\bar{\varepsilon}_{0}\left(0\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+With iso-elastic preferences 
+\begin_inset Formula $(\Delta\bar{\varepsilon}_{0}=0)$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left.\frac{\Delta W}{\mu_{0}}\right|_{g^{i}=1}\approx\bar{\varepsilon}_{0}\left(\frac{\tau_{0}}{1+\tau_{0}}+\frac{1}{2}\Delta\left[\frac{\tau_{0}}{1+\tau_{0}}\right]\right)\Delta\tau_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Non-Government Distortions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What if there are other sources of wedges between private and social incentives?
+\begin_inset Formula 
+\[
+u^{i}\left(x_{0}^{i},\ldots,x_{J}^{i};E_{0}^{i},\ldots,E_{J}^{i}\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $E_{j}^{i}\equiv\int_{\hat{i}}\phi_{j}^{i\hat{i}}x_{j}^{\hat{i}}d\hat{i}$
+\end_inset
+
+ are externalities on individual 
+\begin_inset Formula $i$
+\end_inset
+
+ of consumption of good 
+\begin_inset Formula $j$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\phi^{i\hat{i}}=1$
+\end_inset
+
+: Atmospheric externality, depends only on sum of consumption
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\phi^{i\hat{i}}=0\;\forall i\neq\hat{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi^{ii}=1$
+\end_inset
+
+: Internality.
+ Gap between decision (takes 
+\begin_inset Formula $E_{j}^{i}$
+\end_inset
+
+ as given) and experienced utility
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\phi^{i\hat{i}}=-1\;\forall i\neq\hat{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi^{ii}=1$
+\end_inset
+
+: Relative consumption concerns
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Non-Government Distortions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Effect on money-metric utility of a small reform:
+\begin_inset Formula 
+\[
+\frac{dv^{i}/d\theta}{\lambda^{i}}=-\frac{\partial T^{i}}{\partial\theta}+\sum_{j=0}^{J}\frac{\partial v^{i}/\partial E_{j}^{i}}{\lambda^{i}}\frac{dE_{j}^{i}}{d\theta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The fiscal externality is still there, but there's also an externality effect
+\end_layout
+
+\begin_layout Itemize
+The effect of small reforms on efficiency is 
+\begin_inset Formula 
+\[
+\left.\frac{dW/d\theta}{\mu}\right|_{g^{i}=1}=\int_{i}\left[\frac{dT^{i}}{d\theta}-\frac{\partial T^{i}}{\partial\theta}+\sum_{j=0}^{J}\frac{\partial v^{i}/\partial E_{j}^{i}}{\lambda^{i}}\frac{dE_{j}}{d\theta}\right]di
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Non-Government Distortions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To go from this to a sufficient statistics formula, assume
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $x_{j}^{i}=x_{j}^{i}\left(1+\tau_{0}^{i},\ldots,1+\tau_{J}^{i},Y^{i}\right)$
+\end_inset
+
+: Demand doesn't depend on the externalities
+\end_layout
+
+\begin_layout Enumerate
+The externalities take the form 
+\begin_inset Formula $\phi^{i}=\phi_{I_{j}}^{i}\mathbf{1}\left\{ \hat{i}=i\right\} +\phi_{E_{j}}^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now we get
+\begin_inset Formula 
+\begin{align*}
+\left.\frac{dW/d\theta}{\mu}\right|_{g^{i}=1} & =\int_{i}\sum_{j=0}^{J}\left[\left(\tau_{j}^{i}+\tau_{I_{j}}^{i}+\tau_{E_{j}}\right)\frac{dx_{j}^{i}}{d\theta}\right]di\\
+ & =\int_{i}\left[\sum_{j=0}^{J}\sum_{k=0}^{J}\hat{\tau}^{i}x_{j}^{i}\varepsilon_{jk}^{i}\frac{d\tau_{k}^{i}/d\theta}{1+\tau_{k}^{i}}-\sum_{j=0}^{J}\hat{\tau}_{j}x_{j}^{i}\eta_{j}^{i}\frac{\partial T^{i}/\partial\theta}{Y^{i}}\right]di
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\tau_{I_{j}}^{i}\equiv\frac{\partial v^{i}/\partial E_{j}^{i}}{\lambda^{i}}\phi_{I_{j}}^{i}$
+\end_inset
+
+, 
+\begin_inset Formula $\tau_{E_{j}}\equiv\int_{i}\frac{\partial v^{i}/\partial E_{j}^{i}}{\lambda^{i}}\phi_{E_{j}}^{i}$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\tau}_{j}^{i}=\tau_{j}^{i}+\tau_{I_{j}}^{i}+\tau_{E_{j}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Non-Government Distortions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If we specialize to the Harberger case, this becomes
+\begin_inset Formula 
+\[
+\left.\frac{dW/d\theta}{\mu}\right|_{g^{i}=1}=\bar{\varepsilon}_{0}\frac{\hat{\tau}_{0}}{1+\tau_{0}}\frac{d\tau_{0}}{d\theta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The formula is almost the same.
+\end_layout
+
+\begin_layout Itemize
+But we need to estimate 
+\begin_inset Formula $\hat{\tau}_{0}$
+\end_inset
+
+ so the sufficient statistics are 
+\begin_inset Formula $\left\{ \bar{\varepsilon}_{0},\hat{\tau}_{0}\right\} $
+\end_inset
+
+
 \end_layout
 
 \end_deeper
