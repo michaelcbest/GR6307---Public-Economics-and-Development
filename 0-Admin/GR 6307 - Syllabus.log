@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  5 SEP 2019 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 SEP 2019 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -551,12 +551,6 @@ rsity.$[]\OT1/zplm/m/n/10.95 (\OT1/lmr/m/n/10.95 9\OT1/zplm/m/n/10.95 /\OT1/lmr
  []
 
 [5]
-Overfull \hbox (1.57309pt too wide) in paragraph at lines 88--89
-\T1/ppl/b/n/10.95 in In-done-sia''. \T1/ppl/b/it/10.95 Jour-nal of Po-lit-i-cal
- Econ-omy \T1/ppl/b/n/10.95 124 (2): 371^^U427.$[]$ 
- []
-
-
 Overfull \hbox (5.5911pt too wide) in paragraph at lines 89--90
 \T1/ppl/m/n/10.95 gram: How Do Cash Trans-fers Af-fect In-el-i-gi-bles' Con-sum
 p-tion''. \T1/ppl/m/it/10.95 Amer-
@@ -569,7 +563,7 @@ niversity.$[]$
  []
 
 
-Overfull \hbox (22.22511pt too wide) in paragraph at lines 105--106
+Overfull \hbox (18.47311pt too wide) in paragraph at lines 105--106
 \T1/ppl/b/n/10.95 dom-ized Con-trolled Trial in Kenya''. \T1/ppl/b/it/10.95 Sci
 -ence \T1/ppl/b/n/10.95 353 (6302): 889^^U895.$[]$ 
  []
@@ -666,7 +660,7 @@ m/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtk10.pfb
 local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
 /2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (14 pages, 201109 bytes).
+Output written on "GR 6307 - Syllabus.pdf" (14 pages, 200583 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  395 compressed objects within 4 object streams
