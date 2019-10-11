@@ -8421,8 +8421,8 @@ ions to get
 
 \begin_inset Formula 
 \begin{align*}
-MVPF^{\text{Infomation}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.89\\
-MVPF^{\text{Info + Assist}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}-\left(A_{H}-A_{L}+\frac{dA_{H}}{dT}+\frac{dA_{L}}{dT}\right)\frac{dc}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\\
+MVPF^{\text{Info}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.89\\
+MVPF^{\text{I + A}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}-\left(A_{H}-A_{L}+\frac{dA_{H}}{dT}+\frac{dA_{L}}{dT}\right)\frac{dc}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\\
  & \approx0.93
 \end{align*}
 

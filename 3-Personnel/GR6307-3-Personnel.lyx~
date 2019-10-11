@@ -4622,7 +4622,7 @@ Consequently, for all
 \begin_inset Formula $\bar{\mu}_{a}$
 \end_inset
 
- above some thershold 
+ above some threshold 
 \begin_inset Formula $\mu_{a}^{*}\geq0$
 \end_inset
 
@@ -13126,7 +13126,7 @@ g_{3}\left(\lambda,\beta\right) & =\mathbf{1}^{\prime}\left(\mathbb{E}\left[\mat
 \end_layout
 
 \begin_layout Enumerate
-Proabability and cost of runnning abatement equipment
+Probability and cost of runnning abatement equipment
 \begin_inset Formula 
 \begin{align*}
 g_{4}\left(\phi,\mu,\sigma\right) & =\mathbb{P}\left(Run=1\vert\phi,\mu,\sigma\right)-\frac{1}{N}\sum_{j}\mathbf{1}\left\{ c_{j}>0\right\} \\
