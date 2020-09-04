@@ -125,13 +125,13 @@ Public Economics and Development
 \begin_inset Newline newline
 \end_inset
 
-Fridays, 10.10-12, Room 1102 IAB
+Tuesdays, 10.10-12, Room 310 Fayerweather (zoom link in courseworks)
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Instructor: Michael Best
+Instructor: Michael Carlos Best
 \end_layout
 
 \begin_layout Standard
@@ -153,8 +153,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Office Hours: Wednesdays 10:30am–1:00pm in 1112 IAB.
- 
+Office Hours: Tuesdays 9-10am and 10.30-11.30pm on zoom.
 \end_layout
 
 \begin_layout Standard
@@ -165,11 +164,11 @@ Students
 \emph on
 must 
 \emph default
-signup beforehand at 
+signup beforehand using 
 \begin_inset CommandInset href
 LatexCommand href
-name "https://tinyurl.com/y4b26pnu"
-target "https://tinyurl.com/y4b26pnu"
+name "this link"
+target "https://calendar.google.com/calendar/selfsched?sstoken=UUNGcEU4eE1LNS1FfGRlZmF1bHR8NWIyN2QyNDljMzlkMzk1ODkzZGIwMjljZWQwOTUxNjA"
 literal "false"
 
 \end_inset
@@ -295,8 +294,7 @@ one
 \end_layout
 
 \begin_layout Standard
-This is the second year I'm teaching the course, so I'm sure there will
- be typos in my slides.
+I'm sure there are typos in my slides.
  If you spot one, please point it out.
  Or even better, fix it and send me a pull request! If you're unfamiliar
  with github and version control, you can learn more about it here: 
@@ -365,8 +363,8 @@ name "sec:Referee-Report"
 All students will write a referee report on either 
 \begin_inset CommandInset href
 LatexCommand href
-name "Juliana Londoño-Velez & Javier Ávila-Mahecha - \"Can Wealth Taxation Work in Developing Countries? Quasi-Experimental Evidence from Colombia\""
-target "https://ucc78ea17e962e6c4411d5c4b347.dl.dropboxusercontent.com/cd/0/inline2/AoD-eQCOpM64UmRIRMRF1oz39dwVFtdkHSKM7SwuxPJP5Ttsd2AjHOk_mxhNNUrOGtlaXlYm6vp--8IA_bkKohtzM39udk5wOOYFyZ6biXZf7QCDoRVCR5jP7cEDVeGcVGQWpwmLMCHCcTMK63bHtdK_bajHvxzVpa8srP6-r_tJXh-9phNwctFoNvINqL_0K7lz9FqfdBZEA7SHxS80_jD0gF2T4LfLfIXJxpuvk4_FTMxqdJCcZTD2ABvo96SQYWLCbJgVBXM58My7z0lQ1mQZBHynXjldIi0P0c1jIZqWgZs0CaX9HKs_A4nhMMPxdPiKmBbKdBuY_4ufayzzRxrZ/file#"
+name "Anne Brockmeyer, Alejandro Estefan, Karina Ramírez Arras & Juan Carlos Suárez Serrato - \"Taxing Property in Developing Countries: Theory and Evidence from Mexico\""
+target "https://www.annebrockmeyer.com/uploads/1/2/1/4/121485108/mx_property_tax_study.pdf"
 literal "false"
 
 \end_inset
@@ -374,14 +372,14 @@ literal "false"
  or 
 \begin_inset CommandInset href
 LatexCommand href
-name "Katy Bergstrom & William Dodds - \"The Targeting Benefit of Conditional Cash Transfers\""
-target "http://web.stanford.edu/~katyberg/The%20Targeting%20Benefit%20of%20Conditional%20Cash%20Transfers.pdf"
+name "Pablo Balan, Augustin Bergeron, Gabriel Tourek & Jonathan Weigel - \"Local Elites as State Capacity: How City Chiefs Use Local Information to Increase Tax Compliance in the D.R. Congo\""
+target "https://static1.squarespace.com/static/59832fbcf9a61eb15deffb3c/t/5f2be97b65bad320215ea9eb/1596713391843/local_elites_as_state_capacity_CEPR.pdf"
 literal "false"
 
 \end_inset
 
 .
- This referee report will be due on 10/4.
+ This referee report will be due on 10/9.
  Please send the referee report to me as a pdf by 5pm.
  I will share your reports with the authors, since they could be helpful
  to them as they revise the papers for submission.
@@ -483,7 +481,7 @@ A summary of what you learned from the exercise.
 \end_layout
 
 \begin_layout Standard
-This report will be due on 11/8.
+This report will be due on 11/13.
  Please send the report to me as a pdf by 5pm
 \end_layout
 
@@ -586,7 +584,7 @@ Preliminary Results: The extent of the results provided will differ across
 \end_layout
 
 \begin_layout Standard
-This paper will be due on 12/13.
+This paper will be due on 12/18.
  Please send the paper to me as a pdf by 5pm
 \end_layout
 
@@ -645,7 +643,7 @@ Agenda
 \begin_inset Text
 
 \begin_layout Plain Layout
-9/6
+9/8
 \end_layout
 
 \end_inset
@@ -674,7 +672,7 @@ Taxation 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-9/13
+9/15
 \end_layout
 
 \end_inset
@@ -703,7 +701,7 @@ Applied Welfare Analysis
 \begin_inset Text
 
 \begin_layout Plain Layout
-9/27
+9/22
 \end_layout
 
 \end_inset
@@ -732,7 +730,7 @@ Taxation 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-9/27
+9/29
 \end_layout
 
 \end_inset
@@ -761,7 +759,7 @@ Taxation 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/4
+10/6
 \end_layout
 
 \end_inset
@@ -790,7 +788,7 @@ Taxation 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/11
+10/13
 \end_layout
 
 \end_inset
@@ -819,7 +817,7 @@ Anti-Poverty 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/18
+10/20
 \end_layout
 
 \end_inset
@@ -848,7 +846,7 @@ Anti-Poverty 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/18
+10/27
 \end_layout
 
 \end_inset
@@ -877,7 +875,7 @@ Anti-Poverty 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/1
+11/10
 \end_layout
 
 \end_inset
@@ -906,7 +904,7 @@ Anti-Poverty 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/8
+11/17
 \end_layout
 
 \end_inset
@@ -935,7 +933,7 @@ Personnel 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/15
+11/24
 \end_layout
 
 \end_inset
@@ -964,7 +962,7 @@ Personnel 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/15
+12/1
 \end_layout
 
 \end_inset
@@ -993,7 +991,7 @@ Personnel 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-12/6
+12/8
 \end_layout
 
 \end_inset
