@@ -1788,7 +1788,8 @@ Group J's indirect utility is then
 \begin_inset Formula 
 \begin{align*}
 V^{J}\left(\boldsymbol{t}_{s},\boldsymbol{\tau}_{s},g_{s},\omega_{s}^{J},r_{s}^{J}\right) & =v\left(p_{1,s}\left(1+t_{1,s}\right),\ldots,p_{N,s}\left(1+t_{N,s}\right)\right)\\
- & \quad+v^{L}\left(\omega_{s}^{J}\left(1-t_{L,s}\right)\right)+Q\left(\boldsymbol{t}_{s},\tau_{s}\right)+\alpha_{s}^{J}H\left(g_{s}\right)+r_{s}^{J}
+ & \quad+v^{L}\left(\omega_{s}^{J}\left(1-t_{L,s}\right)\right)+Q\left(\boldsymbol{t}_{s},\tau_{s}\right)\\
+ & \quad+\alpha_{s}^{J}H\left(g_{s}\right)+r_{s}^{J}
 \end{align*}
 
 \end_inset
