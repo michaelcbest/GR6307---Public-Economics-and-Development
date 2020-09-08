@@ -116,6 +116,40 @@
       \field{pages}{13\bibrangedash 20}
       \range{pages}{8}
     \endentry
+    \entry{AdvaniEtAl2020}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=2db7d7e57219b9bc90a5776a316d1731}{%
+           family={Advani},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e3cbcb5c04069cace151b2484889ddf4}{%
+           family={Elming},
+           familyi={E\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fe6c7a368eafb91039d74fabe952fb9c}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2913832c4a94ae62d566ec8ced2f1b4}
+      \strng{fullhash}{c2913832c4a94ae62d566ec8ced2f1b4}
+      \strng{bibnamehash}{c2913832c4a94ae62d566ec8ced2f1b4}
+      \strng{authorbibnamehash}{c2913832c4a94ae62d566ec8ced2f1b4}
+      \strng{authornamehash}{c2913832c4a94ae62d566ec8ced2f1b4}
+      \strng{authorfullhash}{c2913832c4a94ae62d566ec8ced2f1b4}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: Warwick University}
+      \field{title}{The Dynamic Effects of Tax Audits}
+      \field{year}{2020}
+    \endentry
     \entry{AghionTirole1997}{article}{}
       \name{author}{2}{}{%
         {{hash=250debcb0b8fa721b88c70712390fc64}{%
@@ -310,7 +344,7 @@
       \field{pages}{323\bibrangedash 338}
       \range{pages}{16}
     \endentry
-    \entry{Alstadsaeteretal2018}{unpublished}{}
+    \entry{Alstadsaeteretal2018}{article}{}
       \name{author}{3}{}{%
         {{hash=a87586b20bd77a97c6219601ceded255}{%
            family={Alstads{æ}ter},
@@ -336,14 +370,17 @@
       \strng{authorfullhash}{e4572a759606904b36d5f24b69569c5a}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Mimeo: UC Berkeley}
+      \field{issue}{6}
+      \field{journaltitle}{American Economic Review}
       \field{title}{Tax Evasion and Inequality}
-      \field{year}{2018}
+      \field{volume}{109}
+      \field{year}{2019}
+      \field{pages}{2073\bibrangedash 2103}
+      \range{pages}{31}
     \endentry
     \entry{Alstadsaeteretal2018b}{unpublished}{}
       \name{author}{3}{}{%
@@ -371,7 +408,6 @@
       \strng{authorfullhash}{e4572a759606904b36d5f24b69569c5a}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2642,28 +2678,33 @@
       \field{year}{2019}
     \endentry
     \entry{Finkelstein2019}{unpublished}{}
-      \name{author}{1}{}{%
+      \name{author}{2}{}{%
         {{hash=8302593e3b893aa848cec33d5fabb13f}{%
            family={Finkelstein},
            familyi={F\bibinitperiod},
            given={Amy},
            giveni={A\bibinitperiod}}}%
+        {{hash=8dddc1bd4014bf50f037b3b8772994dd}{%
+           family={Hendren},
+           familyi={H\bibinitperiod},
+           given={Nathaniel},
+           giveni={N\bibinitperiod}}}%
       }
-      \strng{namehash}{8302593e3b893aa848cec33d5fabb13f}
-      \strng{fullhash}{8302593e3b893aa848cec33d5fabb13f}
-      \strng{bibnamehash}{8302593e3b893aa848cec33d5fabb13f}
-      \strng{authorbibnamehash}{8302593e3b893aa848cec33d5fabb13f}
-      \strng{authornamehash}{8302593e3b893aa848cec33d5fabb13f}
-      \strng{authorfullhash}{8302593e3b893aa848cec33d5fabb13f}
+      \strng{namehash}{2662466fe6d71574b7f486f9d1d32014}
+      \strng{fullhash}{2662466fe6d71574b7f486f9d1d32014}
+      \strng{bibnamehash}{2662466fe6d71574b7f486f9d1d32014}
+      \strng{authorbibnamehash}{2662466fe6d71574b7f486f9d1d32014}
+      \strng{authornamehash}{2662466fe6d71574b7f486f9d1d32014}
+      \strng{authorfullhash}{2662466fe6d71574b7f486f9d1d32014}
       \field{sortinit}{F}
       \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Mimeo: MIT \url{https://economics.mit.edu/files/16272}}
-      \field{title}{Welfare Analysis Meets Causal Inference: A Suggested Interpretation of Hendren}
-      \field{year}{2019}
+      \field{note}{NBER working paper 27640}
+      \field{title}{Welfare Analysis Meets Causal Inference}
+      \field{year}{2020}
     \endentry
     \entry{FismanWei2004}{article}{}
       \name{author}{2}{}{%
@@ -3528,39 +3569,6 @@
       \field{pages}{479\bibrangedash 519}
       \range{pages}{41}
     \endentry
-    \entry{LuttmerSinghal2014}{article}{}
-      \name{author}{2}{}{%
-        {{hash=895a113eca13645be9a56202f8cba3a5}{%
-           family={Luttmer},
-           familyi={L\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=9119a60611377d0f43d4bbd8033d5042}{%
-           family={Singhal},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{2218816c9ff082635c3e3e1f8f0bd686}
-      \strng{fullhash}{2218816c9ff082635c3e3e1f8f0bd686}
-      \strng{bibnamehash}{2218816c9ff082635c3e3e1f8f0bd686}
-      \strng{authorbibnamehash}{2218816c9ff082635c3e3e1f8f0bd686}
-      \strng{authornamehash}{2218816c9ff082635c3e3e1f8f0bd686}
-      \strng{authorfullhash}{2218816c9ff082635c3e3e1f8f0bd686}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{4}
-      \field{journaltitle}{Journal of Economic Perspectives}
-      \field{title}{Tax Morale}
-      \field{volume}{28}
-      \field{year}{2014}
-      \field{pages}{149\bibrangedash 168}
-      \range{pages}{20}
-    \endentry
     \entry{Muralidharanetal2016}{article}{}
       \name{author}{3}{}{%
         {{hash=04c62bcca26f7124db5bbfe6dd374573}{%
@@ -3702,25 +3710,25 @@
     \endentry
     \entry{Naritomi2018}{unpublished}{}
       \name{author}{1}{}{%
-        {{hash=e31b92b117c442df662961d72a452b51}{%
+        {{hash=af3ac183beedfbcafc947164060ea80e}{%
            family={Naritomi},
            familyi={N\bibinitperiod},
-           given={J.},
+           given={J},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{e31b92b117c442df662961d72a452b51}
-      \strng{fullhash}{e31b92b117c442df662961d72a452b51}
-      \strng{bibnamehash}{e31b92b117c442df662961d72a452b51}
-      \strng{authorbibnamehash}{e31b92b117c442df662961d72a452b51}
-      \strng{authornamehash}{e31b92b117c442df662961d72a452b51}
-      \strng{authorfullhash}{e31b92b117c442df662961d72a452b51}
+      \strng{namehash}{af3ac183beedfbcafc947164060ea80e}
+      \strng{fullhash}{af3ac183beedfbcafc947164060ea80e}
+      \strng{bibnamehash}{af3ac183beedfbcafc947164060ea80e}
+      \strng{authorbibnamehash}{af3ac183beedfbcafc947164060ea80e}
+      \strng{authornamehash}{af3ac183beedfbcafc947164060ea80e}
+      \strng{authorfullhash}{af3ac183beedfbcafc947164060ea80e}
       \field{sortinit}{N}
       \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Mimeo: London School of Economics}
+      \field{note}{Forthcoming, American Economic Review}
       \field{title}{Consumers as Tax Auditors}
       \field{year}{2018}
     \endentry
@@ -4165,6 +4173,34 @@
       \field{year}{2007}
       \field{pages}{25\bibrangedash 48}
       \range{pages}{24}
+    \endentry
+    \entry{Slemrod2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4f25bf13e71c2402218209822f71cd5d}{%
+           family={Slemrod},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f25bf13e71c2402218209822f71cd5d}
+      \strng{fullhash}{4f25bf13e71c2402218209822f71cd5d}
+      \strng{bibnamehash}{4f25bf13e71c2402218209822f71cd5d}
+      \strng{authorbibnamehash}{4f25bf13e71c2402218209822f71cd5d}
+      \strng{authornamehash}{4f25bf13e71c2402218209822f71cd5d}
+      \strng{authorfullhash}{4f25bf13e71c2402218209822f71cd5d}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{title}{Tax Compliance and Enforcement}
+      \field{volume}{57}
+      \field{year}{2017}
+      \field{pages}{904\bibrangedash 954}
+      \range{pages}{51}
     \endentry
     \entry{SlemrodYitzhaki}{incollection}{}
       \name{author}{2}{}{%
