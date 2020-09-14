@@ -2029,7 +2029,7 @@ A different way to do this is to assume quasi-linearity but that goods
 \begin_inset Formula $\tau_{0}$
 \end_inset
 
- wile goods 
+ while goods 
 \begin_inset Formula $J_{0}+1,\ldots,J$
 \end_inset
 
@@ -2587,7 +2587,7 @@ But we need to estimate
 
 \end_deeper
 \begin_layout Subsection
-Finkelstein (2019) 
+Finkelstein & Hendren (2020) 
 \begin_inset ERT
 status open
 
@@ -2602,7 +2602,7 @@ textit{
 
 \end_inset
 
-Welfare Analysis Meets Causal Inference: A Suggested Interpretation of Hendren
+Welfare Analysis Meets Causal Inference
 \begin_inset ERT
 status open
 
@@ -2621,7 +2621,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Finkelstein (2019): Overview
+Finkelstein & Hendren (2020): Overview
 \end_layout
 
 \end_inset
@@ -2681,9 +2681,10 @@ Marginal Value of Public Funds (MVPF)
 \series default
 
 \begin_inset Formula 
-\[
-MVPF=\frac{\text{"Benefit"}}{\text{"Cost"}}
-\]
+\begin{align*}
+MVPF & =\frac{\text{Marginal Benefit of Policy}}{\text{Marginal Cost of Policy}}\\
+ & =\frac{\text{Beneficiaries' Willingness to Pay}}{\text{Net Cost"to Government}}
+\end{align*}
 
 \end_inset
 
@@ -2713,8 +2714,14 @@ Application to Targeted Transfer
 
 \begin_deeper
 \begin_layout Itemize
-Consider an increase of $1 in the transfer to a specific income group (e.g.
+Consider a small increase of $1 in the transfer to a specific income group
+ (e.g.
  through EITC, or anti-poverty program)
+\end_layout
+
+\begin_layout Itemize
+Assume recipients are optimizing, and that the policy does not have externalitie
+s
 \end_layout
 
 \begin_layout Itemize
@@ -2942,6 +2949,64 @@ If
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relaxing Assumptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Large policy changes.
+ Now we need the area under the demand curve for WTP.
+ See Kleven (2019) above.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Non-privately optimal decisions: Now there's a wedge between choices (demand)
+ and welfare (preferences).
+ Need behavioral welfare analysis methods
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+In-kind transfers.
+ Now need to estimate willingness to pay for the in-kind transfer in the
+ numerator.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Externalities.
+ Now need to estimate net benefits of all people who are affected in the
+ numerator.
+\end_layout
+
+\end_deeper
 \begin_layout Frame
 
 \end_layout
@@ -2956,11 +3021,11 @@ Application
 
 \end_inset
 
-An Application
+Applications
 \end_layout
 
 \begin_layout Subsection
-Hendren & Sprung-Keyser (2019) 
+Hendren & Sprung-Keyser (2020) 
 \begin_inset ERT
 status open
 
@@ -2994,7 +3059,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Hendren & Sprung-Keyser (2019): Overview
+Hendren & Sprung-Keyser (2020): Overview
 \end_layout
 
 \end_inset
