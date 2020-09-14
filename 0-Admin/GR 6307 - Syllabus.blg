@@ -1,18 +1,18 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'GR 6307 - Syllabus.blg'
-[30] biber-darwin:313> INFO - === Tue Sep  8, 2020, 06:58:52
-[54] Biber.pm:371> INFO - Reading 'GR 6307 - Syllabus.bcf'
-[155] Biber.pm:857> INFO - Found 120 citekeys in bib section 0
-[166] Biber.pm:3976> INFO - Processing section 0
-[174] Biber.pm:4136> INFO - Looking for bibtex format file 'readinglist.bib' for section 0
-[177] bibtex.pm:1500> INFO - LaTeX decoding ...
-[279] bibtex.pm:1316> INFO - Found BibTeX data source 'readinglist.bib'
-[287] Utils.pm:193> WARN - Duplicate entry key: 'Naritomi2018' in file 'readinglist.bib', skipping ...
-[471] Utils.pm:193> WARN - year field 'forthcoming' in entry 'Banerjeeetal2018' is not an integer - this will probably not sort properly.
-[885] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[885] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[885] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[885] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[976] bbl.pm:617> INFO - Writing 'GR 6307 - Syllabus.bbl' with encoding 'UTF-8'
-[1008] bbl.pm:720> INFO - Output to GR 6307 - Syllabus.bbl
-[1009] Biber.pm:110> INFO - WARNINGS: 2
+[32] biber-darwin:313> INFO - === Mon Sep 14, 2020, 10:55:25
+[51] Biber.pm:371> INFO - Reading 'GR 6307 - Syllabus.bcf'
+[153] Biber.pm:857> INFO - Found 126 citekeys in bib section 0
+[164] Biber.pm:3976> INFO - Processing section 0
+[172] Biber.pm:4136> INFO - Looking for bibtex format file 'readinglist.bib' for section 0
+[176] bibtex.pm:1500> INFO - LaTeX decoding ...
+[286] bibtex.pm:1316> INFO - Found BibTeX data source 'readinglist.bib'
+[294] Utils.pm:193> WARN - Duplicate entry key: 'Naritomi2018' in file 'readinglist.bib', skipping ...
+[502] Utils.pm:193> WARN - year field 'forthcoming' in entry 'Banerjeeetal2018' is not an integer - this will probably not sort properly.
+[940] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[940] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[940] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[940] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[1035] bbl.pm:617> INFO - Writing 'GR 6307 - Syllabus.bbl' with encoding 'UTF-8'
+[1070] bbl.pm:720> INFO - Output to GR 6307 - Syllabus.bbl
+[1071] Biber.pm:110> INFO - WARNINGS: 2

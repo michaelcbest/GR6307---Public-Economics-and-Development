@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  8 SEP 2020 06:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 SEP 2020 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -527,115 +527,113 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 42.
  [2] [3]
-Overfull \hbox (12.82687pt too wide) in paragraph at lines 80--81
+Overfull \hbox (12.82687pt too wide) in paragraph at lines 81--82
 [][]\T1/ppl/b/n/10.95 M.C. Best, A. Brock-meyer, H.J. Kleven, J. Spin-newijn, a
 nd M. Waseem.
  []
 
-[4]
-Overfull \hbox (6.2239pt too wide) in paragraph at lines 112--113
-\T1/ppl/m/n/10.95 Anal-y-sis of Gov-ern-ment Poli-cies''. Mimeo: Har-vard unive
-rsity.$[]\OT1/zplm/m/n/10.95 (\OT1/lmr/m/n/10.95 9\OT1/zplm/m/n/10.95 /\OT1/lmr
-/m/n/10.95 15\OT1/zplm/m/n/10.95 )$ 
+[4] [5]
+Overfull \hbox (21.38173pt too wide) in paragraph at lines 114--115
+[][]\T1/ppl/m/n/10.95 Nathaniel Hen-dren. 2020. ``Mea-sur-ing Eco-nomic Ef-fi-c
+iency Us-ing Inverse-
  []
 
-[5]
-Overfull \hbox (5.5911pt too wide) in paragraph at lines 124--125
+[6]
+Overfull \hbox (5.5911pt too wide) in paragraph at lines 127--128
 \T1/ppl/m/n/10.95 gram: How Do Cash Trans-fers Af-fect In-el-i-gi-bles' Con-sum
 p-tion''. \T1/ppl/m/it/10.95 Amer-
  []
 
-[6] [7]
-Overfull \hbox (46.79959pt too wide) in paragraph at lines 138--139
+[7]
+Overfull \hbox (46.79959pt too wide) in paragraph at lines 141--142
 \T1/ppl/b/n/10.95 of Cash Ver-sus In-Kind Trans-fers''. Mimeo: North-west-ern U
 niversity.$[]$ 
  []
 
 
-Overfull \hbox (18.47311pt too wide) in paragraph at lines 140--141
+Overfull \hbox (18.47311pt too wide) in paragraph at lines 143--144
 \T1/ppl/b/n/10.95 dom-ized Con-trolled Trial in Kenya''. \T1/ppl/b/it/10.95 Sci
 -ence \T1/ppl/b/n/10.95 353 (6302): 889^^U895.$[]$ 
  []
 
-
-Overfull \hbox (7.65399pt too wide) in paragraph at lines 146--147
+[8]
+Overfull \hbox (7.65399pt too wide) in paragraph at lines 149--150
 [][]\T1/ppl/b/n/10.95 A.L. Nichols and R.J. Zeck-hauser. 1982. ``Tar-get-ing Tr
 ans-fers Through
  []
 
-[8]
-Overfull \hbox (2.34593pt too wide) in paragraph at lines 161--162
+[9]
+Overfull \hbox (2.34593pt too wide) in paragraph at lines 164--165
 [][]\T1/ppl/m/n/10.95 N Ashraf, O Bandiera, and S.S. Lee. 2016. ``Do-gooders an
 d Go-getters:
  []
 
-[9]
-Overfull \hbox (19.09206pt too wide) in paragraph at lines 163--164
+
+Overfull \hbox (19.09206pt too wide) in paragraph at lines 166--167
 [][]\T1/ppl/b/n/10.95 A Baner-jee, R Hanna, and S Mul-lainathan. 2012. ``Cor-ru
 p-tion''. Chap. 27
  []
 
 
-Overfull \hbox (5.34003pt too wide) in paragraph at lines 166--167
+Overfull \hbox (5.34003pt too wide) in paragraph at lines 169--170
 [][]\T1/ppl/m/n/10.95 T Besley and M Ghatak. 2005. ``Com-pe-ti-tion and In-cen-
 tives with Proso-
  []
 
-
-Overfull \hbox (65.9149pt too wide) in paragraph at lines 171--172
+[10]
+Overfull \hbox (65.9149pt too wide) in paragraph at lines 174--175
 \T1/ppl/m/n/10.95 Salary In-crease in In-done-sia''. Forth-com-ing, Quar-terly 
 Jour-nal of Economics.$[]$ 
  []
 
-[10]
-Overfull \hbox (15.47102pt too wide) in paragraph at lines 178--179
+[11]
+Overfull \hbox (15.47102pt too wide) in paragraph at lines 181--182
 \T1/ppl/m/n/10.95 per-i-men-tal Ev-i-dence on In-cen-tiviz-ing Bu-reau-crats th
 rough Performance-
  []
 
-[11]
-Overfull \hbox (11.86214pt too wide) in paragraph at lines 192--193
+[12]
+Overfull \hbox (11.86214pt too wide) in paragraph at lines 195--196
 \T1/ppl/m/n/10.95 Trans-fers to the Ex-tremely Poor''. In \T1/ppl/m/it/10.95 Pr
 o-ceed-ings of the 20th ACM SIGKDD
  []
 
-[12]
-Overfull \hbox (7.86086pt too wide) in paragraph at lines 202--203
+[13]
+Overfull \hbox (7.86086pt too wide) in paragraph at lines 205--206
 \T1/ppl/m/n/10.95 Us-ing High Res-o-lu-tion Satel-lite Im-agery for Es-ti-mat-i
 ng Eco-nomic Well-
  []
 
-[13]
-Overfull \hbox (4.55351pt too wide) in paragraph at lines 210--211
+[14]
+Overfull \hbox (4.55351pt too wide) in paragraph at lines 213--214
 \T1/ppl/b/n/10.95 2017. ``Hu-man De-ci-sions and Ma-chine Pre-dic-tions''. NBER
  WP 23180 
  []
 
 
-Overfull \hbox (1.41321pt too wide) in paragraph at lines 213--214
+Overfull \hbox (1.41321pt too wide) in paragraph at lines 216--217
 [][]\T1/ppl/m/n/10.95 K Mu-ralid-ha-ran, Ab-hi-jeet Singh, and Ale-jan-dro Ga-n
 -imian. 2017. ``Dis-
  []
 
-[14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+[15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
  (./GR 6307 - Syllabus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
 Package rerunfilecheck Info: File `"GR 6307 - Syllabus".out' has not changed.
 (rerunfilecheck)             Checksum: 3EF8A424B4926AC43A28DB58237AF247;773.
 Package logreq Info: Writing requests to '"GR 6307 - Syllabus".run.xml'.
 \openout1 = `"GR 6307 - Syllabus.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
- 12822 strings out of 492649
- 223507 string characters out of 6129622
- 803923 words of memory out of 5000000
- 16340 multiletter control sequences out of 15000+600000
+ 12840 strings out of 492649
+ 224065 string characters out of 6129622
+ 805181 words of memory out of 5000000
+ 16346 multiletter control sequences out of 15000+600000
  44404 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,6n,58p,925b,1290s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -648,10 +646,10 @@ type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pa
 latino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/
 uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (15 pages, 176871 bytes).
+Output written on "GR 6307 - Syllabus.pdf" (15 pages, 178175 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 266 named destinations out of 1000 (max. 500000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 278 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

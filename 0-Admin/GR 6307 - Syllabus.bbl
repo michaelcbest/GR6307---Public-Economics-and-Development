@@ -667,6 +667,69 @@
       \field{pages}{178\bibrangedash 222}
       \range{pages}{45}
     \endentry
+    \entry{AvilaLondono2020}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=86ee3c39388c4202729a18d38cdbccad}{%
+           family={Avila-Mahecha},
+           familyi={A\bibinithyphendelim M\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a17abb744feafc0933911e56dc92bff3}{%
+           family={Londoño-Velez},
+           familyi={L\bibinithyphendelim V\bibinitperiod},
+           given={Juliana},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{74cfddf7ee86c94ff9d2499c50a618c5}
+      \strng{fullhash}{74cfddf7ee86c94ff9d2499c50a618c5}
+      \strng{bibnamehash}{74cfddf7ee86c94ff9d2499c50a618c5}
+      \strng{authorbibnamehash}{74cfddf7ee86c94ff9d2499c50a618c5}
+      \strng{authornamehash}{74cfddf7ee86c94ff9d2499c50a618c5}
+      \strng{authorfullhash}{74cfddf7ee86c94ff9d2499c50a618c5}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Forthcoming, American Economic Review: Insights}
+      \field{title}{Enforcing Wealth Taxes in the Developing World: Quasi-Experimental Evidence from Colombia}
+      \field{year}{2020}
+    \endentry
+    \entry{BachasGadenneJensen2020}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=1d34ab7e165e01f0d76770220229735c}{%
+           family={Bachas},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3b4d98f60af965477d60915f83651345}{%
+           family={Gadenne},
+           familyi={G\bibinitperiod},
+           given={Lucie},
+           giveni={L\bibinitperiod}}}%
+        {{hash=657d86a383c2aacffc61704ef95b45b0}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{00574eaf8672c60850a457f5d7c1452b}
+      \strng{fullhash}{00574eaf8672c60850a457f5d7c1452b}
+      \strng{bibnamehash}{00574eaf8672c60850a457f5d7c1452b}
+      \strng{authorbibnamehash}{00574eaf8672c60850a457f5d7c1452b}
+      \strng{authornamehash}{00574eaf8672c60850a457f5d7c1452b}
+      \strng{authorfullhash}{00574eaf8672c60850a457f5d7c1452b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{NBER WP 27429}
+      \field{title}{Informality, Consumption Taxes, and Redistribution}
+      \field{year}{2020}
+    \endentry
     \entry{BachasSoto2018}{unpublished}{}
       \name{author}{2}{}{%
         {{hash=1d34ab7e165e01f0d76770220229735c}{%
@@ -999,6 +1062,45 @@
       \field{note}{Mimeo: Michigan State University}
       \field{title}{Curbing Leakage in Public Programs: Evidence from India's Direct Benefit Transfer Policy}
       \field{year}{2017}
+    \endentry
+    \entry{BasriFelixHannaOlken2020}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=ddef3d40f54e3e7e291784d3961a9f37}{%
+           family={Basri},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi Chatib},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=3ff54a13252206bb1f2cdedcee907d45}{%
+           family={Felix},
+           familyi={F\bibinitperiod},
+           given={Mayara},
+           giveni={M\bibinitperiod}}}%
+        {{hash=58b741f377dc04079500b92dd0f3fbe7}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={Rema},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b83f57a511c1123fe0c4b876cbec8b9a}{%
+           family={Olken},
+           familyi={O\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2d8053acc53f2fd44cca5985ec6f0bd}
+      \strng{fullhash}{e2d8053acc53f2fd44cca5985ec6f0bd}
+      \strng{bibnamehash}{e2d8053acc53f2fd44cca5985ec6f0bd}
+      \strng{authorbibnamehash}{e2d8053acc53f2fd44cca5985ec6f0bd}
+      \strng{authornamehash}{e2d8053acc53f2fd44cca5985ec6f0bd}
+      \strng{authorfullhash}{e2d8053acc53f2fd44cca5985ec6f0bd}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: MIT}
+      \field{title}{Tax Administration vs Tax Rates: Evidence from Corporate Taxation in Indonesia}
+      \field{year}{2020}
     \endentry
     \entry{Basurtoetal2017}{unpublished}{}
       \name{author}{3}{}{%
@@ -2702,7 +2804,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{NBER working paper 27640}
+      \field{note}{NBER working paper 27640. Forthcoming, Journal of Economic Perspectives}
       \field{title}{Welfare Analysis Meets Causal Inference}
       \field{year}{2020}
     \endentry
@@ -2766,6 +2868,39 @@
       \field{year}{2015}
       \field{pages}{423\bibrangedash 464}
       \range{pages}{42}
+    \endentry
+    \entry{GadenneNandiRathelot2020}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=3b4d98f60af965477d60915f83651345}{%
+           family={Gadenne},
+           familyi={G\bibinitperiod},
+           given={Lucie},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f17a7c63d0b978c8124bb954a0523d49}{%
+           family={Nandi},
+           familyi={N\bibinitperiod},
+           given={Tushar\bibnamedelima K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=075536ae3dc3c2cb7d64ce9bfcf52bc8}{%
+           family={Rathelot},
+           familyi={R\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f197a6e3e6d2a32c6fe60aebc81818f}
+      \strng{fullhash}{8f197a6e3e6d2a32c6fe60aebc81818f}
+      \strng{bibnamehash}{8f197a6e3e6d2a32c6fe60aebc81818f}
+      \strng{authorbibnamehash}{8f197a6e3e6d2a32c6fe60aebc81818f}
+      \strng{authornamehash}{8f197a6e3e6d2a32c6fe60aebc81818f}
+      \strng{authorfullhash}{8f197a6e3e6d2a32c6fe60aebc81818f}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Taxation and Supplier Networks: Evidence from India}
+      \field{year}{2020}
     \endentry
     \entry{GahvariMattos2007}{article}{}
       \name{author}{2}{}{%
@@ -3022,6 +3157,31 @@
       \field{pages}{201\bibrangedash 226}
       \range{pages}{26}
     \endentry
+    \entry{Hendren2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8dddc1bd4014bf50f037b3b8772994dd}{%
+           family={Hendren},
+           familyi={H\bibinitperiod},
+           given={Nathaniel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{fullhash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{bibnamehash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{authorbibnamehash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{authornamehash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \strng{authorfullhash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{title}{Measuring Economic Efficiency Using Inverse-Optimum Weights}
+      \field{volume}{187}
+      \field{year}{2020}
+    \endentry
     \entry{Hendren2016}{incollection}{}
       \name{author}{1}{}{%
         {{hash=8dddc1bd4014bf50f037b3b8772994dd}{%
@@ -3046,7 +3206,7 @@
       \field{title}{The Policy Elasticity}
       \field{year}{2016}
     \endentry
-    \entry{HendrenSprungKeyser2019}{unpublished}{}
+    \entry{HendrenSprungKeyser2019}{article}{}
       \name{author}{2}{}{%
         {{hash=8dddc1bd4014bf50f037b3b8772994dd}{%
            family={Hendren},
@@ -3071,9 +3231,13 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Mimeo: Harvard university}
+      \field{issue}{3}
+      \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{A Unified Welfare Analysis of Government Policies}
-      \field{year}{2019}
+      \field{volume}{135}
+      \field{year}{2020}
+      \field{pages}{1209\bibrangedash 1318}
+      \range{pages}{110}
     \endentry
     \entry{ImbertPapp2015}{article}{}
       \name{author}{2}{}{%
@@ -4245,6 +4409,40 @@
       \field{booktitle}{Handbook of Public Economics, volume III}
       \field{title}{Tax Avoidance, Evasion and Administration}
       \field{year}{2002}
+    \endentry
+    \entry{SlemrodUrRehmanWaseem2020}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=58ceb1e79ab6ce8aa41d6cfc2aef11f5}{%
+           family={Slemrod},
+           familyi={S\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9d314d8a97d2b7884156e50ddb1a271c}{%
+           family={{Ur Rehman}},
+           familyi={U\bibinitperiod},
+           given={Obeid},
+           giveni={O\bibinitperiod}}}%
+        {{hash=1f87ce72eb79fdfa46c1f6ed58ea4b75}{%
+           family={Waseem},
+           familyi={W\bibinitperiod},
+           given={Mazhar},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b442b5e84018e2b50b17bb862135a87}
+      \strng{fullhash}{8b442b5e84018e2b50b17bb862135a87}
+      \strng{bibnamehash}{8b442b5e84018e2b50b17bb862135a87}
+      \strng{authorbibnamehash}{8b442b5e84018e2b50b17bb862135a87}
+      \strng{authornamehash}{8b442b5e84018e2b50b17bb862135a87}
+      \strng{authorfullhash}{8b442b5e84018e2b50b17bb862135a87}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Forthcoming, Review of Economics and Statistics}
+      \field{title}{How do Taxpayers Respond to Public Disclosure and Social Recognition Programs? Evidence from Pakistan}
+      \field{year}{2020}
     \endentry
     \entry{Suarez2018}{unpublished}{}
       \name{author}{1}{}{%
