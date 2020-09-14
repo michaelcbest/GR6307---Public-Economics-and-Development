@@ -2005,6 +2005,76 @@ t_{L,s} & =0\quad\text{if }\tau_{L,s}=0
 status open
 
 \begin_layout Plain Layout
+Besley & Persson (2013): Optimal Taxes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider the special case of no cross-price effects:
+\size small
+
+\begin_inset Formula 
+\[
+\frac{\partial Z_{m,s^{\prime}}\left(\boldsymbol{t}_{s^{\prime}},\boldsymbol{\tau}_{s^{\prime}}\right)}{\partial t_{n,s}}=0\;\text{if }s^{\prime}\neq s\text{ or }m\neq n;\text{ \& }\frac{\partial Z_{L,s^{\prime}}\left(t_{L,s^{\prime}},\tau_{L,s^{\prime}}\right)}{\partial t_{L,s}}=0\text{ if }s^{\prime}\neq s
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Then the Ramsey equations become
+\begin_inset Formula 
+\begin{align*}
+\left(\lambda_{s}-1\right)Z_{n,s}\left(\boldsymbol{t}_{s},\boldsymbol{\tau}_{s}\right)+\lambda_{s}t_{n,s}\frac{\partial Z_{n,s}\left(\boldsymbol{t}_{s},\boldsymbol{\tau}_{s}\right)}{\partial t_{n,s}} & =0\\
+\left(\lambda_{s}-1\right)Z_{n,s}\left(\boldsymbol{t}_{s},\boldsymbol{\tau}_{s}\right)-\lambda_{s}t_{n,s}\frac{\partial Z_{n,s}\left(\boldsymbol{t}_{s},\boldsymbol{\tau}_{s}\right)}{\partial1-t_{n,s}} & =0\\
+\left(\lambda_{s}-1\right)Z_{n,s}\left(\boldsymbol{t}_{s},\boldsymbol{\tau}_{s}\right)-\lambda_{s}\frac{t_{n,s}}{1-t_{n,s}}Z_{n,s}\left(\boldsymbol{t}_{s},\boldsymbol{\tau}_{s}\right)\varepsilon_{n,s} & =0\\
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{t_{n,s}}{1-t_{ns}}=\frac{\lambda_{s}-1}{\lambda_{s}}\frac{1}{\varepsilon_{n,s}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Quotes eld
+\end_inset
+
+Standard
+\begin_inset Quotes erd
+\end_inset
+
+ inverse-elasticity rule
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Besley & Persson (2013): Investment in Fiscal Capacity
 \end_layout
 
