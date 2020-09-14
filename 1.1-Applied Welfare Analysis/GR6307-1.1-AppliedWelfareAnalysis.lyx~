@@ -2681,9 +2681,10 @@ Marginal Value of Public Funds (MVPF)
 \series default
 
 \begin_inset Formula 
-\[
-MVPF=\frac{\text{Marginal Benefit of Policy}}{\text{Marginal Cost of Policy}}=\frac{\text{Beneficiaries' Willingness to Pay}}{\text{Net Cost"to Government}}
-\]
+\begin{align*}
+MVPF & =\frac{\text{Marginal Benefit of Policy}}{\text{Marginal Cost of Policy}}\\
+ & =\frac{\text{Beneficiaries' Willingness to Pay}}{\text{Net Cost"to Government}}
+\end{align*}
 
 \end_inset
 
