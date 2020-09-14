@@ -1145,7 +1145,19 @@ Gordon & Li (2009): Results
 
 \begin_deeper
 \begin_layout Itemize
-Informality decision implies constraints on tax instruments.
+Governments seek to maximize social welfare
+\size scriptsize
+
+\begin_inset Formula 
+\[
+\underbrace{\sum_{t}\frac{V_{t}}{\left(1+\rho\right)^{t}}}_{\text{HH welfare}}+R\left(\underbrace{\sum_{t}\tfrac{1}{\left(1+r\right)^{t}}\sum_{j}\left(s_{j}\frac{1+a_{j}}{1+s_{j}}p_{jt}+\tau_{j}rk_{j}\right)\beta_{j}p_{jt}f_{jt}+\left(1-\tfrac{v}{i}\right)iM_{t}+m_{2}p_{2t}I_{2t}}_{\text{Government Revenue}}\right)
+\]
+
+\end_inset
+
+
+\size default
+
 \begin_inset VSpace medskip
 \end_inset
 
@@ -1162,6 +1174,46 @@ Government gets more revenues from formal firms, so won't raise taxes so
 \end_layout
 
 \begin_layout Itemize
+Informality decision implies constraints on tax instruments.
+\size scriptsize
+
+\begin_inset Formula 
+\[
+\underbrace{s_{j}\frac{1+a_{j}}{1+s_{j}}p_{j}+c_{j}\left(w,r\left(1+\tau_{j}\right)\right)-c_{j}\left(w,r\right)-\mu^{*}\left(i-v\right)p_{j}}_{\text{Extra revenue if firms in sector j are formal}}\leq\underbrace{a_{j}p_{j}+dp_{j}+\mu^{*}vp_{j}}_{\text{costs firms willing to bear to avoid tax}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gordon & Li (2009): Results
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 Proposition 1: Rich countries: 
 \begin_inset Formula $\theta_{c}$
 \end_inset
@@ -1173,7 +1225,6 @@ Proposition 1: Rich countries:
 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 uniform 
 \begin_inset Formula $s_{j}$
@@ -1182,6 +1233,7 @@ uniform
 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 \begin_inset Formula $\tau_{j}=0$
 \end_inset
@@ -1788,7 +1840,8 @@ Group J's indirect utility is then
 \begin_inset Formula 
 \begin{align*}
 V^{J}\left(\boldsymbol{t}_{s},\boldsymbol{\tau}_{s},g_{s},\omega_{s}^{J},r_{s}^{J}\right) & =v\left(p_{1,s}\left(1+t_{1,s}\right),\ldots,p_{N,s}\left(1+t_{N,s}\right)\right)\\
- & \quad+v^{L}\left(\omega_{s}^{J}\left(1-t_{L,s}\right)\right)+Q\left(\boldsymbol{t}_{s},\tau_{s}\right)+\alpha_{s}^{J}H\left(g_{s}\right)+r_{s}^{J}
+ & \quad+v^{L}\left(\omega_{s}^{J}\left(1-t_{L,s}\right)\right)+Q\left(\boldsymbol{t}_{s},\tau_{s}\right)\\
+ & \quad+\alpha_{s}^{J}H\left(g_{s}\right)+r_{s}^{J}
 \end{align*}
 
 \end_inset
