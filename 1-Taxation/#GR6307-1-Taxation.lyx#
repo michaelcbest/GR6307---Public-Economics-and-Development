@@ -7094,87 +7094,13 @@ NB that even though the number of evaders drops when inequality rises, the
 
 \end_layout
 
-\begin_layout Subsection
-Alstadsæter, Johannesen & Zucman (AER 2019) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Tax Evasion and Tax Avoidance
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2018): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Companion to the AER paper.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Look at how amnesties affect reporting.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Look in particular for effects on switching between illegal (evasion) and
- legal (avoidance) strategies to reduce tax liability
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2018): Substitution to Avoidance?
+ (2019): Substitution to Avoidance?
 \end_layout
 
 \end_inset
@@ -7263,7 +7189,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2018): Event Study-Wealth
+ (2019): Event Study-Wealth
 \end_layout
 
 \end_inset
@@ -7298,7 +7224,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2018): Event Study-Income
+ (2019): Event Study-Income
 \end_layout
 
 \end_inset
@@ -7333,7 +7259,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2018): Event Study-Taxes
+ (2019): Event Study-Taxes
 \end_layout
 
 \end_inset
@@ -7368,7 +7294,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2018): Implication for Measured Wealth Inequality
+ (2019): Implication for Measured Wealth Inequality
 \end_layout
 
 \end_inset
@@ -7403,7 +7329,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2018): Implication for Measured Wealth Inequality
+ (2019): Implication for Measured Wealth Inequality
 \end_layout
 
 \end_inset

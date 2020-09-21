@@ -6182,7 +6182,7 @@ et al.
 
 \end_deeper
 \begin_layout Subsection
-Alstadsæter, Johannesen & Zucman (WP 2017) 
+Alstadsæter, Johannesen & Zucman (AER 2019) 
 \begin_inset ERT
 status open
 
@@ -6217,7 +6217,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Overview
+ (2019): Overview
 \end_layout
 
 \end_inset
@@ -6282,7 +6282,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Data
+ (2019): Data
 \end_layout
 
 \end_inset
@@ -6359,7 +6359,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Wealth Distribution
+ (2019): Wealth Distribution
 \end_layout
 
 \end_inset
@@ -6399,7 +6399,7 @@ land/real-estate assets valued using transaction prices
 
 \begin_layout Enumerate
 Impute non-coporate business assets and unlisted equities by capitalizing
- business/dividend inocome on tax returns
+ business/dividend income on tax returns
 \end_layout
 
 \end_deeper
@@ -6416,7 +6416,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Leaks Results
+ (2019): Leaks Results
 \end_layout
 
 \end_inset
@@ -6451,7 +6451,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Leaks Results
+ (2019): Leaks Results
 \end_layout
 
 \end_inset
@@ -6486,7 +6486,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Leaks Results
+ (2019): Leaks Results
 \end_layout
 
 \end_inset
@@ -6521,7 +6521,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Amnesty Results
+ (2019): Amnesty Results
 \end_layout
 
 \end_inset
@@ -6556,7 +6556,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Tax Evasion
+ (2019): Tax Evasion
 \end_layout
 
 \end_inset
@@ -6633,7 +6633,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Wealth Distribution
+ (2019): Wealth Distribution
 \end_layout
 
 \end_inset
@@ -6668,7 +6668,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Tax Evaded
+ (2019): Tax Evaded
 \end_layout
 
 \end_inset
@@ -6703,7 +6703,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Random Audits Comparison
+ (2019): Random Audits Comparison
 \end_layout
 
 \end_inset
@@ -6738,7 +6738,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Random Audits Comparison
+ (2019): Random Audits Comparison
 \end_layout
 
 \end_inset
@@ -6773,7 +6773,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Total Tax Evasion
+ (2019): Total Tax Evasion
 \end_layout
 
 \end_inset
@@ -6808,7 +6808,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Effective Tax Rates
+ (2019): Effective Tax Rates
 \end_layout
 
 \end_inset
@@ -6843,7 +6843,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Model
+ (2019): Model
 \end_layout
 
 \end_inset
@@ -6942,7 +6942,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Model
+ (2019): Model
 \end_layout
 
 \end_inset
@@ -7028,7 +7028,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Model
+ (2019): Model
 \end_layout
 
 \end_inset
@@ -7094,13 +7094,87 @@ NB that even though the number of evaders drops when inequality rises, the
 
 \end_layout
 
+\begin_layout Subsection
+Alstadsæter, Johannesen & Zucman (WP 2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Tax Evasion and Tax Avoidance
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Substitution to Avoidance?
+ (2018): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Companion to the AER paper.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Look at how amnesties affect reporting.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Look in particular for effects on switching between illegal (evasion) and
+ legal (avoidance) strategies to reduce tax liability
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alstadsæter et al.
+ (2018): Substitution to Avoidance?
 \end_layout
 
 \end_inset
@@ -7189,7 +7263,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Event Study-Wealth
+ (2018): Event Study-Wealth
 \end_layout
 
 \end_inset
@@ -7224,7 +7298,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Event Study-Income
+ (2018): Event Study-Income
 \end_layout
 
 \end_inset
@@ -7259,7 +7333,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Event Study-Taxes
+ (2018): Event Study-Taxes
 \end_layout
 
 \end_inset
@@ -7294,7 +7368,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Implication for Measured Wealth Inequality
+ (2018): Implication for Measured Wealth Inequality
 \end_layout
 
 \end_inset
@@ -7329,7 +7403,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2017): Implication for Measured Wealth Inequality
+ (2018): Implication for Measured Wealth Inequality
 \end_layout
 
 \end_inset
