@@ -7094,13 +7094,87 @@ NB that even though the number of evaders drops when inequality rises, the
 
 \end_layout
 
+\begin_layout Subsection
+Alstadsæter, Johannesen & Zucman (WP 2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Tax Evasion and Tax Avoidance
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2019): Substitution to Avoidance?
+ (2018): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Companion to the AER paper.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Look at how amnesties affect reporting.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Look in particular for effects on switching between illegal (evasion) and
+ legal (avoidance) strategies to reduce tax liability
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alstadsæter et al.
+ (2018): Substitution to Avoidance?
 \end_layout
 
 \end_inset
@@ -7189,7 +7263,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2019): Event Study-Wealth
+ (2018): Event Study-Wealth
 \end_layout
 
 \end_inset
@@ -7224,7 +7298,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2019): Event Study-Income
+ (2018): Event Study-Income
 \end_layout
 
 \end_inset
@@ -7259,7 +7333,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2019): Event Study-Taxes
+ (2018): Event Study-Taxes
 \end_layout
 
 \end_inset
@@ -7294,7 +7368,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2019): Implication for Measured Wealth Inequality
+ (2018): Implication for Measured Wealth Inequality
 \end_layout
 
 \end_inset
@@ -7329,7 +7403,7 @@ status open
 
 \begin_layout Plain Layout
 Alstadsæter et al.
- (2019): Implication for Measured Wealth Inequality
+ (2018): Implication for Measured Wealth Inequality
 \end_layout
 
 \end_inset
@@ -8897,6 +8971,1006 @@ Jensen (2019): Results
 
 \end_inset
 
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Bachas, Gadenne & Jensen (WP 2020) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Informality, Consumption Taxes and Redistribution
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al.
+ (2020): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How much can we rely on consumption taxes to reduce inequality in developing
+ countries?
+\end_layout
+
+\begin_layout Itemize
+Use comprehensive household expenditure data from 31 countries to document
+ patterns of informal (untaxed/untaxable!) consumption, summarized in the
+ 
+\emph on
+informality Engel Curve
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Descriptive findings suggest consumption taxes are strikingly progressive
+ (contrary to consensus view)
+\end_layout
+
+\begin_layout Itemize
+Plug these moments into a simple optimal tax framework
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al.
+ (2020): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Look across the world for household survey datasets that satisfy
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+nationally representative
+\end_layout
+
+\begin_layout Enumerate
+consumption data from open diaries
+\end_layout
+
+\begin_layout Enumerate
+Records 
+\emph on
+store type 
+\emph default
+(this is the one that binds in practice)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+data from 31 countries on 400K+ households
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al.
+ (2020): Proxy For Informality
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proxy for informality using the place of purchase
+\end_layout
+
+\begin_layout Itemize
+5 categories of store:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+non-market consumption (eg home production)
+\end_layout
+
+\begin_layout Enumerate
+non brick-and-mortar stores
+\end_layout
+
+\begin_layout Enumerate
+corner/convenience stores
+\end_layout
+
+\begin_layout Enumerate
+specialized stores (e.g.
+ clothing stores)
+\end_layout
+
+\begin_layout Enumerate
+large stores (supermarkets, department stores etc)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Working definition: (1)–(3) are informal; (4) & (5) are formal
+\end_layout
+
+\begin_layout Itemize
+See also Lagakos (2016) and 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al.
+ (2020): Proxy for Informality
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BachasGadenneJensen_1.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al.
+ (2020): Informality Engel Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BachasGadenneJensen_2.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Intercept higher in poorer country
+\end_layout
+
+\begin_layout Enumerate
+Negativs, roughly constant slope
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al.
+ (2020): Informality Engel Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BachasGadenneJensen_3.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $ShareInformal_{i}=\beta\ln\left(expenditure_{i}\right)+\varepsilon_{i}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al.
+ (2020): Informality Engel Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BachasGadenneJensen_4.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $ShareInformal_{i}=\beta\ln\left(expenditure_{i}\right)+\Gamma X_{i}+\varepsilon_{i}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al.
+ (2020): Food Engel Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BachasGadenneJensen_5.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Can we approximate informality-targeting by just exempting food? Depends
+ how steep the food engel curve is.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2020): Implications for Progressivity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BachasGadenneJensen_6.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2020): Implications for Progressivity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BachasGadenneJensen_7.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2020): Optimal Consumption Taxation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The classic reference here is Diamond (1975).
+ Extends Ramsey (1927) to many individuals.
+\end_layout
+
+\begin_layout Itemize
+Recap of Ramsey (1927): 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+consumers solve
+\begin_inset Formula 
+\[
+\max_{x}U\left(x\right)\;s.t.\;\sum_{i}q_{i}x_{i}\leq0\quad\Rightarrow V\left(q\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Government needs to finance spending of 
+\begin_inset Formula $\sum_{i}p_{i}g_{i}$
+\end_inset
+
+ out of tax revenue 
+\begin_inset Formula $\sum_{i}t_{i}x_{i}$
+\end_inset
+
+.
+ Solves
+\begin_inset Formula 
+\[
+\max_{q}V\left(q\right)\;s.t.\;F\left(x\left(q\right)+g\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Firms are in the background maximizing profits subject to production function
+ 
+\begin_inset Formula $F\left(y\right)$
+\end_inset
+
+ where 
+\begin_inset Formula $y_{i}=x_{i}+g_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Optimal taxes satisfy
+\begin_inset Formula 
+\[
+\sum_{i}\frac{\tau_{i}}{1+\tau_{i}}\varepsilon_{ji}^{C}=\theta\quad(\text{equal "discouragement"})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Special case: 
+\begin_inset Formula $\varepsilon_{ji}^{C}=0\;\forall i\neq j$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow\frac{\tau_{i}}{1+\tau_{i}}=\theta/\varepsilon_{i}^{C}$
+\end_inset
+
+ (
+\begin_inset Quotes eld
+\end_inset
+
+inverse elasticity rule
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2020): Optimal Consumption Taxation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Diamond (1975)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Many households 
+\begin_inset Formula $k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Second best problem: 
+\begin_inset Formula 
+\[
+\max_{q,I}\sum_{k}\lambda^{k}V^{k}\left(q,I\right)\pi^{k}\;s.t.\;F\left(\sum_{k}h^{k}\left(q,V^{k}\left(q,I\right)\right)\pi^{k}+g\right)=0
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $I$
+\end_inset
+
+ incorporates lump-sum tax, 
+\begin_inset Formula $\lambda^{k}$
+\end_inset
+
+are pareto weights, 
+\begin_inset Formula $\pi^{k}$
+\end_inset
+
+ population shares
+\end_layout
+
+\begin_layout Itemize
+Optimality condition:
+\begin_inset Formula 
+\[
+\textsf{E}_{k}\left[\sum_{i}t_{i}\frac{\partial h_{j}^{k}}{\partial q_{i}}\right]=\textsf{Cov}_{k}\left[x_{j}^{k}\theta^{k}\right]=X_{j}\textsf{Cov}_{k}\left(\frac{x_{j}^{k}}{X^{j}},\theta^{k}\right)\:\forall j
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ is aggregate demand for 
+\begin_inset Formula $j$
+\end_inset
+
+; and 
+\begin_inset Formula $\theta^{k}=\frac{\lambda^{k}V_{I}^{k}}{\gamma}-1+\sum_{i}t_{i}\frac{\partial x_{i}^{k}}{\partial I}$
+\end_inset
+
+ is social marginal utility of income
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2020): Optimal Consumption Taxation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Setup
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+continuum of mass 1 of households 
+\begin_inset Formula $i$
+\end_inset
+
+ with exogenous incomes 
+\begin_inset Formula $y^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $j$
+\end_inset
+
+ goods.
+ Each good has 2 varieties 
+\begin_inset Formula $v$
+\end_inset
+
+ which are imperfect substitutes.
+ 
+\begin_inset Formula $v=0$
+\end_inset
+
+ if informal, 
+\begin_inset Formula $v=1$
+\end_inset
+
+ if formal.
+\end_layout
+
+\begin_layout Itemize
+Producer prices 
+\begin_inset Formula $q_{jv}$
+\end_inset
+
+ are exogenous and consumer prices are 
+\begin_inset Formula $p_{j1}=q_{j1}\left(1+t_{j}\right)$
+\end_inset
+
+ for the formal variety of good 
+\begin_inset Formula $j$
+\end_inset
+
+, and 
+\begin_inset Formula $p_{j0}=q_{j0}$
+\end_inset
+
+ for the informal variety.
+\end_layout
+
+\begin_layout Itemize
+maximization by households 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ indirect utility 
+\begin_inset Formula $v\left(p,y^{i}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Denote budget share hh 
+\begin_inset Formula $i$
+\end_inset
+
+ spends on variety 
+\begin_inset Formula $v$
+\end_inset
+
+ of good 
+\begin_inset Formula $j$
+\end_inset
+
+ by 
+\begin_inset Formula $s_{jv}^{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $s_{j}^{i}=s_{j0}^{i}+s_{j1}^{i}$
+\end_inset
+
+ with price elasticity of demand 
+\begin_inset Formula $\epsilon_{j}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assumptions on preferences:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Compensated elasticities are equal across households.
+\end_layout
+
+\begin_layout Itemize
+zero cross price elasticities across goods, but non-zero cross-price elasticity
+ across varieties within goods.
+\begin_inset Formula 
+\[
+\epsilon_{j1}=\underbrace{\epsilon^{C}}_{\text{PED (c)}}-\underbrace{\eta_{j1}s_{j1}}_{\text{income effect}}-2\underbrace{\tilde{\epsilon}^{C}}_{\text{cross-variety elasticity}}\underbrace{\alpha_{j}}_{\text{informal consumption share}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2020): Optimal Consumption Taxation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government Solves
+\begin_inset Formula 
+\[
+\max_{t_{j}}W=\int_{i}G\left(v\left(p,y^{i}\right)\right)di+\mu\sum_{j}t_{j}q_{j1}x_{j1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case 1: Uniform commodity tax.
+ Only formal varieties can be taxed
+\begin_inset Formula 
+\[
+\tau^{*}=\frac{t^{*}}{1+t^{*}}=\frac{\int_{i}\left(\bar{g}-g^{i}\right)\phi^{i}\frac{s_{1}^{i}}{s_{1}}di}{-\epsilon_{1}\bar{g}}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $g^{i}$
+\end_inset
+
+ are the hhs' marginal welfare weights with mean 
+\begin_inset Formula $\bar{g}$
+\end_inset
+
+, 
+\begin_inset Formula $s_{1}=\sum_{j}\int_{i}s_{j1}^{i}di$
+\end_inset
+
+ is agg budget share of formal varieties, and 
+\begin_inset Formula $\phi^{i}=y^{i}/\bar{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Optimal rate increasing in covariance between income and formal budget shares.
+ Big cov means de facto exemption of informal goods is progressive.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2020): Optimal Consumption Taxation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What happens as countries get richer? Imagine 
+\begin_inset Quotes eld
+\end_inset
+
+development
+\begin_inset Quotes erd
+\end_inset
+
+ as 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+all households getting richer by the same proportion.
+\end_layout
+
+\begin_layout Itemize
+Budget shares change according to the Engel curves with the slopes we saw
+ above
+\begin_inset Formula 
+\[
+\frac{\partial\tau^{*}}{\tau^{*}}=\frac{\int_{i}\left(\bar{g}-g^{i}\right)\phi^{i}\frac{s_{1}^{i}}{s_{1}}\left(\frac{\partial s_{1i}}{s_{1}^{i}}-\frac{\partial s_{1}}{s_{1}}\right)di}{\int_{i}\left(\bar{g}-g^{i}\right)\phi^{i}\frac{s_{1}^{i}}{s_{1}}di}+\frac{\partial\epsilon_{1}}{\epsilon_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Proposition:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+The redistribution gain from taxing all products uniformly is decreasing
+ over the development path as long as i) the formal Engel curve is upward
+ sloping, ii) the aggregate formal budget share increases more than the
+ slope of the formal Engel curve.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+The efficiency cost of taxing all products uniformly is decreasing over
+ the development path as long as, in addition, 
+\begin_inset Formula $\tilde{\epsilon}^{C}>\eta_{1}/2$
+\end_inset
+
+, where 
+\begin_inset Formula $\eta_{1}$
+\end_inset
+
+ is the income elasticity of demand for al formal varieties and 
+\begin_inset Formula $\tilde{\epsilon}^{C}$
+\end_inset
+
+ is the cross-variety price elasticity of demand.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2020): Calibration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BachasGadenneJensen_8.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2020): Calibration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
 
 \end_layout
 
