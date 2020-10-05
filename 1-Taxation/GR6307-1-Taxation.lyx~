@@ -9941,7 +9941,7 @@ Bachas et al (2020): Calibration
 \align center
 \begin_inset Graphics
 	filename BachasGadenneJensen_8.png
-	scale 40
+	scale 32
 
 \end_inset
 
@@ -9974,7 +9974,7 @@ Bachas et al (2020): Calibration
 \align center
 \begin_inset Graphics
 	filename BachasGadenneJensen_9.png
-	scale 40
+	scale 32
 
 \end_inset
 
@@ -14605,6 +14605,1201 @@ end{tabular}
 
 \end_layout
 
+\begin_layout Subsection
+Basri, Felix, Hanna & Olken (2020) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Tax Administration vs.
+ Tax Rates: Evidence from Corporate Taxation in Indonesia
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Motivation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We've seen several papers now on how to use enforcement techniques to improve
+ compliance and raise revenue
+\end_layout
+
+\begin_layout Itemize
+We also saw one paper (Best et al.
+ 2015) on how to use policy design (bases, rates) to improve compliance
+ and raise revenue
+\end_layout
+
+\begin_layout Itemize
+Say that you have to choose between improving tax administration and improving
+ tax compliance.
+ How should you think about the tradeoff between the two?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This paper:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Apply Keen & Slemrod (2017) framework to Indonesia
+\end_layout
+
+\begin_layout Itemize
+Leverage quasi-experimental variation from admin reform and from tax rate
+ reform to estimate key elasticities
+\end_layout
+
+\begin_layout Itemize
+Plug elasticities into the sufficient statistics framework to quantify tradeoffs
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study corporate income tax administered by Directorate General of Taxation
+ (DGT)
+\end_layout
+
+\begin_layout Itemize
+Big administrative reforms started in 2002
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+largest 200 firms' admin moved to centralized Large Taxpayer Office (LTO)
+ in Jakarta.
+ Several hundred taxpayers in each region 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ handled by Medium Taxpayer Offices (MTOs).
+ Focus on big wave of MTOs created in 2007.
+\end_layout
+
+\begin_layout Enumerate
+Offices restructured.
+ pre-reform offices organized by tax type.
+ Post-reform each taxpayer assigned to an office and a single contact person.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Corporate income tax rate reform in 2009.
+ Pre-reform there was a progressive tax with MTR increasing in taxable profit.
+ Post-reform tax schedule depends on gross income, and rate is flat with
+ discounts:
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Tax Reform
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasriEtAl_01.png
+	scale 27
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasriEtAl_02.png
+	scale 27
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firm has a continuum of 
+\begin_inset Quotes eld
+\end_inset
+
+business lines
+\begin_inset Quotes erd
+\end_inset
+
+ indexed from 
+\begin_inset Formula $\left[0,L\right]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Line 
+\begin_inset Formula $l$
+\end_inset
+
+ provides revenue 
+\begin_inset Formula $y_{l}$
+\end_inset
+
+ and has convex cost 
+\begin_inset Formula $c\left(y_{l}\right)$
+\end_inset
+
+.
+ Lines are symmetric with output price normalized to 1.
+ Profits from line 
+\begin_inset Formula $l$
+\end_inset
+
+ are 
+\begin_inset Formula $\pi\left(y_{l}\right)=y_{l}-c\left(y_{l}\right)$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ with no taxes 
+\begin_inset Formula $c^{\prime}\left(y_{l}\right)=1$
+\end_inset
+
+ for all lines.
+\end_layout
+
+\begin_layout Itemize
+Assume only a proportion 
+\begin_inset Formula $0<\mu<1$
+\end_inset
+
+ of costs are deductible.
+ Firms pay tax 
+\begin_inset Formula $\tau$
+\end_inset
+
+ on sales minus deductible profits.
+ For lines on which tax is paid, the firm solves
+\begin_inset Formula 
+\[
+\max_{y_{l}}\left(1-\tau\right)y_{l}-\left(1-\tau\mu\right)c\left(y_{l}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+At its optimum the firm sets 
+\begin_inset Formula 
+\[
+c^{\prime}\left(y^{p}\right)=1-\tau^{E}\quad\text{where }\tau^{E}\equiv\frac{\tau\left(1-\mu\right)}{1-\tau\mu}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms can evade by hiding some business lines.
+ Hiding line 
+\begin_inset Formula $l$
+\end_inset
+
+ costs 
+\begin_inset Formula $\alpha b\left(y_{l}\right)h\left(l\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Lines are implicitly ordered by evasion: 
+\begin_inset Formula $h^{\prime}\left(l\right)>0$
+\end_inset
+
+.
+ Assume 
+\begin_inset Formula $h^{\prime}\left(0\right)=0$
+\end_inset
+
+ so all firms evade a little,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $b\left(\cdot\right)$
+\end_inset
+
+ assumed increasing and convex: bigger lines more easily detectable, harder
+ to evade.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\alpha$
+\end_inset
+
+ captures level of enforcement (policy parameter govt can choose)
+\end_layout
+
+\begin_layout Itemize
+If line 
+\begin_inset Formula $l$
+\end_inset
+
+ hidden, output solves
+\begin_inset Formula 
+\[
+\max_{y_{l}}y_{l}-c\left(y_{l}\right)-\alpha b\left(y_{l}\right)h\left(l\right)\quad\Rightarrow c^{\prime}\left(y^{e}\right)=1-\alpha b^{\prime}\left(y^{e}\right)h\left(l\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Firms hide all lines up to 
+\begin_inset Formula $l^{*}$
+\end_inset
+
+ satisfying
+\begin_inset Formula 
+\[
+y^{e}\left(\alpha\right)-c\left(y^{e}\left(\alpha\right)\right)-\alpha b\left(y^{e}\left(\alpha\right)\right)h\left(l^{*}\right)=\left(1-\tau\right)y^{p}-\left(1-\tau\mu\right)c\left(y^{p}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tax collected from the firm is 
+\begin_inset Formula $\tau z=\tau\int_{l^{*}}^{L}y_{l}^{p}-\mu c\left(y_{l}^{p}\right)dl$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Changing Enforcement and Taxes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Increasing enforcement 
+\begin_inset Formula $\alpha$
+\end_inset
+
+: Evasion costs go up making evasion less attractive.
+ But if continue to evade, output declines.
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ output goes down on evaded lines, but firms evade on fewer lines.
+\end_layout
+
+\begin_layout Itemize
+The marginal lines that firms stop evading 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ reported revenues 
+\begin_inset Formula $y$
+\end_inset
+
+ and costs 
+\begin_inset Formula $c$
+\end_inset
+
+ 
+\emph on
+both
+\emph default
+ increase.
+\end_layout
+
+\begin_layout Itemize
+Effect on real activity ambiguous: Switching to formality removes 
+\begin_inset Quotes eld
+\end_inset
+
+enforcement tax
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $\alpha b^{\prime}\left(y\right)h\left(l^{*}\right)$
+\end_inset
+
+ but replaces it with effective formal tax 
+\begin_inset Formula $\tau^{E}$
+\end_inset
+
+.
+ Real output increases iff
+\begin_inset Formula 
+\[
+\alpha b^{\prime}\left(y\right)h\left(l^{*}\right)>\tau\frac{1-\mu}{1-\tau\mu}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Increasing the tax rate:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+dcreases activity on formal lines when 
+\begin_inset Formula $\mu<1$
+\end_inset
+
+ (standard discouragement effect)
+\end_layout
+
+\begin_layout Itemize
+increases evasion (MB of evasion 
+\begin_inset Formula $\uparrow$
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Welfare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Social welfare is
+\size small
+
+\begin_inset Formula 
+\begin{align*}
+W & =\underbrace{\int_{l^{*}}^{L}\left(y_{l}^{p}-c\left(y_{l}^{p}\right)\right)dl-\tau z}_{\text{firm post-rax profits from taxed lines}}+\underbrace{\int_{0}^{l^{*}}y_{l}^{e}\left(\alpha\right)-c\left(y_{l}^{e}\left(\alpha\right)\right)-\alpha b\left(y_{l}^{e}\left(\alpha\right)\right)h\left(l\right)dl}_{\text{firm post-tax profits from evaded lines}}\\
+ & \quad+\underbrace{v\left(\tau z-a\left(\alpha\right)\right)}_{\text{social value of public funds}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How does marginal change in enforcement 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ affect welfare? Using envelope theorem
+\begin_inset Formula 
+\[
+W_{\alpha}=-\frac{d\gamma}{d\alpha}+v\left(\tau\frac{dz}{d\alpha}-\frac{da}{d\alpha}\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\gamma\equiv\int_{0}^{l^{*}}\alpha b\left(y_{l}^{e}\left(\alpha\right)\right)h\left(l\right)dl$
+\end_inset
+
+ is private compliance cost.
+\end_layout
+
+\begin_layout Itemize
+Similarly
+\begin_inset Formula 
+\[
+W_{\tau}=-z+v\left(z+\tau\frac{dz}{d\tau}\right)=-z+vz\left(1-\frac{\tau}{1-\tau}\varepsilon_{1-\tau}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Welfare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We want to compare these welfare effects.
+ Consider a thought experiment in which we a) increase enforcement by 
+\begin_inset Formula $d\alpha$
+\end_inset
+
+, and b) reduce tax rates by exactly the right amount 
+\begin_inset Formula $\left.\tfrac{d\tau}{d\alpha}\right|_{R}$
+\end_inset
+
+ to keep revenue 
+\begin_inset Formula $R=\tau z-a\left(\alpha\right)$
+\end_inset
+
+ the same.
+ Does this improve welfare?
+\end_layout
+
+\begin_layout Itemize
+The revenue neutral reform is:
+\begin_inset Formula 
+\[
+\left.\frac{d\tau}{d\alpha}\right|_{R}=-\frac{dR/d\alpha}{dR/d\tau}=-\frac{\tau\frac{dz}{d\alpha}-\frac{da}{d\alpha}}{z\left(1-\frac{\tau}{1-\tau}\varepsilon_{1-\tau}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+And the welfare effect is
+\begin_inset Formula 
+\begin{align*}
+dW & =W_{\tau}\left.\frac{d\tau}{d\alpha}\right|_{R}+W_{\alpha}\\
+ & =\left(\tau\frac{dz}{d\alpha}-\frac{da}{d\alpha}\right)\frac{1}{1-\frac{\tau}{1-\tau}\varepsilon_{1-\tau}}-\frac{d\gamma}{d\alpha}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Size-Dependent Enforcement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose level of enforcement depends on firm size? Then evasion cost could
+ be written as 
+\begin_inset Formula 
+\[
+\alpha m\left(z\right)b^{\prime}\left(y\right)h\left(l\right)
+\]
+
+\end_inset
+
+ with 
+\begin_inset Formula $m^{\prime}>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now firms evade up until
+\size tiny
+
+\begin_inset Formula 
+\begin{align*}
+\underbrace{y_{l}^{e}\left(\alpha\right)-c\left(y_{l}^{e}\left(\alpha\right)\right)-\alpha m\left(z\right)b\left(y_{l}^{e}\left(\alpha\right)\right)h\left(l^{*}\right)}_{\text{profit from evading on marginal line}} & =\underbrace{\left(1-\tau\right)y^{p}-\left(1-\tau\mu\right)c\left(y^{p}\right)}_{\text{profit from not evading on marginal line}}\\
+ & \quad-\underbrace{m^{\prime}\left(z\right)\left(y^{p}-\mu c\left(y^{p}\right)\right)\int_{0}^{l^{*}}\alpha b\left(y_{l}^{e}\left(\alpha\right)\right)h\left(l\right)dl}_{\text{loss from higher evasion costs on evaded lines}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Effects of enforcement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study effect on firms of being put into the MTO in 2007
+\end_layout
+
+\begin_layout Itemize
+Empirical strategy is a matched difference in differences.
+ Use entropy balancing (Hainmueller 2012) to find weights for control firms
+ that pre-treatment characteristics match the treatment firms.
+\end_layout
+
+\begin_layout Itemize
+Match on 2005 gross income and taxes paid.
+ 
+\end_layout
+
+\begin_layout Itemize
+Reduced form: 
+\begin_inset Formula 
+\[
+Y_{it}=\alpha+\beta^{RF}\left(M_{iFC}\times1_{t>2005}\right)+\delta_{t}+\delta_{i}+\epsilon_{it}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $M_{iFC}$
+\end_inset
+
+ is a dummy for being in the first wave of MTO, 
+\begin_inset Formula $\delta_{t}$
+\end_inset
+
+, 
+\begin_inset Formula $\delta_{i}$
+\end_inset
+
+ are year, firm FEs.
+\end_layout
+
+\begin_layout Itemize
+Several firms assigned to MTO in 2009 so also estimate IV:
+\begin_inset Formula 
+\[
+Y_{it}=\alpha+\beta^{IV}M_{it}+\delta_{t}+\delta_{i}+\epsilon_{it}
+\]
+
+\end_inset
+
+where instrument for actual MTO status 
+\begin_inset Formula $M_{it}$
+\end_inset
+
+ with 
+\begin_inset Formula $M_{iFC}\times1_{t>2005}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Enforcement Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasriEtAl_03.png
+	scale 26
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasriEtAl_04.png
+	scale 26
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Enforcement Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasriEtAl_05.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasriEtAl_06.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Enforcement Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasriEtAl_07.png
+	scale 22
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasriEtAl_08.png
+	scale 22
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Tax Reform
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Follow simulated instrument approach as in Gruber & Saez (2002), Gruber
+ & Rauh (2007).
+\begin_inset Formula 
+\[
+\ln\left(\frac{z_{it+1}}{z_{it}}\right)=\alpha+\varepsilon\ln\left(\frac{1-\tau_{it+1}}{1-\tau_{it}}\right)+\psi_{1}\ln z_{it}+\psi_{2}\ln g_{it}+\delta_{t}+\delta_{i}+\nu_{it}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $z_{it}$
+\end_inset
+
+ is (reported) taxable income, 
+\begin_inset Formula $g_{it}$
+\end_inset
+
+ is reported gross income, 
+\begin_inset Formula $\tau_{it}$
+\end_inset
+
+ is statutory marginal tax rate
+\end_layout
+
+\begin_layout Itemize
+Instrument for 
+\begin_inset Formula $\ln\left(\left(1-\tau_{it+1}\right)/\left(1-\tau_{it}\right)\right)$
+\end_inset
+
+ by computing pre-(t) and post-(t+1) tax rates using 
+\begin_inset Formula $2008$
+\end_inset
+
+ values of 
+\begin_inset Formula $g_{i2008}$
+\end_inset
+
+ and 
+\begin_inset Formula $z_{i2008}$
+\end_inset
+
+ to create 
+\begin_inset Formula $\ln\left(\left(1-\tau_{it+1}^{C}\right)/\left(1-\tau_{it}^{C}\right)\right)$
+\end_inset
+
+.
+ First stage is
+\begin_inset Formula 
+\[
+\ln\left(\frac{1-\tau_{it+1}}{1-\tau_{it}}\right)=\alpha+\omega\ln\left(\frac{1-\tau_{it+1}^{C}}{1-\tau_{it}^{C}}\right)+\theta_{1}\ln z_{it}+\theta_{2}\ln g_{it}+\delta_{t}+\delta_{i}+\nu_{it}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Use the same sample and balancing weights as for MTO for comparability of
+ results.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Tax Reform Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename BasriEtAl_09.png
+	scale 26
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Comparison of Enforcement and Rates
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Modify the welfare effect of the revenue neutral reform to reflect the fact
+ that the tax rate reform applies to the top tax bracket only
+\begin_inset Formula 
+\[
+dW=\left(\tau\frac{dz}{d\alpha}-\frac{da}{d\alpha}\right)\frac{1}{1-\frac{\tau}{1-\tau}\rho\varepsilon_{1-\tau}}-\frac{d\gamma}{d\alpha}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Taxable income elasticity implies 
+\begin_inset Formula $1/\left(1-\frac{\tau}{1-\tau}\rho\hat{\varepsilon}_{1-\tau}\right)=1.51$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+net revenue effect 
+\begin_inset Formula $\tau\frac{dz}{d\alpha}-\frac{da}{d\alpha}$
+\end_inset
+
+ is 2 orders of magniture larger than 
+\begin_inset Formula $da/d\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Suggests 
+\begin_inset Formula $d\gamma/d\alpha$
+\end_inset
+
+ would need to be massive for 
+\begin_inset Formula $dW<0$
+\end_inset
+
+.
+ Surveys suggest 
+\begin_inset Formula $d\gamma/d\alpha$
+\end_inset
+
+ may well have been negative.
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 Benhassine, McKenzie, Pouliquen & Santini (JPubE 2018) 
 \begin_inset ERT
