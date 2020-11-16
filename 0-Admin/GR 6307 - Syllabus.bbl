@@ -2552,49 +2552,6 @@
       \field{pages}{1241\bibrangedash 1278}
       \range{pages}{38}
     \endentry
-    \entry{Dupasetal2016}{article}{}
-      \name{author}{4}{}{%
-        {{hash=abe4ad36a4294dc9c15ee5b60419793d}{%
-           family={Dupas},
-           familyi={D\bibinitperiod},
-           given={P},
-           giveni={P\bibinitperiod}}}%
-        {{hash=d88e28dcd8f6f7df3339916ff49aa86a}{%
-           family={Hoffman},
-           familyi={H\bibinitperiod},
-           given={V},
-           giveni={V\bibinitperiod}}}%
-        {{hash=a914f4d5217facb9a032ce11f5867214}{%
-           family={Kremer},
-           familyi={K\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=cb240606395d0bdc569fd08afbcf49bc}{%
-           family={{Peterson Zwane}},
-           familyi={P\bibinitperiod},
-           given={A},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{b4d7bf04ebb8f38b4975a7772451dce0}
-      \strng{fullhash}{b4d7bf04ebb8f38b4975a7772451dce0}
-      \strng{bibnamehash}{b4d7bf04ebb8f38b4975a7772451dce0}
-      \strng{authorbibnamehash}{b4d7bf04ebb8f38b4975a7772451dce0}
-      \strng{authornamehash}{b4d7bf04ebb8f38b4975a7772451dce0}
-      \strng{authorfullhash}{b4d7bf04ebb8f38b4975a7772451dce0}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{6302}
-      \field{journaltitle}{Science}
-      \field{title}{Targeting Health Subsidies Through a Nonprice Mechanism: A Randomized Controlled Trial in Kenya}
-      \field{volume}{353}
-      \field{year}{2016}
-      \field{pages}{889\bibrangedash 895}
-      \range{pages}{7}
-    \endentry
     \entry{Dwengeretal2016}{article}{}
       \name{author}{4}{}{%
         {{hash=e2ce70a3da9d7b2e06cd382f6b3035d6}{%
@@ -2901,39 +2858,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Taxation and Supplier Networks: Evidence from India}
       \field{year}{2020}
-    \endentry
-    \entry{GahvariMattos2007}{article}{}
-      \name{author}{2}{}{%
-        {{hash=b1cdcea71bcd429137d119ec1353916c}{%
-           family={Gahvari},
-           familyi={G\bibinitperiod},
-           given={F},
-           giveni={F\bibinitperiod}}}%
-        {{hash=d36cd46e4bd8ed0b5e210fbfb3b82195}{%
-           family={Mattos},
-           familyi={M\bibinitperiod},
-           given={E},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{a82f1bee436c71a6964a04b442c31665}
-      \strng{fullhash}{a82f1bee436c71a6964a04b442c31665}
-      \strng{bibnamehash}{a82f1bee436c71a6964a04b442c31665}
-      \strng{authorbibnamehash}{a82f1bee436c71a6964a04b442c31665}
-      \strng{authornamehash}{a82f1bee436c71a6964a04b442c31665}
-      \strng{authorfullhash}{a82f1bee436c71a6964a04b442c31665}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{1}
-      \field{journaltitle}{American Economic Review}
-      \field{title}{Conditional Cash Transfers, Public Provisions of Private Goods, and Income Redistribution}
-      \field{volume}{97}
-      \field{year}{2007}
-      \field{pages}{491\bibrangedash 502}
-      \range{pages}{12}
     \endentry
     \entry{Glaeseretal2015}{unpublished}{}
       \name{author}{4}{}{%
@@ -4501,6 +4425,34 @@
       \field{note}{NBER W.P 24701}
       \field{title}{The Missing Profits of Nations}
       \field{year}{2018}
+    \endentry
+    \entry{Xu2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6137b18bc1965395145897e1acc8ea6e}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Guo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6137b18bc1965395145897e1acc8ea6e}
+      \strng{fullhash}{6137b18bc1965395145897e1acc8ea6e}
+      \strng{bibnamehash}{6137b18bc1965395145897e1acc8ea6e}
+      \strng{authorbibnamehash}{6137b18bc1965395145897e1acc8ea6e}
+      \strng{authornamehash}{6137b18bc1965395145897e1acc8ea6e}
+      \strng{authorfullhash}{6137b18bc1965395145897e1acc8ea6e}
+      \field{sortinit}{X}
+      \field{sortinithash}{b0b62a29ee4a21a0e618fed53a0313cc}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{11}
+      \field{journaltitle}{American Economic Review}
+      \field{title}{The Costs of Patronage: Evidence from the British Empire}
+      \field{volume}{108}
+      \field{year}{2018}
+      \field{pages}{3170\bibrangedash 3198}
+      \range{pages}{29}
     \endentry
     \entry{Zucman2014}{article}{}
       \name{author}{1}{}{%
