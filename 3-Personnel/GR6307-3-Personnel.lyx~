@@ -8010,7 +8010,8 @@ Additional data from random checks.
 \end_layout
 
 \begin_layout Itemize
-3 basic competency exams.Oral exams testing simple math, basic Hindi vocabulary.
+3 basic competency exams.
+ Oral exams testing simple math, basic Hindi vocabulary.
  Written exam testing addition, multiplication, ability to construct sentences,
  and reading comprehension.
 \end_layout
@@ -11829,6 +11830,3056 @@ status open
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Bandiera, Best, Khan & Prat (WP 2020): 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The Allocation of Authority in Organizations: A Field Experiment with Bureaucrat
+s
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameTitle
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Agency and authority
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{framenumber}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Organizations bring together people with different interests, information
+ and skills to work towards a common goal.
+ 
+\end_layout
+
+\begin_layout Itemize
+Incentive contracts designed to meet that goal are at the core of organisational
+ economics
+\end_layout
+
+\begin_layout Itemize
+Mostly this takes as given the allocation of authority, that is the actions
+ over which the agents has decision rights
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+But the allocation of authority is itself a choice variable 
+\end_layout
+
+\begin_layout Itemize
+Observed solutions range from 
+\begin_inset CommandInset href
+LatexCommand href
+name "total control"
+target "https://www.dropbox.com/s/329fbo4anvlz1xo/cookies.pdf?dl=0"
+literal "false"
+
+\end_inset
+
+ to total 
+\begin_inset CommandInset href
+LatexCommand href
+name "freedom"
+target "https://www.slideshare.net/reed2001/culture-1798664/73-Another_Example_of_Freedomand_Responsibility73"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout FrameTitle
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Costs and benefits of autonomy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Giving decision rights to agents incentivises them to acquire information
+ and use it to the benefit of the organisation 
+\shape italic
+\color black
+but also to their private benefit
+\end_layout
+
+\begin_layout Itemize
+Red tape/rules that limit decision rights limit the agents' capture
+\shape italic
+\color blue
+ 
+\color black
+but stifle initiative and creates compliance costs (time to tick boxes)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Shifting agency 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+in most organisations rules require an additional layer of agents to enforce
+ them
+\end_layout
+
+\begin_layout Itemize
+stricter rules effectively shift authority from one set of agents to another,
+ whose incentives need not be better aligned
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout FrameTitle
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What we know
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A number of studies show that cross-sectional variation is consistent with
+ the predictions of agency theory 
+\size footnotesize
+(Acemoglu et al 07, Bloom et al 12) 
+\size default
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Yet, there is a positive correlation between autonomy and performance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+across organisations 
+\size footnotesize
+(Bandiera, Prat and Valletti 09, Rasul&Rogger 18, Rasul et al 19)
+\size default
+ 
+\end_layout
+
+\begin_layout Itemize
+within organisations 
+\size footnotesize
+\color black
+(Duflo et al 17, Wu 18)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+This paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+\color black
+Design a field experiment to exogenously shift authority to lower tier bureaucra
+ts 
+\emph default
+\color inherit
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cross-randomise with performance pay to study the interaction between the
+ two
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Setting: Public Procurement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+1-
+\end_layout
+
+\end_inset
+
+Textbook example of moral hazard: 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Agent buys goods she won't use with money she doesn't own
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Misalignment of interests 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ low effort and/or corruption
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+2-
+\end_layout
+
+\end_inset
+
+Stakes are high
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Spending on public procurement as GDP share in 2015 (OECD):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+United States: 9.35%
+\end_layout
+
+\begin_layout Itemize
+Average OECD country: 13.18%
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Potential for large savings (Olken and Pande 2012)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Policy Debate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Strict auditing and monitoring is necessary to avoid private capture..
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+OECD Third Principle for Integrity in Public Procurement: 
+\begin_inset Quotes eld
+\end_inset
+
+The management of public funds should be monitored by internal control and
+ internal audit bodies.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+..but red tape stifles inititative and creates compliance costs.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Kelman (1990), Procurement and Public Management: The Fear of Discretion
+ and the Quality of Government Performance
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Procurement in Punjab, Pakistan: Agents and Supervisors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Legal authority for public procurement is vested in 
+\series bold
+Procurement Officers
+\series default
+ (POs)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+POs are allocated budget under different accounting heads (salary, repairs,
+ etc.), including procurement, by the Finance Department
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+An independent federal agency - office of the 
+\series bold
+Accountant General
+\series default
+ (AG) needs to approve POs purchases 
+\emph on
+before
+\emph default
+ payment can be made
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We focus on procurement of 
+\emph on
+generic goods
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Procurement Process for Generic Goods
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Flowchart1_final.tex.pdf
+	lyxscale 50
+	scale 22
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Model: Agents and Supervisors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+define 
+\begin_inset Formula $c$
+\end_inset
+
+ the minimal price at which the supplier is willing to sell
+\end_layout
+
+\begin_layout Itemize
+under autonomy, the price paid depends only on the PO's alignment 
+\begin_inset Formula $p_{M}>p_{A}$
+\end_inset
+
+
+\begin_inset Formula $=c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+under monitoring, the outcome depends on the type of both agents: better
+ types reduce the purchase price: 
+\begin_inset Formula $p_{MM}>p_{AM}>p_{AA}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+denote the share of misaligned POs (AGs) by 
+\begin_inset Formula $\theta_{PO}$
+\end_inset
+
+ (
+\begin_inset Formula $\theta_{AG}$
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The effect of autonomy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The effect of the autonomy treatment is
+\begin_inset Formula 
+\begin{align*}
+\Delta_{A} & =\theta_{PO}\theta_{AG}\left(p_{M}-p_{MM}\right)+\theta_{PO}\left(1-\theta_{AG}\right)\left(p_{M}-p_{MA}\right)\\
+ & \quad+\left(1-\theta_{PO}\right)\theta_{AG}\left(c-p_{AM}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+for a share 
+\begin_inset Formula $\theta_{PO}\theta_{AG}$
+\end_inset
+
+ of PO -AG pairs autonomy eliminates 
+\begin_inset Quotes eld
+\end_inset
+
+double bandit
+\begin_inset Quotes erd
+\end_inset
+
+ (
+\begin_inset Formula $p_{M}-p_{MM}<0$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+for 
+\begin_inset Formula $\left(1-\theta_{PO}\right)\theta_{AG}$
+\end_inset
+
+ autonomy gives decision making rights to the most aligned agent (
+\begin_inset Formula $c-p_{AM}<0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+for 
+\begin_inset Formula $\theta_{PO}\left(1-\theta_{AG}\right)$
+\end_inset
+
+ autonomy gives decision making rights to the least aligned agent (
+\begin_inset Formula $p_{M}-p_{MA}>0$
+\end_inset
+
+), 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Treatment effects, in theory
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename RegionPlot.pdf
+	scale 67
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Design: Autonomy Treatment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Focus groups with POs in 2013/14 highlights two key issues 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+many vendors cannot wait through the process of approval
+\end_layout
+
+\begin_layout Itemize
+finding out appropriate documentation is difficult and time consuming
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Autonomy treatment addresses both by 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Limit AG discretion on documents to require for audit 
+\end_layout
+
+\begin_layout Itemize
+Cash in hand allow POs to pay vendors without AG pre-approval
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rs 100,000 (USD 1k) , 10% of budget; median (mean) purchase value 1,000
+ (3,062)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Procurement Process Under Autonomy Treatment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Flowchart2_v3.pdf
+	lyxscale 50
+	scale 78
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Design: Incentive Treatment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+3 prizes based on value for money in all generics
+\end_layout
+
+\begin_layout Itemize
+awarded by a commission made of: senior private sector auditor & head PPRA
+ (co-chair), representatives of all departments (10 members)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+data on quality adjusted prices provided by us
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+gold
+\begin_inset Quotes erd
+\end_inset
+
+: 2 months wages, to the top 7.5%
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+how much?
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+silver
+\begin_inset Quotes erd
+\end_inset
+
+: 1 month wages, to the next 22.5%
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+bronze
+\begin_inset Quotes erd
+\end_inset
+
+: 0.5 month wages, to the next 45%
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+nothing to remaining 25%
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Sample
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+688 Procurement Officers in charge of procurement of 778 Public Bodies (88%
+ in charge of 1 PB, 10% 2, 2% 3 or more)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+take-up 85% –> sample contains 587 POs 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+4 Departments (chosen by number of POs with generics budget
+\end_layout
+
+\begin_layout Itemize
+26 Districts (out of 36) - cover over 80% of the population (110 million)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+AG has offices in each district, responsible for POs in that district
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Design: Randomization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Randomise POs in four groups, stratified by district and department
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Follow over two years, stagger the introduction
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+year 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+year 2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+none
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+autonomy
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color darkgray
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color darkgray
+p4p
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color darkgray
+p4p+autonomy
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color gray
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color gray
+p4p
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color gray
+p4p
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color purple
+C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color purple
+none
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color purple
+none
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Measuring Value for Money
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Our sample covers all the generic (off-the-shelf) goods that POs buy (e.g.
+ printer paper, soap..)
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Bought by many consumers and produced by several suppliers
+\color inherit
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Measurable (with some effort!) and comparable performance
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Most are sold in competitive markets, so everybody should pay the same price.
+ And yet….
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+POs Pay Different Prices for Exactly the Same Good
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PaperScatter.pdf
+	lyxscale 50
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Together with Punjab Procurement Regulatory Authority (PPRA) and Punjab
+ Information Technology Board (PITB), we set up an E-Governance platform:
+ 
+\color blue
+Punjab Online Procurement System
+\color inherit
+ (POPS)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename POPS Login page.png
+	lyxscale 60
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+POPS Collects Detailed Spending Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Through POPS, office staff enter detailed data on what they are buying
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename POPS Item page Paper.png
+	lyxscale 50
+	scale 33
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename POPS Attributes page Paper.png
+	lyxscale 50
+	scale 33
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Item Selection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Generics account for 52% of the non wage budget for the average office
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+mean $94k, median $27k
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We rank 100+ distinct goods by unique number of POs buying them –> choose
+ top 25 goods
+\end_layout
+
+\begin_layout Itemize
+21,503 purchases (total value $7.7m) that account for 50% of generics budget
+ 
+\end_layout
+
+\begin_layout Itemize
+the least common item (pencil) is bought by 25% of the sample POs
+\end_layout
+
+\begin_layout Itemize
+the most common (paper) by 85%
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+25 goods, 21,503 purchases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ItemsPart1.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\size largest
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+25 goods, 21,503 purchases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ItemsPart2.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Treatment Effects I
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We estimate
+\begin_inset Formula 
+\begin{align*}
+p_{igto} & =\alpha+\sum_{k=1}^{3}\eta_{k}\text{Treatment}_{o}^{k}+\beta v_{igto}+\rho_{g}q_{igto}\\
+ & +\delta_{s}\text{Department}_{o}\times\text{District}_{o}+\delta_{g}+\varepsilon_{igto}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $p_{igto}$
+\end_inset
+
+ is log unit price, 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{igto}$
+\end_inset
+
+ (log) quantity purchased, 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v_{igto}$
+\end_inset
+
+ is good 
+\begin_inset Quotes eld
+\end_inset
+
+variety
+\begin_inset Quotes erd
+\end_inset
+
+ i.e.
+ all the attributes that might affect price, 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\delta_{s},\delta_{g}$
+\end_inset
+
+ stratum, good FEs.
+ 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Weight by control expenditure shares, 
+\begin_inset VSpace medskip
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+cluster 
+\begin_inset Formula $\varepsilon_{igto}$
+\end_inset
+
+ by public body.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Identification
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p_{igto} & =\alpha+\sum_{k=1}^{3}\eta_{k}\text{Treatment}_{o}^{k}+\beta v_{igto}+\rho_{g}q_{igto}\\
+ & +\delta_{s}\text{Department}_{o}\times\text{District}_{o}+\delta_{g}+\varepsilon_{igto}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\eta_{k}$
+\end_inset
+
+: causal effect of treatment 
+\begin_inset Formula $k$
+\end_inset
+
+ on quality-adjusted prices if 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+treatment does not affect control POs e.g.
+ through AG.
+ 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Experimental POs are a small fraction of total POs supervised
+\end_layout
+
+\begin_layout Itemize
+Effect on prices paid by control DDOs does not depend on number of treated
+ in same office
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+quality not affected by treatment.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+no effect on quality, very similar Diff in Diff results
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $v_{igto}$
+\end_inset
+
+ adequately captures item variety
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Measuring Item Variety
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $v_{igto}$
+\end_inset
+
+ adequately captures item variety
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Method 1: control for all goods' attributes in price regression (
+\emph on
+fine
+\emph default
+ measure)
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Method 1b: aggregate by 
+\begin_inset Quotes eld
+\end_inset
+
+pricing
+\begin_inset Quotes erd
+\end_inset
+
+ attributes in control group.
+ (
+\emph on
+scalar
+\emph default
+ measure)
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p_{igto} & =\mathbf{X}_{igto}\lambda_{g}+\rho_{g}q_{igto}+\delta_{g}+\varepsilon_{igto}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula $q_{igto}$
+\end_inset
+
+ is the quantity purchased, 
+\begin_inset Formula $\mathbf{X}_{igto}$
+\end_inset
+
+ are attributes of the item
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use 
+\begin_inset Formula $\hat{\lambda}$
+\end_inset
+
+s to control for quality 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $v_{igto}=\sum_{j\in A(g)}$
+\end_inset
+
+
+\begin_inset Formula $\hat{\lambda}_{j}X_{j}$
+\end_inset
+
+ where 
+\begin_inset Formula $A(g)$
+\end_inset
+
+ is the set of attributes of good g
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Method 2: control for simpler measure of quality (
+\emph on
+coarse
+\emph default
+ measure)
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use attributes with large 
+\begin_inset Formula $\hat{\lambda}$
+\end_inset
+
+s to classify purchases into 
+\begin_inset Quotes eld
+\end_inset
+
+high
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+low
+\begin_inset Quotes erd
+\end_inset
+
+ quality
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Method 3: Use ML to a) find optimal coarseness; b) allow more nonlinearity
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+No Effects on Item Variety Purchased
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+scalebox{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lcc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{"Y2_Type_ForSlides.tex"}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+No Effects on Composition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+scalebox{0.47}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{
+\begin_inset Quotes eld
+\end_inset
+
+AmountCF_CostCenterCode_year_Slides.tex
+\begin_inset Quotes erd
+\end_inset
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Autonomy reduces prices up to 9%
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameslide{PriceEsts}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+scalebox{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lcccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{"Y2_Prices_ForSlides.tex"}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Benchmarking
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename RateOfReturn.pdf
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+savings from the autonomy treatment from the offices in our experiment are
+ sufficient to fund the operation of five schools or to add 75 hospital
+ beds.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Open Questions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\color black
+We found that autonomy reduce prices, leave quantity, quality and the compositio
+n of purchases unchanged
+\end_layout
+
+\begin_layout Itemize
+Effect at least as large as incentives' on their own, at no cost
+\end_layout
+
+\begin_layout Itemize
+No additional effect of incentives
+\end_layout
+
+\begin_layout Itemize
+Why?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Treated POs devote more time to procurement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Figure2_A.pdf
+	scale 78
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+They spend more time searching deals, less time with the AG
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Mechanism_Q4.pdf
+	scale 78
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The accountant general
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Autonomy to PO= less power to AG
+\end_layout
+
+\begin_layout Itemize
+Theory shows that shifting authority will lower prices if the AG is relatively
+ more inefficient or corrupt whilst incentives will only lower prices in
+ the opposite case
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+AG are district specific –> use control group before the experiment to compute
+ share of transactions approved at the FYE (Liebman and Mahoney 16) 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Identifying variation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename shareJune.png
+	lyxscale 50
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Heterogeneity of Treatment Effects by Monitor Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AGTypeHeterog.pdf
+	width 97text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+POs respond to incentives when the AG is good
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+scalebox{0.56}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lccccccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{10}{c}{
+\backslash
+textbf{Panel B: Incentives}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{"TimeUseTableIncentives.tex"}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+this explains 72% of the incentive effect
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+POs respond to autonomy when the AG is bad
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+scalebox{0.56}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lccccccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{10}{c}{
+\backslash
+textbf{Panel A: Autonomy}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{"TimeUseTableAutonomy.tex"}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Autonomy reduces delays
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Delays_Overall.pdf
+	scale 78
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Especially when AG is inefficient
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Delays_AutonomyGoodBadAG.pdf
+	scale 78
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Autonomy Reduces Hold Up By the AG
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Holdup.pdf
+	scale 78
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Especially when AG is inefficient
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename HoldupGoodBadAG.pdf
+	scale 78
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Beyond the mean
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Autonomy might allow extreme corruption
+\end_layout
+
+\begin_layout Itemize
+One extreme event might be more damaging than the sum of many inefficient
+ purchases
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+big scandals are visible, day-to-day inefficiency is not
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Look at QTEs on purchases
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+QTEs show no 
+\begin_inset Quotes eld
+\end_inset
+
+tail
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename QTEsAutonomy_Ctrlcoarse.pdf
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+1-
+\end_layout
+
+\end_inset
+
+Organizations often limit autonomy to deal with agency issues
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Limits capture but also initiative
+\end_layout
+
+\begin_layout Itemize
+Creates two sets of agents: implementing agents and monitoring agents.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+2-
+\end_layout
+
+\end_inset
+
+Experimental results from procurement bureaucrats in Punjab, Pakistan show
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+2-
+\end_layout
+
+\end_inset
+
+Granting authority to implementing agents helps by reducing overall capture
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+2-
+\end_layout
+
+\end_inset
+
+Standard p4p ineffective when the monitor's inefficiency drives prices
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+3-
+\end_layout
+
+\end_inset
+
+Autonomy works when monitors are 
+\emph on
+ineffective
+\emph default
+; Incentives when they are 
+\emph on
+effective.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+3-
+\end_layout
+
+\end_inset
+
+Results driven by reduction in delays and bureaucrats exerting greater effort
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+4-
+\end_layout
+
+\end_inset
+
+In general: allocation of authority and incentives to different sets of
+ agents hinges on precise nature of agency problems.
+ Provide diagnostic tool
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:2
+status open
+
+\begin_layout Plain Layout
+
+5-
+\end_layout
+
+\end_inset
+
+In the long run: autonomy might attract talent
 \end_layout
 
 \end_deeper
