@@ -550,7 +550,28 @@ right
 \end_layout
 
 \begin_layout Enumerate
-MVPF
+MVPF.
+ Generate a new estimate of the MVPF of an interesting policy.
+ The team at are building a library of policies for which good research
+ can Then, you can submit it to the team at 
+\begin_inset CommandInset href
+LatexCommand href
+name "Policy Impacts"
+target "https://www.policyimpacts.org/"
+literal "false"
+
+\end_inset
+
+ to be included in their library: 
+\begin_inset CommandInset href
+LatexCommand href
+name "https://www.policyimpacts.org/submit-research"
+target "https://www.policyimpacts.org/submit-research"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
@@ -567,7 +588,21 @@ literal "false"
 \end_inset
 
 .
- 
+ Use this data to do something interesting.
+ This doesn't have to have cast-iron identification, interesting descriptive
+ work is still very interesting as long as you are clear about what we can
+ and cannot learn.
+ You might want to try merging this data with other data sources.
+ A great resource for other fascinating datasets on India is 
+\begin_inset CommandInset href
+LatexCommand href
+name "SHRUG"
+target "https://www.devdatalab.org/shrug"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section

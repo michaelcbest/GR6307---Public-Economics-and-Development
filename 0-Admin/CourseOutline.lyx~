@@ -164,7 +164,8 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Office Hours: Tuesdays 9-10am and 10.30-11.30pm on zoom.
+Office Hours: Wednesdays 2.40-4PM.
+ On zoom for the time being.
 \end_layout
 
 \begin_layout Standard
@@ -179,7 +180,7 @@ signup beforehand using
 \begin_inset CommandInset href
 LatexCommand href
 name "this link"
-target "https://calendar.google.com/calendar/selfsched?sstoken=UUNGcEU4eE1LNS1FfGRlZmF1bHR8NWIyN2QyNDljMzlkMzk1ODkzZGIwMjljZWQwOTUxNjA"
+target "https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNGcEU4eE1LNS1FfGRlZmF1bHR8NWIyN2QyNDljMzlkMzk1ODkzZGIwMjljZWQwOTUxNjA"
 literal "false"
 
 \end_inset
@@ -201,6 +202,13 @@ This course covers a range of challenges faced by governments in low- and
 \end_layout
 
 \begin_layout Enumerate
+Applied Welfare Analysis: We'll start with a little bit of tooling up on
+ the theory behind modern applied welfare analysis.
+ We'll cover the sufficient statistics approach and the measurement of marginal
+ welfare impacts of policy changes.
+\end_layout
+
+\begin_layout Enumerate
 Taxation: Tax systems in rich countries look very different from those in
  poor countries.
  How should tax systems be designed in the presence of high levels of tax
@@ -208,14 +216,6 @@ Taxation: Tax systems in rich countries look very different from those in
  reduce tax evasion? 
 \end_layout
 
-\begin_deeper
-\begin_layout Enumerate
-We'll take a detour into the theory behind modern applied welfare analysis.
- We'll cover the sufficient statistics approach and the measurement of marginal
- welfare impacts of policy changes.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 Anti-Poverty Programs: Targeted transfers to poor household are a huge part
  of government spending in low- and middle-income countries.
@@ -361,7 +361,18 @@ noprefix "false"
 \end_layout
 
 \begin_layout Enumerate
-Data Exercise [20%]
+Data Exercise (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Data-Exercise"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ [20%]
 \end_layout
 
 \begin_layout Enumerate
@@ -416,7 +427,7 @@ literal "false"
 \end_inset
 
 .
- This referee report will be due on 10/9.
+ This referee report will be due on 2/13.
  Please upload your referee report as a pdf in courseworks by 5pm.
  I will share your reports with the authors, since they could be helpful
  to them as they revise the papers for submission.
@@ -525,12 +536,19 @@ A summary of what you learned from the exercise.
 \end_layout
 
 \begin_layout Standard
-This report will be due on 11/13.
+This report will be due on 3/6.
  Please upload the report in courseworks as a pdf by 5pm
 \end_layout
 
 \begin_layout Section
 Data Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Data-Exercise"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -546,6 +564,83 @@ right
 \end_inset
 
  answer to the problem, but you have a concrete starting point and direction.
+ For this exercise, please do one of the following:
+\end_layout
+
+\begin_layout Enumerate
+MVPF.
+ The team at 
+\begin_inset CommandInset href
+LatexCommand href
+name "Policy Impacts"
+target "https://www.policyimpacts.org/"
+literal "false"
+
+\end_inset
+
+ are building a 
+\begin_inset CommandInset href
+LatexCommand href
+name "library of policies"
+target "https://www.policyimpacts.org/policy-impacts-library"
+literal "false"
+
+\end_inset
+
+ for which good research can allow us to estimate an MVPF.
+ Look through the policies for which they already have an MVPF and then
+ generate a new estimate of the MVPF of an interesting policy.
+ This can be either using different estimates than those used for a policy
+ that is in their library, or for a new policy that isn't in their library.
+ You don't necessarily have to produce all the estimates yourself, you can
+ pull together estimates from existing work and incorporate them into the
+ MVPF framework.
+ Then, you can submit it to the team to be included in their library: 
+\begin_inset CommandInset href
+LatexCommand href
+name "https://www.policyimpacts.org/submit-research"
+target "https://www.policyimpacts.org/submit-research"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Indian Elite Bureaucrats.
+ The Trivedi Centre for Political Data at Ashoka University recently published
+ data on the universe of Indian Administrative Service officers.
+ You can find it 
+\begin_inset CommandInset href
+LatexCommand href
+name "here"
+target "https://tcpd.ashoka.edu.in/bureaucrats-of-india/"
+literal "false"
+
+\end_inset
+
+.
+ Use this data to do something interesting.
+ This doesn't have to have cast-iron identification, interesting descriptive
+ work is still very interesting as long as you are clear about what we can
+ and cannot learn.
+ You might want to try merging this data with other data sources.
+ A great resource for other fascinating datasets on India is 
+\begin_inset CommandInset href
+LatexCommand href
+name "SHRUG"
+target "https://www.devdatalab.org/shrug"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This exercise will be due on 4/10.
+ Please upload your pdf in courseworks by 5PM.
 \end_layout
 
 \begin_layout Section
@@ -647,8 +742,8 @@ Preliminary Results: The extent of the results provided will differ across
 \end_layout
 
 \begin_layout Standard
-This paper will be due on 12/18.
- Please send the paper to me as a pdf by 5pm
+This paper will be due on 5/8.
+ Please upload your paper in courseworks as a pdf by 5PM.
 \end_layout
 
 \begin_layout Section
@@ -658,7 +753,7 @@ Schedule
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="14" columns="3">
+<lyxtabular version="3" rows="15" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -706,7 +801,7 @@ Agenda
 \begin_inset Text
 
 \begin_layout Plain Layout
-9/8
+1/18
 \end_layout
 
 \end_inset
@@ -715,7 +810,7 @@ Agenda
 \begin_inset Text
 
 \begin_layout Plain Layout
-Taxation 1
+Applied Welfare Analysis
 \end_layout
 
 \end_inset
@@ -735,7 +830,7 @@ Taxation 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-9/15
+1/25
 \end_layout
 
 \end_inset
@@ -764,7 +859,7 @@ Applied Welfare Analysis
 \begin_inset Text
 
 \begin_layout Plain Layout
-9/22
+2/1
 \end_layout
 
 \end_inset
@@ -773,7 +868,7 @@ Applied Welfare Analysis
 \begin_inset Text
 
 \begin_layout Plain Layout
-Taxation 2
+Taxation 1
 \end_layout
 
 \end_inset
@@ -793,7 +888,7 @@ Taxation 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-9/29
+2/8
 \end_layout
 
 \end_inset
@@ -802,7 +897,7 @@ Taxation 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Taxation 3
+Taxation 2
 \end_layout
 
 \end_inset
@@ -822,7 +917,7 @@ Taxation 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/6
+2/15
 \end_layout
 
 \end_inset
@@ -831,7 +926,7 @@ Taxation 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Taxation 4
+Taxation 3
 \end_layout
 
 \end_inset
@@ -851,7 +946,7 @@ Taxation 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/13
+2/22
 \end_layout
 
 \end_inset
@@ -860,7 +955,7 @@ Taxation 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 1
+Taxation 4
 \end_layout
 
 \end_inset
@@ -880,7 +975,7 @@ Anti-Poverty 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/20
+3/1
 \end_layout
 
 \end_inset
@@ -889,7 +984,7 @@ Anti-Poverty 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 2
+Anti-Poverty 1
 \end_layout
 
 \end_inset
@@ -909,7 +1004,7 @@ Anti-Poverty 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/27
+3/8
 \end_layout
 
 \end_inset
@@ -918,7 +1013,7 @@ Anti-Poverty 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 3
+Anti-Poverty 2
 \end_layout
 
 \end_inset
@@ -938,7 +1033,7 @@ Anti-Poverty 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/10
+3/22
 \end_layout
 
 \end_inset
@@ -947,7 +1042,7 @@ Anti-Poverty 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Anti-Poverty 4
+Anti-Poverty 3
 \end_layout
 
 \end_inset
@@ -967,7 +1062,7 @@ Anti-Poverty 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/17
+3/29
 \end_layout
 
 \end_inset
@@ -976,7 +1071,7 @@ Anti-Poverty 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 1
+Anti-Poverty 4
 \end_layout
 
 \end_inset
@@ -996,7 +1091,7 @@ Personnel 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/24
+4/5
 \end_layout
 
 \end_inset
@@ -1005,7 +1100,7 @@ Personnel 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personnel 2
+Personnel 1
 \end_layout
 
 \end_inset
@@ -1025,7 +1120,36 @@ Personnel 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-12/1
+4/12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personnel 2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4/19
 \end_layout
 
 \end_inset
@@ -1045,7 +1169,7 @@ Personnel 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-13
+14
 \end_layout
 
 \end_inset
@@ -1054,7 +1178,7 @@ Personnel 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-12/8
+4/26
 \end_layout
 
 \end_inset
