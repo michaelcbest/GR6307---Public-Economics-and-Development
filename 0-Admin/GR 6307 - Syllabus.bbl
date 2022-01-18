@@ -4174,6 +4174,39 @@
       \field{title}{Redistribution Toward Low Incomes in Richer Countries}
       \field{year}{2006}
     \endentry
+    \entry{SaezStantcheva2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f040f5aac2c176810fed8b44b9c401a4}{%
+           family={Saez},
+           familyi={S\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5c2f2963924d9ba3ba156a866acfd3f2}{%
+           family={Stantcheva},
+           familyi={S\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddecd58fac94906699eb3c90bbd6177f}
+      \strng{fullhash}{ddecd58fac94906699eb3c90bbd6177f}
+      \strng{bibnamehash}{ddecd58fac94906699eb3c90bbd6177f}
+      \strng{authorbibnamehash}{ddecd58fac94906699eb3c90bbd6177f}
+      \strng{authornamehash}{ddecd58fac94906699eb3c90bbd6177f}
+      \strng{authorfullhash}{ddecd58fac94906699eb3c90bbd6177f}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{American Economic Review}
+      \field{title}{Generalized Social Marginal Welfare Weights for Optimal Tax Theory}
+      \field{volume}{106}
+      \field{year}{2016}
+      \field{pages}{24\bibrangedash 45}
+      \range{pages}{22}
+    \endentry
     \entry{Sequeira2016}{article}{}
       \name{author}{1}{}{%
         {{hash=342f4e3617d2ea4905bfdb50f1c759c7}{%
@@ -4367,6 +4400,72 @@
       \field{note}{Forthcoming, Review of Economics and Statistics}
       \field{title}{How do Taxpayers Respond to Public Disclosure and Social Recognition Programs? Evidence from Pakistan}
       \field{year}{2020}
+    \endentry
+    \entry{SlemrodYitzhaki2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=58ceb1e79ab6ce8aa41d6cfc2aef11f5}{%
+           family={Slemrod},
+           familyi={S\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a3885a5fced641b4bab0b4cb57dd4456}{%
+           family={Yitzhaki},
+           familyi={Y\bibinitperiod},
+           given={Shlomo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{fullhash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{bibnamehash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{authorbibnamehash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{authornamehash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{authorfullhash}{12f2c413a580d5ef4c487e0567682a84}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{National Tax Journal}
+      \field{title}{Integrating Expenditure and Tax Decisions: The Marginal Cost of Funds and the Marginal Benefit of Projects}
+      \field{volume}{54}
+      \field{year}{2001}
+      \field{pages}{189\bibrangedash 201}
+      \range{pages}{13}
+    \endentry
+    \entry{SlemrodYitzhaki1996}{article}{}
+      \name{author}{2}{}{%
+        {{hash=58ceb1e79ab6ce8aa41d6cfc2aef11f5}{%
+           family={Slemrod},
+           familyi={S\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a3885a5fced641b4bab0b4cb57dd4456}{%
+           family={Yitzhaki},
+           familyi={Y\bibinitperiod},
+           given={Shlomo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{fullhash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{bibnamehash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{authorbibnamehash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{authornamehash}{12f2c413a580d5ef4c487e0567682a84}
+      \strng{authorfullhash}{12f2c413a580d5ef4c487e0567682a84}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{IMF Staff Papers}
+      \field{title}{The Costs of Taxation and the Marginal Efficiency Cost of Funds}
+      \field{volume}{43}
+      \field{year}{1996}
+      \field{pages}{172\bibrangedash 198}
+      \range{pages}{27}
     \endentry
     \entry{Suarez2018}{unpublished}{}
       \name{author}{1}{}{%
