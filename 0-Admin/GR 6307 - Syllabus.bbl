@@ -455,6 +455,40 @@
       \field{title}{Bribes vs. Taxes: Market Structure and Incentives}
       \field{year}{2018}
     \endentry
+    \entry{AndersenJohannesenRijkers2020}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=6a398ed5f46413307bc3389670ae22c3}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={J{ø{o}}rgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f54fef7e0eff1aaacf622d7ad3d397cb}{%
+           family={Johannesen},
+           familyi={J\bibinitperiod},
+           given={Niels},
+           giveni={N\bibinitperiod}}}%
+        {{hash=db864aec6b7cd54e2217cf75a880f36a}{%
+           family={Rijkers},
+           familyi={R\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{295e955312d8bf2b924331e59918d663}
+      \strng{fullhash}{295e955312d8bf2b924331e59918d663}
+      \strng{bibnamehash}{295e955312d8bf2b924331e59918d663}
+      \strng{authorbibnamehash}{295e955312d8bf2b924331e59918d663}
+      \strng{authornamehash}{295e955312d8bf2b924331e59918d663}
+      \strng{authorfullhash}{295e955312d8bf2b924331e59918d663}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Forthcoming, Journal of Political Economy}
+      \field{title}{Elite Capture of Foreign Aid: Evidence from Offshore Bank Accounts}
+      \field{year}{2020}
+    \endentry
     \entry{Andreonietal1998}{article}{}
       \name{author}{3}{}{%
         {{hash=9480e43b1778fbd127bb0cfc3893db78}{%
@@ -796,6 +830,45 @@
       \field{year}{2011}
       \field{pages}{1709\bibrangedash 1753}
       \range{pages}{45}
+    \endentry
+    \entry{BalanBergeronTourekWeigel2021}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=8c2c82e1850d7f32d0ede8627caef091}{%
+           family={Balan},
+           familyi={B\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=13ad8c1123ddf65b2d5d669280df04be}{%
+           family={Bergeron},
+           familyi={B\bibinitperiod},
+           given={Augustin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=80337dbd4d1a976c387fcb889f336cc1}{%
+           family={Tourek},
+           familyi={T\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=00e83ae4996e8922510d36f4c0c483ad}{%
+           family={Weigel},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a26254cdf5b69baa04f2f0246e4ddd4}
+      \strng{fullhash}{4a26254cdf5b69baa04f2f0246e4ddd4}
+      \strng{bibnamehash}{4a26254cdf5b69baa04f2f0246e4ddd4}
+      \strng{authorbibnamehash}{4a26254cdf5b69baa04f2f0246e4ddd4}
+      \strng{authornamehash}{4a26254cdf5b69baa04f2f0246e4ddd4}
+      \strng{authorfullhash}{4a26254cdf5b69baa04f2f0246e4ddd4}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{forthcoming, American Economic Review}
+      \field{title}{Local Elites as State Capacity: How City Chiefs Use Local Information to Increase Tax Compliance in the D.R. Congo}
+      \field{year}{2021}
     \endentry
     \entry{Bandieraetal2019}{unpublished}{}
       \name{author}{4}{}{%
@@ -1205,6 +1278,40 @@
       \field{year}{2018}
       \field{pages}{1\bibrangedash 14}
       \range{pages}{14}
+    \endentry
+    \entry{BergeronTourekWeigel2021}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=13ad8c1123ddf65b2d5d669280df04be}{%
+           family={Bergeron},
+           familyi={B\bibinitperiod},
+           given={Augustin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=80337dbd4d1a976c387fcb889f336cc1}{%
+           family={Tourek},
+           familyi={T\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=00e83ae4996e8922510d36f4c0c483ad}{%
+           family={Weigel},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7e766cf8829597c22d3a50023854273}
+      \strng{fullhash}{c7e766cf8829597c22d3a50023854273}
+      \strng{bibnamehash}{c7e766cf8829597c22d3a50023854273}
+      \strng{authorbibnamehash}{c7e766cf8829597c22d3a50023854273}
+      \strng{authornamehash}{c7e766cf8829597c22d3a50023854273}
+      \strng{authorfullhash}{c7e766cf8829597c22d3a50023854273}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: UC Berkeley}
+      \field{title}{The State Capacity Ceiling on Tax Rates: Evidence from Randomized Tax Abatements in the DRC}
+      \field{year}{2021}
     \endentry
     \entry{BertrandEtAl2007}{article}{}
       \name{author}{4}{}{%
@@ -1724,6 +1831,45 @@
       \field{title}{Tacation, Information and Withholding: Evidence from Costa Rica}
       \field{year}{2018}
     \endentry
+    \entry{BrockmeyerEtAl2021}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=7beff20a43b708e2ef369a8b052baf2f}{%
+           family={Brockmeyer},
+           familyi={B\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8c41a0f47b54c569e17e19c73e0a2507}{%
+           family={Estefan},
+           familyi={E\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=796704efa803dafdeed44cc57076e58c}{%
+           family={{Ramírez Arras}},
+           familyi={R\bibinitperiod},
+           given={Karina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=125cafe5d8e4458aa652c956b5aaaeb5}{%
+           family={{Suárez Serrato}},
+           familyi={S\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c07bbbe75fecb5fdba306981d8147a37}
+      \strng{fullhash}{c07bbbe75fecb5fdba306981d8147a37}
+      \strng{bibnamehash}{c07bbbe75fecb5fdba306981d8147a37}
+      \strng{authorbibnamehash}{c07bbbe75fecb5fdba306981d8147a37}
+      \strng{authornamehash}{c07bbbe75fecb5fdba306981d8147a37}
+      \strng{authorfullhash}{c07bbbe75fecb5fdba306981d8147a37}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: Duke University}
+      \field{title}{Taxing Property in Developing Countries: Theory and Evidence from Mexico}
+      \field{year}{2021}
+    \endentry
     \entry{Brolloetal2016}{unpublished}{}
       \name{author}{3}{}{%
         {{hash=6d4464dc5af8654351a9bc4f841042b4}{%
@@ -1988,6 +2134,45 @@
       \field{year}{2016}
       \field{pages}{273\bibrangedash 314}
       \range{pages}{42}
+    \endentry
+    \entry{ChalendardFernandesRaballandRijkers2020}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=056a02d71ea92cb444947ff19146a697}{%
+           family={Chalendard},
+           familyi={C\bibinitperiod},
+           given={Cyril},
+           giveni={C\bibinitperiod}}}%
+        {{hash=09da19069acaac2391a56f086ddcaeec}{%
+           family={Fernandes},
+           familyi={F\bibinitperiod},
+           given={Ana\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b92126cfb4b1844477c110e236e7cb38}{%
+           family={Raballand},
+           familyi={R\bibinitperiod},
+           given={Gael},
+           giveni={G\bibinitperiod}}}%
+        {{hash=db864aec6b7cd54e2217cf75a880f36a}{%
+           family={Rijkers},
+           familyi={R\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9736338eecb701aec944caa280c4e54a}
+      \strng{fullhash}{9736338eecb701aec944caa280c4e54a}
+      \strng{bibnamehash}{9736338eecb701aec944caa280c4e54a}
+      \strng{authorbibnamehash}{9736338eecb701aec944caa280c4e54a}
+      \strng{authornamehash}{9736338eecb701aec944caa280c4e54a}
+      \strng{authorfullhash}{9736338eecb701aec944caa280c4e54a}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{mimeo: World Bank}
+      \field{title}{Technology (Ab)use and Corruption in Customs}
+      \field{year}{2020}
     \endentry
     \entry{Chalfinetal2016}{article}{}
       \name{author}{6}{}{%
@@ -3047,6 +3232,49 @@
       \field{year}{2009}
       \field{pages}{504\bibrangedash 554}
       \range{pages}{51}
+    \endentry
+    \entry{GuytonEtAl2021}{unpublished}{}
+      \name{author}{5}{}{%
+        {{hash=b3a1513b4fb28aae47053242e9d802fd}{%
+           family={Guyton},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=74e4bfc9e647324a14882a3c6ea993e4}{%
+           family={Langetieg},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=92a4418de63f80d366c4dcaa2b6a77b8}{%
+           family={Risch},
+           familyi={R\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=456f290a63ed20cca7d0dc1a95033a02}{%
+           family={Reck},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3b966b131eabccf3c6ecbdb6fe527f0c}{%
+           family={Zucman},
+           familyi={Z\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{215df397596f0419d3ce64f684b0db0c}
+      \strng{fullhash}{215df397596f0419d3ce64f684b0db0c}
+      \strng{bibnamehash}{215df397596f0419d3ce64f684b0db0c}
+      \strng{authorbibnamehash}{215df397596f0419d3ce64f684b0db0c}
+      \strng{authornamehash}{215df397596f0419d3ce64f684b0db0c}
+      \strng{authorfullhash}{215df397596f0419d3ce64f684b0db0c}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tax Evasion at the Top of the Income Distribution: Theory and Evidence}
+      \field{year}{2021}
     \endentry
     \entry{HannaOlken2018}{article}{}
       \name{author}{2}{}{%
@@ -4524,6 +4752,34 @@
       \field{note}{NBER W.P 24701}
       \field{title}{The Missing Profits of Nations}
       \field{year}{2018}
+    \endentry
+    \entry{Weigel2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=34a52e4f1cdd2f1a70d13e2e950954e6}{%
+           family={Weigel},
+           familyi={W\bibinitperiod},
+           given={Jonathan\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{34a52e4f1cdd2f1a70d13e2e950954e6}
+      \strng{fullhash}{34a52e4f1cdd2f1a70d13e2e950954e6}
+      \strng{bibnamehash}{34a52e4f1cdd2f1a70d13e2e950954e6}
+      \strng{authorbibnamehash}{34a52e4f1cdd2f1a70d13e2e950954e6}
+      \strng{authornamehash}{34a52e4f1cdd2f1a70d13e2e950954e6}
+      \strng{authorfullhash}{34a52e4f1cdd2f1a70d13e2e950954e6}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{title}{The Participation Dividend of Taxation: How Citizens in Congo Engage More with the State When it Tries to Tax Them}
+      \field{volume}{135}
+      \field{year}{2020}
+      \field{pages}{1849\bibrangedash 1903}
+      \range{pages}{55}
     \endentry
     \entry{Xu2018}{article}{}
       \name{author}{1}{}{%
