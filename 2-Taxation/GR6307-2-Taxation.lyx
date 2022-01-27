@@ -256,7 +256,7 @@ Motivating Facts
 status open
 
 \begin_layout Plain Layout
-Taxation is key to achieving Development
+Taxation is Key to Achieving Development
 \end_layout
 
 \end_inset
@@ -348,8 +348,8 @@ Motivating Facts: Besley & Persson (2013)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BesleyPersson0.png
-	scale 38
+	filename pictures/BesleyPersson0.png
+	scale 35
 
 \end_inset
 
@@ -385,8 +385,8 @@ Motivating Facts: Besley & Persson (2013)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BesleyPersson1.png
-	scale 38
+	filename pictures/BesleyPersson1.png
+	scale 35
 
 \end_inset
 
@@ -422,8 +422,8 @@ Motivating Facts: Besley & Persson (2013)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BesleyPersson2.png
-	scale 38
+	filename pictures/BesleyPersson2.png
+	scale 35
 
 \end_inset
 
@@ -459,8 +459,8 @@ Motivating Facts: Besley & Persson (2013)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BesleyPersson3.png
-	scale 49
+	filename pictures/BesleyPersson3.png
+	scale 45
 
 \end_inset
 
@@ -496,8 +496,8 @@ Motivating Facts: Besley & Persson (2013)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BesleyPersson4.png
-	scale 48
+	filename pictures/BesleyPersson4.png
+	scale 44
 
 \end_inset
 
@@ -575,8 +575,8 @@ Atkinson-Stiglitz (1976): Uniform commodity taxation
 \end_deeper
 \begin_layout Standard
 \begin_inset Graphics
-	filename GordonLi_1.png
-	scale 55
+	filename pictures/GordonLi_1.png
+	scale 70
 
 \end_inset
 
@@ -597,710 +597,6 @@ Big Picture
 Taxation in Developing Countries: Big Picture
 \end_layout
 
-\begin_layout Subsection
-Gordon & Li (JPubE 2009) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Tax Structures in Developing Countries: Many Puzzles and a Possible Explanation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gordon & Li (2009): Model
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $J$
-\end_inset
-
- industries with CRS 
-\begin_inset Formula $f_{j}\left(K_{j},L_{j}\right)$
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-If don't use financial sector, informal firm and no tax: 
-\begin_inset Formula $\Pi=p_{j}^{*}f_{j}-rK_{j}-wL_{j}$
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-If use finance, generate paper trail, but more efficient 
-\begin_inset Formula $\Pi=\frac{1+a_{j}}{1+s_{j}}p_{j}^{*}f_{j}-rK_{j}-wL_{j}$
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Let 
-\begin_inset Formula $\beta=I\left\{ \text{use finance}\right\} $
-\end_inset
-
- then 
-\begin_inset Formula 
-\[
-\Pi=\max_{\beta_{j},L_{j},K_{j}}\left(\left(1-\beta_{j}\right)p_{j}^{*}f_{j}+\beta_{j}p_{j}^{*}\frac{1+a_{j}}{1+s_{j}}p_{j}^{*}f_{j}-rK_{j}-w_{L_{j}}\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Formalize if 
-\begin_inset Formula $s_{j}<a_{j}$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gordon & Li (2009): Model
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Simple GE model with 3 goods to replicate stylized facts
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-0
-\end_layout
-
-\end_inset
-
-Non-tradable good
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-
-Exported Tradable good
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-Imported Tradable good
-\end_layout
-
-\begin_layout Itemize
-Tax instruments:
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-excise taxes 
-\begin_inset Formula $s_{j}$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-corporate profit tax 
-\begin_inset Formula $\tau_{j}$
-\end_inset
-
- (base is 
-\begin_inset Formula $rK_{j}/\left(1-\tau_{j}\right)$
-\end_inset
-
- by CRS)
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-tariff 
-\begin_inset Formula $m_{2}$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-seignorage 
-\begin_inset Formula $iM$
-\end_inset
-
- (interest rate 
-\begin_inset Formula $i$
-\end_inset
-
-, money stock 
-\begin_inset Formula $M$
-\end_inset
-
-)
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gordon & Li (2009): Model
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Households: OLG.
-\begin_inset Formula 
-\[
-V_{t}\left(\frac{wh}{g\left(p_{t},\frac{p_{t+1}}{1+r},\frac{i}{1+r}\right)}\right)
-\]
-
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $g(\cdot)$
-\end_inset
-
- is a price index, assume equal expenditure shares across hhs, welfare depends
- on 
-\begin_inset Formula $g$
-\end_inset
-
- and 
-\begin_inset Formula $wh$
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Budget Constraint
-\begin_inset Formula 
-\[
-whL_{t}=p_{t}C_{t}+\frac{p_{t+1}C_{t+1}+iM_{t+1}^{h}}{1+r}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gordon & Li (2009): Model
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Assumption 1:
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Inelastic labor supply
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-non-tradables weakly larger budget share for the old
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\begin_inset Formula $a_{j}$
-\end_inset
-
- varies across countries and industries: 
-\begin_inset Formula $a_{c}=\phi_{j}\theta_{c}$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Assumption 2:
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Formula $\phi_{0}<\phi_{1}<\phi_{2}$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\frac{K_{0}}{L_{0}}<\frac{K_{1}}{L_{1}}<\frac{K_{2}}{L_{2}}$
-\end_inset
-
- for all factor prices
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gordon & Li (2009): Formality Decision
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Formal firms: 0-profit condition gives
-\begin_inset Formula 
-\[
-p_{j}\frac{1+a_{j}}{1+s_{j}}=c_{j}\left(w,r\left(1+\tau_{j}\right)\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Informal firms: cash transactions 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- subject to inflation.
- 
-\begin_inset VSpace medskip
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Costs 
-\begin_inset Formula $d\left(\mu\right)$
-\end_inset
-
- to hold a share 
-\begin_inset Formula $\mu$
-\end_inset
-
- of turnover in cash.
- 
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Profit rate: 
-\begin_inset Formula $\left(1-i\mu-d\left(\mu\right)\right)p_{j}-c_{j}\left(w,r\right)$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Indifference:
-\begin_inset Formula 
-\[
-p_{j}\frac{1+a_{j}}{1+s_{j}}-c_{j}\left(w,r\left(1+\tau_{j}\right)\right)=\left(1-i\mu^{*}-d\left(\mu^{*}\right)\right)p_{j}-c_{j}\left(w,r\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gordon & Li (2009): Results
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Governments seek to maximize social welfare
-\size tiny
-
-\begin_inset Formula 
-\[
-\underbrace{\sum_{t}\frac{V_{t}}{\left(1+\rho\right)^{t}}}_{\text{HH welfare}}+R\left(\underbrace{\sum_{t}\tfrac{1}{\left(1+r\right)^{t}}\sum_{j}\left(s_{j}\frac{1+a_{j}}{1+s_{j}}p_{jt}+\tau_{j}rk_{j}\right)\beta_{j}p_{jt}f_{jt}+\left(1-\tfrac{v}{i}\right)iM_{t}+m_{2}p_{2t}I_{2t}}_{\text{Government Revenue}}\right)
-\]
-
-\end_inset
-
-
-\size default
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Government gets more revenues from formal firms, so won't raise taxes so
- much as to tip firms into informality
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Informality decision implies constraints on tax instruments.
-\size scriptsize
-
-\begin_inset Formula 
-\[
-\underbrace{s_{j}\frac{1+a_{j}}{1+s_{j}}p_{j}+c_{j}\left(w,r\left(1+\tau_{j}\right)\right)-c_{j}\left(w,r\right)-\mu^{*}\left(i-v\right)p_{j}}_{\text{Extra revenue if firms in sector j are formal}}\leq\underbrace{a_{j}p_{j}+dp_{j}+\mu^{*}vp_{j}}_{\text{costs firms willing to bear to avoid tax}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gordon & Li (2009): Results
-\end_layout
-
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Proposition 1: Rich countries: 
-\begin_inset Formula $\theta_{c}$
-\end_inset
-
- high so no constraints bind and then
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-uniform 
-\begin_inset Formula $s_{j}$
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $\tau_{j}=0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $m_{2}=0$
-\end_inset
-
-, low 
-\begin_inset Formula $i$
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Proposition 2: If constraint binds in sector 0
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $1+m_{2}=\frac{1+s_{2}}{1+s_{1}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $s_{2}>s_{1}$
-\end_inset
-
- if 
-\begin_inset Formula $e_{0}>1$
-\end_inset
-
- (PED of good 0)
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\tau>0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-bigger 
-\begin_inset Formula $i$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Subsection
 Besley & Persson (2013 Handbook of Public) 
 \begin_inset ERT
@@ -1388,7 +684,7 @@ Creates feedback loop: More capacity for taxation
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BesleyPersson2013_1.png
+	filename pictures/BesleyPersson2013_1.png
 	scale 60
 
 \end_inset
@@ -3483,7 +2779,7 @@ Chetty (2009): Both Types of Evasion
 \begin_inset Formula 
 \begin{align*}
 \max_{l,e}u\left(c,l,e\right) & =c-\psi\left(l\right)-g\left(e\right)\\
-s.e.\;c & =y+\left(1-t\right)\left(wl-e\right)+e-z\left(e,t\right)
+s.t.\;c & =y+\left(1-t\right)\left(wl-e\right)+e-z\left(e,t\right)
 \end{align*}
 
 \end_inset
@@ -3528,13 +2824,9 @@ Evasion choice FOC is
 
 \begin_inset Formula 
 \[
-\frac{dW\left(t\right)}{dt}=t\left(\mu\frac{dTI}{dt}+\left(1-\mu\right)\frac{dLI}{dt}\right)
+\frac{dW\left(t\right)}{dt}=t\left(\mu\frac{dTI}{dt}+\left(1-\mu\right)\frac{dLI}{dt}\right)\quad\text{ where }\mu=g^{\prime}\left(e\right)/t
 \]
 
-\end_inset
-
-where 
-\begin_inset Formula $\mu=g^{\prime}\left(e\right)/t$
 \end_inset
 
 
@@ -3931,9 +3223,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_1.png
-	scale 62
+	filename pictures/Kleven2011_1.png
+	scale 57
 
 \end_inset
 
@@ -4016,9 +3309,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_2.png
-	scale 62
+	filename pictures/Kleven2011_2.png
+	height 99theight%
 
 \end_inset
 
@@ -4049,9 +3343,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_3.png
-	scale 58
+	filename pictures/Kleven2011_3.png
+	height 97theight%
 
 \end_inset
 
@@ -4082,9 +3377,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_4.png
-	scale 57
+	filename pictures/Kleven2011_4.png
+	height 95theight%
 
 \end_inset
 
@@ -4115,9 +3411,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_5.png
-	scale 57
+	filename pictures/Kleven2011_5.png
+	width 99text%
 
 \end_inset
 
@@ -4148,9 +3445,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_6.png
-	scale 57
+	filename pictures/Kleven2011_6.png
+	width 99text%
 
 \end_inset
 
@@ -4181,9 +3479,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_7.png
-	scale 58
+	filename pictures/Kleven2011_7.png
+	height 99theight%
 
 \end_inset
 
@@ -4214,9 +3513,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_8.png
-	scale 59
+	filename pictures/Kleven2011_8.png
+	height 97theight%
 
 \end_inset
 
@@ -4247,9 +3547,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_9.png
-	scale 57
+	filename pictures/Kleven2011_9.png
+	height 97theight%
 
 \end_inset
 
@@ -4280,9 +3581,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_10.png
-	scale 58
+	filename pictures/Kleven2011_10.png
+	height 95theight%
 
 \end_inset
 
@@ -4313,9 +3615,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Kleven2011_11.png
-	scale 58
+	filename pictures/Kleven2011_11.png
+	width 99text%
 
 \end_inset
 
@@ -4346,1167 +3649,10 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Standard
-\begin_inset Graphics
-	filename Kleven2011_12.png
-	scale 58
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Subsection
-Dwenger, Kleven, Rasul & Rincke (AEJ:Pol 2016) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Extrinsic and Intrinsic Motivations for Tax Compliance: Evidence from a
- Field Experiment in Germany
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Dwenger et al.
- (2016): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Perhaps A-S predicts poorly because people don't understand the incentives
- they face?
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Or because people comply for 
-\emph on
-non-pecuniary
-\emph default
- reasons?
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-moral sentiments
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-guilt
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-reciprocity
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-social norms
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Label all of these 
-\emph on
-intrinsic motivation
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Run a field experiment to contrast impact with 
-\emph on
-extrinsic motivation
-\emph default
- (financial penalties for non-compliance)
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Study local church tax in Bavaria, Germany
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Dwenger et al.
- (2016): Setting
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-All members of protestant and catholic churches must pay tax
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-local tax collected by individual parishes
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Everyone who is baptised is liable when they turn 18 (even though <8% actually
- attend church)
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-progressive tax schedule from €5 to €100 based on broad income
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Each May, churches mail people to self-assess and deposit their tax liability
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-at baseline no deterrence
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Overpayment is encouraged, treated as donations
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-identify intrinsically motivated people as overpayers at baseline
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Dwenger et al.
- (2016): Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Model merging A-S with warm-glow (Andreoni 1988, 1990)
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Taxpayers have true income 
-\begin_inset Formula $\bar{z}$
-\end_inset
-
- and face tax schedule 
-\begin_inset Formula $T\left(\bar{z}\right)$
-\end_inset
-
-.
- Report 
-\begin_inset Formula $z$
-\end_inset
-
- and 
-\begin_inset Formula $T\left(z\right)$
-\end_inset
-
-.
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Utility 
-\begin_inset Formula $u\left(c,T\left(z\right),s\right)$
-\end_inset
-
- 
-\begin_inset Formula $c$
-\end_inset
-
- is consumption, 
-\begin_inset Formula $T\left(z\right)$
-\end_inset
-
- to capture warm glow, governed by parameter 
-\begin_inset Formula $s$
-\end_inset
-
-.
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $u_{T}^{\prime}/u_{C}^{\prime}$
-\end_inset
-
- increasing in 
-\begin_inset Formula $s$
-\end_inset
-
-, 0 if 
-\begin_inset Formula $s=0$
-\end_inset
-
-.
- 
-\begin_inset Formula $s$
-\end_inset
-
- is heterogeneous in population with cdf 
-\begin_inset Formula $F\left(s\right)$
-\end_inset
-
-.
- 
-\begin_inset Formula $s=0\rightarrow$
-\end_inset
-
-A-S
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Taxpayers choose 
-\begin_inset Formula $z$
-\end_inset
-
- to maximize
-\begin_inset Formula 
-\begin{align*}
- & \left(1-p\right)u\left(\bar{z}-T\left(z\right),T\left(z\right),s\right)\\
-+ & pu\left(\bar{z}-T\left(z\right)-I\left\{ z<\bar{z}\right\} \left(1+\theta\right)\left[T\left(\bar{z}\right)-T\left(z\right)\right],T\left(z\right),s\right)
-\end{align*}
-
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-where 
-\begin_inset Formula $p$
-\end_inset
-
- is audit probability, 
-\begin_inset Formula $\theta$
-\end_inset
-
- is penalty
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Dwenger et al.
- (2016): Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Three types of taxpayers
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-
-\emph on
-evaders:
-\emph default
- 
-\begin_inset Formula $T\left(z\right)<T\left(\bar{z}\right)$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-compliers
-\emph default
-: 
-\begin_inset Formula $T\left(z\right)=T\left(\bar{z}\right)$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-donors
-\emph default
-: 
-\begin_inset Formula $T\left(z\right)>T\left(\bar{z}\right)$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Policy changes create intensive margin (changes in 
-\begin_inset Formula $z$
-\end_inset
-
- within type) and extensive margin (taxpayers changing types) responses.
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Intensive margin response:
-\begin_inset Formula 
-\[
-\left(1-p\right)u_{c_{N}}^{\prime}+p\left(1-I\left\{ z<\bar{z}\right\} \left(1+\theta\right)\right)u_{c_{A}}^{\prime}=\textsf{E}\left[u_{T}^{\prime}\right]
-\]
-
-\end_inset
-
-where 
-\begin_inset Formula $u_{c_{N}}^{\prime}$
-\end_inset
-
- and 
-\begin_inset Formula $u_{c_{A}}^{\prime}$
-\end_inset
-
- are marginal utilities of consumption in non-audited and audited states
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Dwenger et al.
- (2016): Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Intensive margin comparative statics: 
-\begin_inset Formula $p\uparrow\rightarrow z\uparrow$
-\end_inset
-
- for evaders, no effect on donors
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Extensive margin: 
-\begin_inset Formula $s<\bar{s}_{1}\rightarrow$
-\end_inset
-
-evader; 
-\begin_inset Formula $\bar{s}_{1}\leq s\leq\bar{s}_{2}\rightarrow$
-\end_inset
-
- complier; 
-\begin_inset Formula $\bar{s}_{2}<s\rightarrow$
-\end_inset
-
-donor.
- Cutoffs satisfy
-\begin_inset Formula 
-\begin{align*}
-\frac{u_{T}^{\prime}\left(\bar{z}-T\left(\bar{z}\right),T\left(\bar{z}\right),\bar{s}_{1}\right)}{u_{c}^{\prime}\left(\bar{z}-T\left(\bar{z}\right),T\left(\bar{z}\right),\bar{s}_{1}\right)} & =1-p\left(1+\theta\right)\\
-\frac{u_{T}^{\prime}\left(\bar{z}-T\left(\bar{z}\right),T\left(\bar{z}\right),\bar{s}_{2}\right)}{u_{c}^{\prime}\left(\bar{z}-T\left(\bar{z}\right),T\left(\bar{z}\right),\bar{s}_{2}\right)} & =1
-\end{align*}
-
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Comparative statics: 
-\begin_inset Formula $p\uparrow\rightarrow\bar{s}_{1}\downarrow$
-\end_inset
-
-, no effect on 
-\begin_inset Formula $\bar{s}_{2}$
-\end_inset
-
-
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- fewer evaders, more compliers
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Dwenger et al.
- (2016): Experiment
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Experiment with 11 (!) treatment arms
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T1.
-\end_layout
-
-\end_inset
-
-Control
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Tax Simplification and misperceptions
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T2.
-\end_layout
-
-\end_inset
-
-Shorter, clearer message.
- Legal obligation, payment deadlines and schedule more salient
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T3.
-\end_layout
-
-\end_inset
-
- T2 + paragraph saying 
-\begin_inset Formula $p=0$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Deterrence
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T4.
-\end_layout
-
-\end_inset
-
- T2 + 
-\begin_inset Formula $p=0.1$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T5.
-\end_layout
-
-\end_inset
-
- T2 + 
-\begin_inset Formula $p=0.2$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T6.
-\end_layout
-
-\end_inset
-
- T2 + 
-\begin_inset Formula $p=0.5$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T7.
-\end_layout
-
-\end_inset
-
- T2 + 
-\begin_inset Formula $p=0.5$
-\end_inset
-
- if pay less than €10
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Dwenger et al.
- (2016): Experiment
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Compliance Rewards
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T8.
-\end_layout
-
-\end_inset
-
- T2 + social recognition (in newspaper) of timely compliance
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T9.
-\end_layout
-
-\end_inset
-
- T2 + private raffle for €250
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T10.
-\end_layout
-
-\end_inset
-
- T2 + private raffle for €1,000
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T11.
-\end_layout
-
-\end_inset
-
- T2 + newspaper + €1,000 raffle
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Dwenger et al.
- (2016): Analysis
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Data.
- Link church records 
-\begin_inset Formula $\left(z\right)$
-\end_inset
-
- with tax records 
-\begin_inset Formula $\left(\bar{z}\right)$
-\end_inset
-
- on 39,782 individuals
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Extensive margin: Estimate LPM
-\begin_inset Formula 
-\[
-\textsf{Pr}\left(i\textsf{ evades}\right)=\alpha+\beta I\left\{ T_{i}=j\right\} +\pi E_{i,pre}+\lambda_{S}+u_{i}
-\]
-
-\end_inset
-
-where 
-\begin_inset Formula $I\left\{ T_{i}=j\right\} $
-\end_inset
-
- indicates treatment 
-\begin_inset Formula $j$
-\end_inset
-
-, 
-\begin_inset Formula $E_{i,pre}$
-\end_inset
-
- denotes evasion in previous years, 
-\begin_inset Formula $\lambda_{s}$
-\end_inset
-
- are stratum FEs
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Total responses
-\begin_inset Formula 
-\[
-y_{i}=\delta+\gamma I\left\{ T_{i}=j\right\} +\theta\bar{y}_{i,pre}+\lambda_{s}+\varepsilon_{i}
-\]
-
-\end_inset
-
-where 
-\begin_inset Formula $\bar{y}_{i,pre}$
-\end_inset
-
- is average pre-treatment tax
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout PlainFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename Dwenger_1.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout PlainFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename Dwenger_2.png
-	scale 65
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout PlainFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename Dwenger_3.png
-	scale 48
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout PlainFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Dwenger_4.png
-	scale 28
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout PlainFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Dwenger_5.png
-	scale 33
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout PlainFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Dwenger_6.png
-	scale 32
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout PlainFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Dwenger_7.png
-	scale 33
+	filename pictures/Kleven2011_12.png
+	width 99text%
 
 \end_inset
 
@@ -6055,7 +4201,7 @@ status open
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Artavanisetal_1.png
+	filename pictures/Artavanisetal_1.png
 	scale 41
 
 \end_inset
@@ -6097,7 +4243,7 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Artavanisetal_3.png
+	filename pictures/Artavanisetal_3.png
 	scale 44
 
 \end_inset
@@ -6130,7 +4276,7 @@ status open
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Artavanisetal_2.png
+	filename pictures/Artavanisetal_2.png
 	scale 51
 
 \end_inset
@@ -6172,7 +4318,7 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Artavanisetal_4.png
+	filename pictures/Artavanisetal_4.png
 	scale 48
 
 \end_inset
@@ -6428,7 +4574,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 1.png
+	filename pictures/Alstadsaeter et al 1.png
 	lyxscale 30
 	scale 13
 
@@ -6463,7 +4609,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 2.png
+	filename pictures/Alstadsaeter et al 2.png
 	lyxscale 30
 	scale 13
 
@@ -6498,7 +4644,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 3.png
+	filename pictures/Alstadsaeter et al 3.png
 	lyxscale 30
 	scale 13
 
@@ -6533,7 +4679,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 4.png
+	filename pictures/Alstadsaeter et al 4.png
 	lyxscale 30
 	scale 13
 
@@ -6645,7 +4791,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 5.png
+	filename pictures/Alstadsaeter et al 5.png
 	lyxscale 40
 	scale 20
 
@@ -6680,7 +4826,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 6.png
+	filename pictures/Alstadsaeter et al 6.png
 	lyxscale 40
 	scale 18
 
@@ -6715,7 +4861,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 7.png
+	filename pictures/Alstadsaeter et al 7.png
 	lyxscale 40
 	scale 19
 
@@ -6750,7 +4896,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 8.png
+	filename pictures/Alstadsaeter et al 8.png
 	lyxscale 40
 	scale 19
 
@@ -6785,7 +4931,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 9.png
+	filename pictures/Alstadsaeter et al 9.png
 	lyxscale 40
 	scale 19
 
@@ -6820,7 +4966,7 @@ Alstadsæter et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alstadsaeter et al 10.png
+	filename pictures/Alstadsaeter et al 10.png
 	lyxscale 40
 	scale 19
 
@@ -7087,348 +5233,6 @@ NB that even though the number of evaders drops when inequality rises, the
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Alstadsæter, Johannesen & Zucman (WP 2018) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Tax Evasion and Tax Avoidance
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2018): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Companion to the AER paper.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Look at how amnesties affect reporting.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Look in particular for effects on switching between illegal (evasion) and
- legal (avoidance) strategies to reduce tax liability
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2018): Substitution to Avoidance?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Event study approach.
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Sample:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-All Amnesty users
-\end_layout
-
-\begin_layout Itemize
-All non-disclosers in top 10% and random 10% of the other 90%
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Estimate
-\begin_inset Formula 
-\[
-\log\left(Y_{it}\right)=\alpha_{i}+\gamma_{t}+X_{it}^{\prime}\psi+\sum\beta_{k}D_{it}^{k}+u_{it}
-\]
-
-\end_inset
-
-where 
-\begin_inset Formula $\alpha_{i},\,\gamma_{t}$
-\end_inset
-
- are indiv/yr FEs, 
-\begin_inset Formula $X_{it}$
-\end_inset
-
- contains wealth, income, age groups and 
-\begin_inset Formula $D_{it}^{k}$
-\end_inset
-
- are event-time (year - year used amnesty) dummies
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Omitted year is 
-\begin_inset Formula $t-2$
-\end_inset
-
- since assets disclosed can be incorporateed into 
-\begin_inset Formula $t-1$
-\end_inset
-
- return.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2018): Event Study-Wealth
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Alstadsaeter et al 11.png
-	lyxscale 30
-	scale 16
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2018): Event Study-Income
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Alstadsaeter et al 12.png
-	lyxscale 30
-	scale 16
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2018): Event Study-Taxes
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Alstadsaeter et al 13.png
-	lyxscale 30
-	scale 22
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2018): Implication for Measured Wealth Inequality
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Alstadsaeter et al 14.png
-	lyxscale 30
-	scale 18
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2018): Implication for Measured Wealth Inequality
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Alstadsaeter et al 15.png
-	lyxscale 30
-	scale 18
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
 \begin_layout Section
 \begin_inset Argument 2
 status open
@@ -7442,749 +5246,6 @@ Taxing Individuals
 Taxing Individuals in Developing Countries
 \end_layout
 
-\begin_layout Subsection
-Gorodnichenko, Martinez-Vazquez & Peters (JPE 2009) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Myth and Reality of Flat Tax Reform
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In 2001 Russia replaces progressive income tax with a flat one
-\end_layout
-
-\begin_layout Itemize
-Use household survey data and D-i-D approach to estimate evasion response
-\end_layout
-
-\begin_layout Itemize
-Measure of evasion: Gap between income and consumption
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_1.png
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Data
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Use 1998 and 2000-2004 waves of Russian Longitudinal Monitoring Survey (RLMS)
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Detailed consumption data on last 30 days' consumption
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-50+ food items
-\end_layout
-
-\begin_layout Itemize
-alcohol & tobacco
-\end_layout
-
-\begin_layout Itemize
-clothes, fuel
-\end_layout
-
-\begin_layout Itemize
-entertainment, education...
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Combine these into 
-\begin_inset Quotes eld
-\end_inset
-
-nondurable expenditures
-\begin_inset Quotes erd
-\end_inset
-
- C1
-\end_layout
-
-\begin_layout Itemize
-Add in transfers to other households (alimony etc.) 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- C2
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-All hh members' income in money, goods, in kind 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- Y1
-\end_layout
-
-\begin_layout Itemize
-Add in lump-sum payments in last 30 days 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- Y2
-\end_layout
-
-\begin_layout Itemize
-Add in income from selling agricultural output 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
-Y3
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Aggregate Comparison
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_2.png
-	scale 59
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Conceptual Framework
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Let household 
-\begin_inset Formula $h$
-\end_inset
-
-'s true income at time 
-\begin_inset Formula $t$
-\end_inset
-
- be 
-\begin_inset Formula $Y_{ht}^{*}$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-However, reported income is only 
-\begin_inset Formula $Y_{ht}^{R}=\Gamma_{ht}Y_{ht}^{*}$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Model misreporting as 
-\begin_inset Formula $\Gamma\left(S_{ht}\right)=\exp\left(-\gamma S_{ht}+\text{error}\right)$
-\end_inset
-
- where 
-\begin_inset Formula $S_{ht}$
-\end_inset
-
- includes job, worker characteristics, government policies
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Model true income as 
-\begin_inset Formula $Y_{ht}^{*}=H_{ht}Y_{ht}^{P}$
-\end_inset
-
- where 
-\begin_inset Formula $Y_{ht}^{P}$
-\end_inset
-
- is permanent income
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $H_{ht}=H\left(X_{1,ht}\right)=\exp\left(\eta X_{1,ht}+\text{error}\right)$
-\end_inset
-
- where 
-\begin_inset Formula $X_{1,ht}$
-\end_inset
-
- captures life-cycle factors like age, schooling employment, #children etc.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Conceptual Framework
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Model expenditure on non-durables as 
-\begin_inset Formula $C_{ht}=\Theta_{ht}Y_{ht}^{P}$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Where 
-\begin_inset Formula $\Theta_{ht}=\Theta\left(X_{2,ht}\right)=\exp\left(\theta X_{2,ht}+\text{error}\right)$
-\end_inset
-
- where 
-\begin_inset Formula $X_{2,ht}$
-\end_inset
-
- contains # of hh members, # of children, age, schooling etc.
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Together these assumptions imlpy
-\begin_inset Formula 
-\begin{align*}
-\ln Y_{ht}^{R}-\ln Y_{ht}^{*} & =-\gamma S_{ht}+\text{error}\\
-\ln Y_{ht}^{*}-\ln Y_{ht}^{P} & =\eta X_{1,ht}+\text{error}\\
-\ln C_{ht}-\ln Y_{ht}^{P} & =\theta X_{2,ht}+\text{error}
-\end{align*}
-
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Don't observe 
-\begin_inset Formula $Y_{ht}^{*}$
-\end_inset
-
- or 
-\begin_inset Formula $Y_{ht}^{P}$
-\end_inset
-
-, but combining assumptions
-\begin_inset Formula 
-\[
-\ln C_{ht}-\ln Y_{ht}^{R}=\gamma S_{ht}+\beta X_{ht}+u_{h}+\varepsilon_{ht}
-\]
-
-\end_inset
-
-where 
-\begin_inset Formula $X_{ht}$
-\end_inset
-
- combines 
-\begin_inset Formula $X_{1,ht}$
-\end_inset
-
- and 
-\begin_inset Formula $X_{2,ht}$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_3.png
-	scale 63
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_4.png
-	scale 63
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Evasion and Perceptions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_5.png
-	scale 64
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Diff in Diff
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-To estimate impact of 2001 reform.
- Diff in Diff strategy
-\begin_inset Formula 
-\[
-\ln C_{ht}-\ln Y_{ht}^{R}=\gamma S_{ht}+\beta X_{ht}+\mu d_{ht}^{\text{treat}}+\alpha\left(d_{ht}^{\text{treat}}\times D_{p}\right)+\psi D_{p}+u_{h}+\varepsilon_{ht}
-\]
-
-\end_inset
-
-where 
-\begin_inset Formula $d_{ht}^{\text{treat}}=I\left\{ \tau_{ht}<\tau_{ht-1}\right\} $
-\end_inset
-
- and 
-\begin_inset Formula $D_{p}$
-\end_inset
-
- indicates post-reform years
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Note, potential endogeneity of 
-\begin_inset Formula $d_{ht}^{\text{treat}}$
-\end_inset
-
-.
- Income choices put people in range to be affected.
- Instead, use post-reform income.
- Tax is flat, so no tax reasons to locate above or below threshold
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Transitory fluctuations in Y also an issue: Instead use 4-year average of
- contractual earnings to assign treatment.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_6.png
-	scale 63
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_7.png
-	scale 63
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_8.png
-	scale 62
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Heterogeneity
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_9.png
-	scale 62
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gorodnichenko et al.
- (2009): Welfare
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Use the setup in Chetty (2009) to characterize DWL
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename GorodnichenkoEtAl_10.png
-	scale 62
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \begin_layout Subsection
 Jensen (WP 2019) 
 \begin_inset ERT
@@ -8397,10 +5458,11 @@ Jensen (2019): Stylized Facts
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Jensen 1.png
+	filename pictures/Jensen 1.png
 	lyxscale 40
-	scale 18
+	scale 17
 
 \end_inset
 
@@ -8430,10 +5492,11 @@ Jensen (2019): Stylized Facts
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Jensen 2.png
+	filename pictures/Jensen 2.png
 	lyxscale 40
-	scale 18
+	scale 17
 
 \end_inset
 
@@ -8463,10 +5526,11 @@ Jensen (2019): Stylized Facts
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Jensen 3.png
+	filename pictures/Jensen 3.png
 	lyxscale 40
-	scale 22
+	scale 19
 
 \end_inset
 
@@ -8496,10 +5560,11 @@ Jensen (2019): Stylized Facts
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Jensen 4.png
+	filename pictures/Jensen 4.png
 	lyxscale 40
-	scale 22
+	scale 19
 
 \end_inset
 
@@ -8529,10 +5594,11 @@ Jensen (2019): Stylized Facts
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Jensen 5.png
+	filename pictures/Jensen 5.png
 	lyxscale 40
-	scale 23
+	scale 19
 
 \end_inset
 
@@ -8562,10 +5628,11 @@ Jensen (2019): Stylized Facts
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Jensen 6.png
+	filename pictures/Jensen 6.png
 	lyxscale 40
-	scale 32
+	scale 29
 
 \end_inset
 
@@ -8595,10 +5662,11 @@ Jensen (2019): Stylized Facts
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Jensen 7.png
+	filename pictures/Jensen 7.png
 	lyxscale 40
-	scale 32
+	scale 31
 
 \end_inset
 
@@ -8628,8 +5696,9 @@ Jensen (2019): Stylized Facts
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Jensen 8.png
+	filename pictures/Jensen 8.png
 	lyxscale 40
 	scale 32
 
@@ -8761,9 +5830,9 @@ Jensen (2019): Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Jensen 9.png
+	filename pictures/Jensen 9.png
 	lyxscale 40
-	scale 29
+	scale 27
 
 \end_inset
 
@@ -8795,9 +5864,9 @@ Jensen (2019): Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Jensen 10.png
+	filename pictures/Jensen 10.png
 	lyxscale 40
-	scale 29
+	scale 27
 
 \end_inset
 
@@ -8829,9 +5898,9 @@ Jensen (2019): Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Jensen 11.png
+	filename pictures/Jensen 11.png
 	lyxscale 40
-	scale 31
+	scale 30
 
 \end_inset
 
@@ -8863,9 +5932,9 @@ Jensen (2019): Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Jensen 12.png
+	filename pictures/Jensen 12.png
 	lyxscale 40
-	scale 31
+	scale 30
 
 \end_inset
 
@@ -8897,9 +5966,9 @@ Jensen (2019): Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Jensen 13.png
+	filename pictures/Jensen 13.png
 	lyxscale 40
-	scale 29
+	scale 28
 
 \end_inset
 
@@ -8931,9 +6000,9 @@ Jensen (2019): Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Jensen 14.png
+	filename pictures/Jensen 14.png
 	lyxscale 40
-	scale 21
+	width 99text%
 
 \end_inset
 
@@ -8965,9 +6034,9 @@ Jensen (2019): Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Jensen 15.png
+	filename pictures/Jensen 15.png
 	lyxscale 40
-	scale 21
+	width 99text%
 
 \end_inset
 
@@ -9184,7 +6253,7 @@ Bachas et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BachasGadenneJensen_1.png
+	filename pictures/BachasGadenneJensen_1.png
 	scale 32
 
 \end_inset
@@ -9218,7 +6287,7 @@ Bachas et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BachasGadenneJensen_2.png
+	filename pictures/BachasGadenneJensen_2.png
 	scale 32
 
 \end_inset
@@ -9260,7 +6329,7 @@ Bachas et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BachasGadenneJensen_3.png
+	filename pictures/BachasGadenneJensen_3.png
 	scale 32
 
 \end_inset
@@ -9301,7 +6370,7 @@ Bachas et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BachasGadenneJensen_4.png
+	filename pictures/BachasGadenneJensen_4.png
 	scale 32
 
 \end_inset
@@ -9342,7 +6411,7 @@ Bachas et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BachasGadenneJensen_5.png
+	filename pictures/BachasGadenneJensen_5.png
 	scale 32
 
 \end_inset
@@ -9380,7 +6449,7 @@ Bachas et al (2020): Implications for Progressivity
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BachasGadenneJensen_6.png
+	filename pictures/BachasGadenneJensen_6.png
 	scale 32
 
 \end_inset
@@ -9413,7 +6482,7 @@ Bachas et al (2020): Implications for Progressivity
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BachasGadenneJensen_7.png
+	filename pictures/BachasGadenneJensen_7.png
 	scale 32
 
 \end_inset
@@ -9940,7 +7009,7 @@ Bachas et al (2020): Calibration
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BachasGadenneJensen_8.png
+	filename pictures/BachasGadenneJensen_8.png
 	scale 32
 
 \end_inset
@@ -9973,7 +7042,7 @@ Bachas et al (2020): Calibration
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BachasGadenneJensen_9.png
+	filename pictures/BachasGadenneJensen_9.png
 	scale 32
 
 \end_inset
@@ -10137,9 +7206,10 @@ Spread of the VAT Around the World
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename KeenLockwood.png
-	scale 40
+	filename pictures/KeenLockwood.png
+	scale 35
 
 \end_inset
 
