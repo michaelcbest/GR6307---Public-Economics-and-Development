@@ -7406,9 +7406,10 @@ Pomeranz (2015): Audit Threat Predictions
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Pomeranz 1.png
-	scale 50
+	filename pictures/Pomeranz 1.png
+	width 100text%
 
 \end_inset
 
@@ -7579,7 +7580,7 @@ Pomeranz (2015): Experiment 1 Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Pomeranz 2.png
+	filename pictures/Pomeranz 2.png
 	scale 45
 
 \end_inset
@@ -7616,7 +7617,7 @@ Pomeranz (2015): Experiment 1 Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Pomeranz 3.png
+	filename pictures/Pomeranz 3.png
 	scale 40
 
 \end_inset
@@ -7653,7 +7654,7 @@ Pomeranz (2015): Experiment 1 Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Pomeranz 4.png
+	filename pictures/Pomeranz 4.png
 	scale 40
 
 \end_inset
@@ -7690,8 +7691,8 @@ Pomeranz (2015): Experiment 1 Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Pomeranz 5.png
-	scale 42
+	filename pictures/Pomeranz 5.png
+	width 100text%
 
 \end_inset
 
@@ -7727,8 +7728,8 @@ Pomeranz (2015): Experiment 2 Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Pomeranz 6.png
-	scale 40
+	filename pictures/Pomeranz 6.png
+	height 100theight%
 
 \end_inset
 
@@ -8421,8 +8422,8 @@ Firm Sales.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Naritomi 1.png
-	scale 55
+	filename pictures/Naritomi 1.png
+	height 85theight%
 
 \end_inset
 
@@ -8454,8 +8455,8 @@ Naritomi (2018): Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Naritomi 2.png
-	scale 44
+	filename pictures/Naritomi 2.png
+	scale 40
 
 \end_inset
 
@@ -8502,10 +8503,11 @@ Naritomi (2018): Results
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Naritomi 3.png
+	filename pictures/Naritomi 3.png
 	lyxscale 60
-	scale 44
+	height 100theight%
 
 \end_inset
 
@@ -8537,8 +8539,8 @@ Naritomi (2018): Whistleblower Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Naritomi 4.png
-	scale 73
+	filename pictures/Naritomi 4.png
+	height 100theight%
 
 \end_inset
 
@@ -8570,8 +8572,8 @@ Naritomi (2018): Whistleblower Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Naritomi 5.png
-	scale 74
+	filename pictures/Naritomi 5.png
+	height 100theight%
 
 \end_inset
 
@@ -8603,8 +8605,8 @@ Naritomi (2018): Lottery Salient?
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Naritomi 6.png
-	scale 62
+	filename pictures/Naritomi 6.png
+	height 100theight%
 
 \end_inset
 
@@ -8624,7 +8626,7 @@ Naritomi (2018): Lottery Salient?
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Lottery Results
+Naritomi (2018): Lottery Event Study Results
 \end_layout
 
 \end_inset
@@ -8636,7 +8638,7 @@ Naritomi (2018): Lottery Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Naritomi 7.png
+	filename pictures/Naritomi 7.png
 	scale 54
 
 \end_inset
@@ -8644,10 +8646,6 @@ Naritomi (2018): Lottery Results
 
 \end_layout
 
-\begin_layout Itemize
-Compare lottery winners vs losers in event study framework
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -8673,8 +8671,8 @@ Naritomi (2018): Lottery Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Naritomi 8.png
-	scale 61
+	filename pictures/Naritomi 8.png
+	height 100theight%
 
 \end_inset
 
@@ -8706,8 +8704,8 @@ Naritomi (2018): Effects on Government Revenue
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Naritomi 9.png
-	scale 59
+	filename pictures/Naritomi 9.png
+	height 100theight%
 
 \end_inset
 
@@ -8739,9 +8737,9 @@ Naritomi (2018): Effects on Government Revenue
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Naritomi 10.png
+	filename pictures/Naritomi 10.png
 	lyxscale 50
-	scale 39
+	height 100theight%
 
 \end_inset
 
@@ -10136,8 +10134,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Fig_BunchingTheory1.EPS
-	scale 42
+	filename pictures/Fig_BunchingTheory1.EPS
+	height 100theight%
 
 \end_inset
 
@@ -10189,8 +10187,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Fig_BunchingTheory2.EPS
-	scale 42
+	filename pictures/Fig_BunchingTheory2.EPS
+	height 100theight%
 
 \end_inset
 
@@ -10242,8 +10240,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Fig_BunchingTheory3.EPS
-	scale 42
+	filename pictures/Fig_BunchingTheory3.EPS
+	height 100theight%
 
 \end_inset
 
@@ -10729,7 +10727,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename high.pdf
+	filename pictures/high.pdf
 	scale 77
 
 \end_inset
@@ -10783,7 +10781,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename lowhigh.pdf
+	filename pictures/lowhigh.pdf
 	scale 73
 
 \end_inset
@@ -10837,7 +10835,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename _2008.pdf
+	filename pictures/_2008.pdf
 	scale 77
 
 \end_inset
@@ -10891,7 +10889,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename _2010.pdf
+	filename pictures/_2010.pdf
 	scale 77
 
 \end_inset
@@ -10945,7 +10943,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename estim_200679_h1.pdf
+	filename pictures/estim_200679_h1.pdf
 	scale 75
 
 \end_inset
@@ -10999,7 +10997,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename estim_200679_h2.pdf
+	filename pictures/estim_200679_h2.pdf
 	scale 75
 
 \end_inset
@@ -11053,7 +11051,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Evasion_h3.pdf
+	filename pictures/Evasion_h3.pdf
 	scale 75
 
 \end_inset
@@ -11107,7 +11105,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Evasion_l3.pdf
+	filename pictures/Evasion_l3.pdf
 	scale 75
 
 \end_inset
@@ -11349,7 +11347,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename CostPicBothHiRateNCosts.pdf
+	filename pictures/CostPicBothHiRateNCosts.pdf
 	scale 77
 
 \end_inset
@@ -11490,6 +11488,7 @@ et al.
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset VSpace medskip
 \end_inset
 
@@ -11501,7 +11500,7 @@ status open
 
 
 \backslash
-scalebox{0.68}{
+scalebox{0.8}{
 \end_layout
 
 \begin_layout Plain Layout
@@ -11854,8 +11853,8 @@ Basri et al (2020): Tax Reform
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename BasriEtAl_01.png
-	scale 27
+	filename pictures/BasriEtAl_01.png
+	width 49text%
 
 \end_inset
 
@@ -11869,8 +11868,8 @@ Basri et al (2020): Tax Reform
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename BasriEtAl_02.png
-	scale 27
+	filename pictures/BasriEtAl_02.png
+	width 49text%
 
 \end_inset
 
@@ -12381,7 +12380,7 @@ Suppose level of enforcement depends on firm size? Then evasion cost could
 
 \begin_layout Itemize
 Now firms evade up until
-\size tiny
+\size small
 
 \begin_inset Formula 
 \begin{align*}
@@ -12510,8 +12509,8 @@ Basri et al (2020): Enforcement Effects
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename BasriEtAl_03.png
-	scale 26
+	filename pictures/BasriEtAl_03.png
+	width 49text%
 
 \end_inset
 
@@ -12525,76 +12524,8 @@ Basri et al (2020): Enforcement Effects
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename BasriEtAl_04.png
-	scale 26
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Basri et al (2020): Enforcement Effects
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="1" columns="2">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename BasriEtAl_05.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename BasriEtAl_06.png
-	scale 35
+	filename pictures/BasriEtAl_04.png
+	width 49text%
 
 \end_inset
 
@@ -12646,8 +12577,8 @@ Basri et al (2020): Enforcement Effects
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename BasriEtAl_07.png
-	scale 22
+	filename pictures/BasriEtAl_05.png
+	width 49text%
 
 \end_inset
 
@@ -12661,8 +12592,76 @@ Basri et al (2020): Enforcement Effects
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename BasriEtAl_08.png
-	scale 22
+	filename pictures/BasriEtAl_06.png
+	width 49text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basri et al (2020): Enforcement Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pictures/BasriEtAl_07.png
+	width 49text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pictures/BasriEtAl_08.png
+	width 49text%
 
 \end_inset
 
@@ -12789,8 +12788,8 @@ Basri et al (2020): Tax Reform Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BasriEtAl_09.png
-	scale 27
+	filename pictures/BasriEtAl_09.png
+	height 100theight%
 
 \end_inset
 
@@ -12870,458 +12869,6 @@ Suggests
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
-Benhassine, McKenzie, Pouliquen & Santini (JPubE 2018) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Does Inducing Informal Firms to Formalize Make Sense? Experimental Evidence
- From Benin
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Informality is widespread in the developing world (LaPorta & Shleifer 2014)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Costly for firms: Can't access finance, public contracts etc.
- (de Soto, 1989)
-\end_layout
-
-\begin_layout Itemize
-Costly for governments: Lose tax revenues.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Governments have tried many things to get firms to formalize, but with little
- success.
- Should they try harder?
-\end_layout
-
-\begin_layout Itemize
-Conduct experiment in Benin around introduction of simplified legal status
- 
-\emph on
-
-\begin_inset Quotes eld
-\end_inset
-
-entreprenant
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Conclude: 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Costs of inducing formalization outweigh benefits to govt and firm
-\end_layout
-
-\begin_layout Itemize
-Better targeting can tip the balance a bit.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Context
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Experiment in Benin: 
-\begin_inset Formula $\sim$
-\end_inset
-
-70% of GDP and 95% of employment is informal
-\end_layout
-
-\begin_layout Itemize
-In 2011 introduced 
-\emph on
-entreprenant
-\emph default
- legal status.
- Simplified legal regime for small businesses.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-one-stop shop for registration
-\end_layout
-
-\begin_layout Itemize
-Free to register
-\end_layout
-
-\begin_layout Itemize
-Only require legal ID, a short form, 2 photos
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-4 treatment arms:
-\end_layout
-
-\begin_layout Enumerate
-Information and assistance to register.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Send advisors (MA & experience) to explain benefits, leave leaflets.
-\end_layout
-
-\begin_layout Enumerate
-Help at the office when registering
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Treatment 1 + business training workshops, help opening a bank account.
-\end_layout
-
-\begin_layout Enumerate
-Treatment 2 + mediation and tax counseling.
-\end_layout
-
-\begin_layout Enumerate
-Control
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Experimental Design
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Benhassine et al 1.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Formalization
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Benhassine et al 2.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Formalization
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Benhassine et al 4.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Firm Performance
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Benhassine et al 5.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Firm Performance
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Benhassine et al 3.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Total Costs
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Benhassine et al 7.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Cost-Effectiveness
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Benhassine et al 8.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Benhassine et al (2018): Heterogeneous Treatment Effects
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Benhassine et al 9.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \begin_layout Section
 \begin_inset Argument 2
 status open
@@ -13335,773 +12882,6 @@ International Taxation
 International Taxation and Developing Countries
 \end_layout
 
-\begin_layout Subsection
-Zucman (QJE 2013) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-The Missing Wealth of Nations: Are Europe and the US Net Debtors or Net
- Creditors?
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-At the global level, liabilities > assets.
- The world is a net debtor!
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Capital seems to be moving away from the rich world, EU and US net debtors.
- 
-\begin_inset Quotes eld
-\end_inset
-
-China owns the world
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Zucman: This is a statistical illusion.
- Accounting for offshore wealth properly 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- EU and US are net creditors.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename Zucman_1.png
-	scale 53
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Definitions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Each country's International Investment Position (IIP) shows its foreign
- assets and liabilities.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename Zucman_2.png
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Definitions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Denote by 
-\begin_inset Formula $A_{ij}$
-\end_inset
-
- the amount of securities issued by country 
-\begin_inset Formula $j$
-\end_inset
-
- and owned by residents of country 
-\begin_inset Formula $i$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Covered agents: Large banks etc, report directly 
-\begin_inset Formula $a_{ij}$
-\end_inset
-
-.
- Others (households) indirectly 
-\begin_inset Formula $\tilde{a}_{ij}$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Securities are entrusted to a bank somewhere for custody, in country 
-\begin_inset Formula $k$
-\end_inset
-
-
-\begin_inset Formula 
-\begin{align*}
-A_{ij} & =\sum_{k}A_{ij}^{k}=\sum_{k}\left(a_{ij}^{k}+\tilde{a}_{ij}^{k}\right)=\\
- & \underbrace{\left[a_{ij}^{i}+\tilde{a}_{ij}^{i}\right]}_{\text{onshore}}+\underbrace{\sum_{k\neq i}\left(a_{ij}^{k}+\tilde{a}_{ij}^{k}\right)}_{\text{offshore}}
-\end{align*}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The problem: The 
-\begin_inset Formula $\tilde{a}_{ij}^{k}$
-\end_inset
-
- aren't recorded in 
-\begin_inset Formula $i$
-\end_inset
-
- or 
-\begin_inset Formula $k$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The trick: The 
-\begin_inset Formula $\tilde{a}_{ij}^{k}$
-\end_inset
-
- are liabilities in 
-\begin_inset Formula $j$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Swiss Case Study
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename Zucman_3.png
-	scale 65
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Swiss Case Study
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename Zucman_4.png
-	scale 65
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Swiss Case Study
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Zucman_5.png
-	scale 52
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Estimating Total Offshore Wealth
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-e.g.
- French hh holds Luxembourg asset through Swiss bank.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-no French record
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Switzerland records nothing
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Luxembourg records liability
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Generalize: 
-\begin_inset Formula $L_{j}$
-\end_inset
-
-= liabilities of country 
-\begin_inset Formula $j$
-\end_inset
-
- 
-\begin_inset Formula $A_{ij}$
-\end_inset
-
- true assets 
-\begin_inset Formula $i$
-\end_inset
-
- holds on 
-\begin_inset Formula $j$
-\end_inset
-
-.
- 
-\begin_inset Formula $\hat{A}_{ij}$
-\end_inset
-
- statistical estimate of 
-\begin_inset Formula $A_{ij}$
-\end_inset
-
-
-\begin_inset Formula 
-\[
-\sum_{j}L_{j}>\sum_{j}\sum_{i}A_{ij}
-\]
-
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-As a result, more dividends and interest will be paid than received too.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Estimating Total Offshore Wealth
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-This applies in flows too: e.g.
- a US individual uses Bahamian account to buy a UK equity.
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- if offshore account holders are net buyers of securities, more securities
- sold than purchased globally.
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-To measure assets assume:
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-direct reporters and onshore household assets measured correctly
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-global portfolio liabilities accurately recorded
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Then difference between liabilities and assets captures tax haven wealth.
-\begin_inset Formula 
-\[
-\Omega=\sum_{i}L_{i}-\sum_{i}\hat{A}_{i}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Zucman_6.png
-	scale 52
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Zucman_7.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Zucman_8.png
-	scale 80
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename Zucman_9.png
-	scale 65
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Zucman_10.png
-	scale 47
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename Zucman_11.png
-	scale 65
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Zucman (2013): Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename Zucman_12.png
-	scale 65
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \begin_layout Subsection
 Tørsløv, Wier & Zucman (2018) 
 \begin_inset ERT
@@ -14153,7 +12933,7 @@ Corporate tax rates have been falling globally (Keen & Konrad, 2013)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman01.png
+	filename pictures/TorslovWierZucman01.png
 	lyxscale 30
 	scale 12
 
@@ -14686,7 +13466,7 @@ Tørsløv, Wier & Zucman (2018): Results: Profitability
 \begin_deeper
 \begin_layout Standard
 \begin_inset Graphics
-	filename TorslovWierZucman02.png
+	filename pictures/TorslovWierZucman02.png
 	lyxscale 40
 	scale 25
 
@@ -14720,7 +13500,7 @@ Tørsløv, Wier & Zucman (2018): Results: Profitability
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman03.png
+	filename pictures/TorslovWierZucman03.png
 	lyxscale 40
 	scale 23
 
@@ -14754,7 +13534,7 @@ Tørsløv, Wier & Zucman (2018): Results: Profitability
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman04.png
+	filename pictures/TorslovWierZucman04.png
 	lyxscale 40
 	scale 45
 
@@ -14788,7 +13568,7 @@ Tørsløv, Wier & Zucman (2018): Results: Profitability
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman05.png
+	filename pictures/TorslovWierZucman05.png
 	lyxscale 40
 	scale 45
 
@@ -14822,7 +13602,7 @@ Tørsløv, Wier & Zucman (2018): Results: Profitability
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman06.png
+	filename pictures/TorslovWierZucman06.png
 	lyxscale 50
 	scale 42
 
@@ -14856,7 +13636,7 @@ Tørsløv, Wier & Zucman (2018): Capital vs Shifting
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman07.png
+	filename pictures/TorslovWierZucman07.png
 	lyxscale 50
 	scale 45
 
@@ -14890,9 +13670,9 @@ Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman08.png
+	filename pictures/TorslovWierZucman08.png
 	lyxscale 50
-	scale 42
+	height 100theight%
 
 \end_inset
 
@@ -14924,9 +13704,9 @@ Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman09.png
+	filename pictures/TorslovWierZucman09.png
 	lyxscale 50
-	scale 42
+	height 100theight%
 
 \end_inset
 
@@ -14958,9 +13738,9 @@ Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman10.png
+	filename pictures/TorslovWierZucman10.png
 	lyxscale 50
-	scale 45
+	height 100theight%
 
 \end_inset
 
@@ -14992,7 +13772,7 @@ Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename TorslovWierZucman11.png
+	filename pictures/TorslovWierZucman11.png
 	lyxscale 50
 	scale 45
 
@@ -15211,8 +13991,8 @@ Fisman & Wei (2004): Basic Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Fisman Wei 1.png
-	scale 40
+	filename pictures/Fisman Wei 1.png
+	scale 35
 
 \end_inset
 
@@ -15258,8 +14038,8 @@ Stronger incentives to misclassify items if similar products face higher
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Fisman Wei 2.png
-	scale 35
+	filename pictures/Fisman Wei 2.png
+	scale 37
 
 \end_inset
 
@@ -15295,7 +14075,7 @@ Replace LHS with quantities
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Fisman Wei 3.png
+	filename pictures/Fisman Wei 3.png
 	scale 40
 
 \end_inset
@@ -15332,8 +14112,8 @@ Use changes in Chinese tariff rates in 1997
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Fisman Wei 4.png
-	scale 43
+	filename pictures/Fisman Wei 4.png
+	scale 46
 
 \end_inset
 
