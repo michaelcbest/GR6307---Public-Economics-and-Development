@@ -7127,6 +7127,859 @@ tax enforcement (letters, more/less effective tax collectors)
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Experiment conducted in Kanaga, a large (1M pop) city in DRC.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Median monthly HH income in Kananga is $106.
+\end_layout
+
+\begin_layout Itemize
+DRC ranked 188th out of 200 in terms of tax/GDP
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Property tax campaign in 2018 in two steps
+\end_layout
+
+\begin_layout Enumerate
+Registration visit: tell property owners about the property tax, assess
+ high or low band property, exemption.
+ Gave owner a letter with (randomly) assigned tax rate
+\end_layout
+
+\begin_layout Enumerate
+Follow-up visits to collect the tax.
+ Given one month to pay.
+\end_layout
+
+\begin_layout Itemize
+Randomly assigned tax rates stratifying by neighborhood and tax band.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Tax Rates
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BergeronEtAl2021_01.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Administrative data.
+ Tax payments and property registration
+\end_layout
+
+\begin_layout Enumerate
+Baseline survey: July - December 2017.
+ Skip pattern: Visit every X properties on a street.
+ N = 3,358
+\end_layout
+
+\begin_layout Enumerate
+Midline survey: 4-6 weeks after tax collection ended.
+ property/owner characteristics.
+ Bribe payment and other tax payments.
+ N = 22,667 owners plus 6,967 non-owner interviews
+\end_layout
+
+\begin_layout Enumerate
+Endline survey: March-September 2019.
+ Other tax payments, views of govt, perceptions of tax system.
+ N= 2,760.
+\end_layout
+
+\begin_layout Enumerate
+Property Value: Predicted value of 38,023 properties using ML on training
+ sample of 1,654 properties.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estimate effect of each abatement treamtments by OLS:
+\begin_inset Formula 
+\[
+y_{i,n}=\beta_{0}+\beta_{1}17\%\text{ Abatement}_{i,n}+\beta_{2}33\%\text{ Abatement}_{i,n}+\beta_{3}50\%\text{ Abatement}_{i,n}+\gamma_{i,n}+\delta_{n}+\varepsilon_{i,n}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $y_{i,n}$
+\end_inset
+
+ is outcome for individual 
+\begin_inset Formula $i$
+\end_inset
+
+ in neighborhood 
+\begin_inset Formula $n$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma_{i,n}$
+\end_inset
+
+ indicates high-value property, 
+\begin_inset Formula $\delta_{n}$
+\end_inset
+
+ are neighborhood FEs.
+\end_layout
+
+\begin_layout Itemize
+To get elasticities use
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula 
+\[
+y_{i,n}=\alpha+\beta\log\left(\text{Tax Rate}_{i,n}\right)+\gamma_{i,n}+\delta_{n}+\nu_{i,n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Convert to elasticities using 
+\begin_inset Formula 
+\[
+\hat{\varepsilon}_{y,T}=\frac{\partial y}{\partial T}\times\frac{T}{y}=\frac{\partial y}{\frac{\partial T}{T}}\times\frac{1}{y}\approx\hat{\beta}/\bar{y}_{i,n}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\bar{y}_{i,n}$
+\end_inset
+
+ is the mean of the outcome of interest.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BergeronEtAl2021_02.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BergeronEtAl2021_03.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BergeronEtAl2021_04.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Revenue-Maximizing Rate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider property owners choosing between paying tax 
+\begin_inset Formula $T$
+\end_inset
+
+ or not paying (only extensive margin).
+\end_layout
+
+\begin_layout Itemize
+If don't pay, expected cost of tax delinquency is 
+\begin_inset Formula $\alpha=p\pi$
+\end_inset
+
+, 
+\begin_inset Formula $p$
+\end_inset
+
+ = pr(caught) and 
+\begin_inset Formula $\pi$
+\end_inset
+
+ = fine.
+ 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ = enforcement capacity
+\end_layout
+
+\begin_layout Itemize
+Also idiowyncratic utility from compliance 
+\begin_inset Formula $\Lambda\sim F\left(\cdot\right)$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\begin{cases}
+\text{Compliance if} & \Lambda>T-\alpha\\
+\text{Delinquency if} & \Lambda\leq T-\alpha
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Fraction of owners who pay is 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(T,\alpha\right)=1-F\left(T-\alpha\right)=\int_{T-\alpha}^{\infty}f\left(\lambda\right)d\lambda
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Revenue is 
+\begin_inset Formula 
+\[
+\mathbb{R}\left(T,\alpha\right)=T\mathbb{P}\left(T,\alpha\right)-\mathbb{C}\left(\alpha\right)
+\]
+
+\end_inset
+
+as in Besley & Persson, think of capacity as something to invest in at cost
+ 
+\begin_inset Formula $\mathbb{C}\left(\alpha\right)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Revenue-Maximizing Rate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What if you raise rate by a small 
+\begin_inset Formula $dT$
+\end_inset
+
+?
+\begin_inset Formula 
+\[
+\textit{Mechanical Effect}:\,dM=\mathbb{P}\left(T,\alpha\right)dT\qquad\textit{Behavioral Effect}:\;dB=T\frac{d\mathbb{P}\left(T,\alpha\right)}{dT}dT
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Proposition 1: Revenue-maximizing rate 
+\begin_inset Formula $\left(dM+dB=0\right)$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+T^{*}=\frac{\mathbb{P}\left(T^{*},\alpha\right)}{-\left.\frac{d\mathbb{P}\left(T,\alpha\right)}{dT}\right|_{T=T^{*}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Proposition 2: Revenue-maximizing enforcement capacity 
+\begin_inset Formula $\alpha^{*}$
+\end_inset
+
+ satisfies
+\begin_inset Formula 
+\[
+T\left.\frac{d\mathbb{P}\left(T,\alpha\right)}{d\alpha}\right|_{\alpha=\alpha^{*}}=\left.\frac{d\mathbb{C}}{d\alpha}\right|_{\alpha=\alpha^{*}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Proposition 3: Revenue-maximizing rate is increasing in enforcement capacity
+ 
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Revenue-Maximizing Rate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With this theory, estimate
+\begin_inset Formula 
+\[
+\mathbb{P}\left(T,\alpha\right)=\beta_{0}\left(\alpha\right)+\beta_{1}\left(\alpha\right)T
+\]
+
+\end_inset
+
+yields maximizing rate
+\begin_inset Formula 
+\[
+T^{*}=\frac{\beta_{0}\left(\alpha\right)}{-2\times\beta_{1}\left(\alpha\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Also consider quadratic specification 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(T,\alpha\right)=\beta_{0}\left(\alpha\right)+\beta_{1}\left(\alpha\right)T+\beta_{2}\left(\alpha\right)T^{2}
+\]
+
+\end_inset
+
+with accompanying maximizing rate
+\begin_inset Formula 
+\[
+T^{*}=\frac{-2\beta_{1}\left(\alpha\right)-\sqrt{\left(2\beta_{1}\left(\alpha\right)\right)^{2}-4\times\beta_{0}\left(\alpha\times3\beta_{2}\left(\alpha\right)\right)}}{-2\times3\beta_{2}\left(\alpha\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BergeronEtAl2021_05.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Enforcement Letters
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+During registration, property owners get letters with information about
+ the property tax and rate.
+ 
+\end_layout
+
+\begin_layout Itemize
+Some also received a randomized enforcement message
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Refusal to pay the property tax entails the possibility of audit and ivestigatio
+n by the provincial tax ministry
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Refusal to pay the property tax entails the possibility of audit and ivestigatio
+n by the chef de quartier
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BergeronEtAl2021_06.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Randomized Tax Collectors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tax collectors also randomized to neighborhoods.
+ Use fixed effects specification to estimate enforcement capacity of collector
+ 
+\begin_inset Formula $c$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y_{in}=\sum_{c}E_{c}\mathbf{1}\left[c\left(n\right)=c\right]+\delta_{i,n}+\varepsilon_{in}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now can estimate collector-specific RMTRs:
+\begin_inset Formula 
+\[
+y_{i,n}=\sum_{c}\beta_{c}^{0}\mathbf{1}\left[c\left(n\right)=c\right]+\sum_{c}\beta_{c}^{1}\mathbf{1}\left[c\left(n\right)=c\right]\times\text{Tax Rate}_{i,n}+\delta_{i,b}+\varepsilon_{i,n}
+\]
+
+\end_inset
+
+yielding RMTRs
+\begin_inset Formula 
+\[
+T_{c}^{*}=\frac{\beta_{c}^{0}}{-2\times\beta_{c}^{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BergeronEtAl2021_07.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Laffer Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BergeronEtAl2021_08.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bergeron, Tourek & Weigel (2021): Enforcement and RMTR
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Imagine replacing bottom 25% of tax collectors with average
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BergeronEtAl2021_09.png
+	height 90theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Section
 \begin_inset Argument 2
 status open
