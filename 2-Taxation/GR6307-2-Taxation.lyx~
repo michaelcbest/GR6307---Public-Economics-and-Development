@@ -14241,7 +14241,7 @@ Affects some products but not others.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 1.png
+	filename pictures/Sequeira 1.png
 	scale 32
 
 \end_inset
@@ -14291,8 +14291,8 @@ Diff in Diff across products/time to estimate trade elasticity.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 2.png
-	scale 27
+	filename pictures/Sequeira 2.png
+	scale 24
 
 \end_inset
 
@@ -14373,7 +14373,7 @@ Intensive margin:
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 3.png
+	filename pictures/Sequeira 3.png
 	scale 32
 
 \end_inset
@@ -14419,8 +14419,8 @@ Use similar strategy to Fisman & Wei (2004)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 4.png
-	scale 29
+	filename pictures/Sequeira 4.png
+	scale 26
 
 \end_inset
 
@@ -14456,7 +14456,7 @@ Random sample of >1,000 shipments at port of Maputo
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 5.png
+	filename pictures/Sequeira 5.png
 	scale 33
 
 \end_inset
@@ -14489,7 +14489,7 @@ Sequeira (2016): Corruption-Bribe Payments
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 6.png
+	filename pictures/Sequeira 6.png
 	scale 33
 
 \end_inset
@@ -14513,7 +14513,7 @@ Sequeira (2016): Corruption-Bribe Payments
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 7.png
+	filename pictures/Sequeira 7.png
 	scale 29
 
 \end_inset
@@ -14537,85 +14537,12 @@ Sequeira (2016): Corruption-Bribe Payments
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 8.png
+	filename pictures/Sequeira 8.png
 	scale 31
 
 \end_inset
 
 
-\end_layout
-
-\end_deeper
-\begin_layout Section
-Open Questions
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Open Questions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-How do taxes interact with labor market informality?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How regressive are taxes that are commonly evaded?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Does technology allow developing-country tax administrations to leapfrog
- rich countries and improve enforcement?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How do policy and administration interact?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How does politics affect tax systems' design and administration?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How do taxes affect market structure when there's lots of informality?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How should tax administrations be organized? Hierarchically? By function?
- By geography? Independent of government?
 \end_layout
 
 \end_deeper

@@ -3661,673 +3661,6 @@ Kleven et al.
 
 \end_deeper
 \begin_layout Subsection
-Artavanis, Morse & Tsoutsoura (QJE 2016) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Measuring Income Tax Evasion using Bank Credit: Evidence from Greece
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Artavanis 
-\emph on
-et al.
-
-\emph default
- (2016): Overview
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Seminal paper on measurement of evasion: Pissarides & Weber (EJ 1989)
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-All households report food expenditure truthfully
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Some households (3rd-party reported) report income truthfully 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
-estimate Engel curve
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Applying inverse Engel curve to other households 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- estimate of evasion 
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Artavanis-Morse-Tsoutsoura insight: 
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Semi-formality: Firm is formal, but hides income.
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Banks still lend, but base their lending on their inference of 
-\emph on
-true income
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- if we can reverse-engineer banks' inference, we can predict level of tax
- evasion
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Artavanis 
-\emph on
-et al.
-
-\emph default
- (2016): Data
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Data from 
-\begin_inset Quotes eld
-\end_inset
-
-a large Greek bank
-\begin_inset Quotes erd
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Itemize
-Universe of consumer credit applications
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-all variables on application form
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Tax authority data
-\begin_inset VSpace medskip
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-zip-code 
-\begin_inset Formula $\times$
-\end_inset
-
- occupation 
-\begin_inset Formula $\times$
-\end_inset
-
- income decile data on reported income
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Artavanis 
-\emph on
-et al.
-
-\emph default
- (2016): Methodology
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Once applicant is deemed eligible, amount of credit is
-\begin_inset Formula 
-\[
-\text{credit decision}=f\left(Y^{True},Risk,SOFT\right)
-\]
-
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-true income 
-\begin_inset Formula $Y^{True}$
-\end_inset
-
-, credit score 
-\begin_inset Formula $Risk$
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-soft information
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Formula 
-\[
-credit_{ij}=\beta_{1j}Y_{ij}^{True}+Risk_{i}\Phi+SOFT_{ij}\Psi
-\]
-
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Assume: wage workers don't evade, self employed evade differentially across
- industries.
- Reported income 
-\begin_inset Formula $Y_{ij}^{R}$
-\end_inset
-
- relates to true income through 
-\begin_inset Formula 
-\[
-Y_{ij}^{True}=\begin{cases}
-Y_{ij}^{R} & \text{if }i\text{ is wage worker}\\
-\lambda_{j}Y_{ij}^{R} & \text{if }i\text{ is self-employed}
-\end{cases}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Artavanis 
-\emph on
-et al.
-
-\emph default
- (2016): Methodology
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Defining 
-\begin_inset Formula $SE_{i}=I\text{\left\{  \text{self-employed}\right\}  }$
-\end_inset
-
-:
-\begin_inset Formula 
-\[
-credit_{ij}=\beta_{1j}Y_{ij}^{R}\left(1-SE_{i}\right)+\left(\beta_{1j}\lambda_{j}\right)Y_{ij}^{R}SE_{i}+Risk_{i}\Phi+SOFT_{ij}\Psi
-\]
-
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-So estimate
-\begin_inset Formula 
-\begin{align*}
-credit_{ij} & =\beta_{1j}Y_{ij}^{R}\left(1-SE_{i}\right)+\beta_{2j}Y_{ij}^{R}SE_{i}+f.e.^{CreditGrade}\\
- & \quad+SOFT_{ij}\Psi+\varepsilon_{ij}
-\end{align*}
-
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-where 
-\begin_inset Formula $SOFT_{ij}$
-\end_inset
-
- includes wealth, neighborhood info, income risk
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\Rightarrow\lambda_{j}=\beta_{2j}/\beta_{1j}$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Artavanis 
-\emph on
-et al.
-
-\emph default
- (2016): Methodology
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $\lambda_{j}$
-\end_inset
-
- identified if 
-\begin_inset Formula $\textsf{E}\left[\varepsilon_{ij}SE_{i}\vert Y_{ij}^{R},Risk_{i},SOFT_{ij}\right]=0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-Wage workers don't evade
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Restrict to workers at large companies
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-\begin_inset Formula $dcredit/dY_{ij}^{R}$
-\end_inset
-
- same for wage and SE (conditional on risk)
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-saturate model, add year, industry*SE and bank FEs
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-credit depends on hidden and true income in same way
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-evasion is a norm, can't garnish wages for debts.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-unobservables orthogonal to 
-\begin_inset Formula $Y_{ij}^{R}$
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-no ex-post differences in defaults
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-\begin_inset Formula $credit_{ij}$
-\end_inset
-
- is bank's supply, not demand-driven debt.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-focus on constrained borrowers, requested amt > approved amt
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout PlainFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Artavanisetal_1.png
-	scale 41
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Artavanis 
-\emph on
-et al.
-
-\emph default
- (2015): Results
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Artavanisetal_3.png
-	scale 44
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout PlainFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Artavanisetal_2.png
-	scale 51
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Artavanis 
-\emph on
-et al.
-
-\emph default
- (2015): Results
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Artavanisetal_4.png
-	scale 48
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Subsection
 Alstadsæter, Johannesen & Zucman (AER 2019) 
 \begin_inset ERT
 status open
@@ -5230,6 +4563,673 @@ Proposition 2: The share
 \begin_layout Itemize
 NB that even though the number of evaders drops when inequality rises, the
  fraction of total wealth that is hidden increases.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Artavanis, Morse & Tsoutsoura (QJE 2016) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Measuring Income Tax Evasion using Bank Credit: Evidence from Greece
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Artavanis 
+\emph on
+et al.
+
+\emph default
+ (2016): Overview
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Seminal paper on measurement of evasion: Pissarides & Weber (EJ 1989)
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+All households report food expenditure truthfully
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Some households (3rd-party reported) report income truthfully 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+estimate Engel curve
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Applying inverse Engel curve to other households 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ estimate of evasion 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Artavanis-Morse-Tsoutsoura insight: 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Semi-formality: Firm is formal, but hides income.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Banks still lend, but base their lending on their inference of 
+\emph on
+true income
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ if we can reverse-engineer banks' inference, we can predict level of tax
+ evasion
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Artavanis 
+\emph on
+et al.
+
+\emph default
+ (2016): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Data from 
+\begin_inset Quotes eld
+\end_inset
+
+a large Greek bank
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Universe of consumer credit applications
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+all variables on application form
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Tax authority data
+\begin_inset VSpace medskip
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+zip-code 
+\begin_inset Formula $\times$
+\end_inset
+
+ occupation 
+\begin_inset Formula $\times$
+\end_inset
+
+ income decile data on reported income
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Artavanis 
+\emph on
+et al.
+
+\emph default
+ (2016): Methodology
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Once applicant is deemed eligible, amount of credit is
+\begin_inset Formula 
+\[
+\text{credit decision}=f\left(Y^{True},Risk,SOFT\right)
+\]
+
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+true income 
+\begin_inset Formula $Y^{True}$
+\end_inset
+
+, credit score 
+\begin_inset Formula $Risk$
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+soft information
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Formula 
+\[
+credit_{ij}=\beta_{1j}Y_{ij}^{True}+Risk_{i}\Phi+SOFT_{ij}\Psi
+\]
+
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assume: wage workers don't evade, self employed evade differentially across
+ industries.
+ Reported income 
+\begin_inset Formula $Y_{ij}^{R}$
+\end_inset
+
+ relates to true income through 
+\begin_inset Formula 
+\[
+Y_{ij}^{True}=\begin{cases}
+Y_{ij}^{R} & \text{if }i\text{ is wage worker}\\
+\lambda_{j}Y_{ij}^{R} & \text{if }i\text{ is self-employed}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Artavanis 
+\emph on
+et al.
+
+\emph default
+ (2016): Methodology
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Defining 
+\begin_inset Formula $SE_{i}=I\text{\left\{  \text{self-employed}\right\}  }$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+credit_{ij}=\beta_{1j}Y_{ij}^{R}\left(1-SE_{i}\right)+\left(\beta_{1j}\lambda_{j}\right)Y_{ij}^{R}SE_{i}+Risk_{i}\Phi+SOFT_{ij}\Psi
+\]
+
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+So estimate
+\begin_inset Formula 
+\begin{align*}
+credit_{ij} & =\beta_{1j}Y_{ij}^{R}\left(1-SE_{i}\right)+\beta_{2j}Y_{ij}^{R}SE_{i}+f.e.^{CreditGrade}\\
+ & \quad+SOFT_{ij}\Psi+\varepsilon_{ij}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+where 
+\begin_inset Formula $SOFT_{ij}$
+\end_inset
+
+ includes wealth, neighborhood info, income risk
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow\lambda_{j}=\beta_{2j}/\beta_{1j}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Artavanis 
+\emph on
+et al.
+
+\emph default
+ (2016): Methodology
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\lambda_{j}$
+\end_inset
+
+ identified if 
+\begin_inset Formula $\textsf{E}\left[\varepsilon_{ij}SE_{i}\vert Y_{ij}^{R},Risk_{i},SOFT_{ij}\right]=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Wage workers don't evade
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Restrict to workers at large companies
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $dcredit/dY_{ij}^{R}$
+\end_inset
+
+ same for wage and SE (conditional on risk)
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+saturate model, add year, industry*SE and bank FEs
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+credit depends on hidden and true income in same way
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+evasion is a norm, can't garnish wages for debts.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+unobservables orthogonal to 
+\begin_inset Formula $Y_{ij}^{R}$
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+no ex-post differences in defaults
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $credit_{ij}$
+\end_inset
+
+ is bank's supply, not demand-driven debt.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+focus on constrained borrowers, requested amt > approved amt
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Artavanisetal_1.png
+	scale 41
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Artavanis 
+\emph on
+et al.
+
+\emph default
+ (2015): Results
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Artavanisetal_3.png
+	scale 44
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Artavanisetal_2.png
+	scale 51
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Artavanis 
+\emph on
+et al.
+
+\emph default
+ (2015): Results
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Artavanisetal_4.png
+	scale 48
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
