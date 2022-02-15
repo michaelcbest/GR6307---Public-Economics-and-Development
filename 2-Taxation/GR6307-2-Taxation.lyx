@@ -9677,6 +9677,822 @@ Naritomi (2018): Effects on Government Revenue
 
 \end_deeper
 \begin_layout Subsection
+Ulyssea (AER 2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Firms, Informality, and Development: Theory and Evidence from Brazil
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Informality is widespread, especially in low- and middle-income countries.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/LaPortaShleifer2014_01.png
+	height 89theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What are the implications of widespread informality for the economy? How
+ can policymakers respond?
+\end_layout
+
+\begin_layout Itemize
+High informality 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ widespread tax evasion 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ small budget for public goods provision
+\end_layout
+
+\begin_layout Itemize
+Informality may distort firm decisions such as labor input choices (see
+ also Best 
+\emph on
+et al
+\emph default
+.
+ 2015).
+\end_layout
+
+\begin_layout Itemize
+Informality may permit small, unproductive firms to compete with large,
+ productive, formal firms 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ misallocation of resources across firms (Hsieh & Klenow, 2009)
+\end_layout
+
+\begin_layout Itemize
+Informality provides de facto freedom from burdensome/inefficient regulations
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Propose a model to capture these phenomena with two features:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Firms choose whether to register: 
+\emph on
+extensive margin
+\emph default
+ of informality
+\end_layout
+
+\begin_layout Enumerate
+Firms choose how many of their workers to register: 
+\emph on
+intensive margin
+\emph default
+ of informality
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Model encompasses and can quantify three views of informal firms:
+\end_layout
+
+\begin_layout Enumerate
+Informal firms as reservoir of productive entrepreneurs deterred by high
+ regulatory costs
+\end_layout
+
+\begin_layout Enumerate
+Informal firms as 
+\begin_inset Quotes eld
+\end_inset
+
+parasite firms
+\begin_inset Quotes erd
+\end_inset
+
+ earning rents by evading taxes and regulations
+\end_layout
+
+\begin_layout Enumerate
+Informal firms as a survival strategy for low-skill individuals
+\end_layout
+
+\begin_layout Itemize
+Conduct counterfactual policy simulations to (i) reduce entry costs; (ii)
+ reducing payroll taxes on formal workers; (iii) increase cost of informality
+ by raising enforcement on extensive margin (iv) raise enforcement on intensive
+ margin.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Stylized Facts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use 3 datasets
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Pesquisa de Economia Informal Urbana (ECINF):
+\emph default
+ a repeated (1997 and 2003) cross section of small (
+\begin_inset Formula $\leq5$
+\end_inset
+
+ workers) firms
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Registro Anual de Informações Sociais (RAIS): 
+\emph default
+administrative employer-employee matched social security data
+\end_layout
+
+\begin_layout Enumerate
+National Household survey (PNAD): repeated cross-section of households
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Formal firms are bigger and more productive
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ulyssea2018_01.png
+	lyxscale 40
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Worker Selection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ulyssea2018_02.png
+	lyxscale 50
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Informality Margins and Firm Size
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ulyssea2018_03.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Heterogeneous firms indexed by their productivity 
+\begin_inset Formula $\theta$
+\end_inset
+
+ face competitive product and labor markets.
+\end_layout
+
+\begin_layout Itemize
+Produce using only labor
+\begin_inset Formula 
+\[
+y\left(\theta,l\right)=\theta q\left(l\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Informal firms avoid labor and other taxes but at cost wedge 
+\begin_inset Formula $\tau_{i}\left(l\right)$
+\end_inset
+
+ (with 
+\begin_inset Formula $\tau_{i}^{\prime}>0$
+\end_inset
+
+ and 
+\begin_inset Formula $\tau_{i}^{\prime\prime}>0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Profits of informal (incumbent) firms are then 
+\begin_inset Formula 
+\[
+\Pi_{i}\left(\theta,w\right)=\max_{l}\left\{ \theta q\left(l\right)-w\tau_{i}\left(l\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Formal Incumbents
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Formal firms have to comply with regulations/taxes, but can still hire (some)
+ workers off the books
+\end_layout
+
+\begin_layout Itemize
+Wedge on hiring informal workers is 
+\begin_inset Formula $\tau_{fi}\left(l\right)$
+\end_inset
+
+ (with 
+\begin_inset Formula $\tau_{fi}^{\prime}>0$
+\end_inset
+
+ and 
+\begin_inset Formula $\tau_{fi}^{\prime\prime}>0$
+\end_inset
+
+) while formal workers cost 
+\begin_inset Formula $\left(1+\tau_{w}\right)w$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+as a result, firms start out hiring informal workers and at some point 
+\begin_inset Formula $\tilde{l}$
+\end_inset
+
+ the marginal cost of formal workers is cheaper so they switch and start
+ hiring formal workers
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Profits are
+\begin_inset Formula 
+\[
+\Pi_{f}\left(\theta,w\right)=\max_{l}\left\{ \left(1-\tau_{y}\right)\theta q\left(l\right)-C\left(l\right)\right\} 
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula 
+\[
+C\text{\left(l\right)=\ensuremath{\begin{cases}
+\tau_{fi}\left(l\right)w & \text{for }l\leq\tilde{l}\\
+\tau_{fi}\left(\tilde{l}\right)w+\left(1+\tau_{w}\right)\left(l-\tilde{l}\right) & \text{for }l>\tilde{l}
+\end{cases}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Firms also pay per-period fixed costs of operation 
+\begin_inset Formula $\bar{c}_{s}$
+\end_inset
+
+, 
+\begin_inset Formula $s\in\left(i,f\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Entry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each period, a mass 
+\begin_inset Formula $M$
+\end_inset
+
+ of potential entrants chooses whether or not to enter.
+\end_layout
+
+\begin_layout Itemize
+Observe signal 
+\begin_inset Formula $v\sim G$
+\end_inset
+
+ of potential productivity if enter
+\end_layout
+
+\begin_layout Itemize
+Entering requires paying fixed entry cost 
+\begin_inset Formula $0<E_{f}<E_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Upon entry draw realized productivity from 
+\begin_inset Formula $F\left(\theta\vert v\right)$
+\end_inset
+
+ with 
+\begin_inset Formula $\partial F/\partial v<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+After entry, face exogenous exit probabilities 
+\begin_inset Formula $\kappa_{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If productivity is too low, can stop producing and exit immediately, so
+ value of a firm (normalizing discounting to 1) is 
+\begin_inset Formula 
+\[
+V_{s}\left(\theta,w\right)=\max\left\{ 0,\frac{\pi_{s}\text{\left(\theta,w\right)}}{\kappa_{s}}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Entry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Therefore ex-ante value of a signal 
+\begin_inset Formula $v$
+\end_inset
+
+ is 
+\begin_inset Formula 
+\[
+V_{s}^{e}\left(v,w\right)=\int V_{s}\left(\theta,w\right)dF\left(\theta\vert v\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Enter formal sector if 
+\begin_inset Formula $V_{f}^{e}\left(v,w\right)-E_{f}>\max\left\{ V_{i}^{e}\left(v,w\right)-E_{i},0\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Enter informal sector is 
+\begin_inset Formula $V_{i}^{e}\left(v,w\right)-E_{i}>\max\left\{ V_{f}^{e}\left(v,w\right)-E_{f},0\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Free entry conditions:
+\begin_inset Formula 
+\begin{align*}
+V_{i}^{e}\left(\bar{v}_{i},w\right) & =E_{i}\\
+V_{f}^{e}\left(\bar{v}_{f},w\right) & =V_{i}^{e}\left(\bar{v}_{i},w\right)+\left(E_{f}-E_{i}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Equilibrium
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Close the model: representative household supplies 
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+ units of labor inelastically.
+ No savings, no disutility from work 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ consumption = welfare
+\end_layout
+
+\begin_layout Itemize
+Consumption is 
+\begin_inset Formula $w\bar{L}+\Pi+T$
+\end_inset
+
+ (where 
+\begin_inset Formula $\Pi$
+\end_inset
+
+ is net of entry costs and wedges).
+\end_layout
+
+\begin_layout Itemize
+Measure of entrants is 
+\begin_inset Formula $M_{i}=\left[G\left(\bar{v}_{f}\right)-G\left(\bar{v}_{i}\right)\right]M$
+\end_inset
+
+ and 
+\begin_inset Formula $M_{f}=\left[1-G\left(\bar{v}_{f}\right)\right]M$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Look for a stationary equilibrium: all aggregate variables are constant.
+ 
+\end_layout
+
+\begin_layout Itemize
+Total number of active firms 
+\begin_inset Formula $\mu_{s}$
+\end_inset
+
+ is constant:
+\begin_inset Formula 
+\[
+\mu_{s}=\frac{1-F_{\bar{\theta}_{s}}\left(\bar{\theta}_{s}\right)}{\kappa_{s}}M_{s}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equilibrium satisfies (i) labor market clearing: 
+\begin_inset Formula $L_{i}+L_{f}=\bar{L}$
+\end_inset
+
+; (ii) zero profits of marginal entrants: 
+\begin_inset Formula $\pi_{s}\left(\bar{\theta}_{s},w\right)=0$
+\end_inset
+
+; (iii) free entry conditions 
+\begin_inset Formula $V_{s}^{e}\left(\bar{v}_{s},w\right)=E_{s}$
+\end_inset
+
+; (iv) both sectors constant sizes 
+\begin_inset Formula $\mu_{s}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Roadmap for Estimation
+\end_layout
+
+\begin_layout Enumerate
+Parameterize remaining functions
+\end_layout
+
+\begin_layout Enumerate
+Calibrate first set of parameters from external data
+\end_layout
+
+\begin_layout Enumerate
+Estimate remaining parameters using Simulated Minimum Distance (SMD) estimator
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Estimation: Parameterize Remaining Functions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Best, Brockmeyer, Kleven, Spinnewijn & Waseem (JPE 2015) 
 \begin_inset ERT
 status open

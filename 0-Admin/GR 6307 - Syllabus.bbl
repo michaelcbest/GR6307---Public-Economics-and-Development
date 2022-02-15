@@ -457,10 +457,10 @@
     \endentry
     \entry{AndersenJohannesenRijkers2020}{unpublished}{}
       \name{author}{3}{}{%
-        {{hash=6a398ed5f46413307bc3389670ae22c3}{%
+        {{hash=f843f9c9b016f50d0d915540d2c9ec8f}{%
            family={Andersen},
            familyi={A\bibinitperiod},
-           given={J{ø{o}}rgen},
+           given={J{ø}rgen},
            giveni={J\bibinitperiod}}}%
         {{hash=f54fef7e0eff1aaacf622d7ad3d397cb}{%
            family={Johannesen},
@@ -473,12 +473,12 @@
            given={Bob},
            giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{295e955312d8bf2b924331e59918d663}
-      \strng{fullhash}{295e955312d8bf2b924331e59918d663}
-      \strng{bibnamehash}{295e955312d8bf2b924331e59918d663}
-      \strng{authorbibnamehash}{295e955312d8bf2b924331e59918d663}
-      \strng{authornamehash}{295e955312d8bf2b924331e59918d663}
-      \strng{authorfullhash}{295e955312d8bf2b924331e59918d663}
+      \strng{namehash}{b41d0935ee8f8abad749d587d8a4bb8e}
+      \strng{fullhash}{b41d0935ee8f8abad749d587d8a4bb8e}
+      \strng{bibnamehash}{b41d0935ee8f8abad749d587d8a4bb8e}
+      \strng{authorbibnamehash}{b41d0935ee8f8abad749d587d8a4bb8e}
+      \strng{authornamehash}{b41d0935ee8f8abad749d587d8a4bb8e}
+      \strng{authorfullhash}{b41d0935ee8f8abad749d587d8a4bb8e}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{extradatescope}{labelyear}
@@ -4752,6 +4752,34 @@
       \field{note}{NBER W.P 24701}
       \field{title}{The Missing Profits of Nations}
       \field{year}{2018}
+    \endentry
+    \entry{Ulyssea2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=10fcf9d33b2def85076e7b1bce65e0d9}{%
+           family={Ulyssea},
+           familyi={U\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{fullhash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{bibnamehash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{authorbibnamehash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{authornamehash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{authorfullhash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{8}
+      \field{journaltitle}{American Economic Review}
+      \field{title}{Firms, Informality and Development: Theory and Evidence from Brazil}
+      \field{volume}{108}
+      \field{year}{2018}
+      \field{pages}{2015\bibrangedash 2047}
+      \range{pages}{33}
     \endentry
     \entry{Weigel2020}{article}{}
       \name{author}{1}{}{%

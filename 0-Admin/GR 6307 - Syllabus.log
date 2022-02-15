@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2021.9.7)  25 JAN 2022 09:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 FEB 2022 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -574,25 +574,37 @@ Overfull \hbox (12.82687pt too wide) in paragraph at lines 107--108
 nd M. Waseem.
  []
 
-[6] [7]
-Overfull \hbox (7.65399pt too wide) in paragraph at lines 145--146
+[6]pdfTeX warning (ext4): destination with the same identifier (name{cite.0:LaP
+ortaShleifer2014}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111 \item \fullcite{LaPortaShleifer2014}.
+                                           
+Overfull \hbox (0.47147pt too wide) in paragraph at lines 124--125
+[][]\T1/ppl/m/n/10.95 Jørgen An-der-sen, Niels Jo-han-nesen, and Bob Ri-jk-ers.
+ 2020. ``Elite Cap-
+ []
+
+[7] [8]
+Overfull \hbox (7.65399pt too wide) in paragraph at lines 149--150
 [][]\T1/ppl/b/n/10.95 A.L. Nichols and R.J. Zeck-hauser. 1982. ``Tar-get-ing Tr
 ans-fers Through
  []
 
-[8]pdfTeX warning (ext4): destination with the same identifier (name{cite.0:Bre
-werSaezShephard2010}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{cite.0:Brewer
+SaezShephard2010}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152 \item \fullcite{BrewerSaezShephard2010}.
-                                              pdfTeX warning (ext4): destinatio
-n with the same identifier (name{cite.0:KlevenKopczuk2011}) has been already us
-ed, duplicate ignored
-<to be read again> 
-                   \relax 
-l.156 \item \fullcite{KlevenKopczuk2011}.
-                                          [9]
-Overfull \hbox (5.5911pt too wide) in paragraph at lines 166--167
+l.156 \item \fullcite{BrewerSaezShephard2010}.
+                                               [9pdfTeX warning (ext4): destina
+tion with the same identifier (name{cite.0:KlevenKopczuk2011}) has been already
+ used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.163 \end{enumerate}
+                     ]
+Overfull \hbox (5.5911pt too wide) in paragraph at lines 170--171
 \T1/ppl/m/n/10.95 gram: How Do Cash Trans-fers Af-fect In-el-i-gi-bles' Con-sum
 p-tion''. \T1/ppl/m/it/10.95 Amer-
  []
@@ -601,27 +613,27 @@ p-tion''. \T1/ppl/m/it/10.95 Amer-
 ettyetal2013}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.175 \item \fullcite{Chettyetal2013}.
-                                      
-Overfull \hbox (46.79959pt too wide) in paragraph at lines 186--187
+l.179 \item \fullcite{Chettyetal2013}.
+                                       [11]
+Overfull \hbox (46.79959pt too wide) in paragraph at lines 190--191
 \T1/ppl/b/n/10.95 of Cash Ver-sus In-Kind Trans-fers''. Mimeo: North-west-ern U
 niversity.$[]$ 
  []
 
-[11]
-Overfull \hbox (19.09206pt too wide) in paragraph at lines 199--200
+
+Overfull \hbox (19.09206pt too wide) in paragraph at lines 203--204
 [][]\T1/ppl/b/n/10.95 A Baner-jee, R Hanna, and S Mul-lainathan. 2012. ``Cor-ru
 p-tion''. Chap. 27
  []
 
 
-Overfull \hbox (5.34003pt too wide) in paragraph at lines 201--202
+Overfull \hbox (5.34003pt too wide) in paragraph at lines 205--206
 [][]\T1/ppl/m/n/10.95 T Besley and M Ghatak. 2005. ``Com-pe-ti-tion and In-cen-
 tives with Proso-
  []
 
 [12]
-Overfull \hbox (65.9149pt too wide) in paragraph at lines 214--215
+Overfull \hbox (65.9149pt too wide) in paragraph at lines 218--219
 \T1/ppl/m/n/10.95 Salary In-crease in In-done-sia''. Forth-com-ing, Quar-terly 
 Jour-nal of Economics.$[]$ 
  []
@@ -630,62 +642,62 @@ Jour-nal of Economics.$[]$
 kenPande2012}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.221 \item \fullcite{OlkenPande2012}
+l.225 \item \fullcite{OlkenPande2012}
                                      
-Overfull \hbox (15.47102pt too wide) in paragraph at lines 232--233
+Overfull \hbox (15.47102pt too wide) in paragraph at lines 236--237
 \T1/ppl/m/n/10.95 per-i-men-tal Ev-i-dence on In-cen-tiviz-ing Bu-reau-crats th
 rough Performance-
  []
 
 
-Overfull \hbox (2.34593pt too wide) in paragraph at lines 238--239
+Overfull \hbox (2.34593pt too wide) in paragraph at lines 242--243
 [][]\T1/ppl/m/n/10.95 N Ashraf, O Bandiera, and S.S. Lee. 2016. ``Do-gooders an
 d Go-getters:
  []
 
 [14]
-Overfull \hbox (11.86214pt too wide) in paragraph at lines 248--249
+Overfull \hbox (11.86214pt too wide) in paragraph at lines 252--253
 \T1/ppl/m/n/10.95 Trans-fers to the Ex-tremely Poor''. In \T1/ppl/m/it/10.95 Pr
 o-ceed-ings of the 20th ACM SIGKDD
  []
 
 [15]
-Overfull \hbox (7.86086pt too wide) in paragraph at lines 258--259
+Overfull \hbox (7.86086pt too wide) in paragraph at lines 262--263
 \T1/ppl/m/n/10.95 Us-ing High Res-o-lu-tion Satel-lite Im-agery for Es-ti-mat-i
 ng Eco-nomic Well-
  []
 
 [16]
-Overfull \hbox (4.55351pt too wide) in paragraph at lines 266--267
+Overfull \hbox (4.55351pt too wide) in paragraph at lines 270--271
 \T1/ppl/b/n/10.95 2017. ``Hu-man De-ci-sions and Ma-chine Pre-dic-tions''. NBER
  WP 23180 
  []
 
 
-Overfull \hbox (1.41321pt too wide) in paragraph at lines 269--270
+Overfull \hbox (1.41321pt too wide) in paragraph at lines 273--274
 [][]\T1/ppl/m/n/10.95 K Mu-ralid-ha-ran, Ab-hi-jeet Singh, and Ale-jan-dro Ga-n
 -imian. 2017. ``Dis-
  []
 
 [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
  [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
  (./GR 6307 - Syllabus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `"GR 6307 - Syllabus".out' has not changed.
 (rerunfilecheck)             Checksum: 6C295DF6F318808169A051D3DE6F7CCC;1331.
 Package logreq Info: Writing requests to '"GR 6307 - Syllabus".run.xml'.
 \openout1 = `"GR 6307 - Syllabus.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 12930 strings out of 492649
- 225864 string characters out of 6129623
- 804667 words of memory out of 5000000
- 16399 multiletter control sequences out of 15000+600000
+ 12934 strings out of 492649
+ 225946 string characters out of 6129622
+ 805711 words of memory out of 5000000
+ 16400 multiletter control sequences out of 15000+600000
  44723 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,6n,58p,925b,1295s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -700,10 +712,10 @@ m/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
 local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
 /2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (18 pages, 203921 bytes).
+Output written on "GR 6307 - Syllabus.pdf" (18 pages, 203964 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 505 compressed objects within 6 object streams
- 311 named destinations out of 1000 (max. 500000)
+ 544 PDF objects out of 1000 (max. 8388607)
+ 509 compressed objects within 6 object streams
+ 314 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
