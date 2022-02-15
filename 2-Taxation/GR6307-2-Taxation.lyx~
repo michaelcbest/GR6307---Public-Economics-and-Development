@@ -7502,7 +7502,7 @@ If don't pay, expected cost of tax delinquency is
 \end_layout
 
 \begin_layout Itemize
-Also idiowyncratic utility from compliance 
+Also idiosyncratic utility from compliance 
 \begin_inset Formula $\Lambda\sim F\left(\cdot\right)$
 \end_inset
 
@@ -10107,7 +10107,7 @@ Profits of informal (incumbent) firms are then
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Model
+Ulyssea (2018): Formal Incumbents
 \end_layout
 
 \end_inset
@@ -10321,12 +10321,779 @@ Enter informal sector is
 \end_layout
 
 \begin_layout Itemize
-Entry conditions:
+Free entry conditions:
 \begin_inset Formula 
 \begin{align*}
 V_{i}^{e}\left(\bar{v}_{i},w\right) & =E_{i}\\
 V_{f}^{e}\left(\bar{v}_{f},w\right) & =V_{i}^{e}\left(\bar{v}_{i},w\right)+\left(E_{f}-E_{i}\right)
 \end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Equilibrium
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Close the model: representative household supplies 
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+ units of labor inelastically.
+ No savings, no disutility from work 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ consumption = welfare
+\end_layout
+
+\begin_layout Itemize
+Consumption is 
+\begin_inset Formula $w\bar{L}+\Pi+T$
+\end_inset
+
+ (where 
+\begin_inset Formula $\Pi$
+\end_inset
+
+ is net of entry costs and wedges).
+\end_layout
+
+\begin_layout Itemize
+Measure of entrants is 
+\begin_inset Formula $M_{i}=\left[G\left(\bar{v}_{f}\right)-G\left(\bar{v}_{i}\right)\right]M$
+\end_inset
+
+ and 
+\begin_inset Formula $M_{f}=\left[1-G\left(\bar{v}_{f}\right)\right]M$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Look for a stationary equilibrium: all aggregate variables are constant.
+ 
+\end_layout
+
+\begin_layout Itemize
+Total number of active firms 
+\begin_inset Formula $\mu_{s}$
+\end_inset
+
+ is constant:
+\begin_inset Formula 
+\[
+\mu_{s}=\frac{1-F_{\bar{\theta}_{s}}\left(\bar{\theta}_{s}\right)}{\kappa_{s}}M_{s}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equilibrium satisfies (i) labor market clearing: 
+\begin_inset Formula $L_{i}+L_{f}=\bar{L}$
+\end_inset
+
+; (ii) zero profits of marginal entrants: 
+\begin_inset Formula $\pi_{s}\left(\bar{\theta}_{s},w\right)=0$
+\end_inset
+
+; (iii) free entry conditions 
+\begin_inset Formula $V_{s}^{e}\left(\bar{v}_{s},w\right)=E_{s}$
+\end_inset
+
+; (iv) both sectors constant sizes 
+\begin_inset Formula $\mu_{s}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Roadmap for Estimation
+\end_layout
+
+\begin_layout Enumerate
+Parameterize remaining functions
+\end_layout
+
+\begin_layout Enumerate
+Calibrate first set of parameters from external data
+\end_layout
+
+\begin_layout Enumerate
+Estimate remaining parameters using Simulated Minimum Distance (SMD) estimator
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Estimation: Parameterize Remaining Functions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pre-entry productivity assumed Pareto:
+\begin_inset Formula 
+\[
+F_{v}\left(v\geq x\right)=\begin{cases}
+\left(\frac{v_{0}}{x}\right)^{\xi} & \text{for }x\geq v_{0}\\
+1 & \text{for }x<v_{0}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Actuall productivity 
+\begin_inset Formula $\theta=\varepsilon v$
+\end_inset
+
+, 
+\begin_inset Formula $\varepsilon\sim$
+\end_inset
+
+log-Normal with mean 0 and variance 
+\begin_inset Formula $\sigma^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Production: 
+\begin_inset Formula $y\left(\theta,l_{s}\right)=\theta l_{s}^{\alpha}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Wedges: 
+\begin_inset Formula $\tau_{i}\left(l_{i}\right)=\left(1+\frac{l_{i}}{b_{i}}\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $\tau_{fk}=\left(1+\frac{l_{fk}}{b_{fk}}\right)l_{fk}$
+\end_inset
+
+ (
+\begin_inset Formula $k=1,2$
+\end_inset
+
+ in the paper there are two types of worker)
+\end_layout
+
+\begin_layout Itemize
+Fixed costs 
+\begin_inset Formula $\bar{c}_{s}=\gamma_{s}w_{2},\;0<\gamma_{s}\leq1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Full set of parameters 
+\begin_inset Formula $\Gamma=\left\{ \psi,\varphi\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\psi$
+\end_inset
+
+ = parameters to calibrate
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\varphi$
+\end_inset
+
+ = parameters to estimate
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Estimation: Calibration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Paraeters to calibrate 
+\begin_inset Formula $\psi=\left\{ \tau_{w},\tau_{y},\kappa_{f},v_{0},\gamma_{f}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Taxes set to statutory rates 
+\begin_inset Formula $\tau_{w}=0.375,\;\tau_{y}=0.293$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Exit probability from RAIS data 
+\begin_inset Formula $\kappa_{f}=0.129$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pareto scale parameter 
+\begin_inset Formula $v_{0}$
+\end_inset
+
+ picked so smallest firm has 1 worker
+\end_layout
+
+\begin_layout Itemize
+Fixed cost of operation set to half a monthly wage 
+\begin_inset Formula $\gamma_{f}=0.5$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Estimation: SMD
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estimation parameters 
+\begin_inset Formula $\varphi=\left\{ \kappa_{i},\gamma_{i},b_{i},b_{f,1},b_{f,2},\eta_{f},\eta_{i},\rho,\xi,\alpha,E_{f},E_{i},\sigma\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How does SMD work? Calculate some moments in the data and pick the parameters
+ of the model so that simulating from the model matches the moments
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Fix all parameters 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+, wages 
+\begin_inset Formula $w_{1},w_{2}$
+\end_inset
+
+ and productivity shocks for all firms 
+\begin_inset Formula $v_{j},\varepsilon_{j}$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ model completely characterizes behavior
+\end_layout
+
+\begin_layout Enumerate
+Simulate data from this model by drawing shocks
+\end_layout
+
+\begin_layout Enumerate
+Calculate the same moments you want to match in the data
+\end_layout
+
+\begin_layout Enumerate
+Update parameters
+\end_layout
+
+\begin_layout Enumerate
+Find the parameters that minimizes distance (quadratic form with 
+\begin_inset Quotes eld
+\end_inset
+
+optimal weights
+\begin_inset Quotes erd
+\end_inset
+
+) between simulated model and real data
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Define 
+\begin_inset Formula $\hat{m}_{N}=\frac{1}{N}\sum_{i=1}^{N}m_{i}$
+\end_inset
+
+ the moments computed from the real data, and 
+\begin_inset Formula $\tilde{m}_{S}\left(\varphi;\psi\right)=\sum_{s=1}^{S}\tilde{m}_{s}\left(\varphi;\psi\right)$
+\end_inset
+
+ the moments from 
+\begin_inset Formula $S$
+\end_inset
+
+ series of simulated data.
+\end_layout
+
+\begin_layout Itemize
+Define 
+\begin_inset Formula $g_{NS}\left(\varphi;\psi\right)=\hat{m}_{N}-\tilde{m}_{S}\left(\varphi,\psi\right)$
+\end_inset
+
+ then the SMD estimator solves
+\begin_inset Formula 
+\[
+\hat{\varphi}=\arg\min_{\varphi}Q\left(\varphi;\psi\right)=\left\{ g_{NS}\left(\varphi,\psi\right)^{\prime}\mathbf{W}_{N}g_{NS}\left(\varphi,\psi\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Estimation: SMD
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use 16 oments from the data:
+\end_layout
+
+\begin_layout Itemize
+informality shares of low-skill, high-skill, overall employees (PNAD)
+\end_layout
+
+\begin_layout Itemize
+overall share of informal firms and by firm size (1-2,3-4,5-10 employees)
+ (ECINF/RAIS)
+\end_layout
+
+\begin_layout Itemize
+average share of informal workers in formal firms of size 2-3 and 4-5 workers
+ (ECINF)
+\end_layout
+
+\begin_layout Itemize
+share of informal firms with 
+\begin_inset Formula $\leq2$
+\end_inset
+
+ and 
+\begin_inset Formula $\le5$
+\end_inset
+
+ workers (ECINF)
+\end_layout
+
+\begin_layout Itemize
+share of formal firms with 
+\begin_inset Formula $\leq5,5-10,11-20,21-50,>50$
+\end_inset
+
+ workers (RAIS)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Results: Parameter Values
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ulyssea2018_04.png
+	lyxscale 50
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Results: Model Fit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ulyssea2018_06.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Results: Model Fit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ulyssea2018_07.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Results: Model Fit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ulyssea2018_08.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Results: Model Fit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ulyssea2018_09.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Counterfactuals
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Exercise 1: Quantify the diverging views on what informal firms are
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Survival view
+\emph default
+: Firms too unproductive to ever be formal even with no costs of formality
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Parasite view:
+\emph default
+ Firms that could be formal but choose to be informal because it's more
+ profitable
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+De Soto's view: 
+\emph default
+Firms that would be formal if entry costs were low enough
+\end_layout
+
+\begin_layout Itemize
+Thought experiment: What if we reduce entry costs into formality? set 
+\begin_inset Formula $E_{f}=E_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Type 3 firms would formalize
+\end_layout
+
+\begin_layout Itemize
+Type 2 firms remain informal
+\end_layout
+
+\begin_layout Itemize
+Type 1 firms exit
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Estimated model yields producticity signals 
+\begin_inset Formula $v$
+\end_inset
+
+ for each fir.
+ Simulate counterfactual with 
+\begin_inset Formula $E_{f}=E_{i}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ulyssea (2018): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ulyssea2018_10.png
+	height 100theight%
 
 \end_inset
 
