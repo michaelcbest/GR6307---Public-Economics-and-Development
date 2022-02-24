@@ -1313,6 +1313,38 @@
       \field{title}{The State Capacity Ceiling on Tax Rates: Evidence from Randomized Tax Abatements in the DRC}
       \field{year}{2021}
     \endentry
+    \entry{BergstromDodds2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b09cdb13218c38e10b772a74ca649282}{%
+           family={Bergstrom},
+           familyi={B\bibinitperiod},
+           given={Katy},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f36bc8bca3f476b21d2b67deeb709ead}{%
+           family={Dodds},
+           familyi={D\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{065c2cff25d8c1931b0addfbdd7dfc31}
+      \strng{fullhash}{065c2cff25d8c1931b0addfbdd7dfc31}
+      \strng{bibnamehash}{065c2cff25d8c1931b0addfbdd7dfc31}
+      \strng{authorbibnamehash}{065c2cff25d8c1931b0addfbdd7dfc31}
+      \strng{authornamehash}{065c2cff25d8c1931b0addfbdd7dfc31}
+      \strng{authorfullhash}{065c2cff25d8c1931b0addfbdd7dfc31}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{title}{The targeting benefit of conditional cash transfers}
+      \field{volume}{194}
+      \field{year}{2021}
+      \field{pages}{104330}
+      \range{pages}{1}
+    \endentry
     \entry{BertrandEtAl2007}{article}{}
       \name{author}{4}{}{%
         {{hash=a25cba6b139b5ccffa7a9dcf8252a692}{%
@@ -2780,6 +2812,50 @@
       \field{pages}{203\bibrangedash 32}
       \range{pages}{30}
     \endentry
+    \entry{EggerEtAl2021}{unpublished}{}
+      \name{author}{5}{}{%
+        {{hash=579fb5e01f3bf4c58c7f73c11cde0c0d}{%
+           family={Egger},
+           familyi={E\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e34924a13640a37a189137933c2148ab}{%
+           family={Haushofer},
+           familyi={H\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0d454e83cef0a2e8ff859a144a137a20}{%
+           family={Miguel},
+           familyi={M\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d2a85f1654b614176e4a76999d55959b}{%
+           family={Niehaus},
+           familyi={N\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=07141c11830222e4d2af38c6bc6ec4ba}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6408ef23eb70fe79e51be78d75f9263b}
+      \strng{fullhash}{6408ef23eb70fe79e51be78d75f9263b}
+      \strng{bibnamehash}{6408ef23eb70fe79e51be78d75f9263b}
+      \strng{authorbibnamehash}{6408ef23eb70fe79e51be78d75f9263b}
+      \strng{authornamehash}{6408ef23eb70fe79e51be78d75f9263b}
+      \strng{authorfullhash}{6408ef23eb70fe79e51be78d75f9263b}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{forthcoming: Econometrica}
+      \field{title}{General Equilibrium Effects of Cash Transfers: Experimental Evidence from Kenya}
+      \field{year}{2021}
+    \endentry
     \entry{Engstrometal2016}{unpublished}{}
       \name{author}{3}{}{%
         {{hash=f4b2bfc5f453a46382c5f224574387dd}{%
@@ -3043,6 +3119,40 @@
       \field{labeltitlesource}{title}
       \field{title}{Taxation and Supplier Networks: Evidence from India}
       \field{year}{2020}
+    \endentry
+    \entry{GerardNaritomiSilva2021}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=ba6a6bdbd64bc4449ea20273824cbab9}{%
+           family={Gerard},
+           familyi={G\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=898300b70ca47365c98d4a5214feac73}{%
+           family={Naritomi},
+           familyi={N\bibinitperiod},
+           given={Joana},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1c6eba6fc60049144ef5de5092b9f39d}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Joana},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{563ee3ee6d29c1139656e040bba43d5a}
+      \strng{fullhash}{563ee3ee6d29c1139656e040bba43d5a}
+      \strng{bibnamehash}{563ee3ee6d29c1139656e040bba43d5a}
+      \strng{authorbibnamehash}{563ee3ee6d29c1139656e040bba43d5a}
+      \strng{authornamehash}{563ee3ee6d29c1139656e040bba43d5a}
+      \strng{authorfullhash}{563ee3ee6d29c1139656e040bba43d5a}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: London School of Economics}
+      \field{title}{Cash Transfers and Formal Labor Markets: Evidence from Brazil}
+      \field{year}{2021}
     \endentry
     \entry{Glaeseretal2015}{unpublished}{}
       \name{author}{4}{}{%
