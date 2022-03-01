@@ -6316,7 +6316,7 @@ They review medical/work history, determine eligibility.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Deshpande Li 1.png
+	filename pictures/Deshpande Li 1.png
 	lyxscale 25
 	scale 16
 
@@ -6350,7 +6350,7 @@ Deshpande & Li (2017): SSA Office Closures
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Deshpande Li 2.png
+	filename pictures/Deshpande Li 2.png
 	lyxscale 30
 	scale 22
 
@@ -6570,9 +6570,9 @@ Deshpande & Li (2017): Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Deshpande Li 3.png
+	filename pictures/Deshpande Li 3.png
 	lyxscale 40
-	scale 23
+	height 100theight%
 
 \end_inset
 
@@ -6604,7 +6604,41 @@ Deshpande & Li (2017): Subgroups
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Deshpande Li 4.png
+	filename pictures/Deshpande Li 4.png
+	lyxscale 40
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Subgroups
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Deshpande Li 5.png
 	lyxscale 40
 	scale 28
 
@@ -6638,41 +6672,7 @@ Deshpande & Li (2017): Subgroups
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Deshpande Li 5.png
-	lyxscale 40
-	scale 28
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Deshpande & Li (2017): Subgroups
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Deshpande Li 6.png
+	filename pictures/Deshpande Li 6.png
 	lyxscale 40
 	scale 28
 
@@ -6706,9 +6706,9 @@ Deshpande & Li (2017): Spillovers
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Deshpande Li 7.png
+	filename pictures/Deshpande Li 7.png
 	lyxscale 40
-	scale 26
+	width 100text%
 
 \end_inset
 
@@ -6811,9 +6811,9 @@ Deshpande & Li (2017): Mechanisms
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Deshpande Li 8.png
+	filename pictures/Deshpande Li 8.png
 	lyxscale 40
-	scale 25
+	width 100text%
 
 \end_inset
 
@@ -6970,9 +6970,9 @@ Deshpande & Li (2017): Welfare
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Deshpande Li 9.png
+	filename pictures/Deshpande Li 9.png
 	lyxscale 40
-	scale 34
+	width 100text%
 
 \end_inset
 
@@ -7957,7 +7957,75 @@ Finkelstein & Notowidigdo (2019)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename FinkelsteinNoto01.png
+	filename pictures/FinkelsteinNoto01.png
+	lyxscale 50
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/FinkelsteinNoto02.png
+	lyxscale 50
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finkelstein & Notowidigdo (2019)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/FinkelsteinNoto03.png
 	lyxscale 50
 	scale 25
 
@@ -7991,9 +8059,9 @@ Finkelstein & Notowidigdo (2019)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename FinkelsteinNoto02.png
+	filename pictures/FinkelsteinNoto04.png
 	lyxscale 50
-	scale 25
+	height 100theight%
 
 \end_inset
 
@@ -8025,9 +8093,9 @@ Finkelstein & Notowidigdo (2019)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename FinkelsteinNoto03.png
+	filename pictures/FinkelsteinNoto05.png
 	lyxscale 50
-	scale 25
+	height 100theight%
 
 \end_inset
 
@@ -8059,9 +8127,9 @@ Finkelstein & Notowidigdo (2019)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename FinkelsteinNoto04.png
+	filename pictures/FinkelsteinNoto06.png
 	lyxscale 50
-	scale 25
+	height 100theight%
 
 \end_inset
 
@@ -8093,9 +8161,9 @@ Finkelstein & Notowidigdo (2019)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename FinkelsteinNoto05.png
+	filename pictures/FinkelsteinNoto07.png
 	lyxscale 50
-	scale 25
+	height 90theight%
 
 \end_inset
 
@@ -8127,9 +8195,9 @@ Finkelstein & Notowidigdo (2019)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename FinkelsteinNoto06.png
+	filename pictures/FinkelsteinNoto08.png
 	lyxscale 50
-	scale 25
+	height 100theight%
 
 \end_inset
 
@@ -8161,77 +8229,9 @@ Finkelstein & Notowidigdo (2019)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename FinkelsteinNoto07.png
+	filename pictures/FinkelsteinNoto09.png
 	lyxscale 50
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename FinkelsteinNoto08.png
-	lyxscale 50
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename FinkelsteinNoto09.png
-	lyxscale 50
-	scale 25
+	height 100theight%
 
 \end_inset
 
@@ -8417,7 +8417,7 @@ To make statements about social welfare impact of interventions need
 Write welfare effect as ratio of marginal benefits (private welfare increase)
  to marginal social costs (mech and fiscal externality) and use these approximat
 ions to get
-\size footnotesize
+\size small
 
 \begin_inset Formula 
 \begin{align*}
@@ -8872,7 +8872,7 @@ Alatas et al (2012): Randomization
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2012 1.png
+	filename pictures/Alatas et al 2012 1.png
 	lyxscale 40
 	width 90page%
 
@@ -8906,9 +8906,9 @@ Alatas et al (2012): BLT targeting
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2012 2.png
+	filename pictures/Alatas et al 2012 2.png
 	lyxscale 30
-	width 90page%
+	height 100theight%
 
 \end_inset
 
@@ -8940,9 +8940,9 @@ Alatas et al (2012): Targeting Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2012 3.png
+	filename pictures/Alatas et al 2012 3.png
 	lyxscale 30
-	scale 30
+	width 100text%
 
 \end_inset
 
@@ -8974,9 +8974,9 @@ Alatas et al (2012): Targeting Results
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2012 4.png
+	filename pictures/Alatas et al 2012 4.png
 	lyxscale 30
-	scale 30
+	width 100text%
 
 \end_inset
 
@@ -9046,7 +9046,7 @@ ERROR_{ivk} & =\alpha+\beta_{1}COMMUNITY_{ivk}+\beta_{2}HYBRID_{ivk}\\
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2012 5.png
+	filename pictures/Alatas et al 2012 5.png
 	lyxscale 30
 	height 90pheight%
 
@@ -9100,9 +9100,9 @@ Alatas et al (2012): Alternative Welfare Metrics
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2012 6.png
+	filename pictures/Alatas et al 2012 6.png
 	lyxscale 30
-	width 90page%
+	width 87page%
 
 \end_inset
 
@@ -9134,9 +9134,9 @@ status open
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2012 7.png
+	filename pictures/Alatas et al 2012 7.png
 	lyxscale 30
-	scale 30
+	width 100text%
 
 \end_inset
 
@@ -9168,9 +9168,9 @@ status open
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2012 8.png
+	filename pictures/Alatas et al 2012 8.png
 	lyxscale 30
-	scale 30
+	height 90pheight%
 
 \end_inset
 
@@ -9202,9 +9202,9 @@ status open
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2012 9.png
+	filename pictures/Alatas et al 2012 9.png
 	lyxscale 30
-	scale 30
+	height 86pheight%
 
 \end_inset
 
@@ -9399,9 +9399,9 @@ Alatas et al (2016): Targeting
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 1.png
+	filename pictures/Alatas et al 2016 1.png
 	lyxscale 40
-	width 87page%
+	height 100theight%
 
 \end_inset
 
@@ -9433,8 +9433,8 @@ Alatas et al (2016): Targeting
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 2.png
-	width 87page%
+	filename pictures/Alatas et al 2016 2.png
+	height 100theight%
 
 \end_inset
 
@@ -9550,7 +9550,7 @@ Alatas et al (2016): Experimental Design
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 3.png
+	filename pictures/Alatas et al 2016 3.png
 	width 90page%
 
 \end_inset
@@ -9583,8 +9583,8 @@ Alatas et al (2016): Timing
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 4.png
-	width 95page%
+	filename pictures/Alatas et al 2016 4.png
+	height 100theight%
 
 \end_inset
 
@@ -10279,8 +10279,8 @@ Alatas et al (2016): Self-Selection
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 5.png
-	width 85page%
+	filename pictures/Alatas et al 2016 5.png
+	height 100theight%
 
 \end_inset
 
@@ -10312,8 +10312,8 @@ Alatas et al (2016): Selection on Observables
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 6.png
-	width 85page%
+	filename pictures/Alatas et al 2016 6.png
+	height 100theight%
 
 \end_inset
 
@@ -10345,8 +10345,8 @@ Alatas et al (2016): Selection on Unobservables
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 7.png
-	width 85page%
+	filename pictures/Alatas et al 2016 7.png
+	height 100theight%
 
 \end_inset
 
@@ -10386,7 +10386,7 @@ Logit:
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 8.png
+	filename pictures/Alatas et al 2016 8.png
 	width 90page%
 
 \end_inset
@@ -10419,8 +10419,8 @@ Alatas et al (2016): Self-Targeting vs Automatic
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 9.png
-	width 85page%
+	filename pictures/Alatas et al 2016 9.png
+	height 100theight%
 
 \end_inset
 
@@ -10452,8 +10452,8 @@ Alatas et al (2016): Self-Targeting vs Automatic
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 11.png
-	width 95page%
+	filename pictures/Alatas et al 2016 11.png
+	width 88page%
 
 \end_inset
 
@@ -10463,8 +10463,8 @@ Alatas et al (2016): Self-Targeting vs Automatic
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 12.png
-	width 95page%
+	filename pictures/Alatas et al 2016 12.png
+	width 88page%
 
 \end_inset
 
@@ -10508,7 +10508,7 @@ Compare far (average 1.83 km) to close (0.27 km) subtreatments
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 13.png
+	filename pictures/Alatas et al 2016 13.png
 	width 95page%
 
 \end_inset
@@ -10726,7 +10726,7 @@ Alatas et al (2016): Model Parameters
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 14.png
+	filename pictures/Alatas et al 2016 14.png
 	width 90page%
 
 \end_inset
@@ -10759,8 +10759,8 @@ Alatas et al (2016): Mechanisms
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 15.png
-	width 95page%
+	filename pictures/Alatas et al 2016 15.png
+	width 88page%
 
 \end_inset
 
@@ -10770,8 +10770,8 @@ Alatas et al (2016): Mechanisms
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 16.png
-	width 95page%
+	filename pictures/Alatas et al 2016 16.png
+	width 88page%
 
 \end_inset
 
@@ -10803,8 +10803,8 @@ Alatas et al (2016): Alternative Policies
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 17.png
-	width 95page%
+	filename pictures/Alatas et al 2016 17.png
+	width 88page%
 
 \end_inset
 
@@ -10814,1040 +10814,8 @@ Alatas et al (2016): Alternative Policies
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Alatas et al 2016 18.png
-	width 95page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Subsection
-Cohen Dupas & Schaner (AER 2015) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Price Subsidies, Diagnostic Tests, and Targeting of Malaria Treatment: Evidence
- from a Randomized Controlled Trial
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Usually, the targeting tradeoff is that people who know they are ineligible
- may try to mimic the deserving types in order to gain access to the transfer.
-\end_layout
-
-\begin_layout Itemize
-What if incentives are aligned (government and households agree on who should
- receive the transfer) but households don't know whether they're eligible?
-\end_layout
-
-\begin_layout Itemize
-Here: Malaria treatments: artemisinin combination therapies (ACT)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Huge benefits if have malaria.
-\end_layout
-
-\begin_layout Itemize
-no direct benefits if don't have malaria, people don't learn real reason
- they're sick, speeds up development of parasite's resistence.
-\end_layout
-
-\begin_layout Itemize
-But people who are sick don't know for sure whether they have malaria (or
- something else) so many people take malaria treatments just in case.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Experiment in Kenya to test impact of 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-better diagnosis technology
-\end_layout
-
-\begin_layout Itemize
-subsidies for ACTs
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Setting
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Malaria causes 200 million illnesses, kills 600K people a year
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Many countries (ncluding Kenya) provide ACTs for free at public health facilitie
-s if diagnosed with malaria.
- But...
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-diagnosis often incorrect
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-stockouts common
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Have to pay fees, travel far, line up, etc...
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Many households go to private drugstores to get ACTs or other over-the-counter
- medications (40–97% of the market!)
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Large subsidies to ACTs to improve access.
- Subsidy 
-\begin_inset Formula $\sim95\%$
-\end_inset
-
- of cost 
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-When households receive an illness shock they pick an action 
-\begin_inset Formula 
-\[
-a\in\begin{cases}
-h & \text{seek diagnosis at a formal health facility}\\
-s & \text{buy ACTs at a shop}\\
-n & \text{buy non-ACT drugs or do nothing}
-\end{cases}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Households who fall ill form a subjective probability that the illnes is
- malaria with probability 
-\begin_inset Formula $\pi$
-\end_inset
-
-
-\begin_inset Formula 
-\begin{align*}
-V^{a}\left(\pi\right) & =\pi\left[U_{P}^{a}\left(\pi\right)-p_{P}^{a}\left(\pi\right)\right]+\left(1-\pi\right)\left[U_{N}^{a}\left(\pi\right)-p_{N}^{a}\left(\pi\right)\right]\\
- & =\pi V_{P}^{a}\left(\pi\right)+\left(1-\pi\right)V_{N}^{a}\left(\pi\right)
-\end{align*}
-
-\end_inset
-
-where 
-\begin_inset Formula $P$
-\end_inset
-
- denotes malaria-positive, 
-\begin_inset Formula $N$
-\end_inset
-
- malaria negative.
-\end_layout
-
-\begin_layout Itemize
-Assume value of acting increasing with 
-\begin_inset Formula $\pi$
-\end_inset
-
-: 
-\begin_inset Formula $\partial\left(V^{a}\left(\pi\right)-V^{n}\left(\pi\right)\right)/\partial\pi>0$
-\end_inset
-
- for 
-\begin_inset Formula $a\in\left\{ h,s\right\} $
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Go to the drug shop iff
-\begin_inset Formula 
-\[
-V^{s}\left(\pi\right)>\max\left\{ V^{h}\left(\pi\right),V^{n}\left(\pi\right)\right\} 
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 1.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Adding an ACT Subsidy
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 2.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Effects of subsidy:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-More access: More people get ACTs
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Worse targeting: People induced to use ACTs have lower 
-\begin_inset Formula $\pi$
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Better targeting possible if lots of poor people with high 
-\begin_inset Formula $\pi$
-\end_inset
-
- can't afford ACTs.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-What about Retail Diagnosis Test (RDT) to improve accuracy of 
-\begin_inset Formula $\pi$
-\end_inset
-
-?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-introduce 
-\begin_inset Formula $V^{r}\left(\pi\right)$
-\end_inset
-
-: Value of taking the RDT and then getting ACT if positive.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $V^{r}\left(\pi\right)>V^{s}\left(\pi\right)$
-\end_inset
-
- at low 
-\begin_inset Formula $\pi$
-\end_inset
-
- since 
-\begin_inset Formula $V^{s}$
-\end_inset
-
- relatively more attractive as 
-\begin_inset Formula $\pi$
-\end_inset
-
- increases.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Effect of RDT
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 3.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Experimental Design
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Experiment in Western Kenya in May–December 2009
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Sample 4 rural drug shops.
- Sample all households in 4 km catchment radius
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Ecery household interviewed for baseline survey
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-At the end of the interview, households get 2 ACT vouchers and 2 RDT vouchers
- if applicable.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Vouchers redeemable at the local drug shop
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Enumerators explain what RDT is and how it works
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Experimental Design
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 4.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Balance
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 5.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Balance
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 6.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Balance
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 7.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Data
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-3 data sources
-\end_layout
-
-\begin_layout Enumerate
-Administrative data from drug shop.
- Captured by surveyors posted at the 4 shops every single day.
- Contains 1,700 drug shop visits over 4 months.
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Also administer 
-\begin_inset Quotes eld
-\end_inset
-
-surprise ADTs
-\begin_inset Quotes erd
-\end_inset
-
- to random subset of people who redeem ACT voucher (to measure true malarial
- status)
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Endline survey data from 4 months after vouchers distributed.
- Includes recall data on all illnesses, where/what treatment sought.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-Symptoms database: 1-year after vouchers, surveyors did unannounced household
- survey.
- Ask if anyone is ill and collect all symptoms and administer RDT.
- Use these to construct 
-\begin_inset Quotes eld
-\end_inset
-
-predicted
-\begin_inset Quotes erd
-\end_inset
-
- malaria scores (proxy for 
-\begin_inset Formula $\pi$
-\end_inset
-
-)
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): ACT Acces
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Formula 
-\[
-y_{eh}=\delta+\textbf{ACTsub}_{h}^{\prime}\boldsymbol{\alpha}+\mathbf{x}_{h}^{\prime}\boldsymbol{\gamma}+\lambda_{strata}+\varepsilon_{eh}
-\]
-
-\end_inset
-
-
-\begin_inset VSpace -1cm
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 8.png
-	width 87page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Subsidy Level
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 9.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Targeting
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Formula 
-\[
-pos_{h}=\beta_{0}+\beta_{1}ACT88_{h}+\beta_{2}ACT80_{h}+\varepsilon_{h}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 10.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Mechanism
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 11.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): RDT
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 12.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): RDT and targeting
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 13.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): RDT compliance
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 14.png
-	width 90page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cohen et al (2015): Alternative Subsidy Schemes
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Cohen et al 15.png
-	width 90page%
+	filename pictures/Alatas et al 2016 18.png
+	width 88page%
 
 \end_inset
 
@@ -12084,7 +11052,7 @@ Banerjee et al (2018): Randomization
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BanerjeeEtAl2018_01.png
+	filename pictures/BanerjeeEtAl2018_01.png
 	width 100text%
 
 \end_inset
@@ -12261,8 +11229,8 @@ Banerjee et al (2018): Effect on Self-Reported Assets
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BanerjeeEtAl2018_03.png
-	width 100text%
+	filename pictures/BanerjeeEtAl2018_03.png
+	height 100theight%
 
 \end_inset
 
@@ -12294,8 +11262,8 @@ Banerjee et al (2018): Effect on Self-Reported Assets
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BanerjeeEtAl2018_04.png
-	width 100text%
+	filename pictures/BanerjeeEtAl2018_04.png
+	height 100theight%
 
 \end_inset
 
@@ -12331,8 +11299,8 @@ Why only lie for TV? Redo PMT adding in these 4 attributes.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BanerjeeEtAl2018_02.png
-	height 92theight%
+	filename pictures/BanerjeeEtAl2018_02.png
+	height 88theight%
 
 \end_inset
 
@@ -12431,8 +11399,8 @@ Banerjee et al (2018): Effect on Asset Acquisition
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BanerjeeEtAl2018_05.png
-	width 100text%
+	filename pictures/BanerjeeEtAl2018_05.png
+	height 90theight%
 
 \end_inset
 
@@ -12498,8 +11466,8 @@ Banerjee et al (2018): Effect on Asset Acquisition
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BanerjeeEtAl2018_06.png
-	width 95text%
+	filename pictures/BanerjeeEtAl2018_06.png
+	height 100theight%
 
 \end_inset
 
@@ -12531,7 +11499,7 @@ Banerjee et al (2018): Effect on Asset Acquisition
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename BanerjeeEtAl2018_07.png
+	filename pictures/BanerjeeEtAl2018_07.png
 	width 100text%
 
 \end_inset
@@ -12551,641 +11519,6 @@ Transfer Design
 \end_inset
 
 Transfer Design: What is the Benefit?
-\end_layout
-
-\begin_layout Subsection
-Baird McIntosh & Özler (QJE 2011) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Cash or Condition? Evidence from a Cash Transfer Experiment
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Should cash transfers come with conditions?
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-CCT: Market failures lead to underinvestment in education/health, conditions
- make transfers easier to 
-\begin_inset Quotes eld
-\end_inset
-
-sell
-\begin_inset Quotes erd
-\end_inset
-
- politically
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-UCT: Conditions uneffective, and very costly to enforce
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Conditions are common around the world (attend school, attend clinics for
- checkups, government work) but
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-are they effective at increasing targeted behavior?
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-What other behaviors do they end up distorting?
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Explore these questions in an experiment in Malawi
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Setting
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Work in Zomba District in southern Malawi
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Sample 176 of the 550 Enumeration Areas (EAs) in 3 strata.
- 29 in Zomba city 119 within 16 km, 28 
-\begin_inset Quotes eld
-\end_inset
-
-far rural
-\begin_inset Quotes erd
-\end_inset
-
-.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Survey to get census of never-married females aged 13-22.
- Those in school at baseline (87%) are the target population for the study.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Randomly sample, stratifying by age and stratum, to get 2,907 schoolgirls.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Experiment
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T1:
-\end_layout
-
-\end_inset
-
-CCT arm (46 EAs).
- 12/2007 & 1/2008.
- offered parents monthly transfer on condition regularly attend school.
- Transfer amount to the parent randomly varied, $4, $6, $8, $10/month, and
- to the schoolgirl $1, $2, $3, $4, $5.
- Paid school fees.
- 
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-T2: 
-\end_layout
-
-\end_inset
-
-UCT arm (27 EAs).
- Identical offers, but no requirement to attend school
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Controls: (88 EAs).
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Track attendance, other outcomes for 2008, 2009
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Attrition
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 1.png
-	width 92page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Enrolment
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 2.png
-	width 92page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Misreporting
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 3.png
-	width 92page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Attendance
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 4.png
-	width 92page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Attainment
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 5.png
-	width 92page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Marriage & Pregnancy
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 6.png
-	width 92page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Decomposition
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-How to rationalize these results? Imagine 3 strata of schoolgirls:
-\end_layout
-
-\begin_layout Enumerate
-UCT Compliers: UCT is sufficient to keep them in school.
- Differences in program impact must be due to intensive margin responses
- to conditionality
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-CCT Compliers: Enrolled under CCT but not UCT.
- Conditionality lowers opportunity cost of schooling.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-Noncompliers: Never enrol.
- Only receive transfers under UCT.
-\end_layout
-
-\begin_layout Itemize
-Overall effects depend on sizes of the three strata and effects in each
- group.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Strata Sizes
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 7.png
-	width 92page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Enrolment and Marriage
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 8.png
-	width 92page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (2011): Age Heterogeneity
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 9.png
-	width 85page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Baird et al (20110: Transfer Amount Elasticities
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename Baird et al 10.png
-	width 92page%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
 \end_layout
 
 \begin_layout Subsection
@@ -13408,7 +11741,7 @@ In-kind transfer with value
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Cunha et al 1.png
+	filename pictures/Cunha et al 1.png
 	height 90pheight%
 
 \end_inset
@@ -13432,7 +11765,7 @@ In-kind transfer with value
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Cunha et al 2.png
+	filename pictures/Cunha et al 2.png
 	height 90pheight%
 
 \end_inset
@@ -13734,7 +12067,7 @@ Cunha et al (2017): PAL transfer
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Cunha et al 3.png
+	filename pictures/Cunha et al 3.png
 	width 92page%
 
 \end_inset
@@ -13857,7 +12190,7 @@ Cunha et al (2017): Price Effects
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Cunha et al 4.png
+	filename pictures/Cunha et al 4.png
 	width 92page%
 
 \end_inset
@@ -13890,8 +12223,8 @@ Cunha et al (2017): Persistence
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Cunha et al 5.png
-	width 92page%
+	filename pictures/Cunha et al 5.png
+	height 95theight%
 
 \end_inset
 
@@ -13923,7 +12256,7 @@ Cunha et al (2017): Heterogeneity
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Cunha et al 6.png
+	filename pictures/Cunha et al 6.png
 	width 92page%
 
 \end_inset
@@ -13956,8 +12289,8 @@ Cunha et al (2017): Effects on Producers
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Cunha et al 7.png
-	width 82page%
+	filename pictures/Cunha et al 7.png
+	height 100theight%
 
 \end_inset
 
