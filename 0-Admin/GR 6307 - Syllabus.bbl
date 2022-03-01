@@ -870,6 +870,50 @@
       \field{title}{Local Elites as State Capacity: How City Chiefs Use Local Information to Increase Tax Compliance in the D.R. Congo}
       \field{year}{2021}
     \endentry
+    \entry{BalboniEtAl2021}{unpublished}{}
+      \name{author}{5}{}{%
+        {{hash=e2190cab1d5cec21b5b237b687051b07}{%
+           family={Balboni},
+           familyi={B\bibinitperiod},
+           given={Clare},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c0b3369a69cfdd849f836d77957c1f9a}{%
+           family={Bandiera},
+           familyi={B\bibinitperiod},
+           given={Oriana},
+           giveni={O\bibinitperiod}}}%
+        {{hash=db80c60d2e8ac9e800afb943771980ba}{%
+           family={Burgess},
+           familyi={B\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=565cb121373a427ea1e6059a7d56564e}{%
+           family={Ghatak},
+           familyi={G\bibinitperiod},
+           given={Maitreesh},
+           giveni={M\bibinitperiod}}}%
+        {{hash=602d631efc8aaad839bca3d92d9c721c}{%
+           family={Heil},
+           familyi={H\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{93ff078d397ec55d890e6d2f2a7f75c4}
+      \strng{fullhash}{93ff078d397ec55d890e6d2f2a7f75c4}
+      \strng{bibnamehash}{93ff078d397ec55d890e6d2f2a7f75c4}
+      \strng{authorbibnamehash}{93ff078d397ec55d890e6d2f2a7f75c4}
+      \strng{authornamehash}{93ff078d397ec55d890e6d2f2a7f75c4}
+      \strng{authorfullhash}{93ff078d397ec55d890e6d2f2a7f75c4}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Forthcoming, Quarterly Journal of Economics}
+      \field{title}{Why Do People Stay Poor?}
+      \field{year}{2021}
+    \endentry
     \entry{Bandieraetal2019}{unpublished}{}
       \name{author}{4}{}{%
         {{hash=ac296e2eb0ff059f58e23d12ae3eddbc}{%
@@ -1111,6 +1155,88 @@
       \field{year}{2012}
       \field{pages}{1109\bibrangedash 1147}
       \range{pages}{39}
+    \endentry
+    \entry{BanerjeeDufloSharma2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=027abafc894615db04e1c3f3dc5931c4}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Abhijit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7e6b0ea4eee38822cdb0a4361e98752c}{%
+           family={Duflo},
+           familyi={D\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6f045902aecc3b347fcf8559725b942b}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Garima},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{af561ecb7184db27a39adaea3c0330da}
+      \strng{fullhash}{af561ecb7184db27a39adaea3c0330da}
+      \strng{bibnamehash}{af561ecb7184db27a39adaea3c0330da}
+      \strng{authorbibnamehash}{af561ecb7184db27a39adaea3c0330da}
+      \strng{authornamehash}{af561ecb7184db27a39adaea3c0330da}
+      \strng{authorfullhash}{af561ecb7184db27a39adaea3c0330da}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{American Economic Review: Insights}
+      \field{title}{Long-Term Effects of the Targeting the Ultra Poor Program}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{pages}{471\bibrangedash 486}
+      \range{pages}{16}
+    \endentry
+    \entry{BanerjeeEtAl2021}{unpublished}{}
+      \name{author}{5}{}{%
+        {{hash=027abafc894615db04e1c3f3dc5931c4}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Abhijit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=58b741f377dc04079500b92dd0f3fbe7}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={Rema},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b83f57a511c1123fe0c4b876cbec8b9a}{%
+           family={Olken},
+           familyi={O\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=40722987593f8c3e551217f8a5eff4d1}{%
+           family={Satriawan},
+           familyi={S\bibinitperiod},
+           given={Elan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e3212b95e96b3e0f695c7ef44764ad60}{%
+           family={Sumarto},
+           familyi={S\bibinitperiod},
+           given={Sudarno},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{75040b8211a2a4a74b8ac3588b9530dc}
+      \strng{fullhash}{75040b8211a2a4a74b8ac3588b9530dc}
+      \strng{bibnamehash}{75040b8211a2a4a74b8ac3588b9530dc}
+      \strng{authorbibnamehash}{75040b8211a2a4a74b8ac3588b9530dc}
+      \strng{authornamehash}{75040b8211a2a4a74b8ac3588b9530dc}
+      \strng{authorfullhash}{75040b8211a2a4a74b8ac3588b9530dc}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: MIT}
+      \field{title}{Food vs. Food Stamps: Evidence from an At-Scale Experiment in Indonesia}
+      \field{year}{2021}
     \endentry
     \entry{Barnwal2017}{unpublished}{}
       \name{author}{1}{}{%
@@ -1935,6 +2061,50 @@
       \field{note}{Mimeo: Warwick University}
       \field{title}{Learning About the Enforcement of Conditional Welfare Programs: Evidence From Brazil}
       \field{year}{2016}
+    \endentry
+    \entry{BryanEtAl2021}{unpublished}{}
+      \name{author}{5}{}{%
+        {{hash=5ea8fcfa1d487a2989b6248e91615c33}{%
+           family={Bryan},
+           familyi={B\bibinitperiod},
+           given={Gharad},
+           giveni={G\bibinitperiod}}}%
+        {{hash=acad3f7a7cbbf1d26a77d51328aafa5e}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Shyamal},
+           giveni={S\bibinitperiod}}}%
+        {{hash=988ab6279d69f8f4e81ca6152d6e6e51}{%
+           family={Mobarak},
+           familyi={M\bibinitperiod},
+           given={Ahmed\bibnamedelima Mushfiq},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c81f97fdcb2c39f379f6cd1bf061fda3}{%
+           family={Morten},
+           familyi={M\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=26011fb4d33f3030b64417dab92ebf21}{%
+           family={Smits},
+           familyi={S\bibinitperiod},
+           given={Joeri},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{00d85dcf25065506582c5a92f7087dac}
+      \strng{fullhash}{00d85dcf25065506582c5a92f7087dac}
+      \strng{bibnamehash}{00d85dcf25065506582c5a92f7087dac}
+      \strng{authorbibnamehash}{00d85dcf25065506582c5a92f7087dac}
+      \strng{authornamehash}{00d85dcf25065506582c5a92f7087dac}
+      \strng{authorfullhash}{00d85dcf25065506582c5a92f7087dac}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: Yale University}
+      \field{title}{Encouragement and Distortionary Effects of Conditional Cash Transfers}
+      \field{year}{2021}
     \endentry
     \entry{BurgessStern}{article}{}
       \name{author}{2}{}{%

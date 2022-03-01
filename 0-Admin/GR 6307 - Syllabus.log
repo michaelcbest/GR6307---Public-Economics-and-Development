@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2021.9.7)  24 FEB 2022 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2021.9.7)  1 MAR 2022 09:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,94 +615,106 @@ ettyetal2013}) has been already used, duplicate ignored
                    \relax 
 l.176 \item \fullcite{Chettyetal2013}.
                                        [11]
-Overfull \hbox (42.54959pt too wide) in paragraph at lines 188--189
+Overfull \hbox (1.3368pt too wide) in paragraph at lines 188--189
+[][]\T1/ppl/m/n/10.95 Abhijit Baner-jee, Es-ther Du-flo, and Garima Sharma. 202
+1. ``Long-Term
+ []
+
+
+Overfull \hbox (15.98203pt too wide) in paragraph at lines 191--192
+[][]\T1/ppl/m/n/10.95 Gharad Bryan, Shya-mal Chowd-hury, Ahmed Mush-fiq Mo-bara
+k, Melanie
+ []
+
+
+Overfull \hbox (42.54959pt too wide) in paragraph at lines 192--193
 \T1/ppl/b/n/10.95 of Cash Ver-sus In-Kind Trans-fers''. Mimeo: North-west-ern U
 niversity.$[]$ 
  []
 
 
-Overfull \hbox (13.81488pt too wide) in paragraph at lines 189--190
+Overfull \hbox (13.81488pt too wide) in paragraph at lines 193--194
 \T1/ppl/m/n/10.95 Ex-per-i-men-tal Ev-i-dence from Kenya''. Forth-com-ing: Econ
 ometrica.$[]$ 
  []
 
-
-Overfull \hbox (19.09206pt too wide) in paragraph at lines 203--204
+[12]
+Overfull \hbox (19.09206pt too wide) in paragraph at lines 207--208
 [][]\T1/ppl/b/n/10.95 A Baner-jee, R Hanna, and S Mul-lainathan. 2012. ``Cor-ru
 p-tion''. Chap. 27
  []
 
 
-Overfull \hbox (5.34003pt too wide) in paragraph at lines 205--206
+Overfull \hbox (5.34003pt too wide) in paragraph at lines 209--210
 [][]\T1/ppl/m/n/10.95 T Besley and M Ghatak. 2005. ``Com-pe-ti-tion and In-cen-
 tives with Proso-
  []
 
-[12]
-Overfull \hbox (65.9149pt too wide) in paragraph at lines 218--219
+[13]
+Overfull \hbox (65.9149pt too wide) in paragraph at lines 222--223
 \T1/ppl/m/n/10.95 Salary In-crease in In-done-sia''. Forth-com-ing, Quar-terly 
 Jour-nal of Economics.$[]$ 
  []
 
-[13]pdfTeX warning (ext4): destination with the same identifier (name{cite.0:Ol
-kenPande2012}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{cite.0:OlkenP
+ande2012}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.225 \item \fullcite{OlkenPande2012}
+l.229 \item \fullcite{OlkenPande2012}
                                       [14]
-Overfull \hbox (15.47102pt too wide) in paragraph at lines 236--237
+Overfull \hbox (15.47102pt too wide) in paragraph at lines 240--241
 \T1/ppl/m/n/10.95 per-i-men-tal Ev-i-dence on In-cen-tiviz-ing Bu-reau-crats th
 rough Performance-
  []
 
 
-Overfull \hbox (2.34593pt too wide) in paragraph at lines 242--243
+Overfull \hbox (2.34593pt too wide) in paragraph at lines 246--247
 [][]\T1/ppl/m/n/10.95 N Ashraf, O Bandiera, and S.S. Lee. 2016. ``Do-gooders an
 d Go-getters:
  []
 
 [15]
-Overfull \hbox (11.86214pt too wide) in paragraph at lines 252--253
+Overfull \hbox (11.86214pt too wide) in paragraph at lines 256--257
 \T1/ppl/m/n/10.95 Trans-fers to the Ex-tremely Poor''. In \T1/ppl/m/it/10.95 Pr
 o-ceed-ings of the 20th ACM SIGKDD
  []
 
 [16]
-Overfull \hbox (7.86086pt too wide) in paragraph at lines 262--263
+Overfull \hbox (7.86086pt too wide) in paragraph at lines 266--267
 \T1/ppl/m/n/10.95 Us-ing High Res-o-lu-tion Satel-lite Im-agery for Es-ti-mat-i
 ng Eco-nomic Well-
  []
 
 [17]
-Overfull \hbox (4.55351pt too wide) in paragraph at lines 270--271
+Overfull \hbox (4.55351pt too wide) in paragraph at lines 274--275
 \T1/ppl/b/n/10.95 2017. ``Hu-man De-ci-sions and Ma-chine Pre-dic-tions''. NBER
  WP 23180 
  []
 
 
-Overfull \hbox (1.41321pt too wide) in paragraph at lines 273--274
+Overfull \hbox (1.41321pt too wide) in paragraph at lines 277--278
 [][]\T1/ppl/m/n/10.95 K Mu-ralid-ha-ran, Ab-hi-jeet Singh, and Ale-jan-dro Ga-n
 -imian. 2017. ``Dis-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
 [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
  (./GR 6307 - Syllabus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `"GR 6307 - Syllabus".out' has not changed.
 (rerunfilecheck)             Checksum: 6C295DF6F318808169A051D3DE6F7CCC;1331.
 Package logreq Info: Writing requests to '"GR 6307 - Syllabus".run.xml'.
 \openout1 = `"GR 6307 - Syllabus.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
- 12943 strings out of 492649
- 226210 string characters out of 6129623
- 804825 words of memory out of 5000000
- 16403 multiletter control sequences out of 15000+600000
+ 12955 strings out of 492649
+ 226552 string characters out of 6129623
+ 804967 words of memory out of 5000000
+ 16407 multiletter control sequences out of 15000+600000
  44723 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,6n,58p,925b,1295s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -717,10 +729,10 @@ m/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
 local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
 /2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (18 pages, 204634 bytes).
+Output written on "GR 6307 - Syllabus.pdf" (18 pages, 205326 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
- 516 compressed objects within 6 object streams
- 320 named destinations out of 1000 (max. 500000)
+ 561 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
+ 328 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
