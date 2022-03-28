@@ -2062,6 +2062,35 @@
       \field{title}{Learning About the Enforcement of Conditional Welfare Programs: Evidence From Brazil}
       \field{year}{2016}
     \endentry
+    \entry{BrownAndrabi2021}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=068d824b42500f8beae79ca809041b4b}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Christina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f7999cf00d28fde1af3ac9f4c29157c4}{%
+           family={Andrabi},
+           familyi={A\bibinitperiod},
+           given={Tahir},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad300da00d82fc42d2fc7831df2e4c0a}
+      \strng{fullhash}{ad300da00d82fc42d2fc7831df2e4c0a}
+      \strng{bibnamehash}{ad300da00d82fc42d2fc7831df2e4c0a}
+      \strng{authorbibnamehash}{ad300da00d82fc42d2fc7831df2e4c0a}
+      \strng{authornamehash}{ad300da00d82fc42d2fc7831df2e4c0a}
+      \strng{authorfullhash}{ad300da00d82fc42d2fc7831df2e4c0a}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: University of Chicago}
+      \field{title}{Inducing Positive Sorting through Performance Pay: Experimental Evidence from Pakistani Schools}
+      \field{year}{2021}
+    \endentry
     \entry{BryanEtAl2021}{unpublished}{}
       \name{author}{5}{}{%
         {{hash=5ea8fcfa1d487a2989b6248e91615c33}{%
@@ -4164,6 +4193,45 @@
       \field{year}{2012}
       \field{pages}{479\bibrangedash 519}
       \range{pages}{41}
+    \endentry
+    \entry{LeaverEtAl2022}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=740cb7094bc3fc2e4d1618a309382fd0}{%
+           family={Leaver},
+           familyi={L\bibinitperiod},
+           given={Clare},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ac05ac04a19956334e8a75417e0b5d23}{%
+           family={Ozier},
+           familyi={O\bibinitperiod},
+           given={Owen},
+           giveni={O\bibinitperiod}}}%
+        {{hash=ee0761fc541281897372aed09ee091cf}{%
+           family={Serneels},
+           familyi={S\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e21bf368bfc2ac03122525a5659ce692}{%
+           family={Zeitlin},
+           familyi={Z\bibinitperiod},
+           given={Zndrew},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b535a133bc66c21a23aa3fd0031d9fb}
+      \strng{fullhash}{3b535a133bc66c21a23aa3fd0031d9fb}
+      \strng{bibnamehash}{3b535a133bc66c21a23aa3fd0031d9fb}
+      \strng{authorbibnamehash}{3b535a133bc66c21a23aa3fd0031d9fb}
+      \strng{authornamehash}{3b535a133bc66c21a23aa3fd0031d9fb}
+      \strng{authorfullhash}{3b535a133bc66c21a23aa3fd0031d9fb}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Forthcoming, American Economic Review}
+      \field{title}{Recruitment, Effort and Retention Effects of Performance Contracts for Civil Servants: Experimental Evidence from Rwandan Primary Schools}
+      \field{year}{2022}
     \endentry
     \entry{Muralidharanetal2016}{article}{}
       \name{author}{3}{}{%
