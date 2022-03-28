@@ -4211,18 +4211,18 @@
            familyi={S\bibinitperiod},
            given={Pieter},
            giveni={P\bibinitperiod}}}%
-        {{hash=e21bf368bfc2ac03122525a5659ce692}{%
+        {{hash=e9a71fde12941499815875c162415da4}{%
            family={Zeitlin},
            familyi={Z\bibinitperiod},
-           given={Zndrew},
-           giveni={Z\bibinitperiod}}}%
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{3b535a133bc66c21a23aa3fd0031d9fb}
-      \strng{fullhash}{3b535a133bc66c21a23aa3fd0031d9fb}
-      \strng{bibnamehash}{3b535a133bc66c21a23aa3fd0031d9fb}
-      \strng{authorbibnamehash}{3b535a133bc66c21a23aa3fd0031d9fb}
-      \strng{authornamehash}{3b535a133bc66c21a23aa3fd0031d9fb}
-      \strng{authorfullhash}{3b535a133bc66c21a23aa3fd0031d9fb}
+      \strng{namehash}{25c75eff445611e7ddfb8b5b3ae0106c}
+      \strng{fullhash}{25c75eff445611e7ddfb8b5b3ae0106c}
+      \strng{bibnamehash}{25c75eff445611e7ddfb8b5b3ae0106c}
+      \strng{authorbibnamehash}{25c75eff445611e7ddfb8b5b3ae0106c}
+      \strng{authornamehash}{25c75eff445611e7ddfb8b5b3ae0106c}
+      \strng{authorfullhash}{25c75eff445611e7ddfb8b5b3ae0106c}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{extradatescope}{labelyear}
