@@ -12224,7 +12224,7 @@ Cunha et al (2017): Persistence
 \align center
 \begin_inset Graphics
 	filename pictures/Cunha et al 5.png
-	height 100theight%
+	height 95theight%
 
 \end_inset
 
@@ -12298,6 +12298,657 @@ Cunha et al (2017): Effects on Producers
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Balboni, Bandiera, Burgess, Ghatak & Heil (2022) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Why Do People Stay Poor?
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni et al.
+ (2022): Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Questions in development economics don't get much bigger than 
+\begin_inset Quotes eld
+\end_inset
+
+Why do people stay poor?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Most poor individuals are employed but have low earnings.
+ Why?
+\end_layout
+
+\begin_layout Enumerate
+The poor have the same opportunities as everyone else, so it must be that
+ they have traits that are unsuitable for other occupations.
+\end_layout
+
+\begin_layout Enumerate
+The poor do not have the same opportunities.
+ They take low-earning jobs because they are born poor.
+ A 
+\series bold
+Poverty Trap
+\end_layout
+
+\begin_layout Itemize
+Distinguishing between these two hypotheses is 
+\emph on
+hard
+\emph default
+.
+ Both have the same predictions for equilibrium allocation of people across
+ occupations.
+\end_layout
+
+\begin_layout Itemize
+To tell them apart need to observe what happens when you cross the threshold
+ level of affluence to escape poverty trap.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Under view 1 you return to where you started
+\end_layout
+
+\begin_layout Itemize
+Under view 2 you will escape poverty forever
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni et al.
+ (2022): Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Test for poverty traps using BRAC's Targeting the Ultra-Poor (TUP) program
+ in Bangladesh.
+\end_layout
+
+\begin_layout Itemize
+Bandiera et al.
+ (2017) study impacts using data on 23K hhs in 1,309 villages in 13 poorest
+ districts.
+ Of these, 6K hhs are considered 
+\begin_inset Quotes eld
+\end_inset
+
+extremely poor
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Program offers one-off transfer of productive assets (a cow in 91% of cases)
+ and training to use it to women from ultra-poor hhs.
+\end_layout
+
+\begin_layout Itemize
+Baseline survey in 2007, then follow-ups in 2009, 2011, 2014 and 2018 (11
+ years!)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BalboniEtAl01.png
+	lyxscale 60
+	height 95pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Baseline Wealth Distribution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BalboniEtAl02.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Baseline Wealth Distribution After Transfers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BalboniEtAl03.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simple framework to model the dynamics of capital accumulation.
+ Define a transition equation
+\begin_inset Formula 
+\[
+K_{i,t+1}=\Phi_{i}\left(K_{i,t}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ 
+\begin_inset Formula $Y_{i}=A_{iv}f\left(K_{i}\right)$
+\end_inset
+
+ where 
+\begin_inset Formula $A_{iv}$
+\end_inset
+
+ captures productivity traits of individual and village.
+ Then 
+\begin_inset Formula 
+\[
+\Phi_{i}\left(K_{i,t}\right)=s_{i}A_{i,v}f\left(K_{i,t}\right)+\left(1-\delta\right)K_{i,t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Define steady state(s) as fixed point(s) of 
+\begin_inset Formula $\Phi_{i}\left(\cdot\right)$
+\end_inset
+
+: 
+\begin_inset Formula $K_{i}^{*}=\Phi_{i}\left(K_{i}^{*}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BalboniEtAl04.png
+	lyxscale 60
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Are There Poverty Traps? Method
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proceed in 2 steps
+\end_layout
+
+\begin_layout Enumerate
+Is there a globally concave transition equation? Use Komarova & Hidalgo
+ (2019) nonparametric shape test
+\end_layout
+
+\begin_layout Enumerate
+If not, try and find the threshold 
+\begin_inset Formula $\hat{K}$
+\end_inset
+
+ distinguishing the two steady states.
+\end_layout
+
+\begin_layout Itemize
+In practise, do this by estimating transition equation non-parametrically
+ and then finding its intersection with the 45-degree line numerically.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Transition Equation in Treatment Villages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BalboniEtAl05.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Transition Equation in Control Villages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BalboniEtAl06.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Dynamics of Wealth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Numerical approximation suggests threshold 
+\begin_inset Formula $\hat{k}=2.34\;(0.284)$
+\end_inset
+
+ which is 9,379 BDT (US$508)
+\end_layout
+
+\begin_layout Itemize
+Now estimate effect on dynamics of wealth accumulation.
+\end_layout
+
+\begin_layout Itemize
+Define 
+\begin_inset Formula $\Delta k_{i}=k_{i,3}-k_{i,1}$
+\end_inset
+
+=wealth accumulation in 4 years excluding the transfer.
+\begin_inset Formula 
+\[
+\Delta k_{i}=\alpha+\beta_{0}\mathbb{I}\left[k_{i,1}>\hat{k}\right]+\beta_{1}\left(k_{i}-\hat{k}\right)+\beta_{2}\mathbb{I}\left[k_{i,1}>\hat{k}\right]\times\left(k_{i,1}-\hat{k}\right)+\varepsilon_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Wealth Dynamics in the short run
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BalboniEtAl07.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Wealth Dynamics in the longer run
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BalboniEtAl08.png
+	lyxscale 60
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balboni Et Al (2022): Quantifying Misallocation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If there are poverty traps, then how much efficiency is lost due to poverty?
+ i.e.
+ what if there were no capital constraints? Turn to a model
+\end_layout
+
+\begin_layout Itemize
+Individuals allocate time endowment 
+\begin_inset Formula $R$
+\end_inset
+
+ between self-employment in livestock rearin 
+\begin_inset Formula $l$
+\end_inset
+
+ and wage labor 
+\begin_inset Formula $h$
+\end_inset
+
+.
+ They can also hire external labor 
+\begin_inset Formula $h^{\prime}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Production of livestock is 
+\begin_inset Formula $q=AF\left(\bar{k},l+h^{\prime}\right)=f\left(\bar{k}\right)g\left(l+h^{\prime}\right)$
+\end_inset
+
+.
+ Assume capital stock 
+\begin_inset Formula $\bar{k}$
+\end_inset
+
+ is given so people only choose labor
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Section
 Open Questions
 \end_layout
