@@ -1,0 +1,7064 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usepackage{ifthen}
+\usepackage{multirow,bigstrut}
+\usepackage{tikz}
+\usetikzlibrary{patterns,decorations.pathreplacing,shapes,snakes}
+\usetikzlibrary{arrows}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{makecell}
+\usepackage{graphicx}
+\usepackage{animate}
+\usepackage{pifont}
+\usepackage{booktabs}
+\usepackage{relsize}
+%\usepackage{adjustbox}
+%\usepackage{txfonts}
+%\usepackage{handoutWithNotes}
+%\pgfpagesuselayout{3 on 1 with notes}[a4paper,border shrink=5mm]
+
+% FOOTLINE - PAGE NUMBER RIGHT
+\defbeamertemplate*{footline}{guildford foot theme}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.7\paperwidth,ht=1cm,dp=0ex,left]{}%
+    {
+    \insertsectionnavigationhorizontal{.5\paperwidth}{}{}
+    }
+ \end{beamercolorbox}
+ \begin{beamercolorbox}[wd=0.31\paperwidth,ht=1cm,dp=0ex,right]{}%
+{\tiny
+\insertframenumber{} / \inserttotalframenumber\hspace*{5ex}
+}
+ \end{beamercolorbox}}%
+  \vskip5pt%
+}
+
+\beamertemplatenavigationsymbolsempty
+\usefonttheme{professionalfonts}
+\usecolortheme[RGB={0,0,125}]{structure} 
+\setbeamersize{ text margin left=10px}
+%\definecolor{newblue}{rgb}{0,0,0.6}
+%\setbeamercolor{alerted text}{fg=newblue}
+\setbeamertemplate{frametitle}[default][center]
+
+%{\bfseries\insertframetitle\par}
+
+\RequirePackage{ifthen}
+
+\newboolean{sectiontoc}
+\setboolean{sectiontoc}{true} % default to true
+
+\AtBeginSubsection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide] 
+  \end{frame} 
+} 
+}
+
+\AtBeginSection[] 
+{ 
+  \ifthenelse{\boolean{sectiontoc}}{
+  \begin{frame}[plain]
+    \frametitle{Outline} 
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/hide/hide] 
+  \end{frame} 
+} 
+}
+
+\newcommand{\toclesssection}[1]{
+   \setboolean{sectiontoc}{false}
+   \section{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\toclesssubsection}[1]{
+   \setboolean{sectiontoc}{false}
+   \subsection{#1}
+   \setboolean{sectiontoc}{true}
+}
+
+\setbeameroption{hide notes}
+
+\newcommand{\ShortNameSection}[2][]{
+   \setboolean{sectiontoc}{false}
+   \section[#1]{#2}
+   \setboolean{sectiontoc}{true}
+}
+
+\newcommand{\light}[1]{\textcolor{gray}{#1}}
+\end_preamble
+\options notes=show,aspectratio=169
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding T1
+\font_roman "cmr" "default"
+\font_sans "helvet" "default"
+\font_typewriter "cmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{framenumber}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+GR 6307
+\begin_inset Newline newline
+\end_inset
+
+Public Economics and Development
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\;$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+4.
+ The Personnel Economics 
+\begin_inset Newline newline
+\end_inset
+
+of the Developing State:
+\begin_inset Newline newline
+\end_inset
+
+Delivering Services to the Poor
+\end_layout
+
+\begin_layout Author
+Michael Carlos Best
+\end_layout
+
+\begin_layout Date
+Spring 2022
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Theory
+\end_layout
+
+\begin_layout Subsection
+Banerjee, Hanna & Mullainathan (2012) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Corruption
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee 
+\emph on
+et al.
+
+\emph default
+ 2012: Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The government is allocating 
+\begin_inset Quotes eld
+\end_inset
+
+slots
+\begin_inset Quotes erd
+\end_inset
+
+ through a bureaucrat
+\end_layout
+
+\begin_layout Itemize
+Continuum of slots of size 
+\begin_inset Formula $1$
+\end_inset
+
+ to be allocated to population of size 
+\begin_inset Formula $N>1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+2 types of agents, 
+\begin_inset Formula $H$
+\end_inset
+
+ and 
+\begin_inset Formula $L$
+\end_inset
+
+ with masses 
+\begin_inset Formula $N_{H}$
+\end_inset
+
+, 
+\begin_inset Formula $N_{L}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Social value of a slot for type 
+\begin_inset Formula $H$
+\end_inset
+
+ if 
+\begin_inset Formula $H$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+ for type 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $H>L$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+private benefits are 
+\begin_inset Formula $l$
+\end_inset
+
+, and 
+\begin_inset Formula $h$
+\end_inset
+
+, and ability to pay is 
+\begin_inset Formula $y_{h}\leq h$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{l}\leq l$
+\end_inset
+
+ due to credit constraints.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee 
+\emph on
+et al.
+
+\emph default
+ 2012: Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Testing technology.
+ Test for an amount of time 
+\begin_inset Formula $t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+probability type 
+\begin_inset Formula $L$
+\end_inset
+
+ fails (outcome 
+\begin_inset Formula $F$
+\end_inset
+
+) is 
+\begin_inset Formula $\phi_{L}\left(t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\phi_{L}^{\prime}\left(t\right)\geq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Type 
+\begin_inset Formula $H$
+\end_inset
+
+ never fails (always get outcome 
+\begin_inset Formula $S$
+\end_inset
+
+) if she wants to pass.
+\end_layout
+
+\begin_layout Itemize
+Both can opt to deliberately fail
+\end_layout
+
+\begin_layout Itemize
+Cost of testing is 
+\begin_inset Formula $\nu t$
+\end_inset
+
+ to the bureaucrat and 
+\begin_inset Formula $\delta t$
+\end_inset
+
+ to the applicant
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee 
+\emph on
+et al.
+ 
+\emph default
+2012: Possible Mechanisms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bureaucrats announce direct mechanisms that they commit to ex ante.
+\end_layout
+
+\begin_layout Itemize
+A mechanism is a vector 
+\begin_inset Formula $R=\left(t_{x},p_{xr},\pi_{xr}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $t_{x}$
+\end_inset
+
+ amount of testing of each announced type 
+\begin_inset Formula $x=H,L$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\pi_{xr}$
+\end_inset
+
+ is the probability of getting a slot if announce type 
+\begin_inset Formula $x$
+\end_inset
+
+ and get result 
+\begin_inset Formula $r=F,S$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p_{xr}$
+\end_inset
+
+ is the price paid by 
+\begin_inset Formula $xr$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Restrict to winner-pay mechanisms
+\end_layout
+
+\begin_layout Itemize
+2 incentive compatibility constraints:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+High types prefer not to mimic low types:
+\begin_inset Formula 
+\[
+\pi_{HS}\left(h-p_{HS}\right)-\delta t_{H}\geq\pi_{LS}\left(h-p_{LS}\right)-\delta t_{L}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Low types don't mimic high types:
+\begin_inset Formula 
+\begin{align*}
+ & \pi_{LS}\left(l-p_{LS}\right)\left[1-\phi_{L}\left(t_{L}\right)\right]+\pi_{LF}\left(l-p_{LF}\right)\phi_{L}\left(t_{L}\right)-\delta t_{L}\\
+\geq & \pi_{HS}\left(l-p_{HS}\right)\left[1-\phi_{L}\left(t_{H}\right)\right]+\pi_{HF}\left(l-p_{HF}\right)\phi_{L}\left(t_{H}\right)-\delta t_{H}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee 
+\emph on
+et al.
+ 
+\emph default
+2012: Possible Mechanisms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Clients can also walk away 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 2 participation constraints:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+High types don't walk away
+\begin_inset Formula 
+\begin{align*}
+\pi_{HS}\left(h-p_{HS}\right)-\delta t_{H} & \geq0\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Low types don't walk away
+\begin_inset Formula 
+\[
+\pi_{LS}\left(l-p_{LS}\right)\left[1-\phi_{L}\left(t_{L}\right)\right]+\pi_{LF}\left(l-p_{LF}\right)\phi_{L}\left(t_{L}\right)-\delta t_{L}\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+There is only a mass 1 of slots so
+\begin_inset Formula 
+\[
+N_{H}\pi_{HS}+N_{L}\pi_{LS}\left[1-\phi_{L}\left(t_{L}\right)\right]+N_{L}\pi_{LF}\phi_{L}\left(t_{L}\right)\leq1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Finally the clients can't borrow, so they can't pay more than they have
+\begin_inset Formula 
+\begin{align*}
+p_{Hr} & \leq y_{H},\;r=F,S\\
+p_{Lr} & \leq y_{L},\;r=F,S
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Define 
+\begin_inset Formula $\mathbf{R}$
+\end_inset
+
+ as the set of rules 
+\begin_inset Formula $R$
+\end_inset
+
+ that satisfy these constraints
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Rules
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The government sets rules 
+\begin_inset Formula $\mathcal{R}=\left(T_{x},P_{xr,}\Pi_{xr}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $T_{x}$
+\end_inset
+
+ are permitted tests 
+\begin_inset Formula $t_{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{xr}$
+\end_inset
+
+ are permitted prices for each type
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Pi_{xr}$
+\end_inset
+
+ are permitted assignment probabilities 
+\begin_inset Formula $\pi_{xr}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assume that 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+ is feasible: There's at least one 
+\begin_inset Formula $R\in\mathbf{R}$
+\end_inset
+
+ satisfying the rules.
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+ is not a singleton, then the bureaucrat has 
+\emph on
+discretion
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Government also chooses 
+\begin_inset Formula $p$
+\end_inset
+
+ a price the bureaucrat has to pay the government for each slot he gives
+ out.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Bureaucrats
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For each mechanism 
+\begin_inset Formula $R\in\mathbf{R}\cap\mathcal{R}$
+\end_inset
+
+ that follow the rules, the bureaucrat's payoff is
+\begin_inset Formula 
+\begin{align*}
+\underbrace{N_{H}\pi_{HS}\left(p_{HS}-p\right)}_{\text{profits from \ensuremath{H} types}}+\underbrace{N_{L}\pi_{LS}\left(p_{LS}-p\right)\left(1-\phi_{L}\left(t_{L}\right)\right)}_{\text{profits from \ensuremath{L} types who pass}}\\
++\underbrace{N_{L}\pi_{LF}\left(p_{LF}-p\right)\phi_{L}\left(t_{L}\right)}_{\text{profits from \ensuremath{L} types who fail}}-\underbrace{\nu N_{H}t_{H}-\nu N_{L}t_{L}}_{\text{costs of testing}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If the bureaucrat uses a mechanism 
+\begin_inset Formula $R\in\mathbf{R}\cap\mathcal{R}^{c}$
+\end_inset
+
+ that's against the rules, there's an extra cost 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ of breaking the rules.
+\end_layout
+
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ comes from a distribution 
+\begin_inset Formula $G\left(\gamma\right)$
+\end_inset
+
+.
+ As a result, 
+\begin_inset Formula $R\left(\mathcal{R},\gamma\right)$
+\end_inset
+
+ will be the mechanism chosen by a bureaucrat with corruption cost 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ when the rule is 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: The Government
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume the government only cares about social value of slots (Could generalize.
+ How?)
+\end_layout
+
+\begin_layout Itemize
+Government's objective is to choose the rules 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+ to maximize
+\size small
+
+\begin_inset Formula 
+\begin{align*}
+\underbrace{\int N_{H}\pi_{HS}\left(R\left(\mathcal{R},\gamma\right)\right)HdG\left(\gamma\right)}_{\text{(expected) social value of slots to \ensuremath{H}}}\\
++\underbrace{\int N_{L}\pi_{LS}\left(R\left(\mathcal{R},\gamma\right)\right)\left[1-\phi_{L}\left(t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)\right)\right]LdG\left(\gamma\right)}_{\text{social value of slots to \ensuremath{L} who pass test}}\\
++\underbrace{\int N_{L}\pi_{LF}\left(R\left(\mathcal{R},\gamma\right)\right)\phi_{L}\left(t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)\right)LdG\left(\gamma\right)}_{\text{social value of slots to \ensuremath{L} who fail test}}\\
+-\underbrace{\int\left(\nu+\delta\right)N_{H}t_{H}\left(R\left(\mathcal{R},\gamma\right)\right)dG\left(\gamma\right)}_{\text{social cost of testing \ensuremath{H}}}-\underbrace{\int\left(\nu+\delta\right)N_{L}t_{L}\left(R\left(\mathcal{R},\gamma\right)\right)dG\left(\gamma\right)}_{\text{social cost of testing \ensuremath{L}}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: 4 Cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valuation
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agent's Relative Ability to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+of Slot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}\leq y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h>l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case I: Alignment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case III: Inability to Pay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h\leq l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case II: Unwillingness to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case IV: Misalignment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case I: Social and private value rankings align
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Pure market case 
+\begin_inset Formula $H=h=y_{H}$
+\end_inset
+
+, 
+\begin_inset Formula $L=l=y_{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Choosing an efficient contractor: 
+\begin_inset Formula $H$
+\end_inset
+
+ types are more efficient, make more money 
+\begin_inset Formula $h>l$
+\end_inset
+
+.
+ Also probably 
+\begin_inset Formula $y_{H}=h$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{L}=l$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Allocating import licenses: 
+\begin_inset Formula $H$
+\end_inset
+
+ types make most profits.
+ But credit constraints might bind: 
+\begin_inset Formula $y_{H}<h=H$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{L}<l=L$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: 4 Cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valuation
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agent's Relative Ability to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+of Slot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}\leq y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h>l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case I: Alignment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case III: Inability to Pay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h\leq l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case II: Unwillingness to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case IV: Misalignment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case II: Seems pretty unlikely.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A merit good? e.g.
+ subsidized condoms.
+ 
+\begin_inset Formula $H$
+\end_inset
+
+ are high risk types.
+ But they like risk so 
+\begin_inset Formula $h<l$
+\end_inset
+
+.
+ Could also be richer so 
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: 4 Cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valuation
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agent's Relative Ability to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+of Slot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}\leq y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h>l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case I: Alignment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case III: Inability to Pay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h\leq l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case II: Unwillingness to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case IV: Misalignment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case III: Social and pivate values are aligned, but the high value types
+ can't afford it as much as the low value types
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hospital beds.
+ 
+\begin_inset Formula $H$
+\end_inset
+
+ needs bed urgently (e.g.
+ cardiac vs cosmetic surgery).
+ 
+\begin_inset Formula $H=h>L=l$
+\end_inset
+
+.
+ But no reason to assume 
+\begin_inset Formula $H$
+\end_inset
+
+ can afford more.
+ e.g.
+ 
+\begin_inset Formula $y_{H}=y_{L}=y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Targeting subsidized food to the poor.
+ 
+\begin_inset Formula $H=h>L=l$
+\end_inset
+
+ but 
+\begin_inset Formula $y_{H}<y_{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Allocating government jobs.
+ Best candidates also value job the most (possibly because of private benefits!).
+ But constrained in how much they can pay for the job up front.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: 4 Cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valuation
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agent's Relative Ability to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+of Slot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y_{H}\leq y_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h>l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case I: Alignment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case III: Inability to Pay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h\leq l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case II: Unwillingness to Pay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Case IV: Misalignment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Case IV: The government wants to give the slots to those who value it the
+ least
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Law enforcement: Slot is avoiding jail 
+\begin_inset Formula $H>0>L$
+\end_inset
+
+, 
+\begin_inset Formula $y_{H}=y_{L}=y$
+\end_inset
+
+, 
+\begin_inset Formula $h=l>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Driving licenses.
+ Bad drivers more likely to get in trouble, so 
+\begin_inset Formula $H>0>L$
+\end_inset
+
+, 
+\begin_inset Formula $y_{H}=y_{L}=y$
+\end_inset
+
+.
+ 
+\begin_inset Formula $h<l$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Procurement: Imagine there are high and low quality firms.
+ The slot is the contract.
+ Want to buy from high quality firms 
+\begin_inset Formula $\left(H>L\right)$
+\end_inset
+
+ even though costs higher 
+\begin_inset Formula $\left(l>h\right)$
+\end_inset
+
+.
+ Without credit constriants, 
+\begin_inset Formula $y_{H}=h$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{L}=l$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $N_{H}<1$
+\end_inset
+
+ but 
+\begin_inset Formula $L>0$
+\end_inset
+
+ so optimal to give leftover slots to 
+\begin_inset Formula $L$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We will analyze 4 possible mechanisms:
+\end_layout
+
+\begin_layout Enumerate
+The socially optimal mechanism
+\end_layout
+
+\begin_layout Enumerate
+All slots to the highest bidder: The 
+\emph on
+auction
+\emph default
+ mechanism
+\end_layout
+
+\begin_layout Enumerate
+Pay to avoid missing out on a slot: The 
+\emph on
+monopoly
+\emph default
+ mechanism
+\end_layout
+
+\begin_layout Enumerate
+Using testing to deter mimicry: The 
+\emph on
+testing
+\emph default
+ mechanism
+\end_layout
+
+\begin_layout Itemize
+We will characterize each mechanism and show when the bureaucrat will pick
+ each one
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Candidate solution:
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =y_{L}+\epsilon,\:p_{L}=y_{L}\\
+\pi_{H} & =1,\:\pi_{L}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Low types can't mimic (can't afford 
+\begin_inset Formula $p_{H}$
+\end_inset
+
+).
+ High types won't mimic as long as 
+\begin_inset Formula 
+\[
+\underbrace{h-\left(y_{L}+\varepsilon\right)}_{\text{slot for sure at }p_{H}}\geq\underbrace{\frac{1-N_{H}}{N_{L}}\left(h-y_{L}\right)}_{\text{slot w/pr }\left(1-N_{H}\right)/N_{L}\text{ at price }p_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This can always be guaranteed for small enough 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Affordable to 
+\begin_inset Formula $H$
+\end_inset
+
+ since 
+\begin_inset Formula $y_{H}>y_{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Feasible since 
+\begin_inset Formula $\pi_{L}$
+\end_inset
+
+ chosen to satisfy slot constraint
+\end_layout
+
+\begin_layout Itemize
+Let 
+\begin_inset Formula $E$
+\end_inset
+
+ be set of 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+s such that this mechanism is in 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Will the bureaucrat choose 
+\begin_inset Formula $\epsilon\in E$
+\end_inset
+
+? Given the fixed cost of breaking the rules, if he breaks them, he'll maximize
+ his profits.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How can the bureaucrat extract more rents? Given 
+\begin_inset Formula $\pi_{L}$
+\end_inset
+
+ the highest price he can charge 
+\begin_inset Formula $H$
+\end_inset
+
+s is
+\begin_inset Formula 
+\[
+p_{H}=p_{H}^{*}=\min\left\{ y_{H},y_{L}+\left(h-y_{L}\right)\frac{N-1}{N_{L}}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Auction mechanism
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =p_{H}^{*},\:p_{L}=y_{L}\\
+\pi_{H} & =1,\:\pi_{L}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The auction mechanism still leave 
+\begin_inset Formula $H$
+\end_inset
+
+s positive surplus: 
+\begin_inset Formula $p_{H}^{*}<y_{H}$
+\end_inset
+
+.
+ Can the bureaucrat extract more?
+\end_layout
+
+\begin_layout Itemize
+He needs to satisfy the mimicry constraint.
+ So he can play with 
+\begin_inset Formula $\pi_{L}$
+\end_inset
+
+ to do this and maybe get more money.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ the Monopoly mechanism.
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =\tilde{p}_{H}\leq y_{H},\:p_{L}=y_{L}\\
+\pi_{H} & =1,\:\pi_{L}=\min\left\{ \frac{h-\tilde{p}_{H}}{h-y_{L}},\frac{1-N_{H}}{1-N_{L}}\right\} \\
+t_{H} & =t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note, this mechanism is inefficient whenever 
+\begin_inset Formula $\pi_{L}<\left(1-N_{H}\right)/\left(1-N_{L}\right)$
+\end_inset
+
+.
+ Slots are wasted
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Will the bureaucrat prefer the auction or monopoly mechanism?
+\end_layout
+
+\begin_layout Itemize
+The profits to the bureaucrat from the monopoly mechanism are
+\begin_inset Formula 
+\[
+N_{H}\left(\tilde{p}_{H}-p\right)+N_{L}\frac{h-\tilde{p}_{H}}{h-y_{L}}\left(y_{L}-p\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note that at 
+\begin_inset Formula $\tilde{p}=y_{L}+\left(h-y_{L}\right)\left(N-1\right)/N_{L}$
+\end_inset
+
+ he gets the auction mechanism profit
+\end_layout
+
+\begin_layout Itemize
+Profits are increasing in 
+\begin_inset Formula $\tilde{p}_{H}$
+\end_inset
+
+ iff
+\begin_inset Formula 
+\[
+N_{H}>N_{L}\frac{y_{L}-p}{h-y_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If this condition holds, the monopoly mechanism with 
+\begin_inset Formula $\tilde{p}_{H}=y_{H}$
+\end_inset
+
+ dominates.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Finally, consider the testing mechanism:
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =\min\left\{ y_{H},h-\left(h-l\right)\frac{1-N_{H}}{N_{L}}\right\} ,\:p_{LS}=p_{LF}=y_{L}\\
+\pi_{H} & =1,\:\pi_{LS}=\pi_{LF}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =0,\:t_{L}=\max\left\{ 0,\frac{1}{\delta}\min\left\{ \left(h-y_{L}\right)\frac{1-N_{H}}{N_{L}}-\left(h-y_{H}\right),\right.\right.\\
+ & \qquad\qquad\qquad\qquad\qquad\qquad\left.\left.\left(l-y_{L}\right)\frac{1-N_{H}}{N_{L}}\right\} \right\} 
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Aim: Use testing to relax the IC constraint that 
+\begin_inset Formula $H$
+\end_inset
+
+s don't mimic 
+\begin_inset Formula $L$
+\end_inset
+
+s
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note testing here is completely wasteful: Nothing depends on the outcome.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $H$
+\end_inset
+
+ types more likely to pass, so don't want to reward passing (trying to discourag
+e pretending to be 
+\begin_inset Formula $L$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $H$
+\end_inset
+
+ types can fail on purpose, so don't want to reward failing
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Testing relaxes the IC constraint though:
+\begin_inset Formula 
+\[
+h-p_{H}\geq\left(h-y_{L}\right)\frac{1-N_{H}}{N_{L}}-\delta t_{L}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+RHS decreasing in 
+\begin_inset Formula $t_{L}$
+\end_inset
+
+ so can increase 
+\begin_inset Formula $p_{H}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Can't go past 
+\begin_inset Formula $y_{H}$
+\end_inset
+
+ so 
+\begin_inset Formula 
+\[
+\delta t_{L}\leq h-y_{H}-\left(h-y_{L}\right)\frac{1-N_{H}}{N_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Also can't scare away all the 
+\begin_inset Formula $L$
+\end_inset
+
+s
+\begin_inset Formula 
+\[
+\delta t_{L}\leq\left(l-y_{L}\right)\frac{1-N_{H}}{N_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This doesn't exhaust all possible mechanisms, but they're useful archetypes.
+ So which one will the bureaucrat choose?
+\end_layout
+
+\begin_layout Itemize
+Scenario 1: Suppose that 
+\begin_inset Formula $\left(h-y_{L}\right)\frac{N-1}{N_{L}}+y_{L}\geq y_{H}$
+\end_inset
+
+.
+ Now the auction mechanism extracts the most rents.
+ The government gives the bureaucrat full discretion and sets 
+\begin_inset Formula $p$
+\end_inset
+
+ to divide the surplus between them.
+\end_layout
+
+\begin_layout Itemize
+Scenario 2: 
+\begin_inset Formula $\left(h-y_{L}\right)\frac{N-1}{N_{L}}+y_{L}<y_{H}$
+\end_inset
+
+ but testing is a) easy: 
+\begin_inset Formula $\nu=0$
+\end_inset
+
+, and b) effective, 
+\begin_inset Formula $y_{H}\leq h-\left(h-l\right)\frac{1-N_{H}}{N_{L}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government can set a rule that price must be below 
+\begin_inset Formula $\left(h-y_{L}\right)\frac{N-1}{N_{L}}+y_{L}$
+\end_inset
+
+ and there cannot be any testing.
+ Bureaucrats with high 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ will follow this rule and choose the auction mechanism.
+ Those with low 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ will break it and choose either the testing or monopoly mechanism.
+ In equilibrium there are both bribes and inefficiency.
+\end_layout
+
+\begin_layout Itemize
+Note that therefore the optimal rules depend on the degree of corruptibility
+ of the bureaucrats.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Alignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scenario 3: 
+\begin_inset Formula $\left(h-y_{L}\right)\frac{N-1}{N_{L}}+y_{L}<y_{H}$
+\end_inset
+
+ but testing is hard: 
+\begin_inset Formula $\nu\gg0$
+\end_inset
+
+ so bureaucrats don't use red tape.
+\end_layout
+
+\begin_layout Itemize
+Without rules the bureaucrats choose either auction or monopoly mechanism.
+\end_layout
+
+\begin_layout Itemize
+They choose the monopoly mechanism (which the govt dislikes) if
+\begin_inset Formula 
+\[
+N_{H}>N_{L}\frac{y_{L}-p}{h-y_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government can set low 
+\begin_inset Formula $p$
+\end_inset
+
+ to avoid monopoly mechanism
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Government may prefer to cap the price again.
+ There will be bribery, and also inefficiency amongst those choosing the
+ monopoly mechanism.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Inability to Pay
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Focus on Banerjee (1997) special case: 
+\begin_inset Formula $L>0$
+\end_inset
+
+, 
+\begin_inset Formula $N_{H}<1$
+\end_inset
+
+, 
+\begin_inset Formula $h>l$
+\end_inset
+
+, 
+\begin_inset Formula $y_{H}=y_{L}=y<l$
+\end_inset
+
+, 
+\begin_inset Formula $\phi_{L}\left(t\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Three mechanisms:
+\end_layout
+
+\begin_layout Enumerate
+Auction mechanism:
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =y,\;p_{L}=l-\frac{N_{L}}{1-N_{H}}\left(l-y\right)\\
+\pi_{H} & =1,\:\pi_{L}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $H$
+\end_inset
+
+ types prefer paying the higher price and getting the slot for sure.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Inability to Pay
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+Testing mechanism:
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =y,\:p_{L}=y\\
+\pi_{H} & =1,\:\pi_{L}=\frac{1-N_{H}}{N_{L}}\\
+t_{H} & =\frac{N_{H}+N_{L}-1}{N_{L}}\left(l-y\right),\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Satisfy the IC constraint by making 
+\begin_inset Formula $H$
+\end_inset
+
+ types do the test, even though they're guaranteed to pass.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Lottery mechanism: 
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =y,\:p_{L}=y\\
+\pi_{H} & =\pi_{L}=\frac{1}{N_{H}+H_{L}}\\
+t_{H} & =0,\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Inability to Pay
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scenario: 
+\begin_inset Formula $\nu=0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+With no rules, the bureaucrat prefers the lottery 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ inefficient allocation of slots
+\end_layout
+
+\begin_layout Itemize
+Suppose rule is set to require 
+\begin_inset Formula $\pi_{H}=1$
+\end_inset
+
+, 
+\begin_inset Formula $\pi_{L}=\left(1-N_{H}\right)/N_{L}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Now bureaucrat uses the testing mechanism.
+ Yields same payoff as lottery.
+\end_layout
+
+\begin_layout Itemize
+To stop this the government can set rule that the auction mechanism must
+ be followed.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bureaucrats with high 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ will follow the rule.
+ Bureaucrats with low 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ will use the testing mechanism.
+ 
+\end_layout
+
+\begin_layout Itemize
+Bribery and red tape.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Alternatively the government could have the rule be the lottery.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No corruption and no red tape.
+ But misallocation
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Misalignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Focus on the following case:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $N_{H}>1$
+\end_inset
+
+: Slots are scarce.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $y_{L}=l>h=y_{H}$
+\end_inset
+
+: social and private values are misaligned
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L<0$
+\end_inset
+
+: Low types should not have a slot.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consider three types of mechanisms the bureaucrat might use
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Misalignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+testing + auction
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p_{HS} & =p_{H}^{*},\:p_{HF}=p_{L}=l\\
+\pi_{HS} & =1/N_{H},\:\pi_{HF}=\pi_{L}=0\\
+t_{H} & =t_{H}^{*},\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $t_{H}^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{H}^{*}$
+\end_inset
+
+ solve
+\begin_inset Formula 
+\begin{align*}
+h-\delta t_{H}^{*}-p_{H}^{*} & =0\\
+\left(1-\phi_{L}\left(t_{H}\right)\right)\left(l-p_{H}^{*}\right)-\delta t_{H}^{*} & =0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note the IC constraint for the 
+\begin_inset Formula $L$
+\end_inset
+
+ types: 
+\begin_inset Formula 
+\[
+\left(1-\phi_{L}\left(t_{H}\right)\right)\left(l-p_{H}^{*}\right)-\delta t_{H}^{*}\leq0
+\]
+
+\end_inset
+
+they have to prefer not getting the slot to pretending to be 
+\begin_inset Formula $H$
+\end_inset
+
+ and getting it with some probability
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Misalignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+auction
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =p_{L}=l\\
+\pi_{H} & =0,\:\pi_{L}=1/N_{L}\\
+t_{H} & =0,\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+Noone is tested, but the allocation is terrible: Only 
+\begin_inset Formula $L$
+\end_inset
+
+s get slots
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+lottery
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p_{H} & =p_{L}=h\\
+\pi_{H} & =\pi_{L}=1/\left(N_{L}+N_{H}\right)\\
+t_{H} & =0,\:t_{L}=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Banerjee et al.
+ 2012: Misalignment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What should the government do?
+\end_layout
+
+\begin_layout Itemize
+With no rules the bureaucrats choose the auction mechanism.
+ Terrible!
+\end_layout
+
+\begin_layout Itemize
+Government could set rules to be the testing + auction mechanism.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bureaucrats with low 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ break rules and use the auction mechanism.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Government could set rules to be the lottery
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bureaucrats make more money 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ smaller incentive to deviate
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ fewer bureaucrats give all slots to 
+\begin_inset Formula $L$
+\end_inset
+
+s
+\end_layout
+
+\begin_layout Itemize
+But some slots go to 
+\begin_inset Formula $L$
+\end_inset
+
+ types even when rules are followed.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Financial Incentives
+\end_layout
+
+\end_inset
+
+Financial Incentives
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Non-financial Incentives
+\end_layout
+
+\end_inset
+
+Non-financial Incentives
+\end_layout
+
+\begin_layout Subsection
+Ashraf Bandiera & Jack (JPubE 2014) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+No Margin, No Mission? A Field Experiment on Incentives for Public Service
+ Delivery
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Evidence on performance pay for pro-social tasks is mixed (teachers papers)
+\end_layout
+
+\begin_layout Itemize
+Theory says that intrinsic motivation will interact with extrinsic incentives
+ (Benabou & Tirole, Besley & Ghatak)
+\end_layout
+
+\begin_layout Itemize
+Design an experiment to compare effects of intrinsic and extrinsic motivation
+ and their interaction.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work with Society for Family Health (SFH), a public health NGO working in
+ Lusaka, Zambia
+\end_layout
+
+\begin_layout Itemize
+SFH program to distribute female condoms through hair salons.
+ Study ran 12/09-12/10
+\end_layout
+
+\begin_layout Itemize
+Hair salons:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+familiarity between stylists and clients permits targeting and, duting styling,
+ a captive audience to explain benefits to.
+\end_layout
+
+\begin_layout Itemize
+Many many salons throughout salons: census found 2500 for a population of
+ 
+\begin_inset Formula $\sim$
+\end_inset
+
+2 million people in Lusaka
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Agents have to exert effort to diffuse information
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+about HIV
+\end_layout
+
+\begin_layout Itemize
+about the product, which is unfamiliar to many
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Rrecruitment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+SFH attempts to invite 1,222 stylists to a 1-day training program
+\end_layout
+
+\begin_layout Enumerate
+981 can be reached and get the letter
+\end_layout
+
+\begin_layout Enumerate
+771 accept and do the training
+\end_layout
+
+\begin_layout Enumerate
+747 join up.
+ They get 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+12 packs at a subsidized price of 2,000 ZMK (US$.033 per pack)
+\end_layout
+
+\begin_layout Enumerate
+a range of promotional materials
+\end_layout
+
+\begin_layout Enumerate
+access to more packs at 500 ZMK per pack
+\end_layout
+
+\begin_layout Enumerate
+Retail price set at 500 ZMK per pack, same as male condoms
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ashrafetal2014_1.png
+	width 105text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Treatments
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+4 treatment groups
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Control
+\emph default
+ group recruited as volunteers.
+ No incentives
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Large financial-margin 
+\emph default
+treatment receive 450 ZMK for each pack sold, a 90% margin over retail
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Small financial-margin
+\emph default
+ treatment get 50 ZMK for each pack sold, a 10% margin.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Non-financial reward (star) 
+\emph default
+treatment.
+ Get a thermometer display and each sale is rewarded with a star stamped
+ on the thermometer.
+ Stylists told if they sell >216 packs they will get a certificate at a
+ ceremony
+\end_layout
+
+\begin_layout Itemize
+Rewards paid only on restocks, not the original 12 packs.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Randomization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Treatment is at the neighborhood level.
+ All salons in each neighborhood in the same treatment arm
+\end_layout
+
+\begin_layout Itemize
+Census of hair salons with GPS coordinates and characteristics
+\end_layout
+
+\begin_layout Itemize
+Make a grid: 650m x 650m cells with 75m buffers on all sides.
+ 
+\end_layout
+
+\begin_layout Itemize
+grid cells are the unit of randomization
+\end_layout
+
+\begin_layout Itemize
+salons in the buffer zones not invited to join
+\end_layout
+
+\begin_layout Itemize
+Final sample: 205 cells with 1222 hair salons in them
+\end_layout
+
+\begin_layout Itemize
+Balance randomization on variables likely to affect sales (type, size, location)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+do 1,000 random draws
+\end_layout
+
+\begin_layout Itemize
+for each draw calculate the t-stats on all the differences in the attributes.
+\end_layout
+
+\begin_layout Itemize
+the maximum t-stat is this draw's score
+\end_layout
+
+\begin_layout Itemize
+choose the draw with the lowest score: 
+\begin_inset Quotes eld
+\end_inset
+
+minmax t-stat method
+\begin_inset Quotes erd
+\end_inset
+
+ (see Bruhn & McKenzie 2009 for discussion of this and other balancing methods)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ashrafetal2014_2.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To evaluate impact on sales, estimate
+\begin_inset Formula 
+\[
+y_{ic}=\alpha+\sum_{j=1}^{3}\delta_{0j}\text{treat}_{c}^{j}+\mathbf{X}_{i}\eta_{i}+u_{ic}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Not everyone who was invited got the letter, and not everyone who got the
+ letter came to the training.
+ To look for selection, estimate same equation with participation on lhs.
+ No effects of the treatments.
+\end_layout
+
+\begin_layout Itemize
+The buffer zones are there to deal with spillovers.
+ But
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+People move around.
+ Stylists only kept their treatment status if moved within a neighborhood,
+ or to another neighborhood with the same treatment status
+\end_layout
+
+\begin_layout Enumerate
+People talk.
+ Gathered data on relationships with other stylists.
+ Median only has 1.
+ during first 4 months, 60-80% of stylists make one new connection to a
+ stylist, but none after 4 months.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ashrafetal2014_3.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ashrafetal2014_4.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ashrafetal2014_5.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Effort
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ashrafetal2014_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Expect different effects according to how pro-socially motivated people
+ are.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Play dictator game: At signup agents told that on-top of 40,000 ZMK show-up
+ fee, they'll get 12,500 ZMK to donate to a well known HIV/AIDS charity
+ or keep.
+ Amount donated measures prosociality.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We also expect different effects for high/low socio-economic status (utility
+ is concave).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+measure with education level and English speaking ability (19% classified
+ as low status)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Allow treatment effects to be heterogeneous by motivation.
+\begin_inset Formula 
+\[
+y_{ic}=\alpha+\mathbf{X}_{i}\beta+\gamma\sigma_{i}+\sum_{j=1}^{3}\delta_{0j}\text{treat}_{c}^{j}\left(1-\sigma_{i}\right)+\sum_{j=1}^{3}\delta_{1j}\text{treat}_{c}^{j}\sigma_{i}+u_{ic}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\sigma_{i}=1$
+\end_inset
+
+ if the agent's donation in the dictator game is above the median; or 
+\begin_inset Formula $\sigma_{i}=1$
+\end_inset
+
+ if low socio-economic status
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ashrafetal2014_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2014: Signaling
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The signaling value of the stars might be higher when there are more peers
+ in the neighborhood to see them
+\end_layout
+
+\begin_layout Itemize
+Experiment is balanced on number of salons, so exploit random variation
+ in the number of peers.
+\begin_inset Formula 
+\[
+y_{ic}=\alpha+\mathbf{X}_{i}\beta+\gamma N_{c}+\sum_{j=1}^{3}\delta_{0j}\text{treat}_{c}^{j}+\sum_{j=1}^{3}\delta_{1j}\text{treat}_{c}^{j}\times N_{c}+u_{ic}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Ashrafetal2014_8.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Recruitment & Selection
+\end_layout
+
+\end_inset
+
+Recruitment & Selection
+\end_layout
+
+\begin_layout Subsection
+Dal Bó, Finan & Rossi (QJE 2013) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Strengthening State Capabilities: The Role of Financial Incentives in the
+ Call to Public Service
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+States need good people in order to function well.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Good
+\begin_inset Quotes erd
+\end_inset
+
+ bureaucrats has many dimensions, how do pecuniary and non-pecuniary incentives
+ of government jobs attract more or less of these dimensions?
+\end_layout
+
+\begin_layout Itemize
+Run an experiment inside Mexico's Regional Development Program to ask
+\end_layout
+
+\begin_layout Enumerate
+Do higher wages attract higher quality applicants?
+\end_layout
+
+\begin_layout Enumerate
+Do higher wages allow the government to hire more people?
+\end_layout
+
+\begin_layout Enumerate
+How do job location disadvantages affect recruitment?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2011: Regional Development Program (RDP) launched to increase state presence
+\end_layout
+
+\begin_layout Itemize
+Create network of 350 community development agents & 50 coordinators to
+ identify needs in the community and report to federal government to get
+ resources to meet demands.
+\end_layout
+
+\begin_layout Itemize
+Program implemented in 10 regions, 167 municipalities, 000s of localities.
+\end_layout
+
+\begin_layout Itemize
+Each community development position is assigned to a particular municipality,
+ selected on an index of socioeconomic characteristics.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Employer faces a residual labor supply of large number of workers.
+\end_layout
+
+\begin_layout Itemize
+2 periods, no discounting.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Worker decides whether to incur cost 
+\begin_inset Formula $c>0$
+\end_inset
+
+ of attending interview for job with posted wage 
+\begin_inset Formula $w$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If worker interviewed, receives offer w/pr 
+\begin_inset Formula $\rho\in(0,1]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Individuals differ in 2 ways:
+\end_layout
+
+\begin_layout Enumerate
+Market quality 
+\begin_inset Formula $v\in[0,\infty)$
+\end_inset
+
+ with distribution 
+\begin_inset Formula $F\left(v\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Public Sector Motivation (PSM) 
+\begin_inset Formula $\pi\in[0,\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Utility from getting the job is 
+\begin_inset Formula $w+\pi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In period 2, accept if better than market opportunity with value 
+\begin_inset Formula $v+\varepsilon$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Shock 
+\begin_inset Formula $\varepsilon\sim G\left(\varepsilon\right)$
+\end_inset
+
+ realized before getting the offer
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Solve the model backwards: Workers will accept if 
+\begin_inset Formula $v+\varepsilon\leq w+\pi$
+\end_inset
+
+.
+ This happens w/pr 
+\begin_inset Formula $G\left(w+\pi-v\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Action in the entry decision will be driven by relationship between 
+\begin_inset Formula $\pi$
+\end_inset
+
+ and 
+\begin_inset Formula $v$
+\end_inset
+
+.
+ 2 cases:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\pi$
+\end_inset
+
+ and 
+\begin_inset Formula $v$
+\end_inset
+
+ independent
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $v=m\left(\pi\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is fixed (at 1).
+ In particular, doesn't depend on type of the worker.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Effects on Applicant Pool
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\shape smallcaps
+proposition 1
+\shape default
+:
+\end_layout
+
+\begin_layout Enumerate
+Given the assumptions of our model, an increase in wages increases the size
+ and average quality of the applicant pool.
+\end_layout
+
+\begin_layout Enumerate
+In the case where PSM and quality are independent in the population, an
+ increase in wages decreases the average PSM of the applicant pool.
+\end_layout
+
+\begin_layout Enumerate
+In the case where PSM and quality are positively correlated according to
+ the function 
+\begin_inset Formula $m\left(\pi\right)$
+\end_inset
+
+, an increase in wages increases the average PSM of the applicant pool.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Effects on Recruitment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simplify: 
+\begin_inset Formula $\pi=0$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\Rightarrow\exists\bar{v}$
+\end_inset
+
+ type and all 
+\begin_inset Formula $v\leq\bar{v}$
+\end_inset
+
+ attend the interview, 
+\begin_inset Formula $v>\bar{v}$
+\end_inset
+
+ do not.
+ 
+\begin_inset Formula $\partial\bar{v}/\partial w>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Overall labor supplys at wage 
+\begin_inset Formula $w$
+\end_inset
+
+ is
+\begin_inset Formula 
+\[
+S=\int_{0}^{\bar{v}}G\left(w-v\right)f\left(v\right)dv=\underbrace{F\left(\bar{v}\right)}_{\text{applicant pool}}\underbrace{\int_{0}^{\bar{v}}G\left(w-v\right)\frac{f\left(v\right)}{F\left(\bar{v}\right)}dv}_{\gamma:\text{ conversion rate}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+proposition 2
+\shape default
+:
+\end_layout
+
+\begin_layout Enumerate
+The measure of recruited candidates in our model, and the labor supplied
+ to the firm in equilibrium, can be written as the product 
+\begin_inset Formula $F\left(\bar{v}\right)\gamma\left(w,\bar{v}\right)$
+\end_inset
+
+ of the applicant pool size and the conversion rate.
+ Thus, the elasticity of labor supply facing the employer is 
+\begin_inset Formula $\eta=\frac{dS}{sw}\frac{w}{S}=\frac{dF}{dw}\frac{w}{F}+\frac{d\gamma}{dw}\frac{w}{\gamma}\equiv\xi_{F\left(\bar{v}\right)}+\xi_{\gamma\left(w,\bar{v}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Under the assumptions of the model, the elasticity of the applicant pool
+ size is positive 
+\begin_inset Formula $\left(\xi_{F\left(\bar{v}\right)}>0\right)$
+\end_inset
+
+ while the sign of the elasticity of the conversion rate 
+\begin_inset Formula $\xi_{\gamma\left(w,\bar{v}\right)}$
+\end_inset
+
+ is ambiguous
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recruitment happened June - August 2011.
+\end_layout
+
+\begin_layout Itemize
+recruitment sites: 113 schools in 106 localities in 10 target regions received
+ job postings.
+\end_layout
+
+\begin_layout Itemize
+Job ad provided general description of the job, and a toll-free number and
+ email address.
+\end_layout
+
+\begin_layout Itemize
+Respondents gave contact info and basic educ and employment history.
+ Then, based on where they saw the ad, told the salary and a date/place
+ for the interview.
+\end_layout
+
+\begin_layout Itemize
+1,920 individuals registered.
+ 1,665 by phone, 208 by email, 47 did both.
+\end_layout
+
+\begin_layout Itemize
+Experiment 1: Salaries randomly allocated across recruitment sites.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+65 localities posted 5,000 pesos/month (
+\begin_inset Formula $\sim$
+\end_inset
+
+US$500)
+\end_layout
+
+\begin_layout Itemize
+41 localities posted 3,750 pesos
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Estimate effect on individual 
+\begin_inset Formula $i$
+\end_inset
+
+ applying in locality 
+\begin_inset Formula $c$
+\end_inset
+
+ in region 
+\begin_inset Formula $r$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+Y_{icr}=\beta_{1}T_{c}+\zeta_{r}+\epsilon_{icr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_1.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+During the interview, applicants did a 3-hour exam measuring personal characteri
+stics (more below).
+\end_layout
+
+\begin_layout Itemize
+Raven matrices used to measure IQ
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_2.png
+	width 42text%
+
+\end_inset
+
+
+\begin_inset Formula $\quad\ldots\quad$
+\end_inset
+
+
+\begin_inset Graphics
+	filename DalBoetal_3.png
+	width 42text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scores below 7 deemed ineligible for job.
+\end_layout
+
+\begin_layout Itemize
+4 strata: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+high wage & high IQ (score above 9)
+\end_layout
+
+\begin_layout Enumerate
+high wage & normal IQ (score 7-9)
+\end_layout
+
+\begin_layout Enumerate
+low wage & high IQ
+\end_layout
+
+\begin_layout Enumerate
+low wage & normal IQ
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The 350 vacancies randomied to one of these strata and then offers made
+ randomly to applicants in that stratum (sometimes conditioning on knowing
+ the local indigenous language as well)
+\end_layout
+
+\begin_layout Itemize
+Analyze acceptance 
+\begin_inset Formula $A_{ics}$
+\end_inset
+
+ by individual 
+\begin_inset Formula $i$
+\end_inset
+
+ in locality 
+\begin_inset Formula $c$
+\end_inset
+
+ and stratum 
+\begin_inset Formula $s$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+A_{ics}=\gamma_{1}T_{c}+X_{i}^{\prime}\beta+\zeta_{s}+\epsilon_{ics}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+and effect of municipality characteristics (since individuals randomly assigned
+ to municipalities)
+\begin_inset Formula 
+\[
+A_{ics}=\gamma_{1}T_{c}+\gamma_{2}\left(T_{c}\times W_{m}\right)+\gamma_{3}W_{m}+X_{i}^{\prime}\beta+\zeta_{s}+\epsilon_{icms}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dal Bó et al 2013: Personality data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Aptitude data
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Outside wages: current/previous earnings.
+\end_layout
+
+\begin_layout Itemize
+Ravens matrices (above)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Big 5
+\begin_inset Quotes erd
+\end_inset
+
+ personality traits: openness to experience, conscientiousness, extraversion,
+ agreeableness, neuroticism.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Public Service Motivation (PSM)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Perry 1996 scale to elicit opinions of attractiveness of politics, public
+ service, and prosocial activities.
+\end_layout
+
+\begin_layout Enumerate
+6 modules: Attraction to Policy Making, Commitment to Policy Making, Social
+ Justice, Civic Duty, Compassion, Self-Sacrifice
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_12.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_13.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_14.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename DalBoetal_15.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Ashraf, Bandiera & Lee (2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Losing Prosociality in the Quest for Talent? Sorting, Selection, and Productivit
+y in the Delivery of Public Services
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Over the course of the economic development of a nation, informal service
+ providers are replaced with qualified, career professionals.
+\end_layout
+
+\begin_layout Itemize
+Create and foster an identity based on a career as a civil servant.
+ 
+\end_layout
+
+\begin_layout Itemize
+But does this displace providers whose identity is based on altruism towards
+ beneficiaries?
+\end_layout
+
+\begin_layout Itemize
+If so, how does this affect the quality of service delivery and the welfare
+ of citizens?
+\end_layout
+
+\begin_layout Itemize
+This paper: an experiment with the government of Zambia reruiting nurses
+ to test these questions.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Context: Delivery of health services in remote rural areas of Zambia
+\end_layout
+
+\begin_layout Itemize
+Trained staff reluctant to be posted in remote areas so turnover is high
+\end_layout
+
+\begin_layout Itemize
+Government created Community Health Assistant (CHA) post.
+ Effectively formalizing informal community health workers.
+\end_layout
+
+\begin_layout Itemize
+CHAs' main task is to visit households and refer them to health facilities
+\end_layout
+
+\begin_layout Itemize
+CHAs join the civil service and can advance to higher-ranked and better
+ paid (nurses paid about double for e.g.) cadres
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hard to separate selection effect (who becomes a CHA) from the incentive
+ effect (promotion incentives to perform well)
+\end_layout
+
+\begin_layout Itemize
+Design an experiment to separate the two things
+\end_layout
+
+\begin_layout Enumerate
+Selection: Use recruitment posters posted in public spaces.
+ Randomly vary content of poster:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Some posters emphasize career benefits of the job
+\end_layout
+
+\begin_layout Enumerate
+Othes emphasize community service
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Shut down incentives: All successful applicants offered the same career
+ opportunities on the job.
+ All train together, all get the same information.
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ any performance differences are only due to how they were selected.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Applicants choose between CHA and their outside option.
+\end_layout
+
+\begin_layout Itemize
+Material benefits of being a CHA are 
+\begin_inset Formula $M$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Individuals differ in ability 
+\begin_inset Formula $a$
+\end_inset
+
+ and social preferences towards the community 
+\begin_inset Formula $s\in\left[0,1\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If work as CHA, produce health 
+\begin_inset Formula $H\left(a\right)$
+\end_inset
+
+ valued at 
+\begin_inset Formula $sH\left(a\right)\Rightarrow U\left(s_{i}H\left(a_{i}\right),M\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Applying requires paying cost 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ Probability of getting job is 
+\begin_inset Formula $p\left(a\right)$
+\end_inset
+
+ (concave).
+\end_layout
+
+\begin_layout Itemize
+Outisde option is 
+\begin_inset Formula $V\left(a\right)$
+\end_inset
+
+ where 
+\begin_inset Formula $V_{a}>U_{a}>0\;\forall a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Apply iff
+\begin_inset Formula 
+\[
+E\left(a,s\right)=p\left(a\right)U\left(a,s\right)-c>V\left(a\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume that 
+\begin_inset Formula $E\left(0\right)<V\left(0\right)$
+\end_inset
+
+.
+ Then there's a threshold 
+\begin_inset Formula $\underline{a}$
+\end_inset
+
+ such that 
+\begin_inset Formula $a_{i}<\underline{a}$
+\end_inset
+
+ don't apply.
+ If curvatures of 
+\begin_inset Formula $U$
+\end_inset
+
+ and 
+\begin_inset Formula $V$
+\end_inset
+
+ suitable, then there's another threshold where 
+\begin_inset Formula $E\left(\bar{a}\right)=V\left(\bar{a}\right)$
+\end_inset
+
+ and only 
+\begin_inset Formula $\underline{a}<a_{i}<\bar{a}$
+\end_inset
+
+ apply.
+ Focus on this case.
+\end_layout
+
+\begin_layout Itemize
+What happens when we increase 
+\begin_inset Formula $M$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Higher ability people apply now
+\end_layout
+
+\begin_layout Enumerate
+Low ability applicants might be discouraged since less likely to get the
+ job: 
+\begin_inset Formula $\partial^{2}p/\partial a\partial M>0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\shape smallcaps
+result 1
+\shape default
+: 
+\emph on
+Increasing material benefits 
+\begin_inset Formula $M$
+\end_inset
+
+ will attract higher ability applicants who would not apply othersiwe 
+\begin_inset Formula $\left(\partial\bar{a}/\partial M>0\right)$
+\end_inset
+
+ and either (i) lower the ability of the lowest ranked applicant 
+\begin_inset Formula $\left(\partial\underline{a}/\partial M<0\right)$
+\end_inset
+
+ and increase the total number of applicants, or (ii) discourage low ability
+ applicants 
+\begin_inset Formula $\left(\partial\underline{a}/\partial M>0\right)$
+\end_inset
+
+ and have an ambiguous impact on the total number of applicants.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Since 
+\begin_inset Formula $V_{a}>U_{a}$
+\end_inset
+
+ the threshold 
+\begin_inset Formula $\bar{a}\left(s_{i}\right)$
+\end_inset
+
+ will be increasing in 
+\begin_inset Formula $s$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Similarly 
+\begin_inset Formula $\underline{a}\left(s_{i}\right)$
+\end_inset
+
+ is decreasing in 
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Talent and pro-sociality are positively correlated for highest ability applicant
+s, and negatively correlated for lowst ability applicants, even when they're
+ not correlated in the population.
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+result 2
+\shape default
+: 
+\emph on
+Under any 
+\begin_inset Formula $M$
+\end_inset
+
+, the most able applicant is also the most prosocial.
+ An increase in 
+\begin_inset Formula $M$
+\end_inset
+
+ leaves the prosociality of the marginal applicant unchanged and has an
+ ambiguous effect on the prosociality of the average applicant
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Applicants and Selection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recruitment drive 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 2,457 applications (average 7.3 for each position).
+ 1,804 met eligbility requirements, 1,585 came for interview and answered
+ questionnaire.
+\end_layout
+
+\begin_layout Itemize
+Use grade 12 (o-level) exam scores as ability measure
+\end_layout
+
+\begin_layout Itemize
+For non-cognitive skills, use career ambition (
+\begin_inset Quotes eld
+\end_inset
+
+what will you be doing in 5 years' time
+\begin_inset Quotes erd
+\end_inset
+
+=
+\begin_inset Quotes erd
+\end_inset
+
+higher position in the Ministry
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+For pro-sociality, use self-reported willingness to stay in the community
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Inclusion of Others in Self (IOS)
+\begin_inset Quotes erd
+\end_inset
+
+ scale
+\end_layout
+
+\begin_layout Itemize
+Selection panels chose 2 candidates to serve as CHA in the posts.
+ Panels = district health official, health post's health center representatice,
+ 3 members of the neighborhood health committee.
+\begin_inset Formula 
+\[
+s_{ih}=\sum_{j\in J}\alpha_{j}^{c}C_{h}X_{i}^{j}+\sum_{j\in J}\alpha_{j}^{s}\left(1-C_{h}\right)X_{i}^{j}+\sum_{j\in J}\beta_{j}\bar{X}_{h}^{j}+\gamma N_{h}+\zeta_{ih}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $s_{ih}=1$
+\end_inset
+
+ if selected, 
+\begin_inset Formula $C_{h}=1$
+\end_inset
+
+ for treatment posts, 
+\begin_inset Formula $X_{i}^{j}=1$
+\end_inset
+
+ if candidate 
+\begin_inset Formula $i$
+\end_inset
+
+ in top 3 of trait 
+\begin_inset Formula $j$
+\end_inset
+
+, 
+\begin_inset Formula $N_{h}$
+\end_inset
+
+ is number of interviewees.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_5.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Service Delivery
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CHAs are required to keep records of all their visits, and issue receipts
+ to households that they visit.
+\end_layout
+
+\begin_layout Itemize
+CHAs send summary information by text message to Ministry of Health.
+\end_layout
+
+\begin_layout Itemize
+At the end of each month each health post sends aggregated data to the ministry.
+\end_layout
+
+\begin_layout Itemize
+Conduct validation visits to households.
+\begin_inset Formula 
+\[
+v_{ihdp}=\alpha+\beta C_{id}+Z_{h}\gamma+\delta E_{d}+\rho_{p}+\epsilon_{ihdp}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $v_{ihds}$
+\end_inset
+
+ is the number of visits CHA 
+\begin_inset Formula $i$
+\end_inset
+
+ in catchment area 
+\begin_inset Formula $h$
+\end_inset
+
+ in district 
+\begin_inset Formula $d$
+\end_inset
+
+ and province 
+\begin_inset Formula $p$
+\end_inset
+
+ does.
+ 
+\begin_inset Formula $C_{id}$
+\end_inset
+
+ is treatment
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ashraf et al 2018: Service Utilization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The treatment increased health staff inputs.
+ Does it also increase households' use of facilities? Health outcomes?
+\end_layout
+
+\begin_layout Itemize
+Admin data on household visits to facilities
+\begin_inset Formula 
+\[
+y_{hdpt}=\alpha+\beta C_{hd}+\gamma A_{t}+\delta C_{hd}\times A_{t}+Z_{h}\theta+E_{d}\phi+\rho_{p}+\xi_{hdpt}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $y_{hdpt}$
+\end_inset
+
+ is the outcome at facility 
+\begin_inset Formula $h$
+\end_inset
+
+ in district 
+\begin_inset Formula $d$
+\end_inset
+
+ and province 
+\begin_inset Formula $p$
+\end_inset
+
+ in quarter 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ 
+\begin_inset Formula $A_{t}$
+\end_inset
+
+ denotes quarters after the arrival of the CHAs (2012Q4).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename AshrafEtAl2018_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Xu (2017) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The Costs of Patronage: Evidence from the British Empire
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Patronage has always been an important feature of the appointment of officials
+ to public office.
+\end_layout
+
+\begin_layout Itemize
+If principals have private information, patronage can be beneficial.
+\end_layout
+
+\begin_layout Itemize
+But if it disincentivizes subordinates, it's detrimental.
+\end_layout
+
+\begin_layout Itemize
+This project: Study impact of patronage on state performance in the Colonial
+ Office of the British Empire.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Context
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study the Colonial Office.
+ Founded in 1854 to administer 
+\begin_inset Quotes eld
+\end_inset
+
+overseas possessions
+\begin_inset Quotes erd
+\end_inset
+
+ At the peak of British colonialism, the bureaucracy spanned the globe,
+ covering 1/5 of the world's land mass.
+\end_layout
+
+\begin_layout Itemize
+Identifying variation comes from two sources
+\end_layout
+
+\begin_layout Enumerate
+Ministerial turnover.
+ The Colonial Office headed by the Secretary of State: a cabinet level political
+ appointee.
+ When the Prime Minister reshuffled the cabinet, or when there was an election,
+ the connectedness of serving governors changed.
+\end_layout
+
+\begin_layout Enumerate
+Changes in the appointment regime.
+ The Secretary of State had discretion to appoint governors 1854-1930: the
+ 
+\emph on
+patronage
+\emph default
+ period.
+ In 1930 replaced by a formal system of open recruitment, the 
+\begin_inset Quotes eld
+\end_inset
+
+Magna Carta of the Colonial Service
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Digitized data to construct an individual-level personnel dataset on the
+ Colonial Office
+\end_layout
+
+\begin_layout Enumerate
+Colonial Lists.
+ Data on postings, backgrounds, and salaries of governors 1860–1966
+\end_layout
+
+\begin_layout Enumerate
+Blue Books 1821–1949.
+ administrative statistics with detailed data on public finance (revenues,
+ expenditures), demographics, trade and socio-economic statistic, and prices.
+\end_layout
+
+\begin_layout Enumerate
+Genealogical data.
+ Biographical information from UK Who-is-Who
+\end_layout
+
+\begin_layout Enumerate
+Genealogical data and family tree data from The Peerage to crease a family
+ network of the British elite.
+ To measure connectedness.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Measuring Connectedness
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A good measure has to be
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+objective.
+ Hard because cannot directly observe ties
+\end_layout
+
+\begin_layout Itemize
+exogenous.
+ If high ability people both get promoted and make ties, then ties measure
+ ability.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Shared ancestry.
+ Use family networks from family tree data as a proxy.
+\end_layout
+
+\begin_layout Enumerate
+Membership of the aristocracy
+\end_layout
+
+\begin_layout Enumerate
+Attendance of elite schools (Eton, Oxbridge)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Effect on Salaries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To estimate impact of social connections on governor 
+\begin_inset Formula $i$
+\end_inset
+
+ of colony 
+\begin_inset Formula $s$
+\end_inset
+
+ at time 
+\begin_inset Formula $t$
+\end_inset
+
+'s salary
+\begin_inset Formula 
+\[
+\log w_{ist}=\beta c_{it}+\theta_{i}+x_{it}^{\prime}\gamma+\tau_{t}+\varepsilon_{ist}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $c_{it}\in\left\{ 0,1\right\} $
+\end_inset
+
+ denotes connectedness to the Secretary of State 
+\end_layout
+
+\begin_layout Itemize
+Is the effect driven by increasing the salary of a given job, or by moving
+ governors around to higher paid jobs?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+estimate the same equation but with colony FEs
+\end_layout
+
+\begin_layout Itemize
+If it's moving, what types of moves drive salary increases?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_6.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Effects of Abolition of Patronage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use the Warren Fisher reform of 1930 as a natural experiment
+\begin_inset Formula 
+\[
+\log w_{ist}=\beta_{0}c_{it}+\beta_{1}c_{it}\times\mathbf{1}\left\{ t\geq1930\right\} +x_{it}^{\prime}\gamma+\theta_{i}+\tau_{t}+\varepsilon_{ist}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Performance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the performance of connected governors is also better, then the salary
+ premium need not be problematic
+\end_layout
+
+\begin_layout Itemize
+Estimate performance effects
+\begin_inset Formula 
+\[
+y_{ist}=\beta c_{it}+\gamma^{\prime}x_{it}+\nu_{is}+\tau_{t}+\varepsilon_{ist}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+note that the 
+\begin_inset Formula $\nu_{is}$
+\end_inset
+
+ means use only within-appointment-spell shocks to connections (avoid problems
+ with match-specific effects)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_8.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_9.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_10.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Xu 2017: Long-Run Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do connected governors cause long-term damage?
+\end_layout
+
+\begin_layout Itemize
+Would like to estimate
+\begin_inset Formula 
+\[
+y_{s}=\beta C_{s}+\gamma^{\prime}x_{s}+\mu_{R\left(s\right)}+\varepsilon_{s}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $C_{s}=\sum_{t}c_{I\left(s,t\right),t}$
+\end_inset
+
+ denotes the number of years under a connected governor, 
+\begin_inset Formula $i=I\left(s,t\right)$
+\end_inset
+
+ returns the identity of the governor 
+\begin_inset Formula $i$
+\end_inset
+
+ serving in colony 
+\begin_inset Formula $s$
+\end_inset
+
+ at time 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+But assignment of connected governors is endogenous.
+\end_layout
+
+\begin_layout Itemize
+Construct an instrument based on
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Allocation rule: governorships limited to 6 years
+\end_layout
+
+\begin_layout Enumerate
+Turnover of the secretary of state
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Share of connected governors with at least 6 years of tenure when a colony
+ becomes vacant is an instrument:
+\begin_inset Formula 
+\[
+p_{t}=\frac{\sum_{i}\mathbf{1}\left\{ T_{it}\geq6\right\} \times c_{it}}{\sum_{i}\mathbf{1}\left\{ T_{it}\geq6\right\} }
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Expected number of connected appointments is then 
+\begin_inset Formula $P_{s}=\sum_{t}p_{t-1}\times\mathbf{1}\left\{ T_{I\left(s,t\right),t}=1\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_11.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_12.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_13.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_14.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_15.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Xu2017_16.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Open Questions
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Open Questions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How important is the policy that bureaucrats are implementing in determining
+ their performance and who selectes into the bureaucracy?
+\end_layout
+
+\begin_layout Itemize
+How should bureaucracies be organized? Hierarchically? How does corruption
+ at one level of the bureaucracy interact with the other levels?
+\end_layout
+
+\begin_layout Itemize
+What role should citizens play in monitoring the bureaucracy?
+\end_layout
+
+\begin_layout Itemize
+How should bureaucracies innovate to deliver services more effectively?
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
