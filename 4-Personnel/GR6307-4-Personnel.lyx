@@ -16145,7 +16145,1042 @@ status open
 
 \end_deeper
 \begin_layout Subsection
-Xu (2017) 
+Leaver, Ozier, Serneels & Zeitlin (AER 2021) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Recruitment, Effort and Retention Effects of Performance Contracts for Civil
+ Servants: Experimental Evidence from Rwandan Primary Schools
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recruiting good people, motivating and retaining them are central challenges
+ for any organization with significant labor inputs
+\end_layout
+
+\begin_layout Itemize
+Might Pay for Performance (P4P) be a good way of doing this? We know it
+ can motivate teachers (Muralidharan & Sundararaman 2011)
+\end_layout
+
+\begin_layout Itemize
+Anti: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+crowd out pro-social mottivation
+\end_layout
+
+\begin_layout Itemize
+screen in the wrong people (Benabou & Tirole, 2003, 2006)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pro:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+classic contract theory (Lazear 2003)
+\end_layout
+
+\begin_layout Itemize
+evidence from jobs with readily measurable output (Lazear 2000)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Work in Rwanda to conduct the first RCT to test for these effects together.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Setting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Study looks at the cohort of teachers applying for state school positions
+ in 6 districts in Rwanda in 2016
+\end_layout
+
+\begin_layout Itemize
+Districts group vacancies into Math and Science (TMS); Modern Languages
+ (TML); and Social Studies (TSS).
+\end_layout
+
+\begin_layout Itemize
+Think of a district 
+\begin_inset Formula $\times$
+\end_inset
+
+ subject as a labor market 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 18 labor markets in the study.
+\end_layout
+
+\begin_layout Itemize
+Small 
+\begin_inset Formula $N$
+\end_inset
+
+ for randomization, but spans 600+ hiring lines and >60% of hires that year.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Experimental Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Experiment in two stages
+\end_layout
+
+\begin_layout Enumerate
+Randomize 
+\emph on
+advertizing
+\emph default
+ (with v without P4P) across labor markets
+\end_layout
+
+\begin_layout Enumerate
+Once people assigned to schools, re-randomize 
+\emph on
+actual, experienced
+\emph default
+ contract.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/LeaverEtAL2021_01.png
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a$
+\end_inset
+
+ vs 
+\begin_inset Formula $b$
+\end_inset
+
+ and 
+\begin_inset Formula $c$
+\end_inset
+
+ vs 
+\begin_inset Formula $d$
+\end_inset
+
+ show compositional effects of P4P.
+ 
+\begin_inset Formula $a$
+\end_inset
+
+ vs 
+\begin_inset Formula $d$
+\end_inset
+
+ shows 
+\emph on
+total
+\emph default
+ effect of P4P including both margins
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): First Tier Randomization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Randomized the advertizing of the jobs across the 18 (district 
+\begin_inset Formula $\times$
+\end_inset
+
+ subject family) labor markets
+\end_layout
+
+\begin_layout Itemize
+Advertized by radio, poster, flyer and had a person at the district education
+ office to explain the contracts
+\end_layout
+
+\begin_layout Itemize
+Held three job fairs to promote the contracts dissemination through WhatsApp
+\end_layout
+
+\begin_layout Itemize
+Applications submitted in December 2015 in response to these advertisements
+\end_layout
+
+\begin_layout Itemize
+Districts held exams for the candidates
+\end_layout
+
+\begin_layout Itemize
+Successful candidates placeed in jobs during Feb/March 2016
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Second Tier Randomization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+After all the new teachers had been placed, all of the schools were randomized
+ into either P4P (85 schools) or FW (79 schools)
+\end_layout
+
+\begin_layout Itemize
+All teachers received the randomly assigned contract, both new and incumbents.
+\end_layout
+
+\begin_layout Itemize
+P4P contract: top 20% of teachers receive FRw 100K ($136 
+\begin_inset Formula $\sim$
+\end_inset
+
+ 15% of annual salary)
+\end_layout
+
+\begin_layout Itemize
+Eligibility was equally weighted average of a) 
+\begin_inset Quotes eld
+\end_inset
+
+pay for percentile
+\begin_inset Quotes erd
+\end_inset
+
+: Students' measured performance gains controling for student composition;
+ b) teacher presence; c) lesson preparation; d) observed pedagogy
+\end_layout
+
+\begin_layout Itemize
+FW was bonus of FR2 20K for all teachers
+\end_layout
+
+\begin_layout Itemize
+Potential worry: disappointment, so offered FRw 80K 
+\begin_inset Quotes eld
+\end_inset
+
+retention bonus
+\begin_inset Quotes erd
+\end_inset
+
+ to people who completed the year on top of P4P/FW
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Hypotheses
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With this design, the paper seeks to test the following hypotheses
+\end_layout
+
+\begin_layout Enumerate
+Advertising P4P induces different 
+\emph on
+application
+\emph default
+ qualities
+\end_layout
+
+\begin_layout Enumerate
+Advertised P4P affects the observable skills of recruits 
+\emph on
+placed
+\emph default
+ in schools
+\end_layout
+
+\begin_layout Enumerate
+Advertised P4P induces differentially intrinsically motivated recruits to
+ be 
+\emph on
+placed
+\emph default
+ in schools
+\end_layout
+
+\begin_layout Enumerate
+Advertised P4P selects in higher or lower performing teachers as measured
+ by learning outcomes
+\end_layout
+
+\begin_layout Enumerate
+Experienced P4P creates incentives that affect teacher performance as measured
+ by their students' learning outcomes
+\end_layout
+
+\begin_layout Enumerate
+These selection and effort effects are apparent in the composite performance
+ metric
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As we saw above, there are 
+\begin_inset Formula $N=18$
+\end_inset
+
+ labor markets, so power is a real concern
+\end_layout
+
+\begin_layout Itemize
+Exactly which empirical specification has the highest power to test the
+ hypotehses above depends on features of the data that are unknown 
+\series bold
+ex ante
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+But we don't want to allow researchers to specification hunt (
+\emph on
+p
+\emph default
+-hack) 
+\series bold
+ex post
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+Solution: Blinding
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+IPA blinded the data before giving it to the researchers.
+ 
+\end_layout
+
+\begin_layout Itemize
+Researchers explored pre-specified designs in the blinded data
+\end_layout
+
+\begin_layout Itemize
+After updating PAP, researchers received true data and implemented power-maximiz
+ing designs
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Solution: Randomization Inference.
+ Central limit theorems won't work well with 
+\begin_inset Formula $N=18$
+\end_inset
+
+ clusters so use RI instead (Imbens & Rubin 2015) which works even in finite
+ samples by providing exact inference.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Applications: 2,184 applications (1,962 have teacher training so valid)
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/LeaverEtAL2021_02.png
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Teacher attributes collected in Feb/Mar 2016 during baseline
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Measures of intrinsic motivation: modified dictator game (Ashraf, Bandiera
+ & Jack 2014)
+\end_layout
+
+\begin_layout Itemize
+Grading task: Grade an exam script in 5 minutes.
+ Used to estimate a two-parameter Item Response Theory (IRT) model
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Student learning at baseline, end of 2016 and 2017 school years.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+developed comprehensive tests together with Ministry of Education
+\end_layout
+
+\begin_layout Itemize
+Students did oral exams for 50 mins
+\end_layout
+
+\begin_layout Itemize
+Estimate 2-parameter IRT model by Empirical Bayes for each student
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Teacher Inputs Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presence
+\emph default
+ measured during random spot checks
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Preparation
+\emph default
+ measured by reviewing teachers' weekly lesson plans.
+ Teachers coached in filling in such plans beforehand.
+ Often missing so presence is an indicator.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Pedagogy
+\emph default
+ measured through classroom observation.
+ Rubric based on Danielson Framework for Teaching widely used in US
+\end_layout
+
+\begin_layout Itemize
+Teachers' scores for P4P based on average of these 3 plus student learning
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Composition Effects of P4P
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use a Kolmogorov Smirnov test of the equality of distributions
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+discovered
+\begin_inset Quotes erd
+\end_inset
+
+ during blinded phase
+\begin_inset Formula 
+\[
+T^{KS}=sup_{y}\left|\hat{F}_{P4P}\left(y\right)-\hat{F}_{FW}\left(y\right)\right|=\max_{i=1,\ldots,n}\left|\hat{F}_{P4P}\left(y_{i}\right)-\hat{F}_{FW}\left(y_{i}\right)\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Do inference by randomization inference: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Calculate 
+\begin_inset Formula $T^{KS}$
+\end_inset
+
+ in the data.
+ 
+\end_layout
+
+\begin_layout Itemize
+Then, repeatedly sample from the set of potential treatment assignments.
+\end_layout
+
+\begin_layout Itemize
+For each assignment 
+\begin_inset Formula $a$
+\end_inset
+
+ calculate 
+\begin_inset Formula $T_{a}^{KS}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p-$
+\end_inset
+
+value is the share of such tests with larger absolute value than the one
+ calculated in the data
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Estimate 
+\begin_inset Formula $T^{KS}=0.026$
+\end_inset
+
+ with a 
+\begin_inset Formula $p-$
+\end_inset
+
+value of 0.909
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Composition Effects of P4P
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/LeaverEtAL2021_03.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Effects of P4P on skill and motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Data on a range of attributes of teachers.
+\end_layout
+
+\begin_layout Itemize
+Here focus on grading task (ability) and pro-sociality (dictator game)
+\end_layout
+
+\begin_layout Itemize
+Estimate regressions of the form
+\begin_inset Formula 
+\[
+x_{jqd}=\tau_{A}T_{qd}^{A}+\gamma_{q}+\delta_{d}+e_{jqd}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $x_{jqd}$
+\end_inset
+
+ is attribute of teacher 
+\begin_inset Formula $j$
+\end_inset
+
+ with qualification 
+\begin_inset Formula $q$
+\end_inset
+
+ in district 
+\begin_inset Formula $d$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Test statistic: t-statistic on 
+\begin_inset Formula $\tau_{A}$
+\end_inset
+
+ under the null hypothesis of no effects for any teacher.
+ Estimated by RI.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Effects of P4P on skill and motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/LeaverEtAL2021_04.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Student Learning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estimate dependence of students' results on teacher's advertised contract
+ 
+\begin_inset Formula $T_{qd}^{A}$
+\end_inset
+
+ and experienced contract 
+\begin_inset Formula $T_{s}^{E}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+z_{ibksr}=\tau_{A}T_{qd}^{A}+\tau_{E}T_{s}^{E}+\lambda_{I}I_{j}+\lambda_{E}T_{s}^{E}I_{j}+\rho_{br}\bar{z}_{ksr-1}+\delta_{d}+\psi_{r}+e_{ibksr}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $z_{ibksr}$
+\end_inset
+
+is performance of student 
+\begin_inset Formula $i$
+\end_inset
+
+ in subject 
+\begin_inset Formula $b$
+\end_inset
+
+, stream 
+\begin_inset Formula $k$
+\end_inset
+
+, school 
+\begin_inset Formula $s$
+\end_inset
+
+ and test round 
+\begin_inset Formula $r$
+\end_inset
+
+; 
+\begin_inset Formula $I_{j}$
+\end_inset
+
+ is an incumbent dummy; and 
+\begin_inset Formula $\bar{z}_{ksr-1}$
+\end_inset
+
+ is mean score in previous round for students in that subject.
+\end_layout
+
+\begin_layout Itemize
+Also allow for interactions
+\begin_inset Formula 
+\[
+z_{ibksr}=\tau_{A}T_{qd}^{A}+\tau_{E}T_{s}^{E}+\tau_{AE}T_{qd}^{A}T_{s}^{E}+\lambda_{I}I_{j}+\lambda_{E}T_{s}^{E}I_{j}+\rho_{br}\bar{z}_{ksr-1}+\delta_{d}+\psi_{r}+e_{ibksr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Estimate by mixed effects allowing for random effects at the round level.
+\end_layout
+
+\begin_layout Itemize
+Calculate p-values for the 
+\begin_inset Formula $\tau$
+\end_inset
+
+s by permuting the treatment assignments.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Student Learning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/LeaverEtAL2021_05.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Effort effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/LeaverEtAL2021_06.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Subsection
+Xu (AER 2018) 
 \begin_inset ERT
 status open
 
