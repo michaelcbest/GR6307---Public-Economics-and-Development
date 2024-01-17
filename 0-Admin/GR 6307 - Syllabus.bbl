@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -26,7 +26,7 @@
            familyi={A\bibinitperiod},
            given={B},
            giveni={B\bibinitperiod}}}%
-        {{hash=314c23d3084f2f92618d8328238747e2}{%
+        {{hash=7163dce934beb4a756f393b1ad82cd55}{%
            family={Varshney},
            familyi={V\bibinitperiod},
            given={K.R.},
@@ -37,16 +37,14 @@
            given={J},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{316cce8966c6225c0a75d06b21ae2fb3}
-      \strng{fullhash}{316cce8966c6225c0a75d06b21ae2fb3}
-      \strng{bibnamehash}{316cce8966c6225c0a75d06b21ae2fb3}
-      \strng{authorbibnamehash}{316cce8966c6225c0a75d06b21ae2fb3}
-      \strng{authornamehash}{316cce8966c6225c0a75d06b21ae2fb3}
-      \strng{authorfullhash}{316cce8966c6225c0a75d06b21ae2fb3}
+      \strng{namehash}{276e39a9f589b5125587f534891d96fe}
+      \strng{fullhash}{276e39a9f589b5125587f534891d96fe}
+      \strng{bibnamehash}{276e39a9f589b5125587f534891d96fe}
+      \strng{authorbibnamehash}{276e39a9f589b5125587f534891d96fe}
+      \strng{authornamehash}{276e39a9f589b5125587f534891d96fe}
+      \strng{authorfullhash}{276e39a9f589b5125587f534891d96fe}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 20th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
@@ -57,57 +55,55 @@
     \endentry
     \entry{Ackermannetal2016}{inproceedings}{}
       \name{author}{8}{}{%
-        {{hash=4e1a7573da1ae03c38777b12d6a08c04}{%
+        {{hash=c16d41e31c479673524c6e1b5b267ea6}{%
            family={Ackermann},
            familyi={A\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod}}}%
-        {{hash=231db4d087ce48233f1d7f61cb634959}{%
+        {{hash=ca4ff75255ca61632029d46b69301e8f}{%
            family={{Blancas Reyes}},
            familyi={B\bibinitperiod},
            given={E.},
            giveni={E\bibinitperiod}}}%
-        {{hash=f31af1b365193f976beb108c51934c2b}{%
+        {{hash=030ded455ff8199157b2c6719083a4a9}{%
            family={He},
            familyi={H\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod}}}%
-        {{hash=816edb77d63b66419d1cf036bcfea043}{%
+        {{hash=dd7a85e51eab37b4aef0b18ed6306cfc}{%
            family={{Anderson Keller}},
            familyi={A\bibinitperiod},
            given={T.},
            giveni={T\bibinitperiod}}}%
-        {{hash=0e59e81d537d3445864f7180c564e4b2}{%
+        {{hash=8fe92fa34c0c19ff3bdcef7a60ae128a}{%
            family={{van der Boor}},
            familyi={v\bibinitperiod},
            given={P},
            giveni={P\bibinitperiod}}}%
-        {{hash=3e1ac2f46f3d54f5e9c86d347d77c28f}{%
+        {{hash=889ad36eca838cf2e3f5f4e4370c3417}{%
            family={Khan},
            familyi={K\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
-        {{hash=8c959c1b849518f8967ba5c3cb1cb9f5}{%
+        {{hash=276982919c98986d9933a6cd1781206a}{%
            family={Ghani},
            familyi={G\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
-        {{hash=95e1e3629c305d1929f2f9ff5dc5b747}{%
+        {{hash=60b7283ba22f35502d7ceb29720c5891}{%
            family={Gonzalez},
            familyi={G\bibinitperiod},
            given={J.C.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{c6ba55c35691690786a7e39835f3359b}
-      \strng{fullhash}{c6ba55c35691690786a7e39835f3359b}
-      \strng{bibnamehash}{c6ba55c35691690786a7e39835f3359b}
-      \strng{authorbibnamehash}{c6ba55c35691690786a7e39835f3359b}
-      \strng{authornamehash}{c6ba55c35691690786a7e39835f3359b}
-      \strng{authorfullhash}{c6ba55c35691690786a7e39835f3359b}
+      \strng{namehash}{cb3513da367b2ccce7669f69a0fbd96b}
+      \strng{fullhash}{cb3513da367b2ccce7669f69a0fbd96b}
+      \strng{bibnamehash}{cb3513da367b2ccce7669f69a0fbd96b}
+      \strng{authorbibnamehash}{cb3513da367b2ccce7669f69a0fbd96b}
+      \strng{authornamehash}{cb3513da367b2ccce7669f69a0fbd96b}
+      \strng{authorfullhash}{cb3513da367b2ccce7669f69a0fbd96b}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
@@ -118,32 +114,30 @@
     \endentry
     \entry{AdvaniEtAl2020}{unpublished}{}
       \name{author}{3}{}{%
-        {{hash=2db7d7e57219b9bc90a5776a316d1731}{%
+        {{hash=ed2e84ddf2d7c8bbb7cc2cd55d309c0e}{%
            family={Advani},
            familyi={A\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=e3cbcb5c04069cace151b2484889ddf4}{%
+        {{hash=7e78b1e1839a1d8a574f43c646bd77cc}{%
            family={Elming},
            familyi={E\bibinitperiod},
            given={W.},
            giveni={W\bibinitperiod}}}%
-        {{hash=fe6c7a368eafb91039d74fabe952fb9c}{%
+        {{hash=a417a068ce22693f209381e12229e6eb}{%
            family={Shaw},
            familyi={S\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{c2913832c4a94ae62d566ec8ced2f1b4}
-      \strng{fullhash}{c2913832c4a94ae62d566ec8ced2f1b4}
-      \strng{bibnamehash}{c2913832c4a94ae62d566ec8ced2f1b4}
-      \strng{authorbibnamehash}{c2913832c4a94ae62d566ec8ced2f1b4}
-      \strng{authornamehash}{c2913832c4a94ae62d566ec8ced2f1b4}
-      \strng{authorfullhash}{c2913832c4a94ae62d566ec8ced2f1b4}
+      \strng{namehash}{997d33a4765d08f6cc1ea87659e7ac8b}
+      \strng{fullhash}{997d33a4765d08f6cc1ea87659e7ac8b}
+      \strng{bibnamehash}{997d33a4765d08f6cc1ea87659e7ac8b}
+      \strng{authorbibnamehash}{997d33a4765d08f6cc1ea87659e7ac8b}
+      \strng{authornamehash}{997d33a4765d08f6cc1ea87659e7ac8b}
+      \strng{authorfullhash}{997d33a4765d08f6cc1ea87659e7ac8b}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Warwick University}
@@ -170,11 +164,9 @@
       \strng{authornamehash}{ff870a745b14126c6cdbbb18a24d1ed7}
       \strng{authorfullhash}{ff870a745b14126c6cdbbb18a24d1ed7}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{Journal of Political Economy}
       \field{title}{Formal and Real Authority in Organizations}
@@ -185,24 +177,22 @@
     \endentry
     \entry{Akerlof1978}{article}{}
       \name{author}{1}{}{%
-        {{hash=d19fce2f3ffa4edc34d56f1d73d98985}{%
+        {{hash=77879d81773f3b8c5560dcf7d856c6cc}{%
            family={Akerlof},
            familyi={A\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{d19fce2f3ffa4edc34d56f1d73d98985}
-      \strng{fullhash}{d19fce2f3ffa4edc34d56f1d73d98985}
-      \strng{bibnamehash}{d19fce2f3ffa4edc34d56f1d73d98985}
-      \strng{authorbibnamehash}{d19fce2f3ffa4edc34d56f1d73d98985}
-      \strng{authornamehash}{d19fce2f3ffa4edc34d56f1d73d98985}
-      \strng{authorfullhash}{d19fce2f3ffa4edc34d56f1d73d98985}
+      \strng{namehash}{77879d81773f3b8c5560dcf7d856c6cc}
+      \strng{fullhash}{77879d81773f3b8c5560dcf7d856c6cc}
+      \strng{bibnamehash}{77879d81773f3b8c5560dcf7d856c6cc}
+      \strng{authorbibnamehash}{77879d81773f3b8c5560dcf7d856c6cc}
+      \strng{authornamehash}{77879d81773f3b8c5560dcf7d856c6cc}
+      \strng{authorfullhash}{77879d81773f3b8c5560dcf7d856c6cc}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Review}
       \field{title}{The Economics of Tagging as Applied to the Optimal Income Tax, Welfare Programs, and Manpower Planning}
@@ -213,44 +203,42 @@
     \endentry
     \entry{Alatasetal2012}{article}{}
       \name{author}{5}{}{%
-        {{hash=f0f25251bbdcf01d40edb6c96cf0d835}{%
+        {{hash=14ffef2f4d39ff2c11b18d69066a60bc}{%
            family={Alatas},
            familyi={A\bibinitperiod},
            given={V.},
            giveni={V\bibinitperiod}}}%
-        {{hash=cfef9e36b401377d44d593aac63fe536}{%
+        {{hash=049f998199448809de9a1a14e212758d}{%
            family={Banerjee},
            familyi={B\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=8a20efa5cda9050f0f81625c3479eaf4}{%
+        {{hash=3be07f31740fed01b7dd4c336215d569}{%
            family={Hanna},
            familyi={H\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
-        {{hash=e85b399e66678945d8e81cf7d9918884}{%
+        {{hash=ac6f685701081518ed0009b8fa47d732}{%
            family={Olken},
            familyi={O\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod}}}%
-        {{hash=5b481b5b32f04b2af86ede864bbc6014}{%
+        {{hash=da3034081b481392cc77e7e255c002fd}{%
            family={Tobias},
            familyi={T\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{552ce580383b757474f05e8e4c73a058}
-      \strng{fullhash}{552ce580383b757474f05e8e4c73a058}
-      \strng{bibnamehash}{552ce580383b757474f05e8e4c73a058}
-      \strng{authorbibnamehash}{552ce580383b757474f05e8e4c73a058}
-      \strng{authornamehash}{552ce580383b757474f05e8e4c73a058}
-      \strng{authorfullhash}{552ce580383b757474f05e8e4c73a058}
+      \strng{namehash}{9356ef05e8899931ba959c4849ca6041}
+      \strng{fullhash}{9356ef05e8899931ba959c4849ca6041}
+      \strng{bibnamehash}{9356ef05e8899931ba959c4849ca6041}
+      \strng{authorbibnamehash}{9356ef05e8899931ba959c4849ca6041}
+      \strng{authornamehash}{9356ef05e8899931ba959c4849ca6041}
+      \strng{authorfullhash}{9356ef05e8899931ba959c4849ca6041}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{American Economic Review}
       \field{title}{Targeting the Poor: Evidence from a Field Experiment in Indonesia}
@@ -261,49 +249,47 @@
     \endentry
     \entry{Alatasetal2016}{article}{}
       \name{author}{6}{}{%
-        {{hash=f0f25251bbdcf01d40edb6c96cf0d835}{%
+        {{hash=14ffef2f4d39ff2c11b18d69066a60bc}{%
            family={Alatas},
            familyi={A\bibinitperiod},
            given={V.},
            giveni={V\bibinitperiod}}}%
-        {{hash=cfef9e36b401377d44d593aac63fe536}{%
+        {{hash=049f998199448809de9a1a14e212758d}{%
            family={Banerjee},
            familyi={B\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=8a20efa5cda9050f0f81625c3479eaf4}{%
+        {{hash=3be07f31740fed01b7dd4c336215d569}{%
            family={Hanna},
            familyi={H\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
-        {{hash=e85b399e66678945d8e81cf7d9918884}{%
+        {{hash=ac6f685701081518ed0009b8fa47d732}{%
            family={Olken},
            familyi={O\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod}}}%
-        {{hash=974b21a2b08331fd05ff0f9979fd45fa}{%
+        {{hash=45aa815cffd2a3c08a3b5365eaff7f73}{%
            family={Wai-Poi},
            familyi={W\bibinithyphendelim P\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
-        {{hash=6d26bed04be234d147ff047a3011d4d3}{%
+        {{hash=3053efc4c2a9a6d751591d2915bbf73d}{%
            family={Purnamasari},
            familyi={P\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{b2aa2900cdc10dde2f432dac0aa993b7}
-      \strng{fullhash}{b2aa2900cdc10dde2f432dac0aa993b7}
-      \strng{bibnamehash}{b2aa2900cdc10dde2f432dac0aa993b7}
-      \strng{authorbibnamehash}{b2aa2900cdc10dde2f432dac0aa993b7}
-      \strng{authornamehash}{b2aa2900cdc10dde2f432dac0aa993b7}
-      \strng{authorfullhash}{b2aa2900cdc10dde2f432dac0aa993b7}
+      \strng{namehash}{8dcbc17d6ecf389d817243f781451bb2}
+      \strng{fullhash}{8dcbc17d6ecf389d817243f781451bb2}
+      \strng{bibnamehash}{8dcbc17d6ecf389d817243f781451bb2}
+      \strng{authorbibnamehash}{8dcbc17d6ecf389d817243f781451bb2}
+      \strng{authornamehash}{8dcbc17d6ecf389d817243f781451bb2}
+      \strng{authorfullhash}{8dcbc17d6ecf389d817243f781451bb2}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{Journal of Political Economy}
       \field{title}{Self Targeting: Evidence From a Field Experiment in Indonesia}
@@ -332,11 +318,9 @@
       \strng{authornamehash}{bde214ddd613b6caaf72f40524b4df85}
       \strng{authorfullhash}{bde214ddd613b6caaf72f40524b4df85}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Journal of Public Economics}
       \field{title}{Income Tax Evasion: A Theoretical Analysis}
       \field{volume}{1}
@@ -346,34 +330,33 @@
     \endentry
     \entry{Alstadsaeteretal2018}{article}{}
       \name{author}{3}{}{%
-        {{hash=a87586b20bd77a97c6219601ceded255}{%
+        {{hash=134d7510a2c30ac9216b7e8de08d7e3f}{%
            family={Alstads{æ}ter},
            familyi={A\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=120d887a5a88d36a43a82d69f851d48b}{%
+        {{hash=f8c792120f8a52149adf6c3d2af59531}{%
            family={Johannesen},
            familyi={J\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod}}}%
-        {{hash=e4b57f77ee720abc60753c41b13d704e}{%
+        {{hash=e0b6e16a54132329a1fee114fc4f40c1}{%
            family={Zucman},
            familyi={Z\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{fullhash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{bibnamehash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{authorbibnamehash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{authornamehash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{authorfullhash}{e4572a759606904b36d5f24b69569c5a}
+      \strng{namehash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{fullhash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{bibnamehash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{authorbibnamehash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{authornamehash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{authorfullhash}{38981cb281daa9ca752644aacae2fea7}
+      \field{extraname}{1}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{6}
       \field{journaltitle}{American Economic Review}
       \field{title}{Tax Evasion and Inequality}
@@ -384,32 +367,31 @@
     \endentry
     \entry{Alstadsaeteretal2018b}{unpublished}{}
       \name{author}{3}{}{%
-        {{hash=a87586b20bd77a97c6219601ceded255}{%
+        {{hash=134d7510a2c30ac9216b7e8de08d7e3f}{%
            family={Alstads{æ}ter},
            familyi={A\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=120d887a5a88d36a43a82d69f851d48b}{%
+        {{hash=f8c792120f8a52149adf6c3d2af59531}{%
            family={Johannesen},
            familyi={J\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod}}}%
-        {{hash=e4b57f77ee720abc60753c41b13d704e}{%
+        {{hash=e0b6e16a54132329a1fee114fc4f40c1}{%
            family={Zucman},
            familyi={Z\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{fullhash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{bibnamehash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{authorbibnamehash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{authornamehash}{e4572a759606904b36d5f24b69569c5a}
-      \strng{authorfullhash}{e4572a759606904b36d5f24b69569c5a}
+      \strng{namehash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{fullhash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{bibnamehash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{authorbibnamehash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{authornamehash}{38981cb281daa9ca752644aacae2fea7}
+      \strng{authorfullhash}{38981cb281daa9ca752644aacae2fea7}
+      \field{extraname}{2}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: UC Berkeley}
@@ -418,37 +400,35 @@
     \endentry
     \entry{AmodioChoiDeGiorgiRahman2018}{unpublished}{}
       \name{author}{4}{}{%
-        {{hash=14d53922c18a7c0f4bc2af06df5c9d6b}{%
+        {{hash=c68e8ec4d5a797b1be161ed4f6a08a32}{%
            family={Amodio},
            familyi={A\bibinitperiod},
            given={F.},
            giveni={F\bibinitperiod}}}%
-        {{hash=39c698374c55879c3d79e207e347337e}{%
+        {{hash=85fcf48fa88ed022498fd4cdce676041}{%
            family={Choi},
            familyi={C\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=2be634a41ba12a6bf5f00665a9ec729f}{%
+        {{hash=057249399bf7d084edf287439965543e}{%
            family={{De Giorgi}},
            familyi={D\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
-        {{hash=12bd6b882c269289b0bb1e03d18410b8}{%
+        {{hash=81072df588ef096e98854e07b81ba5e2}{%
            family={Rahman},
            familyi={R\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{01720986dd39842b954dc7e1bdb36c46}
-      \strng{fullhash}{01720986dd39842b954dc7e1bdb36c46}
-      \strng{bibnamehash}{01720986dd39842b954dc7e1bdb36c46}
-      \strng{authorbibnamehash}{01720986dd39842b954dc7e1bdb36c46}
-      \strng{authornamehash}{01720986dd39842b954dc7e1bdb36c46}
-      \strng{authorfullhash}{01720986dd39842b954dc7e1bdb36c46}
+      \strng{namehash}{3aa4d75184216a2088e0709d0213420b}
+      \strng{fullhash}{3aa4d75184216a2088e0709d0213420b}
+      \strng{bibnamehash}{3aa4d75184216a2088e0709d0213420b}
+      \strng{authorbibnamehash}{3aa4d75184216a2088e0709d0213420b}
+      \strng{authornamehash}{3aa4d75184216a2088e0709d0213420b}
+      \strng{authorfullhash}{3aa4d75184216a2088e0709d0213420b}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: McGill University}
@@ -457,7 +437,7 @@
     \endentry
     \entry{AndersenJohannesenRijkers2020}{unpublished}{}
       \name{author}{3}{}{%
-        {{hash=f843f9c9b016f50d0d915540d2c9ec8f}{%
+        {{hash=7e1a939065c3de5941d5101bf4caac35}{%
            family={Andersen},
            familyi={A\bibinitperiod},
            given={J{ø}rgen},
@@ -473,16 +453,14 @@
            given={Bob},
            giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{b41d0935ee8f8abad749d587d8a4bb8e}
-      \strng{fullhash}{b41d0935ee8f8abad749d587d8a4bb8e}
-      \strng{bibnamehash}{b41d0935ee8f8abad749d587d8a4bb8e}
-      \strng{authorbibnamehash}{b41d0935ee8f8abad749d587d8a4bb8e}
-      \strng{authornamehash}{b41d0935ee8f8abad749d587d8a4bb8e}
-      \strng{authorfullhash}{b41d0935ee8f8abad749d587d8a4bb8e}
+      \strng{namehash}{410d081dec1a87867c72d96f6d0bca14}
+      \strng{fullhash}{410d081dec1a87867c72d96f6d0bca14}
+      \strng{bibnamehash}{410d081dec1a87867c72d96f6d0bca14}
+      \strng{authorbibnamehash}{410d081dec1a87867c72d96f6d0bca14}
+      \strng{authornamehash}{410d081dec1a87867c72d96f6d0bca14}
+      \strng{authorfullhash}{410d081dec1a87867c72d96f6d0bca14}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Forthcoming, Journal of Political Economy}
@@ -491,34 +469,32 @@
     \endentry
     \entry{Andreonietal1998}{article}{}
       \name{author}{3}{}{%
-        {{hash=9480e43b1778fbd127bb0cfc3893db78}{%
+        {{hash=9e275f96ec2d6223ebcae949c7368578}{%
            family={Andreoni},
            familyi={A\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=f5be413464aebf060467f1ed0d0c967c}{%
+        {{hash=d1b41707943077692dd1670901b4815a}{%
            family={Erard},
            familyi={E\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod}}}%
-        {{hash=e6152d3d4f84d451ec242254187a73b4}{%
+        {{hash=b5efb44685f7e17ab41223b68d50f395}{%
            family={Feinstein},
            familyi={F\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{d3c54b613a3e6d944c7f666a32e16a88}
-      \strng{fullhash}{d3c54b613a3e6d944c7f666a32e16a88}
-      \strng{bibnamehash}{d3c54b613a3e6d944c7f666a32e16a88}
-      \strng{authorbibnamehash}{d3c54b613a3e6d944c7f666a32e16a88}
-      \strng{authornamehash}{d3c54b613a3e6d944c7f666a32e16a88}
-      \strng{authorfullhash}{d3c54b613a3e6d944c7f666a32e16a88}
+      \strng{namehash}{1440ce784b8f620a16354bc30fca7702}
+      \strng{fullhash}{1440ce784b8f620a16354bc30fca7702}
+      \strng{bibnamehash}{1440ce784b8f620a16354bc30fca7702}
+      \strng{authorbibnamehash}{1440ce784b8f620a16354bc30fca7702}
+      \strng{authornamehash}{1440ce784b8f620a16354bc30fca7702}
+      \strng{authorfullhash}{1440ce784b8f620a16354bc30fca7702}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Journal of Economic Literature}
       \field{title}{Tax Compliance}
       \field{volume}{36}
@@ -533,24 +509,22 @@
            familyi={A\bibinitperiod},
            given={M},
            giveni={M\bibinitperiod}}}%
-        {{hash=87c7b702c27d093ae97092a2f3869d0b}{%
+        {{hash=057249399bf7d084edf287439965543e}{%
            family={{De Giorgi}},
            familyi={D\bibinitperiod},
            given={G},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{19347c18761fdd25392d08126f396dc1}
-      \strng{fullhash}{19347c18761fdd25392d08126f396dc1}
-      \strng{bibnamehash}{19347c18761fdd25392d08126f396dc1}
-      \strng{authorbibnamehash}{19347c18761fdd25392d08126f396dc1}
-      \strng{authornamehash}{19347c18761fdd25392d08126f396dc1}
-      \strng{authorfullhash}{19347c18761fdd25392d08126f396dc1}
+      \strng{namehash}{3803c15b35c6639c5234deac72b44f94}
+      \strng{fullhash}{3803c15b35c6639c5234deac72b44f94}
+      \strng{bibnamehash}{3803c15b35c6639c5234deac72b44f94}
+      \strng{authorbibnamehash}{3803c15b35c6639c5234deac72b44f94}
+      \strng{authornamehash}{3803c15b35c6639c5234deac72b44f94}
+      \strng{authorfullhash}{3803c15b35c6639c5234deac72b44f94}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Review}
       \field{title}{Indirect Effects of an Aid Program: How Do Cash Transfers Affect Ineligibles' Consumption}
@@ -561,34 +535,32 @@
     \endentry
     \entry{Artavanisetal2016}{article}{}
       \name{author}{3}{}{%
-        {{hash=f81d6fbcf3a6f7b8eb27525a09a5c69b}{%
+        {{hash=17e5a7c69ad66af7d92738bfda7f40fa}{%
            family={Artavanis},
            familyi={A\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod}}}%
-        {{hash=76ac7569bb9ee3a198f3e10c17acde7d}{%
+        {{hash=b63109f7df555a226a1f651f3996bd52}{%
            family={Morse},
            familyi={M\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=6d2d14b11821c7e998cea70502800fc3}{%
+        {{hash=a4a3affab496d31e04f06746a3763fc2}{%
            family={Tsoutsoura},
            familyi={T\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{466ea178b8220c597b8e7ded564feada}
-      \strng{fullhash}{466ea178b8220c597b8e7ded564feada}
-      \strng{bibnamehash}{466ea178b8220c597b8e7ded564feada}
-      \strng{authorbibnamehash}{466ea178b8220c597b8e7ded564feada}
-      \strng{authornamehash}{466ea178b8220c597b8e7ded564feada}
-      \strng{authorfullhash}{466ea178b8220c597b8e7ded564feada}
+      \strng{namehash}{4df53e613cb97cb47f34b00808f398c1}
+      \strng{fullhash}{4df53e613cb97cb47f34b00808f398c1}
+      \strng{bibnamehash}{4df53e613cb97cb47f34b00808f398c1}
+      \strng{authorbibnamehash}{4df53e613cb97cb47f34b00808f398c1}
+      \strng{authornamehash}{4df53e613cb97cb47f34b00808f398c1}
+      \strng{authorfullhash}{4df53e613cb97cb47f34b00808f398c1}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{Measuring Income Tax Evasion using Bank Credit: Evidence from Greece}
@@ -622,11 +594,9 @@
       \strng{authornamehash}{ed5dd711e1fe9b0e02bcf4e3bbfc495b}
       \strng{authorfullhash}{ed5dd711e1fe9b0e02bcf4e3bbfc495b}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Journal of Public Economics}
       \field{title}{No Margin, No Mission? A Field Experiment on Incentives for Public Services Delivery}
       \field{volume}{120}
@@ -646,22 +616,20 @@
            familyi={B\bibinitperiod},
            given={O},
            giveni={O\bibinitperiod}}}%
-        {{hash=6f1954d3b10c20f501deb4ab4ca327d4}{%
+        {{hash=263e0f9e3ab26dcef282c29cff5230af}{%
            family={Lee},
            familyi={L\bibinitperiod},
            given={S.S.},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{0ba116f717431820c26db4a480b70689}
-      \strng{fullhash}{0ba116f717431820c26db4a480b70689}
-      \strng{bibnamehash}{0ba116f717431820c26db4a480b70689}
-      \strng{authorbibnamehash}{0ba116f717431820c26db4a480b70689}
-      \strng{authornamehash}{0ba116f717431820c26db4a480b70689}
-      \strng{authorfullhash}{0ba116f717431820c26db4a480b70689}
+      \strng{namehash}{e26269f4b53c8338059edf089e6604bf}
+      \strng{fullhash}{e26269f4b53c8338059edf089e6604bf}
+      \strng{bibnamehash}{e26269f4b53c8338059edf089e6604bf}
+      \strng{authorbibnamehash}{e26269f4b53c8338059edf089e6604bf}
+      \strng{authornamehash}{e26269f4b53c8338059edf089e6604bf}
+      \strng{authorfullhash}{e26269f4b53c8338059edf089e6604bf}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: London School of Economics}
@@ -688,11 +656,9 @@
       \strng{authornamehash}{59a47d182d4e54be454d0d4c6f917496}
       \strng{authorfullhash}{59a47d182d4e54be454d0d4c6f917496}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{Journal of Political Economy}
       \field{title}{Efficient Responses to Targeted Cash Transfers}
@@ -721,14 +687,49 @@
       \strng{authornamehash}{74cfddf7ee86c94ff9d2499c50a618c5}
       \strng{authorfullhash}{74cfddf7ee86c94ff9d2499c50a618c5}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Forthcoming, American Economic Review: Insights}
       \field{title}{Enforcing Wealth Taxes in the Developing World: Quasi-Experimental Evidence from Colombia}
       \field{year}{2020}
+    \endentry
+    \entry{BachasFisherPostJensenZucman2023}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=1d34ab7e165e01f0d76770220229735c}{%
+           family={Bachas},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=825244e4368cac7ea35594bd9d8c266a}{%
+           family={Fisher-Post},
+           familyi={F\bibinithyphendelim P\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=657d86a383c2aacffc61704ef95b45b0}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b966b131eabccf3c6ecbdb6fe527f0c}{%
+           family={Zucman},
+           familyi={Z\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca2999464f7b413079481f0a82dd2589}
+      \strng{fullhash}{ca2999464f7b413079481f0a82dd2589}
+      \strng{bibnamehash}{ca2999464f7b413079481f0a82dd2589}
+      \strng{authorbibnamehash}{ca2999464f7b413079481f0a82dd2589}
+      \strng{authornamehash}{ca2999464f7b413079481f0a82dd2589}
+      \strng{authorfullhash}{ca2999464f7b413079481f0a82dd2589}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{NBER WP 29819}
+      \field{title}{Globalization and Factor Income Taxation}
+      \field{year}{2023}
     \endentry
     \entry{BachasGadenneJensen2020}{unpublished}{}
       \name{author}{3}{}{%
@@ -755,9 +756,7 @@
       \strng{authornamehash}{00574eaf8672c60850a457f5d7c1452b}
       \strng{authorfullhash}{00574eaf8672c60850a457f5d7c1452b}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{NBER WP 27429}
@@ -784,9 +783,7 @@
       \strng{authornamehash}{b1b03d6fe1645488d8d783f371d07ae2}
       \strng{authorfullhash}{b1b03d6fe1645488d8d783f371d07ae2}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{World Bank Policy Research Working Paper 8524}
@@ -818,11 +815,9 @@
       \strng{authornamehash}{97055790e9522e300882a89545b4429b}
       \strng{authorfullhash}{97055790e9522e300882a89545b4429b}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{Cash or Condition? Evidence from a Cash Transfer Experiment}
@@ -861,9 +856,7 @@
       \strng{authornamehash}{4a26254cdf5b69baa04f2f0246e4ddd4}
       \strng{authorfullhash}{4a26254cdf5b69baa04f2f0246e4ddd4}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{forthcoming, American Economic Review}
@@ -905,9 +898,7 @@
       \strng{authornamehash}{93ff078d397ec55d890e6d2f2a7f75c4}
       \strng{authorfullhash}{93ff078d397ec55d890e6d2f2a7f75c4}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Forthcoming, Quarterly Journal of Economics}
@@ -916,81 +907,40 @@
     \endentry
     \entry{Bandieraetal2019}{unpublished}{}
       \name{author}{4}{}{%
-        {{hash=ac296e2eb0ff059f58e23d12ae3eddbc}{%
+        {{hash=524ff7896f9e3de50e0c335adf517852}{%
            family={Bandiera},
            familyi={B\bibinitperiod},
            given={O.},
            giveni={O\bibinitperiod}}}%
-        {{hash=332f00d73ee0fe602ccf4809369780c9}{%
+        {{hash=0b9f0e89991f59bd27ead359a8158e9a}{%
            family={Best},
            familyi={B\bibinitperiod},
            given={M.C.},
            giveni={M\bibinitperiod}}}%
-        {{hash=ff60cab055b5d61f68a035a6bfb7df77}{%
+        {{hash=01b5b967614c42d674ed5af0f7ffacd7}{%
            family={Khan},
            familyi={K\bibinitperiod},
            given={A.Q.},
            giveni={A\bibinitperiod}}}%
-        {{hash=09d94d92b32ca2ebca2f38a8e7e7f7ab}{%
+        {{hash=9eadedb290046d3eef7dd10df9cfa3f1}{%
            family={Prat},
            familyi={P\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{abd399682d79ee3d89b238bfb6935c4b}
-      \strng{fullhash}{abd399682d79ee3d89b238bfb6935c4b}
-      \strng{bibnamehash}{abd399682d79ee3d89b238bfb6935c4b}
-      \strng{authorbibnamehash}{abd399682d79ee3d89b238bfb6935c4b}
-      \strng{authornamehash}{abd399682d79ee3d89b238bfb6935c4b}
-      \strng{authorfullhash}{abd399682d79ee3d89b238bfb6935c4b}
+      \strng{namehash}{75d3cfdb009c6f45b3316167b7787d07}
+      \strng{fullhash}{75d3cfdb009c6f45b3316167b7787d07}
+      \strng{bibnamehash}{75d3cfdb009c6f45b3316167b7787d07}
+      \strng{authorbibnamehash}{75d3cfdb009c6f45b3316167b7787d07}
+      \strng{authornamehash}{75d3cfdb009c6f45b3316167b7787d07}
+      \strng{authorfullhash}{75d3cfdb009c6f45b3316167b7787d07}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Columbia University}
       \field{title}{Incentives and the Allocation of Authority in Organizations: A Field Experiment with Bureaucrats}
       \field{year}{2019}
-    \endentry
-    \entry{BanerjeeHannaOlkenSumarto2018}{unpublished}{}
-      \name{author}{4}{}{%
-        {{hash=cfef9e36b401377d44d593aac63fe536}{%
-           family={Banerjee},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8a20efa5cda9050f0f81625c3479eaf4}{%
-           family={Hanna},
-           familyi={H\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=17d43e1603097edd4b5a0c67776d4695}{%
-           family={Olken},
-           familyi={O\bibinitperiod},
-           given={B.A.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=2692e483a33e843ce9f0bf49b715b06b}{%
-           family={Sumarto},
-           familyi={S\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{2d7f31d2e1c744b0902de14daf08e5ee}
-      \strng{fullhash}{2d7f31d2e1c744b0902de14daf08e5ee}
-      \strng{bibnamehash}{2d7f31d2e1c744b0902de14daf08e5ee}
-      \strng{authorbibnamehash}{2d7f31d2e1c744b0902de14daf08e5ee}
-      \strng{authornamehash}{2d7f31d2e1c744b0902de14daf08e5ee}
-      \strng{authorfullhash}{2d7f31d2e1c744b0902de14daf08e5ee}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Mimeo: MIT}
-      \field{title}{The (lack of) Distortionary Effects of Proxy-Means Tests: Results from a Nationwide Experiment in Indonesia}
-      \field{year}{2018}
     \endentry
     \entry{Banerjeeetal2017}{unpublished}{}
       \name{author}{5}{}{%
@@ -1027,58 +977,12 @@
       \strng{authornamehash}{95c628ae6028f6120142873839d6b7d9}
       \strng{authorfullhash}{95c628ae6028f6120142873839d6b7d9}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: MIT}
       \field{title}{E-governance, Accountability and Leakage in Public Programs: Experimental Evidence from a Financial Management Reform in India}
       \field{year}{2017}
-    \endentry
-    \entry{BanerjeeHannaOlkenKyleSumarto2016}{unpublished}{}
-      \name{author}{5}{}{%
-        {{hash=049f998199448809de9a1a14e212758d}{%
-           family={Banerjee},
-           familyi={B\bibinitperiod},
-           given={A},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8a20efa5cda9050f0f81625c3479eaf4}{%
-           family={Hanna},
-           familyi={H\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=e85b399e66678945d8e81cf7d9918884}{%
-           family={Olken},
-           familyi={O\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=1ae34943cfae7d2f1548000ce14aec17}{%
-           family={Kyle},
-           familyi={K\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2692e483a33e843ce9f0bf49b715b06b}{%
-           family={Sumarto},
-           familyi={S\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{ff9cdd566c9f523d0fee8998deb0c1d8}
-      \strng{fullhash}{ff9cdd566c9f523d0fee8998deb0c1d8}
-      \strng{bibnamehash}{ff9cdd566c9f523d0fee8998deb0c1d8}
-      \strng{authorbibnamehash}{ff9cdd566c9f523d0fee8998deb0c1d8}
-      \strng{authornamehash}{ff9cdd566c9f523d0fee8998deb0c1d8}
-      \strng{authorfullhash}{ff9cdd566c9f523d0fee8998deb0c1d8}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Journal of Political Economy, forthcoming}
-      \field{title}{Tangible Information and Citizen Empowerment: Identification Cards and Food Subsidy Programs in Indonesia}
-      \field{year}{2016}
     \endentry
     \entry{Banerjeeetal2018}{article}{}
       \name{author}{4}{}{%
@@ -1110,11 +1014,9 @@
       \strng{authornamehash}{6b8a3e3ac46c6e360af91637acae37c3}
       \strng{authorfullhash}{6b8a3e3ac46c6e360af91637acae37c3}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{World Bank Research Observer}
       \field{title}{Debunking the Stereotype of the Lazy Welfare Recipient: Evidence from Cash Transfer Programs Worldwide}
       \field{year}{forthcoming}
@@ -1144,9 +1046,7 @@
       \strng{authornamehash}{52a527310d0901c8c2e4521ba307d1ef}
       \strng{authorfullhash}{52a527310d0901c8c2e4521ba307d1ef}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Organizational Economics}
@@ -1155,6 +1055,85 @@
       \field{year}{2012}
       \field{pages}{1109\bibrangedash 1147}
       \range{pages}{39}
+    \endentry
+    \entry{BanerjeeHannaOlkenKyleSumarto2016}{unpublished}{}
+      \name{author}{5}{}{%
+        {{hash=049f998199448809de9a1a14e212758d}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3be07f31740fed01b7dd4c336215d569}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ac6f685701081518ed0009b8fa47d732}{%
+           family={Olken},
+           familyi={O\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cdc0664b072c982791263393b96121d3}{%
+           family={Kyle},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6ab431aa7f1053e5996434fbb7f9f03e}{%
+           family={Sumarto},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b62dc9e17c14056161ce2290b72c72e}
+      \strng{fullhash}{4b62dc9e17c14056161ce2290b72c72e}
+      \strng{bibnamehash}{4b62dc9e17c14056161ce2290b72c72e}
+      \strng{authorbibnamehash}{4b62dc9e17c14056161ce2290b72c72e}
+      \strng{authornamehash}{4b62dc9e17c14056161ce2290b72c72e}
+      \strng{authorfullhash}{4b62dc9e17c14056161ce2290b72c72e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Journal of Political Economy, forthcoming}
+      \field{title}{Tangible Information and Citizen Empowerment: Identification Cards and Food Subsidy Programs in Indonesia}
+      \field{year}{2016}
+    \endentry
+    \entry{BanerjeeHannaOlkenSumarto2018}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=049f998199448809de9a1a14e212758d}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3be07f31740fed01b7dd4c336215d569}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=813e174251e06d902738bf0d577328fc}{%
+           family={Olken},
+           familyi={O\bibinitperiod},
+           given={B.A.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6ab431aa7f1053e5996434fbb7f9f03e}{%
+           family={Sumarto},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{baa084be075901923b45378dd07ae22a}
+      \strng{fullhash}{baa084be075901923b45378dd07ae22a}
+      \strng{bibnamehash}{baa084be075901923b45378dd07ae22a}
+      \strng{authorbibnamehash}{baa084be075901923b45378dd07ae22a}
+      \strng{authornamehash}{baa084be075901923b45378dd07ae22a}
+      \strng{authorfullhash}{baa084be075901923b45378dd07ae22a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: MIT}
+      \field{title}{The (lack of) Distortionary Effects of Proxy-Means Tests: Results from a Nationwide Experiment in Indonesia}
+      \field{year}{2018}
     \endentry
     \entry{BanerjeeDufloSharma2021}{article}{}
       \name{author}{3}{}{%
@@ -1181,11 +1160,9 @@
       \strng{authornamehash}{af561ecb7184db27a39adaea3c0330da}
       \strng{authorfullhash}{af561ecb7184db27a39adaea3c0330da}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{American Economic Review: Insights}
       \field{title}{Long-Term Effects of the Targeting the Ultra Poor Program}
@@ -1229,9 +1206,7 @@
       \strng{authornamehash}{75040b8211a2a4a74b8ac3588b9530dc}
       \strng{authorfullhash}{75040b8211a2a4a74b8ac3588b9530dc}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: MIT}
@@ -1253,9 +1228,7 @@
       \strng{authornamehash}{9f2eb4da768f441c6132940f9dcec85a}
       \strng{authorfullhash}{9f2eb4da768f441c6132940f9dcec85a}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Michigan State University}
@@ -1264,7 +1237,7 @@
     \endentry
     \entry{BasriFelixHannaOlken2020}{unpublished}{}
       \name{author}{4}{}{%
-        {{hash=ddef3d40f54e3e7e291784d3961a9f37}{%
+        {{hash=244d9e3ff3f3efbc72cd2f6336865c84}{%
            family={Basri},
            familyi={B\bibinitperiod},
            given={M.\bibnamedelimi Chatib},
@@ -1285,16 +1258,14 @@
            given={Benjamin},
            giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{e2d8053acc53f2fd44cca5985ec6f0bd}
-      \strng{fullhash}{e2d8053acc53f2fd44cca5985ec6f0bd}
-      \strng{bibnamehash}{e2d8053acc53f2fd44cca5985ec6f0bd}
-      \strng{authorbibnamehash}{e2d8053acc53f2fd44cca5985ec6f0bd}
-      \strng{authornamehash}{e2d8053acc53f2fd44cca5985ec6f0bd}
-      \strng{authorfullhash}{e2d8053acc53f2fd44cca5985ec6f0bd}
+      \strng{namehash}{c7daf3650b807cc6988dec3397da1f27}
+      \strng{fullhash}{c7daf3650b807cc6988dec3397da1f27}
+      \strng{bibnamehash}{c7daf3650b807cc6988dec3397da1f27}
+      \strng{authorbibnamehash}{c7daf3650b807cc6988dec3397da1f27}
+      \strng{authornamehash}{c7daf3650b807cc6988dec3397da1f27}
+      \strng{authorfullhash}{c7daf3650b807cc6988dec3397da1f27}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: MIT}
@@ -1303,7 +1274,7 @@
     \endentry
     \entry{Basurtoetal2017}{unpublished}{}
       \name{author}{3}{}{%
-        {{hash=5bea16ee2200ff1cffc7dbb8721446f5}{%
+        {{hash=99ec6c195dc7cbcc1a00b36518f9d2d2}{%
            family={{Basurto Preciado}},
            familyi={B\bibinitperiod},
            given={M.P},
@@ -1319,16 +1290,14 @@
            given={J},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{8b632450518008121e01b6ac95fb5355}
-      \strng{fullhash}{8b632450518008121e01b6ac95fb5355}
-      \strng{bibnamehash}{8b632450518008121e01b6ac95fb5355}
-      \strng{authorbibnamehash}{8b632450518008121e01b6ac95fb5355}
-      \strng{authornamehash}{8b632450518008121e01b6ac95fb5355}
-      \strng{authorfullhash}{8b632450518008121e01b6ac95fb5355}
+      \strng{namehash}{e27022ff46aeb7047bc4ed454d6505ce}
+      \strng{fullhash}{e27022ff46aeb7047bc4ed454d6505ce}
+      \strng{bibnamehash}{e27022ff46aeb7047bc4ed454d6505ce}
+      \strng{authorbibnamehash}{e27022ff46aeb7047bc4ed454d6505ce}
+      \strng{authornamehash}{e27022ff46aeb7047bc4ed454d6505ce}
+      \strng{authorfullhash}{e27022ff46aeb7047bc4ed454d6505ce}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Stanford University}
@@ -1355,11 +1324,9 @@
       \strng{authornamehash}{5d90edec7640ab0f9b82e19b63911eed}
       \strng{authorfullhash}{5d90edec7640ab0f9b82e19b63911eed}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{5}
       \field{journaltitle}{American Economic Review}
       \field{title}{Incentives and Prosocial Behavior}
@@ -1393,11 +1360,9 @@
       \strng{authornamehash}{6d4c4666c5b1adca1fa309d6fc41c14c}
       \strng{authorfullhash}{6d4c4666c5b1adca1fa309d6fc41c14c}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Journal of Public Economics}
       \field{title}{Can Enhancing the Benefits of Formalization Induce Informal Firms to Become Formal? Experimental Evidence from Benin}
       \field{volume}{157}
@@ -1430,9 +1395,7 @@
       \strng{authornamehash}{c7e766cf8829597c22d3a50023854273}
       \strng{authorfullhash}{c7e766cf8829597c22d3a50023854273}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: UC Berkeley}
@@ -1459,11 +1422,9 @@
       \strng{authornamehash}{065c2cff25d8c1931b0addfbdd7dfc31}
       \strng{authorfullhash}{065c2cff25d8c1931b0addfbdd7dfc31}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Journal of Public Economics}
       \field{title}{The targeting benefit of conditional cash transfers}
       \field{volume}{194}
@@ -1501,11 +1462,9 @@
       \strng{authornamehash}{5f33fdf886227fa7b304407e7f84f293}
       \strng{authorfullhash}{5f33fdf886227fa7b304407e7f84f293}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{Obtaining a Driving License in India: An Experimental Approach to Studying Corruption}
@@ -1514,31 +1473,60 @@
       \field{pages}{1639\bibrangedash 1676}
       \range{pages}{38}
     \endentry
+    \entry{BesleyGhatak2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5b476483c449b84438e52b86e872c2ca}{%
+           family={Besley},
+           familyi={B\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=67db988a844ab18635b9328d3816ea4d}{%
+           family={Ghatak},
+           familyi={G\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{40dfebd94546489d23a0a3cf7d02535c}
+      \strng{fullhash}{40dfebd94546489d23a0a3cf7d02535c}
+      \strng{bibnamehash}{40dfebd94546489d23a0a3cf7d02535c}
+      \strng{authorbibnamehash}{40dfebd94546489d23a0a3cf7d02535c}
+      \strng{authornamehash}{40dfebd94546489d23a0a3cf7d02535c}
+      \strng{authorfullhash}{40dfebd94546489d23a0a3cf7d02535c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{issue}{3}
+      \field{journaltitle}{American Economic Review}
+      \field{title}{Competition and Incentives with Prosocial Agents}
+      \field{volume}{95}
+      \field{year}{2005}
+      \field{pages}{616\bibrangedash 636}
+      \range{pages}{21}
+    \endentry
     \entry{BesleyCoate1992}{article}{}
       \name{author}{2}{}{%
-        {{hash=00e6b934f7cdcb375b6fc4e9fe93090a}{%
+        {{hash=5b476483c449b84438e52b86e872c2ca}{%
            family={Besley},
            familyi={B\bibinitperiod},
            given={T.},
            giveni={T\bibinitperiod}}}%
-        {{hash=5288498aec939f8ffdafbe65f5da2cc3}{%
+        {{hash=f1aa9e5b0a08c535ecd82741e972f0ca}{%
            family={Coate},
            familyi={C\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{93c34e944e19559aec336b8534c577cb}
-      \strng{fullhash}{93c34e944e19559aec336b8534c577cb}
-      \strng{bibnamehash}{93c34e944e19559aec336b8534c577cb}
-      \strng{authorbibnamehash}{93c34e944e19559aec336b8534c577cb}
-      \strng{authornamehash}{93c34e944e19559aec336b8534c577cb}
-      \strng{authorfullhash}{93c34e944e19559aec336b8534c577cb}
+      \strng{namehash}{cfcd5b0a5581b4299c817d9e3332fa35}
+      \strng{fullhash}{cfcd5b0a5581b4299c817d9e3332fa35}
+      \strng{bibnamehash}{cfcd5b0a5581b4299c817d9e3332fa35}
+      \strng{authorbibnamehash}{cfcd5b0a5581b4299c817d9e3332fa35}
+      \strng{authornamehash}{cfcd5b0a5581b4299c817d9e3332fa35}
+      \strng{authorfullhash}{cfcd5b0a5581b4299c817d9e3332fa35}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Review}
       \field{title}{Workfare versus Welfare: Incentive Arguments for Work Requirements in Poverty-Alleviation Programs}
@@ -1549,12 +1537,12 @@
     \endentry
     \entry{BesleyPersson2011}{book}{}
       \name{author}{2}{}{%
-        {{hash=00e6b934f7cdcb375b6fc4e9fe93090a}{%
+        {{hash=5b476483c449b84438e52b86e872c2ca}{%
            family={Besley},
            familyi={B\bibinitperiod},
            given={T.},
            giveni={T\bibinitperiod}}}%
-        {{hash=6583bd811cc7eaa0336a9d4cfc3f1791}{%
+        {{hash=1a1fcddc8c14e7d98b4c70069c8fb53d}{%
            family={Persson},
            familyi={P\bibinitperiod},
            given={T.},
@@ -1563,16 +1551,15 @@
       \list{publisher}{1}{%
         {Princeton: Princeton University Press}%
       }
-      \strng{namehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{fullhash}{8363a7f2823861fd3993c05c53415404}
-      \strng{bibnamehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{authorbibnamehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{authornamehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{authorfullhash}{8363a7f2823861fd3993c05c53415404}
+      \strng{namehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{fullhash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{bibnamehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{authorbibnamehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{authornamehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{authorfullhash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \field{extraname}{1}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Pillars of prosperity: The political economics of development clusters}
@@ -1580,12 +1567,12 @@
     \endentry
     \entry{BesleyPersson2013}{incollection}{}
       \name{author}{2}{}{%
-        {{hash=00e6b934f7cdcb375b6fc4e9fe93090a}{%
+        {{hash=5b476483c449b84438e52b86e872c2ca}{%
            family={Besley},
            familyi={B\bibinitperiod},
            given={T.},
            giveni={T\bibinitperiod}}}%
-        {{hash=6583bd811cc7eaa0336a9d4cfc3f1791}{%
+        {{hash=1a1fcddc8c14e7d98b4c70069c8fb53d}{%
            family={Persson},
            familyi={P\bibinitperiod},
            given={T.},
@@ -1608,19 +1595,18 @@
            given={M},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{fullhash}{8363a7f2823861fd3993c05c53415404}
-      \strng{bibnamehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{authorbibnamehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{authornamehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{authorfullhash}{8363a7f2823861fd3993c05c53415404}
+      \strng{namehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{fullhash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{bibnamehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{authorbibnamehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{authornamehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{authorfullhash}{3a0a72c162fcfe29cb17dd672828e7c2}
       \strng{editorbibnamehash}{03a38daea8a0ee46635df3265e1be4e7}
       \strng{editornamehash}{03a38daea8a0ee46635df3265e1be4e7}
       \strng{editorfullhash}{03a38daea8a0ee46635df3265e1be4e7}
+      \field{extraname}{2}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Public Economics volume V}
@@ -1629,29 +1615,28 @@
     \endentry
     \entry{BesleyPersson2009}{article}{}
       \name{author}{2}{}{%
-        {{hash=00e6b934f7cdcb375b6fc4e9fe93090a}{%
+        {{hash=5b476483c449b84438e52b86e872c2ca}{%
            family={Besley},
            familyi={B\bibinitperiod},
            given={T.},
            giveni={T\bibinitperiod}}}%
-        {{hash=6583bd811cc7eaa0336a9d4cfc3f1791}{%
+        {{hash=1a1fcddc8c14e7d98b4c70069c8fb53d}{%
            family={Persson},
            familyi={P\bibinitperiod},
            given={T.},
            giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{fullhash}{8363a7f2823861fd3993c05c53415404}
-      \strng{bibnamehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{authorbibnamehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{authornamehash}{8363a7f2823861fd3993c05c53415404}
-      \strng{authorfullhash}{8363a7f2823861fd3993c05c53415404}
+      \strng{namehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{fullhash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{bibnamehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{authorbibnamehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{authornamehash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \strng{authorfullhash}{3a0a72c162fcfe29cb17dd672828e7c2}
+      \field{extraname}{3}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{American Economic Review}
       \field{title}{The origins of state capacity: Property rights, taxation and politics}
       \field{volume}{99}
@@ -1659,79 +1644,44 @@
       \field{pages}{1218\bibrangedash 1244}
       \range{pages}{27}
     \endentry
-    \entry{BesleyGhatak2005}{article}{}
-      \name{author}{2}{}{%
-        {{hash=5b476483c449b84438e52b86e872c2ca}{%
-           family={Besley},
-           familyi={B\bibinitperiod},
-           given={T},
-           giveni={T\bibinitperiod}}}%
-        {{hash=67db988a844ab18635b9328d3816ea4d}{%
-           family={Ghatak},
-           familyi={G\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{40dfebd94546489d23a0a3cf7d02535c}
-      \strng{fullhash}{40dfebd94546489d23a0a3cf7d02535c}
-      \strng{bibnamehash}{40dfebd94546489d23a0a3cf7d02535c}
-      \strng{authorbibnamehash}{40dfebd94546489d23a0a3cf7d02535c}
-      \strng{authornamehash}{40dfebd94546489d23a0a3cf7d02535c}
-      \strng{authorfullhash}{40dfebd94546489d23a0a3cf7d02535c}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{3}
-      \field{journaltitle}{American Economic Review}
-      \field{title}{Competition and Incentives with Prosocial Agents}
-      \field{volume}{95}
-      \field{year}{2005}
-      \field{pages}{616\bibrangedash 636}
-      \range{pages}{21}
-    \endentry
     \entry{Bestetal2015}{article}{}
       \name{author}{5}{}{%
-        {{hash=332f00d73ee0fe602ccf4809369780c9}{%
+        {{hash=0b9f0e89991f59bd27ead359a8158e9a}{%
            family={Best},
            familyi={B\bibinitperiod},
            given={M.C.},
            giveni={M\bibinitperiod}}}%
-        {{hash=45b3cb765145b9eb36d91a0ad993098c}{%
+        {{hash=78ef8ce10efe244d362006c13620c52b}{%
            family={Brockmeyer},
            familyi={B\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=bb934bfa4c1ef289559ed2d15eadfe92}{%
+        {{hash=85fa0432d58f77468192b2eaf901ce17}{%
            family={Kleven},
            familyi={K\bibinitperiod},
            given={H.J.},
            giveni={H\bibinitperiod}}}%
-        {{hash=ce220308d25073da9840b91dced96e80}{%
+        {{hash=389e9c3babb37f265e5b253a014ac582}{%
            family={Spinnewijn},
            familyi={S\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=fd52edae7e8851418219b486fce81f31}{%
+        {{hash=fefe714ab361ff61847e7fd8835d1cde}{%
            family={Waseem},
            familyi={W\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{e5f44cca00d212aea4f2b87536ff797e}
-      \strng{fullhash}{e5f44cca00d212aea4f2b87536ff797e}
-      \strng{bibnamehash}{e5f44cca00d212aea4f2b87536ff797e}
-      \strng{authorbibnamehash}{e5f44cca00d212aea4f2b87536ff797e}
-      \strng{authornamehash}{e5f44cca00d212aea4f2b87536ff797e}
-      \strng{authorfullhash}{e5f44cca00d212aea4f2b87536ff797e}
+      \strng{namehash}{83bd54cf37359aa2cfcd6d7793db38a1}
+      \strng{fullhash}{83bd54cf37359aa2cfcd6d7793db38a1}
+      \strng{bibnamehash}{83bd54cf37359aa2cfcd6d7793db38a1}
+      \strng{authorbibnamehash}{83bd54cf37359aa2cfcd6d7793db38a1}
+      \strng{authornamehash}{83bd54cf37359aa2cfcd6d7793db38a1}
+      \strng{authorfullhash}{83bd54cf37359aa2cfcd6d7793db38a1}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{6}
       \field{journaltitle}{Journal of Political Economy}
       \field{title}{Production versus Revenue Efficiency with Limited Tax Capacity: Theory and Evidence From Pakistan}
@@ -1742,32 +1692,30 @@
     \endentry
     \entry{Bestetal2018}{unpublished}{}
       \name{author}{3}{}{%
-        {{hash=332f00d73ee0fe602ccf4809369780c9}{%
+        {{hash=0b9f0e89991f59bd27ead359a8158e9a}{%
            family={Best},
            familyi={B\bibinitperiod},
            given={M.C.},
            giveni={M\bibinitperiod}}}%
-        {{hash=9cb85f4f783f27ed2e1a834b5c611c91}{%
+        {{hash=3283dcf9e7a411134f977727f6603a04}{%
            family={Hjort},
            familyi={H\bibinitperiod},
            given={J.K.},
            giveni={J\bibinitperiod}}}%
-        {{hash=f6c6ba54cab7e73f002f0c4f48f3f0b2}{%
+        {{hash=9de8b9a8b3f92fb554ee1ea67ebcec1d}{%
            family={Szakonyi},
            familyi={S\bibinitperiod},
            given={D.},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
-      \strng{fullhash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
-      \strng{bibnamehash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
-      \strng{authorbibnamehash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
-      \strng{authornamehash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
-      \strng{authorfullhash}{6225cb9a605a04bcc0f7bf6277ee4cd7}
+      \strng{namehash}{d29dd494339f99df30dfdcf1fabeb618}
+      \strng{fullhash}{d29dd494339f99df30dfdcf1fabeb618}
+      \strng{bibnamehash}{d29dd494339f99df30dfdcf1fabeb618}
+      \strng{authorbibnamehash}{d29dd494339f99df30dfdcf1fabeb618}
+      \strng{authornamehash}{d29dd494339f99df30dfdcf1fabeb618}
+      \strng{authorfullhash}{d29dd494339f99df30dfdcf1fabeb618}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Columbia University}
@@ -1789,10 +1737,9 @@
       \strng{authornamehash}{8ead27147f21fe54658dcdc516d62281}
       \strng{authorfullhash}{8ead27147f21fe54658dcdc516d62281}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labeldatesource}{nodate}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{6301}
       \field{journaltitle}{Science}
       \field{title}{Fighting Poverty with Data}
@@ -1802,34 +1749,32 @@
     \endentry
     \entry{Blumenstocketal2015}{article}{}
       \name{author}{3}{}{%
-        {{hash=778b17aa53507d4c3df49d5aea532870}{%
+        {{hash=8ead27147f21fe54658dcdc516d62281}{%
            family={Blumenstock},
            familyi={B\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=5c91cb6469769f039f065084e0b72769}{%
+        {{hash=2c1154d42a24f2fd89dde51ed763c1b8}{%
            family={Cadamuro},
            familyi={C\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
-        {{hash=316d08dd95bab74a6a5107fc53d3d1a1}{%
+        {{hash=60a93cdd7701763909dc6ff726967494}{%
            family={On},
            familyi={O\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{f121b2292a9b0da38d4890c41e1202ec}
-      \strng{fullhash}{f121b2292a9b0da38d4890c41e1202ec}
-      \strng{bibnamehash}{f121b2292a9b0da38d4890c41e1202ec}
-      \strng{authorbibnamehash}{f121b2292a9b0da38d4890c41e1202ec}
-      \strng{authornamehash}{f121b2292a9b0da38d4890c41e1202ec}
-      \strng{authorfullhash}{f121b2292a9b0da38d4890c41e1202ec}
+      \strng{namehash}{4c4050a50dfd1d9b5812a0e93f926c3c}
+      \strng{fullhash}{4c4050a50dfd1d9b5812a0e93f926c3c}
+      \strng{bibnamehash}{4c4050a50dfd1d9b5812a0e93f926c3c}
+      \strng{authorbibnamehash}{4c4050a50dfd1d9b5812a0e93f926c3c}
+      \strng{authornamehash}{4c4050a50dfd1d9b5812a0e93f926c3c}
+      \strng{authorfullhash}{4c4050a50dfd1d9b5812a0e93f926c3c}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{6264}
       \field{journaltitle}{Science}
       \field{title}{Predicting Poverty and Wealth from Mobile Phone Metadata}
@@ -1840,7 +1785,7 @@
     \endentry
     \entry{BoadwaySato2009}{article}{}
       \name{author}{2}{}{%
-        {{hash=2a87e608ad3c4f411c3519b50dff2d9c}{%
+        {{hash=61503d3cf8ea279a3057230e2aa0754f}{%
            family={Boadway},
            familyi={B\bibinitperiod},
            given={R.},
@@ -1851,18 +1796,16 @@
            given={M},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{757f742d1e47ae855c21313683da722e}
-      \strng{fullhash}{757f742d1e47ae855c21313683da722e}
-      \strng{bibnamehash}{757f742d1e47ae855c21313683da722e}
-      \strng{authorbibnamehash}{757f742d1e47ae855c21313683da722e}
-      \strng{authornamehash}{757f742d1e47ae855c21313683da722e}
-      \strng{authorfullhash}{757f742d1e47ae855c21313683da722e}
+      \strng{namehash}{d43d380e7052a6f4fa67a21f1f2aaa94}
+      \strng{fullhash}{d43d380e7052a6f4fa67a21f1f2aaa94}
+      \strng{bibnamehash}{d43d380e7052a6f4fa67a21f1f2aaa94}
+      \strng{authorbibnamehash}{d43d380e7052a6f4fa67a21f1f2aaa94}
+      \strng{authornamehash}{d43d380e7052a6f4fa67a21f1f2aaa94}
+      \strng{authorfullhash}{d43d380e7052a6f4fa67a21f1f2aaa94}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Journal: Economic Policy}
       \field{title}{Optimal Tax Design and Enforcement with an Informal Sector}
@@ -1951,9 +1894,7 @@
       \strng{editornamehash}{fa2b7a85a1a9098f58fd8cbd1da26b73}
       \strng{editorfullhash}{fa2b7a85a1a9098f58fd8cbd1da26b73}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The Mirrlees Review: Reforming the Tax System for the 21st Century}
@@ -1962,27 +1903,25 @@
     \endentry
     \entry{BrockmeyerHernandez2018}{unpublished}{}
       \name{author}{2}{}{%
-        {{hash=45b3cb765145b9eb36d91a0ad993098c}{%
+        {{hash=78ef8ce10efe244d362006c13620c52b}{%
            family={Brockmeyer},
            familyi={B\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=b710b63cc49aef44ae9305adc13aee5a}{%
+        {{hash=cc807a385b570f984bc9b77952c6b52e}{%
            family={Hernandez},
            familyi={H\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{f4efd269eff20aa4f387bd98f16ed307}
-      \strng{fullhash}{f4efd269eff20aa4f387bd98f16ed307}
-      \strng{bibnamehash}{f4efd269eff20aa4f387bd98f16ed307}
-      \strng{authorbibnamehash}{f4efd269eff20aa4f387bd98f16ed307}
-      \strng{authornamehash}{f4efd269eff20aa4f387bd98f16ed307}
-      \strng{authorfullhash}{f4efd269eff20aa4f387bd98f16ed307}
+      \strng{namehash}{9b76199ce4717f2c6fb93e9734ec16d5}
+      \strng{fullhash}{9b76199ce4717f2c6fb93e9734ec16d5}
+      \strng{bibnamehash}{9b76199ce4717f2c6fb93e9734ec16d5}
+      \strng{authorbibnamehash}{9b76199ce4717f2c6fb93e9734ec16d5}
+      \strng{authornamehash}{9b76199ce4717f2c6fb93e9734ec16d5}
+      \strng{authorfullhash}{9b76199ce4717f2c6fb93e9734ec16d5}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: World Bank}
@@ -2001,27 +1940,25 @@
            familyi={E\bibinitperiod},
            given={Alejandro},
            giveni={A\bibinitperiod}}}%
-        {{hash=796704efa803dafdeed44cc57076e58c}{%
+        {{hash=530e68825e6cb62c1e1a7e715e558b10}{%
            family={{Ramírez Arras}},
            familyi={R\bibinitperiod},
            given={Karina},
            giveni={K\bibinitperiod}}}%
-        {{hash=125cafe5d8e4458aa652c956b5aaaeb5}{%
+        {{hash=563837c3a13d57c25444aa0ae3ac2e64}{%
            family={{Suárez Serrato}},
            familyi={S\bibinitperiod},
            given={Juan\bibnamedelima Carlos},
            giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
-      \strng{namehash}{c07bbbe75fecb5fdba306981d8147a37}
-      \strng{fullhash}{c07bbbe75fecb5fdba306981d8147a37}
-      \strng{bibnamehash}{c07bbbe75fecb5fdba306981d8147a37}
-      \strng{authorbibnamehash}{c07bbbe75fecb5fdba306981d8147a37}
-      \strng{authornamehash}{c07bbbe75fecb5fdba306981d8147a37}
-      \strng{authorfullhash}{c07bbbe75fecb5fdba306981d8147a37}
+      \strng{namehash}{0a650ece87e15ad4b6a0f79f777599f1}
+      \strng{fullhash}{0a650ece87e15ad4b6a0f79f777599f1}
+      \strng{bibnamehash}{0a650ece87e15ad4b6a0f79f777599f1}
+      \strng{authorbibnamehash}{0a650ece87e15ad4b6a0f79f777599f1}
+      \strng{authornamehash}{0a650ece87e15ad4b6a0f79f777599f1}
+      \strng{authorfullhash}{0a650ece87e15ad4b6a0f79f777599f1}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Duke University}
@@ -2035,27 +1972,25 @@
            familyi={B\bibinitperiod},
            given={F},
            giveni={F\bibinitperiod}}}%
-        {{hash=124d5cd5c3aed470c7d8c46861b79f84}{%
+        {{hash=e2c47c207efc8fc460f7660442d19f35}{%
            family={Kaufmann},
            familyi={K\bibinitperiod},
            given={K.M.},
            giveni={K\bibinitperiod}}}%
-        {{hash=833686564b81ae224358cb252a911996}{%
+        {{hash=8af4471618f2bd2785fba3b7fe7f9960}{%
            family={{La Ferrara}},
            familyi={L\bibinitperiod},
            given={E},
            giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{bb116df497b06cdb9aaad4afb59ec2f5}
-      \strng{fullhash}{bb116df497b06cdb9aaad4afb59ec2f5}
-      \strng{bibnamehash}{bb116df497b06cdb9aaad4afb59ec2f5}
-      \strng{authorbibnamehash}{bb116df497b06cdb9aaad4afb59ec2f5}
-      \strng{authornamehash}{bb116df497b06cdb9aaad4afb59ec2f5}
-      \strng{authorfullhash}{bb116df497b06cdb9aaad4afb59ec2f5}
+      \strng{namehash}{3374e03c173428ca493ec210375e8ed9}
+      \strng{fullhash}{3374e03c173428ca493ec210375e8ed9}
+      \strng{bibnamehash}{3374e03c173428ca493ec210375e8ed9}
+      \strng{authorbibnamehash}{3374e03c173428ca493ec210375e8ed9}
+      \strng{authornamehash}{3374e03c173428ca493ec210375e8ed9}
+      \strng{authorfullhash}{3374e03c173428ca493ec210375e8ed9}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Warwick University}
@@ -2082,9 +2017,7 @@
       \strng{authornamehash}{ad300da00d82fc42d2fc7831df2e4c0a}
       \strng{authorfullhash}{ad300da00d82fc42d2fc7831df2e4c0a}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: University of Chicago}
@@ -2103,7 +2036,7 @@
            familyi={C\bibinitperiod},
            given={Shyamal},
            giveni={S\bibinitperiod}}}%
-        {{hash=988ab6279d69f8f4e81ca6152d6e6e51}{%
+        {{hash=e9878ac34e7ffcdb6c7cb85743a22525}{%
            family={Mobarak},
            familyi={M\bibinitperiod},
            given={Ahmed\bibnamedelima Mushfiq},
@@ -2119,16 +2052,14 @@
            given={Joeri},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{00d85dcf25065506582c5a92f7087dac}
-      \strng{fullhash}{00d85dcf25065506582c5a92f7087dac}
-      \strng{bibnamehash}{00d85dcf25065506582c5a92f7087dac}
-      \strng{authorbibnamehash}{00d85dcf25065506582c5a92f7087dac}
-      \strng{authornamehash}{00d85dcf25065506582c5a92f7087dac}
-      \strng{authorfullhash}{00d85dcf25065506582c5a92f7087dac}
+      \strng{namehash}{2b7642f14d9f86fc0eeea0690bfde01c}
+      \strng{fullhash}{2b7642f14d9f86fc0eeea0690bfde01c}
+      \strng{bibnamehash}{2b7642f14d9f86fc0eeea0690bfde01c}
+      \strng{authorbibnamehash}{2b7642f14d9f86fc0eeea0690bfde01c}
+      \strng{authornamehash}{2b7642f14d9f86fc0eeea0690bfde01c}
+      \strng{authorfullhash}{2b7642f14d9f86fc0eeea0690bfde01c}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Yale University}
@@ -2137,29 +2068,27 @@
     \endentry
     \entry{BurgessStern}{article}{}
       \name{author}{2}{}{%
-        {{hash=656298eeb068468c0e0eece07737aa9a}{%
+        {{hash=850424f50fcae4e81436b1ea3ebd1bda}{%
            family={Burgess},
            familyi={B\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
-        {{hash=a647afb0cc54d2122f8306b5a4b368b5}{%
+        {{hash=6016a3791961977a208af7a11908bc31}{%
            family={Stern},
            familyi={S\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod}}}%
       }
-      \strng{namehash}{bc2654ab03866531c74ca276329b040b}
-      \strng{fullhash}{bc2654ab03866531c74ca276329b040b}
-      \strng{bibnamehash}{bc2654ab03866531c74ca276329b040b}
-      \strng{authorbibnamehash}{bc2654ab03866531c74ca276329b040b}
-      \strng{authornamehash}{bc2654ab03866531c74ca276329b040b}
-      \strng{authorfullhash}{bc2654ab03866531c74ca276329b040b}
+      \strng{namehash}{72799c05c9aacfcb2f5d3295787dbe1b}
+      \strng{fullhash}{72799c05c9aacfcb2f5d3295787dbe1b}
+      \strng{bibnamehash}{72799c05c9aacfcb2f5d3295787dbe1b}
+      \strng{authorbibnamehash}{72799c05c9aacfcb2f5d3295787dbe1b}
+      \strng{authornamehash}{72799c05c9aacfcb2f5d3295787dbe1b}
+      \strng{authorfullhash}{72799c05c9aacfcb2f5d3295787dbe1b}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{Journal of Economic Literature}
       \field{title}{Taxation and Development}
@@ -2170,27 +2099,27 @@
     \endentry
     \entry{CahyadiHannaOlkenPrimaSatriawanSyamsulhakim2018}{unpublished}{}
       \name{author}{6}{}{%
-        {{hash=b0b4812007f10c4b406ebdc4902dfd2f}{%
+        {{hash=0c9cc69a7af5cc96db4c62d55fb1721e}{%
            family={Cahyadi},
            familyi={C\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod}}}%
-        {{hash=8a20efa5cda9050f0f81625c3479eaf4}{%
+        {{hash=3be07f31740fed01b7dd4c336215d569}{%
            family={Hanna},
            familyi={H\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
-        {{hash=17d43e1603097edd4b5a0c67776d4695}{%
+        {{hash=813e174251e06d902738bf0d577328fc}{%
            family={Olken},
            familyi={O\bibinitperiod},
            given={B.A.},
            giveni={B\bibinitperiod}}}%
-        {{hash=8a3ff9b79acbef35c5c095993f39e5f5}{%
+        {{hash=34b234145a4cae7cc32cc56a43b1703b}{%
            family={Prima},
            familyi={P\bibinitperiod},
            given={R.A.},
            giveni={R\bibinitperiod}}}%
-        {{hash=28b0eca192f93c1641a1ce587cb38109}{%
+        {{hash=4b509b2200772ca743b31a61650fdc34}{%
            family={Satriawan},
            familyi={S\bibinitperiod},
            given={E.},
@@ -2201,16 +2130,14 @@
            given={E},
            giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
-      \strng{fullhash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
-      \strng{bibnamehash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
-      \strng{authorbibnamehash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
-      \strng{authornamehash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
-      \strng{authorfullhash}{dd4d2fcb3f4e65601f332b7e56d7ddd2}
+      \strng{namehash}{bec4ea07d5593df3e61f107f4449ad9a}
+      \strng{fullhash}{bec4ea07d5593df3e61f107f4449ad9a}
+      \strng{bibnamehash}{bec4ea07d5593df3e61f107f4449ad9a}
+      \strng{authorbibnamehash}{bec4ea07d5593df3e61f107f4449ad9a}
+      \strng{authornamehash}{bec4ea07d5593df3e61f107f4449ad9a}
+      \strng{authorfullhash}{bec4ea07d5593df3e61f107f4449ad9a}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: MIT}
@@ -2247,9 +2174,7 @@
       \strng{authornamehash}{92c30d0528218795fe04f6d0c354e61a}
       \strng{authorfullhash}{92c30d0528218795fe04f6d0c354e61a}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: UC San Diego}
@@ -2291,9 +2216,7 @@
       \strng{authornamehash}{8f9af8e836695e288a8a6fad5cab9156}
       \strng{authorfullhash}{8f9af8e836695e288a8a6fad5cab9156}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{NBER Working Paper 21180}
@@ -2307,24 +2230,22 @@
            familyi={C\bibinitperiod},
            given={M},
            giveni={M\bibinitperiod}}}%
-        {{hash=988671153651d1fd878bacc51570367e}{%
+        {{hash=6bccd7e4f17f94ebe7d2a5947cea4b8d}{%
            family={Long},
            familyi={L\bibinitperiod},
            given={J.D.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{973d63561312e62d9fddbcdfa5cd3281}
-      \strng{fullhash}{973d63561312e62d9fddbcdfa5cd3281}
-      \strng{bibnamehash}{973d63561312e62d9fddbcdfa5cd3281}
-      \strng{authorbibnamehash}{973d63561312e62d9fddbcdfa5cd3281}
-      \strng{authornamehash}{973d63561312e62d9fddbcdfa5cd3281}
-      \strng{authorfullhash}{973d63561312e62d9fddbcdfa5cd3281}
+      \strng{namehash}{0efd8b9a315058b3af566c34dbeed24a}
+      \strng{fullhash}{0efd8b9a315058b3af566c34dbeed24a}
+      \strng{bibnamehash}{0efd8b9a315058b3af566c34dbeed24a}
+      \strng{authorbibnamehash}{0efd8b9a315058b3af566c34dbeed24a}
+      \strng{authornamehash}{0efd8b9a315058b3af566c34dbeed24a}
+      \strng{authorfullhash}{0efd8b9a315058b3af566c34dbeed24a}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Review}
       \field{title}{Institutional Corruption and Election Fraud: Evidence From a Field Experiment in Afghanistan}
@@ -2353,11 +2274,9 @@
       \strng{authornamehash}{f5ffe1c2b9cdb93a8bc8736b9fb092b9}
       \strng{authorfullhash}{f5ffe1c2b9cdb93a8bc8736b9fb092b9}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{Ghost-House Busters: The Electoral Response to a Large Anti Tax Evasion Program}
@@ -2373,7 +2292,7 @@
            familyi={C\bibinitperiod},
            given={Cyril},
            giveni={C\bibinitperiod}}}%
-        {{hash=09da19069acaac2391a56f086ddcaeec}{%
+        {{hash=fb98108aaa7447ee265bf615236df5da}{%
            family={Fernandes},
            familyi={F\bibinitperiod},
            given={Ana\bibnamedelima M.},
@@ -2389,16 +2308,14 @@
            given={Bob},
            giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{9736338eecb701aec944caa280c4e54a}
-      \strng{fullhash}{9736338eecb701aec944caa280c4e54a}
-      \strng{bibnamehash}{9736338eecb701aec944caa280c4e54a}
-      \strng{authorbibnamehash}{9736338eecb701aec944caa280c4e54a}
-      \strng{authornamehash}{9736338eecb701aec944caa280c4e54a}
-      \strng{authorfullhash}{9736338eecb701aec944caa280c4e54a}
+      \strng{namehash}{e04334197a7a6075537bd4d5d62f0f86}
+      \strng{fullhash}{e04334197a7a6075537bd4d5d62f0f86}
+      \strng{bibnamehash}{e04334197a7a6075537bd4d5d62f0f86}
+      \strng{authorbibnamehash}{e04334197a7a6075537bd4d5d62f0f86}
+      \strng{authornamehash}{e04334197a7a6075537bd4d5d62f0f86}
+      \strng{authorfullhash}{e04334197a7a6075537bd4d5d62f0f86}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{mimeo: World Bank}
@@ -2407,51 +2324,49 @@
     \endentry
     \entry{Chalfinetal2016}{article}{}
       \name{author}{6}{}{%
-        {{hash=9499fd3715e264d9f0e772434abc1377}{%
+        {{hash=eb7e5edf2517bdaf07f51f0da8706708}{%
            family={Chalfin},
            familyi={C\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=80455c2c5574765779dfd8d008ef0bd4}{%
+        {{hash=8af6efa30b6e645b4b4c979f358edd5e}{%
            family={Danieli},
            familyi={D\bibinitperiod},
            given={O.},
            giveni={O\bibinitperiod}}}%
-        {{hash=8c0f385df26775b50e040658f28d3721}{%
+        {{hash=506c84a551229e6e75b2fae7a84bd4f0}{%
            family={Z.\bibnamedelimi Jelveh},
            familyi={Z\bibinitperiod\bibinitdelim J\bibinitperiod},
            given={A.\bibnamedelimi Hillis},
            giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
            prefix={an},
            prefixi={a\bibinitperiod}}}%
-        {{hash=01897bf3a13ddc879df04b588830920b}{%
+        {{hash=15122906295f6add09d7d5bf37fcb05e}{%
            family={Luca},
            familyi={L\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
-        {{hash=18fb3ebe15f35b1f344379dc180e81f3}{%
+        {{hash=06959beb12d7ed0dae56720fc7203598}{%
            family={Ludwig},
            familyi={L\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=8f641f01c1d264f4477b23c72c80b0f3}{%
+        {{hash=e0dbb370d319a5ff72be8fc0e0256060}{%
            family={Mullainathan},
            familyi={M\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{7111a9551567093365eac8c2c8aa7cf5}
-      \strng{fullhash}{7111a9551567093365eac8c2c8aa7cf5}
-      \strng{bibnamehash}{7111a9551567093365eac8c2c8aa7cf5}
-      \strng{authorbibnamehash}{7111a9551567093365eac8c2c8aa7cf5}
-      \strng{authornamehash}{7111a9551567093365eac8c2c8aa7cf5}
-      \strng{authorfullhash}{7111a9551567093365eac8c2c8aa7cf5}
+      \strng{namehash}{2b6c064e0afe7011c0bc08979e537f9f}
+      \strng{fullhash}{2b6c064e0afe7011c0bc08979e537f9f}
+      \strng{bibnamehash}{2b6c064e0afe7011c0bc08979e537f9f}
+      \strng{authorbibnamehash}{2b6c064e0afe7011c0bc08979e537f9f}
+      \strng{authornamehash}{2b6c064e0afe7011c0bc08979e537f9f}
+      \strng{authorfullhash}{2b6c064e0afe7011c0bc08979e537f9f}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{5}
       \field{journaltitle}{American Economic Review, Papers and Proceedings}
       \field{title}{Productivity and selection of human capital with machine learning}
@@ -2482,24 +2397,22 @@
            familyi={M\bibinitperiod},
            given={K},
            giveni={K\bibinitperiod}}}%
-        {{hash=5641d7e2c427173c9d64addb902eb4fd}{%
+        {{hash=0c6b129b8c032f99ce25887d7a5f8609}{%
            family={{Halsey Rogers}},
            familyi={H\bibinitperiod},
            given={F.},
            giveni={F\bibinitperiod}}}%
       }
-      \strng{namehash}{af26e0dd5159c273be7f7f77bd517cd2}
-      \strng{fullhash}{af26e0dd5159c273be7f7f77bd517cd2}
-      \strng{bibnamehash}{af26e0dd5159c273be7f7f77bd517cd2}
-      \strng{authorbibnamehash}{af26e0dd5159c273be7f7f77bd517cd2}
-      \strng{authornamehash}{af26e0dd5159c273be7f7f77bd517cd2}
-      \strng{authorfullhash}{af26e0dd5159c273be7f7f77bd517cd2}
+      \strng{namehash}{4841e3f7e7650b529a284d14351ff29f}
+      \strng{fullhash}{4841e3f7e7650b529a284d14351ff29f}
+      \strng{bibnamehash}{4841e3f7e7650b529a284d14351ff29f}
+      \strng{authorbibnamehash}{4841e3f7e7650b529a284d14351ff29f}
+      \strng{authornamehash}{4841e3f7e7650b529a284d14351ff29f}
+      \strng{authorfullhash}{4841e3f7e7650b529a284d14351ff29f}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{Journal of Economic Perspectives}
       \field{title}{Missing in Action: Teacher and Health Worker Absence in Developing Countries}
@@ -2510,71 +2423,40 @@
     \endentry
     \entry{ChenLiuSuarezXu2018}{unpublished}{}
       \name{author}{4}{}{%
-        {{hash=830dae9f179578bf86cab0dc871a02d7}{%
+        {{hash=d90f53b6c47cfea3540b0fb9da23dbd7}{%
            family={Chen},
            familyi={C\bibinitperiod},
            given={Z.},
            giveni={Z\bibinitperiod}}}%
-        {{hash=19c74135e03ebc400715e4cdb04543d7}{%
+        {{hash=4502ea5dcc2b2cf1ac11fe01b5f68826}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Z.},
            giveni={Z\bibinitperiod}}}%
-        {{hash=59c4c8cb92bdb0e02840f0733d101adb}{%
+        {{hash=65c72ae2e4fa1e3a44c5594f675ca6ca}{%
            family={Suarez-Serrato},
            familyi={S\bibinithyphendelim S\bibinitperiod},
            given={J.\bibnamedelimi C.},
            giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=c396d84bb1ec1c855232dede0ab1d33a}{%
+        {{hash=e1e24125fad7f1b6c66d26501937ec52}{%
            family={Xu},
            familyi={X\bibinitperiod},
            given={D.},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{d6980054bac63095b25542340e900d27}
-      \strng{fullhash}{d6980054bac63095b25542340e900d27}
-      \strng{bibnamehash}{d6980054bac63095b25542340e900d27}
-      \strng{authorbibnamehash}{d6980054bac63095b25542340e900d27}
-      \strng{authornamehash}{d6980054bac63095b25542340e900d27}
-      \strng{authorfullhash}{d6980054bac63095b25542340e900d27}
+      \strng{namehash}{33423f979a6607a257e0a70cb99fb94a}
+      \strng{fullhash}{33423f979a6607a257e0a70cb99fb94a}
+      \strng{bibnamehash}{33423f979a6607a257e0a70cb99fb94a}
+      \strng{authorbibnamehash}{33423f979a6607a257e0a70cb99fb94a}
+      \strng{authornamehash}{33423f979a6607a257e0a70cb99fb94a}
+      \strng{authorfullhash}{33423f979a6607a257e0a70cb99fb94a}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Duke University}
       \field{title}{Notching R\&D Investment with Corporate Income Tax Cuts in China}
       \field{year}{2018}
-    \endentry
-    \entry{Chetty2009}{article}{}
-      \name{author}{1}{}{%
-        {{hash=a572726d1f98cd7f95ddf70a094849b5}{%
-           family={Chetty},
-           familyi={C\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{a572726d1f98cd7f95ddf70a094849b5}
-      \strng{fullhash}{a572726d1f98cd7f95ddf70a094849b5}
-      \strng{bibnamehash}{a572726d1f98cd7f95ddf70a094849b5}
-      \strng{authorbibnamehash}{a572726d1f98cd7f95ddf70a094849b5}
-      \strng{authornamehash}{a572726d1f98cd7f95ddf70a094849b5}
-      \strng{authorfullhash}{a572726d1f98cd7f95ddf70a094849b5}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{2}
-      \field{journaltitle}{American Economic Journal: Economic Policy}
-      \field{title}{Is the Taxable Income Elasticity Sufficient to Calculate Deadweight Loss? The Implications of Evasion and Avoidance}
-      \field{volume}{1}
-      \field{year}{2009}
-      \field{pages}{31\bibrangedash 52}
-      \range{pages}{22}
     \endentry
     \entry{Chettyetal2013}{article}{}
       \name{author}{3}{}{%
@@ -2601,11 +2483,9 @@
       \strng{authornamehash}{2c78b2fb4ed663cb586f6d51a35715ca}
       \strng{authorfullhash}{2c78b2fb4ed663cb586f6d51a35715ca}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{7}
       \field{journaltitle}{American Economic Review}
       \field{title}{Using Differenes in Knowledge Across Neighborhoods to Uncover the Impacts of the EITC on Earnings}
@@ -2613,6 +2493,33 @@
       \field{year}{2013}
       \field{pages}{2683\bibrangedash 2721}
       \range{pages}{39}
+    \endentry
+    \entry{Chetty2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3748e1aff9f8235793adc57836951bb3}{%
+           family={Chetty},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3748e1aff9f8235793adc57836951bb3}
+      \strng{fullhash}{3748e1aff9f8235793adc57836951bb3}
+      \strng{bibnamehash}{3748e1aff9f8235793adc57836951bb3}
+      \strng{authorbibnamehash}{3748e1aff9f8235793adc57836951bb3}
+      \strng{authornamehash}{3748e1aff9f8235793adc57836951bb3}
+      \strng{authorfullhash}{3748e1aff9f8235793adc57836951bb3}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{issue}{2}
+      \field{journaltitle}{American Economic Journal: Economic Policy}
+      \field{title}{Is the Taxable Income Elasticity Sufficient to Calculate Deadweight Loss? The Implications of Evasion and Avoidance}
+      \field{volume}{1}
+      \field{year}{2009}
+      \field{pages}{31\bibrangedash 52}
+      \range{pages}{22}
     \endentry
     \entry{Chetty2009ARE}{article}{}
       \name{author}{1}{}{%
@@ -2628,13 +2535,11 @@
       \strng{authorbibnamehash}{7a853740afbc544905334cf607b3cd51}
       \strng{authornamehash}{7a853740afbc544905334cf607b3cd51}
       \strng{authorfullhash}{7a853740afbc544905334cf607b3cd51}
+      \field{extraname}{2}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Annual Review of Economics}
       \field{title}{Sufficient Statistics for Welfare Analysis: A Bridge Between Structural and Reduced-Form Methods}
       \field{volume}{1}
@@ -2667,11 +2572,9 @@
       \strng{authornamehash}{4acc11e4162cc5f49a136af4acb32955}
       \strng{authorfullhash}{4acc11e4162cc5f49a136af4acb32955}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{American Economic Review}
       \field{title}{Price Subsidies, Diagnostic Tests, and Targeting of Malaria Treatment: Evidence from a Randomized Controlled Trial}
@@ -2682,12 +2585,12 @@
     \endentry
     \entry{Cunhaetal2017}{unpublished}{}
       \name{author}{3}{}{%
-        {{hash=9c02a69b0e78cbcda63eda22fe8bfa2b}{%
+        {{hash=57ebda7941b47fc7e822a81c8d36c2ca}{%
            family={Cunha},
            familyi={C\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=87c7b702c27d093ae97092a2f3869d0b}{%
+        {{hash=057249399bf7d084edf287439965543e}{%
            family={{De Giorgi}},
            familyi={D\bibinitperiod},
            given={G},
@@ -2698,16 +2601,14 @@
            given={S},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{8e850b738913ca21eaa91811e1098fac}
-      \strng{fullhash}{8e850b738913ca21eaa91811e1098fac}
-      \strng{bibnamehash}{8e850b738913ca21eaa91811e1098fac}
-      \strng{authorbibnamehash}{8e850b738913ca21eaa91811e1098fac}
-      \strng{authornamehash}{8e850b738913ca21eaa91811e1098fac}
-      \strng{authorfullhash}{8e850b738913ca21eaa91811e1098fac}
+      \strng{namehash}{a1aa001b6a56714cf205df2cdcc2daee}
+      \strng{fullhash}{a1aa001b6a56714cf205df2cdcc2daee}
+      \strng{bibnamehash}{a1aa001b6a56714cf205df2cdcc2daee}
+      \strng{authorbibnamehash}{a1aa001b6a56714cf205df2cdcc2daee}
+      \strng{authornamehash}{a1aa001b6a56714cf205df2cdcc2daee}
+      \strng{authorfullhash}{a1aa001b6a56714cf205df2cdcc2daee}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Northwestern University}
@@ -2716,8 +2617,8 @@
     \endentry
     \entry{DalBoetal2013}{article}{}
       \name{author}{3}{}{%
-        {{hash=592ff28a5a271ee66944ead48f80a94c}{%
-           family={{Dal B{ó}}},
+        {{hash=d561eee27dc2950f963404595995b0a9}{%
+           family={{Dal Bó}},
            familyi={D\bibinitperiod},
            given={E},
            giveni={E\bibinitperiod}}}%
@@ -2726,24 +2627,22 @@
            familyi={F\bibinitperiod},
            given={F},
            giveni={F\bibinitperiod}}}%
-        {{hash=3b9e9f271ad7fc02dd2a14f61d119c2e}{%
+        {{hash=f6f4eacfbb80d0ea639b6f25f53ad1fb}{%
            family={Rossi},
            familyi={R\bibinitperiod},
            given={M.A.},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{7286d030fedfb120e2311d40b9e4e629}
-      \strng{fullhash}{7286d030fedfb120e2311d40b9e4e629}
-      \strng{bibnamehash}{7286d030fedfb120e2311d40b9e4e629}
-      \strng{authorbibnamehash}{7286d030fedfb120e2311d40b9e4e629}
-      \strng{authornamehash}{7286d030fedfb120e2311d40b9e4e629}
-      \strng{authorfullhash}{7286d030fedfb120e2311d40b9e4e629}
+      \strng{namehash}{d2fe6f6e6a9f47a5f21ba648a18d9dfe}
+      \strng{fullhash}{d2fe6f6e6a9f47a5f21ba648a18d9dfe}
+      \strng{bibnamehash}{d2fe6f6e6a9f47a5f21ba648a18d9dfe}
+      \strng{authorbibnamehash}{d2fe6f6e6a9f47a5f21ba648a18d9dfe}
+      \strng{authornamehash}{d2fe6f6e6a9f47a5f21ba648a18d9dfe}
+      \strng{authorfullhash}{d2fe6f6e6a9f47a5f21ba648a18d9dfe}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{3}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{Strengthening State Capabilities: The Role of Financial Incentives in the Call to Public Service}
@@ -2754,7 +2653,7 @@
     \endentry
     \entry{DeReeetal2017}{unpublished}{}
       \name{author}{4}{}{%
-        {{hash=855e8d49721255838fd0017b59a00117}{%
+        {{hash=f59b5e4ec5be3b709be3ad82ccd79071}{%
            family={{De Ree}},
            familyi={D\bibinitperiod},
            given={J},
@@ -2775,16 +2674,14 @@
            given={H},
            giveni={H\bibinitperiod}}}%
       }
-      \strng{namehash}{d3ad769937d3ede477494d80eee0dcfe}
-      \strng{fullhash}{d3ad769937d3ede477494d80eee0dcfe}
-      \strng{bibnamehash}{d3ad769937d3ede477494d80eee0dcfe}
-      \strng{authorbibnamehash}{d3ad769937d3ede477494d80eee0dcfe}
-      \strng{authornamehash}{d3ad769937d3ede477494d80eee0dcfe}
-      \strng{authorfullhash}{d3ad769937d3ede477494d80eee0dcfe}
+      \strng{namehash}{b8a9ef04949392a7bd6efc3337d5ea89}
+      \strng{fullhash}{b8a9ef04949392a7bd6efc3337d5ea89}
+      \strng{bibnamehash}{b8a9ef04949392a7bd6efc3337d5ea89}
+      \strng{authorbibnamehash}{b8a9ef04949392a7bd6efc3337d5ea89}
+      \strng{authornamehash}{b8a9ef04949392a7bd6efc3337d5ea89}
+      \strng{authorfullhash}{b8a9ef04949392a7bd6efc3337d5ea89}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{forthcoming, Quarterly Journal of Economics}
@@ -2806,9 +2703,7 @@
       \strng{authornamehash}{2d1220c6817b600fb183c7c5125637b7}
       \strng{authorfullhash}{2d1220c6817b600fb183c7c5125637b7}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Northwestern}
@@ -2835,9 +2730,7 @@
       \strng{authornamehash}{80a77d4c85d25b492596461ce2d58128}
       \strng{authorfullhash}{80a77d4c85d25b492596461ce2d58128}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: University of Chicago}
@@ -2873,12 +2766,11 @@
       \strng{authorbibnamehash}{1b982bf5f93be2023e6d3146d31a0e4b}
       \strng{authornamehash}{1b982bf5f93be2023e6d3146d31a0e4b}
       \strng{authorfullhash}{1b982bf5f93be2023e6d3146d31a0e4b}
+      \field{extraname}{1}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{6}
       \field{journaltitle}{Econometrica}
       \field{title}{The Value of Discretion in the Enforcement of Regulation: Experimental Evidence and Structural Estimates from Environmental Inspections in India}
@@ -2916,12 +2808,11 @@
       \strng{authorbibnamehash}{1b982bf5f93be2023e6d3146d31a0e4b}
       \strng{authornamehash}{1b982bf5f93be2023e6d3146d31a0e4b}
       \strng{authorfullhash}{1b982bf5f93be2023e6d3146d31a0e4b}
+      \field{extraname}{2}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{Truth Telling by Third Party Audits and the Response of Polluting Firms: Experimental Evidence from India}
@@ -2942,24 +2833,22 @@
            familyi={H\bibinitperiod},
            given={R},
            giveni={R\bibinitperiod}}}%
-        {{hash=a828d7cfd9be4de29bfb187046d279ff}{%
+        {{hash=b0826de1496d6fb7c7a24f054b31a929}{%
            family={Ryan},
            familyi={R\bibinitperiod},
            given={S.P.},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{97d6e8e90462c9beb9193231fa9fb3d9}
-      \strng{fullhash}{97d6e8e90462c9beb9193231fa9fb3d9}
-      \strng{bibnamehash}{97d6e8e90462c9beb9193231fa9fb3d9}
-      \strng{authorbibnamehash}{97d6e8e90462c9beb9193231fa9fb3d9}
-      \strng{authornamehash}{97d6e8e90462c9beb9193231fa9fb3d9}
-      \strng{authorfullhash}{97d6e8e90462c9beb9193231fa9fb3d9}
+      \strng{namehash}{4957108bb93c08dad29e33a0a209cddb}
+      \strng{fullhash}{4957108bb93c08dad29e33a0a209cddb}
+      \strng{bibnamehash}{4957108bb93c08dad29e33a0a209cddb}
+      \strng{authorbibnamehash}{4957108bb93c08dad29e33a0a209cddb}
+      \strng{authornamehash}{4957108bb93c08dad29e33a0a209cddb}
+      \strng{authorfullhash}{4957108bb93c08dad29e33a0a209cddb}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{American Economic Review}
       \field{title}{Incentives Work: Getting Teachers to Come to School}
@@ -2970,39 +2859,37 @@
     \endentry
     \entry{Dwengeretal2016}{article}{}
       \name{author}{4}{}{%
-        {{hash=e2ce70a3da9d7b2e06cd382f6b3035d6}{%
+        {{hash=ec3edf9abeec558906a9c089938b1e65}{%
            family={Dwenger},
            familyi={D\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod}}}%
-        {{hash=bb934bfa4c1ef289559ed2d15eadfe92}{%
+        {{hash=85fa0432d58f77468192b2eaf901ce17}{%
            family={Kleven},
            familyi={K\bibinitperiod},
            given={H.J.},
            giveni={H\bibinitperiod}}}%
-        {{hash=6a5203438b40e75db91fe9be4e78b107}{%
+        {{hash=29699b7e90f0958a684889bca3d774ff}{%
            family={Rasul},
            familyi={R\bibinitperiod},
            given={I.},
            giveni={I\bibinitperiod}}}%
-        {{hash=750bfa6642c64d4ee4ed6cadaed6b86e}{%
+        {{hash=0ce38daccb0f3a879e44cd03339314db}{%
            family={Rincke},
            familyi={R\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{fe82e1c771fa2c6f81ea09be3cb01de4}
-      \strng{fullhash}{fe82e1c771fa2c6f81ea09be3cb01de4}
-      \strng{bibnamehash}{fe82e1c771fa2c6f81ea09be3cb01de4}
-      \strng{authorbibnamehash}{fe82e1c771fa2c6f81ea09be3cb01de4}
-      \strng{authornamehash}{fe82e1c771fa2c6f81ea09be3cb01de4}
-      \strng{authorfullhash}{fe82e1c771fa2c6f81ea09be3cb01de4}
+      \strng{namehash}{bc581d43242cc159aedbdd4d389565ee}
+      \strng{fullhash}{bc581d43242cc159aedbdd4d389565ee}
+      \strng{bibnamehash}{bc581d43242cc159aedbdd4d389565ee}
+      \strng{authorbibnamehash}{bc581d43242cc159aedbdd4d389565ee}
+      \strng{authornamehash}{bc581d43242cc159aedbdd4d389565ee}
+      \strng{authorfullhash}{bc581d43242cc159aedbdd4d389565ee}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{3}
       \field{journaltitle}{American Economic Journal: Economic Policy}
       \field{title}{Extrinsic and Intrinsic Motivations for Tax Compliance: Evidence From a Field Experiment in Germany}
@@ -3046,9 +2933,7 @@
       \strng{authornamehash}{6408ef23eb70fe79e51be78d75f9263b}
       \strng{authorfullhash}{6408ef23eb70fe79e51be78d75f9263b}
       \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{forthcoming: Econometrica}
@@ -3080,9 +2965,7 @@
       \strng{authornamehash}{1634c436e0cf0399d6cbea2497026ba9}
       \strng{authorfullhash}{1634c436e0cf0399d6cbea2497026ba9}
       \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo}
@@ -3104,11 +2987,9 @@
       \strng{authornamehash}{e6510bac246693d0d3af1e55bb29f123}
       \strng{authorfullhash}{e6510bac246693d0d3af1e55bb29f123}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{Review of Economics and Statistics}
       \field{title}{Tax Avoidance and the Deadweight Loss of the Income Tax}
@@ -3157,9 +3038,7 @@
       \strng{editornamehash}{71eb3dc5797e7cfb0aee44477bdadf79}
       \strng{editorfullhash}{71eb3dc5797e7cfb0aee44477bdadf79}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Field Experiments, Volume II}
@@ -3174,22 +3053,20 @@
            familyi={F\bibinitperiod},
            given={A},
            giveni={A\bibinitperiod}}}%
-        {{hash=dadbaa636275a94f451433504ef8864a}{%
+        {{hash=b15d7ce230e81f3077d6317dea94b9b9}{%
            family={Notowidigdo},
            familyi={N\bibinitperiod},
            given={M.J.},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{31cc32dedeb7e398547931a35cc66a67}
-      \strng{fullhash}{31cc32dedeb7e398547931a35cc66a67}
-      \strng{bibnamehash}{31cc32dedeb7e398547931a35cc66a67}
-      \strng{authorbibnamehash}{31cc32dedeb7e398547931a35cc66a67}
-      \strng{authornamehash}{31cc32dedeb7e398547931a35cc66a67}
-      \strng{authorfullhash}{31cc32dedeb7e398547931a35cc66a67}
+      \strng{namehash}{7f13e85f9b6182d69b47c52d058c62c2}
+      \strng{fullhash}{7f13e85f9b6182d69b47c52d058c62c2}
+      \strng{bibnamehash}{7f13e85f9b6182d69b47c52d058c62c2}
+      \strng{authorbibnamehash}{7f13e85f9b6182d69b47c52d058c62c2}
+      \strng{authornamehash}{7f13e85f9b6182d69b47c52d058c62c2}
+      \strng{authorfullhash}{7f13e85f9b6182d69b47c52d058c62c2}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: MIT}
@@ -3216,9 +3093,7 @@
       \strng{authornamehash}{2662466fe6d71574b7f486f9d1d32014}
       \strng{authorfullhash}{2662466fe6d71574b7f486f9d1d32014}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{NBER working paper 27640. Forthcoming, Journal of Economic Perspectives}
@@ -3245,11 +3120,9 @@
       \strng{authornamehash}{4b2ddbd50faad44fa259cccf18548e13}
       \strng{authorfullhash}{4b2ddbd50faad44fa259cccf18548e13}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{Journal of Political Economy}
       \field{title}{Tax Rates and Tax Evasion: Evidence from ``Missing Imports'' in China}
@@ -3273,11 +3146,9 @@
       \strng{authornamehash}{b104bfa5ce5726d95c88e0f911393b60}
       \strng{authorfullhash}{b104bfa5ce5726d95c88e0f911393b60}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{Econometrica}
       \field{title}{Voting Technology, Political Responsiveness, and Infant Health: Evidence from Brazil}
@@ -3293,7 +3164,7 @@
            familyi={G\bibinitperiod},
            given={Lucie},
            giveni={L\bibinitperiod}}}%
-        {{hash=f17a7c63d0b978c8124bb954a0523d49}{%
+        {{hash=b790a110d6bf8317757c2cabcb6a7e8e}{%
            family={Nandi},
            familyi={N\bibinitperiod},
            given={Tushar\bibnamedelima K.},
@@ -3304,16 +3175,14 @@
            given={Roland},
            giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{8f197a6e3e6d2a32c6fe60aebc81818f}
-      \strng{fullhash}{8f197a6e3e6d2a32c6fe60aebc81818f}
-      \strng{bibnamehash}{8f197a6e3e6d2a32c6fe60aebc81818f}
-      \strng{authorbibnamehash}{8f197a6e3e6d2a32c6fe60aebc81818f}
-      \strng{authornamehash}{8f197a6e3e6d2a32c6fe60aebc81818f}
-      \strng{authorfullhash}{8f197a6e3e6d2a32c6fe60aebc81818f}
+      \strng{namehash}{e4f153b31d391350a2e18734f0026c04}
+      \strng{fullhash}{e4f153b31d391350a2e18734f0026c04}
+      \strng{bibnamehash}{e4f153b31d391350a2e18734f0026c04}
+      \strng{authorbibnamehash}{e4f153b31d391350a2e18734f0026c04}
+      \strng{authornamehash}{e4f153b31d391350a2e18734f0026c04}
+      \strng{authorfullhash}{e4f153b31d391350a2e18734f0026c04}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Taxation and Supplier Networks: Evidence from India}
@@ -3344,89 +3213,46 @@
       \strng{authornamehash}{563ee3ee6d29c1139656e040bba43d5a}
       \strng{authorfullhash}{563ee3ee6d29c1139656e040bba43d5a}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: London School of Economics}
       \field{title}{Cash Transfers and Formal Labor Markets: Evidence from Brazil}
       \field{year}{2021}
     \endentry
-    \entry{Glaeseretal2015}{unpublished}{}
-      \name{author}{4}{}{%
-        {{hash=e6f6c0b3bec6a754545336bcde4f98a7}{%
-           family={Glaeser},
-           familyi={G\bibinitperiod},
-           given={E.L.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=468ca99a8218ffff848fc5350a4bca4f}{%
-           family={Kominers},
-           familyi={K\bibinitperiod},
-           given={S.D.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=01897bf3a13ddc879df04b588830920b}{%
-           family={Luca},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=4239e962fb4afffe0aa90d6efd385514}{%
-           family={Naik},
-           familyi={N\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{1b231527656af034c5bfa91053ac1e32}
-      \strng{fullhash}{1b231527656af034c5bfa91053ac1e32}
-      \strng{bibnamehash}{1b231527656af034c5bfa91053ac1e32}
-      \strng{authorbibnamehash}{1b231527656af034c5bfa91053ac1e32}
-      \strng{authornamehash}{1b231527656af034c5bfa91053ac1e32}
-      \strng{authorfullhash}{1b231527656af034c5bfa91053ac1e32}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{NBER Working Paper}
-      \field{title}{Big data and big cities: The promises and limitations of improved measures of urban life}
-      \field{year}{2015}
-    \endentry
     \entry{Glaeseretal2016}{article}{}
       \name{author}{4}{}{%
-        {{hash=7ca261e4a1db345a96406f37d5479f0e}{%
+        {{hash=bade009130f0825c2f63284265f75ea3}{%
            family={Glaeser},
            familyi={G\bibinitperiod},
            given={E.L},
            giveni={E\bibinitperiod}}}%
-        {{hash=9f93aa542b27e12ada1cd92f4831f49f}{%
+        {{hash=3537b5339576e65ce5534aa3317c2bbf}{%
            family={Hillis},
            familyi={H\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=468ca99a8218ffff848fc5350a4bca4f}{%
+        {{hash=d23093cfb73b33bcbb7310bff5968d34}{%
            family={Kominers},
            familyi={K\bibinitperiod},
            given={S.D.},
            giveni={S\bibinitperiod}}}%
-        {{hash=01897bf3a13ddc879df04b588830920b}{%
+        {{hash=15122906295f6add09d7d5bf37fcb05e}{%
            family={Luca},
            familyi={L\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{d3d1b345ba1cf07fe87229d3a6f59fe1}
-      \strng{fullhash}{d3d1b345ba1cf07fe87229d3a6f59fe1}
-      \strng{bibnamehash}{d3d1b345ba1cf07fe87229d3a6f59fe1}
-      \strng{authorbibnamehash}{d3d1b345ba1cf07fe87229d3a6f59fe1}
-      \strng{authornamehash}{d3d1b345ba1cf07fe87229d3a6f59fe1}
-      \strng{authorfullhash}{d3d1b345ba1cf07fe87229d3a6f59fe1}
+      \strng{namehash}{511d33f322aba7549ae924287309fa28}
+      \strng{fullhash}{511d33f322aba7549ae924287309fa28}
+      \strng{bibnamehash}{511d33f322aba7549ae924287309fa28}
+      \strng{authorbibnamehash}{511d33f322aba7549ae924287309fa28}
+      \strng{authornamehash}{511d33f322aba7549ae924287309fa28}
+      \strng{authorfullhash}{511d33f322aba7549ae924287309fa28}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{5}
       \field{journaltitle}{American Economic Review, Papers and Proceedings}
       \field{title}{Predictive cities crowdsourcing city government: Using tournaments to improve inspection accuracy}
@@ -3435,6 +3261,43 @@
       \field{pages}{114\bibrangedash 118}
       \range{pages}{5}
     \endentry
+    \entry{Glaeseretal2015}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=bade009130f0825c2f63284265f75ea3}{%
+           family={Glaeser},
+           familyi={G\bibinitperiod},
+           given={E.L.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d23093cfb73b33bcbb7310bff5968d34}{%
+           family={Kominers},
+           familyi={K\bibinitperiod},
+           given={S.D.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=15122906295f6add09d7d5bf37fcb05e}{%
+           family={Luca},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1f1cdb06dbf816393cb3cf48fb9e1d52}{%
+           family={Naik},
+           familyi={N\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e22da37b1c872f60a8c86498b19a8d76}
+      \strng{fullhash}{e22da37b1c872f60a8c86498b19a8d76}
+      \strng{bibnamehash}{e22da37b1c872f60a8c86498b19a8d76}
+      \strng{authorbibnamehash}{e22da37b1c872f60a8c86498b19a8d76}
+      \strng{authornamehash}{e22da37b1c872f60a8c86498b19a8d76}
+      \strng{authorfullhash}{e22da37b1c872f60a8c86498b19a8d76}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{NBER Working Paper}
+      \field{title}{Big data and big cities: The promises and limitations of improved measures of urban life}
+      \field{year}{2015}
+    \endentry
     \entry{Goeletal2016}{article}{}
       \name{author}{3}{}{%
         {{hash=2eddce5206cea701ee05179c077ebb6b}{%
@@ -3442,7 +3305,7 @@
            familyi={G\bibinitperiod},
            given={S},
            giveni={S\bibinitperiod}}}%
-        {{hash=25d72fed32a21e7bdf8291f60baaabb7}{%
+        {{hash=9ad7dafe0bae466b0927fe51854c0bc1}{%
            family={Rao},
            familyi={R\bibinitperiod},
            given={J.M.},
@@ -3453,18 +3316,16 @@
            given={R},
            giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{9451ea8a0999c9078b2d031ee1baa245}
-      \strng{fullhash}{9451ea8a0999c9078b2d031ee1baa245}
-      \strng{bibnamehash}{9451ea8a0999c9078b2d031ee1baa245}
-      \strng{authorbibnamehash}{9451ea8a0999c9078b2d031ee1baa245}
-      \strng{authornamehash}{9451ea8a0999c9078b2d031ee1baa245}
-      \strng{authorfullhash}{9451ea8a0999c9078b2d031ee1baa245}
+      \strng{namehash}{6a32f19d9897b78f7760f839175fba53}
+      \strng{fullhash}{6a32f19d9897b78f7760f839175fba53}
+      \strng{bibnamehash}{6a32f19d9897b78f7760f839175fba53}
+      \strng{authorbibnamehash}{6a32f19d9897b78f7760f839175fba53}
+      \strng{authornamehash}{6a32f19d9897b78f7760f839175fba53}
+      \strng{authorfullhash}{6a32f19d9897b78f7760f839175fba53}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{5}
       \field{journaltitle}{American Economic Review, Papers and Proceedings}
       \field{title}{Personalized risk assessments in the criminal justice system}
@@ -3493,11 +3354,9 @@
       \strng{authornamehash}{c881d5904897f76af7ff35879753160a}
       \strng{authorfullhash}{c881d5904897f76af7ff35879753160a}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Journal of Public Economics}
       \field{title}{Tax Structures in Developing Countries: Many Puzzles and a Possible Explanation}
       \field{volume}{93}
@@ -3507,34 +3366,32 @@
     \endentry
     \entry{Gorodnichenkoetal2009}{article}{}
       \name{author}{3}{}{%
-        {{hash=730f697a74c43907bb459d349f1890dd}{%
+        {{hash=e04b48ad83126df71e91a7b851b148e0}{%
            family={Gorodnichenko},
            familyi={G\bibinitperiod},
            given={Y.},
            giveni={Y\bibinitperiod}}}%
-        {{hash=a76e8f0821c355a12420884115666626}{%
+        {{hash=447fe3593cdd4ff99cf622ca2ca0d7b4}{%
            family={Martinez-Vazquez},
            familyi={M\bibinithyphendelim V\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=85a48286837ef7e0a2ce056b57b037a9}{%
+        {{hash=d97d8574b6140747ec400e8a7e9acc7a}{%
            family={Peter},
            familyi={P\bibinitperiod},
            given={K.S.},
            giveni={K\bibinitperiod}}}%
       }
-      \strng{namehash}{46ee72c083bd75c6313a312b40c3fc17}
-      \strng{fullhash}{46ee72c083bd75c6313a312b40c3fc17}
-      \strng{bibnamehash}{46ee72c083bd75c6313a312b40c3fc17}
-      \strng{authorbibnamehash}{46ee72c083bd75c6313a312b40c3fc17}
-      \strng{authornamehash}{46ee72c083bd75c6313a312b40c3fc17}
-      \strng{authorfullhash}{46ee72c083bd75c6313a312b40c3fc17}
+      \strng{namehash}{8527966e39bf8e71b6f5ec91c342ac06}
+      \strng{fullhash}{8527966e39bf8e71b6f5ec91c342ac06}
+      \strng{bibnamehash}{8527966e39bf8e71b6f5ec91c342ac06}
+      \strng{authorbibnamehash}{8527966e39bf8e71b6f5ec91c342ac06}
+      \strng{authornamehash}{8527966e39bf8e71b6f5ec91c342ac06}
+      \strng{authorfullhash}{8527966e39bf8e71b6f5ec91c342ac06}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Journal of Political Economy}
       \field{title}{Myth and Reality of Flat Tax Reform: Micro Estimates of Tax Evasion and Productivity Response in Russia}
       \field{volume}{117}
@@ -3577,9 +3434,7 @@
       \strng{authornamehash}{215df397596f0419d3ce64f684b0db0c}
       \strng{authorfullhash}{215df397596f0419d3ce64f684b0db0c}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Tax Evasion at the Top of the Income Distribution: Theory and Evidence}
@@ -3592,24 +3447,22 @@
            familyi={H\bibinitperiod},
            given={R},
            giveni={R\bibinitperiod}}}%
-        {{hash=17d43e1603097edd4b5a0c67776d4695}{%
+        {{hash=813e174251e06d902738bf0d577328fc}{%
            family={Olken},
            familyi={O\bibinitperiod},
            given={B.A.},
            giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{39e8557aa1a463b9d6783a26253f4439}
-      \strng{fullhash}{39e8557aa1a463b9d6783a26253f4439}
-      \strng{bibnamehash}{39e8557aa1a463b9d6783a26253f4439}
-      \strng{authorbibnamehash}{39e8557aa1a463b9d6783a26253f4439}
-      \strng{authornamehash}{39e8557aa1a463b9d6783a26253f4439}
-      \strng{authorfullhash}{39e8557aa1a463b9d6783a26253f4439}
+      \strng{namehash}{5acb938ccec0afc84d14ad7035cd4612}
+      \strng{fullhash}{5acb938ccec0afc84d14ad7035cd4612}
+      \strng{bibnamehash}{5acb938ccec0afc84d14ad7035cd4612}
+      \strng{authorbibnamehash}{5acb938ccec0afc84d14ad7035cd4612}
+      \strng{authornamehash}{5acb938ccec0afc84d14ad7035cd4612}
+      \strng{authorfullhash}{5acb938ccec0afc84d14ad7035cd4612}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{Journal of Economic Perspectives}
       \field{title}{Universal Basic Incomes versus Targeted Transfers: Anti-Poverty Programs in Developing Countries}
@@ -3632,12 +3485,11 @@
       \strng{authorbibnamehash}{8dddc1bd4014bf50f037b3b8772994dd}
       \strng{authornamehash}{8dddc1bd4014bf50f037b3b8772994dd}
       \strng{authorfullhash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \field{extraname}{1}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Journal of Public Economics}
       \field{title}{Measuring Economic Efficiency Using Inverse-Optimum Weights}
       \field{volume}{187}
@@ -3657,10 +3509,9 @@
       \strng{authorbibnamehash}{8dddc1bd4014bf50f037b3b8772994dd}
       \strng{authornamehash}{8dddc1bd4014bf50f037b3b8772994dd}
       \strng{authorfullhash}{8dddc1bd4014bf50f037b3b8772994dd}
+      \field{extraname}{2}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Tax Policy and the Economy, 30}
@@ -3687,11 +3538,9 @@
       \strng{authornamehash}{6046c2723b89caa145589177aab2714c}
       \strng{authorfullhash}{6046c2723b89caa145589177aab2714c}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{3}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{A Unified Welfare Analysis of Government Policies}
@@ -3720,11 +3569,9 @@
       \strng{authornamehash}{1e193e9b4a7072aeeacd4dd361f9b957}
       \strng{authorfullhash}{1e193e9b4a7072aeeacd4dd361f9b957}
       \field{sortinit}{I}
-      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{American Economic Journal: Applied Economics}
       \field{title}{Labor Market Effects of Social Programs: Evidence From India's Employment Guarantee}
@@ -3773,11 +3620,9 @@
       \strng{authornamehash}{b31110a5f2d4b7127bcf48b732c9d9e8}
       \strng{authorfullhash}{b31110a5f2d4b7127bcf48b732c9d9e8}
       \field{sortinit}{J}
-      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{6301}
       \field{journaltitle}{Science}
       \field{title}{Combining machine learning and satellite imagery to predict poverty}
@@ -3801,9 +3646,7 @@
       \strng{authornamehash}{bc3e2ca38466b8b20a9fdd9c635eaba6}
       \strng{authorfullhash}{bc3e2ca38466b8b20a9fdd9c635eaba6}
       \field{sortinit}{J}
-      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Harvard Kennedy School}
@@ -3812,37 +3655,35 @@
     \endentry
     \entry{Kangetal2013}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=f43873f0de111abe2c8f8a37810a7f35}{%
+        {{hash=7d77f1932412289b80f8223b5072d058}{%
            family={Kang},
            familyi={K\bibinitperiod},
            given={J.S.},
            giveni={J\bibinitperiod}}}%
-        {{hash=5bc33a08de025606e74b8774dcb7f2a3}{%
+        {{hash=a3865dbb25f9988c49524b4aba27ce9f}{%
            family={Kuznetsova},
            familyi={K\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod}}}%
-        {{hash=01897bf3a13ddc879df04b588830920b}{%
+        {{hash=15122906295f6add09d7d5bf37fcb05e}{%
            family={Luca},
            familyi={L\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
-        {{hash=b8f451b389fda6a376bc8472c8d0045d}{%
+        {{hash=3fd249fd02f7f6262671248939c617d8}{%
            family={Choi},
            familyi={C\bibinitperiod},
            given={Y.},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{a422e4e422ef4fa6f1cabaf803f0916d}
-      \strng{fullhash}{a422e4e422ef4fa6f1cabaf803f0916d}
-      \strng{bibnamehash}{a422e4e422ef4fa6f1cabaf803f0916d}
-      \strng{authorbibnamehash}{a422e4e422ef4fa6f1cabaf803f0916d}
-      \strng{authornamehash}{a422e4e422ef4fa6f1cabaf803f0916d}
-      \strng{authorfullhash}{a422e4e422ef4fa6f1cabaf803f0916d}
+      \strng{namehash}{4689feeb96107e4ba9a13c88e6921735}
+      \strng{fullhash}{4689feeb96107e4ba9a13c88e6921735}
+      \strng{bibnamehash}{4689feeb96107e4ba9a13c88e6921735}
+      \strng{authorbibnamehash}{4689feeb96107e4ba9a13c88e6921735}
+      \strng{authornamehash}{4689feeb96107e4ba9a13c88e6921735}
+      \strng{authorfullhash}{4689feeb96107e4ba9a13c88e6921735}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{EMNLP}
@@ -3850,6 +3691,34 @@
       \field{year}{2013}
       \field{pages}{1443\bibrangedash 1448}
       \range{pages}{6}
+    \endentry
+    \entry{KeenSlemrod2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=13033cb8ca2c19e95d924bdbee2ea6ec}{%
+           family={Keen},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=58ceb1e79ab6ce8aa41d6cfc2aef11f5}{%
+           family={Slemrod},
+           familyi={S\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{25dddef8556ae4c7f5fdb952b09c1e05}
+      \strng{fullhash}{25dddef8556ae4c7f5fdb952b09c1e05}
+      \strng{bibnamehash}{25dddef8556ae4c7f5fdb952b09c1e05}
+      \strng{authorbibnamehash}{25dddef8556ae4c7f5fdb952b09c1e05}
+      \strng{authornamehash}{25dddef8556ae4c7f5fdb952b09c1e05}
+      \strng{authorfullhash}{25dddef8556ae4c7f5fdb952b09c1e05}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{title}{Optimal Tax Administration}
+      \field{volume}{152}
+      \field{year}{2017}
     \endentry
     \entry{KhanKhwajaOlken2017}{unpublished}{}
       \name{author}{3}{}{%
@@ -3875,10 +3744,9 @@
       \strng{authorbibnamehash}{06aad67f105d27d07d77af7cbcb17e5f}
       \strng{authornamehash}{06aad67f105d27d07d77af7cbcb17e5f}
       \strng{authorfullhash}{06aad67f105d27d07d77af7cbcb17e5f}
+      \field{extraname}{1}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{mimeo: MIT}
@@ -3909,12 +3777,11 @@
       \strng{authorbibnamehash}{06aad67f105d27d07d77af7cbcb17e5f}
       \strng{authornamehash}{06aad67f105d27d07d77af7cbcb17e5f}
       \strng{authorfullhash}{06aad67f105d27d07d77af7cbcb17e5f}
+      \field{extraname}{2}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{Tax Farming Redux: Experimental Evidence on Performance Pay for Tax Collectors}
@@ -3922,49 +3789,6 @@
       \field{year}{2016}
       \field{pages}{219\bibrangedash 271}
       \range{pages}{53}
-    \endentry
-    \entry{Kleinbergetal2015}{article}{}
-      \name{author}{4}{}{%
-        {{hash=070372104d85c4370f11e66cf104b880}{%
-           family={Kleinberg},
-           familyi={K\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=18fb3ebe15f35b1f344379dc180e81f3}{%
-           family={Ludwig},
-           familyi={L\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=8f641f01c1d264f4477b23c72c80b0f3}{%
-           family={Mullainathan},
-           familyi={M\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=48627c2e818a6ac73a72702304289108}{%
-           family={Obermeyer},
-           familyi={O\bibinitperiod},
-           given={Z},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \strng{namehash}{522dc709a3421a3cb40ba2a6122cf248}
-      \strng{fullhash}{522dc709a3421a3cb40ba2a6122cf248}
-      \strng{bibnamehash}{522dc709a3421a3cb40ba2a6122cf248}
-      \strng{authorbibnamehash}{522dc709a3421a3cb40ba2a6122cf248}
-      \strng{authornamehash}{522dc709a3421a3cb40ba2a6122cf248}
-      \strng{authorfullhash}{522dc709a3421a3cb40ba2a6122cf248}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{5}
-      \field{journaltitle}{American Economic Review, Papers and Proceedings}
-      \field{title}{Prediction Policy Problems}
-      \field{volume}{105}
-      \field{year}{2015}
-      \field{pages}{491\bibrangedash 495}
-      \range{pages}{5}
     \endentry
     \entry{Kleinbergetal2017}{unpublished}{}
       \name{author}{5}{}{%
@@ -4001,55 +3825,92 @@
       \strng{authornamehash}{61a0d1b0b8ef262517be27fa8d899a2a}
       \strng{authorfullhash}{61a0d1b0b8ef262517be27fa8d899a2a}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{NBER WP 23180}
       \field{title}{Human Decisions and Machine Predictions}
       \field{year}{2017}
     \endentry
+    \entry{Kleinbergetal2015}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3a07403d0e72923a2c8f6519d0e8b233}{%
+           family={Kleinberg},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=06959beb12d7ed0dae56720fc7203598}{%
+           family={Ludwig},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e0dbb370d319a5ff72be8fc0e0256060}{%
+           family={Mullainathan},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=48627c2e818a6ac73a72702304289108}{%
+           family={Obermeyer},
+           familyi={O\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{6283b9240440417a3c829fe125697585}
+      \strng{fullhash}{6283b9240440417a3c829fe125697585}
+      \strng{bibnamehash}{6283b9240440417a3c829fe125697585}
+      \strng{authorbibnamehash}{6283b9240440417a3c829fe125697585}
+      \strng{authornamehash}{6283b9240440417a3c829fe125697585}
+      \strng{authorfullhash}{6283b9240440417a3c829fe125697585}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{issue}{5}
+      \field{journaltitle}{American Economic Review, Papers and Proceedings}
+      \field{title}{Prediction Policy Problems}
+      \field{volume}{105}
+      \field{year}{2015}
+      \field{pages}{491\bibrangedash 495}
+      \range{pages}{5}
+    \endentry
     \entry{Klevenetal2011}{article}{}
       \name{author}{5}{}{%
-        {{hash=bb934bfa4c1ef289559ed2d15eadfe92}{%
+        {{hash=85fa0432d58f77468192b2eaf901ce17}{%
            family={Kleven},
            familyi={K\bibinitperiod},
            given={H.J.},
            giveni={H\bibinitperiod}}}%
-        {{hash=b7b4fdd3105823bfcd193cb57c2495b1}{%
+        {{hash=5354afcac5728d6b905248b55234fbbb}{%
            family={Knudsen},
            familyi={K\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
-        {{hash=fc8743bad20884d57f3414b4fa742b23}{%
+        {{hash=979ff4ceb6ea473fd3eed5e4019f97da}{%
            family={Kreiner},
            familyi={K\bibinitperiod},
            given={C.},
            giveni={C\bibinitperiod}}}%
-        {{hash=d430aa2a2e9f543f97212632eec6ff4e}{%
+        {{hash=482ea171542086398dda5f160ea98401}{%
            family={Pederson},
            familyi={P\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod}}}%
-        {{hash=3a178f0934eeab824f3df9d68bff90ea}{%
+        {{hash=467f8c8be68130dadf909e4d5b63fe4e}{%
            family={Saez},
            familyi={S\bibinitperiod},
            given={E.},
            giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{85b2bcfb9372e7ace2d1f33d6356daea}
-      \strng{fullhash}{85b2bcfb9372e7ace2d1f33d6356daea}
-      \strng{bibnamehash}{85b2bcfb9372e7ace2d1f33d6356daea}
-      \strng{authorbibnamehash}{85b2bcfb9372e7ace2d1f33d6356daea}
-      \strng{authornamehash}{85b2bcfb9372e7ace2d1f33d6356daea}
-      \strng{authorfullhash}{85b2bcfb9372e7ace2d1f33d6356daea}
+      \strng{namehash}{5545fbaad9e473b9167ac31e6f1388cb}
+      \strng{fullhash}{5545fbaad9e473b9167ac31e6f1388cb}
+      \strng{bibnamehash}{5545fbaad9e473b9167ac31e6f1388cb}
+      \strng{authorbibnamehash}{5545fbaad9e473b9167ac31e6f1388cb}
+      \strng{authornamehash}{5545fbaad9e473b9167ac31e6f1388cb}
+      \strng{authorfullhash}{5545fbaad9e473b9167ac31e6f1388cb}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{3}
       \field{journaltitle}{Econometrica}
       \field{title}{Unwilling or Unable to Cheat? Evidence from a Tax Audit Experiment in Denmark}
@@ -4060,29 +3921,27 @@
     \endentry
     \entry{KlevenKopczuk2011}{article}{}
       \name{author}{2}{}{%
-        {{hash=bb934bfa4c1ef289559ed2d15eadfe92}{%
+        {{hash=85fa0432d58f77468192b2eaf901ce17}{%
            family={Kleven},
            familyi={K\bibinitperiod},
            given={H.J.},
            giveni={H\bibinitperiod}}}%
-        {{hash=851942ce733a4b5e03efe041c434d8a0}{%
+        {{hash=32169148853ea72947218bfb0fee29d3}{%
            family={Kopczuk},
            familyi={K\bibinitperiod},
            given={W.},
            giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{ca9e684e964efa66c35e1f2445d28769}
-      \strng{fullhash}{ca9e684e964efa66c35e1f2445d28769}
-      \strng{bibnamehash}{ca9e684e964efa66c35e1f2445d28769}
-      \strng{authorbibnamehash}{ca9e684e964efa66c35e1f2445d28769}
-      \strng{authornamehash}{ca9e684e964efa66c35e1f2445d28769}
-      \strng{authorfullhash}{ca9e684e964efa66c35e1f2445d28769}
+      \strng{namehash}{6228e9e16a1f92dfc420a5fc8a857fa7}
+      \strng{fullhash}{6228e9e16a1f92dfc420a5fc8a857fa7}
+      \strng{bibnamehash}{6228e9e16a1f92dfc420a5fc8a857fa7}
+      \strng{authorbibnamehash}{6228e9e16a1f92dfc420a5fc8a857fa7}
+      \strng{authornamehash}{6228e9e16a1f92dfc420a5fc8a857fa7}
+      \strng{authorfullhash}{6228e9e16a1f92dfc420a5fc8a857fa7}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Journal: Economic Policy}
       \field{title}{Transfer Program Complexity and the Take up of Social Benefits}
@@ -4106,9 +3965,7 @@
       \strng{authornamehash}{50ce8b4d5b6dfccf1d1ee775377cb356}
       \strng{authorfullhash}{50ce8b4d5b6dfccf1d1ee775377cb356}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Princeton University}
@@ -4117,7 +3974,7 @@
     \endentry
     \entry{LaPortaShleifer2014}{article}{}
       \name{author}{2}{}{%
-        {{hash=add3eac350d2ba7591479c4bb2d08128}{%
+        {{hash=843f78e1fcdb7416f06a5231df1d0005}{%
            family={{La Porta}},
            familyi={L\bibinitperiod},
            given={R},
@@ -4128,18 +3985,16 @@
            given={A},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{871d9edc199a369f6ead9fdb64ecc53f}
-      \strng{fullhash}{871d9edc199a369f6ead9fdb64ecc53f}
-      \strng{bibnamehash}{871d9edc199a369f6ead9fdb64ecc53f}
-      \strng{authorbibnamehash}{871d9edc199a369f6ead9fdb64ecc53f}
-      \strng{authornamehash}{871d9edc199a369f6ead9fdb64ecc53f}
-      \strng{authorfullhash}{871d9edc199a369f6ead9fdb64ecc53f}
+      \strng{namehash}{d687c5b2d7e1ad1e0a188710de8ad816}
+      \strng{fullhash}{d687c5b2d7e1ad1e0a188710de8ad816}
+      \strng{bibnamehash}{d687c5b2d7e1ad1e0a188710de8ad816}
+      \strng{authorbibnamehash}{d687c5b2d7e1ad1e0a188710de8ad816}
+      \strng{authornamehash}{d687c5b2d7e1ad1e0a188710de8ad816}
+      \strng{authorfullhash}{d687c5b2d7e1ad1e0a188710de8ad816}
       \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{3}
       \field{journaltitle}{Journal of Economic Perspectives}
       \field{title}{Informality and Development}
@@ -4183,9 +4038,7 @@
       \strng{editornamehash}{bc64f404b77c3583d9017d9b2ee6ad71}
       \strng{editorfullhash}{bc64f404b77c3583d9017d9b2ee6ad71}
       \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Organizational Economics}
@@ -4224,9 +4077,7 @@
       \strng{authornamehash}{25c75eff445611e7ddfb8b5b3ae0106c}
       \strng{authorfullhash}{25c75eff445611e7ddfb8b5b3ae0106c}
       \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Forthcoming, American Economic Review}
@@ -4257,12 +4108,11 @@
       \strng{authorbibnamehash}{d888431c51cf1b2491bd89bd5ab82765}
       \strng{authornamehash}{d888431c51cf1b2491bd89bd5ab82765}
       \strng{authorfullhash}{d888431c51cf1b2491bd89bd5ab82765}
+      \field{extraname}{1}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{10}
       \field{journaltitle}{American Economic Review}
       \field{title}{Building State Capacity: Evidence from Biometric Smartcards in India}
@@ -4295,10 +4145,9 @@
       \strng{authorbibnamehash}{d888431c51cf1b2491bd89bd5ab82765}
       \strng{authornamehash}{d888431c51cf1b2491bd89bd5ab82765}
       \strng{authorfullhash}{d888431c51cf1b2491bd89bd5ab82765}
+      \field{extraname}{2}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: UC San Diego}
@@ -4330,9 +4179,7 @@
       \strng{authornamehash}{245bc57d0f9f8fd8aa84f1f9778f0025}
       \strng{authorfullhash}{245bc57d0f9f8fd8aa84f1f9778f0025}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: UC San Diego}
@@ -4359,11 +4206,9 @@
       \strng{authornamehash}{c1ff0ca41be7008911a195776c92f345}
       \strng{authorfullhash}{c1ff0ca41be7008911a195776c92f345}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{Journal of Political Economy}
       \field{title}{Teacher Performance Pay: Eperimental Evidence from India}
@@ -4387,9 +4232,7 @@
       \strng{authornamehash}{af3ac183beedfbcafc947164060ea80e}
       \strng{authorfullhash}{af3ac183beedfbcafc947164060ea80e}
       \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Forthcoming, American Economic Review}
@@ -4398,29 +4241,27 @@
     \endentry
     \entry{NicholsZeckhauser1982}{article}{}
       \name{author}{2}{}{%
-        {{hash=ffd1b83aceda6e1acd2d46f628c5b335}{%
+        {{hash=4b1953cc551e8d787ffb165ec2947895}{%
            family={Nichols},
            familyi={N\bibinitperiod},
            given={A.L.},
            giveni={A\bibinitperiod}}}%
-        {{hash=4d516d5c8647a09c9a14c0923b6bfa3e}{%
+        {{hash=096cae008e42baf492c61b93274bf768}{%
            family={Zeckhauser},
            familyi={Z\bibinitperiod},
            given={R.J.},
            giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{197af3e27ccd22e8268abc03f918ac37}
-      \strng{fullhash}{197af3e27ccd22e8268abc03f918ac37}
-      \strng{bibnamehash}{197af3e27ccd22e8268abc03f918ac37}
-      \strng{authorbibnamehash}{197af3e27ccd22e8268abc03f918ac37}
-      \strng{authornamehash}{197af3e27ccd22e8268abc03f918ac37}
-      \strng{authorfullhash}{197af3e27ccd22e8268abc03f918ac37}
+      \strng{namehash}{49122ac02b479bf2abcbac0478b55ee5}
+      \strng{fullhash}{49122ac02b479bf2abcbac0478b55ee5}
+      \strng{bibnamehash}{49122ac02b479bf2abcbac0478b55ee5}
+      \strng{authorbibnamehash}{49122ac02b479bf2abcbac0478b55ee5}
+      \strng{authornamehash}{49122ac02b479bf2abcbac0478b55ee5}
+      \strng{authorfullhash}{49122ac02b479bf2abcbac0478b55ee5}
       \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{American Economic Review}
       \field{title}{Targeting Transfers Through Restrictions on Recipients}
@@ -4459,11 +4300,9 @@
       \strng{authornamehash}{2c6c433606529b7e1bec03fcb619a11f}
       \strng{authorfullhash}{2c6c433606529b7e1bec03fcb619a11f}
       \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Journal: Economic Policy}
       \field{title}{Targeting with Agents}
@@ -4487,11 +4326,9 @@
       \strng{authornamehash}{ac6f685701081518ed0009b8fa47d732}
       \strng{authorfullhash}{ac6f685701081518ed0009b8fa47d732}
       \field{sortinit}{O}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{Journal of Political Economy}
       \field{title}{Monitoring Corruption: Evidence from a Field Experiment in Indonesia}
@@ -4520,11 +4357,9 @@
       \strng{authornamehash}{849140d9c3963a2eb36905d310ebfa68}
       \strng{authorfullhash}{849140d9c3963a2eb36905d310ebfa68}
       \field{sortinit}{O}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Annual Review of Economics}
       \field{title}{Corruption in Developing Countries}
       \field{volume}{4}
@@ -4534,29 +4369,27 @@
     \endentry
     \entry{ParkerTodd2017}{article}{}
       \name{author}{2}{}{%
-        {{hash=28bfc57aaf0be3633d584dd51039ebd1}{%
+        {{hash=d7ac164df9fee2e8cacbdccfc0f0b2d6}{%
            family={Parker},
            familyi={P\bibinitperiod},
            given={S.W.},
            giveni={S\bibinitperiod}}}%
-        {{hash=a7637b4d3173e552cf5e66d1c576ee27}{%
+        {{hash=c887d107a62d3807ca599ffa70a9ca46}{%
            family={Todd},
            familyi={T\bibinitperiod},
            given={P.E.},
            giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{9dd96b41a80ba100f97510d82111e3d7}
-      \strng{fullhash}{9dd96b41a80ba100f97510d82111e3d7}
-      \strng{bibnamehash}{9dd96b41a80ba100f97510d82111e3d7}
-      \strng{authorbibnamehash}{9dd96b41a80ba100f97510d82111e3d7}
-      \strng{authornamehash}{9dd96b41a80ba100f97510d82111e3d7}
-      \strng{authorfullhash}{9dd96b41a80ba100f97510d82111e3d7}
+      \strng{namehash}{8ae48a1630f33113ff2efce63fdfdbc3}
+      \strng{fullhash}{8ae48a1630f33113ff2efce63fdfdbc3}
+      \strng{bibnamehash}{8ae48a1630f33113ff2efce63fdfdbc3}
+      \strng{authorbibnamehash}{8ae48a1630f33113ff2efce63fdfdbc3}
+      \strng{authornamehash}{8ae48a1630f33113ff2efce63fdfdbc3}
+      \strng{authorfullhash}{8ae48a1630f33113ff2efce63fdfdbc3}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{3}
       \field{journaltitle}{Journal of Economic Literature}
       \field{title}{Conditional Cash Transfers: The Case of Progresa/Oportunidades}
@@ -4567,24 +4400,22 @@
     \endentry
     \entry{Pomeranz2015}{article}{}
       \name{author}{1}{}{%
-        {{hash=06465b5dec969c2e1a33eaeb434a364e}{%
+        {{hash=01160ff0dacc9f94633c1ad515f578a3}{%
            family={Pomeranz},
            familyi={P\bibinitperiod},
            given={D.},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{06465b5dec969c2e1a33eaeb434a364e}
-      \strng{fullhash}{06465b5dec969c2e1a33eaeb434a364e}
-      \strng{bibnamehash}{06465b5dec969c2e1a33eaeb434a364e}
-      \strng{authorbibnamehash}{06465b5dec969c2e1a33eaeb434a364e}
-      \strng{authornamehash}{06465b5dec969c2e1a33eaeb434a364e}
-      \strng{authorfullhash}{06465b5dec969c2e1a33eaeb434a364e}
+      \strng{namehash}{01160ff0dacc9f94633c1ad515f578a3}
+      \strng{fullhash}{01160ff0dacc9f94633c1ad515f578a3}
+      \strng{bibnamehash}{01160ff0dacc9f94633c1ad515f578a3}
+      \strng{authorbibnamehash}{01160ff0dacc9f94633c1ad515f578a3}
+      \strng{authornamehash}{01160ff0dacc9f94633c1ad515f578a3}
+      \strng{authorfullhash}{01160ff0dacc9f94633c1ad515f578a3}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{8}
       \field{journaltitle}{American Economic Review}
       \field{title}{No Taxation without Information: Deterrence and Self-Enforcement in the Value Added Tax}
@@ -4607,12 +4438,11 @@
       \strng{authorbibnamehash}{b210bfce9d9eeaff8e05c4b642ded6da}
       \strng{authornamehash}{b210bfce9d9eeaff8e05c4b642ded6da}
       \strng{authorfullhash}{b210bfce9d9eeaff8e05c4b642ded6da}
+      \field{extraname}{1}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{5}
       \field{journaltitle}{Jounral of Political Economy}
       \field{title}{The Limits of Bureaucratic Efficiency}
@@ -4635,12 +4465,11 @@
       \strng{authorbibnamehash}{b210bfce9d9eeaff8e05c4b642ded6da}
       \strng{authornamehash}{b210bfce9d9eeaff8e05c4b642ded6da}
       \strng{authorfullhash}{b210bfce9d9eeaff8e05c4b642ded6da}
+      \field{extraname}{2}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Review}
       \field{title}{The Motivation and Bias of Bureaucrats}
@@ -4664,11 +4493,9 @@
       \strng{authornamehash}{32f184eeb7be3aeb08713f786f43cb1b}
       \strng{authorfullhash}{32f184eeb7be3aeb08713f786f43cb1b}
       \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Journal: Economic Policy}
       \field{title}{Is the EITC as Good as an NIT? Conditional Cash Transfers and Tax Incidence}
@@ -4691,12 +4518,11 @@
       \strng{authorbibnamehash}{467f8c8be68130dadf909e4d5b63fe4e}
       \strng{authornamehash}{467f8c8be68130dadf909e4d5b63fe4e}
       \strng{authorfullhash}{467f8c8be68130dadf909e4d5b63fe4e}
+      \field{extraname}{1}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{3}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{Optimal Income Transfer Programs: Intensive Versus Extensive Labor Supply Responses}
@@ -4739,10 +4565,9 @@
       \strng{editorbibnamehash}{71f0fee65c458e967ac3e4693c6036c5}
       \strng{editornamehash}{71f0fee65c458e967ac3e4693c6036c5}
       \strng{editorfullhash}{71f0fee65c458e967ac3e4693c6036c5}
+      \field{extraname}{2}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Understanding Poverty}
@@ -4770,11 +4595,9 @@
       \strng{authornamehash}{ddecd58fac94906699eb3c90bbd6177f}
       \strng{authorfullhash}{ddecd58fac94906699eb3c90bbd6177f}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{American Economic Review}
       \field{title}{Generalized Social Marginal Welfare Weights for Optimal Tax Theory}
@@ -4798,11 +4621,9 @@
       \strng{authornamehash}{342f4e3617d2ea4905bfdb50f1c759c7}
       \strng{authorfullhash}{342f4e3617d2ea4905bfdb50f1c759c7}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{10}
       \field{journaltitle}{American Economic Review}
       \field{title}{Corruption, Trade Costs, and Gains from Tariff Liberalization: Evidence from Southern Africa}
@@ -4818,24 +4639,22 @@
            familyi={S\bibinitperiod},
            given={Andrei},
            giveni={A\bibinitperiod}}}%
-        {{hash=22d72ed559fd54022a13cbcf78876152}{%
+        {{hash=a1ba02aecca1ef85adf51c4af4c81a9e}{%
            family={Vishny},
            familyi={V\bibinitperiod},
            given={Robert\bibnamedelima W.},
            giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
-      \strng{namehash}{9cda9a3e38c5c3e426caa1cf5d446de5}
-      \strng{fullhash}{9cda9a3e38c5c3e426caa1cf5d446de5}
-      \strng{bibnamehash}{9cda9a3e38c5c3e426caa1cf5d446de5}
-      \strng{authorbibnamehash}{9cda9a3e38c5c3e426caa1cf5d446de5}
-      \strng{authornamehash}{9cda9a3e38c5c3e426caa1cf5d446de5}
-      \strng{authorfullhash}{9cda9a3e38c5c3e426caa1cf5d446de5}
+      \strng{namehash}{ab5dff9b464d97f1284b883bb5c09c9d}
+      \strng{fullhash}{ab5dff9b464d97f1284b883bb5c09c9d}
+      \strng{bibnamehash}{ab5dff9b464d97f1284b883bb5c09c9d}
+      \strng{authorbibnamehash}{ab5dff9b464d97f1284b883bb5c09c9d}
+      \strng{authornamehash}{ab5dff9b464d97f1284b883bb5c09c9d}
+      \strng{authorfullhash}{ab5dff9b464d97f1284b883bb5c09c9d}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{3}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{Corruption}
@@ -4846,24 +4665,23 @@
     \endentry
     \entry{Slemrod2007}{article}{}
       \name{author}{1}{}{%
-        {{hash=4f25bf13e71c2402218209822f71cd5d}{%
+        {{hash=1ac9484ab90206924995d333895707e5}{%
            family={Slemrod},
            familyi={S\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{fullhash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{bibnamehash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{authorbibnamehash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{authornamehash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{authorfullhash}{4f25bf13e71c2402218209822f71cd5d}
+      \strng{namehash}{1ac9484ab90206924995d333895707e5}
+      \strng{fullhash}{1ac9484ab90206924995d333895707e5}
+      \strng{bibnamehash}{1ac9484ab90206924995d333895707e5}
+      \strng{authorbibnamehash}{1ac9484ab90206924995d333895707e5}
+      \strng{authornamehash}{1ac9484ab90206924995d333895707e5}
+      \strng{authorfullhash}{1ac9484ab90206924995d333895707e5}
+      \field{extraname}{1}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{journaltitle}{Journal of Economic Perspectives}
       \field{title}{Cheating Ourselves: The Economics of Tax Evasion}
       \field{volume}{21}
@@ -4873,24 +4691,23 @@
     \endentry
     \entry{Slemrod2017}{article}{}
       \name{author}{1}{}{%
-        {{hash=4f25bf13e71c2402218209822f71cd5d}{%
+        {{hash=1ac9484ab90206924995d333895707e5}{%
            family={Slemrod},
            familyi={S\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{fullhash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{bibnamehash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{authorbibnamehash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{authornamehash}{4f25bf13e71c2402218209822f71cd5d}
-      \strng{authorfullhash}{4f25bf13e71c2402218209822f71cd5d}
+      \strng{namehash}{1ac9484ab90206924995d333895707e5}
+      \strng{fullhash}{1ac9484ab90206924995d333895707e5}
+      \strng{bibnamehash}{1ac9484ab90206924995d333895707e5}
+      \strng{authorbibnamehash}{1ac9484ab90206924995d333895707e5}
+      \strng{authornamehash}{1ac9484ab90206924995d333895707e5}
+      \strng{authorfullhash}{1ac9484ab90206924995d333895707e5}
+      \field{extraname}{2}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{Journal of Economic Literature}
       \field{title}{Tax Compliance and Enforcement}
@@ -4901,42 +4718,41 @@
     \endentry
     \entry{SlemrodYitzhaki}{incollection}{}
       \name{author}{2}{}{%
-        {{hash=4f25bf13e71c2402218209822f71cd5d}{%
+        {{hash=1ac9484ab90206924995d333895707e5}{%
            family={Slemrod},
            familyi={S\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=102b8ebd8175a495712bc569ffbf7b0a}{%
+        {{hash=d064de20e33d172c012a23fae55ad159}{%
            family={Yitzhaki},
            familyi={Y\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod}}}%
       }
       \name{editor}{2}{}{%
-        {{hash=e8392bea954011522d435a383e272745}{%
+        {{hash=5f890c07692756c564cf663fb7b6f9f3}{%
            family={Auerbach},
            familyi={A\bibinitperiod},
            given={A.J.},
            giveni={A\bibinitperiod}}}%
-        {{hash=1d9b26e2fe85b395b7258a86a2f64379}{%
+        {{hash=5856ac1c612de68d7ddf25431c62d673}{%
            family={Feldstein},
            familyi={F\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{d450a6c1b665d2baede0c9092f058302}
-      \strng{fullhash}{d450a6c1b665d2baede0c9092f058302}
-      \strng{bibnamehash}{d450a6c1b665d2baede0c9092f058302}
-      \strng{authorbibnamehash}{d450a6c1b665d2baede0c9092f058302}
-      \strng{authornamehash}{d450a6c1b665d2baede0c9092f058302}
-      \strng{authorfullhash}{d450a6c1b665d2baede0c9092f058302}
-      \strng{editorbibnamehash}{d217fdfdb27c1e19f13590660ead9276}
-      \strng{editornamehash}{d217fdfdb27c1e19f13590660ead9276}
-      \strng{editorfullhash}{d217fdfdb27c1e19f13590660ead9276}
+      \strng{namehash}{8bcfb04176fbe041c68a7a78ec75e7ff}
+      \strng{fullhash}{8bcfb04176fbe041c68a7a78ec75e7ff}
+      \strng{bibnamehash}{8bcfb04176fbe041c68a7a78ec75e7ff}
+      \strng{authorbibnamehash}{8bcfb04176fbe041c68a7a78ec75e7ff}
+      \strng{authornamehash}{8bcfb04176fbe041c68a7a78ec75e7ff}
+      \strng{authorfullhash}{8bcfb04176fbe041c68a7a78ec75e7ff}
+      \strng{editorbibnamehash}{73d52358f336a1f8d1f3c4520fabf707}
+      \strng{editornamehash}{73d52358f336a1f8d1f3c4520fabf707}
+      \strng{editorfullhash}{73d52358f336a1f8d1f3c4520fabf707}
+      \field{extraname}{1}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Public Economics, volume III}
@@ -4950,7 +4766,7 @@
            familyi={S\bibinitperiod},
            given={Joel},
            giveni={J\bibinitperiod}}}%
-        {{hash=9d314d8a97d2b7884156e50ddb1a271c}{%
+        {{hash=dfdff876ecc5f3c49a38f2a3a28059d3}{%
            family={{Ur Rehman}},
            familyi={U\bibinitperiod},
            given={Obeid},
@@ -4961,16 +4777,14 @@
            given={Mazhar},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{8b442b5e84018e2b50b17bb862135a87}
-      \strng{fullhash}{8b442b5e84018e2b50b17bb862135a87}
-      \strng{bibnamehash}{8b442b5e84018e2b50b17bb862135a87}
-      \strng{authorbibnamehash}{8b442b5e84018e2b50b17bb862135a87}
-      \strng{authornamehash}{8b442b5e84018e2b50b17bb862135a87}
-      \strng{authorfullhash}{8b442b5e84018e2b50b17bb862135a87}
+      \strng{namehash}{f73037c79ab3110014aea29a6ce4e250}
+      \strng{fullhash}{f73037c79ab3110014aea29a6ce4e250}
+      \strng{bibnamehash}{f73037c79ab3110014aea29a6ce4e250}
+      \strng{authorbibnamehash}{f73037c79ab3110014aea29a6ce4e250}
+      \strng{authornamehash}{f73037c79ab3110014aea29a6ce4e250}
+      \strng{authorfullhash}{f73037c79ab3110014aea29a6ce4e250}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Forthcoming, Review of Economics and Statistics}
@@ -4996,12 +4810,11 @@
       \strng{authorbibnamehash}{12f2c413a580d5ef4c487e0567682a84}
       \strng{authornamehash}{12f2c413a580d5ef4c487e0567682a84}
       \strng{authorfullhash}{12f2c413a580d5ef4c487e0567682a84}
+      \field{extraname}{2}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{2}
       \field{journaltitle}{National Tax Journal}
       \field{title}{Integrating Expenditure and Tax Decisions: The Marginal Cost of Funds and the Marginal Benefit of Projects}
@@ -5029,12 +4842,11 @@
       \strng{authorbibnamehash}{12f2c413a580d5ef4c487e0567682a84}
       \strng{authornamehash}{12f2c413a580d5ef4c487e0567682a84}
       \strng{authorfullhash}{12f2c413a580d5ef4c487e0567682a84}
+      \field{extraname}{3}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{1}
       \field{journaltitle}{IMF Staff Papers}
       \field{title}{The Costs of Taxation and the Marginal Efficiency Cost of Funds}
@@ -5045,22 +4857,20 @@
     \endentry
     \entry{Suarez2018}{unpublished}{}
       \name{author}{1}{}{%
-        {{hash=326e212c2f0776695e9d05d0031c1445}{%
+        {{hash=65c72ae2e4fa1e3a44c5594f675ca6ca}{%
            family={Suarez-Serrato},
            familyi={S\bibinithyphendelim S\bibinitperiod},
            given={J.C.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{326e212c2f0776695e9d05d0031c1445}
-      \strng{fullhash}{326e212c2f0776695e9d05d0031c1445}
-      \strng{bibnamehash}{326e212c2f0776695e9d05d0031c1445}
-      \strng{authorbibnamehash}{326e212c2f0776695e9d05d0031c1445}
-      \strng{authornamehash}{326e212c2f0776695e9d05d0031c1445}
-      \strng{authorfullhash}{326e212c2f0776695e9d05d0031c1445}
+      \strng{namehash}{65c72ae2e4fa1e3a44c5594f675ca6ca}
+      \strng{fullhash}{65c72ae2e4fa1e3a44c5594f675ca6ca}
+      \strng{bibnamehash}{65c72ae2e4fa1e3a44c5594f675ca6ca}
+      \strng{authorbibnamehash}{65c72ae2e4fa1e3a44c5594f675ca6ca}
+      \strng{authornamehash}{65c72ae2e4fa1e3a44c5594f675ca6ca}
+      \strng{authorfullhash}{65c72ae2e4fa1e3a44c5594f675ca6ca}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Mimeo: Duke University}
@@ -5069,12 +4879,12 @@
     \endentry
     \entry{TorslovWierZucman2018}{unpublished}{}
       \name{author}{3}{}{%
-        {{hash=1cd9cbb4a06acffedf9ea533047bae07}{%
+        {{hash=5548be54c56abcdacfc9620712deff44}{%
            family={T{ø}rsl{ø}v},
            familyi={T\bibinitperiod},
            given={T.\bibnamedelimi R.},
            giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=8450e4a35b620d21cace4572aa3346df}{%
+        {{hash=13e81a88743a04b3ac41419a4fbe6cd1}{%
            family={Wier},
            familyi={W\bibinitperiod},
            given={Ludvig\bibnamedelima S.},
@@ -5085,16 +4895,14 @@
            given={Gabriel},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{90bb64eed0dce277f4553032e788afd6}
-      \strng{fullhash}{90bb64eed0dce277f4553032e788afd6}
-      \strng{bibnamehash}{90bb64eed0dce277f4553032e788afd6}
-      \strng{authorbibnamehash}{90bb64eed0dce277f4553032e788afd6}
-      \strng{authornamehash}{90bb64eed0dce277f4553032e788afd6}
-      \strng{authorfullhash}{90bb64eed0dce277f4553032e788afd6}
+      \strng{namehash}{1ff270f04f73a8554a76120bde4813e4}
+      \strng{fullhash}{1ff270f04f73a8554a76120bde4813e4}
+      \strng{bibnamehash}{1ff270f04f73a8554a76120bde4813e4}
+      \strng{authorbibnamehash}{1ff270f04f73a8554a76120bde4813e4}
+      \strng{authornamehash}{1ff270f04f73a8554a76120bde4813e4}
+      \strng{authorfullhash}{1ff270f04f73a8554a76120bde4813e4}
       \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{NBER W.P 24701}
@@ -5116,11 +4924,9 @@
       \strng{authornamehash}{10fcf9d33b2def85076e7b1bce65e0d9}
       \strng{authorfullhash}{10fcf9d33b2def85076e7b1bce65e0d9}
       \field{sortinit}{U}
-      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{8}
       \field{journaltitle}{American Economic Review}
       \field{title}{Firms, Informality and Development: Theory and Evidence from Brazil}
@@ -5131,24 +4937,22 @@
     \endentry
     \entry{Weigel2020}{article}{}
       \name{author}{1}{}{%
-        {{hash=34a52e4f1cdd2f1a70d13e2e950954e6}{%
+        {{hash=ec64a699b31330ffab07a9a066070f36}{%
            family={Weigel},
            familyi={W\bibinitperiod},
            given={Jonathan\bibnamedelima L},
            giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
-      \strng{namehash}{34a52e4f1cdd2f1a70d13e2e950954e6}
-      \strng{fullhash}{34a52e4f1cdd2f1a70d13e2e950954e6}
-      \strng{bibnamehash}{34a52e4f1cdd2f1a70d13e2e950954e6}
-      \strng{authorbibnamehash}{34a52e4f1cdd2f1a70d13e2e950954e6}
-      \strng{authornamehash}{34a52e4f1cdd2f1a70d13e2e950954e6}
-      \strng{authorfullhash}{34a52e4f1cdd2f1a70d13e2e950954e6}
+      \strng{namehash}{ec64a699b31330ffab07a9a066070f36}
+      \strng{fullhash}{ec64a699b31330ffab07a9a066070f36}
+      \strng{bibnamehash}{ec64a699b31330ffab07a9a066070f36}
+      \strng{authorbibnamehash}{ec64a699b31330ffab07a9a066070f36}
+      \strng{authornamehash}{ec64a699b31330ffab07a9a066070f36}
+      \strng{authorfullhash}{ec64a699b31330ffab07a9a066070f36}
       \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{The Participation Dividend of Taxation: How Citizens in Congo Engage More with the State When it Tries to Tax Them}
@@ -5172,11 +4976,9 @@
       \strng{authornamehash}{6137b18bc1965395145897e1acc8ea6e}
       \strng{authorfullhash}{6137b18bc1965395145897e1acc8ea6e}
       \field{sortinit}{X}
-      \field{sortinithash}{b0b62a29ee4a21a0e618fed53a0313cc}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{11}
       \field{journaltitle}{American Economic Review}
       \field{title}{The Costs of Patronage: Evidence from the British Empire}
@@ -5187,24 +4989,23 @@
     \endentry
     \entry{Zucman2014}{article}{}
       \name{author}{1}{}{%
-        {{hash=e4b57f77ee720abc60753c41b13d704e}{%
+        {{hash=e0b6e16a54132329a1fee114fc4f40c1}{%
            family={Zucman},
            familyi={Z\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{fullhash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{bibnamehash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{authorbibnamehash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{authornamehash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{authorfullhash}{e4b57f77ee720abc60753c41b13d704e}
+      \strng{namehash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{fullhash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{bibnamehash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{authorbibnamehash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{authornamehash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{authorfullhash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \field{extraname}{1}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{4}
       \field{journaltitle}{Journal of Economic Perspectives}
       \field{title}{Taxing Across Borders: Tracking Personal Wealth and Corporate Profits}
@@ -5215,24 +5016,23 @@
     \endentry
     \entry{Zucman2013}{article}{}
       \name{author}{1}{}{%
-        {{hash=e4b57f77ee720abc60753c41b13d704e}{%
+        {{hash=e0b6e16a54132329a1fee114fc4f40c1}{%
            family={Zucman},
            familyi={Z\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{fullhash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{bibnamehash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{authorbibnamehash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{authornamehash}{e4b57f77ee720abc60753c41b13d704e}
-      \strng{authorfullhash}{e4b57f77ee720abc60753c41b13d704e}
+      \strng{namehash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{fullhash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{bibnamehash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{authorbibnamehash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{authornamehash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \strng{authorfullhash}{e0b6e16a54132329a1fee114fc4f40c1}
+      \field{extraname}{2}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{author}
       \field{issue}{3}
       \field{journaltitle}{Quarterly Journal of Economics}
       \field{title}{The Missing Wealth of Nations: Are Europe and the U.S. net Debtors or net Creditors?}
