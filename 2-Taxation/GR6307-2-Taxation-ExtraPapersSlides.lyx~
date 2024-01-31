@@ -235,9 +235,6 @@ Michael Carlos Best
 \end_layout
 
 \begin_layout Date
-\begin_inset Newline newline
-\end_inset
-
 
 \end_layout
 
@@ -2475,12 +2472,12 @@ Alstadsæter et al.
 status open
 
 \begin_layout Plain Layout
-Taxing Individuals
+Taxation in LMICs
 \end_layout
 
 \end_inset
 
-Taxing Individuals in Developing Countries
+Taxation in Low- and Middle-Income Countries
 \end_layout
 
 \begin_layout Subsection
@@ -3226,19 +3223,6 @@ Use the setup in Chetty (2009) to characterize DWL
 \end_layout
 
 \end_deeper
-\begin_layout Section
-\begin_inset Argument 2
-status open
-
-\begin_layout Plain Layout
-Taxing Firms
-\end_layout
-
-\end_inset
-
-Taxing Firms in Developing Countries
-\end_layout
-
 \begin_layout Subsection
 Benhassine, McKenzie, Pouliquen & Santini (JPubE 2018) 
 \begin_inset ERT
@@ -4472,6 +4456,2154 @@ Zucman (2013): Results
 
 \end_deeper
 \begin_layout Subsection
+Tørsløv, Wier & Zucman (2018) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The Missing Profits of Nations
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Corporate tax rates have been falling globally (Keen & Konrad, 2013)
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman01.png
+	lyxscale 30
+	scale 12
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How much are profits shifted across borders in response to differences in
+ corporate tax rates?
+\end_layout
+
+\begin_layout Itemize
+How much would reported profits in US/EU LMICs increase if there was tax
+ harmonization?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use new macroeconomic data 
+\begin_inset Quotes eld
+\end_inset
+
+Foreign Affiliates Statistics
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Break down national accounts into foreign-owned vs local firms
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Find that foreign firms are systematically more profitable than local firms
+ in tax haven countries, but not in other countries.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Due mostly to above-normal returns to capital not to shifting of capital
+ across countries.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Calculate that around 40% of profits earned outside of parent country are
+ shifted to tax havens.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+EU countries are the primary losers.
+ Implies rise in capital share actually about twice what the statistics
+ report.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+US companies do this the most aggressively
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tax haven countries are gaining lots of revenue (increase in tax base larger
+ than loss from low rates)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Profit Ratios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Interested in the ratio of pre-tax corporate profits to wages: 
+\begin_inset Formula $\pi$
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Corporate output is divided between workers and capital owners: 
+\begin_inset Formula $Y=F\left(K,AL\right)=rK+wL$
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Define capital share as 
+\begin_inset Formula $\alpha=rK/Y$
+\end_inset
+
+, then ratio of operating surplus to wages is 
+\begin_inset Formula $\alpha/\left(1-\alpha\right)$
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Corporations pay a share 
+\begin_inset Formula $p$
+\end_inset
+
+ of operating surplus in interest, so 
+\begin_inset Formula $\pi=\left(1-p\right)\cdot\alpha/$
+\end_inset
+
+
+\begin_inset Formula $\left(1-\alpha\right)$
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+All numbers net of depreciation since it's tax deductible.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Calculate these numbers separately for foreign 
+\begin_inset Formula $\pi_{f}$
+\end_inset
+
+ and local 
+\begin_inset Formula $\pi_{l}$
+\end_inset
+
+ firms
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ $11.5 trillion of corporate profits.
+ 15% ($1.7tn) made in affiliates of foreign firms.
+ Of this, 36% ($600bn) shifter to tax havens.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Tangible Capital vs Shifting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+High 
+\begin_inset Formula $\pi_{f}$
+\end_inset
+
+ can come about because
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Paper profits are being shifted
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Capital share is high and elasticity of substitution between K and L is
+ high
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Profit shifting = 
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+transfer pricing (sell goods and services within the multinational at tax-advant
+ageous prices)
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+tax-advantageous borrowing within the firm (hi tax borrows from low tax
+ affiliate)
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Locating intangible capital in low tax jurisdictions that then receive royalties
+/interest/revenues)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Tangible Capital vs Shifting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $d\pi/d\left(K/AL\right)$
+\end_inset
+
+ depends on the elasticity of substitution between capital and labor 
+\begin_inset Formula $\sigma$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If 
+\begin_inset Formula $\sigma>1$
+\end_inset
+
+ then high capital 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ high 
+\begin_inset Formula $\pi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+But if 
+\begin_inset Formula $\sigma<1$
+\end_inset
+
+ then high capital makes MPK low and 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ low 
+\begin_inset Formula $\pi$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\pi_{f}=\left(\frac{K}{wL}\right)_{f}\cdot r_{f}\cdot\left(1-p_{f}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $r_{f}$
+\end_inset
+
+ is the measured return to capital.
+ Includes both marginal product and excess returns (including profit shifting).
+ Under assumptions about 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ can decompose.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Specifically, assume:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\pi_{l}$
+\end_inset
+
+ not affected by profit shifting.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\sigma=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\alpha$
+\end_inset
+
+ varies across countries
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ difference betwen 
+\begin_inset Formula $\pi_{f}$
+\end_inset
+
+ and 
+\begin_inset Formula $\pi_{l}$
+\end_inset
+
+ within a given country measures inward profit shifting
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If all countries had the same tax rate, where would all the profits be?
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Allocate shifted profits proportionally to 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+bilateral
+\emph default
+ service exports (focus on intellectual property rights, HQ services, financial
+ services)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+intra-group interest receipts 
+\end_layout
+
+\begin_layout Standard
+reported in the balance of payments of tax haven countries.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Since 2009 balance of payments is available bilaterally, permitting this
+ exercise.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman02.png
+	lyxscale 40
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman03.png
+	lyxscale 40
+	scale 23
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman04.png
+	lyxscale 40
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman05.png
+	lyxscale 40
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Profitability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman06.png
+	lyxscale 50
+	scale 42
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Capital vs Shifting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman07.png
+	lyxscale 50
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman08.png
+	lyxscale 50
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman09.png
+	lyxscale 50
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman10.png
+	lyxscale 50
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tørsløv, Wier & Zucman (2018): Results: Reallocating Shifted Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/TorslovWierZucman11.png
+	lyxscale 50
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Bustos, Pomeranz, Suárez Serrato, Vila-Belda & Zucman (2022) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+The Race Between Tax Enforcement and Tax Planning: Evidence From a Natural
+ Experiment in Chile
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As we just saw, profit shifting is quantitatively important.
+\end_layout
+
+\begin_layout Itemize
+Profit shifting enabled by withingroup transactions at non-market (non 
+\begin_inset Quotes eld
+\end_inset
+
+arms-length
+\begin_inset Quotes erd
+\end_inset
+
+) prices.
+ 
+\end_layout
+
+\begin_layout Itemize
+Fundamental problem: few or no benchmarks exist among actual third parties
+ for most of these transactions
+\end_layout
+
+\begin_layout Itemize
+How can governments respond? Extensive reporting requirements to justify
+ prices used is a common tool.
+\end_layout
+
+\begin_layout Itemize
+Does it work? Exploit reform in Chile in 2011 that brings reporting requirements
+ up to OECD standards in difference in differences design.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume a Chilean firm has affiliates in 
+\begin_inset Formula $J$
+\end_inset
+
+ countries.
+ Production in country 
+\begin_inset Formula $j$
+\end_inset
+
+ is 
+\begin_inset Formula $f_{j}\left(K_{j}\right)$
+\end_inset
+
+ (with 
+\begin_inset Formula $f^{\prime}>0$
+\end_inset
+
+ and 
+\begin_inset Formula $f^{\prime\prime}<0$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Itemize
+Firms have a nondeductible cost of capital 
+\begin_inset Formula $\rho$
+\end_inset
+
+ so without profit shifting global after-tax profits are
+\begin_inset Formula 
+\[
+\sum_{j}\left[\left(1-t_{j}\right)f_{j}\left(K_{j}\right)-\rho K_{j}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Monitoring has two types: Compliance requirements 
+\begin_inset Formula $F_{1}$
+\end_inset
+
+ (reporting on intra-group payments) and Enforcement 
+\begin_inset Formula $F_{2}$
+\end_inset
+
+ (governs cost of misreporting).
+\end_layout
+
+\begin_layout Itemize
+Compliance costs are 
+\begin_inset Formula $\theta_{1}F_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+True profitability in country 
+\begin_inset Formula $j$
+\end_inset
+
+ is 
+\begin_inset Formula $\bar{f}_{j}=f_{j}\left(K_{j}\right)/K_{j}$
+\end_inset
+
+ but report 
+\begin_inset Formula $r_{j}$
+\end_inset
+
+ at expected cost
+\begin_inset Formula 
+\[
+\frac{F_{2}}{\theta_{2}}\frac{K_{j}\left(r_{j}-\bar{f}_{j}\right)^{2}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Fixing the costs 
+\begin_inset Formula $\theta_{1},\theta_{2}$
+\end_inset
+
+ and the capital allocation 
+\begin_inset Formula $\left\{ K_{j}\right\} $
+\end_inset
+
+ firms solve
+\begin_inset Formula 
+\[
+\max_{\left\{ r_{j}\right\} }\sum_{j}K_{j}\left[\left(1-t_{j}\right)r_{j}-\rho-\frac{F_{2}}{\theta_{2}}\frac{\left(r_{j}-\bar{f}_{j}\right)^{2}}{2}\right]-\theta_{1}F_{1}\quad s.t.\;\sum_{j}\bar{f}_{j}K_{j}=\sum_{j}r_{j}K_{j}
+\]
+
+\end_inset
+
+note assumption that global profits aren't misreported
+\end_layout
+
+\begin_layout Itemize
+Solution is to report profits
+\begin_inset Formula 
+\[
+r_{j}=\bar{f}_{j}+\frac{\theta_{2}}{F_{2}}\left(\tilde{t}-t_{j}\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\tilde{t}=\sum_{j}t_{j}K_{j}/\sum_{j}K_{j}$
+\end_inset
+
+ is capital-weighted average tax rate
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Given this, we work backwards: Firms allcate capital to solve
+\begin_inset Formula 
+\begin{align*}
+\Pi\left(\theta_{1},\theta_{2},F_{1},F_{2}\right) & =\max_{\left\{ K_{j}\right\} }\underbrace{\sum_{j}\left[\left(1-t_{j}\right)f_{j}K_{j}-\rho K_{j}\right]}_{\text{Real Profits }\pi\left(\theta_{2},F_{2}\right)}-\theta_{1}F_{1}\\
+ & \quad+\frac{\theta_{2}}{F_{2}}\underbrace{\sum_{j}K_{j}\left[\left(1-t_{j}\right)\left(\tilde{t}-t_{j}\right)-\frac{\left(\tilde{t}-t_{j}\right)^{2}}{2}\right]}_{\text{Profit Shifting }\psi\left(\theta_{2},F_{2}\right)}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Substituting in, investment satisfies
+\begin_inset Formula 
+\[
+\left(1-t_{j}\right)f_{j}^{\prime}\left(K_{j}\right)=\rho-\frac{\theta_{2}}{F_{2}}\frac{\left(\tilde{t}-t_{j}\right)^{2}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): 
+\size largest
+\color blue
+Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A continuum of firms 
+\begin_inset Formula $i$
+\end_inset
+
+ can either have in-house accountants (I) or hire a consultant (C).
+ Tax consultants help firms:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Compliance is cheaper 
+\begin_inset Formula $\theta_{1}^{C}<\theta_{1}^{I}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tax planning is easier 
+\begin_inset Formula $\theta_{2}^{C}>\theta_{2}^{I}$
+\end_inset
+
+ (For simplicity assume 
+\begin_inset Formula $\theta_{2}^{I}\approx0$
+\end_inset
+
+.)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firms hire the consultant if benefits are larger than idiosyncratic cot
+ 
+\begin_inset Formula $\theta_{0,i}^{C}\sim G\left(\cdot\right)$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta\Pi=\underbrace{\left[\pi\left(\theta_{2}^{C},F_{2}\right)-\theta_{1}^{C}F_{1}+\frac{\theta_{2}^{C}}{F_{2}}\psi\left(\theta_{2}^{C},F_{2}\right)\right]}_{\Pi^{C}}-\underbrace{\left[\pi\left(0,F_{2}\right)-\theta_{1}^{I}F_{1}\right]}_{\text{\ensuremath{\Pi^{I}}}}>\theta_{0,i}^{C}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Increasing compliance increases the share of firms using consultants:
+\begin_inset Formula 
+\[
+\frac{\partial N^{C}}{\partial F_{1}}=g\left(\Delta\Pi\right)\left(\theta_{1}^{I}-\theta_{1}^{C}\right)>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Increasing enforcement penalties 
+\begin_inset Formula $F_{2}$
+\end_inset
+
+ lwers the benefits from profit shifting
+\begin_inset Formula 
+\[
+\frac{\partial N^{C}}{\partial F_{2}}=-g\left(\Delta\Pi\right)\frac{\theta_{2}^{C}}{F_{2}}\psi\left(\theta_{2}^{C},F_{2}\right)<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): 
+\size largest
+\color blue
+Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use the Keen & Slemrod (2017) setup again to think about welfare.
+ 
+\end_layout
+
+\begin_layout Itemize
+Impose that 
+\begin_inset Formula $F_{1}=\gamma F_{2}$
+\end_inset
+
+ so that the two instruments move together.
+ Government's problem is then
+\begin_inset Formula 
+\[
+\max_{F_{2}}\Pi\quad s.t.\;t_{1}\left(N^{C}\tilde{\pi}^{C}+\left(1-N^{C}\right)\tilde{\pi}^{I}\right)-a\left(F_{1},F_{2}\right)>R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now welfare effect of increasing 
+\begin_inset Formula $F_{2}$
+\end_inset
+
+ has 5 components:
+\begin_inset Formula 
+\begin{align*}
+\underbrace{-\gamma\bar{\theta}_{1}-\frac{\theta_{2}^{C}}{F_{2}}\psi\left(\theta_{2}^{C},F_{2}\right)N^{C}}_{\text{(1) Effect on profits}<0}-\underbrace{\lambda\left[\gamma\frac{\partial a}{\partial F_{1}}+\frac{\partial a}{\partial F_{2}}\right]}_{\text{(2) Administrative Costs}>0}\\
++\underbrace{\lambda t_{1}N^{C}\frac{\partial\tilde{\pi}}{\partial F_{2}}}_{\text{(3) Effect on reported profits}>0}\underbrace{-\lambda\left[\gamma\frac{\partial N^{C}}{\partial F_{1}}+\frac{\partial N^{C}}{\partial F_{2}}\right]}_{\text{(4) Effect on accounting choice}}\underbrace{t\Delta\tilde{\pi}}_{\text{(5) }\Delta\text{ Reported profits}>0}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Admin data on universe of internationally active firms in Chile 2007–2015
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+sales, payroll, tax payments from corporate income tax filings
+\end_layout
+
+\begin_layout Itemize
+accompanying affidavits on payments to foreign entities
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Customs data on univorse of imports and exports of goods at transaction
+ lavel
+\end_layout
+
+\begin_layout Itemize
+Tax rates of foriegn countries from Centre for Business Taxation Tax Database
+\end_layout
+
+\begin_layout Itemize
+Qualitative interviews with transfer pricing consultants in Chile
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Summary Statistics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BustosEtAl2022_01.png
+	lyxscale 60
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Empirical Strategy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Look at the impact of tax reforms in 
+\emph on
+other countries
+\emph default
+ on payments by Chilean firms to firms/affiliates in those countries
+\begin_inset Formula 
+\[
+\ln\left(Y_{ijat}+1\right)=\beta_{1}\text{Tax Rate}_{jt}+\beta_{2}\text{Tax Rate}_{jt}\times\text{Affiliate}_{a}+\beta_{3}\ln\left(\text{GDPpc}\right)_{jt}+u_{it}+\alpha_{ia}+\mu_{j}+e_{ijat}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $Y_{ijat}$
+\end_inset
+
+ is payment by firm 
+\begin_inset Formula $i$
+\end_inset
+
+ to firms in country 
+\begin_inset Formula $j$
+\end_inset
+
+ in year 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ 
+\begin_inset Formula $a$
+\end_inset
+
+ denotes whether payments made to an affiliated company.
+ 
+\begin_inset Formula $\text{Affiliate}_{a}$
+\end_inset
+
+ indicates payments to affiliates and 
+\begin_inset Formula $\text{Tax Rate}_{jt}$
+\end_inset
+
+ is the statutory corporate tax rate of country 
+\begin_inset Formula $j$
+\end_inset
+
+ in year 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Control for ln GDP/capita, firm-year effects 
+\begin_inset Formula $u_{it}$
+\end_inset
+
+, firm-affiliate effects 
+\begin_inset Formula $\alpha_{ia}$
+\end_inset
+
+ and destination-country effects 
+\begin_inset Formula $\mu_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Identification comes from within-firm comparisons across destination countries.
+\end_layout
+
+\begin_layout Itemize
+Expect 
+\begin_inset Formula $\beta_{1}+\beta_{2}<0$
+\end_inset
+
+ since profit shifting incentive increases with tax rate differeential,
+ but 
+\begin_inset Formula $\beta_{1}=0$
+\end_inset
+
+ since no profit shifting motive to non-affiliated companies.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Empirical Strategy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To look at the impact of the 2011 reform, do a triple-difference before
+ and after the reform:
+\begin_inset Formula 
+\begin{align*}
+\ln\left(Y_{ijat}+1\right) & =\beta_{1}\text{Tax Rate}_{jt}+\beta_{2}\text{Tax Rate}_{jt}\times\text{Affiliate}_{a}\\
+ & \quad+\beta_{3}\text{Tax Rate}_{jt}\times\text{Affiliate}_{a}\times\text{Post}_{t}+\beta_{4}\text{Post}_{t}+\beta_{5}\text{Tax Rate}_{jt}\times\text{Post}_{t}\\
+ & \quad+\beta_{6}\text{Affiliate}_{a}\times\text{Post}_{t}+\beta_{8}\ln\left(\text{GDPpc}\right)_{jt}+u_{it}+\alpha_{ia}+\mu_{j}+e_{ijat}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now we're looking at 
+\begin_inset Formula $\beta_{3}$
+\end_inset
+
+: Does the semi-elasticity for affiliates change after the reform?
+\end_layout
+
+\begin_layout Itemize
+For other outcomes at the firm level estimate
+\begin_inset Formula 
+\[
+\frac{Y_{it}}{\text{Payroll}_{it}}=\alpha_{0}+\beta_{1}\text{Multinational}_{i}+\beta_{2}\text{Post}_{t}+\beta_{3}\text{Multinational}_{i}\times\text{Post}_{t}+\beta_{4}X_{it}+u_{i}+e_{it}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BustosEtAl2022_02.png
+	lyxscale 60
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BustosEtAl2022_03.png
+	lyxscale 60
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BustosEtAl2022_05.png
+	lyxscale 60
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BustosEtAl2022_06.png
+	lyxscale 60
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BustosEtAl2022_07.png
+	lyxscale 60
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bustos et al (2022): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BustosEtAl2022_08.png
+	lyxscale 60
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Fisman & Wei (JPE 2004) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Tax Rates and Tax Evasion: Evidence from 
+\begin_inset Quotes eld
+\end_inset
+
+Missing Imports
+\begin_inset Quotes erd
+\end_inset
+
+ in China
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Fisman & Wei (2004): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How does tax evasion respond to tax rates?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Theoretically ambiguous (e.g.
+ Allingham-Sandmo dependence on risk preferences)
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Hard to measure evasion directly
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Here: Direct (noisy) measure of evasion: Difference between amount exported
+ to China from Hong Kong (reported by HK) and the amount imported to China
+ from Hong Kong (reported by China).
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Correlate evasion gap with tax rates in China
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Diff in Diff around reforms to tariffs in China in 1997
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Conclusion: Evasion very sensitive to tax rates.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Fisman & Wei (2004): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Data on trade flows from WB World Integrated Trade Solution (WITS) database.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Trade flows (Value and quantity) at 6-digit-product-origin-destination-year
+ level.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{gap\_value=\log\left(\text{export\_value}\right)-\log\left(\text{import\_value}\right)}$
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Focus on variation 
+\emph on
+within
+\emph default
+ 4-digit HS-codes in tariff rates.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Add in Chinese VAT rates
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Fisman & Wei (2004): Basic Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\log\left(\text{export\_value}_{k}\right)-\log\left(\text{import\_value}_{k}\right)=\alpha+\beta\text{tax}_{k}+e_{k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Fisman Wei 1.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Fisman & Wei (2004): Substitution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stronger incentives to misclassify items if similar products face higher
+ rates.
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Include 
+\begin_inset Formula $\text{avg}\left(\text{tax\_o}\right)$
+\end_inset
+
+, average of other products in same 4-dig group.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Fisman Wei 2.png
+	scale 37
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Fisman & Wei (2004): Quantities v Values
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Replace LHS with quantities
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Fisman Wei 3.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Fisman & Wei (2004): Diff in Diff
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use changes in Chinese tariff rates in 1997
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/Fisman Wei 4.png
+	scale 46
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
 Sequeira (AER 2016) 
 \begin_inset ERT
 status open
@@ -4591,7 +6723,7 @@ Affects some products but not others.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 1.png
+	filename pictures/Sequeira 1.png
 	scale 32
 
 \end_inset
@@ -4641,8 +6773,8 @@ Diff in Diff across products/time to estimate trade elasticity.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 2.png
-	scale 27
+	filename pictures/Sequeira 2.png
+	scale 24
 
 \end_inset
 
@@ -4723,7 +6855,7 @@ Intensive margin:
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 3.png
+	filename pictures/Sequeira 3.png
 	scale 32
 
 \end_inset
@@ -4769,8 +6901,8 @@ Use similar strategy to Fisman & Wei (2004)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 4.png
-	scale 29
+	filename pictures/Sequeira 4.png
+	scale 26
 
 \end_inset
 
@@ -4806,7 +6938,7 @@ Random sample of >1,000 shipments at port of Maputo
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 5.png
+	filename pictures/Sequeira 5.png
 	scale 33
 
 \end_inset
@@ -4839,7 +6971,7 @@ Sequeira (2016): Corruption-Bribe Payments
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 6.png
+	filename pictures/Sequeira 6.png
 	scale 33
 
 \end_inset
@@ -4863,7 +6995,7 @@ Sequeira (2016): Corruption-Bribe Payments
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 7.png
+	filename pictures/Sequeira 7.png
 	scale 29
 
 \end_inset
@@ -4887,85 +7019,12 @@ Sequeira (2016): Corruption-Bribe Payments
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Sequeira 8.png
+	filename pictures/Sequeira 8.png
 	scale 31
 
 \end_inset
 
 
-\end_layout
-
-\end_deeper
-\begin_layout Section
-Open Questions
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Open Questions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-How do taxes interact with labor market informality?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How regressive are taxes that are commonly evaded?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Does technology allow developing-country tax administrations to leapfrog
- rich countries and improve enforcement?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How do policy and administration interact?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How does politics affect tax systems' design and administration?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How do taxes affect market structure when there's lots of informality?
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-How should tax administrations be organized? Hierarchically? By function?
- By geography? Independent of government?
 \end_layout
 
 \end_deeper
