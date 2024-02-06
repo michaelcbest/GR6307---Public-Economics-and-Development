@@ -3661,912 +3661,6 @@ Kleven et al.
 
 \end_deeper
 \begin_layout Subsection
-Alstadsæter, Johannesen & Zucman (AER 2019) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect
-\backslash
-textit{
-\end_layout
-
-\end_inset
-
-Tax Evasion and Inequality
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Who evades taxes? Is it the ultra-rich (panama papers) or the poor (self-employe
-d/benefit fraud)?
-\end_layout
-
-\begin_layout Itemize
-Combine financial leaks, amnesties, and tax data in Scandinavia to study
- distribution of evasion.
-\end_layout
-
-\begin_layout Itemize
-Find that 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-evasion is higher amongst the rich (25-30% vs 3% in the overall population)
-\end_layout
-
-\begin_layout Itemize
-evasion and avoidance aren't good substitutes
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Provide a model of tax evasion intermediaries to rationalize results
-\end_layout
-
-\begin_layout Itemize
-Implies that
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-high fiscal returns to clamping down on evasion
-\end_layout
-
-\begin_layout Itemize
-measured wealth inequality understated
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Data
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-HSBC Switzerland Leak
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-In 2007, an engineer at HSBC Private Bank Switzerland leaked details of
- 30,142 clients' accounts to French tax authorities.
-\end_layout
-
-\begin_layout Enumerate
-Contains beneficial ownership information linking owners to wealth even
- if held through shell companies
-\end_layout
-
-\begin_layout Enumerate
-HSBC a big player in offshore wealth management.
-\end_layout
-
-\begin_layout Enumerate
-Link to Scandinavian tax data: Match 520 households who did not declare
- the accounts.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Panama Papers Leak
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-2016 leak of names & addresses of owners of shell companies created by Mossack
- Fonseca
-\end_layout
-
-\begin_layout Enumerate
-Match to 165 taxpayers in Norway & Sweden
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Tax Amnesty Participants in Norway and Sweden
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-1,422 in NO; 6,811 in SE
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Tax microdata from Denmark, Norway & Sweden
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Wealth Distribution
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Construct full distribution of wealth
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Distribute aggregate wealth in national accounts amongst households
-\end_layout
-
-\begin_layout Enumerate
-3rd-party reports from banks, insurers etc of end-of-year market value of
- clients' wealth
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-land/real-estate assets valued using transaction prices
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-Impute non-coporate business assets and unlisted equities by capitalizing
- business/dividend income on tax returns
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Leaks Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 1.png
-	lyxscale 30
-	scale 13
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Leaks Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 2.png
-	lyxscale 30
-	scale 13
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Leaks Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 3.png
-	lyxscale 30
-	scale 13
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Amnesty Results
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 4.png
-	lyxscale 30
-	scale 13
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Tax Evasion
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Can we use this to try and estimate how much tax is missing from each group?
-\end_layout
-
-\begin_layout Itemize
-Their approach:
-\end_layout
-
-\begin_layout Enumerate
-Estimate total amount of offshore wealth
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Zucman (2013) estimates $5.6 trn of offshore wealth in the world.
- Use Swiss bilateral bank deposit data to allocate to Scandinavian countries.
- 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
-1.6% of Scandinavian wealth is in tax havens.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Estimate distribution of offshore wealth across wealth groups
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Use distributions in leak/amnesty data.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Estimate how much offshore wealth is hidden vs declared
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-To match aggregates and HSBC investigations assume 10% is reported
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Compute amount of taxes due on hidden wealth
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Assume 4.5% taxable rate of return plus tax simulator to estimate tax due.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Wealth Distribution
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 5.png
-	lyxscale 40
-	scale 20
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Tax Evaded
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 6.png
-	lyxscale 40
-	scale 18
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Random Audits Comparison
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 7.png
-	lyxscale 40
-	scale 19
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Random Audits Comparison
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 8.png
-	lyxscale 40
-	scale 19
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Total Tax Evasion
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 9.png
-	lyxscale 40
-	scale 19
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Effective Tax Rates
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pictures/Alstadsaeter et al 10.png
-	lyxscale 40
-	scale 19
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Allingham-Sandmo model would predict less evasion by wealthy, they have
- higher probability of detection
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Extend the model to have a bank providing evasion services.
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Households have wealth 
-\begin_inset Formula $y\sim f\left(y\right)$
-\end_inset
-
- and wtp 
-\begin_inset Formula $\theta$
-\end_inset
-
- per dollar of hidden wealth.
- 
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Bank serves 
-\begin_inset Formula $s$
-\end_inset
-
- clients.
- Detected w/pr 
-\begin_inset Formula $\lambda s$
-\end_inset
-
- and pays fine of 
-\begin_inset Formula $\phi$
-\end_inset
-
- per dollar of assets it manages.
- Charges price 
-\begin_inset Formula $p\left(y\right)$
-\end_inset
-
-
-\begin_inset Formula 
-\[
-\pi=\int yp\left(y\right)s\left(y\right)f\left(y\right)dy-\lambda s\phi\int ys\left(y\right)f\left(y\right)dy
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Monopolist 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- optimal price 
-\begin_inset Formula $p^{*}\left(y\right)=\theta$
-\end_inset
-
- (why?)
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Now profits are
-\begin_inset Formula 
-\[
-\pi=\theta k\left(s\right)-\lambda s\phi k\left(s\right)
-\]
-
-\end_inset
-
-where 
-\begin_inset Formula $k\left(s\right)$
-\end_inset
-
- is wealth of 
-\begin_inset Formula $s$
-\end_inset
-
- wealthiest households
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-So profit-maximizing 
-\begin_inset Formula $s^{*}$
-\end_inset
-
- satisfies
-\begin_inset Formula 
-\[
-\theta=\left(1+\frac{1}{\epsilon_{k}\left(s^{*}\right)}\right)\phi\lambda s^{*}
-\]
-
-\end_inset
-
-where 
-\begin_inset Formula $\epsilon_{k}\left(s\right)=sk^{\prime}\left(s\right)/k\left(s\right)$
-\end_inset
-
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-Proposition 1: the wealthiest 
-\begin_inset Formula $s^{*}$
-\end_inset
-
- households evade at price 
-\begin_inset Formula $\theta$
-\end_inset
-
-.
- All others do not evade.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Alstadsæter et al.
- (2019): Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Assume further that 
-\begin_inset Formula $f\left(y\right)$
-\end_inset
-
- is pareto with parameter 
-\begin_inset Formula $a>1$
-\end_inset
-
- 
-\begin_inset Formula $\left(F\left(y\right)=1-\left(\underline{y}/y\right)^{a}\right)$
-\end_inset
-
- then we can state
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-Proposition 2: The share 
-\begin_inset Formula $s^{*}$
-\end_inset
-
- of households who evade taxes (i) falls with the probability of detection
- 
-\begin_inset Formula $\lambda$
-\end_inset
-
- (ii) falls with the penalty rate 
-\begin_inset Formula $\phi$
-\end_inset
-
-, and (iii) falls as wealth becomes more unequally distributed (i.e.
- as the Pareto coefficient falls)
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-NB that even though the number of evaders drops when inequality rises, the
- fraction of total wealth that is hidden increases.
-\end_layout
-
-\end_deeper
-\begin_layout Subsection
 Guyton, Langetieg, Reck, Risch & Zucman (WP 2021) 
 \begin_inset ERT
 status open
@@ -5360,6 +4454,103 @@ et al.
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Boning, Hendren, Sprung-Keyser & Stuart (QJE 2024?) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+A Welfare Analysis of Tax Audits Across the Income Distribution
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There is a lot of tax evasion, even in rich countries like the US.
+ How effective are audits at recovering unpaid taxes?
+\end_layout
+
+\begin_layout Itemize
+How do the returns to audit vary along the income distribution?
+\end_layout
+
+\begin_layout Enumerate
+Estimate average costs and revenues of in-person audits
+\end_layout
+
+\begin_layout Enumerate
+Estimate costs and revenues of 
+\emph on
+marginal
+\emph default
+ audits
+\end_layout
+
+\begin_layout Enumerate
+Estimate indirect effects through deterrence
+\end_layout
+
+\begin_layout Enumerate
+Evaluate welfare consequences of tax audits by deriving and estimating an
+ MVPF of audits.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 De Neve, Imbert, Spinnewijn, Tsankova & Luts (JPE 2021) 
 \begin_inset ERT

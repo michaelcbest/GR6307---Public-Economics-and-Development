@@ -4455,6 +4455,109 @@ et al.
 
 \end_deeper
 \begin_layout Subsection
+Boning, Hendren, Sprung-Keyser & Stuart (QJE 2024?) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+A Welfare Analysis of Tax Audits Across the Income Distribution
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There is a lot of tax evasion, even in rich countries like the US.
+ How effective are audits at recovering unpaid taxes?
+\end_layout
+
+\begin_layout Itemize
+How do the returns to audit vary along the income distribution?
+\end_layout
+
+\begin_layout Enumerate
+Estimate average costs and revenues of in-person audits
+\end_layout
+
+\begin_layout Enumerate
+Estimate costs and revenues of 
+\emph on
+marginal
+\emph default
+ audits
+\end_layout
+
+\begin_layout Enumerate
+Estimate indirect effects through deterrence
+\end_layout
+
+\begin_layout Enumerate
+Evaluate welfare consequences of tax audits by deriving and estimating an
+ MVPF of audits.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): How do Audits Work?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
 De Neve, Imbert, Spinnewijn, Tsankova & Luts (JPE 2021) 
 \begin_inset ERT
 status open
