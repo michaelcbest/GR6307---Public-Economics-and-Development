@@ -4553,10 +4553,844 @@ Boning et al.
 
 \begin_deeper
 \begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_01.png
+	width 100text%
+
+\end_inset
+
 
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Detailed Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Audit-level enforcement data covering 2003-2021
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Tax liability assessed at each stage of the process.
+ Separately estimate revenue at exam, appeals, and collection.
+\end_layout
+
+\begin_layout Enumerate
+Log of hours spent on enforcement activity by IRS employees and their pay
+ grade.
+ Using location get hourly wage to get labor costs
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+IRS Accounting data 2011-2020
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+non-direct labor-related costs (training, fringe benefits etc)
+\end_layout
+
+\begin_layout Enumerate
+organization-wide costs (building gosts, IT etc)
+\end_layout
+
+\begin_layout Enumerate
+central IRS overhead (HQ costs etc)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Study 710,000 in-person audits from 2010-2014.
+ Have 7 years of follow-up to observe costs and revenues.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_02.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_03.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_04.png
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Marginal Audits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+So far studied impacts of 
+\emph on
+average
+\emph default
+ audit.
+ But to think about expanding/contracting audit program want to learn about
+ 
+\emph on
+marginal audits
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Diminishing returns? Target high-value evaders first?
+\end_layout
+
+\begin_layout Enumerate
+Economies of scale.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Study diminishing returns using big decline in audit rates between 2010
+ and 2014.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Marginal Audits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_05.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Marginal Audits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_06.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Marginal Audits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_07.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Marginal Audits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No evidence of diminishing marginal returns.
+\end_layout
+
+\begin_layout Itemize
+What about economies of scale:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Depends on how much of costs are fixed/variable.
+\end_layout
+
+\begin_layout Itemize
+Baseline is that 27% is fixed and 73% variable based on accounting information
+\end_layout
+
+\begin_layout Itemize
+Total marginal cost is labor/fringe, org-wide costs.
+ -> 3.93:1 ratio of total MC to labor cost.
+ and marginal non-labor costs 25.6% of total labor and fringe costs
+\end_layout
+
+\begin_layout Itemize
+IRS has its own estimates that it is 23.6%.
+\end_layout
+
+\begin_layout Itemize
+Lower bound: 1.93 dollars of MC per dollar of direct wage cost (only benefits,
+ training, travel)
+\end_layout
+
+\begin_layout Itemize
+Upper bound: $4.39 per $ of direct wage costs (all non-direct labor costs
+ are variable)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Marginal Audits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_08.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Deterrence Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use NRP audits (as in DeBacker et al.
+ 2021; Guyton et al 2023)
+\end_layout
+
+\begin_layout Itemize
+Compare randomly selected audits to a matched control group.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+stratify in the same way NRP does (TPI, EITC, Self-employment income)
+\end_layout
+
+\begin_layout Itemize
+Select a nearest neighbor in the same stratum and tax-year using TPI
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Do matched, stacked event study.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Deterrence Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_09.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Deterrence Effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_10.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Incorporating Overall Deterrence Effect
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_11.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Incorporating TPI-specific Deterrence Effect
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_12.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Welfare Analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Look at welfare effects of 
+\emph on
+marginal
+\emph default
+ audits
+\begin_inset Formula 
+\[
+MVPF^{audit}=\frac{\text{WTP to Avoid Audit}}{\text{Net Govt Revenue Raised}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Willingness to pay:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Welfare loss of 
+\begin_inset Formula $R$
+\end_inset
+
+ from having to pay money to the IRS.
+ Valued at 1 per $
+\end_layout
+
+\begin_layout Enumerate
+Additional costs from time, representation, hassle etc: 
+\begin_inset Formula $B$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Net Govt Revenue Raised
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Revenue 
+\begin_inset Formula $R$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Costs 
+\begin_inset Formula $C$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Welfare Analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+MVPF^{audit}=\frac{\frac{R}{C}+\frac{B}{C}}{\frac{R}{C}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Estimate 
+\begin_inset Formula $B$
+\end_inset
+
+ as in Guyton & Hodge (2014) using survey results.
+ They estimate $3,198 of burden for an in-person audit
+\end_layout
+
+\begin_layout Itemize
+Assume 
+\begin_inset Formula $B/C$
+\end_inset
+
+ is constant across the income distribution (NB not assuming 
+\begin_inset Formula $B$
+\end_inset
+
+ is constant)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Welfare Analysis.
+ Low Income Taxpayers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_13.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Welfare Analysis.
+ High Income Taxpayers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_14.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boning et al.
+ (2024): Welfare Analysis Comparison to Other Policies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/BoningEtAl_15.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Subsection
 De Neve, Imbert, Spinnewijn, Tsankova & Luts (JPE 2021) 
 \begin_inset ERT
