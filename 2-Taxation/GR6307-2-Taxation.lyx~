@@ -4555,7 +4555,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_01.png
-	scale 20
+	width 100text%
 
 \end_inset
 
@@ -4650,7 +4650,7 @@ status open
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_02.png
-	scale 19
+	height 100theight%
 
 \end_inset
 
@@ -4682,7 +4682,7 @@ status open
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_03.png
-	scale 19
+	height 100theight%
 
 \end_inset
 
@@ -4714,7 +4714,7 @@ status open
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_04.png
-	scale 19
+	height 100theight%
 
 \end_inset
 
@@ -4797,7 +4797,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_05.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -4830,7 +4830,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_06.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -4863,7 +4863,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_07.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -4957,7 +4957,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_08.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -5036,7 +5036,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_09.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -5069,7 +5069,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_10.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -5102,7 +5102,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_11.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -5135,7 +5135,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_12.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -5308,7 +5308,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_13.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -5342,7 +5342,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_14.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
@@ -5375,7 +5375,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_15.png
-	scale 19
+	height 97theight%
 
 \end_inset
 
