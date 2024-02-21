@@ -15805,7 +15805,557 @@ Imagine replacing bottom 25% of tax collectors with average
 
 \end_deeper
 \begin_layout Subsection
-Basri, Felix, Hanna & Olken (2020) 
+Keen & Slemrod (JPubE 2017) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Optimal Tax Administration
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Keen & Slemrod (2017): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Motivation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What do policymakers need to know about costs and effectiveness of 
+\series bold
+\emph on
+administrative
+\series default
+\emph default
+ interventions to set them optimally?
+\end_layout
+
+\begin_layout Enumerate
+Is it better to raise an additional dollar of revenue by raising rates or
+ by increasing enforcement?
+\end_layout
+
+\begin_layout Enumerate
+How big 
+\emph on
+should
+\emph default
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+compliance gap
+\begin_inset Quotes erd
+\end_inset
+
+ (gap between tax legally due and tax collected) be? It's not zero so how
+ do we know if it's too big or too small?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Show in a simple framework that the key is the 
+\emph on
+enforcment elasticity of revenue
+\emph default
+.
+ This is the administrative side analog of the elasticity of taxable income.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+optimal administration sets this elasticity equal to ratio of costs and
+ revenues (c.f.
+ ETI)
+\end_layout
+
+\begin_layout Itemize
+tradeoff between administration and rates rests on balance between ETI and
+ enforcement elasticity
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Keen & Slemrod (2017): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Representative individual with quasi-linear preferences:
+\begin_inset Formula 
+\[
+W=x-\psi\left(l\right)+v\left(g\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $x$
+\end_inset
+
+ is consumption; 
+\begin_inset Formula $l$
+\end_inset
+
+ is hours worked; and 
+\begin_inset Formula $g$
+\end_inset
+
+ is public spending
+\end_layout
+
+\begin_layout Itemize
+Public spending financed by linear income tax at rate 
+\begin_inset Formula $t$
+\end_inset
+
+ so individual's BC is
+\begin_inset Formula 
+\[
+x=wl-t\cdot\left(wl-e\right)-c\left(e,\alpha\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $w$
+\end_inset
+
+ is exogenous wage; 
+\begin_inset Formula $e$
+\end_inset
+
+ is evaded income; 
+\begin_inset Formula $c$
+\end_inset
+
+ are private concealment costs; 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ is an 
+\series bold
+enforcement parameter
+\series default
+ satisfying 
+\begin_inset Formula $c_{\alpha}>0$
+\end_inset
+
+ & 
+\begin_inset Formula $c_{e\alpha}>0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Keen & Slemrod (2017): Individual Choices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Individual's optimal choices satisfy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+optimal labor supply:
+\begin_inset Formula 
+\[
+\left(1-t\right)w-\psi^{\prime}\left(l\right)=0\quad\Rightarrow l\left(t,w\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+optimal evasion:
+\begin_inset Formula 
+\[
+t-c_{e}\left(e,\alpha\right)=0\quad\Rightarrow e\left(t,\alpha\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Note that 
+\begin_inset Formula $e_{t}>0$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{\alpha}<0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Keen & Slemrod (2017): Government Choices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The enforcement technology 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ has administrative costs 
+\begin_inset Formula $a\left(\alpha\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Government's BC is 
+\begin_inset Formula 
+\[
+g+a\left(\alpha\right)=t\cdot\left(wl-e\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Makes social welfare
+\begin_inset Formula 
+\[
+W\left(t,\alpha\right)=wl-t\cdot\left(wl-e\right)-c\left(e,\alpha\right)-\psi\left(l\right)+v\left(t\cdot\left(wl-e\right)-a\left(\alpha\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Maximizing and using the Envelope Theorem:
+\begin_inset Formula 
+\[
+W_{t}=-z+v^{\prime}\cdot\left(z+tz_{t}\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $z\left(t,\alpha\right)=wl\left(t,w\right)-e\left(t,\alpha\right)$
+\end_inset
+
+ is taxable income.
+ Rearranging
+\begin_inset Formula 
+\[
+\frac{t}{1-t}=\left(\frac{v^{\prime}-1}{v^{\prime}}\right)\frac{1}{E\left(z,1-t\right)}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $E\left(z,1-t\right)$
+\end_inset
+
+ is the famous ETI
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Keen & Slemrod (2017): Optimal Administration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What about the optimal choice of enforcement 
+\begin_inset Formula $\alpha$
+\end_inset
+
+?
+\begin_inset Formula 
+\[
+W_{\alpha}=-c_{\alpha}+v^{\prime}\cdot\left(tz_{\alpha}-a_{\alpha}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We can do a similar rearranging.
+ Define the 
+\emph on
+adjusted marginal cost - revenue ratio 
+\begin_inset Formula $\phi$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\phi\equiv\frac{\alpha\left(c_{\alpha}/v^{\prime}\right)+\alpha a_{\alpha}}{tz}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now you can rearrange to see that the optimal administration satisfies
+\begin_inset Formula 
+\[
+E\left(z,\alpha\right)=\phi
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $E\left(z,\alpha\right)$
+\end_inset
+
+ is the elasticity of taxable income wrt enforcement
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Keen & Slemrod (2017): Balancing Policy & Administration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If enforcement is constrained to be low, should we respond by having higher
+ tax rates? or lower?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+higher tax rates would offset the losses from weak administration
+\end_layout
+
+\begin_layout Itemize
+But lower tax rates would reduce the loss from high evasion
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The answer depends on whether policy and administration are 
+\emph on
+strategic complements or substitutes
+\begin_inset Formula 
+\[
+W_{t\alpha}=-\underbrace{\left(v^{\prime}-1\right)}_{>0}e_{\alpha}-v^{\prime}te_{t\alpha}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Proposition: A sufficient condition for strategic complementary (
+\begin_inset Formula $dt/d\alpha>0$
+\end_inset
+
+) is 
+\begin_inset Formula $e_{t\alpha}\leq0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Keen & Slemrod (2017): Balancing Policy & Administration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Should we raise a marginal dollar from tax rates or enforcement?
+\end_layout
+
+\begin_layout Itemize
+Consider the following thought experiment: Do a balanced budget reform that
+ increase 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ by a tiny bit 
+\begin_inset Formula $d\alpha$
+\end_inset
+
+ and simultaneously offsets this with a tax rate change 
+\begin_inset Formula $\left.\frac{dt}{d\alpha}\right|_{g}$
+\end_inset
+
+.
+ Does welfare go up?
+\begin_inset Formula 
+\[
+dW=W_{t}\left.\frac{dt}{d\alpha}\right|_{g}+W_{\alpha}\gtrless0?
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Proposition: Marginal revenue should come from tax rate increase iff
+\begin_inset Formula 
+\[
+\frac{E\left(z,\alpha\right)-\frac{\alpha a_{\alpha}}{tz}}{1-\frac{t}{1-t}E\left(z,1-t\right)}>\frac{\alpha c_{\alpha}}{tz}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Shows how to combine sufficient statistics to guide policy.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Basri, Felix, Hanna & Olken (AER 2020) 
 \begin_inset ERT
 status open
 
