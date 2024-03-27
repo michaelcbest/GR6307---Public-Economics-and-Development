@@ -12086,6 +12086,7 @@ Haushofer Et Al (2022): Results
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename pictures/HaushoferEtAl2022_02.png
 	height 97theight%
@@ -12118,6 +12119,7 @@ Haushofer Et Al (2022): Results
 
 \begin_deeper
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename pictures/HaushoferEtAl2022_03.png
 	height 97theight%
@@ -12152,11 +12154,101 @@ Haushofer Et Al (2022): Results
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/HaushoferEtAl2022_04.png
-	width 97page%
+	height 97theight%
 
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Optimal Policy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $W\left(\hat{y}\right)=\left(1-e^{-\alpha\hat{y}}\right)/\alpha$
+\end_inset
+
+ for 
+\begin_inset Formula $\alpha>0$
+\end_inset
+
+ or 
+\begin_inset Formula $W\left(\hat{y}\right)=\hat{y}$
+\end_inset
+
+ for 
+\begin_inset Formula $\alpha=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/HaushoferEtAl2022_05.png
+	width 97text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): In the Paper...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The paper has a bunch of other goodies in it:
+\end_layout
+
+\begin_layout Itemize
+Other ML methods
+\end_layout
+
+\begin_layout Itemize
+Other outcomes
+\end_layout
+
+\begin_layout Itemize
+Spillovers
 \end_layout
 
 \end_deeper
