@@ -231,7 +231,7 @@ Michael Best
 \end_layout
 
 \begin_layout Date
-Spring 2022
+Spring 2024
 \begin_inset Newline newline
 \end_inset
 
@@ -11501,6 +11501,658 @@ Banerjee et al (2018): Effect on Asset Acquisition
 \begin_inset Graphics
 	filename pictures/BanerjeeEtAl2018_07.png
 	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Houshofer, Niehaus, Paramo, Miguel & Walker (2022) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Targeting Impact versus Deprivation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Targeting is important in anti-poverty programs.
+ Big literature now on how to identify 
+\begin_inset Quotes eld
+\end_inset
+
+deprived
+\begin_inset Quotes erd
+\end_inset
+
+ (low wealth/consumption/living standards etc) households (Alatas et al
+ 2012; Blumenstock et al 2015; Brown et al 2018; hanna & Olken 2018,...)
+\end_layout
+
+\begin_layout Itemize
+But there's more to it than just looking for currently deprived households.
+ In general we also want to consider how much each household would benefit
+ from assistance.
+\end_layout
+
+\begin_layout Itemize
+Accumulating evidence of heterogeneous treatment effects, even of cash assistanc
+e (de Mel et al 2008; Hussam et al 2022; Haushofer & Shapiro 2016)
+\end_layout
+
+\begin_layout Itemize
+This paper combines these insights.
+ Build on ML methods to identify heterogeneity of treatment effects (Wager
+ & Athey 2018; Chernozukhov et al 2018; Athey et al 2019) and conceptual
+ framework to think about targeting on deprivation or on impact.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Need to allocate a treatment to a subset of households 
+\begin_inset Formula $h$
+\end_inset
+
+ to maximize social welfare:
+\begin_inset Formula 
+\[
+\sum_{h}\sum_{t=0}^{\bar{t}}W\left(Y_{h,t}\left(T_{h}\right)\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $Y_{h,t}$
+\end_inset
+
+ is outcome (consumption, wealth etc) in period 
+\begin_inset Formula $t$
+\end_inset
+
+ and 
+\begin_inset Formula $T_{h}\in\{0,1\}$
+\end_inset
+
+ is treatment assignment
+\end_layout
+
+\begin_layout Itemize
+Welfare function 
+\begin_inset Formula $W$
+\end_inset
+
+ satisfies 
+\begin_inset Formula $W^{\prime}>0$
+\end_inset
+
+ and 
+\begin_inset Formula $W^{\prime\prime}\leq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Using potential outcomes notation 
+\begin_inset Formula $Y_{h,t}^{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{h,t}^{0}$
+\end_inset
+
+ rewrite as 
+\begin_inset Formula 
+\[
+\sum_{h}\sum_{t=0}^{\bar{t}}W\left(Y_{h,t}^{0}+T_{h}\Delta_{h,t}\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $Y_{h,t}^{0}$
+\end_inset
+
+ is the untreated PO and 
+\begin_inset Formula $\Delta_{h,t}\equiv Y_{h,t}^{1}-Y_{h,t}^{0}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government can't observe each household's 
+\begin_inset Formula $Y_{h,t}^{0}$
+\end_inset
+
+ or 
+\begin_inset Formula $\Delta_{h,t}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Instead, observe 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+baseline covariates 
+\begin_inset Formula $X_{h}\in\mathbf{X}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Realized outcomes from an experimental sub-sample: 
+\begin_inset Formula $Y_{h,t}^{T_{h}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Select a rule 
+\begin_inset Formula $r:\mathbf{X}\rightarrow\left\{ 0,1\right\} $
+\end_inset
+
+ to assign treatment
+\end_layout
+
+\begin_layout Itemize
+With the experimental data, the planner can form predictions
+\begin_inset Formula 
+\begin{align*}
+\hat{Y}_{t}^{0}\left(X_{h}\right) & \text{ of }\mathbb{E}\left[Y_{h,t}^{0}\vert X_{h},t\right]\\
+\hat{\Delta}_{t}\left(X_{h}\right) & \text{ of }\mathbb{E}\left[Y_{h,t}^{1}-Y_{h,t}^{0}\vert X_{h},t\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With the predictions, the planner can target.
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ target deprivation:
+\begin_inset Formula 
+\[
+r^{D}\left(X_{h}\right)=\mathbf{1}\left(\hat{Y}_{0}^{0}\left(X_{h}\right)\leq q_{\phi}^{\hat{Y}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+or; e.g.
+ target impact:
+\begin_inset Formula 
+\[
+r^{I}\left(X_{h}\right)=\mathbf{1}\left(\hat{\Delta}\left(X_{h}\right)\geq q_{1-\phi}^{\hat{\Delta}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+or target (social) welfare gain:
+\begin_inset Formula 
+\begin{align*}
+d\hat{W}\left(X_{h}\right) & \equiv\sum_{t=0}^{\bar{t}}\left[W\left(\hat{Y}_{t}^{0}\left(X_{h}\right)+\hat{\Delta}_{t}\left(X_{h}\right)\right)-W\left(\hat{Y}_{t}^{0}\left(X_{h}\right)\right)\right]\\
+r^{*}\left(X_{h}\right) & =\mathbf{1}\left(d\hat{W}_{h}\geq q_{1-\phi}^{d\hat{W}}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Intervention
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use the intervention studied in Egger et al.
+ (2022).
+ Give Directly (GD) cash transfers in western Kenya.
+\end_layout
+
+\begin_layout Itemize
+653 villages in 84 sublocations.
+ Transfers between 2014 and 2017.
+\end_layout
+
+\begin_layout Itemize
+GD defines households with thatched roofs as eligible 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 35-40% of hhs eligible.
+ Eligible hhs receive $1,000: 75% of mean annual expenditures
+\end_layout
+
+\begin_layout Itemize
+2-level randomization:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+randomly assign 33 sub-locations to high saturation, 35 to low-saturation
+\end_layout
+
+\begin_layout Enumerate
+in High saturation sub-locations, 2/3 villages treated.
+ In low, 1/3.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Baseline and endline surveys 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 4,749 eligible households with both baseline & endline data on PMT inputs
+ (hh size, children's ages, asset ownership, employment status etc)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Empirical Approach
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Split data into 4 parts: Hi/Lo deprivation; and Hi/Lo impact:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename pictures/HaushoferEtAl2022_01.png
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Use 
+\begin_inset Formula $\mathcal{K}=5$
+\end_inset
+
+ and repeat 150 times and report averages
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Empirical Approach
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Learn deprivation 
+\begin_inset Formula $\mathbb{E}\left[Y_{h,t}^{0}\vert X_{h},t\right]$
+\end_inset
+
+ using random forests
+\end_layout
+
+\begin_layout Itemize
+Learn Conditional Average Treatment Effect (CATE) function 
+\begin_inset Formula $\mathbb{E}\left[Y_{h,t}^{1}-Y_{h,t}^{0}\vert X_{h},t\right]$
+\end_inset
+
+ through causal forests using generalized random forests (GRF) by Athey
+ et al (2019)
+\end_layout
+
+\begin_layout Itemize
+With households classified into groups 
+\begin_inset Formula $S=D,I$
+\end_inset
+
+ form the 
+\series bold
+predicted
+\series default
+ averages:
+\begin_inset Formula 
+\[
+\bar{\hat{y}}^{0}\left(S\right)=\frac{1}{\left|S\right|}\sum_{h\in S}\hat{y}^{0}\left(X_{h}\right)\qquad\bar{\hat{\Delta}}\left(S\right)=\frac{1}{\left|S\right|}\sum_{h\in S}\hat{\Delta}\left(X_{h}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This creates a problem: We classified households using predictions, so we
+ will tend to suffer from a 
+\emph on
+winner's curse: 
+\emph default
+Large outliers drive classification.
+ e.g.
+ large values of 
+\begin_inset Formula $Y_{h}^{0}-\hat{Y}_{h}^{0}$
+\end_inset
+
+ will tend to be classified as deprived, but then we'll overestimate deprivation
+ of deprived group.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Empirical Approach
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use 
+\series bold
+actual
+\series default
+ averages to estimate outcomes (and validate classification):
+\begin_inset Formula 
+\[
+\bar{y}^{0}\left(S\right)=\frac{1}{\left|S\right|}\sum_{h\in S}y_{h}^{0}\qquad\bar{\Delta}\left(S\right)=\frac{2}{\left|S\right|}\sum_{h\in S}\left(Y_{h}^{1}T_{h}-Y_{h}^{0}\left(1-T_{h}\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For inference do three things:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Bootstrap confidence intervals
+\end_layout
+
+\begin_layout Enumerate
+Follow Chernozukhov et al (2018): CIs implied by median standard errors
+ of OLS averages across replications
+\end_layout
+
+\begin_layout Enumerate
+Randomization inference CI under sharp null of no heterogeneity
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/HaushoferEtAl2022_02.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/HaushoferEtAl2022_03.png
+	height 97theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Haushofer Et Al (2022): Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename pictures/HaushoferEtAl2022_04.png
+	width 97page%
 
 \end_inset
 
