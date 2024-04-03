@@ -9204,7 +9204,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Alatas et al 2012 9.png
 	lyxscale 30
-	height 86pheight%
+	width 97text%
 
 \end_inset
 
@@ -11509,7 +11509,7 @@ Banerjee et al (2018): Effect on Asset Acquisition
 
 \end_deeper
 \begin_layout Subsection
-Houshofer, Niehaus, Paramo, Miguel & Walker (2022) 
+Haushofer, Niehaus, Paramo, Miguel & Walker (2022) 
 \begin_inset ERT
 status open
 

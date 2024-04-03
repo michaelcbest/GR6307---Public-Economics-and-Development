@@ -1149,7 +1149,7 @@ Saez (2002): Only Intensive Margin
 
 \begin_deeper
 \begin_layout Itemize
-Proposition 2: The optimal tax schedule satisifies
+Proposition 2: The optimal tax schedule satisfies
 \begin_inset Formula 
 \[
 \frac{T_{i}-T_{i-1}}{c_{i}-c_{i-1}}=\frac{1}{\zeta_{i}}\frac{\left(1-g_{i}\right)h_{i}+\left(1-g_{i+1}\right)h_{i+1}+\ldots+\left(1-g_{I}\right)h_{I}}{h_{i}}
@@ -1388,7 +1388,7 @@ Welfare:
 \begin_inset Formula $v$
 \end_inset
 
- = more redistributive prefrerences
+ = more redistributive preferences
 \end_layout
 
 \begin_layout Itemize
@@ -1965,7 +1965,7 @@ Correlated with need.
 
 \begin_layout Enumerate
 Immutable.
- People can't endogenously aquire the tag
+ People can't endogenously acquire the tag
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -7133,7 +7133,7 @@ This paper:
 \end_layout
 
 \begin_layout Itemize
-framework for welfare effects of ordeal changes: How many people enrol?
+framework for welfare effects of ordeal changes: How many people enroll?
  Which types of people?
 \begin_inset VSpace medskip
 \end_inset
@@ -8523,7 +8523,7 @@ Assets capture permanent income.
 \end_layout
 
 \begin_layout Itemize
-Poor PMT seen as ilegitimate by community.
+Poor PMT seen as illegitimate by community.
  
 \begin_inset VSpace medskip
 \end_inset
@@ -9334,7 +9334,7 @@ Recipients get $67–$250/year (3.5–13% of avg consumption)
 \end_layout
 
 \begin_layout Itemize
-2.4 million househlods enrolled in 2013.
+2.4 million households enrolled in 2013.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9517,7 +9517,7 @@ Self-Targeting:
  station to apply.
  Meetings held in each village to publicize the program, and emphasize that
  survey would be verified.
- On predetermined day, housholds could visit office from 8AM-5PM, get a
+ On predetermined day, households could visit office from 8AM-5PM, get a
  number and line up for their interview.
 \end_layout
 
@@ -10609,7 +10609,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Speciffy 
+Specify 
 \begin_inset Formula $c\left(y_{i},l_{i}\right)=\text{wage}_{i}\times\left(\text{traveltime}_{i}+\text{waitingtime}\right)+\text{travelmoney}_{i}$
 \end_inset
 
@@ -11509,7 +11509,7 @@ Banerjee et al (2018): Effect on Asset Acquisition
 
 \end_deeper
 \begin_layout Subsection
-Houshofer, Niehaus, Paramo, Miguel & Walker (2022) 
+Haushofer, Niehaus, Paramo, Miguel & Walker (2022) 
 \begin_inset ERT
 status open
 
@@ -13136,7 +13136,7 @@ If not, try and find the threshold
 \end_layout
 
 \begin_layout Itemize
-In practise, do this by estimating transition equation non-parametrically
+In practice, do this by estimating transition equation non-parametrically
  and then finding its intersection with the 45-degree line numerically.
 \end_layout
 
@@ -13356,7 +13356,7 @@ Individuals allocate time endowment
 \begin_inset Formula $R$
 \end_inset
 
- between self-employment in livestock rearin 
+ between self-employment in livestock rearing 
 \begin_inset Formula $l$
 \end_inset
 

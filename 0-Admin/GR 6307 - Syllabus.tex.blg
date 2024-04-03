@@ -1,0 +1,5 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'GR 6307 - Syllabus.tex.blg'
+[78] biber-darwin:340> INFO - === Tue Apr  2, 2024, 20:57:11
+[248] Utils.pm:410> ERROR - Cannot find 'GR 6307 - Syllabus.tex.bcf'!
+[249] Biber.pm:135> INFO - ERRORS: 1
