@@ -235,7 +235,7 @@ Michael Carlos Best
 \end_layout
 
 \begin_layout Date
-Spring 2022
+Spring 2024
 \begin_inset Newline newline
 \end_inset
 
@@ -8261,7 +8261,7 @@ Non-financial Incentives
 \end_layout
 
 \begin_layout Subsection
-Bandiera, Best, Khan & Prat (WP 2020): 
+Bandiera, Best, Khan & Prat (QJE 2021): 
 \begin_inset ERT
 status open
 
@@ -8291,32 +8291,12 @@ status open
 
 \end_layout
 
-\begin_layout FrameTitle
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
 Agency and authority
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-setcounter{framenumber}{1}
 \end_layout
 
 \end_inset
@@ -9144,16 +9124,6 @@ gold
 \end_inset
 
 : 2 months wages, to the top 7.5%
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-how much?
-\end_layout
-
-\end_inset
-
-
 \begin_inset VSpace medskip
 \end_inset
 
@@ -10105,15 +10075,7 @@ Use
 \end_inset
 
 s to control for quality 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $v_{igto}=\sum_{j\in A(g)}$
-\end_inset
-
-
-\begin_inset Formula $\hat{\lambda}_{j}X_{j}$
+\begin_inset Formula $\Rightarrow v_{igto}=\sum_{j\in A(g)}\hat{\lambda}_{j}X_{j}$
 \end_inset
 
  where 
@@ -10193,31 +10155,15 @@ No Effects on Item Variety Purchased
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
 \align center
 
-\size scriptsize
+\size footnotesize
 \begin_inset ERT
 status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-scalebox{1}
-\end_layout
-
-\begin_layout Plain Layout
-
-{
-\end_layout
 
 \begin_layout Plain Layout
 
@@ -10235,9 +10181,155 @@ toprule
 
 \begin_layout Plain Layout
 
+                     &
+\backslash
+multicolumn{1}{c}{(1)}&
+\backslash
+multicolumn{1}{c}{(2)}
+\backslash
 
 \backslash
-input{"Y2_Type_ForSlides.tex"}
+ 
+\backslash
+midrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+Autonomy             &       0.016&       0.010 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+                    &     (0.030)&     (0.023)
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+                     &     [0.646]&     [0.705]
+\backslash
+
+\backslash
+ 
+\backslash
+addlinespace  
+\end_layout
+
+\begin_layout Plain Layout
+
+Incentives           &       0.006&       0.025
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+                   &     (0.030)&     (0.023)
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+                   &     [0.846]&     [0.325]
+\backslash
+
+\backslash
+ 
+\backslash
+addlinespace 
+\end_layout
+
+\begin_layout Plain Layout
+
+Autonomy 
+\backslash
+& Incentives &       0.037&       0.059
+\backslash
+
+\backslash
+   
+\end_layout
+
+\begin_layout Plain Layout
+
+                  &     (0.030)&     (0.023)
+\backslash
+
+\backslash
+       
+\end_layout
+
+\begin_layout Plain Layout
+
+              &     [0.265]&     [0.021]
+\backslash
+
+\backslash
+ 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule Item Type Control    &      Scalar&      Coarse
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+p(All = 0)           &       0.660&       0.079
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+p(Autonomy = Incentives)&       0.749&       0.537
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+p(Both = Autonomy + Incentives)&       0.722&       0.510
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Observations         &      11,771&      11,771
+\backslash
+
+\backslash
+ 
 \end_layout
 
 \begin_layout Plain Layout
@@ -10252,11 +10344,6 @@ bottomrule
 
 \backslash
 end{tabular}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
 \end_layout
 
 \end_inset
@@ -10295,7 +10382,7 @@ status open
 
 
 \backslash
-scalebox{0.47}
+scalebox{0.48}
 \end_layout
 
 \begin_layout Plain Layout
@@ -10307,15 +10394,785 @@ scalebox{0.47}
 
 
 \backslash
-input{
-\begin_inset Quotes eld
-\end_inset
+begin{tabular}{lccccclcccc} 
+\backslash
+toprule 
+\backslash
+multirow{2}{*}{
+\backslash
+textbf{Item}} & 
+\backslash
+multicolumn{3}{c}{
+\backslash
+textbf{Treatment Effect}} & 
+\backslash
+textbf{Joint Test} & $
+\backslash
+quad$ & 
+\backslash
+multirow{2}{*}{
+\backslash
+textbf{Item}} & 
+\backslash
+multicolumn{3}{c}{
+\backslash
+textbf{Treatment Effect}} & 
+\backslash
+textbf{Joint Test} 
+\backslash
 
-AmountCF_CostCenterCode_year_Slides.tex
-\begin_inset Quotes erd
-\end_inset
+\backslash
+  
+\end_layout
 
-}
+\begin_layout Plain Layout
+
+& 
+\backslash
+textbf{Autonomy} & 
+\backslash
+textbf{Incentives} & 
+\backslash
+textbf{Both} & 
+\backslash
+textbf{All = 0} & & & 
+\backslash
+textbf{Autonomy} & 
+\backslash
+textbf{Incentives} & 
+\backslash
+textbf{Both} & 
+\backslash
+textbf{All = 0} 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Toner}  &  335.1 & 1322.1 &  243.0 &   0.04 & & 
+\backslash
+multirow{2}{*}{Calculator}  & -131.1 & -158.2 & -177.8$^{*}$ &   1.14 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ & $ 
+\backslash
+left(4181.24
+\backslash
+right) $  & $ 
+\backslash
+left(4205.91
+\backslash
+right) $  & $ 
+\backslash
+left(4201.91
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.989
+\backslash
+right] $  & &  & $ 
+\backslash
+left(104.43
+\backslash
+right) $  & $ 
+\backslash
+left(105.05
+\backslash
+right) $  & $ 
+\backslash
+left(104.95
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.333
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Ice Block}  &  -71.5 & -562.3$^{*}$ & -160.3 &   1.49 & & 
+\backslash
+multirow{2}{*}{File Cover}  &  389.7 & -423.0 &  145.2 &   1.60 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ & $ 
+\backslash
+left(294.11
+\backslash
+right) $  & $ 
+\backslash
+left(295.85
+\backslash
+right) $  & $ 
+\backslash
+left(295.57
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.215
+\backslash
+right] $  & &  & $ 
+\backslash
+left(391.77
+\backslash
+right) $  & $ 
+\backslash
+left(394.08
+\backslash
+right) $  & $ 
+\backslash
+left(393.71
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.189
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Towel}  & -178.0 &   42.6 & -204.2 &   1.08 & & 
+\backslash
+multirow{2}{*}{Stamp Pad}  &   81.8 &   75.7 &  -17.7 &   1.66 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+& $ 
+\backslash
+left(172.48
+\backslash
+right) $  & $ 
+\backslash
+left(173.50
+\backslash
+right) $  & $ 
+\backslash
+left(173.34
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.359
+\backslash
+right] $  & &  & $ 
+\backslash
+left( 57.32
+\backslash
+right) $  & $ 
+\backslash
+left( 57.66
+\backslash
+right) $  & $ 
+\backslash
+left( 57.61
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.175
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Soap/Detergent}  & -4509.9 &   92.5 & 5128.5 &   0.35 & & 
+\backslash
+multirow{2}{*}{Photocopying}  &  337.1 &  693.7 &  943.2 &   0.36 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+& $ 
+\backslash
+left(9670.41
+\backslash
+right) $  & $ 
+\backslash
+left(9727.48
+\backslash
+right) $  & $ 
+\backslash
+left(9718.23
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.788
+\backslash
+right] $  & &  & $ 
+\backslash
+left(975.53
+\backslash
+right) $  & $ 
+\backslash
+left(981.29
+\backslash
+right) $  & $ 
+\backslash
+left(980.36
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.785
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Duster}  & -190.8 &  233.1 & -228.0 &   3.01 & & 
+\backslash
+multirow{2}{*}{Broom}  &  655.0 & 1158.4 &  477.6 &   0.67 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+& $ 
+\backslash
+left(176.66
+\backslash
+right) $  & $ 
+\backslash
+left(177.71
+\backslash
+right) $  & $ 
+\backslash
+left(177.54
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.030
+\backslash
+right] $  & &  & $ 
+\backslash
+left(825.63
+\backslash
+right) $  & $ 
+\backslash
+left(830.50
+\backslash
+right) $  & $ 
+\backslash
+left(829.71
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.572
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Wiper}  &  -13.4 &  288.1$^{**}$ & -100.2 &   3.22 & & 
+\backslash
+multirow{2}{*}{Coal}  & -283.8 &  745.7 &  972.5 &   1.07 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+& $ 
+\backslash
+left(136.22
+\backslash
+right) $  & $ 
+\backslash
+left(137.02
+\backslash
+right) $  & $ 
+\backslash
+left(136.89
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.022
+\backslash
+right] $  & &  & $ 
+\backslash
+left(833.45
+\backslash
+right) $  & $ 
+\backslash
+left(838.37
+\backslash
+right) $  & $ 
+\backslash
+left(837.57
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.362
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Lock}  &   90.7 &  129.0 & -234.7 &   0.73 & & 
+\backslash
+multirow{2}{*}{Newspaper}  &  329.4 &  -69.2 &   39.3 &   0.21 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+& $ 
+\backslash
+left(278.17
+\backslash
+right) $  & $ 
+\backslash
+left(279.81
+\backslash
+right) $  & $ 
+\backslash
+left(279.55
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.537
+\backslash
+right] $  & &  & $ 
+\backslash
+left(551.96
+\backslash
+right) $  & $ 
+\backslash
+left(555.22
+\backslash
+right) $  & $ 
+\backslash
+left(554.69
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.887
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Pen}  &  790.6 &  997.3 &  281.6 &   0.86 & & 
+\backslash
+multirow{2}{*}{Pipe}  &  626.5 & 1130.2$^{*}$ &  238.5 &   1.41 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+& $ 
+\backslash
+left(700.16
+\backslash
+right) $  & $ 
+\backslash
+left(704.29
+\backslash
+right) $  & $ 
+\backslash
+left(703.62
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.463
+\backslash
+right] $  & &  & $ 
+\backslash
+left(591.92
+\backslash
+right) $  & $ 
+\backslash
+left(595.42
+\backslash
+right) $  & $ 
+\backslash
+left(594.85
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.240
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Envelope}  &  214.7 &  -73.0 & -105.8 &   1.03 & & 
+\backslash
+multirow{2}{*}{Light Bulb}  &  959.2 & -585.2 &  -25.0 &   0.40 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ & $ 
+\backslash
+left(206.51
+\backslash
+right) $  & $ 
+\backslash
+left(207.73
+\backslash
+right) $  & $ 
+\backslash
+left(207.53
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.377
+\backslash
+right] $  & &  & $ 
+\backslash
+left(1472.59
+\backslash
+right) $  & $ 
+\backslash
+left(1481.28
+\backslash
+right) $  & $ 
+\backslash
+left(1479.87
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.752
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multirow{2}{*}{Printer Paper}  & 2432.1 & 3227.7 & -1890.5 &   1.48 & & 
+\backslash
+multirow{2}{*}{Pencil}  &   90.4 &    0.4 &  -37.7 &   1.61 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+& $ 
+\backslash
+left(2778.08
+\backslash
+right) $  & $ 
+\backslash
+left(2794.47
+\backslash
+right) $  & $ 
+\backslash
+left(2791.81
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.218
+\backslash
+right] $  & &  & $ 
+\backslash
+left( 62.45
+\backslash
+right) $  & $ 
+\backslash
+left( 62.82
+\backslash
+right) $  & $ 
+\backslash
+left( 62.76
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.185
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em] 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+multirow{2}{*}{Register}  & -2915.2 & -966.6 &  976.1 &   0.17 & & 
+\backslash
+multirow{2}{*}{Floor Cleaner}  & -242.3 &  -47.6 &  216.6 &   0.17 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+& $ 
+\backslash
+left(5939.89
+\backslash
+right) $  & $ 
+\backslash
+left(5974.94
+\backslash
+right) $  & $ 
+\backslash
+left(5969.26
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.920
+\backslash
+right] $  & &  & $ 
+\backslash
+left(660.41
+\backslash
+right) $  & $ 
+\backslash
+left(664.31
+\backslash
+right) $  & $ 
+\backslash
+left(663.68
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.915
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em] 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+multirow{2}{*}{Stapler}  & -159.9 & -131.2 & -183.7$^{*}$ &   1.08 & & 
+\backslash
+multirow{2}{*}{Sign Board/Banner}  & 1757.6 &  292.4 &  461.7 &   0.25 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ & $ 
+\backslash
+left(109.74
+\backslash
+right) $  & $ 
+\backslash
+left(110.39
+\backslash
+right) $  & $ 
+\backslash
+left(110.29
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.356
+\backslash
+right] $  & &  & $ 
+\backslash
+left(2236.96
+\backslash
+right) $  & $ 
+\backslash
+left(2250.16
+\backslash
+right) $  & $ 
+\backslash
+left(2248.02
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.861
+\backslash
+right] $  
+\backslash
+
+\backslash
+ [0.25em] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+cmidrule(lr){7-11}  
+\backslash
+multirow{2}{*}{Staples}  &  -15.6 &   -1.3 &   18.1 &   0.26 & & 
+\backslash
+multirow{2}{*}{Joint F-Test}  &   0.89 &   1.28 &   0.86 &   1.06 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+& $ 
+\backslash
+left( 39.76
+\backslash
+right) $  & $ 
+\backslash
+left( 39.99
+\backslash
+right) $  & $ 
+\backslash
+left( 39.95
+\backslash
+right) $  & $ 
+\backslash
+left[ 0.857
+\backslash
+right] $  & &  & $ 
+\backslash
+left[ 0.619 
+\backslash
+right] $  & $ 
+\backslash
+left[ 0.168 
+\backslash
+right] $  & $ 
+\backslash
+left[ 0.656 
+\backslash
+right] $  & $ 
+\backslash
+left[ 0.357
+\backslash
+right] $ 
+\backslash
+
+\backslash
+ [0.25em]
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+bottomrule  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
 \end_layout
 
 \begin_layout Plain Layout
@@ -10341,13 +11198,9 @@ AmountCF_CostCenterCode_year_Slides.tex
 status open
 
 \begin_layout Plain Layout
-Autonomy reduces prices up to 9%
+Autonomy Reduces Prices by up to 9%
 \end_layout
 
-\end_inset
-
-
-\begin_inset Separator latexpar
 \end_inset
 
 
@@ -10357,28 +11210,9 @@ Autonomy reduces prices up to 9%
 \begin_layout Standard
 \align center
 
-\size scriptsize
+\size footnotesize
 \begin_inset ERT
 status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-nameslide{PriceEsts}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-scalebox{1}
-\end_layout
-
-\begin_layout Plain Layout
-
-{
-\end_layout
 
 \begin_layout Plain Layout
 
@@ -10396,9 +11230,170 @@ toprule
 
 \begin_layout Plain Layout
 
+                     &
+\backslash
+multicolumn{1}{c}{(1)}&
+\backslash
+multicolumn{1}{c}{(2)}&
+\backslash
+multicolumn{1}{c}{(3)}&
+\backslash
+multicolumn{1}{c}{(4)}
+\backslash
 
 \backslash
-input{"Y2_Prices_ForSlides.tex"}
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+Autonomy             &      -0.085&      -0.086&      -0.080&      -0.082
+\backslash
+
+\backslash
+    
+\end_layout
+
+\begin_layout Plain Layout
+
+                 &     (0.038)&     (0.032)&     (0.031)&     (0.034)
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+                   &     [0.046]&     [0.018]&     [0.023]&     [0.030]
+\backslash
+
+\backslash
+ 
+\backslash
+addlinespace  
+\end_layout
+
+\begin_layout Plain Layout
+
+Incentives           &      -0.016&      -0.026&      -0.022&      -0.020
+\backslash
+
+\backslash
+      
+\end_layout
+
+\begin_layout Plain Layout
+
+               &     (0.038)&     (0.030)&     (0.033)&     (0.034)
+\backslash
+
+\backslash
+    
+\end_layout
+
+\begin_layout Plain Layout
+
+                 &     [0.723]&     [0.476]&     [0.571]&     [0.625]
+\backslash
+
+\backslash
+ 
+\backslash
+addlinespace 
+\end_layout
+
+\begin_layout Plain Layout
+
+Autonomy 
+\backslash
+& Incentives&      -0.070&      -0.083&      -0.072&      -0.086
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+                     &     (0.041)&     (0.032)&     (0.033)&     (0.039)
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+                   &     [0.130]&     [0.025]&     [0.053]&     [0.043]
+\backslash
+
+\backslash
+ 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+Item Type Control    &        None&     Attribs&      Scalar&      Coarse
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+p(All = 0)           &       0.168&       0.053&       0.092&       0.086
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+p(Autonomy = Incentives)&       0.146&       0.077&       0.119&       0.119
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+p(Both = Autonomy + Incentives)&       0.620&       0.552&       0.562&   
+    0.799
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Observations         &      11,771&      11,771&      11,771&      11,771
+\backslash
+
+\backslash
+ 
 \end_layout
 
 \begin_layout Plain Layout
@@ -10413,11 +11408,6 @@ bottomrule
 
 \backslash
 end{tabular}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
 \end_layout
 
 \end_inset
@@ -10698,15 +11688,11 @@ Heterogeneity of Treatment Effects by Monitor Alignment
 status open
 
 \begin_layout Plain Layout
-POs respond to incentives when the AG is good
+POs Respond to Incentives When the AG is Good
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Frame
 
 \end_layout
 
@@ -10720,7 +11706,7 @@ status open
 
 
 \backslash
-scalebox{0.56}
+scalebox{0.6}
 \end_layout
 
 \begin_layout Plain Layout
@@ -10764,9 +11750,148 @@ toprule
 
 \begin_layout Plain Layout
 
+                     &
+\backslash
+multicolumn{3}{c}{Overall}           &
+\backslash
+multicolumn{3}{c}{Good AG}           &
+\backslash
+multicolumn{3}{c}{Bad AG}            
+\backslash
 
 \backslash
-input{"TimeUseTableIncentives.tex"}
+
+\backslash
+cmidrule(lr){2-4}
+\backslash
+cmidrule(lr){5-7}
+\backslash
+cmidrule(lr){8-10}                     
+\end_layout
+
+\begin_layout Plain Layout
+
+&
+\backslash
+multicolumn{1}{c}{(1)}&
+\backslash
+multicolumn{1}{c}{(2)}&
+\backslash
+multicolumn{1}{c}{(3)}&
+\backslash
+multicolumn{1}{c}{(4)}&
+\backslash
+multicolumn{1}{c}{(5)}&
+\backslash
+multicolumn{1}{c}{(6)}&
+\backslash
+multicolumn{1}{c}{(7)}&
+\backslash
+multicolumn{1}{c}{(8)}&
+\backslash
+multicolumn{1}{c}{(9)}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+                    &         OLS&          IV&   1st Stage&         OLS&
+          IV&   1st Stage&         OLS&          IV&   1st Stage
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+Time Spent on Procurement&       0.001&      -0.008&            &       0.001&
+      -0.010&            &      -0.000&      -0.161&            
+\backslash
+
+\backslash
+   
+\end_layout
+
+\begin_layout Plain Layout
+
+                  &     (0.001)&     (0.005)&            &     (0.001)&   
+  (0.005)&            &     (0.002)&     (2.053)&            
+\backslash
+
+\backslash
+   
+\end_layout
+
+\begin_layout Plain Layout
+
+                  &            &     [0.011]&            &            & 
+    [0.001]&            &            &     [0.903]&            
+\backslash
+
+\backslash
+
+\backslash
+addlinespace 
+\end_layout
+
+\begin_layout Plain Layout
+
+Incentives           &            &            &       6.132&           
+ &            &       8.335&            &            &      -0.330
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+                   &            &            &     (2.165)&            &
+            &     (2.464)&            &            &     (4.338)
+\backslash
+
+\backslash
+     
+\end_layout
+
+\begin_layout Plain Layout
+
+                &            &            &     [0.013]&            &   
+         &     [0.004]&            &            &     [0.950]
+\backslash
+
+\backslash
+
+\backslash
+addlinespace 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+Observations         &       8,556&       8,556&       8,556&       6,355&
+       6,355&       6,355&       2,201&       2,201&       2,201
+\backslash
+
+\backslash
+ 
 \end_layout
 
 \begin_layout Plain Layout
@@ -10806,7 +11931,7 @@ end{tabular}
 status open
 
 \begin_layout Plain Layout
-POs respond to autonomy when the AG is bad
+POs Respond to Autonomy When the AG is Bad
 \end_layout
 
 \end_inset
@@ -10816,6 +11941,248 @@ POs respond to autonomy when the AG is bad
 
 \begin_deeper
 \begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+scalebox{0.56}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lccccccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{10}{c}{
+\backslash
+textbf{Panel A: Autonomy}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+                     &
+\backslash
+multicolumn{3}{c}{Overall}           &
+\backslash
+multicolumn{3}{c}{Good AG}           &
+\backslash
+multicolumn{3}{c}{Bad AG}            
+\backslash
+
+\backslash
+
+\backslash
+cmidrule(lr){2-4}
+\backslash
+cmidrule(lr){5-7}
+\backslash
+cmidrule(lr){8-10}                     
+\end_layout
+
+\begin_layout Plain Layout
+
+&
+\backslash
+multicolumn{1}{c}{(1)}&
+\backslash
+multicolumn{1}{c}{(2)}&
+\backslash
+multicolumn{1}{c}{(3)}&
+\backslash
+multicolumn{1}{c}{(4)}&
+\backslash
+multicolumn{1}{c}{(5)}&
+\backslash
+multicolumn{1}{c}{(6)}&
+\backslash
+multicolumn{1}{c}{(7)}&
+\backslash
+multicolumn{1}{c}{(8)}&
+\backslash
+multicolumn{1}{c}{(9)}
+\backslash
+
+\backslash
+      
+\end_layout
+
+\begin_layout Plain Layout
+
+               &         OLS&          IV&   1st Stage&         OLS&   
+       IV&   1st Stage&         OLS&          IV&   1st Stage
+\backslash
+
+\backslash
+ 
+\backslash
+midrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+Time Spent on Procurement&      -0.001&      -0.006&            &      -0.001&
+       0.014&            &      -0.001&      -0.012&            
+\backslash
+
+\backslash
+   
+\end_layout
+
+\begin_layout Plain Layout
+
+                  &     (0.001)&     (0.005)&            &     (0.002)&   
+  (0.022)&            &     (0.001)&     (0.006)&            
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+                   &            &     [0.022]&            &            &
+     [0.304]&            &            &     [0.001]&            
+\backslash
+
+\backslash
+
+\backslash
+addlinespace
+\end_layout
+
+\begin_layout Plain Layout
+
+Autonomy             &            &            &       5.856&           
+ &            &       3.785&            &            &       6.975
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+                    &            &            &     (2.490)&            &
+            &     (4.930)&            &            &     (2.867)
+\backslash
+
+\backslash
+   
+\end_layout
+
+\begin_layout Plain Layout
+
+                  &            &            &     [0.043]&            & 
+           &     [0.510]&            &            &     [0.037]
+\backslash
+
+\backslash
+
+\backslash
+addlinespace 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+Observations         &       9,727&       9,727&       9,727&       3,454&
+       3,454&       3,454&       6,273&       6,273&       6,273
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+POs respond to autonomy when the AG is bad
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
 \align center
 \begin_inset ERT
 status open
@@ -10898,7 +12265,9 @@ end{tabular}
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\end_inset
+
+
 \begin_inset Separator plain
 \end_inset
 
@@ -17135,6 +18504,39 @@ Leaver et al (2021): Student Learning
 \begin_inset Graphics
 	filename pictures/LeaverEtAL2021_05.png
 	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leaver et al (2021): Effort effects
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/LeaverEtAL2021_06.png
+	width 100text%
 
 \end_inset
 
