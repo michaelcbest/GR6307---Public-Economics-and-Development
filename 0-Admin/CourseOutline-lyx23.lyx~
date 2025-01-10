@@ -1,5 +1,5 @@
-#LyX 2.4 created this file. For more info see https://www.lyx.org/
-\lyxformat 620
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -31,11 +31,11 @@
 \begin_modules
 theorems-ams-bytype
 \end_modules
-\maintain_unincluded_children no
+\maintain_unincluded_children false
 \language english
 \language_package default
-\inputencoding auto-legacy
-\fontencoding auto
+\inputencoding auto
+\fontencoding global
 \font_roman "palatino" "default"
 \font_sans "lmss" "default"
 \font_typewriter "lmtt" "default"
@@ -43,9 +43,7 @@ theorems-ams-bytype
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_roman_osf false
-\font_sans_osf false
-\font_typewriter_osf false
+\font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -89,9 +87,7 @@ theorems-ams-bytype
 \suppress_date false
 \justification true
 \use_refstyle 1
-\use_formatted_ref 0
 \use_minted 0
-\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -111,23 +107,17 @@ theorems-ams-bytype
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tablestyle default
 \tracking_changes false
 \output_changes false
-\change_bars false
-\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\docbook_table_output 0
-\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
 
 \begin_layout Title
-ECON GR6307:
- 
+ECON GR6307: 
 \begin_inset Newline newline
 \end_inset
 
@@ -135,17 +125,15 @@ Public Economics and Development
 \end_layout
 
 \begin_layout Standard
-Time/Place:
- Wednesdays 2.00-3:50 PM.
- In room 1102 in the IAB.
+Time/Place: Wednesdays 10.10-12.
+ In room 1027 in the IAB.
  
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Instructor:
- Michael Carlos Best
+Instructor: Michael Carlos Best
 \end_layout
 
 \begin_layout Standard
@@ -153,8 +141,7 @@ Department of Economics
 \end_layout
 
 \begin_layout Standard
-Email:
- 
+Email: 
 \begin_inset CommandInset href
 LatexCommand href
 name "michael.best@columbia.edu"
@@ -168,8 +155,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Office Hours:
- Mondays 4.45-5:45 PM.
+Office Hours: Fridays 4.45-5:45 PM.
  Students 
 \emph on
 must 
@@ -178,17 +164,17 @@ signup beforehand using
 \begin_inset CommandInset href
 LatexCommand href
 name "this link"
-target "https://calendar.app.google/vxn7LjG6JsMD4qGh9"
+target "https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNGcEU4eE1LNS1FfGRlZmF1bHR8NWIyN2QyNDljMzlkMzk1ODkzZGIwMjljZWQwOTUxNjA"
 literal "false"
 
 \end_inset
 
 .
- Meetings are 20 mins long,
- so please come prepared.
- Meeting slots tend to fill up so if you want to talk about something with a specific deadline (an upcoming colloquium presentation,
- or an assignment for class) you need to plan ahead,
- it's very hard for me to add extra slots at the last minute.
+ Meetings are 20 mins long, so please come prepared.
+ Meeting slots tend to fill up so if you want to talk about something with
+ a specific deadline (an upcoming colloquium presentation, or an assignment
+ for class) you need to plan ahead, it's very hard for me to add extra slots
+ at the last minute.
 \end_layout
 
 \begin_layout Section
@@ -196,46 +182,42 @@ Course Description and Objectives
 \end_layout
 
 \begin_layout Standard
-This course covers a range of challenges faced by governments in low- and middle-income countries.
- The course will cover both applied theory papers and empirical papers applying the latest empirical methods.
+This course covers a range of challenges faced by governments in low- and
+ middle-income countries.
+ The course will cover both applied theory papers and empirical papers applying
+ the latest empirical methods.
  We will cover four broad topics.
  
 \end_layout
 
 \begin_layout Enumerate
-Applied Welfare Analysis:
- We'll start with a little bit of tooling up on the theory behind modern applied welfare analysis.
- We'll cover the sufficient statistics approach and the measurement of marginal welfare impacts of policy changes.
+Applied Welfare Analysis: We'll start with a little bit of tooling up on
+ the theory behind modern applied welfare analysis.
+ We'll cover the sufficient statistics approach and the measurement of marginal
+ welfare impacts of policy changes.
 \end_layout
 
 \begin_layout Enumerate
-Taxation:
- Tax systems in rich countries look very different from those in poor countries.
- How should tax systems be designed in the presence of high levels of tax evasion and informality?
- How much tax evasion is there?
- How can governments reduce tax evasion?
- 
+Taxation: Tax systems in rich countries look very different from those in
+ poor countries.
+ How should tax systems be designed in the presence of high levels of tax
+ evasion and informality? How much tax evasion is there? How can governments
+ reduce tax evasion? 
 \end_layout
 
 \begin_layout Enumerate
-Anti-Poverty Programs:
- Targeted transfers to poor household are a huge part of government spending in low- and middle-income countries.
- How should these programs be designed?
- Should they be monetary or in-kind transfers?
- Should they be means-tested?
- If so,
- how will eligibility be determined?
- 
+Anti-Poverty Programs: Targeted transfers to poor household are a huge part
+ of government spending in low- and middle-income countries.
+ How should these programs be designed? Should they be monetary or in-kind
+ transfers? Should they be means-tested? If so, how will eligibility be
+ determined? 
 \end_layout
 
 \begin_layout Enumerate
-Personnel Economics of the State:
- The government is the largest employer in most countries,
- but public service delivery is notoriously inefficient.
- How can governments attract honest,
- capable and motivated workers?
- How will the government monitor and incentivize their workers?
- 
+Personnel Economics of the State: The government is the largest employer
+ in most countries, but public service delivery is notoriously inefficient.
+ How can governments attract honest, capable and motivated workers? How
+ will the government monitor and incentivize their workers? 
 \end_layout
 
 \begin_layout Subsection
@@ -252,8 +234,7 @@ literal "false"
 
 \end_inset
 
- repository:
- 
+ repository: 
 \begin_inset CommandInset href
 LatexCommand href
 name "https://github.com/michaelcbest/GR6307---Public-Economics-and-Development"
@@ -281,49 +262,42 @@ GR 6307 - Syllabus
 \end_inset
 
 ).
- I will be updating the materials as we go,
- so make sure to check back regularly to see if there are updates.
+ I will be updating the materials as we go, so make sure to check back regularly
+ to see if there are updates.
 \end_layout
 
 \begin_layout Standard
-In the syllabus,
- I will mark the absolutely required readings with two stars (**).
- Each week,
- there will also be a reading with one star and the date (*M/DD).
- Each week,
- you are required to prepare 
+In the syllabus, I will mark the absolutely required readings with two stars
+ (**).
+ Each week, there will also be a reading with one star and the date (*M/DD).
+ Each week, you are required to prepare 
 \emph on
 one
 \emph default
- 6-slide (excluding the title slide) discussion of this papers and bring it with you to class on a USB drive.
+ 6-slide (excluding the title slide) discussion of this papers and bring
+ it with you to class on a USB drive.
  The model here is to imagine you are discussing the paper at a conference.
  So you should spend 1-3 slides summarizing the main findings of the paper,
- but assume everyone else has read it,
- so highlight only things you find particularly interesting and worth discussing more.
- Then use your remaining slides to make 2-3 points about the paper that are things you think could be done even better.
- Try and be constructive,
- it's easy to point out flaws in papers,
- it's much more difficult,
- but much more useful,
- to think of ways to do things better.
+ but assume everyone else has read it, so highlight only things you find
+ particularly interesting and worth discussing more.
+ Then use your remaining slides to make 2-3 points about the paper that
+ are things you think could be done even better.
+ Try and be constructive, it's easy to point out flaws in papers, it's much
+ more difficult, but much more useful, to think of ways to do things better.
 \end_layout
 
 \begin_layout Standard
-I will randomly call on someone to present their discussion each week,
- and then we'll discuss the paper as a group.
- NB the randomization will be with replacement,
- so don't think that you can't be called more than once!
+I will randomly call on someone to present their discussion each week, and
+ then we'll discuss the paper as a group.
+ NB the randomization will be with replacement, so don't think that you
+ can't be called more than once!
 \end_layout
 
 \begin_layout Standard
 I'm sure there are typos in my slides.
- If you spot one,
- please point it out.
- Or even better,
- fix it and send me a pull request!
- If you're unfamiliar with github and version control,
- you can learn more about it here:
- 
+ If you spot one, please point it out.
+ Or even better, fix it and send me a pull request! If you're unfamiliar
+ with github and version control, you can learn more about it here: 
 \begin_inset CommandInset href
 LatexCommand href
 name "https://guides.github.com/activities/hello-world/"
@@ -333,8 +307,8 @@ literal "false"
 \end_inset
 
 .
- It's a great tool,
- especially for collaborative projects (basically every tech product you use is built using this).
+ It's a great tool, especially for collaborative projects (basically every
+ tech product you use is built using this).
 \end_layout
 
 \begin_layout Section
@@ -353,7 +327,6 @@ reference "sec:Referee-Report"
 plural "false"
 caps "false"
 noprefix "false"
-nolink "false"
 
 \end_inset
 
@@ -369,7 +342,6 @@ reference "sec:Replication-Exercise"
 plural "false"
 caps "false"
 noprefix "false"
-nolink "false"
 
 \end_inset
 
@@ -385,7 +357,6 @@ reference "sec:Data-Exercise"
 plural "false"
 caps "false"
 noprefix "false"
-nolink "false"
 
 \end_inset
 
@@ -398,7 +369,6 @@ Virtual paper (see section
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Virtual-Paper"
-nolink "false"
 
 \end_inset
 
@@ -427,8 +397,7 @@ name "sec:Referee-Report"
 \end_layout
 
 \begin_layout Standard
-Pick ONE of the following two papers:
- 
+Pick ONE of the following two papers: 
 \begin_inset CommandInset href
 LatexCommand href
 name "Felipe Lobel - Who Benefits from Payroll Tax Cuts? Market Power, Tax Incidence and Efficiency"
@@ -453,29 +422,28 @@ literal "false"
 \end_inset
 
 .
- Write a referee report for this paper assuming that the paper has been submitted to the 
+ Write a referee report for this paper assuming that the paper has been
+ submitted to the 
 \emph on
 Journal of Public Economics
 \emph default
-,
- the main field journal in public economics.
+, the main field journal in public economics.
 \end_layout
 
 \begin_layout Standard
-A referee report includes two items:
- 
+A referee report includes two items: 
 \end_layout
 
 \begin_layout Enumerate
-An anonymous report which briefly summarizes the key contributions of the paper and then discusses constructively the main issues with the paper (why some assumptions or arguments are not convincing or clearly presented,
+An anonymous report which briefly summarizes the key contributions of the
+ paper and then discusses constructively the main issues with the paper
+ (why some assumptions or arguments are not convincing or clearly presented,
  how the paper could be improved).
  The length of this report should be between 2 or 3 pages of typed text,
- 12 pt font,
- and 1.5 line spacing.
- I will share your reports with the authors,
- since they could be helpful to them as they revise the papers for submission.
- Therefore,
- please 
+ 12 pt font, and 1.5 line spacing.
+ I will share your reports with the authors, since they could be helpful
+ to them as they revise the papers for submission.
+ Therefore, please 
 \series bold
 DO NOT put your name on the pdf
 \series default
@@ -493,8 +461,10 @@ literal "false"
 \end_layout
 
 \begin_layout Enumerate
-A letter to the editor with a recommendation on whether the paper should be published.
- The recommendation should be briefly justified (the length of the letter should be between 10 and 15 lines of typed text).
+A letter to the editor with a recommendation on whether the paper should
+ be published.
+ The recommendation should be briefly justified (the length of the letter
+ should be between 10 and 15 lines of typed text).
  This one 
 \emph on
 should
@@ -520,9 +490,10 @@ name "sec:Replication-Exercise"
 \end_layout
 
 \begin_layout Standard
-The idea here is for you to get your hands dirty with some real data to do two things.
- First,
- to play with the data but with the reassurance of knowing what the answer 
+The idea here is for you to get your hands dirty with some real data to
+ do two things.
+ First, to play with the data but with the reassurance of knowing what the
+ answer 
 \begin_inset Quotes eld
 \end_inset
 
@@ -530,49 +501,49 @@ should
 \begin_inset Quotes erd
 \end_inset
 
- be when you run a certain regression so you don't need to agonize about all the decisions you made to get there.
- Second,
- to see how many agonizing decisions go into producing the small number of tables/figures you see in a finished paper.
+ be when you run a certain regression so you don't need to agonize about
+ all the decisions you made to get there.
+ Second, to see how many agonizing decisions go into producing the small
+ number of tables/figures you see in a finished paper.
 \end_layout
 
 \begin_layout Standard
-To do this,
- go through our syllabus and pick a paper to try and replicate (you can also pick another paper on a related topic,
- but check with me first please).
+To do this, go through our syllabus and pick a paper to try and replicate
+ (you can also pick another paper on a related topic, but check with me
+ first please).
  Most recent papers also post replication data/code on the authors' websites,
  the journal's website or both.
  Download the replication code and data.
- There will be a readme file that explains what all the pieces of code and data are and how to use them to replicate the paper's results.
- Read this first,
- before you start playing with the code and data,
- it will save you time.
+ There will be a readme file that explains what all the pieces of code and
+ data are and how to use them to replicate the paper's results.
+ Read this first, before you start playing with the code and data, it will
+ save you time.
  Run the code to replicate the paper's results.
  Double-check you get the same thing as in the paper.
 \end_layout
 
 \begin_layout Standard
-Then,
- prepare a replication report in which you detail 
+Then, prepare a replication report in which you detail 
 \end_layout
 
 \begin_layout Enumerate
-Where you got the code/data from and what issues,
- if any,
- you had in replicating the paper's findings.
+Where you got the code/data from and what issues, if any, you had in replicating
+ the paper's findings.
 \end_layout
 
 \begin_layout Enumerate
 One interesting robustness check.
- For example,
- this can be robustness to the criteria used to build the sample that's used for analysis.
+ For example, this can be robustness to the criteria used to build the sample
+ that's used for analysis.
  Many decisions fo into constructing the sample that's used for the analysis,
- how robust are the findings to making other sensible choices?
- How sensible are the choices that the paper makes?
- Or it could be robustness to statistical methods.
- For example using logit instead of a linear probability model,
- or using randomization inference instead of asymptotic standard errors.
- What are the advantages and weaknesses of the methods used in the paper versus other possibilities?
- Or it could be robustness to adding additional controls (or removing controls you suspect could be bad controls).
+ how robust are the findings to making other sensible choices? How sensible
+ are the choices that the paper makes? Or it could be robustness to statistical
+ methods.
+ For example using logit instead of a linear probability model, or using
+ randomization inference instead of asymptotic standard errors.
+ What are the advantages and weaknesses of the methods used in the paper
+ versus other possibilities? Or it could be robustness to adding additional
+ controls (or removing controls you suspect could be bad controls).
 \end_layout
 
 \begin_layout Enumerate
@@ -580,14 +551,15 @@ One interesting extension.
  Do some new analysis with this data.
  Does the model in the paper have an additional prediction you can test?
  Can you write a model that delivers an additional prediction you can test?
- Can you bring in additional data that allows you to test additional predictions to get at mechanisms?
- Is there a subsequent paper whose findings should replicate in this sample?
- 
+ Can you bring in additional data that allows you to test additional predictions
+ to get at mechanisms? Is there a subsequent paper whose findings should
+ replicate in this sample? 
 \end_layout
 
 \begin_layout Enumerate
 A summary of what you learned from the exercise.
- Reflect on how this exercise will change the way you approach analyzing data in your own research.
+ Reflect on how this exercise will change the way you approach analyzing
+ data in your own research.
 \end_layout
 
 \begin_layout Standard
@@ -607,10 +579,10 @@ name "sec:Data-Exercise"
 \end_layout
 
 \begin_layout Standard
-The idea here is for you to work on a data-based project that is a bit less structured than a replication,
- but where you still have a bit of guidance on how to proceed.
- That is,
- there is no 
+The idea here is for you to work on a data-based project that is a bit less
+ structured than a replication, but where you still have a bit of guidance
+ on how to proceed.
+ That is, there is no 
 \begin_inset Quotes eld
 \end_inset
 
@@ -618,10 +590,8 @@ right
 \begin_inset Quotes erd
 \end_inset
 
- answer to the problem,
- but you have a concrete starting point and direction.
- For this exercise,
- please do one of the following:
+ answer to the problem, but you have a concrete starting point and direction.
+ For this exercise, please do one of the following:
 \end_layout
 
 \begin_layout Enumerate
@@ -645,14 +615,14 @@ literal "false"
 \end_inset
 
  for which good research can allow us to estimate an MVPF.
- Look through the policies for which they already have an MVPF and then generate a new estimate of the MVPF of an interesting policy.
- This can be either using different estimates than those used for a policy that is in their library,
- or for a new policy that isn't in their library.
- You don't necessarily have to produce all the estimates yourself,
- you can pull together estimates from existing work and incorporate them into the MVPF framework.
- Then,
- you can submit it to the team to be included in their library:
- 
+ Look through the policies for which they already have an MVPF and then
+ generate a new estimate of the MVPF of an interesting policy.
+ This can be either using different estimates than those used for a policy
+ that is in their library, or for a new policy that isn't in their library.
+ You don't necessarily have to produce all the estimates yourself, you can
+ pull together estimates from existing work and incorporate them into the
+ MVPF framework.
+ Then, you can submit it to the team to be included in their library: 
 \begin_inset CommandInset href
 LatexCommand href
 name "https://www.policyimpacts.org/submit-research"
@@ -666,7 +636,8 @@ literal "false"
 
 \begin_layout Enumerate
 Indian Elite Bureaucrats.
- The Trivedi Centre for Political Data at Ashoka University recently published data on the universe of Indian Administrative Service officers.
+ The Trivedi Centre for Political Data at Ashoka University recently published
+ data on the universe of Indian Administrative Service officers.
  You can find it 
 \begin_inset CommandInset href
 LatexCommand href
@@ -678,8 +649,9 @@ literal "false"
 
 .
  Use this data to do something interesting.
- This doesn't have to have cast-iron identification,
- interesting descriptive work is still very interesting as long as you are clear about what we can and cannot learn.
+ This doesn't have to have cast-iron identification, interesting descriptive
+ work is still very interesting as long as you are clear about what we can
+ and cannot learn.
  You might want to try merging this data with other data sources.
  A great resource for other fascinating datasets on India is 
 \begin_inset CommandInset href
@@ -737,67 +709,62 @@ name "sec:Virtual-Paper"
 \end_layout
 
 \begin_layout Standard
-The assignment here is not to finish a paper,
- it is to have a viable plan for a paper.
- I'd rather that you get 50% of the way toward a project that you're excited to continue after the semester finishes than that you complete a less ambitious paper in the timeframe of one semester.
+The assignment here is not to finish a paper, it is to have a viable plan
+ for a paper.
+ I'd rather that you get 50% of the way toward a project that you're excited
+ to continue after the semester finishes than that you complete a less ambitious
+ paper in the timeframe of one semester.
  
 \end_layout
 
 \begin_layout Standard
-You will formulate an original research idea,
- develop a practical plan for executing the idea,
- and take initial steps in the execution.
- The paper may take the following form:
+You will formulate an original research idea, develop a practical plan for
+ executing the idea, and take initial steps in the execution.
+ The paper may take the following form: 
+\end_layout
+
+\begin_layout Enumerate
+Introduction: What is the specific question and why is the question of interest?
  
 \end_layout
 
 \begin_layout Enumerate
-Introduction:
- What is the specific question and why is the question of interest?
+Literature Review/ Contribution: How does your paper fit into the broader
+ literature? What is the potential contribution of this paper relative to
+ the existing literature? What do we learn about the world that we didn’t
+ know before your paper? 
+\end_layout
+
+\begin_layout Enumerate
+Theoretical Motivation: This could be actual theory or just a sketch of
+ the relevant theory that underlies your question.
  
 \end_layout
 
 \begin_layout Enumerate
-Literature Review/ Contribution:
- How does your paper fit into the broader literature?
- What is the potential contribution of this paper relative to the existing literature?
- What do we learn about the world that we didn’t know before your paper?
+Data: What data would you use to answer/address this question? Why are the
+ data well suited to the question? 
+\end_layout
+
+\begin_layout Enumerate
+Empirical Methodology: How would you use the data to answer your question?
+ Be explicit about identification and causality, keeping in mind that the
+ same set of empirical facts can often support many theories.
+ Depending on the nature of your question and the ease of accessing and
+ using the data, I may ask you to make significant progress in the actual
+ implementation of your proposed empirical work.
  
 \end_layout
 
 \begin_layout Enumerate
-Theoretical Motivation:
- This could be actual theory or just a sketch of the relevant theory that underlies your question.
+Falsification Tests: What other specifications, tests and investigations
+ could either bolster or cast doubt upon the primary tests of your hypotheses?
  
 \end_layout
 
 \begin_layout Enumerate
-Data:
- What data would you use to answer/address this question?
- Why are the data well suited to the question?
- 
-\end_layout
-
-\begin_layout Enumerate
-Empirical Methodology:
- How would you use the data to answer your question?
- Be explicit about identification and causality,
- keeping in mind that the same set of empirical facts can often support many theories.
- Depending on the nature of your question and the ease of accessing and using the data,
- I may ask you to make significant progress in the actual implementation of your proposed empirical work.
- 
-\end_layout
-
-\begin_layout Enumerate
-Falsification Tests:
- What other specifications,
- tests and investigations could either bolster or cast doubt upon the primary tests of your hypotheses?
- 
-\end_layout
-
-\begin_layout Enumerate
-Preliminary Results:
- The extent of the results provided will differ across students based on the project and discussions with me.
+Preliminary Results: The extent of the results provided will differ across
+ students based on the project and discussions with me.
  
 \end_layout
 
@@ -861,7 +828,7 @@ Agenda
 \begin_inset Text
 
 \begin_layout Plain Layout
-1/22
+1/17
 \end_layout
 
 \end_inset
@@ -890,7 +857,7 @@ Applied Welfare Analysis
 \begin_inset Text
 
 \begin_layout Plain Layout
-1/29
+1/24
 \end_layout
 
 \end_inset
@@ -919,7 +886,7 @@ Applied Welfare Analysis
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/5
+1/31
 \end_layout
 
 \end_inset
@@ -948,7 +915,7 @@ Taxation 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/12
+2/7
 \end_layout
 
 \end_inset
@@ -977,7 +944,7 @@ Taxation 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/19
+2/14
 \end_layout
 
 \end_inset
@@ -1006,7 +973,7 @@ Taxation 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/21
+2/16
 \end_layout
 
 \end_inset
@@ -1035,7 +1002,7 @@ Referee report due
 \begin_inset Text
 
 \begin_layout Plain Layout
-2/26
+2/21
 \end_layout
 
 \end_inset
@@ -1064,7 +1031,7 @@ Taxation 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-3/5
+2/28
 \end_layout
 
 \end_inset
@@ -1093,7 +1060,7 @@ Anti-Poverty 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-3/12
+3/6
 \end_layout
 
 \end_inset
@@ -1122,7 +1089,7 @@ Anti-Poverty 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-3/14
+3/8
 \end_layout
 
 \end_inset
@@ -1151,7 +1118,7 @@ Replication Exercise due
 \begin_inset Text
 
 \begin_layout Plain Layout
-3/26
+3/27
 \end_layout
 
 \end_inset
@@ -1180,7 +1147,7 @@ Anti-Poverty 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/2
+4/3
 \end_layout
 
 \end_inset
@@ -1209,7 +1176,7 @@ Anti-Poverty 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/9
+4/10
 \end_layout
 
 \end_inset
@@ -1238,7 +1205,7 @@ Personnel 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/16
+4/12
 \end_layout
 
 \end_inset
@@ -1267,7 +1234,7 @@ Data Exercise due
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/23
+4/17
 \end_layout
 
 \end_inset
@@ -1296,7 +1263,7 @@ Personnel 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-4/30
+4/24
 \end_layout
 
 \end_inset
@@ -1325,7 +1292,7 @@ Personnel 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-5/7
+5/1
 \end_layout
 
 \end_inset
@@ -1354,7 +1321,7 @@ Personnel 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-5/16
+5/10
 \end_layout
 
 \end_inset
