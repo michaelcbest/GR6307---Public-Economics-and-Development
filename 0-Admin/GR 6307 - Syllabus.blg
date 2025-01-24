@@ -1,18 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'GR 6307 - Syllabus.blg'
-[26] biber-darwin:340> INFO - === Tue Jan 21, 2025, 17:31:31
-[34] Biber.pm:419> INFO - Reading 'GR 6307 - Syllabus.bcf'
-[99] Biber.pm:979> INFO - Found 153 citekeys in bib section 0
-[105] Biber.pm:4419> INFO - Processing section 0
-[111] Biber.pm:4610> INFO - Looking for bibtex file 'readinglist.bib' for section 0
-[114] bibtex.pm:1713> INFO - LaTeX decoding ...
-[159] bibtex.pm:1519> INFO - Found BibTeX data source 'readinglist.bib'
-[517] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[517] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[517] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[517] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[570] bbl.pm:660> INFO - Writing 'GR 6307 - Syllabus.bbl' with encoding 'UTF-8'
-[596] bbl.pm:763> INFO - Output to GR 6307 - Syllabus.bbl
-[596] Biber.pm:131> WARN - Duplicate entry key: 'Naritomi2018' in file 'readinglist.bib', skipping ...
-[596] Biber.pm:131> WARN - legacy year field 'forthcoming' in entry 'Banerjeeetal2018' is not an integer - this will probably not sort properly.
-[596] Biber.pm:133> INFO - WARNINGS: 2
+[29] biber-darwin:340> INFO - === Fri Jan 24, 2025, 14:01:26
+[40] Biber.pm:419> INFO - Reading 'GR 6307 - Syllabus.bcf'
+[107] Biber.pm:979> INFO - Found 153 citekeys in bib section 0
+[112] Biber.pm:4419> INFO - Processing section 0
+[117] Biber.pm:4610> INFO - Looking for bibtex file 'readinglist.bib' for section 0
+[119] bibtex.pm:1713> INFO - LaTeX decoding ...
+[164] bibtex.pm:1519> INFO - Found BibTeX data source 'readinglist.bib'
+[526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[526] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[526] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[585] bbl.pm:660> INFO - Writing 'GR 6307 - Syllabus.bbl' with encoding 'UTF-8'
+[613] bbl.pm:763> INFO - Output to GR 6307 - Syllabus.bbl
+[613] Biber.pm:131> WARN - Duplicate entry key: 'Naritomi2018' in file 'readinglist.bib', skipping ...
+[613] Biber.pm:131> WARN - legacy year field 'forthcoming' in entry 'Banerjeeetal2018' is not an integer - this will probably not sort properly.
+[613] Biber.pm:133> INFO - WARNINGS: 2

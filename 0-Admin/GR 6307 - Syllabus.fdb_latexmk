@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber GR 6307 - Syllabus"] 1737498517.46635 "GR 6307 - Syllabus.bcf" "GR 6307 - Syllabus.bbl" "GR 6307 - Syllabus" 1737498530.76971 0
-  "GR 6307 - Syllabus.bcf" 1737498530.71721 199271 faf81ea4274827e3d9e0592dbf9fd23f "pdflatex"
+["biber GR 6307 - Syllabus"] 1737498517.46635 "GR 6307 - Syllabus.bcf" "GR 6307 - Syllabus.bbl" "GR 6307 - Syllabus" 1737745276.03162 0
+  "GR 6307 - Syllabus.bcf" 1737745275.97276 199271 faf81ea4274827e3d9e0592dbf9fd23f "pdflatex"
   "readinglist.bib" 1736470365.17002 41136 e06d9ef2e63efe0bed54f22a215e296b ""
   (generated)
   "GR 6307 - Syllabus.bbl"
   "GR 6307 - Syllabus.blg"
   (rewritten before read)
-["pdflatex"] 1737498529.20076 "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" "GR 6307 - Syllabus.pdf" "GR 6307 - Syllabus" 1737498530.77 0
-  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" 1737498515.58535 11246 a6cddc6654c10a746a51d9ac80f00f52 ""
+["pdflatex"] 1737745274.39233 "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" "GR 6307 - Syllabus.pdf" "GR 6307 - Syllabus" 1737745276.03197 0
+  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" 1737745274.13417 11246 f3aa302bc4cf123ed60819a4dceb27fa ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -120,11 +120,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1736099045.323 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1736099016 8221439 7a3b4fbd918f1fb88364fd9ee2734f96 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "GR 6307 - Syllabus.aux" 1737498530.69436 14382 1d86173be1d9ba55e0476ee2172ceb0b "pdflatex"
-  "GR 6307 - Syllabus.bbl" 1737498529.18544 215610 03ace7b75ff0a45c7ea62dcee794baf8 "biber GR 6307 - Syllabus"
-  "GR 6307 - Syllabus.out" 1737498530.71659 3752 f920b4e1554a5d7592eabc246312dac1 "pdflatex"
-  "GR 6307 - Syllabus.run.xml" 1737498530.71767 2452 bc349a9ff2390b166b343cecf8e4d799 "pdflatex"
-  "GR 6307 - Syllabus.tex" 1737498515.58535 11246 a6cddc6654c10a746a51d9ac80f00f52 ""
+  "GR 6307 - Syllabus.aux" 1737745275.94908 14382 1d86173be1d9ba55e0476ee2172ceb0b "pdflatex"
+  "GR 6307 - Syllabus.bbl" 1737498692.14105 215610 03ace7b75ff0a45c7ea62dcee794baf8 "biber GR 6307 - Syllabus"
+  "GR 6307 - Syllabus.out" 1737745275.97205 3752 f920b4e1554a5d7592eabc246312dac1 "pdflatex"
+  "GR 6307 - Syllabus.run.xml" 1737745275.97325 2452 bc349a9ff2390b166b343cecf8e4d799 "pdflatex"
+  "GR 6307 - Syllabus.tex" 1737745274.13417 11246 f3aa302bc4cf123ed60819a4dceb27fa ""
   (generated)
   "GR 6307 - Syllabus.aux"
   "GR 6307 - Syllabus.bcf"
