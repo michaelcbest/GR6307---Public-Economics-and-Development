@@ -731,7 +731,7 @@
       \field{title}{Globalization and Factor Income Taxation}
       \field{year}{2023}
     \endentry
-    \entry{BachasGadenneJensen2020}{unpublished}{}
+    \entry{BachasGadenneJensen2020}{article}{}
       \name{author}{3}{}{%
         {{hash=1d34ab7e165e01f0d76770220229735c}{%
            family={Bachas},
@@ -758,10 +758,50 @@
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{NBER WP 27429}
+      \field{labeltitlesource}{author}
+      \field{issue}{5}
+      \field{journaltitle}{Review of Economic Studies}
       \field{title}{Informality, Consumption Taxes, and Redistribution}
-      \field{year}{2020}
+      \field{volume}{91}
+      \field{year}{2024}
+      \field{pages}{2604\bibrangedash 2634}
+      \range{pages}{31}
+    \endentry
+    \entry{BachasJensenGadenne2024}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1d34ab7e165e01f0d76770220229735c}{%
+           family={Bachas},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=657d86a383c2aacffc61704ef95b45b0}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b4d98f60af965477d60915f83651345}{%
+           family={Gadenne},
+           familyi={G\bibinitperiod},
+           given={Lucie},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{39bb64ac3f64b88e028d449857c97f27}
+      \strng{fullhash}{39bb64ac3f64b88e028d449857c97f27}
+      \strng{bibnamehash}{39bb64ac3f64b88e028d449857c97f27}
+      \strng{authorbibnamehash}{39bb64ac3f64b88e028d449857c97f27}
+      \strng{authornamehash}{39bb64ac3f64b88e028d449857c97f27}
+      \strng{authorfullhash}{39bb64ac3f64b88e028d449857c97f27}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{issue}{1}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{title}{Tax Equity in Low- and Middle-Income Countries}
+      \field{volume}{38}
+      \field{year}{2024}
+      \field{pages}{55\bibrangedash 80}
+      \range{pages}{26}
     \endentry
     \entry{BachasSoto2018}{unpublished}{}
       \name{author}{2}{}{%
@@ -2046,6 +2086,52 @@
       \field{note}{Mimeo: Duke University}
       \field{title}{Taxing Property in Developing Countries: Theory and Evidence from Mexico}
       \field{year}{2021}
+    \endentry
+    \entry{BrockmeyerEtAl2024}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7beff20a43b708e2ef369a8b052baf2f}{%
+           family={Brockmeyer},
+           familyi={B\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b0c4bdec958cc2ddae353554508eaf78}{%
+           family={Mascagni},
+           familyi={M\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7a39b9a3dd95a42475d6e31c4eb2c329}{%
+           family={Nair},
+           familyi={N\bibinitperiod},
+           given={Vedanth},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1f87ce72eb79fdfa46c1f6ed58ea4b75}{%
+           family={Waseem},
+           familyi={W\bibinitperiod},
+           given={Mazhar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d05d3fe47c24cc250806542f4b95e6a3}{%
+           family={Almunia},
+           familyi={A\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6390bba76c88f2c93b9fa1895acc2d1}
+      \strng{fullhash}{f6390bba76c88f2c93b9fa1895acc2d1}
+      \strng{bibnamehash}{f6390bba76c88f2c93b9fa1895acc2d1}
+      \strng{authorbibnamehash}{f6390bba76c88f2c93b9fa1895acc2d1}
+      \strng{authornamehash}{f6390bba76c88f2c93b9fa1895acc2d1}
+      \strng{authorfullhash}{f6390bba76c88f2c93b9fa1895acc2d1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{issue}{1}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{title}{Does the Value-Added Tax Add Value? Lessons from Administrative Data from a Diverse Set of Countries}
+      \field{volume}{38}
+      \field{year}{2024}
+      \field{pages}{107\bibrangedash 132}
+      \range{pages}{26}
     \endentry
     \entry{Brolloetal2016}{unpublished}{}
       \name{author}{3}{}{%
@@ -4526,6 +4612,37 @@
       \field{year}{2013}
       \field{pages}{206\bibrangedash 238}
       \range{pages}{33}
+    \endentry
+    \entry{OkunogbeTourek2024}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1bf9191e55201eb2bfab27592bc0f88c}{%
+           family={Okunogbe},
+           familyi={O\bibinitperiod},
+           given={Oyebola},
+           giveni={O\bibinitperiod}}}%
+        {{hash=80337dbd4d1a976c387fcb889f336cc1}{%
+           family={Tourek},
+           familyi={T\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f37ea16e51aab18a087bc00ccbfded44}
+      \strng{fullhash}{f37ea16e51aab18a087bc00ccbfded44}
+      \strng{bibnamehash}{f37ea16e51aab18a087bc00ccbfded44}
+      \strng{authorbibnamehash}{f37ea16e51aab18a087bc00ccbfded44}
+      \strng{authornamehash}{f37ea16e51aab18a087bc00ccbfded44}
+      \strng{authorfullhash}{f37ea16e51aab18a087bc00ccbfded44}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{issue}{1}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{title}{How Can Lower-Income Countries Collect More Taxes? The Role of Technology, Tax Agents, and Politics}
+      \field{volume}{38}
+      \field{year}{2024}
+      \field{pages}{81\bibrangedash 106}
+      \range{pages}{26}
     \endentry
     \entry{Olken2007}{article}{}
       \name{author}{1}{}{%

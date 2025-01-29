@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.5)  24 JAN 2025 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.5)  28 JAN 2025 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,194 +595,199 @@ So-cial Marginal
 
 [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
-Overfull \hbox (3.74272pt too wide) in paragraph at lines 60--61
+Overfull \hbox (3.74272pt too wide) in paragraph at lines 61--62
 [][]\T1/ppl/m/n/10.95 T. Besley and T. Pers-son. ``The ori-gins of state ca-pac
 -ity: Prop-erty rights,
  []
 
 [3]
-Overfull \hbox (1.11281pt too wide) in paragraph at lines 78--79
+Overfull \hbox (4.17007pt too wide) in paragraph at lines 65--66
+\T1/ppl/m/n/10.95 and Miguel Al-mu-nia. ``Does the Value-Added Tax Add Value? L
+essons
+ []
+
+[4]
+Overfull \hbox (1.11281pt too wide) in paragraph at lines 81--82
 [][]\T1/ppl/m/n/10.95 William C. Bon-ing, Nathaniel Hen-dren, Ben Sprung-Keyser
 , and Ellen
  []
 
-[4]
-Overfull \hbox (0.84286pt too wide) in paragraph at lines 92--93
+[5]
+Overfull \hbox (0.84286pt too wide) in paragraph at lines 95--96
 \T1/ppl/m/n/10.95 Colom-bia''. Forth-com-ing, Amer-i-can Eco-nomic Re-view: In-
 sights, 2020. 
  []
 
 
-Overfull \hbox (3.21368pt too wide) in paragraph at lines 93--94
+Overfull \hbox (3.21368pt too wide) in paragraph at lines 96--97
 [][]\T1/ppl/m/n/10.95 Pablo Balan, Au-gustin Berg-eron, Gabriel Tourek, and Jon
 athan Weigel.
  []
 
 
-Overfull \hbox (26.58408pt too wide) in paragraph at lines 94--95
-\T1/ppl/b/n/10.95 Con-sump-tion Taxes, and Re-dis-tri-bu-tion''. NBER WP 27429,
- 2020.$[]\OT1/zplm/m/n/10.95 (\OT1/lmr/m/n/10.95 2\OT1/zplm/m/n/10.95 /\OT1/lmr
-/m/n/10.95 19\OT1/zplm/m/n/10.95 )$ 
+Overfull \hbox (1.88954pt too wide) in paragraph at lines 97--98
+\T1/ppl/b/n/10.95 Con-sump-tion Taxes, and Re-dis-tri-bu-tion''. \T1/ppl/b/it/1
+0.95 Re-view of Eco-nomic Stud-
  []
 
-[5]
-Overfull \hbox (7.67896pt too wide) in paragraph at lines 96--97
+
+Overfull \hbox (7.67896pt too wide) in paragraph at lines 99--100
 \T1/ppl/m/n/10.95 per-i-men-tal Ev-i-dence from Benin''. \T1/ppl/m/it/10.95 Jou
 r-nal of Pub-lic Eco-nomics \T1/ppl/m/n/10.95 157 (2018):
  []
 
-
+[6]
 pdfTeX warning (ext4): destination with the same identifier (name{cite.0:LaPort
 aShleifer2014}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.102    \item \fullcite{LaPortaShleifer2014}.
+l.105    \item \fullcite{LaPortaShleifer2014}.
                                               
-Overfull \hbox (1.23447pt too wide) in paragraph at lines 104--105
+Overfull \hbox (1.23447pt too wide) in paragraph at lines 107--108
 [][]\T1/ppl/m/n/10.95 D. Pomer-anz. ``No Tax-a-tion with-out In-for-ma-tion: De
 -ter-rence and Self-
  []
 
 
-Overfull \hbox (7.11656pt too wide) in paragraph at lines 105--106
+Overfull \hbox (7.11656pt too wide) in paragraph at lines 108--109
 \T1/ppl/m/n/10.95 pay-ers Re-spond to Pub-lic Dis-clo-sure and So-cial Recog-ni
 -tion Pro-grams?
  []
 
-[6]
-Overfull \hbox (1.6343pt too wide) in paragraph at lines 113--114
+
+Overfull \hbox (1.6343pt too wide) in paragraph at lines 116--117
 \T1/ppl/m/n/10.95 Ca-pac-ity Ceil-ing on Tax Rates: Ev-i-dence from Ran-dom-ize
 d Tax Abate-
  []
 
-
-Overfull \hbox (12.82687pt too wide) in paragraph at lines 114--115
+[7]
+Overfull \hbox (12.82687pt too wide) in paragraph at lines 117--118
 [][]\T1/ppl/b/n/10.95 M.C. Best, A. Brock-meyer, H.J. Kleven, J. Spin-newijn, a
 nd M. Waseem.
  []
 
 
-Overfull \hbox (1.21046pt too wide) in paragraph at lines 115--116
+Overfull \hbox (1.21046pt too wide) in paragraph at lines 118--119
 [][]\T1/ppl/m/n/10.95 Anne Brock-meyer, Ale-jan-dro Es-te-fan, Ka-rina Ramírez 
 Ar-ras, and Juan
  []
 
 
-Overfull \hbox (4.4629pt too wide) in paragraph at lines 115--116
+Overfull \hbox (4.4629pt too wide) in paragraph at lines 118--119
 \T1/ppl/m/n/10.95 Car-los Suárez Ser-rato. ``Tax-ing Prop-erty in De-vel-op-ing
  Coun-tries: The-
  []
 
-[7]
-Overfull \hbox (1.76274pt too wide) in paragraph at lines 124--125
+
+Overfull \hbox (1.76274pt too wide) in paragraph at lines 127--128
 \T1/ppl/m/n/10.95 ers. ``Tech-nol-ogy (Ab)use and Cor-rup-tion in Cus-toms''. M
 imeo: World
  []
 
 [8]
-Overfull \hbox (8.10582pt too wide) in paragraph at lines 143--144
+Overfull \hbox (8.10582pt too wide) in paragraph at lines 146--147
 \T1/ppl/m/n/10.95 ments for Work Re-quire-ments in Poverty-Alleviation Pro-gram
 s''. \T1/ppl/m/it/10.95 Amer-
  []
 
 [9]
-Overfull \hbox (18.08467pt too wide) in paragraph at lines 155--156
+pdfTeX warning (ext4): destination with the same identifier (name{cite.0:Brewer
+SaezShephard2010}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.156 \item \fullcite{BrewerSaezShephard2010}.
+                                              
+Overfull \hbox (18.08467pt too wide) in paragraph at lines 158--159
 \T1/ppl/m/n/10.95 and the Tar-get-ing of Dis-abil-ity Pro-grams''. Mimeo: Uni-v
 er-sity of Chicago,
  []
 
-[10
-pdfTeX warning (ext4): destination with the same identifier (name{cite.0:Brewer
-SaezShephard2010}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.167 \item \fullcite
-                     {AttanasioLechene2014}.]
-Overfull \hbox (4.03664pt too wide) in paragraph at lines 170--171
+[10]
+Overfull \hbox (4.03664pt too wide) in paragraph at lines 173--174
 [][]\T1/ppl/m/n/10.95 Abhijit Baner-jee, Rema Hanna, Ben-jamin A. Olken, and Di
 -ana Sverdlin
  []
 
-
-Overfull \hbox (9.16185pt too wide) in paragraph at lines 175--176
+[11]
+Overfull \hbox (9.16185pt too wide) in paragraph at lines 178--179
 \T1/ppl/m/n/10.95 Con-trolled Trial''. \T1/ppl/m/it/10.95 Amer-i-can Eco-nomic 
 Re-view \T1/ppl/m/n/10.95 105 (2 2015): 609^^U645.$[]$ 
  []
 
-[11]
-Overfull \hbox (0.12349pt too wide) in paragraph at lines 178--179
+
+Overfull \hbox (0.12349pt too wide) in paragraph at lines 181--182
 \T1/ppl/m/n/10.95 dence From In-dia's Em-ploy-ment Guar-an-tee''. \T1/ppl/m/it/
 10.95 Amer-i-can Eco-nomic Jour-
  []
 
 [12]
-Overfull \hbox (15.98203pt too wide) in paragraph at lines 190--191
+Overfull \hbox (15.98203pt too wide) in paragraph at lines 193--194
 [][]\T1/ppl/m/n/10.95 Gharad Bryan, Shya-mal Chowd-hury, Ahmed Mush-fiq Mo-bara
 k, Melanie
  []
 
 
-Overfull \hbox (14.17479pt too wide) in paragraph at lines 193--194
+Overfull \hbox (14.17479pt too wide) in paragraph at lines 196--197
 [][]\T1/ppl/m/n/10.95 Lucie Gadenne, Samuel Nor-ris, Mon-ica Sing-hal, and Sand
 ip Sukhtankar.
  []
 
 
-Overfull \hbox (2.15523pt too wide) in paragraph at lines 193--194
+Overfull \hbox (2.15523pt too wide) in paragraph at lines 196--197
 \T1/ppl/m/n/10.95 ``In-Kind Trans-fers as In-sur-ance''. Mimeo: Uni-ver-sity of
  Vir-ginia, 2022. 
  []
 
-[13] [14]
+[13] [14] [15]
 pdfTeX warning (ext4): destination with the same identifier (name{cite.0:OlkenP
 ande2012}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.229 \item \fullcite{OlkenPande2012}
+l.232 \item \fullcite{OlkenPande2012}
                                      
-Overfull \hbox (0.65927pt too wide) in paragraph at lines 235--236
+Overfull \hbox (0.65927pt too wide) in paragraph at lines 238--239
 \T1/ppl/m/n/10.95 Ex-per-i-ment on In-cen-tives for Pub-lic Ser-vices De-liv-er
 y''. \T1/ppl/m/it/10.95 Jour-nal of Pub-
  []
 
-[15]
-Overfull \hbox (16.16595pt too wide) in paragraph at lines 239--240
+
+Overfull \hbox (16.16595pt too wide) in paragraph at lines 242--243
 \T1/ppl/b/n/10.95 Struc-tural Es-ti-mates from En-vi-ron-men-tal In-spec-tions 
 in In-dia''. \T1/ppl/b/it/10.95 Econo-
  []
 
-
-Overfull \hbox (10.51505pt too wide) in paragraph at lines 248--249
+[16]
+Overfull \hbox (10.51505pt too wide) in paragraph at lines 251--252
 [][]\T1/ppl/m/n/10.95 Christina Brown and Tahir An-drabi. ``In-duc-ing Pos-i-ti
 ve Sort-ing through
  []
 
 
-Overfull \hbox (4.59454pt too wide) in paragraph at lines 250--251
+Overfull \hbox (4.59454pt too wide) in paragraph at lines 253--254
 \T1/ppl/m/n/10.95 from the Re-cruit-ment of Vil-lage Pro-mot-ers in Uganda''. M
 imeo: North-
  []
 
-[16]
-Overfull \hbox (14.34703pt too wide) in paragraph at lines 251--252
+
+Overfull \hbox (14.34703pt too wide) in paragraph at lines 254--255
 \T1/ppl/m/n/10.95 Civil Ser-vants: Ex-per-i-men-tal Ev-i-dence from Rwan-dan Pr
 i-mary Schools''.
  []
 
-
-Overfull \hbox (5.2132pt too wide) in paragraph at lines 262--263
+[17]
+Overfull \hbox (5.2132pt too wide) in paragraph at lines 265--266
 [][]\T1/ppl/m/n/10.95 A Baner-jee, E Du-flo, C Im-bert, S Mathew, and R Pande. 
 ``E-governance,
  []
 
-[17]
-Overfull \hbox (0.71635pt too wide) in paragraph at lines 265--266
+
+Overfull \hbox (0.71635pt too wide) in paragraph at lines 268--269
 [][]\T1/ppl/m/n/10.95 M Callen and J.D. Long. ``In-sti-tu-tional Cor-rup-tion a
 nd Elec-tion Fraud:
  []
 
 [18]
-Overfull \hbox (4.55156pt too wide) in paragraph at lines 277--278
+Overfull \hbox (4.55156pt too wide) in paragraph at lines 280--281
 \T1/ppl/b/n/10.95 ``Hu-man De-ci-sions and Ma-chine Pre-dic-tions''. NBER WP 23
 180, 2017 
  []
@@ -793,16 +798,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `"GR 6307 - Syllabus".out' has not changed.
-(rerunfilecheck)             Checksum: F920B4E1554A5D7592EABC246312DAC1;3752.
+(rerunfilecheck)             Checksum: 489EFF99B5071C407786B9B2A76C7D1D;3709.
 Package logreq Info: Writing requests to '"GR 6307 - Syllabus".run.xml'.
 \openout1 = `"GR 6307 - Syllabus.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18238 strings out of 474116
- 335399 string characters out of 5743683
+ 18247 strings out of 474116
+ 335673 string characters out of 5743683
  1935187 words of memory out of 5000000
- 40087 multiletter control sequences out of 15000+600000
+ 40090 multiletter control sequences out of 15000+600000
  598383 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,81p,731b,1389s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -815,10 +820,10 @@ texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist
 type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/pal
 atino/uplri8a.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (20 pages, 217769 bytes).
+Output written on "GR 6307 - Syllabus.pdf" (20 pages, 218598 bytes).
 PDF statistics:
- 600 PDF objects out of 1000 (max. 8388607)
- 554 compressed objects within 6 object streams
- 348 named destinations out of 1000 (max. 500000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 561 compressed objects within 6 object streams
+ 354 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
