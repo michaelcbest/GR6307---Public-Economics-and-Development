@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -101,10 +101,10 @@
 \end_preamble
 \options notes=show,aspectratio=169
 \use_default_options false
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language english
 \language_package none
-\inputencoding auto
+\inputencoding auto-legacy
 \fontencoding T1
 \font_roman "cmr" "default"
 \font_sans "helvet" "default"
@@ -113,7 +113,9 @@
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -157,7 +159,9 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -173,11 +177,16 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -231,7 +240,7 @@ Michael Carlos Best
 \end_layout
 
 \begin_layout Date
-Spring 2024
+Spring 2025
 \begin_inset Newline newline
 \end_inset
 
@@ -273,21 +282,24 @@ Taxation is Key to Achieving Development
 \align center
 
 \emph on
-It is shortage of resources, and not inadequate incentives, which limits
- the pace of economic development.
- Indeed the importance of public revenue from the point of view of accelerated
- economic development could hardly be exaggerated.
+It is shortage of resources,
+ and not inadequate incentives,
+ which limits the pace of economic development.
+ Indeed the importance of public revenue from the point of view of accelerated economic development could hardly be exaggerated.
  
 \end_layout
 
 \begin_layout Standard
 
 \size small
-Nicholas Kaldor, 
+Nicholas Kaldor,
+ 
 \emph on
 “Taxation for Economic Development,”
 \emph default
- Journal of Modern African Studies, 1963, p.
+ Journal of Modern African Studies,
+ 1963,
+ p.
  7.
 \size default
 
@@ -332,7 +344,8 @@ Nicholas Kaldor,
 status open
 
 \begin_layout Plain Layout
-Motivating Facts: Besley & Persson (2013)
+Motivating Facts:
+ Besley & Persson (2013)
 \end_layout
 
 \end_inset
@@ -369,7 +382,8 @@ Motivating Facts: Besley & Persson (2013)
 status open
 
 \begin_layout Plain Layout
-Motivating Facts: Besley & Persson (2013)
+Motivating Facts:
+ Besley & Persson (2013)
 \end_layout
 
 \end_inset
@@ -406,7 +420,8 @@ Motivating Facts: Besley & Persson (2013)
 status open
 
 \begin_layout Plain Layout
-Motivating Facts: Besley & Persson (2013)
+Motivating Facts:
+ Besley & Persson (2013)
 \end_layout
 
 \end_inset
@@ -443,7 +458,8 @@ Motivating Facts: Besley & Persson (2013)
 status open
 
 \begin_layout Plain Layout
-Motivating Facts: Besley & Persson (2013)
+Motivating Facts:
+ Besley & Persson (2013)
 \end_layout
 
 \end_inset
@@ -480,7 +496,8 @@ Motivating Facts: Besley & Persson (2013)
 status open
 
 \begin_layout Plain Layout
-Motivating Facts: Besley & Persson (2013)
+Motivating Facts:
+ Besley & Persson (2013)
 \end_layout
 
 \end_inset
@@ -517,7 +534,8 @@ Motivating Facts: Besley & Persson (2013)
 status open
 
 \begin_layout Plain Layout
-Gordon & Li (2009): Motivating Facts
+Gordon & Li (2009):
+ Motivating Facts
 \end_layout
 
 \end_inset
@@ -531,8 +549,7 @@ Gordon & Li (2009): Motivating Facts
 
 \begin_deeper
 \begin_layout Itemize
-Traditional optimal tax theory makes some stark predictions for the tax
- mix
+Traditional optimal tax theory makes some stark predictions for the tax mix
 \begin_inset VSpace medskip
 \end_inset
 
@@ -545,7 +562,8 @@ Traditional optimal tax theory makes some stark predictions for the tax
 
 \begin_deeper
 \begin_layout Itemize
-Diamond-Mirrlees (1971): Preserve production efficiency
+Diamond-Mirrlees (1971):
+ Preserve production efficiency
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -553,7 +571,8 @@ Diamond-Mirrlees (1971): Preserve production efficiency
 \end_layout
 
 \begin_layout Itemize
-Atkinson-Stiglitz (1976): Uniform commodity taxation
+Atkinson-Stiglitz (1976):
+ Uniform commodity taxation
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -564,7 +583,9 @@ Atkinson-Stiglitz (1976): Uniform commodity taxation
 \begin_inset Formula $\Rightarrow$
 \end_inset
 
- no tariffs, no taxes on intermediate goods, no differentiated sales taxes,
+ no tariffs,
+ no taxes on intermediate goods,
+ no differentiated sales taxes,
  no seignorage
 \begin_inset VSpace bigskip
 \end_inset
@@ -594,7 +615,8 @@ Big Picture
 
 \end_inset
 
-Taxation in Developing Countries: Big Picture
+Taxation in Developing Countries:
+ Big Picture
 \end_layout
 
 \begin_layout Subsection
@@ -632,7 +654,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Motivation
+Besley & Persson (2013):
+ Motivation
 \end_layout
 
 \end_inset
@@ -642,8 +665,8 @@ Besley & Persson (2013): Motivation
 
 \begin_deeper
 \begin_layout Itemize
-Looking through history of how rich countries built tax systems, the political
- motivations of governments feature heavily.
+Looking through history of how rich countries built tax systems,
+ the political motivations of governments feature heavily.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -670,7 +693,8 @@ Suggests tax compliance is something governments deliberately build.
 \end_layout
 
 \begin_layout Itemize
-Creates feedback loop: More capacity for taxation 
+Creates feedback loop:
+ More capacity for taxation 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
@@ -705,7 +729,8 @@ Creates feedback loop: More capacity for taxation
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Setup
+Besley & Persson (2013):
+ Setup
 \end_layout
 
 \end_inset
@@ -816,7 +841,8 @@ pre-tax prices
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Setup
+Besley & Persson (2013):
+ Setup
 \end_layout
 
 \end_inset
@@ -930,7 +956,8 @@ Labor taxes raise
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Fiscal Capacity
+Besley & Persson (2013):
+ Fiscal Capacity
 \end_layout
 
 \end_inset
@@ -1034,7 +1061,8 @@ total cost is
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Household Optimization
+Besley & Persson (2013):
+ Household Optimization
 \end_layout
 
 \end_inset
@@ -1101,7 +1129,8 @@ t_{k,s}=c_{e}\left(e_{k,s}^{*},\tau_{k,s}\right)\quad\text{for }k=1,\ldots,N,L\;
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Household Optimization
+Besley & Persson (2013):
+ Household Optimization
 \end_layout
 
 \end_inset
@@ -1171,7 +1200,8 @@ B\left(\boldsymbol{t}_{s},\boldsymbol{\tau}_{s}\right)=\sum_{n=1}^{N}t_{n,s}\lef
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Government's Problem
+Besley & Persson (2013):
+ Government's Problem
 \end_layout
 
 \end_inset
@@ -1209,7 +1239,8 @@ Government places weights
 \begin_inset Formula $\mu^{J}$
 \end_inset
 
- on each group, normalized so that 
+ on each group,
+ normalized so that 
 \begin_inset Formula $\sum_{J=1}^{\mathcal{J}}\mu^{J}\xi^{J}=1$
 \end_inset
 
@@ -1237,7 +1268,8 @@ Government places weights
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Optimal Taxes
+Besley & Persson (2013):
+ Optimal Taxes
 \end_layout
 
 \end_inset
@@ -1301,7 +1333,8 @@ t_{L,s} & =0\quad\text{if }\tau_{L,s}=0
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Optimal Taxes
+Besley & Persson (2013):
+ Optimal Taxes
 \end_layout
 
 \end_inset
@@ -1371,7 +1404,8 @@ Standard
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Investment in Fiscal Capacity
+Besley & Persson (2013):
+ Investment in Fiscal Capacity
 \end_layout
 
 \end_inset
@@ -1442,7 +1476,8 @@ c.s.\;\tau_{k,2} & \geq\tau_{k,1}>0
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Politics
+Besley & Persson (2013):
+ Politics
 \end_layout
 
 \end_inset
@@ -1452,8 +1487,7 @@ Besley & Persson (2013): Politics
 
 \begin_deeper
 \begin_layout Itemize
-Introduce politics into this model to see how it affects investments in
- fiscal capacity
+Introduce politics into this model to see how it affects investments in fiscal capacity
 \begin_inset VSpace medskip
 \end_inset
 
@@ -1531,7 +1565,8 @@ where
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Politics
+Besley & Persson (2013):
+ Politics
 \end_layout
 
 \end_inset
@@ -1565,7 +1600,8 @@ If
 \begin_inset Formula $g$
 \end_inset
 
-, and 
+,
+ and 
 \begin_inset Formula $\lambda_{s}^{I}=\alpha_{s}^{I}$
 \end_inset
 
@@ -1581,7 +1617,9 @@ If
 \begin_inset Formula $\alpha_{s}^{I}\leq\beta^{I}\left(\xi^{I},\theta\right)$
 \end_inset
 
-, then money spent on transfers, and 
+,
+ then money spent on transfers,
+ and 
 \begin_inset Formula $\lambda_{s}^{I}=\beta^{I}\left(\xi^{I},\theta\right)$
 \end_inset
 
@@ -1620,7 +1658,8 @@ c.s.\;\tau_{k,2} & \geq\tau_{k,1}>0
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Political Turnover
+Besley & Persson (2013):
+ Political Turnover
 \end_layout
 
 \end_inset
@@ -1654,7 +1693,8 @@ Let
 \end_layout
 
 \begin_layout Itemize
-Now, in period 
+Now,
+ in period 
 \begin_inset Formula $s$
 \end_inset
 
@@ -1693,7 +1733,8 @@ b_{s}\left(\lambda_{s}^{I_{s}},\boldsymbol{\tau}_{s}\right) & =\left[B\left(\bol
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Political Turnover
+Besley & Persson (2013):
+ Political Turnover
 \end_layout
 
 \end_inset
@@ -1754,7 +1795,8 @@ c.s.\;\tau_{k,2} & \geq\tau_{k,1}
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Common Interest State
+Besley & Persson (2013):
+ Common Interest State
 \end_layout
 
 \end_inset
@@ -1776,7 +1818,8 @@ The
 \emph on
 common-interest
 \emph default
- state: 
+ state:
+ 
 \begin_inset Formula $\alpha_{2}$
 \end_inset
 
@@ -1804,7 +1847,8 @@ Could be
 \begin_inset Formula $\theta$
 \end_inset
 
- very high, or 
+ very high,
+ or 
 \begin_inset Formula $\alpha_{2}$
 \end_inset
 
@@ -1833,7 +1877,8 @@ c.s.\;\tau_{k,2} & \geq\tau_{k,1}
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Redistributive State
+Besley & Persson (2013):
+ Redistributive State
 \end_layout
 
 \end_inset
@@ -1843,7 +1888,8 @@ Besley & Persson (2013): Redistributive State
 
 \begin_deeper
 \begin_layout Itemize
-Suppose transfers valued more than public goods, 
+Suppose transfers valued more than public goods,
+ 
 \begin_inset Formula $\alpha_{2}<\beta^{I}\left(\theta\right)$
 \end_inset
 
@@ -1913,7 +1959,8 @@ c.s.\;\tau_{k,2} & \geq\tau_{k,1}
 status open
 
 \begin_layout Plain Layout
-Besley & Persson (2013): Weak State
+Besley & Persson (2013):
+ Weak State
 \end_layout
 
 \end_inset
@@ -1923,8 +1970,8 @@ Besley & Persson (2013): Weak State
 
 \begin_deeper
 \begin_layout Itemize
-If transfers valued more than public goods, but there is also high political
- instability
+If transfers valued more than public goods,
+ but there is also high political instability
 \begin_inset VSpace medskip
 \end_inset
 
@@ -1955,8 +2002,7 @@ c.s.\;\tau_{k,2} & \geq\tau_{k,1}
 
 \begin_layout Itemize
 All three terms are negative.
- The incumbent invests nothing in fiscal capacity since it will only be
- used against them
+ The incumbent invests nothing in fiscal capacity since it will only be used against them
 \end_layout
 
 \end_deeper
@@ -1981,7 +2027,8 @@ Tax Evasion
 
 \end_inset
 
-Tax Evasion: Theory and Evidence from Rich Countries
+Tax Evasion:
+ Theory and Evidence from Rich Countries
 \end_layout
 
 \begin_layout Subsection
@@ -2000,7 +2047,8 @@ textit{
 
 \end_inset
 
-Income Tax Evasion: A Theoretical Analysis
+Income Tax Evasion:
+ A Theoretical Analysis
 \begin_inset ERT
 status open
 
@@ -2019,7 +2067,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-The Canonical Model: Allingham & Sandmo (1972)
+The Canonical Model:
+ Allingham & Sandmo (1972)
 \end_layout
 
 \end_inset
@@ -2029,7 +2078,8 @@ The Canonical Model: Allingham & Sandmo (1972)
 
 \begin_deeper
 \begin_layout Itemize
-Tax evasion: misreporting tax liability in an 
+Tax evasion:
+ misreporting tax liability in an 
 \emph on
 illegal
 \emph default
@@ -2041,7 +2091,9 @@ illegal
 \end_layout
 
 \begin_layout Itemize
-Tax avoidance: exploiting loopholes to minimize tax liability, 
+Tax avoidance:
+ exploiting loopholes to minimize tax liability,
+ 
 \emph on
 without
 \emph default
@@ -2053,8 +2105,9 @@ without
 \end_layout
 
 \begin_layout Itemize
-A bit of a false taxonomy: Many tax avoidance schemes have never been tested
- in a court, and may well be illegal...
+A bit of a false taxonomy:
+ Many tax avoidance schemes have never been tested in a court,
+ and may well be illegal...
 \begin_inset VSpace medskip
 \end_inset
 
@@ -2062,8 +2115,7 @@ A bit of a false taxonomy: Many tax avoidance schemes have never been tested
 \end_layout
 
 \begin_layout Itemize
-Classical model is Allingham & Sandmo (JPubE 1972) extended by Yitzhaki
- (1974)
+Classical model is Allingham & Sandmo (JPubE 1972) extended by Yitzhaki (1974)
 \begin_inset VSpace medskip
 \end_inset
 
@@ -2079,8 +2131,8 @@ Builds on Becker's (1968) theory of crime
 \end_layout
 
 \begin_layout Itemize
-Takes true income as given, focus only on decision of what to report to
- the authorities
+Takes true income as given,
+ focus only on decision of what to report to the authorities
 \end_layout
 
 \end_deeper
@@ -2096,7 +2148,8 @@ Takes true income as given, focus only on decision of what to report to
 status open
 
 \begin_layout Plain Layout
-Allingham & Sandmo (1972): Setup
+Allingham & Sandmo (1972):
+ Setup
 \end_layout
 
 \end_inset
@@ -2135,7 +2188,8 @@ The individual chooses to evade an amount
 \end_layout
 
 \begin_layout Itemize
-If they are not caught, their net income is
+If they are not caught,
+ their net income is
 \begin_inset Formula 
 \[
 Y=W-t\left(W-E\right)
@@ -2147,7 +2201,8 @@ Y=W-t\left(W-E\right)
 \end_layout
 
 \begin_layout Itemize
-If they are caught, they pay a penalty rate 
+If they are caught,
+ they pay a penalty rate 
 \begin_inset Formula $\theta>t$
 \end_inset
 
@@ -2183,7 +2238,8 @@ They are audited with probability
 status open
 
 \begin_layout Plain Layout
-Allingham & Sandmo (1972): Solution
+Allingham & Sandmo (1972):
+ Solution
 \end_layout
 
 \end_inset
@@ -2286,13 +2342,14 @@ Substitution effect (consumption cheaper in unaudited state) seems unintuitive,
 \end_layout
 
 \begin_layout Itemize
-Yitzhaki (1974): This is because penalty is on evaded income not evaded
- tax.
+Yitzhaki (1974):
+ This is because penalty is on evaded income not evaded tax.
  If instead penalty is 
 \begin_inset Formula $\theta tE$
 \end_inset
 
-, then
+,
+ then
 \begin_inset VSpace medskip
 \end_inset
 
@@ -2308,7 +2365,8 @@ Yitzhaki (1974): This is because penalty is on evaded income not evaded
 \end_layout
 
 \begin_layout Itemize
-No more substitution effect, only income effect
+No more substitution effect,
+ only income effect
 \end_layout
 
 \end_deeper
@@ -2348,7 +2406,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Chetty (2009): Overview
+Chetty (2009):
+ Overview
 \end_layout
 
 \end_inset
@@ -2394,7 +2453,9 @@ Provide simple model to think this through.
 \end_layout
 
 \begin_layout Itemize
-General answer: No, now there are 2 statistics that are jointly sufficient.
+General answer:
+ No,
+ now there are 2 statistics that are jointly sufficient.
 \end_layout
 
 \end_deeper
@@ -2410,7 +2471,9 @@ General answer: No, now there are 2 statistics that are jointly sufficient.
 status open
 
 \begin_layout Plain Layout
-Chetty (2009): Benchmark: No Evasion
+Chetty (2009):
+ Benchmark:
+ No Evasion
 \end_layout
 
 \end_inset
@@ -2461,7 +2524,8 @@ W\left(t\right)=\underbrace{\left\{ y+\left(1-t\right)wl-\psi\left(l\right)\righ
 \end_layout
 
 \begin_layout Itemize
-Envelope theorem: 
+Envelope theorem:
+ 
 \begin_inset Formula $\frac{du\left(c^{*},l^{*}\right)}{dt}=\frac{\partial u\left(c^{*},l^{*}\right)}{\partial t}=wl\equiv TI$
 \end_inset
 
@@ -2490,7 +2554,8 @@ Envelope theorem:
 status open
 
 \begin_layout Plain Layout
-Chetty (2009): Evasion With Real Cost
+Chetty (2009):
+ Evasion With Real Cost
 \end_layout
 
 \end_inset
@@ -2513,7 +2578,8 @@ Add to the previous model the ability to shelter
 \begin_inset Formula $g\left(e\right)$
 \end_inset
 
- is a real, social cost of evasion
+ is a real,
+ social cost of evasion
 \begin_inset VSpace medskip
 \end_inset
 
@@ -2586,7 +2652,8 @@ Feldstein result survives
 status open
 
 \begin_layout Plain Layout
-Chetty (2009): Evasion With Transfer Cost
+Chetty (2009):
+ Evasion With Transfer Cost
 \end_layout
 
 \end_inset
@@ -2601,7 +2668,8 @@ Now add sheltering a la Allingham Sandmo.
 \begin_inset Formula $p\left(e\right)$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $p^{\prime}\left(e\right)>0$
 \end_inset
 
@@ -2614,7 +2682,8 @@ Now add sheltering a la Allingham Sandmo.
 \end_layout
 
 \begin_layout Itemize
-If caught, pay fine 
+If caught,
+ pay fine 
 \begin_inset Formula $F\left(e,t\right)$
 \end_inset
 
@@ -2695,7 +2764,8 @@ W\left(t\right) & =\left\{ y+\left(1-t\right)\left(wl-e\right)+e-z\left(e,t\righ
 status open
 
 \begin_layout Plain Layout
-Chetty (2009): Evasion With Transfer Cost
+Chetty (2009):
+ Evasion With Transfer Cost
 \end_layout
 
 \end_inset
@@ -2726,7 +2796,8 @@ Envelope theorem
 \end_layout
 
 \begin_layout Itemize
-Evasion choice FOC: 
+Evasion choice FOC:
+ 
 \begin_inset Formula $\frac{\partial z}{\partial e}=t$
 \end_inset
 
@@ -2746,7 +2817,8 @@ Evasion choice FOC:
 \end_layout
 
 \begin_layout Itemize
-ETI no longer sufficient, need 
+ETI no longer sufficient,
+ need 
 \emph on
 real
 \emph default
@@ -2766,7 +2838,8 @@ real
 status open
 
 \begin_layout Plain Layout
-Chetty (2009): Both Types of Evasion
+Chetty (2009):
+ Both Types of Evasion
 \end_layout
 
 \end_inset
@@ -2863,12 +2936,14 @@ Allingham-Sandmo does not predict actual tax evasion rates very well:
 \end_layout
 
 \begin_layout Itemize
-Alm, McClelland & Schulze calibrate A-S to the US data.
+Alm,
+ McClelland & Schulze calibrate A-S to the US data.
  With coeff of RRA 
 \begin_inset Formula $\gamma=3$
 \end_inset
 
-, they get 13% compliance (waaaaaay off)
+,
+ they get 13% compliance (waaaaaay off)
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -2876,8 +2951,7 @@ Alm, McClelland & Schulze calibrate A-S to the US data.
 \end_layout
 
 \begin_layout Itemize
-Slemrod (2007) estimates 43% compliance for self-reported income in the
- US
+Slemrod (2007) estimates 43% compliance for self-reported income in the US
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -2889,7 +2963,8 @@ Calibrations require
 \begin_inset Formula $\gamma=5$
 \end_inset
 
- to get 44% compliance, 
+ to get 44% compliance,
+ 
 \begin_inset Formula $\gamma=10$
 \end_inset
 
@@ -2906,7 +2981,10 @@ Suggests the theory is incomplete.
 
 \end_deeper
 \begin_layout Subsection
-Kleven, Knudsen, Kreiner, Pedersen & Saez (Ecma 2011) 
+Kleven,
+ Knudsen,
+ Kreiner,
+ Pedersen & Saez (Ecma 2011) 
 \begin_inset ERT
 status open
 
@@ -2921,7 +2999,8 @@ textit{
 
 \end_inset
 
-Unwilling or Unable to Cheat? Evidence from a Tax Audit Experiment in Denmark
+Unwilling or Unable to Cheat?
+ Evidence from a Tax Audit Experiment in Denmark
 \begin_inset ERT
 status open
 
@@ -2941,7 +3020,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Overview
+ (2011):
+ Overview
 \end_layout
 
 \end_inset
@@ -2951,8 +3031,9 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Itemize
-One possible reason Allingham-Sandmo predicts evasion poorly: Detection
- probabilities are endogenous, and vary by type of income
+One possible reason Allingham-Sandmo predicts evasion poorly:
+ Detection probabilities are endogenous,
+ and vary by type of income
 \begin_inset VSpace medskip
 \end_inset
 
@@ -2960,8 +3041,7 @@ One possible reason Allingham-Sandmo predicts evasion poorly: Detection
 \end_layout
 
 \begin_layout Itemize
-Extend A-S model to include endogenous detection probabilities and third-party
- reported income
+Extend A-S model to include endogenous detection probabilities and third-party reported income
 \begin_inset VSpace medskip
 \end_inset
 
@@ -3016,7 +3096,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Model
+ (2011):
+ Model
 \end_layout
 
 \end_inset
@@ -3026,15 +3107,18 @@ Kleven et al.
 
 \begin_deeper
 \begin_layout Itemize
-Simple AS model: Risk-neutral taxpayer has true income 
+Simple AS model:
+ Risk-neutral taxpayer has true income 
 \begin_inset Formula $\bar{y}$
 \end_inset
 
-, reports income 
+,
+ reports income 
 \begin_inset Formula $y$
 \end_inset
 
-, evades 
+,
+ evades 
 \begin_inset Formula $e\equiv\bar{y}-y$
 \end_inset
 
@@ -3062,8 +3146,8 @@ Probability of detection
 \end_layout
 
 \begin_layout Itemize
-If evasion is detected, taxpayer pays evaded tax plus penalty proportional
- to evaded tax 
+If evasion is detected,
+ taxpayer pays evaded tax plus penalty proportional to evaded tax 
 \begin_inset Formula $\theta\tau e$
 \end_inset
 
@@ -3112,7 +3196,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Model
+ (2011):
+ Model
 \end_layout
 
 \end_inset
@@ -3135,7 +3220,8 @@ where
 \begin_inset Formula $\bar{y}_{t}$
 \end_inset
 
- is third-party reported income, and 
+ is third-party reported income,
+ and 
 \begin_inset Formula $\bar{y}_{s}$
 \end_inset
 
@@ -3147,8 +3233,8 @@ where
 \end_layout
 
 \begin_layout Itemize
-Assume very hard to evade third-party reported income, but easier for self-repor
-ted income.
+Assume very hard to evade third-party reported income,
+ but easier for self-reported income.
  
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -3213,7 +3299,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Model
+ (2011):
+ Model
 \end_layout
 
 \end_inset
@@ -3247,7 +3334,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Experimental Design
+ (2011):
+ Experimental Design
 \end_layout
 
 \end_inset
@@ -3265,7 +3353,8 @@ Conduct a field experiment in Denmark in 2007
 \end_layout
 
 \begin_layout Itemize
-88% of population liable to taxes, all required to file a return
+88% of population liable to taxes,
+ all required to file a return
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -3273,8 +3362,9 @@ Conduct a field experiment in Denmark in 2007
 \end_layout
 
 \begin_layout Itemize
-Tax administration (SKAT) receives tax returns, and separately receives
- third-party reports from employers, banks etc.
+Tax administration (SKAT) receives tax returns,
+ and separately receives third-party reports from employers,
+ banks etc.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -3282,7 +3372,8 @@ Tax administration (SKAT) receives tax returns, and separately receives
 \end_layout
 
 \begin_layout Itemize
-Local, regional national taxes all administered by SKAT
+Local,
+ regional national taxes all administered by SKAT
 \end_layout
 
 \end_deeper
@@ -3299,7 +3390,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Tax System
+ (2011):
+ Tax System
 \end_layout
 
 \end_inset
@@ -3312,7 +3404,7 @@ Kleven et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Kleven2011_2.png
-	height 99theight%
+	special height=0.99\textheight
 
 \end_inset
 
@@ -3333,7 +3425,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Experimental Design
+ (2011):
+ Experimental Design
 \end_layout
 
 \end_inset
@@ -3346,7 +3439,7 @@ Kleven et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Kleven2011_3.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -3367,7 +3460,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Audit Results (1)
+ (2011):
+ Audit Results (1)
 \end_layout
 
 \end_inset
@@ -3380,7 +3474,7 @@ Kleven et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Kleven2011_4.png
-	height 95theight%
+	special height=0.95\textheight
 
 \end_inset
 
@@ -3401,7 +3495,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Audit Results (2)
+ (2011):
+ Audit Results (2)
 \end_layout
 
 \end_inset
@@ -3435,7 +3530,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Audit Results (3)
+ (2011):
+ Audit Results (3)
 \end_layout
 
 \end_inset
@@ -3469,7 +3565,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Audit Results (4)
+ (2011):
+ Audit Results (4)
 \end_layout
 
 \end_inset
@@ -3482,7 +3579,7 @@ Kleven et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Kleven2011_7.png
-	height 99theight%
+	special height=0.99\textheight
 
 \end_inset
 
@@ -3503,7 +3600,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Audit Results (5)
+ (2011):
+ Audit Results (5)
 \end_layout
 
 \end_inset
@@ -3516,7 +3614,7 @@ Kleven et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Kleven2011_8.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -3537,7 +3635,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Audit Results (6)
+ (2011):
+ Audit Results (6)
 \end_layout
 
 \end_inset
@@ -3550,7 +3649,7 @@ Kleven et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Kleven2011_9.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -3571,7 +3670,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Prior Audit Effects (1)
+ (2011):
+ Prior Audit Effects (1)
 \end_layout
 
 \end_inset
@@ -3584,7 +3684,7 @@ Kleven et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Kleven2011_10.png
-	height 95theight%
+	special height=0.95\textheight
 
 \end_inset
 
@@ -3605,7 +3705,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Prior Audit Effects (2)
+ (2011):
+ Prior Audit Effects (2)
 \end_layout
 
 \end_inset
@@ -3639,7 +3740,8 @@ status open
 
 \begin_layout Plain Layout
 Kleven et al.
- (2011): Threat of Audit Effects
+ (2011):
+ Threat of Audit Effects
 \end_layout
 
 \end_inset
@@ -3661,7 +3763,10 @@ Kleven et al.
 
 \end_deeper
 \begin_layout Subsection
-Guyton, Langetieg, Reck, Risch & Zucman (WP 2021) 
+Guyton,
+ Langetieg,
+ Reck,
+ Risch & Zucman (WP 2021) 
 \begin_inset ERT
 status open
 
@@ -3676,7 +3781,8 @@ textit{
 
 \end_inset
 
-Tax Evasion at the Top of the Income Distribution: Theory and Evidence
+Tax Evasion at the Top of the Income Distribution:
+ Theory and Evidence
 \begin_inset ERT
 status open
 
@@ -3700,7 +3806,8 @@ Guyton
 et al.
 
 \emph default
- (2021): Motivation
+ (2021):
+ Motivation
 \end_layout
 
 \end_inset
@@ -3714,30 +3821,32 @@ How much (personal income) tax evasion is there in the US?
 \end_layout
 
 \begin_layout Itemize
-How is it distributed? Do the rich evade more or less than lower-income
- households?
+How is it distributed?
+ Do the rich evade more or less than lower-income households?
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-This paper: 
+This paper:
+ 
 \series default
-Combine multiple data sources to estimate the extent of evasion through
- the income distribution.
+Combine multiple data sources to estimate the extent of evasion through the income distribution.
 \end_layout
 
 \begin_layout Itemize
-Find that audits do not detect all evasion, especially at the very top.
+Find that audits do not detect all evasion,
+ especially at the very top.
 \end_layout
 
 \begin_layout Itemize
-At the very top, evasion through pass-through businesses and offshore sheltering
- more common
+At the very top,
+ evasion through pass-through businesses and offshore sheltering more common
 \end_layout
 
 \begin_layout Itemize
-Theory to explain this; methodology to measure tax gap correctly.
+Theory to explain this;
+ methodology to measure tax gap correctly.
 \end_layout
 
 \end_deeper
@@ -3758,7 +3867,8 @@ Guytan
 et al.
 
 \emph default
- (2021): Noncompliance in Random Audits
+ (2021):
+ Noncompliance in Random Audits
 \end_layout
 
 \end_inset
@@ -3780,7 +3890,8 @@ random
 \end_layout
 
 \begin_layout Itemize
-NRP does stratified random sampling, oversampling top earners.
+NRP does stratified random sampling,
+ oversampling top earners.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -3788,8 +3899,10 @@ NRP does stratified random sampling, oversampling top earners.
 \end_layout
 
 \begin_layout Itemize
-Auditors go through the 1040 using its schedules, 3rd-party reports, taxpayer's
- own records, risk measures comparing the return to other filers.
+Auditors go through the 1040 using its schedules,
+ 3rd-party reports,
+ taxpayer's own records,
+ risk measures comparing the return to other filers.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -3798,11 +3911,13 @@ Auditors go through the 1040 using its schedules, 3rd-party reports, taxpayer's
 
 \begin_layout Itemize
 Audits known not to be able to detect all evasion.
- IRS has a methodology, 
+ IRS has a methodology,
+ 
 \emph on
 detection-controlled estimation
 \emph default
- (DCE), to estimate 
+ (DCE),
+ to estimate 
 \emph on
 undetected
 \emph default
@@ -3815,13 +3930,15 @@ undetected
 \end_layout
 
 \begin_layout Itemize
-Pool data from NRP audits 2006–2013: 105,167 audited taxpayers; of whom
- 12,003 are in top 1%
+Pool data from NRP audits 2006–2013:
+ 105,167 audited taxpayers;
+ of whom 12,003 are in top 1%
 \end_layout
 
 \begin_layout Itemize
-On aggregate, NRP finds 4.0% of true income is under-reported; 7.7% of taxes
- owed are not paid (before DCE correction)
+On aggregate,
+ NRP finds 4.0% of true income is under-reported;
+ 7.7% of taxes owed are not paid (before DCE correction)
 \end_layout
 
 \end_deeper
@@ -3851,7 +3968,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_01.png
 	lyxscale 70
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -3885,7 +4002,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_02.png
 	lyxscale 70
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -3928,14 +4045,15 @@ Detection-Controlled Estimation
 \end_layout
 
 \begin_layout Itemize
-Based on Feinstein (1991) model fraction of evasion detected depending on
- return characteristics (types of income, presence of schedules) and examiner
- (experience, age etc).
+Based on Feinstein (1991) model fraction of evasion detected depending on return characteristics (types of income,
+ presence of schedules) and examiner (experience,
+ age etc).
 \end_layout
 
 \begin_layout Itemize
-After DCE correction, estimated total evasion is 14.0% of true income is
- under-reported; 20.0% of owed taxes are not paid.
+After DCE correction,
+ estimated total evasion is 14.0% of true income is under-reported;
+ 20.0% of owed taxes are not paid.
 \end_layout
 
 \end_deeper
@@ -3965,7 +4083,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_03.png
 	lyxscale 70
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -3999,7 +4117,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_04.png
 	lyxscale 70
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -4024,7 +4142,8 @@ Guyton
 et al.
 
 \emph default
- (2021): Can DCE Fully Correct for Undetected Evasion?
+ (2021):
+ Can DCE Fully Correct for Undetected Evasion?
 \end_layout
 
 \end_inset
@@ -4038,19 +4157,23 @@ Undetected evasion may well rise with income:
 \end_layout
 
 \begin_layout Enumerate
-interest, dividends, capital gains accruing to offshore accounts not extensively
- reported pre 2014 FATCA
+interest,
+ dividends,
+ capital gains accruing to offshore accounts not extensively reported pre 2014 FATCA
 \end_layout
 
 \begin_layout Enumerate
-Owners of business networks raise challenges: Need to dig one by one into
- each of the businesses' returns.
+Owners of business networks raise challenges:
+ Need to dig one by one into each of the businesses' returns.
  Not always extensively examined.
 \end_layout
 
 \begin_layout Itemize
-Direct test: Compare weighted total noncompliance according to NRP, NRP
- with DCE, and detected in operational (targeted, more in-depth) audits.
+Direct test:
+ Compare weighted total noncompliance according to NRP,
+ NRP with DCE,
+ and detected in operational (targeted,
+ more in-depth) audits.
 \end_layout
 
 \end_deeper
@@ -4080,7 +4203,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_05.png
 	lyxscale 70
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -4105,7 +4228,8 @@ Guyton
 et al.
 
 \emph default
- (2021): Offshore Evasion
+ (2021):
+ Offshore Evasion
 \end_layout
 
 \end_inset
@@ -4115,16 +4239,17 @@ et al.
 
 \begin_deeper
 \begin_layout Itemize
-After 2007 IRS pursued a series of initiatives to crack down on offshore
- tax evasion
+After 2007 IRS pursued a series of initiatives to crack down on offshore tax evasion
 \end_layout
 
 \begin_layout Itemize
-From 2008, 
+From 2008,
+ 
 \emph on
 Offshore Voluntary Disclosure Program 
 \emph default
-(OVD), allowed people to pay penalties but avoid criminal prosecution
+(OVD),
+ allowed people to pay penalties but avoid criminal prosecution
 \end_layout
 
 \begin_deeper
@@ -4134,13 +4259,11 @@ use data on 50,020 OVD participants matched to their returns
 
 \end_deeper
 \begin_layout Itemize
-2010 passage of Foreign Accounts Tax Compliance Act (FATCA) requires 3rd-party
- reporting of offshore accounts from 2014
+2010 passage of Foreign Accounts Tax Compliance Act (FATCA) requires 3rd-party reporting of offshore accounts from 2014
 \end_layout
 
 \begin_layout Itemize
-Voluntarily file Foreign Bank Account Reports (FBAR) if more than $10K in
- offshore account
+Voluntarily file Foreign Bank Account Reports (FBAR) if more than $10K in offshore account
 \end_layout
 
 \begin_deeper
@@ -4176,7 +4299,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_06.png
 	lyxscale 70
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -4210,7 +4333,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_07.png
 	lyxscale 66
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -4244,7 +4367,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_08.png
 	lyxscale 60
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -4278,7 +4401,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_09.png
 	lyxscale 60
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -4303,7 +4426,8 @@ Guyton
 et al.
 
 \emph default
- (2021): Pass-through Business Income Evasion
+ (2021):
+ Pass-through Business Income Evasion
 \end_layout
 
 \end_inset
@@ -4313,8 +4437,8 @@ et al.
 
 \begin_deeper
 \begin_layout Itemize
-Pass-through businesses (S-corporations & partnerships) don't pay corporate
- income tax, their income flows through to their owners.
+Pass-through businesses (S-corporations & partnerships) don't pay corporate income tax,
+ their income flows through to their owners.
 \end_layout
 
 \begin_layout Itemize
@@ -4322,8 +4446,7 @@ Business ownership highly concentrated at the top of the income distribution
 \end_layout
 
 \begin_layout Itemize
-Much harder to audit since need to flow up to the underlying businesses'
- returns.
+Much harder to audit since need to flow up to the underlying businesses' returns.
 \end_layout
 
 \begin_layout Itemize
@@ -4332,13 +4455,13 @@ To estimate impact on distribution of evasion follow 2 steps:
 
 \begin_layout Enumerate
 Make an assumption about overall evasion rate.
- Benchmark 20% of pass-through income, 5% of pass-through capital gains,
+ Benchmark 20% of pass-through income,
+ 5% of pass-through capital gains,
  3% of pass-through dividends
 \end_layout
 
 \begin_layout Enumerate
-Assume undetected income is distributed the same way as reported pass-through
- income.
+Assume undetected income is distributed the same way as reported pass-through income.
 \end_layout
 
 \end_deeper
@@ -4368,7 +4491,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_10.png
 	lyxscale 60
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -4393,7 +4516,8 @@ Guyton
 et al.
 
 \emph default
- (2021): Putting it All Together
+ (2021):
+ Putting it All Together
 \end_layout
 
 \end_inset
@@ -4407,7 +4531,7 @@ et al.
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_11.png
 	lyxscale 60
-	height 99theight%
+	special height=0.99\textheight
 
 \end_inset
 
@@ -4432,7 +4556,8 @@ Guyton
 et al.
 
 \emph default
- (2021): Putting it All Together
+ (2021):
+ Putting it All Together
 \end_layout
 
 \end_inset
@@ -4446,7 +4571,7 @@ et al.
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/GuytonEtAl_12.png
 	lyxscale 60
-	height 99theight%
+	special height=0.99\textheight
 
 \end_inset
 
@@ -4455,7 +4580,9 @@ et al.
 
 \end_deeper
 \begin_layout Subsection
-Boning, Hendren, Sprung-Keyser & Stuart (QJE 2024?) 
+Boning,
+ Hendren,
+ Sprung-Keyser & Stuart (QJE 2024?) 
 \begin_inset ERT
 status open
 
@@ -4490,7 +4617,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Motivation
+ (2024):
+ Motivation
 \end_layout
 
 \end_inset
@@ -4500,7 +4628,8 @@ Boning et al.
 
 \begin_deeper
 \begin_layout Itemize
-There is a lot of tax evasion, even in rich countries like the US.
+There is a lot of tax evasion,
+ even in rich countries like the US.
  How effective are audits at recovering unpaid taxes?
 \end_layout
 
@@ -4525,8 +4654,7 @@ Estimate indirect effects through deterrence
 \end_layout
 
 \begin_layout Enumerate
-Evaluate welfare consequences of tax audits by deriving and estimating an
- MVPF of audits.
+Evaluate welfare consequences of tax audits by deriving and estimating an MVPF of audits.
 \end_layout
 
 \end_deeper
@@ -4543,7 +4671,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): How do Audits Work?
+ (2024):
+ How do Audits Work?
 \end_layout
 
 \end_inset
@@ -4576,7 +4705,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Detailed Data
+ (2024):
+ Detailed Data
 \end_layout
 
 \end_inset
@@ -4592,12 +4722,13 @@ Audit-level enforcement data covering 2003-2021
 \begin_deeper
 \begin_layout Enumerate
 Tax liability assessed at each stage of the process.
- Separately estimate revenue at exam, appeals, and collection.
+ Separately estimate revenue at exam,
+ appeals,
+ and collection.
 \end_layout
 
 \begin_layout Enumerate
-Log of hours spent on enforcement activity by IRS employees and their pay
- grade.
+Log of hours spent on enforcement activity by IRS employees and their pay grade.
  Using location get hourly wage to get labor costs
 \end_layout
 
@@ -4608,11 +4739,13 @@ IRS Accounting data 2011-2020
 
 \begin_deeper
 \begin_layout Enumerate
-non-direct labor-related costs (training, fringe benefits etc)
+non-direct labor-related costs (training,
+ fringe benefits etc)
 \end_layout
 
 \begin_layout Enumerate
-organization-wide costs (building costs, IT etc)
+organization-wide costs (building costs,
+ IT etc)
 \end_layout
 
 \begin_layout Enumerate
@@ -4650,7 +4783,7 @@ status open
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_02.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4682,7 +4815,7 @@ status open
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_03.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4714,7 +4847,7 @@ status open
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_04.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4735,7 +4868,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Marginal Audits
+ (2024):
+ Marginal Audits
 \end_layout
 
 \end_inset
@@ -4750,15 +4884,15 @@ So far studied impacts of
 average
 \emph default
  audit.
- But to think about expanding/contracting audit program want to learn about
- 
+ But to think about expanding/contracting audit program want to learn about 
 \emph on
 marginal audits
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-Diminishing returns? Target high-value evaders first?
+Diminishing returns?
+ Target high-value evaders first?
 \end_layout
 
 \begin_layout Enumerate
@@ -4767,8 +4901,7 @@ Economies of scale.
 
 \end_deeper
 \begin_layout Itemize
-Study diminishing returns using big decline in audit rates between 2010
- and 2014.
+Study diminishing returns using big decline in audit rates between 2010 and 2014.
 \end_layout
 
 \end_deeper
@@ -4785,7 +4918,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Marginal Audits
+ (2024):
+ Marginal Audits
 \end_layout
 
 \end_inset
@@ -4797,7 +4931,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_05.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -4818,7 +4952,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Marginal Audits
+ (2024):
+ Marginal Audits
 \end_layout
 
 \end_inset
@@ -4830,7 +4965,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_06.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -4851,7 +4986,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Marginal Audits
+ (2024):
+ Marginal Audits
 \end_layout
 
 \end_inset
@@ -4863,7 +4999,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_07.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -4884,7 +5020,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Marginal Audits
+ (2024):
+ Marginal Audits
 \end_layout
 
 \end_inset
@@ -4911,7 +5048,8 @@ Baseline is that 27% is fixed and 73% variable based on accounting information
 \end_layout
 
 \begin_layout Itemize
-Total marginal cost is labor/fringe, org-wide costs.
+Total marginal cost is labor/fringe,
+ org-wide costs.
  -> 3.93:1 ratio of total MC to labor cost.
  and marginal non-labor costs 25.6% of total labor and fringe costs
 \end_layout
@@ -4921,13 +5059,15 @@ IRS has its own estimates that it is 23.6%.
 \end_layout
 
 \begin_layout Itemize
-Lower bound: 1.93 dollars of MC per dollar of direct wage cost (only benefits,
- training, travel)
+Lower bound:
+ 1.93 dollars of MC per dollar of direct wage cost (only benefits,
+ training,
+ travel)
 \end_layout
 
 \begin_layout Itemize
-Upper bound: $4.39 per $ of direct wage costs (all non-direct labor costs
- are variable)
+Upper bound:
+ $4.39 per $ of direct wage costs (all non-direct labor costs are variable)
 \end_layout
 
 \end_deeper
@@ -4945,7 +5085,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Marginal Audits
+ (2024):
+ Marginal Audits
 \end_layout
 
 \end_inset
@@ -4957,7 +5098,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_08.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -4978,7 +5119,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Deterrence Effects
+ (2024):
+ Deterrence Effects
 \end_layout
 
 \end_inset
@@ -4989,7 +5131,8 @@ Boning et al.
 \begin_deeper
 \begin_layout Itemize
 Use NRP audits (as in DeBacker et al.
- 2021; Guyton et al 2023)
+ 2021;
+ Guyton et al 2023)
 \end_layout
 
 \begin_layout Itemize
@@ -4998,7 +5141,9 @@ Compare randomly selected audits to a matched control group.
 
 \begin_deeper
 \begin_layout Itemize
-stratify in the same way NRP does (TPI, EITC, Self-employment income)
+stratify in the same way NRP does (TPI,
+ EITC,
+ Self-employment income)
 \end_layout
 
 \begin_layout Itemize
@@ -5007,7 +5152,8 @@ Select a nearest neighbor in the same stratum and tax-year using TPI
 
 \end_deeper
 \begin_layout Itemize
-Do matched, stacked event study.
+Do matched,
+ stacked event study.
 \end_layout
 
 \end_deeper
@@ -5024,7 +5170,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Deterrence Effects
+ (2024):
+ Deterrence Effects
 \end_layout
 
 \end_inset
@@ -5036,7 +5183,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_09.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -5057,7 +5204,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Deterrence Effects
+ (2024):
+ Deterrence Effects
 \end_layout
 
 \end_inset
@@ -5069,7 +5217,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_10.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -5090,7 +5238,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Incorporating Overall Deterrence Effect
+ (2024):
+ Incorporating Overall Deterrence Effect
 \end_layout
 
 \end_inset
@@ -5102,7 +5251,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_11.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -5123,7 +5272,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Incorporating TPI-specific Deterrence Effect
+ (2024):
+ Incorporating TPI-specific Deterrence Effect
 \end_layout
 
 \end_inset
@@ -5135,7 +5285,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_12.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -5156,7 +5306,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Welfare Analysis
+ (2024):
+ Welfare Analysis
 \end_layout
 
 \end_inset
@@ -5196,7 +5347,10 @@ Welfare loss of
 \end_layout
 
 \begin_layout Enumerate
-Additional costs from time, representation, hassle etc: 
+Additional costs from time,
+ representation,
+ hassle etc:
+ 
 \begin_inset Formula $B$
 \end_inset
 
@@ -5240,7 +5394,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Welfare Analysis
+ (2024):
+ Welfare Analysis
 \end_layout
 
 \end_inset
@@ -5295,7 +5450,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Welfare Analysis.
+ (2024):
+ Welfare Analysis.
  Low Income Taxpayers
 \end_layout
 
@@ -5308,7 +5464,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_13.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -5329,7 +5485,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Welfare Analysis.
+ (2024):
+ Welfare Analysis.
  High Income Taxpayers
 \end_layout
 
@@ -5342,7 +5499,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_14.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -5363,7 +5520,8 @@ status open
 
 \begin_layout Plain Layout
 Boning et al.
- (2024): Welfare Analysis Comparison to Other Policies
+ (2024):
+ Welfare Analysis Comparison to Other Policies
 \end_layout
 
 \end_inset
@@ -5375,7 +5533,7 @@ Boning et al.
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/BoningEtAl_15.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -5392,7 +5550,10 @@ Boning et al.
 \end_layout
 
 \begin_layout Subsection
-De Neve, Imbert, Spinnewijn, Tsankova & Luts (JPE 2021) 
+De Neve,
+ Imbert,
+ Spinnewijn,
+ Tsankova & Luts (JPE 2021) 
 \begin_inset ERT
 status open
 
@@ -5407,8 +5568,8 @@ textit{
 
 \end_inset
 
-How to Improve Tax Compliance? Evidence from Population-Wide Experiments
- in Belgium
+How to Improve Tax Compliance?
+ Evidence from Population-Wide Experiments in Belgium
 \begin_inset ERT
 status open
 
@@ -5428,7 +5589,8 @@ status open
 
 \begin_layout Plain Layout
 De Neve et al.
- (2021): Motivation
+ (2021):
+ Motivation
 \end_layout
 
 \end_inset
@@ -5438,7 +5600,8 @@ De Neve et al.
 
 \begin_deeper
 \begin_layout Itemize
-As we have seen, there's lots of tax noncompliance.
+As we have seen,
+ there's lots of tax noncompliance.
  Closing this tax gap is an important policy goal in many countries.
 \end_layout
 
@@ -5448,7 +5611,8 @@ Knowing what drives compliance and how to increase it is therefore important.
 
 \begin_layout Itemize
 Allingham-Sandmo (1972) emphasizes pecuniary motives for compliance.
- Also literature on role of non-pecuniary motives, 
+ Also literature on role of non-pecuniary motives,
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -5456,25 +5620,27 @@ tax morale
 \begin_inset Quotes erd
 \end_inset
 
- (Luttmer & Singhal, 2014)
+ (Luttmer & Singhal,
+ 2014)
 \end_layout
 
 \begin_layout Itemize
-Evidence from several domains of importance of information frictions and
- complexity, e.g.
- benefit take-up (Bhargava & Manoli 2015), student loan repayment (Cox et
- al.
- 2018); college admissions (Dynarski et al.
+Evidence from several domains of importance of information frictions and complexity,
+ e.g.
+ benefit take-up (Bhargava & Manoli 2015),
+ student loan repayment (Cox et al.
+ 2018);
+ college admissions (Dynarski et al.
  2021)
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-This paper: 
+This paper:
+ 
 \series default
-Evidence from a series of field experiments on role of complexity in communicati
-ons with taxpayers and interactions with enforcement and tax morale.
+Evidence from a series of field experiments on role of complexity in communications with taxpayers and interactions with enforcement and tax morale.
 \end_layout
 
 \end_deeper
@@ -5491,7 +5657,8 @@ status open
 
 \begin_layout Plain Layout
 De Neve et al.
- (2021): Simple Model
+ (2021):
+ Simple Model
 \end_layout
 
 \end_inset
@@ -5535,7 +5702,8 @@ In special case where
 \begin_inset Formula $\Phi\left(x\right)=\phi\times x$
 \end_inset
 
-, comply if
+,
+ comply if
 \begin_inset Formula 
 \[
 t+\phi_{\text{compliance}}\leq\phi_{\text{noncompliance}}+\phi_{\text{morale}}
@@ -5547,8 +5715,9 @@ t+\phi_{\text{compliance}}\leq\phi_{\text{noncompliance}}+\phi_{\text{morale}}
 \end_layout
 
 \begin_layout Itemize
-How to set the instruments? as in Keen & Slemrod (2017), equalize marginal
- cost of raising $1:
+How to set the instruments?
+ as in Keen & Slemrod (2017),
+ equalize marginal cost of raising $1:
 \begin_inset Formula 
 \[
 \frac{\partial C/\partial\phi_{j}}{\partial T/\partial\phi_{j}}=\lambda
@@ -5573,7 +5742,8 @@ status open
 
 \begin_layout Plain Layout
 De Neve et al.
- (2021): Context
+ (2021):
+ Context
 \end_layout
 
 \end_inset
@@ -5599,7 +5769,8 @@ De Neve et al.
 \end_layout
 
 \begin_layout Itemize
-Embed experiments in the four stages, in three consecutive fiscal years.
+Embed experiments in the four stages,
+ in three consecutive fiscal years.
 \end_layout
 
 \end_deeper
@@ -5629,7 +5800,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/DeNeveEtAl_02.png
 	lyxscale 60
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -5650,7 +5821,8 @@ status open
 
 \begin_layout Plain Layout
 De Neve et al.
- (2021): Experiments
+ (2021):
+ Experiments
 \end_layout
 
 \end_inset
@@ -5660,14 +5832,17 @@ De Neve et al.
 
 \begin_deeper
 \begin_layout Itemize
-Experiments on Tax Filing (TF), Tax Filing Reminder (TFR), Tax Payment (TP)
- and Tax Payment Reminder (TPR) in FY2014,15,16
+Experiments on Tax Filing (TF),
+ Tax Filing Reminder (TFR),
+ Tax Payment (TP) and Tax Payment Reminder (TPR) in FY2014,15,16
 \end_layout
 
 \begin_layout Itemize
 Categorize into 
 \emph on
-simplification, deterrence, 
+simplification,
+ deterrence,
+ 
 \emph default
 and
 \emph on
@@ -5679,7 +5854,8 @@ and
 \emph on
 Simplification
 \emph default
-: simplify language.
+:
+ simplify language.
  Shorten letters and focus on action-relevant information.
  Highlight important information in colors/boxes.
 \end_layout
@@ -5689,7 +5865,8 @@ Simplification
 \emph on
 Deterrence
 \emph default
-: add short message to simplified letter emphasizing consequences (penalties,
+:
+ add short message to simplified letter emphasizing consequences (penalties,
  tax increases etc) of noncompliance.
 \end_layout
 
@@ -5698,7 +5875,10 @@ Deterrence
 \emph on
 Tax morale
 \emph default
-: add short message on social norms, reciprocity, public goods.
+:
+ add short message on social norms,
+ reciprocity,
+ public goods.
 \end_layout
 
 \end_deeper
@@ -5829,7 +6009,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/DeNeveEtAl_06.png
 	lyxscale 60
-	height 97pheight%
+	special height=0.97\paperheight
 
 \end_inset
 
@@ -5884,7 +6064,8 @@ status open
 
 \begin_layout Plain Layout
 De Neve et al.
- (2021): Baseline Results
+ (2021):
+ Baseline Results
 \end_layout
 
 \end_inset
@@ -5894,7 +6075,8 @@ De Neve et al.
 
 \begin_deeper
 \begin_layout Itemize
-Everything is randomized, so they can estimate
+Everything is randomized,
+ so they can estimate
 \begin_inset Formula 
 \[
 Y_{i}=\alpha+\beta_{S}S_{i}+\sum_{j}\beta_{j}T_{j}+\boldsymbol{\gamma}\mathbf{X}_{i}+\varepsilon_{i}
@@ -5906,20 +6088,29 @@ where
 \begin_inset Formula $Y_{i}$
 \end_inset
 
- is the outcome, 
+ is the outcome,
+ 
 \begin_inset Formula $S_{i}$
 \end_inset
 
- is a dummy for the simplification treatment, 
+ is a dummy for the simplification treatment,
+ 
 \begin_inset Formula $T_{j}$
 \end_inset
 
- are the additional treatments (deterrence, tax morale), and 
+ are the additional treatments (deterrence,
+ tax morale),
+ and 
 \begin_inset Formula $\mathbf{X}_{i}$
 \end_inset
 
- are controls including gender, couples, age, region, mother tongue, number
- of children, wave dummies for treatments sent in waves.
+ are controls including gender,
+ couples,
+ age,
+ region,
+ mother tongue,
+ number of children,
+ wave dummies for treatments sent in waves.
 \end_layout
 
 \begin_layout Itemize
@@ -5961,7 +6152,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/DeNeveEtAl_08.png
 	lyxscale 60
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -5995,7 +6186,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/DeNeveEtAl_09.png
 	lyxscale 60
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -6029,7 +6220,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/DeNeveEtAl_10.png
 	lyxscale 60
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -6063,7 +6254,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/DeNeveEtAl_11.png
 	lyxscale 60
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -6084,7 +6275,8 @@ status open
 
 \begin_layout Plain Layout
 De Neve et al.
- (2021): Simplification and Enforcement
+ (2021):
+ Simplification and Enforcement
 \end_layout
 
 \end_inset
@@ -6100,13 +6292,11 @@ We saw that the effects decay.
 
 \begin_deeper
 \begin_layout Itemize
-So much of what is happening is getting people to do things sooner than
- they otherwise would.
+So much of what is happening is getting people to do things sooner than they otherwise would.
 \end_layout
 
 \begin_layout Itemize
-But they're also doing it voluntarily rather than needing the tax authority
- to enforce action 
+But they're also doing it voluntarily rather than needing the tax authority to enforce action 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
@@ -6123,12 +6313,12 @@ standard
 \begin_inset Quotes erd
 \end_inset
 
- enforcement techniques? 
+ enforcement techniques?
+ 
 \end_layout
 
 \begin_layout Itemize
-Exploit threshold amount of outstanding tax liability above which there
- is more enforcement in a Regression Discontinuity Design (RDD)
+Exploit threshold amount of outstanding tax liability above which there is more enforcement in a Regression Discontinuity Design (RDD)
 \end_layout
 
 \end_deeper
@@ -6158,7 +6348,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/DeNeveEtAl_12.png
 	lyxscale 55
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -6192,7 +6382,7 @@ status open
 \begin_inset Graphics
 	filename ../../../../Dropbox/Teaching/Princeton PhD Public/Slides/3-TaxCompliance/DeNeveEtAl_13.png
 	lyxscale 55
-	height 98pheight%
+	special height=0.98\paperheight
 
 \end_inset
 
@@ -6213,7 +6403,8 @@ status open
 
 \begin_layout Plain Layout
 De Neve et al.
- (2021): RD estimation
+ (2021):
+ RD estimation
 \end_layout
 
 \end_inset
@@ -6223,8 +6414,7 @@ De Neve et al.
 
 \begin_deeper
 \begin_layout Itemize
-Estimate treatment effects of enforcement and interaction with experimental
- simplification using
+Estimate treatment effects of enforcement and interaction with experimental simplification using
 \begin_inset Formula 
 \begin{align*}
 Y_{i} & =\alpha+\beta_{S}S_{i}+\beta_{E}1\left\{ z_{i}-c>0\right\} +\beta_{S,E}S_{i}\times1\left\{ z_{i}-c>0\right\} \\
@@ -6289,7 +6479,8 @@ status open
 
 \begin_layout Plain Layout
 De Neve et al.
- (2021): Counterfactual Simplicity Treatment Effects
+ (2021):
+ Counterfactual Simplicity Treatment Effects
 \end_layout
 
 \end_inset
@@ -6299,13 +6490,11 @@ De Neve et al.
 
 \begin_deeper
 \begin_layout Itemize
-The nudges' effect seems to dissipate to zero because of follow-up enforcement
- actions.
+The nudges' effect seems to dissipate to zero because of follow-up enforcement actions.
 \end_layout
 
 \begin_layout Itemize
-Let's use the RD estimates to estimate what the treatment effect of nudges
- on compliance 
+Let's use the RD estimates to estimate what the treatment effect of nudges on compliance 
 \emph on
 would have been
 \emph default
@@ -6343,7 +6532,8 @@ CE & =\left[E\left[Y\vert_{S=1,z<c}\right]-E\left[F\vert_{S=1,z<c}\right]\frac{E
 
 \end_deeper
 \begin_layout Subsection
-Artavanis, Morse & Tsoutsoura (QJE 2016) 
+Artavanis,
+ Morse & Tsoutsoura (QJE 2016) 
 \begin_inset ERT
 status open
 
@@ -6358,7 +6548,8 @@ textit{
 
 \end_inset
 
-Measuring Income Tax Evasion using Bank Credit: Evidence from Greece
+Measuring Income Tax Evasion using Bank Credit:
+ Evidence from Greece
 \begin_inset ERT
 status open
 
@@ -6382,7 +6573,8 @@ Artavanis
 et al.
 
 \emph default
- (2016): Overview
+ (2016):
+ Overview
 \end_layout
 
 \end_inset
@@ -6396,7 +6588,8 @@ et al.
 
 \begin_deeper
 \begin_layout Itemize
-Seminal paper on measurement of evasion: Pissarides & Weber (EJ 1989)
+Seminal paper on measurement of evasion:
+ Pissarides & Weber (EJ 1989)
 \begin_inset Separator latexpar
 \end_inset
 
@@ -6438,7 +6631,8 @@ Applying inverse Engel curve to other households
 
 \end_deeper
 \begin_layout Itemize
-Artavanis-Morse-Tsoutsoura insight: 
+Artavanis-Morse-Tsoutsoura insight:
+ 
 \begin_inset Separator latexpar
 \end_inset
 
@@ -6447,7 +6641,9 @@ Artavanis-Morse-Tsoutsoura insight:
 
 \begin_deeper
 \begin_layout Itemize
-Semi-formality: Firm is formal, but hides income.
+Semi-formality:
+ Firm is formal,
+ but hides income.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -6455,7 +6651,8 @@ Semi-formality: Firm is formal, but hides income.
 \end_layout
 
 \begin_layout Itemize
-Banks still lend, but base their lending on their inference of 
+Banks still lend,
+ but base their lending on their inference of 
 \emph on
 true income
 \begin_inset VSpace bigskip
@@ -6469,8 +6666,8 @@ true income
 \begin_inset Formula $\Rightarrow$
 \end_inset
 
- if we can reverse-engineer banks' inference, we can predict level of tax
- evasion
+ if we can reverse-engineer banks' inference,
+ we can predict level of tax evasion
 \end_layout
 
 \end_deeper
@@ -6491,7 +6688,8 @@ Artavanis
 et al.
 
 \emph default
- (2016): Data
+ (2016):
+ Data
 \end_layout
 
 \end_inset
@@ -6575,7 +6773,8 @@ Artavanis
 et al.
 
 \emph default
- (2016): Methodology
+ (2016):
+ Methodology
 \end_layout
 
 \end_inset
@@ -6589,7 +6788,8 @@ et al.
 
 \begin_deeper
 \begin_layout Itemize
-Once applicant is deemed eligible, amount of credit is
+Once applicant is deemed eligible,
+ amount of credit is
 \begin_inset Formula 
 \[
 \text{credit decision}=f\left(Y^{True},Risk,SOFT\right)
@@ -6609,11 +6809,13 @@ true income
 \begin_inset Formula $Y^{True}$
 \end_inset
 
-, credit score 
+,
+ credit score 
 \begin_inset Formula $Risk$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -6637,8 +6839,9 @@ credit_{ij}=\beta_{1j}Y_{ij}^{True}+Risk_{i}\Phi+SOFT_{ij}\Psi
 \end_layout
 
 \begin_layout Itemize
-Assume: wage workers don't evade, self employed evade differentially across
- industries.
+Assume:
+ wage workers don't evade,
+ self employed evade differentially across industries.
  Reported income 
 \begin_inset Formula $Y_{ij}^{R}$
 \end_inset
@@ -6675,7 +6878,8 @@ Artavanis
 et al.
 
 \emph default
- (2016): Methodology
+ (2016):
+ Methodology
 \end_layout
 
 \end_inset
@@ -6726,7 +6930,9 @@ where
 \begin_inset Formula $SOFT_{ij}$
 \end_inset
 
- includes wealth, neighborhood info, income risk
+ includes wealth,
+ neighborhood info,
+ income risk
 \begin_inset VSpace medskip
 \end_inset
 
@@ -6758,7 +6964,8 @@ Artavanis
 et al.
 
 \emph default
- (2016): Methodology
+ (2016):
+ Methodology
 \end_layout
 
 \end_inset
@@ -6805,7 +7012,9 @@ Restrict to workers at large companies
 
 \begin_deeper
 \begin_layout Itemize
-saturate model, add year, industry*SE and bank FEs
+saturate model,
+ add year,
+ industry*SE and bank FEs
 \end_layout
 
 \end_deeper
@@ -6819,7 +7028,8 @@ credit depends on hidden and true income in same way
 
 \begin_deeper
 \begin_layout Itemize
-evasion is a norm, can't garnish wages for debts.
+evasion is a norm,
+ can't garnish wages for debts.
 \end_layout
 
 \end_deeper
@@ -6845,7 +7055,8 @@ no ex-post differences in defaults
 \begin_inset Formula $credit_{ij}$
 \end_inset
 
- is bank's supply, not demand-driven debt.
+ is bank's supply,
+ not demand-driven debt.
 \begin_inset Separator latexpar
 \end_inset
 
@@ -6854,7 +7065,8 @@ no ex-post differences in defaults
 
 \begin_deeper
 \begin_layout Itemize
-focus on constrained borrowers, requested amt > approved amt
+focus on constrained borrowers,
+ requested amt > approved amt
 \end_layout
 
 \end_deeper
@@ -6909,7 +7121,8 @@ Artavanis
 et al.
 
 \emph default
- (2015): Results
+ (2015):
+ Results
 \end_layout
 
 \end_inset
@@ -6984,7 +7197,8 @@ Artavanis
 et al.
 
 \emph default
- (2015): Results
+ (2015):
+ Results
 \end_layout
 
 \end_inset
@@ -7057,7 +7271,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Overview
+Jensen (2021):
+ Overview
 \end_layout
 
 \end_inset
@@ -7067,8 +7282,7 @@ Jensen (2021): Overview
 
 \begin_deeper
 \begin_layout Itemize
-Why do Low- and Middle- income countries rely so much less on direct (income)
- taxes?
+Why do Low- and Middle- income countries rely so much less on direct (income) taxes?
 \begin_inset VSpace medskip
 \end_inset
 
@@ -7097,8 +7311,7 @@ the gradient with income gets flatter with development
 \end_layout
 
 \begin_layout Itemize
-The income tax exemption tax threshold moves down the income distribution
- as this happens.
+The income tax exemption tax threshold moves down the income distribution as this happens.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -7107,13 +7320,13 @@ The income tax exemption tax threshold moves down the income distribution
 
 \end_deeper
 \begin_layout Itemize
-To deal with endogeneity, look at historical US experience.
+To deal with endogeneity,
+ look at historical US experience.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Instrument for employee share with exogenous timing of passage of Industrial
- Development Bonds that exogenously shift workers into manufacturing.
+Instrument for employee share with exogenous timing of passage of Industrial Development Bonds that exogenously shift workers into manufacturing.
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -7121,7 +7334,9 @@ Instrument for employee share with exogenous timing of passage of Industrial
 \end_layout
 
 \begin_layout Itemize
-Shows same, striking, patterns.
+Shows same,
+ striking,
+ patterns.
 \end_layout
 
 \end_deeper
@@ -7138,7 +7353,8 @@ Shows same, striking, patterns.
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Data
+Jensen (2021):
+ Data
 \end_layout
 
 \end_inset
@@ -7224,7 +7440,8 @@ Dates of passage and implementation of IDBs
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Stylized Facts
+Jensen (2021):
+ Stylized Facts
 \end_layout
 
 \end_inset
@@ -7258,7 +7475,8 @@ Jensen (2021): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Stylized Facts
+Jensen (2021):
+ Stylized Facts
 \end_layout
 
 \end_inset
@@ -7292,7 +7510,8 @@ Jensen (2021): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Stylized Facts
+Jensen (2021):
+ Stylized Facts
 \end_layout
 
 \end_inset
@@ -7326,7 +7545,8 @@ Jensen (2021): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Stylized Facts
+Jensen (2021):
+ Stylized Facts
 \end_layout
 
 \end_inset
@@ -7360,7 +7580,8 @@ Jensen (2021): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Stylized Facts
+Jensen (2021):
+ Stylized Facts
 \end_layout
 
 \end_inset
@@ -7394,7 +7615,8 @@ Jensen (2021): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Stylized Facts
+Jensen (2021):
+ Stylized Facts
 \end_layout
 
 \end_inset
@@ -7428,7 +7650,8 @@ Jensen (2021): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Stylized Facts
+Jensen (2021):
+ Stylized Facts
 \end_layout
 
 \end_inset
@@ -7462,7 +7685,8 @@ Jensen (2021): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Stylized Facts
+Jensen (2021):
+ Stylized Facts
 \end_layout
 
 \end_inset
@@ -7496,7 +7720,8 @@ Jensen (2021): Stylized Facts
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Causal Evidence
+Jensen (2021):
+ Causal Evidence
 \end_layout
 
 \end_inset
@@ -7506,8 +7731,8 @@ Jensen (2021): Causal Evidence
 
 \begin_deeper
 \begin_layout Itemize
-These cross-country and over-time patterns are compelling, but are they
- causal?
+These cross-country and over-time patterns are compelling,
+ but are they causal?
 \begin_inset VSpace medskip
 \end_inset
 
@@ -7536,8 +7761,8 @@ Use timing of implementation of Industrial Development Bonds.
 
 \begin_layout Itemize
 Each state votes on whether to issue a bond.
- However, not implemented until each state's highest court confirms it is
- constitutional.
+ However,
+ not implemented until each state's highest court confirms it is constitutional.
  When this happens is uncertain.
 \end_layout
 
@@ -7569,7 +7794,8 @@ y_{st}=\beta+\alpha\mathbf{1}\left(\text{Vote in}\right)_{st}+\theta\mathbf{1}\l
 \end_deeper
 \begin_layout Itemize
 Argue that mechanism is change in fiscal enforcement cost.
- Heterogeneity: with(out) Exchange of Information (EOI) w/ IRS.
+ Heterogeneity:
+ with(out) Exchange of Information (EOI) w/ IRS.
 \begin_inset Formula 
 \begin{align*}
 y_{st} & =\beta+\alpha\mathbf{1}\left(\text{Vote in}\right)_{st}+\theta\mathbf{1}\left(\text{Upheld}\right)_{st}+\sigma\mathbf{1}\left(\text{Upheld}\right)_{st}\times\mathbf{1}\left(\text{EoI}\right)_{st}\\
@@ -7594,7 +7820,8 @@ y_{st} & =\beta+\alpha\mathbf{1}\left(\text{Vote in}\right)_{st}+\theta\mathbf{1
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Results
+Jensen (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -7628,7 +7855,8 @@ Jensen (2021): Results
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Results
+Jensen (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -7662,7 +7890,8 @@ Jensen (2021): Results
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Results
+Jensen (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -7696,7 +7925,8 @@ Jensen (2021): Results
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Results
+Jensen (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -7730,7 +7960,8 @@ Jensen (2021): Results
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Results
+Jensen (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -7764,7 +7995,8 @@ Jensen (2021): Results
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Results
+Jensen (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -7798,7 +8030,8 @@ Jensen (2021): Results
 status open
 
 \begin_layout Plain Layout
-Jensen (2021): Results
+Jensen (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -7821,7 +8054,8 @@ Jensen (2021): Results
 
 \end_deeper
 \begin_layout Subsection
-Bachas, Gadenne & Jensen (REStud forthcoming) 
+Bachas,
+ Gadenne & Jensen (REStud 2024) 
 \begin_inset ERT
 status open
 
@@ -7836,7 +8070,8 @@ textit{
 
 \end_inset
 
-Informality, Consumption Taxes and Redistribution
+Informality,
+ Consumption Taxes and Redistribution
 \begin_inset ERT
 status open
 
@@ -7856,7 +8091,8 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023): Overview
+ (2024):
+ Overview
 \end_layout
 
 \end_inset
@@ -7866,14 +8102,12 @@ Bachas et al.
 
 \begin_deeper
 \begin_layout Itemize
-How much can we rely on consumption taxes to reduce inequality in developing
- countries?
+How much can we rely on consumption taxes to reduce inequality in developing countries?
 \end_layout
 
 \begin_layout Itemize
-Use comprehensive household expenditure data from 31 countries to document
- patterns of informal (untaxed/untaxable!) consumption, summarized in the
- 
+Use comprehensive household expenditure data from 32 countries to document patterns of informal (untaxed/untaxable!) consumption,
+ summarized in the 
 \emph on
 informality Engel Curve
 \emph default
@@ -7881,8 +8115,7 @@ informality Engel Curve
 \end_layout
 
 \begin_layout Itemize
-Descriptive findings suggest consumption taxes are strikingly progressive
- (contrary to consensus view)
+Descriptive findings suggest consumption taxes are strikingly progressive (contrary to consensus view)
 \end_layout
 
 \begin_layout Itemize
@@ -7903,7 +8136,8 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023): Data
+ (2024):
+ Data
 \end_layout
 
 \end_inset
@@ -7955,7 +8189,8 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023): Proxy For Informality
+ (2024):
+ Proxy For Informality
 \end_layout
 
 \end_inset
@@ -7991,12 +8226,15 @@ specialized stores (e.g.
 \end_layout
 
 \begin_layout Enumerate
-large stores (supermarkets, department stores etc)
+large stores (supermarkets,
+ department stores etc)
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Working definition: (1)–(3) are informal; (4) & (5) are formal
+Working definition:
+ (1)–(3) are informal;
+ (4) & (5) are formal
 \end_layout
 
 \begin_layout Itemize
@@ -8017,7 +8255,8 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023): Proxy for Informality
+ (2024):
+ Proxy for Informality
 \end_layout
 
 \end_inset
@@ -8051,7 +8290,8 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023): Informality Engel Curves
+ (2024):
+ Informality Engel Curves
 \end_layout
 
 \end_inset
@@ -8076,7 +8316,8 @@ Intercept higher in poorer country
 \end_layout
 
 \begin_layout Enumerate
-Negative, roughly constant slope
+Negative,
+ roughly constant slope
 \end_layout
 
 \end_deeper
@@ -8093,7 +8334,8 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023): Informality Engel Curves
+ (2024):
+ Informality Engel Curves
 \end_layout
 
 \end_inset
@@ -8134,7 +8376,8 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023): Informality Engel Curves
+ (2024):
+ Informality Engel Curves
 \end_layout
 
 \end_inset
@@ -8175,7 +8418,8 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023): Food Engel Curves
+ (2024):
+ Food Engel Curves
 \end_layout
 
 \end_inset
@@ -8196,8 +8440,8 @@ Bachas et al.
 \end_layout
 
 \begin_layout Itemize
-Can we approximate informality-targeting by just exempting food? Depends
- how steep the food engel curve is.
+Can we approximate informality-targeting by just exempting food?
+ Depends how steep the food engel curve is.
 \end_layout
 
 \end_deeper
@@ -8213,7 +8457,8 @@ Can we approximate informality-targeting by just exempting food? Depends
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023): Implications for Progressivity
+Bachas et al (2024):
+ Implications for Progressivity
 \end_layout
 
 \end_inset
@@ -8246,7 +8491,8 @@ Bachas et al (2023): Implications for Progressivity
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023): Implications for Progressivity
+Bachas et al (2024):
+ Implications for Progressivity
 \end_layout
 
 \end_inset
@@ -8279,7 +8525,8 @@ Bachas et al (2023): Implications for Progressivity
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023): Optimal Consumption Taxation
+Bachas et al (2024):
+ Optimal Consumption Taxation
 \end_layout
 
 \end_inset
@@ -8294,7 +8541,8 @@ The classic reference here is Diamond (1975).
 \end_layout
 
 \begin_layout Itemize
-Recap of Ramsey (1927): 
+Recap of Ramsey (1927):
+ 
 \end_layout
 
 \begin_deeper
@@ -8332,8 +8580,7 @@ Government needs to finance spending of
 \end_layout
 
 \begin_layout Itemize
-Firms are in the background maximizing profits subject to production function
- 
+Firms are in the background maximizing profits subject to production function 
 \begin_inset Formula $F\left(y\right)$
 \end_inset
 
@@ -8357,7 +8604,8 @@ Optimal taxes satisfy
 \end_layout
 
 \begin_layout Itemize
-Special case: 
+Special case:
+ 
 \begin_inset Formula $\varepsilon_{ji}^{C}=0\;\forall i\neq j$
 \end_inset
 
@@ -8390,7 +8638,8 @@ inverse elasticity rule
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023): Optimal Consumption Taxation
+Bachas et al (2024):
+ Optimal Consumption Taxation
 \end_layout
 
 \end_inset
@@ -8413,7 +8662,8 @@ Many households
 \end_layout
 
 \begin_layout Itemize
-Second best problem: 
+Second best problem:
+ 
 \begin_inset Formula 
 \[
 \max_{q,I}\sum_{k}\lambda^{k}V^{k}\left(q,I\right)\pi^{k}\;s.t.\;F\left(\sum_{k}h^{k}\left(q,V^{k}\left(q,I\right)\right)\pi^{k}+g\right)=0
@@ -8425,11 +8675,13 @@ where
 \begin_inset Formula $I$
 \end_inset
 
- incorporates lump-sum tax, 
+ incorporates lump-sum tax,
+ 
 \begin_inset Formula $\lambda^{k}$
 \end_inset
 
-are pareto weights, 
+are pareto weights,
+ 
 \begin_inset Formula $\pi^{k}$
 \end_inset
 
@@ -8453,7 +8705,8 @@ where
 \begin_inset Formula $j$
 \end_inset
 
-; and 
+;
+ and 
 \begin_inset Formula $\theta^{k}=\frac{\lambda^{k}V_{I}^{k}}{\gamma}-1+\sum_{i}t_{i}\frac{\partial x_{i}^{k}}{\partial I}$
 \end_inset
 
@@ -8474,7 +8727,8 @@ where
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023): Optimal Consumption Taxation
+Bachas et al (2024):
+ Optimal Consumption Taxation
 \end_layout
 
 \end_inset
@@ -8514,7 +8768,8 @@ continuum of mass 1 of households
 \begin_inset Formula $v=0$
 \end_inset
 
- if informal, 
+ if informal,
+ 
 \begin_inset Formula $v=1$
 \end_inset
 
@@ -8534,7 +8789,8 @@ Producer prices
 \begin_inset Formula $j$
 \end_inset
 
-, and 
+,
+ and 
 \begin_inset Formula $p_{j0}=q_{j0}$
 \end_inset
 
@@ -8592,8 +8848,8 @@ Compensated elasticities are equal across households.
 \end_layout
 
 \begin_layout Itemize
-zero cross price elasticities across goods, but non-zero cross-price elasticity
- across varieties within goods.
+zero cross price elasticities across goods,
+ but non-zero cross-price elasticity across varieties within goods.
 \begin_inset Formula 
 \[
 \epsilon_{j1}=\underbrace{\epsilon^{C}}_{\text{PED (c)}}-\underbrace{\eta_{j1}s_{j1}}_{\text{income effect}}-2\underbrace{\tilde{\epsilon}^{C}}_{\text{cross-variety elasticity}}\underbrace{\alpha_{j}}_{\text{informal consumption share}}
@@ -8618,7 +8874,8 @@ zero cross price elasticities across goods, but non-zero cross-price elasticity
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023): Optimal Consumption Taxation
+Bachas et al (2024):
+ Optimal Consumption Taxation
 \end_layout
 
 \end_inset
@@ -8640,7 +8897,8 @@ Government Solves
 \end_layout
 
 \begin_layout Itemize
-Case 1: Uniform commodity tax.
+Case 1:
+ Uniform commodity tax.
  Only formal varieties can be taxed
 \begin_inset Formula 
 \[
@@ -8657,11 +8915,13 @@ where
 \begin_inset Formula $\bar{g}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $s_{1}=\sum_{j}\int_{i}s_{j1}^{i}di$
 \end_inset
 
- is agg budget share of formal varieties, and 
+ is agg budget share of formal varieties,
+ and 
 \begin_inset Formula $\phi^{i}=y^{i}/\bar{y}$
 \end_inset
 
@@ -8686,7 +8946,8 @@ Optimal rate increasing in covariance between income and formal budget shares.
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023): Optimal Consumption Taxation
+Bachas et al (2024):
+ Optimal Consumption Taxation
 \end_layout
 
 \end_inset
@@ -8696,7 +8957,8 @@ Bachas et al (2023): Optimal Consumption Taxation
 
 \begin_deeper
 \begin_layout Itemize
-What happens as countries get richer? Imagine 
+What happens as countries get richer?
+ Imagine 
 \begin_inset Quotes eld
 \end_inset
 
@@ -8713,8 +8975,7 @@ all households getting richer by the same proportion.
 \end_layout
 
 \begin_layout Itemize
-Budget shares change according to the Engel curves with the slopes we saw
- above
+Budget shares change according to the Engel curves with the slopes we saw above
 \begin_inset Formula 
 \[
 \frac{\partial\tau^{*}}{\tau^{*}}=\frac{\int_{i}\left(\bar{g}-g^{i}\right)\phi^{i}\frac{s_{1}^{i}}{s_{1}}\left(\frac{\partial s_{1i}}{s_{1}^{i}}-\frac{\partial s_{1}}{s_{1}}\right)di}{\int_{i}\left(\bar{g}-g^{i}\right)\phi^{i}\frac{s_{1}^{i}}{s_{1}}di}+\frac{\partial\epsilon_{1}}{\epsilon_{1}}
@@ -8734,21 +8995,21 @@ Proposition:
 \begin_layout Itemize
 
 \emph on
-The redistribution gain from taxing all products uniformly is decreasing
- over the development path as long as i) the formal Engel curve is upward
- sloping, ii) the aggregate formal budget share increases more than the
- slope of the formal Engel curve.
+The redistribution gain from taxing all products uniformly is decreasing over the development path as long as i) the formal Engel curve is upward sloping,
+ ii) the aggregate formal budget share increases more than the slope of the formal Engel curve.
 \end_layout
 
 \begin_layout Itemize
 
 \emph on
-The efficiency cost of taxing all products uniformly is decreasing over
- the development path as long as, in addition, 
+The efficiency cost of taxing all products uniformly is decreasing over the development path as long as,
+ in addition,
+ 
 \begin_inset Formula $\tilde{\epsilon}^{C}>\eta_{1}/2$
 \end_inset
 
-, where 
+,
+ where 
 \begin_inset Formula $\eta_{1}$
 \end_inset
 
@@ -8773,7 +9034,8 @@ The efficiency cost of taxing all products uniformly is decreasing over
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023): Calibration
+Bachas et al (2024):
+ Calibration
 \end_layout
 
 \end_inset
@@ -8806,7 +9068,8 @@ Bachas et al (2023): Calibration
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023): Calibration
+Bachas et al (2024):
+ Calibration
 \end_layout
 
 \end_inset
@@ -8843,8 +9106,8 @@ textit{
 
 \end_inset
 
-No Taxation Without Information: Deterrence and Self-Enforcement in the
- Value Added Tax
+No Taxation Without Information:
+ Deterrence and Self-Enforcement in the Value Added Tax
 \begin_inset ERT
 status open
 
@@ -8881,8 +9144,9 @@ Various Ways to Tax Sales
 \series bold
 Turnover Taxes
 \series default
- used to tax all sales: business to consumer (B-C) and business to business
- (B-B): Creates multiple layers of taxes along a production chain 
+ used to tax all sales:
+ business to consumer (B-C) and business to business (B-B):
+ Creates multiple layers of taxes along a production chain 
 \begin_inset Newline newline
 \end_inset
 
@@ -8890,7 +9154,8 @@ Turnover Taxes
 \begin_inset Formula $\Rightarrow$
 \end_inset
 
- Higher total tax when B-B-C than B-C: 
+ Higher total tax when B-B-C than B-C:
+ 
 \emph on
 cascading
 \emph default
@@ -8913,16 +9178,17 @@ production inefficient
 \series bold
 Retail Sales Tax
 \series default
- imposed on B-C sales only [B-B] exempt: difficult to distinguish B-B and
- B-C (shifting), strong evasion incentive for B-C [ST doesn't work well
- with small retailers]
+ imposed on B-C sales only [B-B] exempt:
+ difficult to distinguish B-B and B-C (shifting),
+ strong evasion incentive for B-C [ST doesn't work well with small retailers]
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
 \emph on
-production efficient, but hard to enforce
+production efficient,
+ but hard to enforce
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -8930,8 +9196,8 @@ production efficient, but hard to enforce
 \end_layout
 
 \begin_layout Itemize
-Value-Added-Tax (VAT) taxes only value added [sales minus purchases] in
- all transactions (B-B and B-C): equivalent to retail sales tax economically,
+Value-Added-Tax (VAT) taxes only value added [sales minus purchases] in all transactions (B-B and B-C):
+ equivalent to retail sales tax economically,
  but easier to enforce [automatic upstream enforcement]
 \begin_inset Newline newline
 \end_inset
@@ -8939,7 +9205,8 @@ Value-Added-Tax (VAT) taxes only value added [sales minus purchases] in
 
 \series bold
 \emph on
-production efficient, but easier to enforce?
+production efficient,
+ but easier to enforce?
 \end_layout
 
 \end_deeper
@@ -8982,7 +9249,8 @@ Spread of the VAT Around the World
 \begin_layout Standard
 
 \size footnotesize
-Source: Keen & Lockwood (JPubE 2009)
+Source:
+ Keen & Lockwood (JPubE 2009)
 \end_layout
 
 \end_deeper
@@ -8998,7 +9266,8 @@ Source: Keen & Lockwood (JPubE 2009)
 status open
 
 \begin_layout Plain Layout
-Pomeranz (2015): Self-Enforcing Properties of the VAT
+Pomeranz (2015):
+ Self-Enforcing Properties of the VAT
 \end_layout
 
 \end_inset
@@ -9037,7 +9306,8 @@ When
 \begin_inset Formula $i+1$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $i+1$
 \end_inset
 
@@ -9070,7 +9340,9 @@ Mechanism breaks down at firm
 \begin_inset Formula $N+1$
 \end_inset
 
-, instead, a consumer with no incentive to request receipt.
+,
+ instead,
+ a consumer with no incentive to request receipt.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9095,7 +9367,8 @@ threat of audit should affect evasion.
 \end_layout
 
 \begin_layout Enumerate
-Unilateral evasion: 
+Unilateral evasion:
+ 
 \begin_inset Formula $\hat{c}_{i}>c_{i}$
 \end_inset
 
@@ -9123,7 +9396,8 @@ Unilateral evasion:
 \end_layout
 
 \begin_layout Enumerate
-Collusive evasion: 
+Collusive evasion:
+ 
 \begin_inset Formula $\hat{c}_{i}\neq c_{i}$
 \end_inset
 
@@ -9155,7 +9429,8 @@ Collusive evasion:
 status open
 
 \begin_layout Plain Layout
-Pomeranz (2015): Audit Threat Predictions
+Pomeranz (2015):
+ Audit Threat Predictions
 \end_layout
 
 \end_inset
@@ -9192,7 +9467,8 @@ Pomeranz (2015): Audit Threat Predictions
 status open
 
 \begin_layout Plain Layout
-Pomeranz (2015): Experiment 1-Threat of Audit Letters
+Pomeranz (2015):
+ Experiment 1-Threat of Audit Letters
 \end_layout
 
 \end_inset
@@ -9215,7 +9491,8 @@ Sent letters to VAT-liable firms in Chile from the tax authority
 
 \begin_deeper
 \begin_layout Itemize
-Letter 1: Deterrence (N=102,031)
+Letter 1:
+ Deterrence (N=102,031)
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9223,7 +9500,8 @@ Letter 1: Deterrence (N=102,031)
 \end_layout
 
 \begin_layout Itemize
-Letter 2: Tax Morale (N=18,579)
+Letter 2:
+ Tax Morale (N=18,579)
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9231,7 +9509,8 @@ Letter 2: Tax Morale (N=18,579)
 \end_layout
 
 \begin_layout Itemize
-Letter 3: Placebo (N=18,519)
+Letter 3:
+ Placebo (N=18,519)
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9264,7 +9543,8 @@ Look for differential effects on transaction types/firm types
 status open
 
 \begin_layout Plain Layout
-Pomeranz (2015): Experiment 2-Spillovers
+Pomeranz (2015):
+ Experiment 2-Spillovers
 \end_layout
 
 \end_inset
@@ -9302,7 +9582,8 @@ Randomly preannounce audit to half of them
 \end_layout
 
 \begin_layout Itemize
-During audit, auditors gather data on trading partners
+During audit,
+ auditors gather data on trading partners
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9310,8 +9591,7 @@ During audit, auditors gather data on trading partners
 \end_layout
 
 \begin_layout Itemize
-Look at VAT declarations before and after announcement of audit of trading
- partners
+Look at VAT declarations before and after announcement of audit of trading partners
 \end_layout
 
 \end_deeper
@@ -9327,7 +9607,8 @@ Look at VAT declarations before and after announcement of audit of trading
 status open
 
 \begin_layout Plain Layout
-Pomeranz (2015): Experiment 1 Results
+Pomeranz (2015):
+ Experiment 1 Results
 \end_layout
 
 \end_inset
@@ -9364,7 +9645,8 @@ Pomeranz (2015): Experiment 1 Results
 status open
 
 \begin_layout Plain Layout
-Pomeranz (2015): Experiment 1 Results
+Pomeranz (2015):
+ Experiment 1 Results
 \end_layout
 
 \end_inset
@@ -9401,7 +9683,8 @@ Pomeranz (2015): Experiment 1 Results
 status open
 
 \begin_layout Plain Layout
-Pomeranz (2015): Experiment 1 Results
+Pomeranz (2015):
+ Experiment 1 Results
 \end_layout
 
 \end_inset
@@ -9438,7 +9721,8 @@ Pomeranz (2015): Experiment 1 Results
 status open
 
 \begin_layout Plain Layout
-Pomeranz (2015): Experiment 1 Results
+Pomeranz (2015):
+ Experiment 1 Results
 \end_layout
 
 \end_inset
@@ -9475,7 +9759,8 @@ Pomeranz (2015): Experiment 1 Results
 status open
 
 \begin_layout Plain Layout
-Pomeranz (2015): Experiment 2 Results
+Pomeranz (2015):
+ Experiment 2 Results
 \end_layout
 
 \end_inset
@@ -9492,7 +9777,7 @@ Pomeranz (2015): Experiment 2 Results
 \align center
 \begin_inset Graphics
 	filename pictures/Pomeranz 6.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -9535,7 +9820,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Overview
+Naritomi (2018):
+ Overview
 \end_layout
 
 \end_inset
@@ -9545,8 +9831,7 @@ Naritomi (2018): Overview
 
 \begin_deeper
 \begin_layout Itemize
-Kleven et al (2011) shows how important third-party information is for suppressi
-ng evasion.
+Kleven et al (2011) shows how important third-party information is for suppressing evasion.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9554,8 +9839,7 @@ ng evasion.
 \end_layout
 
 \begin_layout Itemize
-Pomeranz (2015) shows that audit (threats) spill over onto firms connected
- through paper trails.
+Pomeranz (2015) shows that audit (threats) spill over onto firms connected through paper trails.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9571,8 +9855,8 @@ What happens when there's an increase in the level of third-party information?
 \end_layout
 
 \begin_layout Itemize
-Naritomi (2018) studies the impact of a program in Sao Paulo, Brazil that
- increases third-party information on firms' sales:
+Naritomi (2018) studies the impact of a program in Sao Paulo,
+ Brazil that increases third-party information on firms' sales:
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9580,8 +9864,8 @@ Naritomi (2018) studies the impact of a program in Sao Paulo, Brazil that
 \end_layout
 
 \begin_layout Itemize
-When consumers got a receipt for their purchases, the receipt acted as a
- lottery ticket.
+When consumers got a receipt for their purchases,
+ the receipt acted as a lottery ticket.
  
 \end_layout
 
@@ -9598,7 +9882,8 @@ When consumers got a receipt for their purchases, the receipt acted as a
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Model
+Naritomi (2018):
+ Model
 \end_layout
 
 \end_inset
@@ -9620,12 +9905,14 @@ When firms evade an amount
 \begin_inset Formula $E=\overline{Y}-Y$
 \end_inset
 
-, they are audited with probability 
+,
+ they are audited with probability 
 \begin_inset Formula $a\left(E\right)$
 \end_inset
 
 .
- If audited, evasion is detected with probability 
+ If audited,
+ evasion is detected with probability 
 \begin_inset Formula $d$
 \end_inset
 
@@ -9653,7 +9940,8 @@ Caught evading with probability
 \begin_inset Formula $p=a\left(E\right)d$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $p^{\prime}\left(E\right)>0$
 \end_inset
 
@@ -9694,7 +9982,8 @@ et al.
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Model
+Naritomi (2018):
+ Model
 \end_layout
 
 \end_inset
@@ -9745,7 +10034,8 @@ Consumers value the rewards at
 \end_layout
 
 \begin_layout Itemize
-with rewards, why might 
+with rewards,
+ why might 
 \begin_inset Formula $\kappa\left(\alpha\right)\neq\alpha$
 \end_inset
 
@@ -9784,7 +10074,8 @@ Firms and consumers can split the surplus from not issuing a receipt.
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Model
+Naritomi (2018):
+ Model
 \end_layout
 
 \end_inset
@@ -9798,8 +10089,8 @@ With probability
 \begin_inset Formula $\varepsilon>0$
 \end_inset
 
- the discount bargaining breaks down and the consumer blows the whistle
- on the firm, triggering an audit.
+ the discount bargaining breaks down and the consumer blows the whistle on the firm,
+ triggering an audit.
  With 
 \begin_inset Formula $N$
 \end_inset
@@ -9846,7 +10137,8 @@ Y^{**}=\arg\max_{Y}\pi & =\left(\overline{Y}-\tau Y\right)\left(1-p_{c}\right)+\
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Model
+Naritomi (2018):
+ Model
 \end_layout
 
 \end_inset
@@ -9868,7 +10160,8 @@ Now optimal evasion satisfies
 \end_layout
 
 \begin_layout Itemize
-The MC (LHS) is higher: 
+The MC (LHS) is higher:
+ 
 \begin_inset Formula $d_{c}\geq d$
 \end_inset
 
@@ -9880,7 +10173,8 @@ The MC (LHS) is higher:
 \end_layout
 
 \begin_layout Itemize
-The MB (RHS) is lower: 
+The MB (RHS) is lower:
+ 
 \begin_inset Formula $\kappa\left(\alpha\right)\geq0$
 \end_inset
 
@@ -9904,7 +10198,8 @@ Fixed cost
 \end_layout
 
 \begin_layout Itemize
-Revenue effects: 
+Revenue effects:
+ 
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9958,7 +10253,8 @@ Need
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Context
+Naritomi (2018):
+ Context
 \end_layout
 
 \end_inset
@@ -9988,8 +10284,7 @@ Created in 2007 to increase VAT compliance
 \end_layout
 
 \begin_layout Itemize
-Introduced targeted incentives for consumers to ensure firms report final
- sales
+Introduced targeted incentives for consumers to ensure firms report final sales
 \begin_inset VSpace medskip
 \end_inset
 
@@ -10066,7 +10361,8 @@ a lottery ticket for every US$50 spent (prizes from $5 to $500,000)
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Context
+Naritomi (2018):
+ Context
 \end_layout
 
 \end_inset
@@ -10118,7 +10414,8 @@ Lotteries ~15th of every month from 12/2008
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Data
+Naritomi (2018):
+ Data
 \end_layout
 
 \end_inset
@@ -10128,7 +10425,9 @@ Naritomi (2018): Data
 
 \begin_deeper
 \begin_layout Itemize
-Admin data on firms' tax returns (sales, costs, taxes etc.)
+Admin data on firms' tax returns (sales,
+ costs,
+ taxes etc.)
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -10136,7 +10435,9 @@ Admin data on firms' tax returns (sales, costs, taxes etc.)
 \end_layout
 
 \begin_layout Itemize
-Receipts reported through NFP (consumer ID, firm ID, amount)
+Receipts reported through NFP (consumer ID,
+ firm ID,
+ amount)
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -10168,7 +10469,8 @@ Lottery results
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Results
+Naritomi (2018):
+ Results
 \end_layout
 
 \end_inset
@@ -10186,7 +10488,7 @@ Firm Sales.
 \align center
 \begin_inset Graphics
 	filename pictures/Naritomi 1.png
-	height 85theight%
+	special height=0.85\textheight
 
 \end_inset
 
@@ -10206,7 +10508,8 @@ Firm Sales.
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Results
+Naritomi (2018):
+ Results
 \end_layout
 
 \end_inset
@@ -10256,7 +10559,8 @@ Aggregate firm data to 7-digit-sector
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Results
+Naritomi (2018):
+ Results
 \end_layout
 
 \end_inset
@@ -10270,7 +10574,7 @@ Naritomi (2018): Results
 \begin_inset Graphics
 	filename pictures/Naritomi 3.png
 	lyxscale 60
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10290,7 +10594,8 @@ Naritomi (2018): Results
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Whistleblower Results
+Naritomi (2018):
+ Whistleblower Results
 \end_layout
 
 \end_inset
@@ -10303,7 +10608,7 @@ Naritomi (2018): Whistleblower Results
 \align center
 \begin_inset Graphics
 	filename pictures/Naritomi 4.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10323,7 +10628,8 @@ Naritomi (2018): Whistleblower Results
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Whistleblower Results
+Naritomi (2018):
+ Whistleblower Results
 \end_layout
 
 \end_inset
@@ -10336,7 +10642,7 @@ Naritomi (2018): Whistleblower Results
 \align center
 \begin_inset Graphics
 	filename pictures/Naritomi 5.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10356,7 +10662,8 @@ Naritomi (2018): Whistleblower Results
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Lottery Salient?
+Naritomi (2018):
+ Lottery Salient?
 \end_layout
 
 \end_inset
@@ -10369,7 +10676,7 @@ Naritomi (2018): Lottery Salient?
 \align center
 \begin_inset Graphics
 	filename pictures/Naritomi 6.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10389,7 +10696,8 @@ Naritomi (2018): Lottery Salient?
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Lottery Event Study Results
+Naritomi (2018):
+ Lottery Event Study Results
 \end_layout
 
 \end_inset
@@ -10422,7 +10730,8 @@ Naritomi (2018): Lottery Event Study Results
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Lottery Results
+Naritomi (2018):
+ Lottery Results
 \end_layout
 
 \end_inset
@@ -10435,7 +10744,7 @@ Naritomi (2018): Lottery Results
 \align center
 \begin_inset Graphics
 	filename pictures/Naritomi 8.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10455,7 +10764,8 @@ Naritomi (2018): Lottery Results
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Effects on Government Revenue
+Naritomi (2018):
+ Effects on Government Revenue
 \end_layout
 
 \end_inset
@@ -10468,7 +10778,7 @@ Naritomi (2018): Effects on Government Revenue
 \align center
 \begin_inset Graphics
 	filename pictures/Naritomi 9.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10488,7 +10798,8 @@ Naritomi (2018): Effects on Government Revenue
 status open
 
 \begin_layout Plain Layout
-Naritomi (2018): Effects on Government Revenue
+Naritomi (2018):
+ Effects on Government Revenue
 \end_layout
 
 \end_inset
@@ -10502,7 +10813,7 @@ Naritomi (2018): Effects on Government Revenue
 \begin_inset Graphics
 	filename pictures/Naritomi 10.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10526,7 +10837,10 @@ textit{
 
 \end_inset
 
-Firms, Informality, and Development: Theory and Evidence from Brazil
+Firms,
+ Informality,
+ and Development:
+ Theory and Evidence from Brazil
 \begin_inset ERT
 status open
 
@@ -10545,7 +10859,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Motivation
+Ulyssea (2018):
+ Motivation
 \end_layout
 
 \end_inset
@@ -10555,14 +10870,15 @@ Ulyssea (2018): Motivation
 
 \begin_deeper
 \begin_layout Itemize
-Informality is widespread, especially in low- and middle-income countries.
+Informality is widespread,
+ especially in low- and middle-income countries.
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename pictures/LaPortaShleifer2014_01.png
-	height 89theight%
+	special height=0.89\textheight
 
 \end_inset
 
@@ -10582,7 +10898,8 @@ Informality is widespread, especially in low- and middle-income countries.
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Motivation
+Ulyssea (2018):
+ Motivation
 \end_layout
 
 \end_inset
@@ -10592,8 +10909,8 @@ Ulyssea (2018): Motivation
 
 \begin_deeper
 \begin_layout Itemize
-What are the implications of widespread informality for the economy? How
- can policymakers respond?
+What are the implications of widespread informality for the economy?
+ How can policymakers respond?
 \end_layout
 
 \begin_layout Itemize
@@ -10609,8 +10926,7 @@ High informality
 \end_layout
 
 \begin_layout Itemize
-Informality may distort firm decisions such as labor input choices (see
- also Best 
+Informality may distort firm decisions such as labor input choices (see also Best 
 \emph on
 et al
 \emph default
@@ -10619,12 +10935,15 @@ et al
 \end_layout
 
 \begin_layout Itemize
-Informality may permit small, unproductive firms to compete with large,
- productive, formal firms 
+Informality may permit small,
+ unproductive firms to compete with large,
+ productive,
+ formal firms 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- misallocation of resources across firms (Hsieh & Klenow, 2009)
+ misallocation of resources across firms (Hsieh & Klenow,
+ 2009)
 \end_layout
 
 \begin_layout Itemize
@@ -10644,7 +10963,8 @@ Informality provides de facto freedom from burdensome/inefficient regulations
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Overview
+Ulyssea (2018):
+ Overview
 \end_layout
 
 \end_inset
@@ -10659,7 +10979,8 @@ Propose a model to capture these phenomena with two features:
 
 \begin_deeper
 \begin_layout Enumerate
-Firms choose whether to register: 
+Firms choose whether to register:
+ 
 \emph on
 extensive margin
 \emph default
@@ -10667,7 +10988,8 @@ extensive margin
 \end_layout
 
 \begin_layout Enumerate
-Firms choose how many of their workers to register: 
+Firms choose how many of their workers to register:
+ 
 \emph on
 intensive margin
 \emph default
@@ -10680,8 +11002,7 @@ Model encompasses and can quantify three views of informal firms:
 \end_layout
 
 \begin_layout Enumerate
-Informal firms as reservoir of productive entrepreneurs deterred by high
- regulatory costs
+Informal firms as reservoir of productive entrepreneurs deterred by high regulatory costs
 \end_layout
 
 \begin_layout Enumerate
@@ -10701,10 +11022,9 @@ Informal firms as a survival strategy for low-skill individuals
 \end_layout
 
 \begin_layout Itemize
-Conduct counterfactual policy simulations to (i) reduce entry costs; (ii)
- reducing payroll taxes on formal workers; (iii) increase cost of informality
- by raising enforcement on extensive margin (iv) raise enforcement on intensive
- margin.
+Conduct counterfactual policy simulations to (i) reduce entry costs;
+ (ii) reducing payroll taxes on formal workers;
+ (iii) increase cost of informality by raising enforcement on extensive margin (iv) raise enforcement on intensive margin.
 \end_layout
 
 \end_deeper
@@ -10720,7 +11040,8 @@ Conduct counterfactual policy simulations to (i) reduce entry costs; (ii)
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Stylized Facts
+Ulyssea (2018):
+ Stylized Facts
 \end_layout
 
 \end_inset
@@ -10737,6 +11058,7 @@ Use 3 datasets
 
 \emph on
 Pesquisa de Economia Informal Urbana (ECINF):
+
 \emph default
  a repeated (1997 and 2003) cross section of small (
 \begin_inset Formula $\leq5$
@@ -10748,13 +11070,15 @@ Pesquisa de Economia Informal Urbana (ECINF):
 \begin_layout Enumerate
 
 \emph on
-Registro Anual de Informações Sociais (RAIS): 
+Registro Anual de Informações Sociais (RAIS):
+ 
 \emph default
 administrative employer-employee matched social security data
 \end_layout
 
 \begin_layout Enumerate
-National Household survey (PNAD): repeated cross-section of households
+National Household survey (PNAD):
+ repeated cross-section of households
 \end_layout
 
 \end_deeper
@@ -10770,7 +11094,8 @@ National Household survey (PNAD): repeated cross-section of households
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Formal firms are bigger and more productive
+Ulyssea (2018):
+ Formal firms are bigger and more productive
 \end_layout
 
 \end_inset
@@ -10784,7 +11109,7 @@ Ulyssea (2018): Formal firms are bigger and more productive
 \begin_inset Graphics
 	filename pictures/Ulyssea2018_01.png
 	lyxscale 40
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10804,7 +11129,8 @@ Ulyssea (2018): Formal firms are bigger and more productive
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Worker Selection
+Ulyssea (2018):
+ Worker Selection
 \end_layout
 
 \end_inset
@@ -10818,7 +11144,7 @@ Ulyssea (2018): Worker Selection
 \begin_inset Graphics
 	filename pictures/Ulyssea2018_02.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10838,7 +11164,8 @@ Ulyssea (2018): Worker Selection
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Informality Margins and Firm Size
+Ulyssea (2018):
+ Informality Margins and Firm Size
 \end_layout
 
 \end_inset
@@ -10871,7 +11198,8 @@ Ulyssea (2018): Informality Margins and Firm Size
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Model
+Ulyssea (2018):
+ Model
 \end_layout
 
 \end_inset
@@ -10941,7 +11269,8 @@ Profits of informal (incumbent) firms are then
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Formal Incumbents
+Ulyssea (2018):
+ Formal Incumbents
 \end_layout
 
 \end_inset
@@ -10951,8 +11280,8 @@ Ulyssea (2018): Formal Incumbents
 
 \begin_deeper
 \begin_layout Itemize
-Formal firms have to comply with regulations/taxes, but can still hire (some)
- workers off the books
+Formal firms have to comply with regulations/taxes,
+ but can still hire (some) workers off the books
 \end_layout
 
 \begin_layout Itemize
@@ -10977,12 +11306,12 @@ Wedge on hiring informal workers is
 
 \begin_deeper
 \begin_layout Itemize
-as a result, firms start out hiring informal workers and at some point 
+as a result,
+ firms start out hiring informal workers and at some point 
 \begin_inset Formula $\tilde{l}$
 \end_inset
 
- the marginal cost of formal workers is cheaper so they switch and start
- hiring formal workers
+ the marginal cost of formal workers is cheaper so they switch and start hiring formal workers
 \end_layout
 
 \end_deeper
@@ -11014,7 +11343,8 @@ Firms also pay per-period fixed costs of operation
 \begin_inset Formula $\bar{c}_{s}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $s\in\left(i,f\right)$
 \end_inset
 
@@ -11034,7 +11364,8 @@ Firms also pay per-period fixed costs of operation
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Entry
+Ulyssea (2018):
+ Entry
 \end_layout
 
 \end_inset
@@ -11044,7 +11375,8 @@ Ulyssea (2018): Entry
 
 \begin_deeper
 \begin_layout Itemize
-Each period, a mass 
+Each period,
+ a mass 
 \begin_inset Formula $M$
 \end_inset
 
@@ -11080,7 +11412,8 @@ Upon entry draw realized productivity from
 \end_layout
 
 \begin_layout Itemize
-After entry, face exogenous exit probabilities 
+After entry,
+ face exogenous exit probabilities 
 \begin_inset Formula $\kappa_{s}$
 \end_inset
 
@@ -11088,8 +11421,9 @@ After entry, face exogenous exit probabilities
 \end_layout
 
 \begin_layout Itemize
-If productivity is too low, can stop producing and exit immediately, so
- value of a firm (normalizing discounting to 1) is 
+If productivity is too low,
+ can stop producing and exit immediately,
+ so value of a firm (normalizing discounting to 1) is 
 \begin_inset Formula 
 \[
 V_{s}\left(\theta,w\right)=\max\left\{ 0,\frac{\pi_{s}\text{\left(\theta,w\right)}}{\kappa_{s}}\right\} 
@@ -11113,7 +11447,8 @@ V_{s}\left(\theta,w\right)=\max\left\{ 0,\frac{\pi_{s}\text{\left(\theta,w\right
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Entry
+Ulyssea (2018):
+ Entry
 \end_layout
 
 \end_inset
@@ -11180,7 +11515,8 @@ V_{f}^{e}\left(\bar{v}_{f},w\right) & =V_{i}^{e}\left(\bar{v}_{i},w\right)+\left
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Equilibrium
+Ulyssea (2018):
+ Equilibrium
 \end_layout
 
 \end_inset
@@ -11190,12 +11526,14 @@ Ulyssea (2018): Equilibrium
 
 \begin_deeper
 \begin_layout Itemize
-Close the model: representative household supplies 
+Close the model:
+ representative household supplies 
 \begin_inset Formula $\bar{L}$
 \end_inset
 
  units of labor inelastically.
- No savings, no disutility from work 
+ No savings,
+ no disutility from work 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
@@ -11227,7 +11565,8 @@ Measure of entrants is
 \end_layout
 
 \begin_layout Itemize
-Look for a stationary equilibrium: all aggregate variables are constant.
+Look for a stationary equilibrium:
+ all aggregate variables are constant.
  
 \end_layout
 
@@ -11248,19 +11587,24 @@ Total number of active firms
 \end_layout
 
 \begin_layout Itemize
-Equilibrium satisfies (i) labor market clearing: 
+Equilibrium satisfies (i) labor market clearing:
+ 
 \begin_inset Formula $L_{i}+L_{f}=\bar{L}$
 \end_inset
 
-; (ii) zero profits of marginal entrants: 
+;
+ (ii) zero profits of marginal entrants:
+ 
 \begin_inset Formula $\pi_{s}\left(\bar{\theta}_{s},w\right)=0$
 \end_inset
 
-; (iii) free entry conditions 
+;
+ (iii) free entry conditions 
 \begin_inset Formula $V_{s}^{e}\left(\bar{v}_{s},w\right)=E_{s}$
 \end_inset
 
-; (iv) both sectors constant sizes 
+;
+ (iv) both sectors constant sizes 
 \begin_inset Formula $\mu_{s}$
 \end_inset
 
@@ -11280,7 +11624,8 @@ Equilibrium satisfies (i) labor market clearing:
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Estimation
+Ulyssea (2018):
+ Estimation
 \end_layout
 
 \end_inset
@@ -11318,7 +11663,9 @@ Estimate remaining parameters using Simulated Minimum Distance (SMD) estimator
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Estimation: Parameterize Remaining Functions
+Ulyssea (2018):
+ Estimation:
+ Parameterize Remaining Functions
 \end_layout
 
 \end_inset
@@ -11347,7 +11694,8 @@ Actuall productivity
 \begin_inset Formula $\theta=\varepsilon v$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\varepsilon\sim$
 \end_inset
 
@@ -11359,7 +11707,8 @@ log-Normal with mean 0 and variance
 \end_layout
 
 \begin_layout Itemize
-Production: 
+Production:
+ 
 \begin_inset Formula $y\left(\theta,l_{s}\right)=\theta l_{s}^{\alpha}$
 \end_inset
 
@@ -11367,7 +11716,8 @@ Production:
 \end_layout
 
 \begin_layout Itemize
-Wedges: 
+Wedges:
+ 
 \begin_inset Formula $\tau_{i}\left(l_{i}\right)=\left(1+\frac{l_{i}}{b_{i}}\right)$
 \end_inset
 
@@ -11427,7 +11777,9 @@ Full set of parameters
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Estimation: Calibration
+Ulyssea (2018):
+ Estimation:
+ Calibration
 \end_layout
 
 \end_inset
@@ -11489,7 +11841,9 @@ Fixed cost of operation set to half a monthly wage
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Estimation: SMD
+Ulyssea (2018):
+ Estimation:
+ SMD
 \end_layout
 
 \end_inset
@@ -11507,8 +11861,8 @@ Estimation parameters
 \end_layout
 
 \begin_layout Itemize
-How does SMD work? Calculate some moments in the data and pick the parameters
- of the model so that simulating from the model matches the moments
+How does SMD work?
+ Calculate some moments in the data and pick the parameters of the model so that simulating from the model matches the moments
 \end_layout
 
 \begin_deeper
@@ -11517,7 +11871,8 @@ Fix all parameters
 \begin_inset Formula $\Gamma$
 \end_inset
 
-, wages 
+,
+ wages 
 \begin_inset Formula $w_{1},w_{2}$
 \end_inset
 
@@ -11562,7 +11917,8 @@ Define
 \begin_inset Formula $\hat{m}_{N}=\frac{1}{N}\sum_{i=1}^{N}m_{i}$
 \end_inset
 
- the moments computed from the real data, and 
+ the moments computed from the real data,
+ and 
 \begin_inset Formula $\tilde{m}_{S}\left(\varphi;\psi\right)=\sum_{s=1}^{S}\tilde{m}_{s}\left(\varphi;\psi\right)$
 \end_inset
 
@@ -11602,7 +11958,9 @@ Define
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Estimation: SMD
+Ulyssea (2018):
+ Estimation:
+ SMD
 \end_layout
 
 \end_inset
@@ -11616,17 +11974,17 @@ Use 16 moments from the data:
 \end_layout
 
 \begin_layout Itemize
-informality shares of low-skill, high-skill, overall employees (PNAD)
+informality shares of low-skill,
+ high-skill,
+ overall employees (PNAD)
 \end_layout
 
 \begin_layout Itemize
-overall share of informal firms and by firm size (1-2,3-4,5-10 employees)
- (ECINF/RAIS)
+overall share of informal firms and by firm size (1-2,3-4,5-10 employees) (ECINF/RAIS)
 \end_layout
 
 \begin_layout Itemize
-average share of informal workers in formal firms of size 2-3 and 4-5 workers
- (ECINF)
+average share of informal workers in formal firms of size 2-3 and 4-5 workers (ECINF)
 \end_layout
 
 \begin_layout Itemize
@@ -11662,7 +12020,9 @@ share of formal firms with
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Results: Parameter Values
+Ulyssea (2018):
+ Results:
+ Parameter Values
 \end_layout
 
 \end_inset
@@ -11676,7 +12036,7 @@ Ulyssea (2018): Results: Parameter Values
 \begin_inset Graphics
 	filename pictures/Ulyssea2018_04.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -11696,7 +12056,9 @@ Ulyssea (2018): Results: Parameter Values
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Results: Model Fit
+Ulyssea (2018):
+ Results:
+ Model Fit
 \end_layout
 
 \end_inset
@@ -11709,7 +12071,7 @@ Ulyssea (2018): Results: Model Fit
 \align center
 \begin_inset Graphics
 	filename pictures/Ulyssea2018_06.png
-	height 90theight%
+	special height=0.9\textheight
 
 \end_inset
 
@@ -11729,7 +12091,9 @@ Ulyssea (2018): Results: Model Fit
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Results: Model Fit
+Ulyssea (2018):
+ Results:
+ Model Fit
 \end_layout
 
 \end_inset
@@ -11742,7 +12106,7 @@ Ulyssea (2018): Results: Model Fit
 \align center
 \begin_inset Graphics
 	filename pictures/Ulyssea2018_07.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -11762,7 +12126,9 @@ Ulyssea (2018): Results: Model Fit
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Results: Model Fit
+Ulyssea (2018):
+ Results:
+ Model Fit
 \end_layout
 
 \end_inset
@@ -11775,7 +12141,7 @@ Ulyssea (2018): Results: Model Fit
 \align center
 \begin_inset Graphics
 	filename pictures/Ulyssea2018_08.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -11795,7 +12161,9 @@ Ulyssea (2018): Results: Model Fit
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Results: Model Fit
+Ulyssea (2018):
+ Results:
+ Model Fit
 \end_layout
 
 \end_inset
@@ -11828,7 +12196,8 @@ Ulyssea (2018): Results: Model Fit
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Counterfactuals
+Ulyssea (2018):
+ Counterfactuals
 \end_layout
 
 \end_inset
@@ -11838,7 +12207,8 @@ Ulyssea (2018): Counterfactuals
 
 \begin_deeper
 \begin_layout Itemize
-Exercise 1: Quantify the diverging views on what informal firms are
+Exercise 1:
+ Quantify the diverging views on what informal firms are
 \end_layout
 
 \begin_layout Enumerate
@@ -11846,28 +12216,32 @@ Exercise 1: Quantify the diverging views on what informal firms are
 \emph on
 Survival view
 \emph default
-: Firms too unproductive to ever be formal even with no costs of formality
+:
+ Firms too unproductive to ever be formal even with no costs of formality
 \end_layout
 
 \begin_layout Enumerate
 
 \emph on
 Parasite view:
+
 \emph default
- Firms that could be formal but choose to be informal because it's more
- profitable
+ Firms that could be formal but choose to be informal because it's more profitable
 \end_layout
 
 \begin_layout Enumerate
 
 \emph on
-De Soto's view: 
+De Soto's view:
+ 
 \emph default
 Firms that would be formal if entry costs were low enough
 \end_layout
 
 \begin_layout Itemize
-Thought experiment: What if we reduce entry costs into formality? set 
+Thought experiment:
+ What if we reduce entry costs into formality?
+ set 
 \begin_inset Formula $E_{f}=E_{i}$
 \end_inset
 
@@ -11914,7 +12288,8 @@ Estimated model yields productivity signals
 status open
 
 \begin_layout Plain Layout
-Ulyssea (2018): Results
+Ulyssea (2018):
+ Results
 \end_layout
 
 \end_inset
@@ -11927,7 +12302,7 @@ Ulyssea (2018): Results
 \align center
 \begin_inset Graphics
 	filename pictures/Ulyssea2018_10.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -11949,7 +12324,10 @@ Tax Policy and Tax Administration
 \end_layout
 
 \begin_layout Subsection
-Best, Brockmeyer, Kleven, Spinnewijn & Waseem (JPE 2015) 
+Best,
+ Brockmeyer,
+ Kleven,
+ Spinnewijn & Waseem (JPE 2015) 
 \begin_inset ERT
 status open
 
@@ -11964,8 +12342,8 @@ textit{
 
 \end_inset
 
-Production vs Revenue Efficiency With Limited Tax Capacity: Theory and Evidence
- From Pakistan
+Production vs Revenue Efficiency With Limited Tax Capacity:
+ Theory and Evidence From Pakistan
 \begin_inset ERT
 status open
 
@@ -11989,7 +12367,8 @@ Best
 et al.
 
 \emph default
- (2015): Production Efficiency
+ (2015):
+ Production Efficiency
 \end_layout
 
 \end_inset
@@ -12051,7 +12430,8 @@ Key policy implications
 
 \begin_deeper
 \begin_layout Itemize
-Permits taxes on consumption, wages and profits
+Permits taxes on consumption,
+ wages and profits
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -12059,7 +12439,8 @@ Permits taxes on consumption, wages and profits
 \end_layout
 
 \begin_layout Itemize
-Precludes taxes on inputs, turnover and trade
+Precludes taxes on inputs,
+ turnover and trade
 \series bold
 
 \begin_inset VSpace bigskip
@@ -12070,8 +12451,7 @@ Precludes taxes on inputs, turnover and trade
 
 \end_deeper
 \begin_layout Itemize
-The theorem has been influential in the policy advice given to developing
- countries
+The theorem has been influential in the policy advice given to developing countries
 \end_layout
 
 \end_deeper
@@ -12092,7 +12472,8 @@ Best
 et al.
 
 \emph default
- (2015): Production Efficiency vs Revenue Efficiency
+ (2015):
+ Production Efficiency vs Revenue Efficiency
 \end_layout
 
 \end_inset
@@ -12126,7 +12507,8 @@ assumes perfect tax enforcement
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- Violated everywhere, but especially in developing countries
+ Violated everywhere,
+ but especially in developing countries
 \series bold
 
 \begin_inset VSpace bigskip
@@ -12141,8 +12523,7 @@ assumes perfect tax enforcement
 \series bold
 Tax evasion
 \series default
- introduces a trade-off between production and revenue efficiency in tax
- design
+ introduces a trade-off between production and revenue efficiency in tax design
 \series bold
 
 \begin_inset VSpace bigskip
@@ -12152,7 +12533,8 @@ Tax evasion
 \end_layout
 
 \begin_layout Itemize
-In the context of firm taxation in Pakistan, we provide:
+In the context of firm taxation in Pakistan,
+ we provide:
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -12219,7 +12601,8 @@ Best
 et al.
 
 \emph default
- (2015): Novel Quasi-Experimental Approach
+ (2015):
+ Novel Quasi-Experimental Approach
 \end_layout
 
 \end_inset
@@ -12236,9 +12619,9 @@ et al.
 
 \series bold
 Minimum Tax Scheme:
+
 \series default
- firms taxed either on profits or turnover (lower rate on turnover) depending
- on which liability is larger
+ firms taxed either on profits or turnover (lower rate on turnover) depending on which liability is larger
 \series bold
 
 \begin_inset VSpace smallskip
@@ -12320,7 +12703,8 @@ Novel method for estimating tax evasion based on a bunching approach
 \series bold
 Wide applicability
 \series default
- of our approach: such schemes are ubiquitous
+ of our approach:
+ such schemes are ubiquitous
 \end_layout
 
 \end_deeper
@@ -12341,7 +12725,9 @@ Best
 et al.
 
 \emph default
- (2015): Firm Behavior: Real vs Evasion Responses
+ (2015):
+ Firm Behavior:
+ Real vs Evasion Responses
 \end_layout
 
 \end_inset
@@ -12359,15 +12745,18 @@ Real output
 \begin_inset Formula $y$
 \end_inset
 
-, real cost 
+,
+ real cost 
 \begin_inset Formula $c\left(y\right)$
 \end_inset
 
-, declared cost 
+,
+ declared cost 
 \begin_inset Formula $\hat{c}$
 \end_inset
 
-, penalty 
+,
+ penalty 
 \begin_inset Formula $g\left(\hat{c}-c\left(y\right)\right)$
 \end_inset
 
@@ -12498,7 +12887,8 @@ Best
 et al.
 
 \emph default
- (2015): Proposition [Production Inefficiency]
+ (2015):
+ Proposition [Production Inefficiency]
 \end_layout
 
 \end_inset
@@ -12534,7 +12924,8 @@ With
 \series bold
 perfect enforcement
 \series default
-, optimal tax base is pure profits 
+,
+ optimal tax base is pure profits 
 \shape default
 (
 \shape italic
@@ -12562,7 +12953,8 @@ imperfect
 \series bold
 enforcement
 \series default
-, the optimal tax base is 
+,
+ the optimal tax base is 
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -12645,7 +13037,9 @@ Best
 et al.
 
 \emph default
- (2015): Partial Equilibrium: Intuition
+ (2015):
+ Partial Equilibrium:
+ Intuition
 \end_layout
 
 \end_inset
@@ -12686,7 +13080,8 @@ Broader base (smaller
 \begin_inset Formula $G\left(\mu\right)$
 \end_inset
 
- is higher: Evasion 
+ is higher:
+ Evasion 
 \emph on
 level
 \emph default
@@ -12697,13 +13092,15 @@ level
 \begin_inset Formula $\varepsilon_{\hat{c}-c}/\varepsilon_{y}$
 \end_inset
 
- is higher: Evasion decisions relatively more responsive than production
- decisions.
+ is higher:
+ Evasion decisions relatively more responsive than production decisions.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-More generally, with two bases, one easier to evade than the other:
+More generally,
+ with two bases,
+ one easier to evade than the other:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -12716,8 +13113,8 @@ shift towards hard to evade base
 \end_layout
 
 \begin_layout Itemize
-go further from efficiency the bigger the problem is, and the more responsive
- evasion is to tax policy.
+go further from efficiency the bigger the problem is,
+ and the more responsive evasion is to tax policy.
 \end_layout
 
 \end_deeper
@@ -12733,7 +13130,9 @@ go further from efficiency the bigger the problem is, and the more responsive
 \begin_inset Formula $\varepsilon_{\hat{c}-c}/\varepsilon_{y}$
 \end_inset
 
- which we can, in principle, take to the data.
+ which we can,
+ in principle,
+ take to the data.
  
 \end_layout
 
@@ -12755,7 +13154,8 @@ Best
 et al.
 
 \emph default
- (2015): Tax Policy in General Equilibrium
+ (2015):
+ Tax Policy in General Equilibrium
 \end_layout
 
 \end_inset
@@ -12788,7 +13188,8 @@ General equilibrium extension raises two additional considerations
 \series bold
 Cascading effect
 \series default
-: Distortions travel through production chain
+:
+ Distortions travel through production chain
 \begin_inset VSpace medskip
 \end_inset
 
@@ -12800,7 +13201,8 @@ Cascading effect
 \series bold
 Incidence effect
 \series default
-: Price changes shift income between final and intermediate sectors
+:
+ Price changes shift income between final and intermediate sectors
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -12857,7 +13259,8 @@ Best
 et al.
 
 \emph default
- (2015): Firm Behavior
+ (2015):
+ Firm Behavior
 \end_layout
 
 \end_inset
@@ -12894,7 +13297,8 @@ Incidence
 \emph default
 effect
 \series default
-: 
+:
+ 
 \begin_inset Formula $\tau_{E}$
 \end_inset
 
@@ -12930,7 +13334,8 @@ Cascading
 \emph default
 effect
 \series default
-: 
+:
+ 
 \begin_inset Formula $y_{A}$
 \end_inset
 
@@ -12959,7 +13364,8 @@ Best
 et al.
 
 \emph default
- (2015): Optimal Policy
+ (2015):
+ Optimal Policy
 \end_layout
 
 \end_inset
@@ -12986,7 +13392,8 @@ With
 \series bold
 perfect enforcement
 \series default
-, optimal tax base is pure profits 
+,
+ optimal tax base is pure profits 
 \shape default
 (
 \shape italic
@@ -13014,7 +13421,8 @@ imperfect
 \series bold
 enforcement
 \series default
-, the optimal tax base is interior
+,
+ the optimal tax base is interior
 \shape default
  (
 \shape italic
@@ -13080,7 +13488,8 @@ Best
 et al.
 
 \emph default
- (2015): Optimal Policy
+ (2015):
+ Optimal Policy
 \end_layout
 
 \end_inset
@@ -13107,7 +13516,8 @@ imperfect
 \series bold
 enforcement
 \series default
-, the optimal tax base is interior
+,
+ the optimal tax base is interior
 \shape default
  (
 \shape italic
@@ -13173,7 +13583,8 @@ partial equilibrium analysis
 \begin_inset Formula $\alpha$
 \end_inset
 
- large: 
+ large:
+ 
 \begin_inset Formula $l_{B}$
 \end_inset
 
@@ -13192,7 +13603,8 @@ partial equilibrium analysis
 \begin_inset Formula $\beta$
 \end_inset
 
- large: final goods large part of economy
+ large:
+ final goods large part of economy
 \end_layout
 
 \end_deeper
@@ -13214,7 +13626,8 @@ Best
 et al.
 
 \emph default
- (2015): Minimum Tax Scheme
+ (2015):
+ Minimum Tax Scheme
 \end_layout
 
 \end_inset
@@ -13249,7 +13662,8 @@ Combination of profit tax (
 \begin_inset Formula $\mu=0$
 \end_inset
 
-): 
+):
+ 
 \begin_inset Formula 
 \[
 T=\max\left\{ \tau_{\pi}\left(y-c\right);\tau_{y}y\right\} .
@@ -13291,8 +13705,9 @@ Firms switch between the two taxes depending on profit rate
 \begin_layout Itemize
 
 \series bold
-Kink: tax base and marginal tax rate change discontinuously, but tax liability
- is continuous
+Kink:
+ tax base and marginal tax rate change discontinuously,
+ but tax liability is continuous
 \end_layout
 
 \end_deeper
@@ -13313,7 +13728,8 @@ Best
 et al.
 
 \emph default
- (2015): Bunching at the Minimum Tax Kink
+ (2015):
+ Bunching at the Minimum Tax Kink
 \end_layout
 
 \end_inset
@@ -13329,6 +13745,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -13336,7 +13754,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename pictures/Fig_BunchingTheory1.EPS
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13366,7 +13784,8 @@ Best
 et al.
 
 \emph default
- (2015): Bunching at the Minimum Tax Kink
+ (2015):
+ Bunching at the Minimum Tax Kink
 \end_layout
 
 \end_inset
@@ -13382,6 +13801,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -13389,7 +13810,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename pictures/Fig_BunchingTheory2.EPS
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13419,7 +13840,8 @@ Best
 et al.
 
 \emph default
- (2015): Bunching at the Minimum Tax Kink
+ (2015):
+ Bunching at the Minimum Tax Kink
 \end_layout
 
 \end_inset
@@ -13435,6 +13857,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -13442,7 +13866,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename pictures/Fig_BunchingTheory3.EPS
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13472,7 +13896,8 @@ Best
 et al.
 
 \emph default
- (2015): Minimum Tax Kink Ideal for Eliciting Evasion
+ (2015):
+ Minimum Tax Kink Ideal for Eliciting Evasion
 \series bold
 
 \begin_inset VSpace bigskip
@@ -13535,7 +13960,8 @@ Firms choose real output based on
 \end_layout
 
 \begin_layout Itemize
-At the kink, production wedge 
+At the kink,
+ production wedge 
 \begin_inset Formula $\tau_{E}$
 \end_inset
 
@@ -13634,7 +14060,8 @@ Firms choose evasion based on
 \end_layout
 
 \begin_layout Itemize
-At the kink, 
+At the kink,
+ 
 \begin_inset Formula $\tau\mu$
 \end_inset
 
@@ -13717,7 +14144,8 @@ Best
 et al.
 
 \emph default
- (2015): Data
+ (2015):
+ Data
 \end_layout
 
 \end_inset
@@ -13769,8 +14197,8 @@ New electronic data collection system in place for this time period
 \end_layout
 
 \begin_layout Itemize
-In each year, about half of the firms are turnover tax payers and half of
- them are profit tax payers
+In each year,
+ about half of the firms are turnover tax payers and half of them are profit tax payers
 \end_layout
 
 \end_deeper
@@ -13791,7 +14219,8 @@ Best
 et al.
 
 \emph default
- (2015): Variation in Minimum Tax Kink
+ (2015):
+ Variation in Minimum Tax Kink
 \end_layout
 
 \end_inset
@@ -13826,7 +14255,8 @@ Variation in profit tax rate
 
 \begin_deeper
 \begin_layout Itemize
-High rate of 35%, low rate of 20%
+High rate of 35%,
+ low rate of 20%
 \begin_inset Separator latexpar
 \end_inset
 
@@ -13835,7 +14265,10 @@ High rate of 35%, low rate of 20%
 
 \begin_deeper
 \begin_layout Standard
-[depends on incorporation date, turnover, assets, #employees]
+[depends on incorporation date,
+ turnover,
+ assets,
+ #employees]
 \series bold
 
 \begin_inset VSpace bigskip
@@ -13868,19 +14301,23 @@ over time:
 
 \begin_deeper
 \begin_layout Itemize
-2006-07: tax rate of 0.5%
+2006-07:
+ tax rate of 0.5%
 \end_layout
 
 \begin_layout Itemize
-2008: turnover tax scheme withdrawn
+2008:
+ turnover tax scheme withdrawn
 \end_layout
 
 \begin_layout Itemize
-2009: tax rate of 0.5%
+2009:
+ tax rate of 0.5%
 \end_layout
 
 \begin_layout Itemize
-2010: tax rate of 1%
+2010:
+ tax rate of 1%
 \end_layout
 
 \end_deeper
@@ -13902,7 +14339,8 @@ Best
 et al.
 
 \emph default
- (2015): Bunching Evidence
+ (2015):
+ Bunching Evidence
 \end_layout
 
 \end_inset
@@ -13921,6 +14359,8 @@ et al.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -13959,7 +14399,8 @@ Best
 et al.
 
 \emph default
- (2015): Bunching Evidence
+ (2015):
+ Bunching Evidence
 \end_layout
 
 \end_inset
@@ -13975,6 +14416,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -14013,7 +14456,8 @@ Best
 et al.
 
 \emph default
- (2015): Bunching Evidence
+ (2015):
+ Bunching Evidence
 \end_layout
 
 \end_inset
@@ -14029,6 +14473,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -14067,7 +14513,8 @@ Best
 et al.
 
 \emph default
- (2015): Bunching Evidence
+ (2015):
+ Bunching Evidence
 \end_layout
 
 \end_inset
@@ -14083,6 +14530,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -14121,7 +14570,8 @@ Best
 et al.
 
 \emph default
- (2015): Estimating Evasion
+ (2015):
+ Estimating Evasion
 \end_layout
 
 \end_inset
@@ -14137,6 +14587,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -14175,7 +14627,8 @@ Best
 et al.
 
 \emph default
- (2015): Estimating Evasion
+ (2015):
+ Estimating Evasion
 \end_layout
 
 \end_inset
@@ -14191,6 +14644,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -14229,7 +14684,8 @@ Best
 et al.
 
 \emph default
- (2015): Estimating Evasion
+ (2015):
+ Estimating Evasion
 \end_layout
 
 \end_inset
@@ -14245,6 +14701,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -14283,7 +14741,8 @@ Best
 et al.
 
 \emph default
- (2015): Estimating Evasion
+ (2015):
+ Estimating Evasion
 \end_layout
 
 \end_inset
@@ -14299,6 +14758,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -14337,7 +14798,8 @@ Best
 et al.
 
 \emph default
- (2015): Robustness
+ (2015):
+ Robustness
 \end_layout
 
 \end_inset
@@ -14371,7 +14833,8 @@ If
 \begin_inset Formula $\tau_{E}>0$
 \end_inset
 
- under profit tax, then turnover tax may improve real incentives
+ under profit tax,
+ then turnover tax may improve real incentives
 \series bold
 
 \begin_inset VSpace medskip
@@ -14416,8 +14879,8 @@ Output evasion
 
 \begin_deeper
 \begin_layout Itemize
-If firms can underreport output, the turnover tax reduces output evasion
- (due to 
+If firms can underreport output,
+ the turnover tax reduces output evasion (due to 
 \begin_inset Formula $\tau_{y}<\tau_{\pi}$
 \end_inset
 
@@ -14466,8 +14929,8 @@ Filing Costs (Lazy Reporting)
 
 \begin_deeper
 \begin_layout Itemize
-If adding line items to return involves a fixed cost, then underreport costs
- under turnover tax
+If adding line items to return involves a fixed cost,
+ then underreport costs under turnover tax
 \series bold
 
 \begin_inset VSpace medskip
@@ -14525,7 +14988,8 @@ Best
 et al.
 
 \emph default
- (2015): Testing for Lazy Reporting
+ (2015):
+ Testing for Lazy Reporting
 \end_layout
 
 \end_inset
@@ -14541,6 +15005,8 @@ et al.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status open
@@ -14579,7 +15045,9 @@ Best
 et al.
 
 \emph default
- (2015): Numerical Analysis: Methodology
+ (2015):
+ Numerical Analysis:
+ Methodology
 \end_layout
 
 \end_inset
@@ -14634,8 +15102,7 @@ lhs
 \end_layout
 
 \begin_layout Itemize
-Evaluate welfare gains of moving from pure profit tax to pure turnover tax
- holding aggregate profits fixed
+Evaluate welfare gains of moving from pure profit tax to pure turnover tax holding aggregate profits fixed
 \begin_inset Separator latexpar
 \end_inset
 
@@ -14652,8 +15119,8 @@ Assume iso-elastic production function and evasion cost function
 \end_layout
 
 \begin_layout Itemize
-Calibrate to match empirical distributions of turnover, costs and evasion
- rate responses
+Calibrate to match empirical distributions of turnover,
+ costs and evasion rate responses
 \end_layout
 
 \end_deeper
@@ -14675,7 +15142,8 @@ Best
 et al.
 
 \emph default
- (2015): Simulation Results
+ (2015):
+ Simulation Results
 \end_layout
 
 \end_inset
@@ -14724,11 +15192,13 @@ toprule
 \backslash
 multicolumn{3}{c}{
 \backslash
-bf{Panel A: Pure Turnover Tax}} & & 
+bf{Panel A:
+ Pure Turnover Tax}} & & 
 \backslash
 multicolumn{3}{c}{
 \backslash
-bf{Panel B: Optimal Tax}} 
+bf{Panel B:
+ Optimal Tax}} 
 \backslash
 
 \backslash
@@ -14876,7 +15346,8 @@ end{tabular}
 \end_layout
 
 \begin_layout Subsection
-Bergeron, Tourek & Weigel (2021) 
+Bergeron,
+ Tourek & Weigel (2021) 
 \begin_inset ERT
 status open
 
@@ -14891,8 +15362,8 @@ textit{
 
 \end_inset
 
-The State Capacity Ceiling on Tax Rates: Evidence from Randomized Tax Abatements
- in the DRC
+The State Capacity Ceiling on Tax Rates:
+ Evidence from Randomized Tax Abatements in the DRC
 \begin_inset ERT
 status open
 
@@ -14911,7 +15382,9 @@ status open
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Motivation
+Bergeron,
+ Tourek & Weigel (2021):
+ Motivation
 \end_layout
 
 \end_inset
@@ -14921,18 +15394,18 @@ Bergeron, Tourek & Weigel (2021): Motivation
 
 \begin_deeper
 \begin_layout Itemize
-How much revenue can be raised, and the welfare effect of taxation is determined
- by fiscal capacity
+How much revenue can be raised,
+ and the welfare effect of taxation is determined by fiscal capacity
 \end_layout
 
 \begin_layout Itemize
-In the Besley & Persson formulation, fiscal capacity reduces the elasticity
- of the tax base by making it costlier to evade.
+In the Besley & Persson formulation,
+ fiscal capacity reduces the elasticity of the tax base by making it costlier to evade.
 \end_layout
 
 \begin_layout Itemize
-If the elasticity of the tax base goes down, then the revenue-maximizing
- (Laffer) rate goes up
+If the elasticity of the tax base goes down,
+ then the revenue-maximizing (Laffer) rate goes up
 \end_layout
 
 \begin_layout Itemize
@@ -14946,7 +15419,8 @@ tax abatements (= tax rates?)
 \end_layout
 
 \begin_layout Itemize
-tax enforcement (letters, more/less effective tax collectors)
+tax enforcement (letters,
+ more/less effective tax collectors)
 \end_layout
 
 \end_deeper
@@ -14963,7 +15437,9 @@ tax enforcement (letters, more/less effective tax collectors)
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Setting
+Bergeron,
+ Tourek & Weigel (2021):
+ Setting
 \end_layout
 
 \end_inset
@@ -14973,7 +15449,8 @@ Bergeron, Tourek & Weigel (2021): Setting
 
 \begin_deeper
 \begin_layout Itemize
-Experiment conducted in Kanaga, a large (1M pop) city in DRC.
+Experiment conducted in Kanaga,
+ a large (1M pop) city in DRC.
  
 \end_layout
 
@@ -14992,8 +15469,10 @@ Property tax campaign in 2018 in two steps
 \end_layout
 
 \begin_layout Enumerate
-Registration visit: tell property owners about the property tax, assess
- high or low band property, exemption.
+Registration visit:
+ tell property owners about the property tax,
+ assess high or low band property,
+ exemption.
  Gave owner a letter with (randomly) assigned tax rate
 \end_layout
 
@@ -15019,7 +15498,9 @@ Randomly assigned tax rates stratifying by neighborhood and tax band.
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Tax Rates
+Bergeron,
+ Tourek & Weigel (2021):
+ Tax Rates
 \end_layout
 
 \end_inset
@@ -15032,7 +15513,7 @@ Bergeron, Tourek & Weigel (2021): Tax Rates
 \align center
 \begin_inset Graphics
 	filename pictures/BergeronEtAl2021_01.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15052,7 +15533,9 @@ Bergeron, Tourek & Weigel (2021): Tax Rates
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Data
+Bergeron,
+ Tourek & Weigel (2021):
+ Data
 \end_layout
 
 \end_inset
@@ -15067,27 +15550,33 @@ Administrative data.
 \end_layout
 
 \begin_layout Enumerate
-Baseline survey: July - December 2017.
- Skip pattern: Visit every X properties on a street.
+Baseline survey:
+ July - December 2017.
+ Skip pattern:
+ Visit every X properties on a street.
  N = 3,358
 \end_layout
 
 \begin_layout Enumerate
-Midline survey: 4-6 weeks after tax collection ended.
+Midline survey:
+ 4-6 weeks after tax collection ended.
  property/owner characteristics.
  Bribe payment and other tax payments.
  N = 22,667 owners plus 6,967 non-owner interviews
 \end_layout
 
 \begin_layout Enumerate
-Endline survey: March-September 2019.
- Other tax payments, views of govt, perceptions of tax system.
+Endline survey:
+ March-September 2019.
+ Other tax payments,
+ views of govt,
+ perceptions of tax system.
  N= 2,760.
 \end_layout
 
 \begin_layout Enumerate
-Property Value: Predicted value of 38,023 properties using ML on training
- sample of 1,654 properties.
+Property Value:
+ Predicted value of 38,023 properties using ML on training sample of 1,654 properties.
 \end_layout
 
 \end_deeper
@@ -15103,7 +15592,9 @@ Property Value: Predicted value of 38,023 properties using ML on training
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Results
+Bergeron,
+ Tourek & Weigel (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -15133,11 +15624,13 @@ where
 \begin_inset Formula $n$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\gamma_{i,n}$
 \end_inset
 
- indicates high-value property, 
+ indicates high-value property,
+ 
 \begin_inset Formula $\delta_{n}$
 \end_inset
 
@@ -15188,7 +15681,9 @@ where
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Results
+Bergeron,
+ Tourek & Weigel (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -15221,7 +15716,9 @@ Bergeron, Tourek & Weigel (2021): Results
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Results
+Bergeron,
+ Tourek & Weigel (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -15254,7 +15751,9 @@ Bergeron, Tourek & Weigel (2021): Results
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Results
+Bergeron,
+ Tourek & Weigel (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -15267,7 +15766,7 @@ Bergeron, Tourek & Weigel (2021): Results
 \align center
 \begin_inset Graphics
 	filename pictures/BergeronEtAl2021_04.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15287,7 +15786,9 @@ Bergeron, Tourek & Weigel (2021): Results
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Revenue-Maximizing Rate
+Bergeron,
+ Tourek & Weigel (2021):
+ Revenue-Maximizing Rate
 \end_layout
 
 \end_inset
@@ -15305,11 +15806,13 @@ Consider property owners choosing between paying tax
 \end_layout
 
 \begin_layout Itemize
-If don't pay, expected cost of tax delinquency is 
+If don't pay,
+ expected cost of tax delinquency is 
 \begin_inset Formula $\alpha=p\pi$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $p$
 \end_inset
 
@@ -15365,8 +15868,8 @@ Revenue is
 
 \end_inset
 
-as in Besley & Persson, think of capacity as something to invest in at cost
- 
+as in Besley & Persson,
+ think of capacity as something to invest in at cost 
 \begin_inset Formula $\mathbb{C}\left(\alpha\right)$
 \end_inset
 
@@ -15386,7 +15889,9 @@ as in Besley & Persson, think of capacity as something to invest in at cost
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Revenue-Maximizing Rate
+Bergeron,
+ Tourek & Weigel (2021):
+ Revenue-Maximizing Rate
 \end_layout
 
 \end_inset
@@ -15412,7 +15917,8 @@ What if you raise rate by a small
 \end_layout
 
 \begin_layout Itemize
-Proposition 1: Revenue-maximizing rate 
+Proposition 1:
+ Revenue-maximizing rate 
 \begin_inset Formula $\left(dM+dB=0\right)$
 \end_inset
 
@@ -15428,7 +15934,8 @@ T^{*}=\frac{\mathbb{P}\left(T^{*},\alpha\right)}{-\left.\frac{d\mathbb{P}\left(T
 \end_layout
 
 \begin_layout Itemize
-Proposition 2: Revenue-maximizing enforcement capacity 
+Proposition 2:
+ Revenue-maximizing enforcement capacity 
 \begin_inset Formula $\alpha^{*}$
 \end_inset
 
@@ -15444,8 +15951,8 @@ T\left.\frac{d\mathbb{P}\left(T,\alpha\right)}{d\alpha}\right|_{\alpha=\alpha^{*
 \end_layout
 
 \begin_layout Itemize
-Proposition 3: Revenue-maximizing rate is increasing in enforcement capacity
- 
+Proposition 3:
+ Revenue-maximizing rate is increasing in enforcement capacity 
 \begin_inset Formula $\alpha$
 \end_inset
 
@@ -15465,7 +15972,9 @@ Proposition 3: Revenue-maximizing rate is increasing in enforcement capacity
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Revenue-Maximizing Rate
+Bergeron,
+ Tourek & Weigel (2021):
+ Revenue-Maximizing Rate
 \end_layout
 
 \end_inset
@@ -15475,7 +15984,8 @@ Bergeron, Tourek & Weigel (2021): Revenue-Maximizing Rate
 
 \begin_deeper
 \begin_layout Itemize
-With this theory, estimate
+With this theory,
+ estimate
 \begin_inset Formula 
 \[
 \mathbb{P}\left(T,\alpha\right)=\beta_{0}\left(\alpha\right)+\beta_{1}\left(\alpha\right)T
@@ -15527,7 +16037,9 @@ T^{*}=\frac{-2\beta_{1}\left(\alpha\right)-\sqrt{\left(2\beta_{1}\left(\alpha\ri
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Results
+Bergeron,
+ Tourek & Weigel (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -15540,7 +16052,7 @@ Bergeron, Tourek & Weigel (2021): Results
 \align center
 \begin_inset Graphics
 	filename pictures/BergeronEtAl2021_05.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15560,7 +16072,9 @@ Bergeron, Tourek & Weigel (2021): Results
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Enforcement Letters
+Bergeron,
+ Tourek & Weigel (2021):
+ Enforcement Letters
 \end_layout
 
 \end_inset
@@ -15570,8 +16084,8 @@ Bergeron, Tourek & Weigel (2021): Enforcement Letters
 
 \begin_deeper
 \begin_layout Itemize
-During registration, property owners get letters with information about
- the property tax and rate.
+During registration,
+ property owners get letters with information about the property tax and rate.
  
 \end_layout
 
@@ -15585,8 +16099,7 @@ Some also received a randomized enforcement message
 \begin_inset Quotes eld
 \end_inset
 
-Refusal to pay the property tax entails the possibility of audit and ivestigatio
-n by the provincial tax ministry
+Refusal to pay the property tax entails the possibility of audit and ivestigation by the provincial tax ministry
 \begin_inset Quotes erd
 \end_inset
 
@@ -15599,8 +16112,7 @@ n by the provincial tax ministry
 \begin_inset Quotes eld
 \end_inset
 
-Refusal to pay the property tax entails the possibility of audit and ivestigatio
-n by the chef de quartier
+Refusal to pay the property tax entails the possibility of audit and ivestigation by the chef de quartier
 \begin_inset Quotes erd
 \end_inset
 
@@ -15620,7 +16132,9 @@ n by the chef de quartier
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Results
+Bergeron,
+ Tourek & Weigel (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -15633,7 +16147,7 @@ Bergeron, Tourek & Weigel (2021): Results
 \align center
 \begin_inset Graphics
 	filename pictures/BergeronEtAl2021_06.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15653,7 +16167,9 @@ Bergeron, Tourek & Weigel (2021): Results
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Randomized Tax Collectors
+Bergeron,
+ Tourek & Weigel (2021):
+ Randomized Tax Collectors
 \end_layout
 
 \end_inset
@@ -15664,8 +16180,7 @@ Bergeron, Tourek & Weigel (2021): Randomized Tax Collectors
 \begin_deeper
 \begin_layout Itemize
 Tax collectors also randomized to neighborhoods.
- Use fixed effects specification to estimate enforcement capacity of collector
- 
+ Use fixed effects specification to estimate enforcement capacity of collector 
 \begin_inset Formula $c$
 \end_inset
 
@@ -15713,7 +16228,9 @@ T_{c}^{*}=\frac{\beta_{c}^{0}}{-2\times\beta_{c}^{1}}
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Results
+Bergeron,
+ Tourek & Weigel (2021):
+ Results
 \end_layout
 
 \end_inset
@@ -15726,7 +16243,7 @@ Bergeron, Tourek & Weigel (2021): Results
 \align center
 \begin_inset Graphics
 	filename pictures/BergeronEtAl2021_07.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15746,7 +16263,9 @@ Bergeron, Tourek & Weigel (2021): Results
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Laffer Curve
+Bergeron,
+ Tourek & Weigel (2021):
+ Laffer Curve
 \end_layout
 
 \end_inset
@@ -15759,7 +16278,7 @@ Bergeron, Tourek & Weigel (2021): Laffer Curve
 \align center
 \begin_inset Graphics
 	filename pictures/BergeronEtAl2021_08.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15779,7 +16298,9 @@ Bergeron, Tourek & Weigel (2021): Laffer Curve
 status open
 
 \begin_layout Plain Layout
-Bergeron, Tourek & Weigel (2021): Enforcement and RMTR
+Bergeron,
+ Tourek & Weigel (2021):
+ Enforcement and RMTR
 \end_layout
 
 \end_inset
@@ -15796,7 +16317,7 @@ Imagine replacing bottom 25% of tax collectors with average
 \align center
 \begin_inset Graphics
 	filename pictures/BergeronEtAl2021_09.png
-	height 90theight%
+	special height=0.9\textheight
 
 \end_inset
 
@@ -15839,7 +16360,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Keen & Slemrod (2017): Overview
+Keen & Slemrod (2017):
+ Overview
 \end_layout
 
 \end_inset
@@ -15864,8 +16386,7 @@ administrative
 \end_layout
 
 \begin_layout Enumerate
-Is it better to raise an additional dollar of revenue by raising rates or
- by increasing enforcement?
+Is it better to raise an additional dollar of revenue by raising rates or by increasing enforcement?
 \end_layout
 
 \begin_layout Enumerate
@@ -15881,8 +16402,8 @@ compliance gap
 \begin_inset Quotes erd
 \end_inset
 
- (gap between tax legally due and tax collected) be? It's not zero so how
- do we know if it's too big or too small?
+ (gap between tax legally due and tax collected) be?
+ It's not zero so how do we know if it's too big or too small?
 \end_layout
 
 \end_deeper
@@ -15897,14 +16418,12 @@ enforcment elasticity of revenue
 
 \begin_deeper
 \begin_layout Itemize
-optimal administration sets this elasticity equal to ratio of costs and
- revenues (c.f.
+optimal administration sets this elasticity equal to ratio of costs and revenues (c.f.
  ETI)
 \end_layout
 
 \begin_layout Itemize
-tradeoff between administration and rates rests on balance between ETI and
- enforcement elasticity
+tradeoff between administration and rates rests on balance between ETI and enforcement elasticity
 \end_layout
 
 \end_deeper
@@ -15921,7 +16440,8 @@ tradeoff between administration and rates rests on balance between ETI and
 status open
 
 \begin_layout Plain Layout
-Keen & Slemrod (2017): Model
+Keen & Slemrod (2017):
+ Model
 \end_layout
 
 \end_inset
@@ -15943,11 +16463,13 @@ where
 \begin_inset Formula $x$
 \end_inset
 
- is consumption; 
+ is consumption;
+ 
 \begin_inset Formula $l$
 \end_inset
 
- is hours worked; and 
+ is hours worked;
+ and 
 \begin_inset Formula $g$
 \end_inset
 
@@ -15971,21 +16493,24 @@ where
 \begin_inset Formula $w$
 \end_inset
 
- is exogenous wage; 
+ is exogenous wage;
+ 
 \begin_inset Formula $e$
 \end_inset
 
- is evaded income; 
+ is evaded income;
+ 
 \begin_inset Formula $c$
 \end_inset
 
- are private concealment costs; 
+ are private concealment costs;
+ 
 \begin_inset Formula $\alpha$
 \end_inset
 
  is an 
 \series bold
-enforcment parameter
+enforcement parameter
 \series default
  satisfying 
 \begin_inset Formula $c_{\alpha}>0$
@@ -16011,7 +16536,8 @@ enforcment parameter
 status open
 
 \begin_layout Plain Layout
-Keen & Slemrod (2017): Individual Choices
+Keen & Slemrod (2017):
+ Individual Choices
 \end_layout
 
 \end_inset
@@ -16075,7 +16601,8 @@ Note that
 status open
 
 \begin_layout Plain Layout
-Keen & Slemrod (2017): Government Choices
+Keen & Slemrod (2017):
+ Government Choices
 \end_layout
 
 \end_inset
@@ -16162,7 +16689,8 @@ where
 status open
 
 \begin_layout Plain Layout
-Keen & Slemrod (2017): Optimal Administration
+Keen & Slemrod (2017):
+ Optimal Administration
 \end_layout
 
 \end_inset
@@ -16235,7 +16763,8 @@ E\left(z,\alpha\right)=\phi
 status open
 
 \begin_layout Plain Layout
-Keen & Slemrod (2017): Balancing Policy & Administration
+Keen & Slemrod (2017):
+ Balancing Policy & Administration
 \end_layout
 
 \end_inset
@@ -16245,8 +16774,9 @@ Keen & Slemrod (2017): Balancing Policy & Administration
 
 \begin_deeper
 \begin_layout Itemize
-If enforcement is constrained to be low, should we respond by having higher
- tax rates? or lower?
+If enforcement is constrained to be low,
+ should we respond by having higher tax rates?
+ or lower?
 \end_layout
 
 \begin_deeper
@@ -16274,7 +16804,8 @@ W_{t\alpha}=-\underbrace{\left(v^{\prime}-1\right)}_{>0}e_{\alpha}-v^{\prime}te_
 \end_layout
 
 \begin_layout Itemize
-Proposition: A sufficient condition for strategic complementary (
+Proposition:
+ A sufficient condition for strategic complementary (
 \begin_inset Formula $dt/d\alpha>0$
 \end_inset
 
@@ -16298,7 +16829,8 @@ Proposition: A sufficient condition for strategic complementary (
 status open
 
 \begin_layout Plain Layout
-Keen & Slemrod (2017): Balancing Policy & Administration
+Keen & Slemrod (2017):
+ Balancing Policy & Administration
 \end_layout
 
 \end_inset
@@ -16312,8 +16844,8 @@ Should we raise a marginal dollar from tax rates or enforcement?
 \end_layout
 
 \begin_layout Itemize
-Consider the following thought experiment: Do a balanced budget reform that
- increase 
+Consider the following thought experiment:
+ Do a balanced budget reform that increase 
 \begin_inset Formula $\alpha$
 \end_inset
 
@@ -16338,7 +16870,8 @@ dW=W_{t}\left.\frac{dt}{d\alpha}\right|_{g}+W_{\alpha}\gtrless0?
 \end_layout
 
 \begin_layout Itemize
-Proposition: Marginal revenue should come from tax rate increase iff
+Proposition:
+ Marginal revenue should come from tax rate increase iff
 \begin_inset Formula 
 \[
 \frac{E\left(z,\alpha\right)-\frac{\alpha a_{\alpha}}{tz}}{1-\frac{t}{1-t}E\left(z,1-t\right)}>\frac{\alpha c_{\alpha}}{tz}
@@ -16355,7 +16888,9 @@ Shows how to combine sufficient statistics to guide policy.
 
 \end_deeper
 \begin_layout Subsection
-Basri, Felix, Hanna & Olken (AER 2020) 
+Basri,
+ Felix,
+ Hanna & Olken (AER 2020) 
 \begin_inset ERT
 status open
 
@@ -16371,7 +16906,8 @@ textit{
 \end_inset
 
 Tax Administration vs.
- Tax Rates: Evidence from Corporate Taxation in Indonesia
+ Tax Rates:
+ Evidence from Corporate Taxation in Indonesia
 \begin_inset ERT
 status open
 
@@ -16390,7 +16926,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Overview
+Basri et al (2020):
+ Overview
 \end_layout
 
 \end_inset
@@ -16405,19 +16942,17 @@ Motivation
 
 \begin_deeper
 \begin_layout Itemize
-We've seen several papers now on how to use enforcement techniques to improve
- compliance and raise revenue
+We've seen several papers now on how to use enforcement techniques to improve compliance and raise revenue
 \end_layout
 
 \begin_layout Itemize
 We also saw one paper (Best et al.
- 2015) on how to use policy design (bases, rates) to improve compliance
- and raise revenue
+ 2015) on how to use policy design (bases,
+ rates) to improve compliance and raise revenue
 \end_layout
 
 \begin_layout Itemize
-Say that you have to choose between improving tax administration and improving
- tax compliance.
+Say that you have to choose between improving tax administration and improving tax compliance.
  How should you think about the tradeoff between the two?
 \end_layout
 
@@ -16432,8 +16967,7 @@ Apply Keen & Slemrod (2017) framework to Indonesia
 \end_layout
 
 \begin_layout Itemize
-Leverage quasi-experimental variation from admin reform and from tax rate
- reform to estimate key elasticities
+Leverage quasi-experimental variation from admin reform and from tax rate reform to estimate key elasticities
 \end_layout
 
 \begin_layout Itemize
@@ -16454,7 +16988,8 @@ Plug elasticities into the sufficient statistics framework to quantify tradeoffs
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Context
+Basri et al (2020):
+ Context
 \end_layout
 
 \end_inset
@@ -16464,8 +16999,7 @@ Basri et al (2020): Context
 
 \begin_deeper
 \begin_layout Itemize
-Study corporate income tax administered by Directorate General of Taxation
- (DGT)
+Study corporate income tax administered by Directorate General of Taxation (DGT)
 \end_layout
 
 \begin_layout Itemize
@@ -16474,8 +17008,7 @@ Big administrative reforms started in 2002
 
 \begin_deeper
 \begin_layout Enumerate
-largest 200 firms' admin moved to centralized Large Taxpayer Office (LTO)
- in Jakarta.
+largest 200 firms' admin moved to centralized Large Taxpayer Office (LTO) in Jakarta.
  Several hundred taxpayers in each region 
 \begin_inset Formula $\rightarrow$
 \end_inset
@@ -16494,8 +17027,8 @@ Offices restructured.
 \begin_layout Itemize
 Corporate income tax rate reform in 2009.
  Pre-reform there was a progressive tax with MTR increasing in taxable profit.
- Post-reform tax schedule depends on gross income, and rate is flat with
- discounts:
+ Post-reform tax schedule depends on gross income,
+ and rate is flat with discounts:
 \end_layout
 
 \end_deeper
@@ -16511,7 +17044,8 @@ Corporate income tax rate reform in 2009.
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Tax Reform
+Basri et al (2020):
+ Tax Reform
 \end_layout
 
 \end_inset
@@ -16579,7 +17113,8 @@ Basri et al (2020): Tax Reform
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Model
+Basri et al (2020):
+ Model
 \end_layout
 
 \end_inset
@@ -16651,7 +17186,8 @@ Assume only a proportion
 \end_inset
 
  on sales minus deductible profits.
- For lines on which tax is paid, the firm solves
+ For lines on which tax is paid,
+ the firm solves
 \begin_inset Formula 
 \[
 \max_{y_{l}}\left(1-\tau\right)y_{l}-\left(1-\tau\mu\right)c\left(y_{l}\right)
@@ -16687,7 +17223,8 @@ c^{\prime}\left(y^{p}\right)=1-\tau^{E}\quad\text{where }\tau^{E}\equiv\frac{\ta
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Model
+Basri et al (2020):
+ Model
 \end_layout
 
 \end_inset
@@ -16711,7 +17248,8 @@ Firms can evade by hiding some business lines.
 \end_layout
 
 \begin_layout Itemize
-Lines are implicitly ordered by evasion: 
+Lines are implicitly ordered by evasion:
+ 
 \begin_inset Formula $h^{\prime}\left(l\right)>0$
 \end_inset
 
@@ -16727,8 +17265,9 @@ Lines are implicitly ordered by evasion:
 \begin_inset Formula $b\left(\cdot\right)$
 \end_inset
 
- assumed increasing and convex: bigger lines more easily detectable, harder
- to evade.
+ assumed increasing and convex:
+ bigger lines more easily detectable,
+ harder to evade.
 \end_layout
 
 \begin_layout Itemize
@@ -16743,7 +17282,8 @@ If line
 \begin_inset Formula $l$
 \end_inset
 
- hidden, output solves
+ hidden,
+ output solves
 \begin_inset Formula 
 \[
 \max_{y_{l}}y_{l}-c\left(y_{l}\right)-\alpha b\left(y_{l}\right)h\left(l\right)\quad\Rightarrow c^{\prime}\left(y^{e}\right)=1-\alpha b^{\prime}\left(y^{e}\right)h\left(l\right)
@@ -16791,7 +17331,8 @@ Tax collected from the firm is
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Changing Enforcement and Taxes
+Basri et al (2020):
+ Changing Enforcement and Taxes
 \end_layout
 
 \end_inset
@@ -16805,13 +17346,16 @@ Increasing enforcement
 \begin_inset Formula $\alpha$
 \end_inset
 
-: Evasion costs go up making evasion less attractive.
- But if continue to evade, output declines.
+:
+ Evasion costs go up making evasion less attractive.
+ But if continue to evade,
+ output declines.
  
 \begin_inset Formula $\Rightarrow$
 \end_inset
 
- output goes down on evaded lines, but firms evade on fewer lines.
+ output goes down on evaded lines,
+ but firms evade on fewer lines.
 \end_layout
 
 \begin_layout Itemize
@@ -16835,7 +17379,8 @@ both
 \end_layout
 
 \begin_layout Itemize
-Effect on real activity ambiguous: Switching to formality removes 
+Effect on real activity ambiguous:
+ Switching to formality removes 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16898,7 +17443,8 @@ increases evasion (MB of evasion
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Welfare
+Basri et al (2020):
+ Welfare
 \end_layout
 
 \end_inset
@@ -16927,7 +17473,8 @@ How does marginal change in enforcement
 \begin_inset Formula $\alpha$
 \end_inset
 
- affect welfare? Using envelope theorem
+ affect welfare?
+ Using envelope theorem
 \begin_inset Formula 
 \[
 W_{\alpha}=-\frac{d\gamma}{d\alpha}+v\left(\tau\frac{dz}{d\alpha}-\frac{da}{d\alpha}\right)
@@ -16967,7 +17514,8 @@ W_{\tau}=-z+v\left(z+\tau\frac{dz}{d\tau}\right)=-z+vz\left(1-\frac{\tau}{1-\tau
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Welfare
+Basri et al (2020):
+ Welfare
 \end_layout
 
 \end_inset
@@ -16982,7 +17530,8 @@ We want to compare these welfare effects.
 \begin_inset Formula $d\alpha$
 \end_inset
 
-, and b) reduce tax rates by exactly the right amount 
+,
+ and b) reduce tax rates by exactly the right amount 
 \begin_inset Formula $\left.\tfrac{d\tau}{d\alpha}\right|_{R}$
 \end_inset
 
@@ -17032,7 +17581,8 @@ dW & =W_{\tau}\left.\frac{d\tau}{d\alpha}\right|_{R}+W_{\alpha}\\
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Size-Dependent Enforcement
+Basri et al (2020):
+ Size-Dependent Enforcement
 \end_layout
 
 \end_inset
@@ -17042,8 +17592,8 @@ Basri et al (2020): Size-Dependent Enforcement
 
 \begin_deeper
 \begin_layout Itemize
-Suppose level of enforcement depends on firm size? Then evasion cost could
- be written as 
+Suppose level of enforcement depends on firm size?
+ Then evasion cost could be written as 
 \begin_inset Formula 
 \[
 \alpha m\left(z\right)b^{\prime}\left(y\right)h\left(l\right)
@@ -17086,7 +17636,8 @@ Now firms evade up until
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Effects of enforcement
+Basri et al (2020):
+ Effects of enforcement
 \end_layout
 
 \end_inset
@@ -17101,8 +17652,7 @@ Study effect on firms of being put into the MTO in 2007
 
 \begin_layout Itemize
 Empirical strategy is a matched difference in differences.
- Use entropy balancing (Hainmueller 2012) to find weights for control firms
- that pre-treatment characteristics match the treatment firms.
+ Use entropy balancing (Hainmueller 2012) to find weights for control firms that pre-treatment characteristics match the treatment firms.
 \end_layout
 
 \begin_layout Itemize
@@ -17111,7 +17661,8 @@ Match on 2005 gross income and taxes paid.
 \end_layout
 
 \begin_layout Itemize
-Reduced form: 
+Reduced form:
+ 
 \begin_inset Formula 
 \[
 Y_{it}=\alpha+\beta^{RF}\left(M_{iFC}\times1_{t>2005}\right)+\delta_{t}+\delta_{i}+\epsilon_{it}
@@ -17123,15 +17674,18 @@ where
 \begin_inset Formula $M_{iFC}$
 \end_inset
 
- is a dummy for being in the first wave of MTO, 
+ is a dummy for being in the first wave of MTO,
+ 
 \begin_inset Formula $\delta_{t}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\delta_{i}$
 \end_inset
 
- are year, firm FEs.
+ are year,
+ firm FEs.
 \end_layout
 
 \begin_layout Itemize
@@ -17167,7 +17721,8 @@ where instrument for actual MTO status
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Enforcement Effects
+Basri et al (2020):
+ Enforcement Effects
 \end_layout
 
 \end_inset
@@ -17235,7 +17790,8 @@ Basri et al (2020): Enforcement Effects
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Enforcement Effects
+Basri et al (2020):
+ Enforcement Effects
 \end_layout
 
 \end_inset
@@ -17303,7 +17859,8 @@ Basri et al (2020): Enforcement Effects
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Enforcement Effects
+Basri et al (2020):
+ Enforcement Effects
 \end_layout
 
 \end_inset
@@ -17371,7 +17928,8 @@ Basri et al (2020): Enforcement Effects
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Tax Reform
+Basri et al (2020):
+ Tax Reform
 \end_layout
 
 \end_inset
@@ -17381,8 +17939,8 @@ Basri et al (2020): Tax Reform
 
 \begin_deeper
 \begin_layout Itemize
-Follow simulated instrument approach as in Gruber & Saez (2002), Gruber
- & Rauh (2007).
+Follow simulated instrument approach as in Gruber & Saez (2002),
+ Gruber & Rauh (2007).
 \begin_inset Formula 
 \[
 \ln\left(\frac{z_{it+1}}{z_{it}}\right)=\alpha+\varepsilon\ln\left(\frac{1-\tau_{it+1}}{1-\tau_{it}}\right)+\psi_{1}\ln z_{it}+\psi_{2}\ln g_{it}+\delta_{t}+\delta_{i}+\nu_{it}
@@ -17394,11 +17952,13 @@ where
 \begin_inset Formula $z_{it}$
 \end_inset
 
- is (reported) taxable income, 
+ is (reported) taxable income,
+ 
 \begin_inset Formula $g_{it}$
 \end_inset
 
- is reported gross income, 
+ is reported gross income,
+ 
 \begin_inset Formula $\tau_{it}$
 \end_inset
 
@@ -17439,8 +17999,7 @@ Instrument for
 \end_layout
 
 \begin_layout Itemize
-Use the same sample and balancing weights as for MTO for comparability of
- results.
+Use the same sample and balancing weights as for MTO for comparability of results.
 \end_layout
 
 \end_deeper
@@ -17456,7 +18015,8 @@ Use the same sample and balancing weights as for MTO for comparability of
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Tax Reform Results
+Basri et al (2020):
+ Tax Reform Results
 \end_layout
 
 \end_inset
@@ -17469,7 +18029,7 @@ Basri et al (2020): Tax Reform Results
 \align center
 \begin_inset Graphics
 	filename pictures/BasriEtAl_09.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -17489,7 +18049,8 @@ Basri et al (2020): Tax Reform Results
 status open
 
 \begin_layout Plain Layout
-Basri et al (2020): Comparison of Enforcement and Rates
+Basri et al (2020):
+ Comparison of Enforcement and Rates
 \end_layout
 
 \end_inset
@@ -17499,8 +18060,7 @@ Basri et al (2020): Comparison of Enforcement and Rates
 
 \begin_deeper
 \begin_layout Itemize
-Modify the welfare effect of the revenue neutral reform to reflect the fact
- that the tax rate reform applies to the top tax bracket only
+Modify the welfare effect of the revenue neutral reform to reflect the fact that the tax rate reform applies to the top tax bracket only
 \begin_inset Formula 
 \[
 dW=\left(\tau\frac{dz}{d\alpha}-\frac{da}{d\alpha}\right)\frac{1}{1-\frac{\tau}{1-\tau}\rho\varepsilon_{1-\tau}}-\frac{d\gamma}{d\alpha}

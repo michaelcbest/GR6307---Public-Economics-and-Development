@@ -8055,7 +8055,7 @@ Jensen (2021):
 \end_deeper
 \begin_layout Subsection
 Bachas,
- Gadenne & Jensen (REStud forthcoming) 
+ Gadenne & Jensen (REStud 2024) 
 \begin_inset ERT
 status open
 
@@ -8091,7 +8091,7 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023):
+ (2024):
  Overview
 \end_layout
 
@@ -8106,7 +8106,7 @@ How much can we rely on consumption taxes to reduce inequality in developing cou
 \end_layout
 
 \begin_layout Itemize
-Use comprehensive household expenditure data from 31 countries to document patterns of informal (untaxed/untaxable!) consumption,
+Use comprehensive household expenditure data from 32 countries to document patterns of informal (untaxed/untaxable!) consumption,
  summarized in the 
 \emph on
 informality Engel Curve
@@ -8136,7 +8136,7 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023):
+ (2024):
  Data
 \end_layout
 
@@ -8189,7 +8189,7 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023):
+ (2024):
  Proxy For Informality
 \end_layout
 
@@ -8255,7 +8255,7 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023):
+ (2024):
  Proxy for Informality
 \end_layout
 
@@ -8290,7 +8290,7 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023):
+ (2024):
  Informality Engel Curves
 \end_layout
 
@@ -8334,7 +8334,7 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023):
+ (2024):
  Informality Engel Curves
 \end_layout
 
@@ -8376,7 +8376,7 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023):
+ (2024):
  Informality Engel Curves
 \end_layout
 
@@ -8418,7 +8418,7 @@ status open
 
 \begin_layout Plain Layout
 Bachas et al.
- (2023):
+ (2024):
  Food Engel Curves
 \end_layout
 
@@ -8457,7 +8457,47 @@ Can we approximate informality-targeting by just exempting food?
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023):
+Bachas et al.
+ (2024):
+ Food Engel Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pictures/BachasGadenneJensen_5.png
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Can we approximate informality-targeting by just exempting food?
+ Depends how steep the food engel curve is.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bachas et al (2024):
  Implications for Progressivity
 \end_layout
 
@@ -8491,7 +8531,7 @@ Bachas et al (2023):
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023):
+Bachas et al (2024):
  Implications for Progressivity
 \end_layout
 
@@ -8525,7 +8565,7 @@ Bachas et al (2023):
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023):
+Bachas et al (2024):
  Optimal Consumption Taxation
 \end_layout
 
@@ -8638,7 +8678,7 @@ inverse elasticity rule
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023):
+Bachas et al (2024):
  Optimal Consumption Taxation
 \end_layout
 
@@ -8727,7 +8767,7 @@ where
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023):
+Bachas et al (2024):
  Optimal Consumption Taxation
 \end_layout
 
@@ -8874,7 +8914,7 @@ zero cross price elasticities across goods,
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023):
+Bachas et al (2024):
  Optimal Consumption Taxation
 \end_layout
 
@@ -8946,7 +8986,7 @@ Optimal rate increasing in covariance between income and formal budget shares.
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023):
+Bachas et al (2024):
  Optimal Consumption Taxation
 \end_layout
 
@@ -9034,7 +9074,7 @@ The efficiency cost of taxing all products uniformly is decreasing over the deve
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023):
+Bachas et al (2024):
  Calibration
 \end_layout
 
@@ -9068,7 +9108,7 @@ Bachas et al (2023):
 status open
 
 \begin_layout Plain Layout
-Bachas et al (2023):
+Bachas et al (2024):
  Calibration
 \end_layout
 
