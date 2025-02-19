@@ -8431,8 +8431,8 @@ Bachas et al.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename pictures/BachasGadenneJensen_5.png
-	scale 32
+	filename pictures/BachasGadenneJensen_10.png
+	width 95page%
 
 \end_inset
 
@@ -8459,7 +8459,7 @@ status open
 \begin_layout Plain Layout
 Bachas et al.
  (2024):
- Food Engel Curves
+ Formal Food Engel Curves
 \end_layout
 
 \end_inset
@@ -8469,10 +8469,9 @@ Bachas et al.
 
 \begin_deeper
 \begin_layout Standard
-\align center
 \begin_inset Graphics
-	filename pictures/BachasGadenneJensen_5.png
-	scale 32
+	filename pictures/BachasGadenneJensen_11.png
+	width 95page%
 
 \end_inset
 
@@ -8480,8 +8479,7 @@ Bachas et al.
 \end_layout
 
 \begin_layout Itemize
-Can we approximate informality-targeting by just exempting food?
- Depends how steep the food engel curve is.
+Formal Food Engel curves don't slope down!
 \end_layout
 
 \end_deeper
