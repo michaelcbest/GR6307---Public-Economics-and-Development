@@ -1257,7 +1257,7 @@
       \field{title}{Food vs. Food Stamps: Evidence from an At-Scale Experiment in Indonesia}
       \field{year}{2021}
     \endentry
-    \entry{BanerjeeHannaOlkenLisker2022}{unpublished}{}
+    \entry{BanerjeeHannaOlkenLisker2022}{article}{}
       \name{author}{4}{}{%
         {{hash=027abafc894615db04e1c3f3dc5931c4}{%
            family={Banerjee},
@@ -1289,10 +1289,14 @@
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Mimeo: MIT}
+      \field{labeltitlesource}{author}
+      \field{issue}{4}
+      \field{journaltitle}{Journal of Economic Literature}
       \field{title}{Social Protection in the Developing World}
-      \field{year}{2022}
+      \field{volume}{62}
+      \field{year}{2024}
+      \field{pages}{1349\bibrangedash 1421}
+      \range{pages}{73}
     \endentry
     \entry{Barnwal2017}{unpublished}{}
       \name{author}{1}{}{%
@@ -4811,6 +4815,38 @@
       \field{pages}{180\bibrangedash 196}
       \range{pages}{17}
     \endentry
+    \entry{RafkinSoltas2024}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=fc239d37c890c0da24ec40598f0e67ee}{%
+           family={Rafkin},
+           familyi={R\bibinitperiod},
+           given={Charlie},
+           giveni={C\bibinitperiod}}}%
+        {{hash=553eb9a841a2bb81498cd11337d3e658}{%
+           family={Solomon},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=763ca9bee1f5c7b87440f2db41eee715}{%
+           family={Soltas},
+           familyi={S\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bd349254127bc2479c0e6c607474149}
+      \strng{fullhash}{1bd349254127bc2479c0e6c607474149}
+      \strng{bibnamehash}{1bd349254127bc2479c0e6c607474149}
+      \strng{authorbibnamehash}{1bd349254127bc2479c0e6c607474149}
+      \strng{authornamehash}{1bd349254127bc2479c0e6c607474149}
+      \strng{authorfullhash}{1bd349254127bc2479c0e6c607474149}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo: Princeton University}
+      \field{title}{Self-Targeting in U.S. Transfer Programs}
+      \field{year}{2024}
+    \endentry
     \entry{Rothstein2010}{article}{}
       \name{author}{1}{}{%
         {{hash=32f184eeb7be3aeb08713f786f43cb1b}{%
@@ -4964,6 +5000,33 @@
       \field{year}{2016}
       \field{pages}{3029\bibrangedash 3063}
       \range{pages}{35}
+    \endentry
+    \entry{ShepardWagner2025}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=d95d43ab3beff9814db193f701a885eb}{%
+           family={Shepard},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3aff9db13a41e338d061c1338c398c7e}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Myles},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ebfa3e961797934d4f8a7537e631142}
+      \strng{fullhash}{4ebfa3e961797934d4f8a7537e631142}
+      \strng{bibnamehash}{4ebfa3e961797934d4f8a7537e631142}
+      \strng{authorbibnamehash}{4ebfa3e961797934d4f8a7537e631142}
+      \strng{authornamehash}{4ebfa3e961797934d4f8a7537e631142}
+      \strng{authorfullhash}{4ebfa3e961797934d4f8a7537e631142}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Forthcoming, American Economic Review}
+      \field{title}{Do Ordeals Work for Selection Markets? Evidence from Health Insurance Auto-Enrollment}
+      \field{year}{2025}
     \endentry
     \entry{ShleiferVishny1993}{article}{}
       \name{author}{2}{}{%
