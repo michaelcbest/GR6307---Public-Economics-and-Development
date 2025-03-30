@@ -1729,6 +1729,53 @@
       \field{pages}{1218\bibrangedash 1244}
       \range{pages}{27}
     \endentry
+    \entry{BesleyPersson2024}{article}{}
+      \name{author}{2}{}{%
+        {{hash=57c77888db637677332c102812686993}{%
+           family={Besley},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f1fa15cf0ff6f6015cc43a7429eab414}{%
+           family={Persson},
+           familyi={P\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{fullhash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{bibnamehash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{authorbibnamehash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{authornamehash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{authorfullhash}{694cc4f94f43f89a4109d00bacb38383}
+      \field{extraname}{4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{We examine the two-way interplay between organizational cultures and organizational design, where culture is modeled as the prevailing social identities among workplace groups that can affect project choices. In a setting where cultural dynamics depend on the expected relative payoffs of holding different identities, we investigate how tribalism and charismatic leadership shape organizational dynamics and steady-state cultures. We show how a strong culture can be a virtue when it permits greater delegated authority, but a vice when the culture is poorly aligned with organizational objectives. We apply our analysis to concrete debates about the interaction of design, performance, and culture (JEL L23, M14).}
+      \field{issn}{8756-6222}
+      \field{journaltitle}{The Journal of Law, Economics, and Organization}
+      \field{month}{10}
+      \field{number}{2}
+      \field{title}{Organizational dynamics: culture, design, and performance}
+      \field{volume}{40}
+      \field{year}{2022}
+      \field{pages}{394\bibrangedash 415}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1093/jleo/ewac020
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/jleo/article-pdf/40/2/394/58291818/ewac020.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/jleo/ewac020
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/jleo/ewac020
+      \endverb
+    \endentry
     \entry{Bestetal2015}{article}{}
       \name{author}{5}{}{%
         {{hash=0b9f0e89991f59bd27ead359a8158e9a}{%
@@ -4781,7 +4828,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
       \field{issue}{5}
-      \field{journaltitle}{Jounral of Political Economy}
+      \field{journaltitle}{Journal of Political Economy}
       \field{title}{The Limits of Bureaucratic Efficiency}
       \field{volume}{111}
       \field{year}{2003}

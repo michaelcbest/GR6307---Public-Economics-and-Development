@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber GR 6307 - Syllabus"] 1740536939.96249 "GR 6307 - Syllabus.bcf" "GR 6307 - Syllabus.bbl" "GR 6307 - Syllabus" 1740537065.92672 0
-  "GR 6307 - Syllabus.bcf" 1740537065.87379 199648 8a23a7b4d87b4d7480a2e0cd8a10156f "pdflatex"
-  "readinglist.bib" 1740536939.77018 42681 33235faa26d85296748255e7b662f128 ""
+["biber GR 6307 - Syllabus"] 1743372821.4304 "GR 6307 - Syllabus.bcf" "GR 6307 - Syllabus.bbl" "GR 6307 - Syllabus" 1743372825.314 0
+  "GR 6307 - Syllabus.bcf" 1743372825.25878 199795 77c213949edd99b5cb2db0f036f46f49 "pdflatex"
+  "readinglist.bib" 1743372659.68375 44144 8412d80091209ea1f6bf2ba1ea075012 ""
   (generated)
   "GR 6307 - Syllabus.bbl"
   "GR 6307 - Syllabus.blg"
   (rewritten before read)
-["pdflatex"] 1740537064.30443 "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" "GR 6307 - Syllabus.pdf" "GR 6307 - Syllabus" 1740537065.92702 0
-  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" 1740537064.10513 11424 e776f4a1d075426f076deb2a2106183c ""
+["pdflatex"] 1743372823.57109 "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" "GR 6307 - Syllabus.pdf" "GR 6307 - Syllabus" 1743372825.31431 0
+  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" 1743372819.56336 11514 e371a2e18a81d5e0c1884f87b7484921 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -18,6 +18,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplbi8t.tfm" 1136768653 3788 23f75d701871fed6ba2bf32f67976132 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1136768653 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm" 1136768653 3820 ee5b9d58608ae328e43c6e2bfd4ff851 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplrc8t.tfm" 1136768653 6396 8f2d6400481d3b17b3e6693d0adfe2c9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm" 1136768653 2720 70000d5e623e601132eab3cded5b819b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm" 1136768653 3684 929c666381f7272e81481908b735ccba ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -52,6 +53,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf" 1136768653 2316 c3899bd8afb459a9a5a9a546bf3029a2 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplbi8t.vf" 1136768653 2328 2c4c0c8f8d191e4e9817ad6b330c3cdd ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf" 1136768653 2324 a163806de13ddf37313d2ee968aa0a98 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplrc8t.vf" 1136768653 3612 3b695ba1de8aa9e6cce1125ba31cb82d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplri8t.vf" 1136768653 2308 5bc0a90b83a3fd7d37d34ef3b64d7e8a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf" 1136768653 1532 73e2c76c81e4f977ab65540630baf4f0 ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -120,11 +122,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1736099045.323 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1736099016 8221439 7a3b4fbd918f1fb88364fd9ee2734f96 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "GR 6307 - Syllabus.aux" 1740537065.84883 14763 20d94226fabe83c4651dde273280f3a0 "pdflatex"
-  "GR 6307 - Syllabus.bbl" 1740536966.97199 222980 9f6a34602c23b0441ce5a17623437530 "biber GR 6307 - Syllabus"
-  "GR 6307 - Syllabus.out" 1740537065.87314 3709 489eff99b5071c407786b9b2a76c7d1d "pdflatex"
-  "GR 6307 - Syllabus.run.xml" 1740537065.87426 2452 bc349a9ff2390b166b343cecf8e4d799 "pdflatex"
-  "GR 6307 - Syllabus.tex" 1740537064.10513 11424 e776f4a1d075426f076deb2a2106183c ""
+  "GR 6307 - Syllabus.aux" 1743372825.23333 14911 3423515896fc247970d4ac0fa550ca45 "pdflatex"
+  "GR 6307 - Syllabus.bbl" 1743372823.5566 225434 812332951db55f38bad6c4efc38da278 "biber GR 6307 - Syllabus"
+  "GR 6307 - Syllabus.out" 1743372825.25807 3709 489eff99b5071c407786b9b2a76c7d1d "pdflatex"
+  "GR 6307 - Syllabus.run.xml" 1743372825.25931 2452 bc349a9ff2390b166b343cecf8e4d799 "pdflatex"
+  "GR 6307 - Syllabus.tex" 1743372819.56336 11514 e371a2e18a81d5e0c1884f87b7484921 ""
   (generated)
   "GR 6307 - Syllabus.aux"
   "GR 6307 - Syllabus.bcf"

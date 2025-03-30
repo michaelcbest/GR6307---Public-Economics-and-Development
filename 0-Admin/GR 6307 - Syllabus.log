@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.5)  25 FEB 2025 21:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.5)  30 MAR 2025 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -738,61 +738,73 @@ Overfull \hbox (2.15523pt too wide) in paragraph at lines 198--199
  Vir-ginia, 2022. 
  []
 
-[13] [14] [15]
+[13] [14]
+Overfull \hbox (10.51505pt too wide) in paragraph at lines 227--228
+[][]\T1/ppl/m/n/10.95 Christina Brown and Tahir An-drabi. ``In-duc-ing Pos-i-ti
+ve Sort-ing through
+ []
+
+[15]
 pdfTeX warning (ext4): destination with the same identifier (name{cite.0:OlkenP
 ande2012}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.234 \item \fullcite{OlkenPande2012}
-                                     
-Overfull \hbox (0.65927pt too wide) in paragraph at lines 240--241
+l.236 \item \fullcite{OlkenPande2012}.
+                                      
+Overfull \hbox (0.65927pt too wide) in paragraph at lines 242--243
 \T1/ppl/m/n/10.95 Ex-per-i-ment on In-cen-tives for Pub-lic Ser-vices De-liv-er
 y''. \T1/ppl/m/it/10.95 Jour-nal of Pub-
  []
 
-
-Overfull \hbox (16.16595pt too wide) in paragraph at lines 244--245
+[16]
+Overfull \hbox (16.16595pt too wide) in paragraph at lines 246--247
 \T1/ppl/b/n/10.95 Struc-tural Es-ti-mates from En-vi-ron-men-tal In-spec-tions 
 in In-dia''. \T1/ppl/b/it/10.95 Econo-
  []
 
-[16]
-Overfull \hbox (10.51505pt too wide) in paragraph at lines 253--254
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.0:BrownA
+ndrabi2021}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.255 \item \fullcite{BrownAndrabi2021}.
+                                        
+Overfull \hbox (10.51505pt too wide) in paragraph at lines 255--256
 [][]\T1/ppl/m/n/10.95 Christina Brown and Tahir An-drabi. ``In-duc-ing Pos-i-ti
 ve Sort-ing through
  []
 
 
-Overfull \hbox (4.59454pt too wide) in paragraph at lines 255--256
+Overfull \hbox (4.59454pt too wide) in paragraph at lines 257--258
 \T1/ppl/m/n/10.95 from the Re-cruit-ment of Vil-lage Pro-mot-ers in Uganda''. M
 imeo: North-
  []
 
-
-Overfull \hbox (14.34703pt too wide) in paragraph at lines 256--257
+[17]
+Overfull \hbox (14.34703pt too wide) in paragraph at lines 258--259
 \T1/ppl/m/n/10.95 Civil Ser-vants: Ex-per-i-men-tal Ev-i-dence from Rwan-dan Pr
 i-mary Schools''.
  []
 
-[17]
-Overfull \hbox (5.2132pt too wide) in paragraph at lines 267--268
+
+Overfull \hbox (5.2132pt too wide) in paragraph at lines 269--270
 [][]\T1/ppl/m/n/10.95 A Baner-jee, E Du-flo, C Im-bert, S Mathew, and R Pande. 
 ``E-governance,
  []
 
-
-Overfull \hbox (0.71635pt too wide) in paragraph at lines 270--271
+[18]
+Overfull \hbox (0.71635pt too wide) in paragraph at lines 272--273
 [][]\T1/ppl/m/n/10.95 M Callen and J.D. Long. ``In-sti-tu-tional Cor-rup-tion a
 nd Elec-tion Fraud:
  []
 
-[18] [19]
-Overfull \hbox (4.55156pt too wide) in paragraph at lines 282--283
+[19]
+Overfull \hbox (4.55156pt too wide) in paragraph at lines 284--285
 \T1/ppl/b/n/10.95 ``Hu-man De-ci-sions and Ma-chine Pre-dic-tions''. NBER WP 23
 180, 2017 
  []
 
-[20] (./GR 6307 - Syllabus.aux)
+[20] [21] (./GR 6307 - Syllabus.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -804,13 +816,13 @@ Package logreq Info: Writing requests to '"GR 6307 - Syllabus".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18253 strings out of 474116
- 335843 string characters out of 5743683
+ 18264 strings out of 474116
+ 336008 string characters out of 5743683
  1935187 words of memory out of 5000000
- 40092 multiletter control sequences out of 15000+600000
- 598383 words of font info for 88 fonts, out of 8000000 for 9000
+ 40096 multiletter control sequences out of 15000+600000
+ 600633 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,81p,731b,1389s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,81p,834b,1389s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/t
@@ -820,10 +832,10 @@ texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist
 type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/pal
 atino/uplri8a.pfb>
-Output written on "GR 6307 - Syllabus.pdf" (20 pages, 218817 bytes).
+Output written on "GR 6307 - Syllabus.pdf" (21 pages, 222545 bytes).
 PDF statistics:
- 612 PDF objects out of 1000 (max. 8388607)
- 566 compressed objects within 6 object streams
- 358 named destinations out of 1000 (max. 500000)
+ 627 PDF objects out of 1000 (max. 8388607)
+ 580 compressed objects within 6 object streams
+ 363 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
