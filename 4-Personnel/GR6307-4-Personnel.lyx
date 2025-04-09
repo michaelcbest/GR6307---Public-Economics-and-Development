@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -101,10 +101,10 @@
 \end_preamble
 \options notes=show,aspectratio=169
 \use_default_options false
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language english
 \language_package none
-\inputencoding auto
+\inputencoding auto-legacy
 \fontencoding T1
 \font_roman "cmr" "default"
 \font_sans "helvet" "default"
@@ -113,7 +113,9 @@
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -157,7 +159,9 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -173,11 +177,16 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -235,7 +244,7 @@ Michael Carlos Best
 \end_layout
 
 \begin_layout Date
-Spring 2024
+Spring 2025
 \begin_inset Newline newline
 \end_inset
 
@@ -281,7 +290,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Model Setup
+Aghion & Tirole (1997):
+ Model Setup
 \end_layout
 
 \end_inset
@@ -291,7 +301,8 @@ Aghion & Tirole (1997): Model Setup
 
 \begin_deeper
 \begin_layout Itemize
-Principal-agent framework: Agent is choosing among 
+Principal-agent framework:
+ Agent is choosing among 
 \begin_inset Formula $n\geq3$
 \end_inset
 
@@ -315,7 +326,8 @@ Project
 \end_layout
 
 \begin_layout Itemize
-They can also do nothing: 
+They can also do nothing:
+ 
 \begin_inset Formula $B_{0}=b_{0}=0$
 \end_inset
 
@@ -374,7 +386,8 @@ Choosing the agent's preferred project gives him
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Model Setup
+Aghion & Tirole (1997):
+ Model Setup
 \end_layout
 
 \end_inset
@@ -401,7 +414,8 @@ B_{k}-w
 \end_layout
 
 \begin_layout Itemize
-Agent is risk averse and has limited liability: 
+Agent is risk averse and has limited liability:
+ 
 \begin_inset Formula $w\geq0$
 \end_inset
 
@@ -422,7 +436,8 @@ Agent is so risk averse that
 \end_layout
 
 \begin_layout Itemize
-Initially, nobody knows projects' payoffs.
+Initially,
+ nobody knows projects' payoffs.
  Gathering information is costly.
 \end_layout
 
@@ -473,7 +488,8 @@ Principal can pay cost
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Authority
+Aghion & Tirole (1997):
+ Authority
 \end_layout
 
 \end_inset
@@ -486,6 +502,7 @@ Aghion & Tirole (1997): Authority
 
 \emph on
 P-formal authority:
+
 \emph default
  The principal has formal authority.
  She may overrule the agent's recommendation.
@@ -494,23 +511,24 @@ P-formal authority:
 \begin_layout Enumerate
 
 \emph on
-A-formal authority: 
+A-formal authority:
+ 
 \emph default
 The agent picks his preferred project and cannot be overruled by the principal.
 \end_layout
 
 \begin_layout Itemize
-Contracts specify an allocation of formal authority to either the principal
- or the agent.
+Contracts specify an allocation of formal authority to either the principal or the agent.
 \end_layout
 
 \begin_layout Itemize
 
 \emph on
 Real authority:
+
 \emph default
- Who actually gets to make the decision? Either because agent has formal
- authority or because P is just 
+ Who actually gets to make the decision?
+ Either because agent has formal authority or because P is just 
 \begin_inset Quotes eld
 \end_inset
 
@@ -535,8 +553,7 @@ Parties gather information
 \end_layout
 
 \begin_layout Enumerate
-The party without formal authority communicates a subset of the projects'
- payoffs (s)he has learned
+The party without formal authority communicates a subset of the projects' payoffs (s)he has learned
 \end_layout
 
 \begin_layout Enumerate
@@ -557,7 +574,8 @@ The controlling party picks a project
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Utilities
+Aghion & Tirole (1997):
+ Utilities
 \end_layout
 
 \end_inset
@@ -571,7 +589,8 @@ Under
 \emph on
 P-
 \emph default
-formal authority, the utilities are:
+formal authority,
+ the utilities are:
 \begin_inset Formula 
 \begin{align*}
 u_{P} & =\underbrace{EB}_{\text{P picks her preferred project}}+\underbrace{\left(1-E\right)e\alpha B}_{\text{A suggests his preferred project}}-g_{P}\left(E\right)\\
@@ -588,7 +607,8 @@ Under
 \emph on
 A-
 \emph default
-formal authority, the utilities are:
+formal authority,
+ the utilities are:
 \begin_inset Formula 
 \begin{align*}
 u_{P}^{d} & =\underbrace{e\alpha B}_{\text{A picks his preferred project}}+\underbrace{\left(1-e\right)EB}_{\text{P suggests her preferred project}}-g_{P}\left(E\right)\\
@@ -613,7 +633,8 @@ u_{A}^{d} & =\underbrace{eb}_{\text{A picks his preferred project}}+\underbrace{
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Basic Tradeoff
+Aghion & Tirole (1997):
+ Basic Tradeoff
 \end_layout
 
 \end_inset
@@ -629,14 +650,16 @@ In this model there is a basic tradeoff between loss of control and initiative.
 \begin_layout Itemize
 The reason is that efforts are 
 \emph on
-strategic substitutes: 
+strategic substitutes:
+ 
 \emph default
-The more effort the principal makes, the less the agent wants to (&vv).
+The more effort the principal makes,
+ the less the agent wants to (&vv).
 \end_layout
 
 \begin_layout Itemize
-To see this, the FOCs for effort when the principal has formal authority
- are
+To see this,
+ the FOCs for effort when the principal has formal authority are
 \begin_inset Formula 
 \begin{align*}
 \left(1-\alpha e\right)B & =g_{P}^{\prime}\left(E\right)\\
@@ -657,7 +680,8 @@ down
 \end_layout
 
 \begin_layout Itemize
-Imagine the principal's effort became more costly: 
+Imagine the principal's effort became more costly:
+ 
 \begin_inset Formula $g_{P}^{\prime}\uparrow$
 \end_inset
 
@@ -675,7 +699,8 @@ The reduction in
 \begin_inset Formula $E$
 \end_inset
 
- will encourage initiative by the agent:, 
+ will encourage initiative by the agent:,
+ 
 \begin_inset Formula $e\uparrow$
 \end_inset
 
@@ -697,7 +722,8 @@ The reduction in
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Delegation
+Aghion & Tirole (1997):
+ Delegation
 \end_layout
 
 \end_inset
@@ -732,14 +758,16 @@ These yield an equilibrium
 \begin_inset Formula $e<e^{d}$
 \end_inset
 
-: Greater initiative by the agent
+:
+ Greater initiative by the agent
 \end_layout
 
 \begin_layout Itemize
 \begin_inset Formula $E>E^{d}$
 \end_inset
 
-: Loss of formal 
+:
+ Loss of formal 
 \emph on
 and
 \emph default
@@ -773,7 +801,8 @@ Agent is better off
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Span of Control
+Aghion & Tirole (1997):
+ Span of Control
 \end_layout
 
 \end_inset
@@ -783,13 +812,14 @@ Aghion & Tirole (1997): Span of Control
 
 \begin_deeper
 \begin_layout Itemize
-Consider a principal with multiple agents where the principal doesn't want
- to delegate.
+Consider a principal with multiple agents where the principal doesn't want to delegate.
  
 \end_layout
 
 \begin_layout Itemize
-How many agents to hire? How to encourage effort among many agents? 
+How many agents to hire?
+ How to encourage effort among many agents?
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -806,7 +836,8 @@ Principal's disutility is
 \begin_inset Formula $g_{P}\left(\sum_{i}E_{i}\right)$
 \end_inset
 
-, agents' tasks are independent.
+,
+ agents' tasks are independent.
  Fixed cost 
 \begin_inset Formula $f$
 \end_inset
@@ -835,7 +866,8 @@ u_{P}=\sum_{i}\left[E_{i}B+\left(1-E_{i}\right)e_{i}\alpha B-f\right]-g_{P}\left
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Span of Control
+Aghion & Tirole (1997):
+ Span of Control
 \end_layout
 
 \end_inset
@@ -845,7 +877,8 @@ Aghion & Tirole (1997): Span of Control
 
 \begin_deeper
 \begin_layout Itemize
-Assume a symmetric equilibrium, each agent gets the same effort 
+Assume a symmetric equilibrium,
+ each agent gets the same effort 
 \begin_inset Formula $E$
 \end_inset
 
@@ -899,7 +932,8 @@ where
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Span of Control
+Aghion & Tirole (1997):
+ Span of Control
 \end_layout
 
 \end_inset
@@ -926,8 +960,8 @@ The optimal team size
 \end_layout
 
 \begin_layout Itemize
-Principal commits to overhiring, being overloaded and underinvesting in
- 
+Principal commits to overhiring,
+ being overloaded and underinvesting in 
 \begin_inset Formula $E$
 \end_inset
 
@@ -951,7 +985,8 @@ Principal commits to overhiring, being overloaded and underinvesting in
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Wages and Effort
+Aghion & Tirole (1997):
+ Wages and Effort
 \end_layout
 
 \end_inset
@@ -961,17 +996,16 @@ Aghion & Tirole (1997): Wages and Effort
 
 \begin_deeper
 \begin_layout Itemize
-Now reintroduce wage effects in the model where the principal has formal
- authority.
+Now reintroduce wage effects in the model where the principal has formal authority.
 \end_layout
 
 \begin_layout Itemize
-How do changes in wages affect real authority? 
+How do changes in wages affect real authority?
+ 
 \end_layout
 
 \begin_layout Itemize
-Suppose that two of the projects are relevant and give the principal profits
- of 
+Suppose that two of the projects are relevant and give the principal profits of 
 \begin_inset Formula $B$
 \end_inset
 
@@ -1008,8 +1042,8 @@ Principal's net gain is now
 \end_layout
 
 \begin_layout Itemize
-If the agent has information and real authority, his average net payoff
- is 
+If the agent has information and real authority,
+ his average net payoff is 
 \begin_inset Formula 
 \[
 \tilde{b}=\begin{cases}
@@ -1036,7 +1070,8 @@ If the agent has information and real authority, his average net payoff
 status open
 
 \begin_layout Plain Layout
-Aghion & Tirole (1997): Wages and Effort
+Aghion & Tirole (1997):
+ Wages and Effort
 \end_layout
 
 \end_inset
@@ -1145,7 +1180,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Introduction
+Benabou & Tirole 2006:
+ Introduction
 \end_layout
 
 \end_inset
@@ -1155,8 +1191,7 @@ Benabou & Tirole 2006: Introduction
 
 \begin_deeper
 \begin_layout Itemize
-People often do things that are costly to themselves and primarily benefit
- others.
+People often do things that are costly to themselves and primarily benefit others.
  Why?
 \end_layout
 
@@ -1194,7 +1229,9 @@ desire for social reputation/self-respect
 \begin_layout Itemize
 People's behavior has 3 motivations 
 \emph on
-intrinsic, extrinsic, 
+intrinsic,
+ extrinsic,
+ 
 \emph default
 and 
 \emph on
@@ -1214,7 +1251,8 @@ reputational.
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Model
+Benabou & Tirole 2006:
+ Model
 \end_layout
 
 \end_inset
@@ -1249,7 +1287,8 @@ Monetary reward is
 \begin_inset Formula $ya$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $y\lessgtr0$
 \end_inset
 
@@ -1265,14 +1304,16 @@ Agents' types are
 \begin_inset Formula $v_{a}$
 \end_inset
 
-: intrinsic valuation
+:
+ intrinsic valuation
 \end_layout
 
 \begin_layout Itemize
 \begin_inset Formula $v_{y}$
 \end_inset
 
-: extrinsic valuation
+:
+ extrinsic valuation
 \end_layout
 
 \begin_layout Itemize
@@ -1317,7 +1358,8 @@ Direct benefit of participating is
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Model
+Benabou & Tirole 2006:
+ Model
 \end_layout
 
 \end_inset
@@ -1331,8 +1373,7 @@ Participation decisions also create reputational costs/benefits.
 \end_layout
 
 \begin_layout Itemize
-Assume these depend linearly on observers' posterior expectations of the
- agent's type 
+Assume these depend linearly on observers' posterior expectations of the agent's type 
 \begin_inset Formula $\mathbf{v}$
 \end_inset
 
@@ -1383,7 +1424,8 @@ disinterested
 \begin_inset Formula $\mu_{y}=x\gamma_{y}$
 \end_inset
 
-, agents solve
+,
+ agents solve
 \begin_inset Formula 
 \[
 \max_{a\in A}\left(v_{a}+v_{y}y\right)a-C\left(a\right)+\mu_{a}\mathbb{E}\left[v_{a}\vert a,y\right]+\mu_{y}\mathbb{E}\left[v_{y}\vert a,y\right]
@@ -1407,7 +1449,8 @@ disinterested
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Choice of 
+Benabou & Tirole 2006:
+ Choice of 
 \begin_inset Formula $a$
 \end_inset
 
@@ -1442,7 +1485,8 @@ Observing
 \emph on
 sum
 \emph default
- of intrinsic, extrinsic & reputational concerns 
+ of intrinsic,
+ extrinsic & reputational concerns 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
@@ -1502,7 +1546,8 @@ A higher incentive
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Analysis
+Benabou & Tirole 2006:
+ Analysis
 \end_layout
 
 \end_inset
@@ -1527,7 +1572,7 @@ Start with the case where
 \align center
 \begin_inset Graphics
 	filename pictures/Benabou Tirole 1.png
-	height 90theight%
+	special height=0.9\textheight
 
 \end_inset
 
@@ -1547,7 +1592,8 @@ Start with the case where
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Analysis
+Benabou & Tirole 2006:
+ Analysis
 \end_layout
 
 \end_inset
@@ -1557,15 +1603,18 @@ Benabou & Tirole 2006: Analysis
 
 \begin_deeper
 \begin_layout Itemize
-Add a few assumptions: 
+Add a few assumptions:
+ 
 \begin_inset Formula $A=\mathbb{R}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $C\left(a\right)=ka^{2}/2$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula 
 \[
 \mathbf{v}\equiv\left(\begin{array}{c}
@@ -1607,7 +1656,8 @@ With normal
 \begin_inset Formula $\mathbf{v}$
 \end_inset
 
-, the posteriors are
+,
+ the posteriors are
 \begin_inset Formula 
 \begin{align*}
 \mathbb{E}\left[v_{a}\vert a,y\right] & =\bar{v}_{a}+\rho\left(y\right)\left[ka-\bar{v}_{a}-\bar{v}_{y}y-\bar{r}\left(a,y\right)\right]\\
@@ -1644,7 +1694,8 @@ Equilibrium solves these two differential equations.
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Signal Extraction
+Benabou & Tirole 2006:
+ Signal Extraction
 \end_layout
 
 \end_inset
@@ -1656,7 +1707,8 @@ Benabou & Tirole 2006: Signal Extraction
 \begin_layout Standard
 
 \shape smallcaps
-proposition 1: 
+proposition 1:
+ 
 \shape default
 \emph on
 Let all agents have the same image concern 
@@ -1664,8 +1716,8 @@ Let all agents have the same image concern
 \end_inset
 
 .
- There is a unique (differentiable-reputation) equilibrium, in which an
- agent with preferences 
+ There is a unique (differentiable-reputation) equilibrium,
+ in which an agent with preferences 
 \begin_inset Formula $\left(v_{a},v_{y}\right)$
 \end_inset
 
@@ -1685,11 +1737,13 @@ The reputational returns are
 \begin_inset Formula $\partial\mathbb{E}\left[v_{y}\vert a,y\right]/\partial a=\chi\left(y\right)k$
 \end_inset
 
-, resulting in a net value 
+,
+ resulting in a net value 
 \begin_inset Formula $\bar{r}\left(y\right)=k\left(\bar{\mu}_{a}\rho\left(y\right)-\bar{\mu}_{y}\chi\left(y\right)\right)$
 \end_inset
 
-, independent of 
+,
+ independent of 
 \begin_inset Formula $a$
 \end_inset
 
@@ -1697,11 +1751,13 @@ The reputational returns are
 \end_layout
 
 \begin_layout Itemize
-How do extrinsic incentives affect inference and behavior? higher 
+How do extrinsic incentives affect inference and behavior?
+ higher 
 \begin_inset Formula $y$
 \end_inset
 
- increases direct payoff, but decreases both dimensions of signaling.
+ increases direct payoff,
+ but decreases both dimensions of signaling.
  e.g.
  when 
 \begin_inset Formula $\sigma_{ay}=0$
@@ -1738,7 +1794,8 @@ When
 \begin_inset Formula $\sigma_{ay}\neq0$
 \end_inset
 
-, a positive correlation amplifies this.
+,
+ a positive correlation amplifies this.
  
 \end_layout
 
@@ -1755,7 +1812,8 @@ When
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Crowd-out
+Benabou & Tirole 2006:
+ Crowd-out
 \end_layout
 
 \end_inset
@@ -1785,7 +1843,8 @@ Aggregate supply of the public good
 \shape smallcaps
 proposition 2
 \shape default
- (Overjustification and crowding out): 
+ (Overjustification and crowding out):
+ 
 \emph on
 Let 
 \begin_inset Formula $\sigma_{ay}=0$
@@ -1796,11 +1855,13 @@ Let
 \end_inset
 
 .
- Incentives are counterproductive, 
+ Incentives are counterproductive,
+ 
 \begin_inset Formula $\bar{a}^{\prime}\left(y\right)<0$
 \end_inset
 
-, at all levels such that
+,
+ at all levels such that
 \begin_inset Formula 
 \[
 \frac{\bar{v}_{y}}{k}<\bar{\mu}_{a}\frac{2y\theta^{2}}{\left(1+y^{2}\theta^{2}\right)^{2}}+\bar{\mu}_{y}\frac{\theta^{2}\left(1-y^{2}\theta^{2}\right)}{\left(1+y^{2}\theta^{2}\right)^{2}}
@@ -1808,7 +1869,8 @@ Let
 
 \end_inset
 
-Consequently, for all 
+Consequently,
+ for all 
 \begin_inset Formula $\bar{\mu}_{a}$
 \end_inset
 
@@ -1816,7 +1878,8 @@ Consequently, for all
 \begin_inset Formula $\mu_{a}^{*}\geq0$
 \end_inset
 
-, there exists a range 
+,
+ there exists a range 
 \begin_inset Formula $\left[y_{1},y_{2}\right]$
 \end_inset
 
@@ -1837,7 +1900,8 @@ Consequently, for all
 \begin_inset Formula $\bar{\mu}_{y}<\bar{v}_{y}/k\theta^{2}$
 \end_inset
 
-, then 
+,
+ then 
 \begin_inset Formula $\mu_{a}^{*}>0$
 \end_inset
 
@@ -1845,11 +1909,13 @@ Consequently, for all
 \begin_inset Formula $0<y_{1}<y_{2}$
 \end_inset
 
-; as 
+;
+ as 
 \begin_inset Formula $\bar{\mu}_{a}$
 \end_inset
 
- increases, 
+ increases,
+ 
 \begin_inset Formula $y_{1}$
 \end_inset
 
@@ -1857,7 +1923,8 @@ Consequently, for all
 \begin_inset Formula $y_{2}$
 \end_inset
 
- rises, so 
+ rises,
+ so 
 \begin_inset Formula $\left[y_{1},y_{2}\right]$
 \end_inset
 
@@ -1866,7 +1933,8 @@ Consequently, for all
 \begin_inset Formula $\bar{\mu}_{y}>\bar{v}_{y}/k\theta^{2}$
 \end_inset
 
-, then 
+,
+ then 
 \begin_inset Formula $\mu_{a}^{*}=0$
 \end_inset
 
@@ -1874,7 +1942,8 @@ Consequently, for all
 \begin_inset Formula $y_{1}<0<y_{2}$
 \end_inset
 
-; as 
+;
+ as 
 \begin_inset Formula $\bar{\mu}_{a}$
 \end_inset
 
@@ -1886,11 +1955,13 @@ Consequently, for all
 \begin_inset Formula $y_{2}$
 \end_inset
 
- rise and, for 
+ rise and,
+ for 
 \begin_inset Formula $\bar{\mu}_{a}$
 \end_inset
 
- large enough, 
+ large enough,
+ 
 \begin_inset Formula $\left[y_{1},y_{2}\right]$
 \end_inset
 
@@ -1910,7 +1981,8 @@ Consequently, for all
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Crowd-out
+Benabou & Tirole 2006:
+ Crowd-out
 \end_layout
 
 \end_inset
@@ -1924,7 +1996,7 @@ Benabou & Tirole 2006: Crowd-out
 \begin_inset Graphics
 	filename pictures/Benabou Tirole 2.png
 	lyxscale 25
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -1944,7 +2016,8 @@ Benabou & Tirole 2006: Crowd-out
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Image Rewards
+Benabou & Tirole 2006:
+ Image Rewards
 \end_layout
 
 \end_inset
@@ -1967,12 +2040,15 @@ We have studied how extrinsic incentives
 \end_layout
 
 \begin_layout Itemize
-Yes, but: When we have a homothetic increase in 
+Yes,
+ but:
+ When we have a homothetic increase in 
 \begin_inset Formula $\mu_{a},\mu_{y}$
 \end_inset
 
- this works, but with heterogeneity people may suspect that contributors
- are just doing it to look good: That they are 
+ this works,
+ but with heterogeneity people may suspect that contributors are just doing it to look good:
+ That they are 
 \emph on
 image-motivated
 \emph default
@@ -2022,7 +2098,8 @@ and
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Image Rewards
+Benabou & Tirole 2006:
+ Image Rewards
 \end_layout
 
 \end_inset
@@ -2052,7 +2129,8 @@ Now the reputational concern term in the first order condition
 \begin_inset Formula $r\left(a,y;\boldsymbol{\mu}\right)$
 \end_inset
 
- is also normally distributed, with mean 
+ is also normally distributed,
+ with mean 
 \begin_inset Formula $\bar{r}\left(a,y;\boldsymbol{\mu}\right)$
 \end_inset
 
@@ -2087,7 +2165,8 @@ Now the reputational concern term in the first order condition
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Image Rewards
+Benabou & Tirole 2006:
+ Image Rewards
 \end_layout
 
 \end_inset
@@ -2159,7 +2238,8 @@ Restrict attention to equilibria in the class where
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Image Rewards
+Benabou & Tirole 2006:
+ Image Rewards
 \end_layout
 
 \end_inset
@@ -2173,13 +2253,15 @@ Benabou & Tirole 2006: Image Rewards
 \shape smallcaps
 proposition 4
 \shape default
-: (1) 
+:
+ (1) 
 \emph on
 A linear-reputation equilibrium corresponds to a fixed point 
 \begin_inset Formula $\Omega\left(y\right)$
 \end_inset
 
-, solution to
+,
+ solution to
 \begin_inset Formula 
 \[
 \frac{\Omega\left(y\right)^{2}}{k^{2}}=\omega_{a}^{2}\rho\left(y\right)^{2}-2\omega_{ay}\rho\left(y\right)\chi\left(y\right)+\omega_{y}^{2}\chi\left(y\right)^{2}
@@ -2207,7 +2289,8 @@ and the marginal reputations are
 \begin_inset Formula $\partial\mathbb{E}\left[v_{y}\vert a,y\right]/\partial a=\chi\left(y\right)k$
 \end_inset
 
-, with a net value of 
+,
+ with a net value of 
 \begin_inset Formula $r\left(y;\boldsymbol{\mu}\right)=\left[\mu_{a}\rho\left(y\right)-\mu_{y}\chi\left(y\right)\right]k$
 \end_inset
 
@@ -2215,7 +2298,8 @@ and the marginal reputations are
 \begin_inset Newline newline
 \end_inset
 
-(2) There always exists such an equilibrium, and if 
+(2) There always exists such an equilibrium,
+ and if 
 \begin_inset Formula $\omega_{ay}=0$
 \end_inset
 
@@ -2228,12 +2312,13 @@ Fixed point intuition:
 
 \begin_deeper
 \begin_layout Itemize
-The more variable image motives are, the noisier behavior is as a signal
- of 
+The more variable image motives are,
+ the noisier behavior is as a signal of 
 \begin_inset Formula $v_{a},v_{y}$
 \end_inset
 
-, reducing 
+,
+ reducing 
 \begin_inset Formula $\rho\left(y\right)$
 \end_inset
 
@@ -2245,8 +2330,7 @@ The more variable image motives are, the noisier behavior is as a signal
 \end_layout
 
 \begin_layout Itemize
-But the variance is endogenous to behavior which takes into account its
- effect on signal-extraction.
+But the variance is endogenous to behavior which takes into account its effect on signal-extraction.
 \end_layout
 
 \end_deeper
@@ -2263,7 +2347,8 @@ But the variance is endogenous to behavior which takes into account its
 status open
 
 \begin_layout Plain Layout
-Benabou & Tirole 2006: Image Rewards
+Benabou & Tirole 2006:
+ Image Rewards
 \end_layout
 
 \end_inset
@@ -2278,7 +2363,8 @@ Image rewards give rise to an offsetting
 overjustification effect
 \emph default
 .
- To see this, consider scaling all the reputational weights 
+ To see this,
+ consider scaling all the reputational weights 
 \begin_inset Formula $\boldsymbol{\mu}=\left(\mu_{a},\mu_{y}\right)$
 \end_inset
 
@@ -2419,7 +2505,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Introduction
+Besley & Ghatak 2005:
+ Introduction
 \end_layout
 
 \end_inset
@@ -2433,8 +2520,8 @@ Money is not the only way that workers are motivated
 \end_layout
 
 \begin_layout Itemize
-Many organizations, especially in the non-profit & public sectors have a
- 
+Many organizations,
+ especially in the non-profit & public sectors have a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2446,8 +2533,7 @@ mission
 \end_layout
 
 \begin_layout Itemize
-(some) workers too care about the mission of the organization they work
- with.
+(some) workers too care about the mission of the organization they work with.
 \end_layout
 
 \begin_layout Itemize
@@ -2464,7 +2550,8 @@ Matching on mission
 \end_layout
 
 \begin_layout Itemize
-But, entrenches conservatism/resistance to innovation.
+But,
+ entrenches conservatism/resistance to innovation.
 \end_layout
 
 \end_deeper
@@ -2481,7 +2568,8 @@ But, entrenches conservatism/resistance to innovation.
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Principal-Agent Setup
+Besley & Ghatak 2005:
+ Principal-Agent Setup
 \end_layout
 
 \end_inset
@@ -2491,7 +2579,8 @@ Besley & Ghatak 2005: Principal-Agent Setup
 
 \begin_deeper
 \begin_layout Itemize
-A firm = a risk-neutral principal, and a risk-neutral agent.
+A firm = a risk-neutral principal,
+ and a risk-neutral agent.
 \end_layout
 
 \begin_layout Itemize
@@ -2547,7 +2636,8 @@ Agent has limited liability so requires wage
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Organizational Mission
+Besley & Ghatak 2005:
+ Organizational Mission
 \end_layout
 
 \end_inset
@@ -2565,7 +2655,8 @@ Besley & Ghatak 2005: Organizational Mission
 \end_layout
 
 \begin_layout Itemize
-If project succeeds, principal gets 
+If project succeeds,
+ principal gets 
 \begin_inset Formula $\pi_{i}>0$
 \end_inset
 
@@ -2581,12 +2672,14 @@ standard
 \begin_inset Quotes erd
 \end_inset
 
-: 
+:
+ 
 \begin_inset Formula $\pi_{0}$
 \end_inset
 
  is purely monetary.
- Think of them as the private sector, the 
+ Think of them as the private sector,
+ the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2602,11 +2695,14 @@ Profit-oriented sector
 \end_layout
 
 \begin_layout Itemize
-Types 1 and 2: Part of 
+Types 1 and 2:
+ Part of 
 \begin_inset Formula $\pi_{1},\pi_{2}$
 \end_inset
 
- are nonpecuniary payoffs: Think of them as non-profits/govt, the 
+ are nonpecuniary payoffs:
+ Think of them as non-profits/govt,
+ the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2626,8 +2722,8 @@ Assume
 \begin_inset Formula $\pi_{1}=\pi_{2}=\hat{\pi}\rightarrow$
 \end_inset
 
- this is a model of horizontal matching: no productivity differences across
- orgs when there is efficient matching.
+ this is a model of horizontal matching:
+ no productivity differences across orgs when there is efficient matching.
 \end_layout
 
 \end_deeper
@@ -2643,7 +2739,8 @@ Assume
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Intrinsic Motivation
+Besley & Ghatak 2005:
+ Intrinsic Motivation
 \end_layout
 
 \end_inset
@@ -2673,11 +2770,13 @@ Agents get a nonpecuniary benefit
 \end_layout
 
 \begin_layout Itemize
-Type 0s don't care: 
+Type 0s don't care:
+ 
 \begin_inset Formula $\theta_{i0}=0$
 \end_inset
 
-, 
+,
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -2689,7 +2788,8 @@ Motivated Agents
 \begin_inset Quotes erd
 \end_inset
 
-: Get 
+:
+ Get 
 \begin_inset Formula $\bar{\theta}$
 \end_inset
 
@@ -2701,7 +2801,8 @@ their
 \begin_inset Quotes erd
 \end_inset
 
- type, 
+ type,
+ 
 \begin_inset Formula $\underline{\theta}$
 \end_inset
 
@@ -2726,7 +2827,8 @@ their
 \end_layout
 
 \begin_layout Itemize
-Assume: 
+Assume:
+ 
 \begin_inset Formula $\max\left\{ \pi_{0},\hat{\pi}+\bar{\theta}\right\} <1$
 \end_inset
 
@@ -2746,7 +2848,8 @@ Assume:
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Optimal Contracts
+Besley & Ghatak 2005:
+ Optimal Contracts
 \end_layout
 
 \end_inset
@@ -2831,7 +2934,8 @@ Generates total surplus
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Optimal Contracts
+Besley & Ghatak 2005:
+ Optimal Contracts
 \end_layout
 
 \end_inset
@@ -2841,7 +2945,8 @@ Besley & Ghatak 2005: Optimal Contracts
 
 \begin_deeper
 \begin_layout Itemize
-In the second best, effort is not contractible.
+In the second best,
+ effort is not contractible.
  Principal solves
 \begin_inset Formula 
 \[
@@ -2859,7 +2964,8 @@ Subject to 3 constraints:
 
 \begin_deeper
 \begin_layout Itemize
-limited liability: Agent gets at least 
+limited liability:
+ Agent gets at least 
 \begin_inset Formula $\underline{w}$
 \end_inset
 
@@ -2875,7 +2981,8 @@ b_{ij}+w_{ij}\geq\underline{w}\quad w_{ij}\geq\underline{w}
 \end_layout
 
 \begin_layout Itemize
-participation: Agent prefers this to outside option 
+participation:
+ Agent prefers this to outside option 
 \begin_inset Formula 
 \[
 u_{ij}^{a}=e_{ij}\left(b_{ij}+\theta_{ij}\right)+w_{ij}-\frac{1}{2}e_{ij}^{2}\geq\bar{u}_{j}
@@ -2887,7 +2994,8 @@ u_{ij}^{a}=e_{ij}\left(b_{ij}+\theta_{ij}\right)+w_{ij}-\frac{1}{2}e_{ij}^{2}\ge
 \end_layout
 
 \begin_layout Itemize
-Incentive compatibility: Agent picks 
+Incentive compatibility:
+ Agent picks 
 \begin_inset Formula $e_{ij}$
 \end_inset
 
@@ -2924,7 +3032,8 @@ which simplifies to
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Optimal Contracts
+Besley & Ghatak 2005:
+ Optimal Contracts
 \end_layout
 
 \end_inset
@@ -2984,7 +3093,8 @@ Define
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Optimal Contracts
+Besley & Ghatak 2005:
+ Optimal Contracts
 \end_layout
 
 \end_inset
@@ -2997,6 +3107,7 @@ Besley & Ghatak 2005: Optimal Contracts
 
 \shape smallcaps
 proposition 1:
+
 \shape default
  
 \emph on
@@ -3017,13 +3128,15 @@ Suppose Assumptions 1 and 2 hold.
 \begin_inset Formula $\bar{u}_{j}\in\left[0,\bar{v}_{ij}\right]$
 \end_inset
 
- exists, and has the following features:
+ exists,
+ and has the following features:
 \end_layout
 
 \begin_layout Enumerate
 
 \emph on
-The fixed wage is set at the subsistence level: 
+The fixed wage is set at the subsistence level:
+ 
 \begin_inset Formula $w_{ij}^{*}=\underline{w}$
 \end_inset
 
@@ -3050,7 +3163,8 @@ b_{ij}^{*}=\begin{cases}
 \begin_layout Enumerate
 
 \emph on
-The optimal effort level solves: 
+The optimal effort level solves:
+ 
 \begin_inset Formula $e_{ij}^{*}=b_{ij}^{*}+\theta_{ij}$
 \end_inset
 
@@ -3070,7 +3184,8 @@ The optimal effort level solves:
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Optimal Contracts
+Besley & Ghatak 2005:
+ Optimal Contracts
 \end_layout
 
 \end_inset
@@ -3084,8 +3199,8 @@ Gives rise to 3 cases
 \end_layout
 
 \begin_layout Enumerate
-If the agent is more motivated than the principal and the outside option
- is low, 
+If the agent is more motivated than the principal and the outside option is low,
+ 
 \begin_inset Formula $b_{ij}^{*}=0$
 \end_inset
 
@@ -3093,8 +3208,8 @@ If the agent is more motivated than the principal and the outside option
 \end_layout
 
 \begin_layout Enumerate
-If the principal is more motivated than the agent and the outside option
- is low, 
+If the principal is more motivated than the agent and the outside option is low,
+ 
 \begin_inset Formula $b_{ij}^{*}=\tfrac{1}{2}\left(\pi_{i}-\theta_{ij}\right)$
 \end_inset
 
@@ -3102,7 +3217,8 @@ If the principal is more motivated than the agent and the outside option
 \end_layout
 
 \begin_layout Enumerate
-If the outside option is high, then 
+If the outside option is high,
+ then 
 \begin_inset Formula $b_{ij}^{*}=\sqrt{2\left(\bar{u}_{ij}-\underline{w}\right)}-\theta_{ij}$
 \end_inset
 
@@ -3122,7 +3238,8 @@ If the outside option is high, then
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Optimal Contracts in the Profit-Oriented Sector
+Besley & Ghatak 2005:
+ Optimal Contracts in the Profit-Oriented Sector
 \end_layout
 
 \end_inset
@@ -3135,6 +3252,7 @@ Besley & Ghatak 2005: Optimal Contracts in the Profit-Oriented Sector
 
 \shape smallcaps
 corollary 1:
+
 \shape default
  
 \emph on
@@ -3142,7 +3260,8 @@ In the profit-oriented sector
 \begin_inset Formula $\left(i=0\right)$
 \end_inset
 
-, the optimal contract is characterized by the following:
+,
+ the optimal contract is characterized by the following:
 \end_layout
 
 \begin_layout Enumerate
@@ -3159,7 +3278,9 @@ status open
 
 
 \emph on
-The fixed wage is set at the subsistence level, i.e., 
+The fixed wage is set at the subsistence level,
+ i.e.,
+ 
 \begin_inset Formula $w_{0j}^{*}=\underline{w}$
 \end_inset
 
@@ -3216,7 +3337,8 @@ status open
 
  
 \emph on
-The optimal effort level solves: 
+The optimal effort level solves:
+ 
 \begin_inset Formula $e_{0j}^{*}=b_{0j}^{*}$
 \end_inset
 
@@ -3240,7 +3362,8 @@ The optimal effort level solves:
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Optimal Contracts in the Mission-oriented sector
+Besley & Ghatak 2005:
+ Optimal Contracts in the Mission-oriented sector
 \end_layout
 
 \end_inset
@@ -3253,6 +3376,7 @@ Besley & Ghatak 2005: Optimal Contracts in the Mission-oriented sector
 
 \shape smallcaps
 corollary 2:
+
 \shape default
  
 \emph on
@@ -3261,12 +3385,13 @@ Suppose that
 \end_inset
 
 .
- Then, in the mission-oriented sector 
+ Then,
+ in the mission-oriented sector 
 \begin_inset Formula $\left(i=1,2\right)$
 \end_inset
 
-, effort is higher and the bonus payment is lower if the agent's type is
- the same as that of the principal.
+,
+ effort is higher and the bonus payment is lower if the agent's type is the same as that of the principal.
 \end_layout
 
 \begin_layout Itemize
@@ -3277,6 +3402,7 @@ bonuses and intrinsic motivation are perfect substitutes
 
 \shape smallcaps
 corollary 3:
+
 \shape default
  
 \emph on
@@ -3285,17 +3411,17 @@ Suppose that
 \end_inset
 
 .
- Then, in the mission-oriented sector 
+ Then,
+ in the mission-oriented sector 
 \begin_inset Formula $\left(i=1,2\right)$
 \end_inset
 
- bonus payments and effort are negatively correlated in a cross section
- of organizations
+ bonus payments and effort are negatively correlated in a cross section of organizations
 \end_layout
 
 \begin_layout Itemize
-This is a selection effect: Places with better match will have lower bonuses
- because of corollary 2.
+This is a selection effect:
+ Places with better match will have lower bonuses because of corollary 2.
 \end_layout
 
 \end_deeper
@@ -3311,7 +3437,8 @@ This is a selection effect: Places with better match will have lower bonuses
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Competing for Workers
+Besley & Ghatak 2005:
+ Competing for Workers
 \end_layout
 
 \end_inset
@@ -3397,7 +3524,8 @@ Assume
 \end_layout
 
 \begin_layout Itemize
-However, allow 
+However,
+ allow 
 \emph on
 unemployment 
 \emph default
@@ -3429,7 +3557,8 @@ full employment
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Competing for Workers
+Besley & Ghatak 2005:
+ Competing for Workers
 \end_layout
 
 \end_inset
@@ -3439,13 +3568,13 @@ Besley & Ghatak 2005: Competing for Workers
 
 \begin_deeper
 \begin_layout Itemize
-Assume that the individuals on the long side of the market gets none of
- the surplus.
+Assume that the individuals on the long side of the market gets none of the surplus.
 \end_layout
 
 \begin_layout Itemize
 This pins down the outside options.
- For any set of outside options, proposition 1 tells us the optimal contracts.
+ For any set of outside options,
+ proposition 1 tells us the optimal contracts.
 \end_layout
 
 \begin_layout Standard
@@ -3453,7 +3582,8 @@ This pins down the outside options.
 \shape smallcaps
 proposition 2
 \shape default
-: 
+:
+ 
 \emph on
 Consider a matching 
 \begin_inset Formula $\mu$
@@ -3484,8 +3614,7 @@ Consider a matching
 \end_layout
 
 \begin_layout Itemize
-Assume that when the two sectors are competing it's still worth having mission-o
-riented production (surplus is high enough):
+Assume that when the two sectors are competing it's still worth having mission-oriented production (surplus is high enough):
 \begin_inset Formula 
 \[
 \bar{\theta}+\hat{\pi}\geq\pi_{0}
@@ -3509,7 +3638,9 @@ riented production (surplus is high enough):
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Competing for Workers: Full Employment
+Besley & Ghatak 2005:
+ Competing for Workers:
+ Full Employment
 \end_layout
 
 \end_inset
@@ -3523,7 +3654,8 @@ Besley & Ghatak 2005: Competing for Workers: Full Employment
 \shape smallcaps
 proposition 3
 \shape default
-: 
+:
+ 
 \emph on
 Suppose that 
 \begin_inset Formula $n_{0}^{a}<n_{0}^{p}$
@@ -3534,7 +3666,8 @@ Suppose that
 \begin_inset Formula $\mu$
 \end_inset
 
- is stable: 
+ is stable:
+ 
 \begin_inset Formula $\mu\left(a_{j}\right)=p_{j}$
 \end_inset
 
@@ -3559,7 +3692,8 @@ status open
 
 
 \emph on
-The fixed wage is set at the subsistence level, i.e.
+The fixed wage is set at the subsistence level,
+ i.e.
  
 \begin_inset Formula $w_{ij}^{*}=\underline{w}$
 \end_inset
@@ -3618,7 +3752,8 @@ status open
 
 \end_inset
 
-The optimal effort level solves: 
+The optimal effort level solves:
+ 
 \begin_inset Formula $e_{jj}^{*}=b_{jj}^{*}+\bar{\theta}$
 \end_inset
 
@@ -3646,7 +3781,9 @@ The optimal effort level solves:
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Competing for Workers: Full Employment
+Besley & Ghatak 2005:
+ Competing for Workers:
+ Full Employment
 \end_layout
 
 \end_inset
@@ -3665,9 +3802,9 @@ Competition for workers and incentives interact in important ways
 matching effect
 \emph default
 .
- Less heterogeneity in contracts compared to a world in which principals
- and agents don't match assortatively.
- When the participation constraint doesn't bind, incentive pay is lower.
+ Less heterogeneity in contracts compared to a world in which principals and agents don't match assortatively.
+ When the participation constraint doesn't bind,
+ incentive pay is lower.
 \end_layout
 
 \begin_layout Enumerate
@@ -3677,21 +3814,20 @@ outside option effect.
 
 \emph default
  Full employment drives profit-oriented principals' payoff to zero.
- Motivated agent's reservation utility is what she'd get by switching to
- the profit-oriented sector.
+ Motivated agent's reservation utility is what she'd get by switching to the profit-oriented sector.
  
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-When productivity is high in the profit-oriented sector, the mission-oriented
- sector has to pay more and use incentive pay more.
+When productivity is high in the profit-oriented sector,
+ the mission-oriented sector has to pay more and use incentive pay more.
  
 \end_layout
 
 \begin_layout Enumerate
-Even with a binding participation constraint, incentive pay is lower in
- the mission-oriented sector than in the profit-oriented sector
+Even with a binding participation constraint,
+ incentive pay is lower in the mission-oriented sector than in the profit-oriented sector
 \end_layout
 
 \end_deeper
@@ -3708,7 +3844,9 @@ Even with a binding participation constraint, incentive pay is lower in
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Competing for Workers: Unemployment
+Besley & Ghatak 2005:
+ Competing for Workers:
+ Unemployment
 \end_layout
 
 \end_inset
@@ -3722,7 +3860,8 @@ Besley & Ghatak 2005: Competing for Workers: Unemployment
 \shape smallcaps
 proposition 4
 \shape default
-: 
+:
+ 
 \emph on
 Suppose that 
 \begin_inset Formula $n_{0}^{a}>n_{0}^{p}$
@@ -3733,7 +3872,8 @@ Suppose that
 \begin_inset Formula $\mu$
 \end_inset
 
- is stable: 
+ is stable:
+ 
 \begin_inset Formula $\mu\left(a_{j}\right)=p_{j}$
 \end_inset
 
@@ -3814,7 +3954,8 @@ status open
 
 
 \emph on
-The optimal effort level solves: 
+The optimal effort level solves:
+ 
 \begin_inset Formula $e_{ij}^{*}=b_{ij}^{*}+\bar{\theta}$
 \end_inset
 
@@ -3842,7 +3983,8 @@ The optimal effort level solves:
 status open
 
 \begin_layout Plain Layout
-Besley & Ghatak 2005: Competing for Workers
+Besley & Ghatak 2005:
+ Competing for Workers
 \end_layout
 
 \end_inset
@@ -3869,7 +4011,8 @@ Lower powered incentives due to mission-oriented production
 \end_layout
 
 \begin_layout Itemize
-If an election changes the mission, may reduce productivity of bureaucracy
+If an election changes the mission,
+ may reduce productivity of bureaucracy
 \end_layout
 
 \begin_layout Itemize
@@ -3881,14 +4024,16 @@ If private-sector opportunities improve
 \end_layout
 
 \begin_layout Itemize
-Lack of innovation: In profit-oriented sector, any innovation that increases
- 
+Lack of innovation:
+ In profit-oriented sector,
+ any innovation that increases 
 \begin_inset Formula $\pi_{0}$
 \end_inset
 
  will be adopted.
- However, in a mission-oriented organization, only innovations that increase
- 
+ However,
+ in a mission-oriented organization,
+ only innovations that increase 
 \begin_inset Formula $\pi_{i}+\theta_{ij}$
 \end_inset
 
@@ -3935,7 +4080,8 @@ textit{
 
 \end_inset
 
-Teacher Performance Pay: Experimental Evidence from India
+Teacher Performance Pay:
+ Experimental Evidence from India
 \begin_inset ERT
 status open
 
@@ -3954,7 +4100,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Introduction
+Muralidharan & Sundararaman 2011:
+ Introduction
 \end_layout
 
 \end_inset
@@ -3968,7 +4115,8 @@ Randomized evaluation of teacher performance pay
 \end_layout
 
 \begin_layout Itemize
-Large scale experiment in Andhra Pradesh, India
+Large scale experiment in Andhra Pradesh,
+ India
 \end_layout
 
 \begin_layout Itemize
@@ -3976,12 +4124,13 @@ Can we really measure teacher performance?
 \end_layout
 
 \begin_layout Itemize
-Teacher incentive programs can backfire (multitasking, teaching to the test
- etc.)
+Teacher incentive programs can backfire (multitasking,
+ teaching to the test etc.)
 \end_layout
 
 \begin_layout Itemize
-How should bonus contracts be set up? 
+How should bonus contracts be set up?
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -4001,7 +4150,8 @@ Are bonuses a cost-effective way to increase performance?
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Model
+Muralidharan & Sundararaman 2011:
+ Model
 \end_layout
 
 \end_inset
@@ -4019,14 +4169,17 @@ Teachers do 2 tasks
 \begin_inset Formula $T_{1}$
 \end_inset
 
-: teaching using curricular best practices
+:
+ teaching using curricular best practices
 \end_layout
 
 \begin_layout Enumerate
 \begin_inset Formula $T_{2}$
 \end_inset
 
-: activities to increase scores on exams (drills, teaching to the test,
+:
+ activities to increase scores on exams (drills,
+ teaching to the test,
  cheating)
 \end_layout
 
@@ -4052,7 +4205,8 @@ where
 \begin_inset Formula $f_{1}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $f_{2}$
 \end_inset
 
@@ -4068,7 +4222,8 @@ Planner cannot observe
 \begin_inset Formula $H$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $t_{1}$
 \end_inset
 
@@ -4105,7 +4260,8 @@ P=g_{1}t_{1}+g_{2}t_{2}+\phi
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Model
+Muralidharan & Sundararaman 2011:
+ Model
 \end_layout
 
 \end_inset
@@ -4119,7 +4275,8 @@ Principal offers a wage contract depending on
 \begin_inset Formula $P$
 \end_inset
 
-: e.g.
+:
+ e.g.
  
 \begin_inset Formula $w=s+bP$
 \end_inset
@@ -4157,7 +4314,8 @@ Optimal bonus
 \begin_inset Formula $C$
 \end_inset
 
-, but when 
+,
+ but when 
 \begin_inset Formula $t_{1}$
 \end_inset
 
@@ -4165,12 +4323,14 @@ Optimal bonus
 \begin_inset Formula $t_{2}$
 \end_inset
 
- are substitutes, easy to construct examples s.t.
+ are substitutes,
+ easy to construct examples s.t.
  
 \begin_inset Formula $b^{*}=0$
 \end_inset
 
-: better to accept the output generated by the norm 
+:
+ better to accept the output generated by the norm 
 \begin_inset Formula $\bar{t}$
 \end_inset
 
@@ -4178,23 +4338,27 @@ Optimal bonus
 \end_layout
 
 \begin_layout Itemize
-But, if 
+But,
+ if 
 \begin_inset Formula $\bar{t}$
 \end_inset
 
- is small, then gains from increasing effort can exceed costs of distorting
- effort.
- Plausible in India: Absenteeism is very high.
+ is small,
+ then gains from increasing effort can exceed costs of distorting effort.
+ Plausible in India:
+ Absenteeism is very high.
 \end_layout
 
 \begin_layout Itemize
-Moreover, if 
+Moreover,
+ if 
 \begin_inset Formula $f_{1}/f_{2}$
 \end_inset
 
- is not too much greater than 1, less substitution.
- Plausible in India: Tests are central to the system so best practice may
- be to teach to the test.
+ is not too much greater than 1,
+ less substitution.
+ Plausible in India:
+ Tests are central to the system so best practice may be to teach to the test.
 \end_layout
 
 \end_deeper
@@ -4210,7 +4374,8 @@ Moreover, if
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Experiment
+Muralidharan & Sundararaman 2011:
+ Experiment
 \end_layout
 
 \end_inset
@@ -4243,7 +4408,8 @@ Muralidharan & Sundararaman 2011: Experiment
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Experiment
+Muralidharan & Sundararaman 2011:
+ Experiment
 \end_layout
 
 \end_inset
@@ -4256,7 +4422,7 @@ Muralidharan & Sundararaman 2011: Experiment
 \align center
 \begin_inset Graphics
 	filename pictures/MuralidharanSundararaman_2.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4276,7 +4442,8 @@ Muralidharan & Sundararaman 2011: Experiment
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Experiment
+Muralidharan & Sundararaman 2011:
+ Experiment
 \end_layout
 
 \end_inset
@@ -4286,7 +4453,8 @@ Muralidharan & Sundararaman 2011: Experiment
 
 \begin_deeper
 \begin_layout Itemize
-Work in Andhra Pradesh: 5th most populous state in India.
+Work in Andhra Pradesh:
+ 5th most populous state in India.
  Population > 80 million
 \end_layout
 
@@ -4303,8 +4471,8 @@ within each division randomly sample 10 mandals (out of 10-15 in each division)
 \end_layout
 
 \begin_layout Itemize
-In each of the 50 mandals, randomly sample 10 schools with probabilities
- proportional to enrolment.
+In each of the 50 mandals,
+ randomly sample 10 schools with probabilities proportional to enrolment.
 \end_layout
 
 \begin_layout Itemize
@@ -4328,7 +4496,8 @@ child
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Experiment
+Muralidharan & Sundararaman 2011:
+ Experiment
 \end_layout
 
 \end_inset
@@ -4374,7 +4543,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/MuralidharanSundararaman_4.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4407,7 +4576,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/MuralidharanSundararaman_5.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4427,7 +4596,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Bonuses
+Muralidharan & Sundararaman 2011:
+ Bonuses
 \end_layout
 
 \end_inset
@@ -4452,18 +4622,17 @@ Rs.500\times\left(\%\text{gain in avg test scores}-5\%\right) & \text{if gain}>5
 \end_layout
 
 \begin_layout Itemize
-In group incentive schools, all teachers got the same bonus based on school-leve
-l average improvement
+In group incentive schools,
+ all teachers got the same bonus based on school-level average improvement
 \end_layout
 
 \begin_layout Itemize
-In individual incentive schools, based on average test score of the specific
- teacher.
+In individual incentive schools,
+ based on average test score of the specific teacher.
 \end_layout
 
 \begin_layout Itemize
-Slope (Rs.500) set so expected payment would equal additional spending in
- input treatments
+Slope (Rs.500) set so expected payment would equal additional spending in input treatments
 \end_layout
 
 \end_deeper
@@ -4479,7 +4648,8 @@ Slope (Rs.500) set so expected payment would equal additional spending in
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Tests
+Muralidharan & Sundararaman 2011:
+ Tests
 \end_layout
 
 \end_inset
@@ -4489,7 +4659,8 @@ Muralidharan & Sundararaman 2011: Tests
 
 \begin_deeper
 \begin_layout Itemize
-To reduce cheating, tests conducted by external teams
+To reduce cheating,
+ tests conducted by external teams
 \end_layout
 
 \begin_layout Itemize
@@ -4497,18 +4668,19 @@ Baseline test (June-July 2005) tested math and language
 \end_layout
 
 \begin_layout Itemize
-At the end of year one (March-April 2006), two rounds of tests separated
- by 2 weeks
+At the end of year one (March-April 2006),
+ two rounds of tests separated by 2 weeks
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-round 1 (Lower endline, LEL) tested competencies up to previous school year
+round 1 (Lower endline,
+ LEL) tested competencies up to previous school year
 \end_layout
 
 \begin_layout Itemize
-round 2 (higher endline, HEL) tested material from the current school year's
- syllabus
+round 2 (higher endline,
+ HEL) tested material from the current school year's syllabus
 \end_layout
 
 \end_deeper
@@ -4537,7 +4709,8 @@ Scores in years 1 and 2 normalized to distribution in control schools
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Results
+Muralidharan & Sundararaman 2011:
+ Results
 \end_layout
 
 \end_inset
@@ -4547,12 +4720,13 @@ Muralidharan & Sundararaman 2011: Results
 
 \begin_deeper
 \begin_layout Itemize
-Teacher attrition: no significant difference in teacher attrition across
- schools (worried teachers try to select into incentive schools for e.g.)
+Teacher attrition:
+ no significant difference in teacher attrition across schools (worried teachers try to select into incentive schools for e.g.)
 \end_layout
 
 \begin_layout Itemize
-Student attrition: 7.1% attrition at year 1.
+Student attrition:
+ 7.1% attrition at year 1.
  20.6% at year 2.
  Higher attrition for lower test score children.
  But balanced across treatments.
@@ -4617,7 +4791,8 @@ indicates test at end of
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Results
+Muralidharan & Sundararaman 2011:
+ Results
 \end_layout
 
 \end_inset
@@ -4650,7 +4825,8 @@ Muralidharan & Sundararaman 2011: Results
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Results
+Muralidharan & Sundararaman 2011:
+ Results
 \end_layout
 
 \end_inset
@@ -4663,7 +4839,7 @@ Muralidharan & Sundararaman 2011: Results
 \align center
 \begin_inset Graphics
 	filename pictures/MuralidharanSundararaman_7.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4683,7 +4859,8 @@ Muralidharan & Sundararaman 2011: Results
 status open
 
 \begin_layout Plain Layout
-Muralidharan & Sundararaman 2011: Heterogeneity
+Muralidharan & Sundararaman 2011:
+ Heterogeneity
 \end_layout
 
 \end_inset
@@ -4693,7 +4870,8 @@ Muralidharan & Sundararaman 2011: Heterogeneity
 
 \begin_deeper
 \begin_layout Itemize
-How does the distribution of test scores change: 
+How does the distribution of test scores change:
+ 
 \begin_inset Formula 
 \[
 \delta\left(\tau\right)=G_{n}^{-1}\left(\tau\right)-F_{m}^{-1}\left(\tau\right)
@@ -4705,7 +4883,8 @@ where
 \begin_inset Formula $G_{n}$
 \end_inset
 
- is treatment distribution, 
+ is treatment distribution,
+ 
 \begin_inset Formula $F_{m}$
 \end_inset
 
@@ -4713,13 +4892,12 @@ where
 \end_layout
 
 \begin_layout Itemize
-NB This is a quantile treatment effect not a treatment effect at different
- quantiles
+NB This is a quantile treatment effect not a treatment effect at different quantiles
 \end_layout
 
 \begin_layout Itemize
-Treatment effect at different quantiles: Estimate nonparametric reg of endline
- scores on baseline scores separately for treatment and control.
+Treatment effect at different quantiles:
+ Estimate nonparametric reg of endline scores on baseline scores separately for treatment and control.
 \end_layout
 
 \begin_layout Itemize
@@ -4761,7 +4939,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/MuralidharanSundararaman_8.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4794,7 +4972,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/MuralidharanSundararaman_9.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4926,7 +5104,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/MuralidharanSundararaman_13.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4959,7 +5137,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/MuralidharanSundararaman_14.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -4968,7 +5146,8 @@ status open
 
 \end_deeper
 \begin_layout Subsection
-Duflo, Hanna & Ryan (AER 2012) 
+Duflo,
+ Hanna & Ryan (AER 2012) 
 \begin_inset ERT
 status open
 
@@ -4983,7 +5162,8 @@ textit{
 
 \end_inset
 
-Incentives Work: Getting Teachers to Come to School
+Incentives Work:
+ Getting Teachers to Come to School
 \begin_inset ERT
 status open
 
@@ -5003,7 +5183,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Introduction
+ 2012:
+ Introduction
 \end_layout
 
 \end_inset
@@ -5019,19 +5200,17 @@ Access to primary school has increased dramatically in low-income countries,
 
 \begin_deeper
 \begin_layout Itemize
-65% of children in grades 2-5 in Indian government schools in 2006 couldn't
- read a simple paragraph (Pratham 2006)
+65% of children in grades 2-5 in Indian government schools in 2006 couldn't read a simple paragraph (Pratham 2006)
 \end_layout
 
 \begin_layout Itemize
-24% of teachers in India are absent in unannounced visits (Kremer et al
- 2005)
+24% of teachers in India are absent in unannounced visits (Kremer et al 2005)
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-This paper: Experiment and structural model of direct monitoring of para-teacher
-s' attendance in India.
+This paper:
+ Experiment and structural model of direct monitoring of para-teachers' attendance in India.
 \end_layout
 
 \begin_layout Itemize
@@ -5041,8 +5220,8 @@ Ambiguous effect on presence.
 
 \begin_deeper
 \begin_layout Itemize
-Standard labor supply model predicts more effort, but only if strong enough
- incentives
+Standard labor supply model predicts more effort,
+ but only if strong enough incentives
 \end_layout
 
 \begin_layout Itemize
@@ -5068,7 +5247,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Introduction
+ 2012:
+ Introduction
 \end_layout
 
 \end_inset
@@ -5083,20 +5263,17 @@ Will presence increase learning?
 
 \begin_deeper
 \begin_layout Itemize
-Multitasking means incentives for presence could crowd out other dimensions
- of effort (Holmstrom & Milgrom 1991).
+Multitasking means incentives for presence could crowd out other dimensions of effort (Holmstrom & Milgrom 1991).
 \end_layout
 
 \begin_layout Itemize
-Incentives may demoralize teacher or reduce their intrinsic motivation to
- teach.
+Incentives may demoralize teacher or reduce their intrinsic motivation to teach.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-But if the main reason people don't show up is the opportunity cost of being
- at the school and the marginal cost of teaching once you're at the school
- is low, this might just work.
+But if the main reason people don't show up is the opportunity cost of being at the school and the marginal cost of teaching once you're at the school is low,
+ this might just work.
 \end_layout
 
 \end_deeper
@@ -5113,7 +5290,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Setting & Experiment
+ 2012:
+ Setting & Experiment
 \end_layout
 
 \end_inset
@@ -5123,19 +5301,19 @@ Duflo et al.
 
 \begin_deeper
 \begin_layout Itemize
-The setting are rural nonformal education centers (NFEs) in Udaipur, Rajasthan,
+The setting are rural nonformal education centers (NFEs) in Udaipur,
+ Rajasthan,
  India.
 \end_layout
 
 \begin_layout Itemize
-In september 2003 Seva Mandir, the operator chose 120 schools for the experiment.
+In september 2003 Seva Mandir,
+ the operator chose 120 schools for the experiment.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-In 60 schools the teachers got a camera and were told that one of the students
- had to take a photograph of the teacher with the children at the start
- and the end of the day.
+In 60 schools the teachers got a camera and were told that one of the students had to take a photograph of the teacher with the children at the start and the end of the day.
  Cameras had a tamper-proof date & time function.
 \end_layout
 
@@ -5171,7 +5349,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Data
+ 2012:
+ Data
 \end_layout
 
 \end_inset
@@ -5186,7 +5365,8 @@ Attendance data
 
 \begin_deeper
 \begin_layout Enumerate
-1 random, unannounced visit to each school each month.
+1 random,
+ unannounced visit to each school each month.
 \end_layout
 
 \begin_layout Enumerate
@@ -5196,14 +5376,19 @@ Camera and payment data for treatment schools
 \end_deeper
 \begin_layout Itemize
 Additional data from random checks.
- How many children, whether anything on the board, whether the teacher was
- talking to the children, and roll call.
+ How many children,
+ whether anything on the board,
+ whether the teacher was talking to the children,
+ and roll call.
 \end_layout
 
 \begin_layout Itemize
 3 basic competency exams.
- Oral exams testing simple math, basic Hindi vocabulary.
- Written exam testing addition, multiplication, ability to construct sentences,
+ Oral exams testing simple math,
+ basic Hindi vocabulary.
+ Written exam testing addition,
+ multiplication,
+ ability to construct sentences,
  and reading comprehension.
 \end_layout
 
@@ -5247,7 +5432,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Duflo2012_1.png
-	height 93pheight%
+	special height=0.93\paperheight
 
 \end_inset
 
@@ -5268,7 +5453,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Attendance Increased
+ 2012:
+ Attendance Increased
 \end_layout
 
 \end_inset
@@ -5302,7 +5488,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Attendance Increased
+ 2012:
+ Attendance Increased
 \end_layout
 
 \end_inset
@@ -5336,7 +5523,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Attendance Increased
+ 2012:
+ Attendance Increased
 \end_layout
 
 \end_inset
@@ -5349,7 +5537,7 @@ Duflo et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Duflo2012_4.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -5370,7 +5558,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Financial Incentives
+ 2012:
+ Financial Incentives
 \end_layout
 
 \end_inset
@@ -5386,19 +5575,19 @@ People in the treatment group got both financial incentives and monitoring,
 
 \begin_layout Itemize
 The cap of Rs.
- 500 on the fine makes the incentive scheme non-linear permiting an assessment
- of the financial incentives independent of the monitoring as follows:
+ 500 on the fine makes the incentive scheme non-linear permiting an assessment of the financial incentives independent of the monitoring as follows:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Imagine a teacher who was sick a lot one month and missed most of the first
- 20 days of school.
+Imagine a teacher who was sick a lot one month and missed most of the first 20 days of school.
  Assume on day 21 he has worked 5 days and has 5 days to go.
- Even if he works all 5 days, he will earn Rs.
- 500, the same as if he works none.
- At the start of the next month the clock resets, so he has an incentive
- to start working again.
+ Even if he works all 5 days,
+ he will earn Rs.
+ 500,
+ the same as if he works none.
+ At the start of the next month the clock resets,
+ so he has an incentive to start working again.
 \end_layout
 
 \begin_layout Itemize
@@ -5423,7 +5612,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Financial Incentives
+ 2012:
+ Financial Incentives
 \end_layout
 
 \end_inset
@@ -5436,7 +5626,7 @@ Duflo et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Duflo2012_5.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -5457,7 +5647,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Financial Incentives
+ 2012:
+ Financial Incentives
 \end_layout
 
 \end_inset
@@ -5469,8 +5660,7 @@ Duflo et al.
 \begin_layout Itemize
 For teachers in the treatment group.
  create a dataset of attendance records around the end of the month.
- The last day of a month and the first day of the next month form a pair
- 
+ The last day of a month and the first day of the next month form a pair 
 \begin_inset Formula $m$
 \end_inset
 
@@ -5535,7 +5725,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Financial Incentives
+ 2012:
+ Financial Incentives
 \end_layout
 
 \end_inset
@@ -5548,7 +5739,7 @@ Duflo et al.
 \align center
 \begin_inset Graphics
 	filename pictures/Duflo2012_6.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -5569,7 +5760,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Dynamic Labor Supply Model
+ 2012:
+ Dynamic Labor Supply Model
 \end_layout
 
 \end_inset
@@ -5615,7 +5807,8 @@ Consumption depends on earned income
 \begin_inset Formula $\pi_{m}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\beta$
 \end_inset
 
@@ -5626,7 +5819,8 @@ Consumption depends on earned income
 \begin_inset Formula $L_{tm}$
 \end_inset
 
- is 1 if the teacher doesn't attend work, and zero otherwise.
+ is 1 if the teacher doesn't attend work,
+ and zero otherwise.
 \end_layout
 
 \begin_layout Itemize
@@ -5659,7 +5853,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Dynamic Labor Supply Model
+ 2012:
+ Dynamic Labor Supply Model
 \end_layout
 
 \end_inset
@@ -5669,7 +5864,8 @@ Duflo et al.
 
 \begin_deeper
 \begin_layout Itemize
-Not attending school has two costs: 
+Not attending school has two costs:
+ 
 \begin_inset Formula $P$
 \end_inset
 
@@ -5690,11 +5886,13 @@ Not attending school has two costs:
 \end_inset
 
 .
- If they are fired, teachers get 
+ If they are fired,
+ teachers get 
 \begin_inset Formula $F$
 \end_inset
 
-, their outside option.
+,
+ their outside option.
 \end_layout
 
 \begin_layout Itemize
@@ -5743,7 +5941,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Dynamic Labor Supply Model
+ 2012:
+ Dynamic Labor Supply Model
 \end_layout
 
 \end_inset
@@ -5753,8 +5952,7 @@ Duflo et al.
 
 \begin_deeper
 \begin_layout Itemize
-Treatment group have a very different problem to solve since they face incentive
-s for attendance.
+Treatment group have a very different problem to solve since they face incentives for attendance.
 \end_layout
 
 \begin_layout Itemize
@@ -5808,7 +6006,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Estimation
+ 2012:
+ Estimation
 \end_layout
 
 \end_inset
@@ -5822,7 +6021,8 @@ In period
 \begin_inset Formula $T_{m}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $EV_{m+1}$
 \end_inset
 
@@ -5846,7 +6046,8 @@ Need to make some assumptions about
 \end_layout
 
 \begin_layout Itemize
-In the data noone ever gets fired, so assume that teachers perceive 
+In the data noone ever gets fired,
+ so assume that teachers perceive 
 \begin_inset Formula $p_{m}\left(t,d\right)=0$
 \end_inset
 
@@ -5854,7 +6055,8 @@ In the data noone ever gets fired, so assume that teachers perceive
 \end_layout
 
 \begin_layout Itemize
-Model 1: iid errors.
+Model 1:
+ iid errors.
  Simplest case.
  In period 
 \begin_inset Formula $t<T$
@@ -5887,7 +6089,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Estimation
+ 2012:
+ Estimation
 \end_layout
 
 \end_inset
@@ -5927,8 +6130,8 @@ LLH\left(\theta\right) & =\sum_{i=1}^{N}\sum_{m=1}^{M_{i}}\sum_{t=1}^{T_{m}}\lef
 \end_layout
 
 \begin_layout Itemize
-This likelihood is concave and can be evaluated quickly, no numerical integratio
-n is needed.
+This likelihood is concave and can be evaluated quickly,
+ no numerical integration is needed.
  Just need to evaluate it at many points.
 \end_layout
 
@@ -5946,7 +6149,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Estimation
+ 2012:
+ Estimation
 \end_layout
 
 \end_inset
@@ -5960,7 +6164,8 @@ Now introduce some serial correlation in two ways.
 \end_layout
 
 \begin_layout Itemize
-Approach 1: Serially correlated preference shocks
+Approach 1:
+ Serially correlated preference shocks
 \begin_inset Formula 
 \[
 \mu_{mt}=\mu+w_{m,t-1}\gamma
@@ -5985,7 +6190,8 @@ LLH\left(\theta\right) & =\sum_{i=1}^{N}\sum_{m=1}^{M_{i}}\sum_{t=1}^{T_{m}}\lef
 \end_layout
 
 \begin_layout Itemize
-Approach 2: Serially correlated cost shocks:
+Approach 2:
+ Serially correlated cost shocks:
 \begin_inset Formula 
 \[
 \epsilon_{mt}=\rho\epsilon_{m,t-1}+\nu_{mt}
@@ -5997,7 +6203,8 @@ Approach 2: Serially correlated cost shocks:
 \end_layout
 
 \begin_layout Itemize
-Can't estimate this by ML, need to use Method of Simulated Moments.
+Can't estimate this by ML,
+ need to use Method of Simulated Moments.
  Match sequences of attendance of length 5.
 \end_layout
 
@@ -6015,7 +6222,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Estimation
+ 2012:
+ Estimation
 \end_layout
 
 \end_inset
@@ -6034,8 +6242,7 @@ Incorporate observables into
 \end_inset
 
 .
- Use attendance in control group in same geographic block and teacher's
- score on the admission exam to shift 
+ Use attendance in control group in same geographic block and teacher's score on the admission exam to shift 
 \begin_inset Formula $\mu$
 \end_inset
 
@@ -6052,8 +6259,7 @@ Relax assumption that the outside option is the same for everyone.
 \begin_inset Formula $\mu_{im}$
 \end_inset
 
- drawn from normal distribution or from a mixture of two normally distributed
- types.
+ drawn from normal distribution or from a mixture of two normally distributed types.
 \end_layout
 
 \end_deeper
@@ -6082,7 +6288,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Duflo2012_7.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -6103,7 +6309,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Counterfactual Policies
+ 2012:
+ Counterfactual Policies
 \end_layout
 
 \end_inset
@@ -6118,8 +6325,7 @@ With the model we can do counterfactuals.
 \end_layout
 
 \begin_layout Itemize
-Find the cost minimizing combination of the bonus size and the threshold
- to get a bonus that yield a particular number of expected work days.
+Find the cost minimizing combination of the bonus size and the threshold to get a bonus that yield a particular number of expected work days.
 \end_layout
 
 \begin_layout Standard
@@ -6147,7 +6353,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Teacher performance
+ 2012:
+ Teacher performance
 \end_layout
 
 \end_inset
@@ -6205,7 +6412,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2012: Student Achievement
+ 2012:
+ Student Achievement
 \end_layout
 
 \end_inset
@@ -6216,8 +6424,7 @@ Duflo et al.
 \begin_deeper
 \begin_layout Itemize
 Run treatment regressions of scores in mid- and end-term exams.
- Test scores are highly autocorrelated so gain lots of precision by controlling
- for pre-scores.
+ Test scores are highly autocorrelated so gain lots of precision by controlling for pre-scores.
 \begin_inset Formula 
 \begin{align*}
 Score_{ijk} & =\beta_{1}+\beta_{2}Treat_{j}+\beta_{3}Pre\_Writ_{ij}+\beta_{r}Oral\_Score_{ij}\\
@@ -6230,8 +6437,8 @@ where
 \begin_inset Formula $Pre\_Writ_{ij}$
 \end_inset
 
- is a dummy for taking the written test at baseline (they did either the
- written or oral test), 
+ is a dummy for taking the written test at baseline (they did either the written or oral test),
+ 
 \begin_inset Formula $Oral\_Score_{ij}$
 \end_inset
 
@@ -6259,7 +6466,7 @@ where
 \align center
 \begin_inset Graphics
 	filename pictures/Duflo2012_11.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -6268,7 +6475,8 @@ where
 
 \end_deeper
 \begin_layout Subsection
-Khan, Khwaja & Olken (QJE 2016) 
+Khan,
+ Khwaja & Olken (QJE 2016) 
 \begin_inset ERT
 status open
 
@@ -6283,7 +6491,8 @@ textit{
 
 \end_inset
 
-Tax Farming Redux: Experimental Evidence on Performance Pay for Tax Collectors
+Tax Farming Redux:
+ Experimental Evidence on Performance Pay for Tax Collectors
 \begin_inset ERT
 status open
 
@@ -6302,7 +6511,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Introduction
+Khan et al 2016:
+ Introduction
 \end_layout
 
 \end_inset
@@ -6312,13 +6522,15 @@ Khan et al 2016: Introduction
 
 \begin_deeper
 \begin_layout Itemize
-Focus on a bureaucrat (tax inspector) who has to assess, enforce, and audit
- property taxes.
+Focus on a bureaucrat (tax inspector) who has to assess,
+ enforce,
+ and audit property taxes.
 \end_layout
 
 \begin_layout Itemize
-One possibility: sell the right to collect taxes to the bureaucrat and then
- let the bureaucrat keep most/all of the revenue: 
+One possibility:
+ sell the right to collect taxes to the bureaucrat and then let the bureaucrat keep most/all of the revenue:
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -6326,7 +6538,8 @@ Tax Farming
 \begin_inset Quotes erd
 \end_inset
 
- common throughout history (Rome, France etc.)
+ common throughout history (Rome,
+ France etc.)
 \end_layout
 
 \begin_layout Itemize
@@ -6335,20 +6548,19 @@ But this is a setting where the bureaucrat and the citizen might collude.
 
 \begin_deeper
 \begin_layout Itemize
-performance incentives affect division of rents without necessarily increasing
- revenue.
+performance incentives affect division of rents without necessarily increasing revenue.
 \end_layout
 
 \begin_layout Itemize
 e.g.
- if collusion is costless, then performance pay increases bribes without
- increasing revenue since taxpayer now has to compensate the inspector for
- the foregone bonus.
+ if collusion is costless,
+ then performance pay increases bribes without increasing revenue since taxpayer now has to compensate the inspector for the foregone bonus.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Conduct an experiment in Punjab, Pakistan to investigate these issues.
+Conduct an experiment in Punjab,
+ Pakistan to investigate these issues.
 \end_layout
 
 \end_deeper
@@ -6364,7 +6576,8 @@ Conduct an experiment in Punjab, Pakistan to investigate these issues.
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Setting
+Khan et al 2016:
+ Setting
 \end_layout
 
 \end_inset
@@ -6398,12 +6611,14 @@ circles
 \begin_inset Quotes erd
 \end_inset
 
-: geographic areas covering 2-10K houses.
+:
+ geographic areas covering 2-10K houses.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Each circle has 3 officers: An 
+Each circle has 3 officers:
+ An 
 \begin_inset Quotes eld
 \end_inset
 
@@ -6448,7 +6663,8 @@ Each year they send the taxpayer a bill.
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Model
+Khan et al 2016:
+ Model
 \end_layout
 
 \end_inset
@@ -6488,7 +6704,8 @@ Colluding to underreport is costly
 
 \begin_deeper
 \begin_layout Itemize
-taxpayer cost: 
+taxpayer cost:
+ 
 \begin_inset Formula $\alpha\left(\tau_{i}^{*}-\tau_{i}\right)$
 \end_inset
 
@@ -6496,7 +6713,8 @@ taxpayer cost:
 \end_layout
 
 \begin_layout Itemize
-inspector cost: 
+inspector cost:
+ 
 \begin_inset Formula $\beta\left(\tau_{i}^{*}-\tau_{i}\right)$
 \end_inset
 
@@ -6513,7 +6731,8 @@ Taxpayer and inspector Nash bargain over bribe
 \end_layout
 
 \begin_layout Itemize
-If they don't agree a bribe, the taxpayer gets 
+If they don't agree a bribe,
+ the taxpayer gets 
 \begin_inset Formula $-\tau_{i}^{*}$
 \end_inset
 
@@ -6525,7 +6744,8 @@ If they don't agree a bribe, the taxpayer gets
 \end_layout
 
 \begin_layout Itemize
-If they agree, the taxpayer gets 
+If they agree,
+ the taxpayer gets 
 \begin_inset Formula $-\tau_{i}-\alpha_{i}\left(\tau_{i}^{*}-\tau_{i}\right)-b_{i}$
 \end_inset
 
@@ -6549,7 +6769,8 @@ If they agree, the taxpayer gets
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Model
+Khan et al 2016:
+ Model
 \end_layout
 
 \end_inset
@@ -6615,7 +6836,8 @@ b_{i}=\left[\left(\beta_{i}+r\right)\gamma_{i}+\left(1-\gamma_{i}\right)\left(1-
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Model
+Khan et al 2016:
+ Model
 \end_layout
 
 \end_inset
@@ -6629,7 +6851,8 @@ What happens to total revenue
 \begin_inset Formula $T$
 \end_inset
 
-? Denote 
+?
+ Denote 
 \begin_inset Formula $f\left(\alpha,\beta,\tau^{*}\right)$
 \end_inset
 
@@ -6654,8 +6877,7 @@ If we increase
 \begin_inset Formula $r$
 \end_inset
 
- the effect depends on how many people are on the margin between the two
- cases
+ the effect depends on how many people are on the margin between the two cases
 \end_layout
 
 \begin_layout Itemize
@@ -6671,7 +6893,8 @@ linearity
 \begin_inset Formula $\tau^{*}$
 \end_inset
 
- known, no effort by bureaucrat
+ known,
+ no effort by bureaucrat
 \end_layout
 
 \begin_layout Itemize
@@ -6696,7 +6919,8 @@ outside option is
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Experiment
+Khan et al 2016:
+ Experiment
 \end_layout
 
 \end_inset
@@ -6706,7 +6930,8 @@ Khan et al 2016: Experiment
 
 \begin_deeper
 \begin_layout Itemize
-Treatment 1: 
+Treatment 1:
+ 
 \emph on
 Revenue
 \emph default
@@ -6722,28 +6947,30 @@ Revenue
 \end_layout
 
 \begin_layout Itemize
-Benchmark calculated from 3-year averages of historical collection plus
- normal rate of increase.
+Benchmark calculated from 3-year averages of historical collection plus normal rate of increase.
 \end_layout
 
 \begin_layout Itemize
 \begin_inset Formula $\alpha_{c}$
 \end_inset
 
- was 40% for lowest 50% of circles, 
+ was 40% for lowest 50% of circles,
+ 
 \begin_inset Formula $30\%$
 \end_inset
 
- between 50th and 75th percentiles, 20% at the top.
+ between 50th and 75th percentiles,
+ 20% at the top.
 \end_layout
 
 \begin_layout Itemize
-Note incentive depends only on revenue, not whether it's more money from
- existing houses or finding new houses to bring into the tax net.
+Note incentive depends only on revenue,
+ not whether it's more money from existing houses or finding new houses to bring into the tax net.
 \end_layout
 
 \begin_layout Itemize
-Bonus divided 40%-30%-30% between inspector, constable & clerk.
+Bonus divided 40%-30%-30% between inspector,
+ constable & clerk.
 \end_layout
 
 \end_deeper
@@ -6759,7 +6986,8 @@ Bonus divided 40%-30%-30% between inspector, constable & clerk.
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Experiment
+Khan et al 2016:
+ Experiment
 \end_layout
 
 \end_inset
@@ -6778,12 +7006,12 @@ Revenue Plus
 \end_layout
 
 \begin_layout Itemize
-Same as above, but also incentives to address multitasking
+Same as above,
+ but also incentives to address multitasking
 \end_layout
 
 \begin_layout Itemize
-Pay adjusted according to taxpayer satisfaction (survey of 21,000 households)
- and assessment accuracy 
+Pay adjusted according to taxpayer satisfaction (survey of 21,000 households) and assessment accuracy 
 \begin_inset Formula $\left(1-\left|\text{survey }GARV/\text{official }GARV\right|\right)$
 \end_inset
 
@@ -6823,7 +7051,8 @@ base pay (subject to total experimental payments >0)
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Experiment
+Khan et al 2016:
+ Experiment
 \end_layout
 
 \end_inset
@@ -6855,21 +7084,26 @@ Same adjustments to payout as in Revenue Plus treatment
 \end_layout
 
 \begin_layout Itemize
-Treatment 4: 
+Treatment 4:
+ 
 \emph on
 Information only
 \emph default
  in year 2.
- Same treatment (monitoring, reports, meetings etc) except no payments
+ Same treatment (monitoring,
+ reports,
+ meetings etc) except no payments
 \end_layout
 
 \begin_layout Itemize
-Treatment 5: 
+Treatment 5:
+ 
 \emph on
 Supervisors performance pay
 \emph default
  in year 2.
- Similar to Revenue treatment, but for the supervisors (only 26 treatments,
+ Similar to Revenue treatment,
+ but for the supervisors (only 26 treatments,
  25 controls though)
 \end_layout
 
@@ -6886,7 +7120,8 @@ Supervisors performance pay
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Experiment
+Khan et al 2016:
+ Experiment
 \end_layout
 
 \end_inset
@@ -6919,7 +7154,8 @@ Khan et al 2016: Experiment
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Measurement
+Khan et al 2016:
+ Measurement
 \end_layout
 
 \end_inset
@@ -6964,8 +7200,8 @@ Use absolute value of
 \end_layout
 
 \begin_layout Itemize
-Bribes are common: Respondents report average bribes of Rs.2000 (US$20) which
- 
+Bribes are common:
+ Respondents report average bribes of Rs.2000 (US$20) which 
 \begin_inset Formula $\sim$
 \end_inset
 
@@ -6985,7 +7221,8 @@ Bribes are common: Respondents report average bribes of Rs.2000 (US$20) which
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Estimation
+Khan et al 2016:
+ Estimation
 \end_layout
 
 \end_inset
@@ -6995,8 +7232,8 @@ Khan et al 2016: Estimation
 
 \begin_deeper
 \begin_layout Itemize
-Small amount of attrition (refuse to participate/transferred out) so use
- 2SLS: Instrument actual treatment status with randomization outcome
+Small amount of attrition (refuse to participate/transferred out) so use 2SLS:
+ Instrument actual treatment status with randomization outcome
 \begin_inset Formula 
 \[
 \ln Y_{cst}=\alpha_{s}+\beta Treatment_{cst}+\gamma\ln Y_{cs0}+\epsilon_{cst}
@@ -7025,8 +7262,7 @@ where
 \begin_inset Formula $Treatment_{cst}$
 \end_inset
 
- is continuous between 0 & 1 representing fraction of treated circle staff
- present in circle 
+ is continuous between 0 & 1 representing fraction of treated circle staff present in circle 
 \begin_inset Formula $c$
 \end_inset
 
@@ -7075,7 +7311,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Khanetal2016_2.png
-	height 94pheight%
+	special height=0.94\paperheight
 
 \end_inset
 
@@ -7108,7 +7344,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Khanetal2016_3.png
-	height 94pheight%
+	special height=0.94\paperheight
 
 \end_inset
 
@@ -7128,7 +7364,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Collusion
+Khan et al 2016:
+ Collusion
 \end_layout
 
 \end_inset
@@ -7138,18 +7375,19 @@ Khan et al 2016: Collusion
 
 \begin_deeper
 \begin_layout Itemize
-The model suggests that the incentive payments will alter the nature of
- collusion
+The model suggests that the incentive payments will alter the nature of collusion
 \end_layout
 
 \begin_layout Enumerate
-How many properties get revalued? i.e.
+How many properties get revalued?
+ i.e.
  how often does collusion break down?
 \end_layout
 
 \begin_layout Enumerate
-How does collusion change? if collusion breaks down, tax should go up and
- bribes should go down.
+How does collusion change?
+ if collusion breaks down,
+ tax should go up and bribes should go down.
  If collusion doesn't break down bribes + tax should go up.
  How shared depends on 
 \begin_inset Formula $\gamma$
@@ -7159,8 +7397,8 @@ How does collusion change? if collusion breaks down, tax should go up and
 \end_layout
 
 \begin_layout Enumerate
-When does collusion break down? Which properties are the ones the inspectors
- reassess?
+When does collusion break down?
+ Which properties are the ones the inspectors reassess?
 \end_layout
 
 \end_deeper
@@ -7222,7 +7460,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Khanetal2016_5.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -7309,7 +7547,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Results
+Khan et al 2016:
+ Results
 \end_layout
 
 \end_inset
@@ -7328,16 +7567,20 @@ Inspectors do reassess houses and bring in new ones
 \end_layout
 
 \begin_layout Itemize
-where reassessed, more likely to pay more tax, pay less bribes
+where reassessed,
+ more likely to pay more tax,
+ pay less bribes
 \end_layout
 
 \begin_layout Itemize
-Suggestive evidence it's richer, more powerful people who get reassessed
+Suggestive evidence it's richer,
+ more powerful people who get reassessed
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Was this worthwhile for the benefit? We can do a cost-benefit assessment
+Was this worthwhile for the benefit?
+ We can do a cost-benefit assessment
 \end_layout
 
 \end_deeper
@@ -7353,7 +7596,8 @@ Was this worthwhile for the benefit? We can do a cost-benefit assessment
 status open
 
 \begin_layout Plain Layout
-Khan et al 2016: Cost-Benefit
+Khan et al 2016:
+ Cost-Benefit
 \end_layout
 
 \end_inset
@@ -7366,7 +7610,7 @@ Khan et al 2016: Cost-Benefit
 \align center
 \begin_inset Graphics
 	filename pictures/Khanetal2016_8.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -7375,7 +7619,8 @@ Khan et al 2016: Cost-Benefit
 
 \end_deeper
 \begin_layout Subsection
-Duflo Greenstone Pande & Ryan (QJE 2013): 
+Duflo Greenstone Pande & Ryan (QJE 2013):
+ 
 \begin_inset ERT
 status open
 
@@ -7410,7 +7655,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2013: Introduction
+Duflo et al 2013:
+ Introduction
 \end_layout
 
 \end_inset
@@ -7429,7 +7675,9 @@ financial accounting of firms
 \end_layout
 
 \begin_layout Itemize
-food safety, health care, flowers etc in consumer & commodity markets
+food safety,
+ health care,
+ flowers etc in consumer & commodity markets
 \end_layout
 
 \begin_layout Itemize
@@ -7438,13 +7686,16 @@ environmental regulation
 
 \end_deeper
 \begin_layout Itemize
-Usually, the auditor is chosen by, paid by, and reports to the audited firm.
+Usually,
+ the auditor is chosen by,
+ paid by,
+ and reports to the audited firm.
  
 \end_layout
 
 \begin_layout Itemize
-Creates a conflict of interest: Report the truth or report what is beneficial
- for your client?
+Creates a conflict of interest:
+ Report the truth or report what is beneficial for your client?
 \end_layout
 
 \begin_layout Itemize
@@ -7464,7 +7715,8 @@ Conduct an experiment in India to investigate whether this can be overcome.
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2013: Setting
+Duflo et al 2013:
+ Setting
 \end_layout
 
 \end_inset
@@ -7474,8 +7726,8 @@ Duflo et al 2013: Setting
 
 \begin_deeper
 \begin_layout Itemize
-Study conducted in Gujarat: 5% of India's population but 9% of manufacturing
- employment and 19% of output
+Study conducted in Gujarat:
+ 5% of India's population but 9% of manufacturing employment and 19% of output
 \end_layout
 
 \begin_layout Itemize
@@ -7484,8 +7736,7 @@ Study conducted in Gujarat: 5% of India's population but 9% of manufacturing
 \end_layout
 
 \begin_layout Itemize
-Gujarat Pollution Control Board (GPCB) has a stringent regulatory framework
- for pollution control.
+Gujarat Pollution Control Board (GPCB) has a stringent regulatory framework for pollution control.
 \end_layout
 
 \begin_layout Itemize
@@ -7515,7 +7766,8 @@ third-party environmental audits.
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2013: Audits
+Duflo et al 2013:
+ Audits
 \end_layout
 
 \end_inset
@@ -7525,8 +7777,7 @@ Duflo et al 2013: Audits
 
 \begin_deeper
 \begin_layout Itemize
-Plants with high pollution potential must submit a yearly environmental
- audit
+Plants with high pollution potential must submit a yearly environmental audit
 \end_layout
 
 \begin_layout Itemize
@@ -7600,7 +7851,8 @@ Reports showing noncompliance with regs
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2013: Experiment
+Duflo et al 2013:
+ Experiment
 \end_layout
 
 \end_inset
@@ -7618,7 +7870,8 @@ Work with GPCB to implement a modified auditing system
 \end_layout
 
 \begin_layout Itemize
-Just before 2009 audits, randomly assigned half to audit treatment
+Just before 2009 audits,
+ randomly assigned half to audit treatment
 \end_layout
 
 \begin_layout Itemize
@@ -7626,12 +7879,12 @@ Then collect detailed data on each plant to determine eligibility
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- 473 plants, of which 49.2% in the treatment group.
+ 473 plants,
+ of which 49.2% in the treatment group.
 \end_layout
 
 \begin_layout Itemize
-Treatment plants assigned to the audit treatment in year 1 (2009) and year
- 2 (2010)
+Treatment plants assigned to the audit treatment in year 1 (2009) and year 2 (2010)
 \end_layout
 
 \begin_layout Itemize
@@ -7651,7 +7904,8 @@ Notified by letter from GPCB that their audit rules had changed.
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2013: Treatment
+Duflo et al 2013:
+ Treatment
 \end_layout
 
 \end_inset
@@ -7680,8 +7934,7 @@ Assignment and Fixed Pay
 Backchecks
 \emph default
 .
- Randomly selected 20% of readings to be redone by technical staff from
- engineering colleges roughly 10 days after auditor's visit.
+ Randomly selected 20% of readings to be redone by technical staff from engineering colleges roughly 10 days after auditor's visit.
 \end_layout
 
 \begin_layout Enumerate
@@ -7699,20 +7952,24 @@ Calculate
 \begin_inset Formula $\delta_{p}$
 \end_inset
 
-: difference between audit and backcheck for pollutant 
+:
+ difference between audit and backcheck for pollutant 
 \begin_inset Formula $p$
 \end_inset
 
 .
- Average it: 
+ Average it:
+ 
 \begin_inset Formula $\Delta_{\text{Water}}=\sum_{p\in\text{Water}}\delta_{p}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\Delta_{\text{Air}}=\sum_{p\in\text{Air}}\delta_{p}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\Delta_{\text{All}}=\left(\Delta_{\text{Water}}+\Delta_{\text{Air}}\right)/2$
 \end_inset
 
@@ -7720,7 +7977,8 @@ Calculate
 \end_layout
 
 \begin_layout Enumerate
-Rank auditors: Least accurate quartile get Rs.
+Rank auditors:
+ Least accurate quartile get Rs.
  35,000 per audit.
  Next least accurate quartile get Rs.
  40,000.
@@ -7755,7 +8013,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_1.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -7788,7 +8046,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_2.png
-	height 110theight%
+	special height=1.1\textheight
 
 \end_inset
 
@@ -7821,7 +8079,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_3.png
-	height 110theight%
+	special height=1.1\textheight
 
 \end_inset
 
@@ -7841,7 +8099,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2013: Misreporting in Control Group
+Duflo et al 2013:
+ Misreporting in Control Group
 \end_layout
 
 \end_inset
@@ -7909,7 +8168,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_4.png
-	height 105theight%
+	special height=1.05\textheight
 
 \end_inset
 
@@ -7942,7 +8201,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_5.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -7962,7 +8221,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2013: Treatment Effects on Misreporting
+Duflo et al 2013:
+ Treatment Effects on Misreporting
 \end_layout
 
 \end_inset
@@ -7976,8 +8236,7 @@ Does the treatment improve auditors' reporting?
 \end_layout
 
 \begin_layout Enumerate
-Compare distribution of pollution scores in audit reports and backcheck
- data
+Compare distribution of pollution scores in audit reports and backcheck data
 \end_layout
 
 \begin_layout Enumerate
@@ -8019,7 +8278,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_6.png
-	height 107theight%
+	special height=1.07\textheight
 
 \end_inset
 
@@ -8052,7 +8311,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_7.png
-	height 104theight%
+	special height=1.04\textheight
 
 \end_inset
 
@@ -8085,7 +8344,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_8.png
-	height 103theight%
+	special height=1.03\textheight
 
 \end_inset
 
@@ -8105,7 +8364,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2013: Plant Responses
+Duflo et al 2013:
+ Plant Responses
 \end_layout
 
 \end_inset
@@ -8119,8 +8379,8 @@ Do plants reduce pollution now that the auditors tell the truth?
 \end_layout
 
 \begin_layout Itemize
-In endline survey (after year 2) gather new pollution measurements from
- all plants, not just those who submit audit reports
+In endline survey (after year 2) gather new pollution measurements from all plants,
+ not just those who submit audit reports
 \end_layout
 
 \begin_layout Itemize
@@ -8173,7 +8433,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_9.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -8206,7 +8466,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_10.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -8239,7 +8499,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2013_11.png
-	height 105theight%
+	special height=1.05\textheight
 
 \end_inset
 
@@ -8261,7 +8521,10 @@ Non-financial Incentives
 \end_layout
 
 \begin_layout Subsection
-Bandiera, Best, Khan & Prat (QJE 2021): 
+Bandiera,
+ Best,
+ Khan & Prat (QJE 2021):
+ 
 \begin_inset ERT
 status open
 
@@ -8276,8 +8539,8 @@ textit{
 
 \end_inset
 
-The Allocation of Authority in Organizations: A Field Experiment with Bureaucrat
-s
+The Allocation of Authority in Organizations:
+ A Field Experiment with Bureaucrats
 \begin_inset ERT
 status open
 
@@ -8306,19 +8569,18 @@ Agency and authority
 
 \begin_deeper
 \begin_layout Itemize
-Organizations bring together people with different interests, information
- and skills to work towards a common goal.
+Organizations bring together people with different interests,
+ information and skills to work towards a common goal.
  
 \end_layout
 
 \begin_layout Itemize
-Incentive contracts designed to meet that goal are at the core of organisational
- economics
+Incentive contracts designed to meet that goal are at the core of organisational economics
 \end_layout
 
 \begin_layout Itemize
-Mostly this takes as given the allocation of authority, that is the actions
- over which the agents has decision rights
+Mostly this takes as given the allocation of authority,
+ that is the actions over which the agents has decision rights
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -8381,8 +8643,7 @@ Costs and benefits of autonomy
 \end_layout
 
 \begin_layout Itemize
-Giving decision rights to agents incentivises them to acquire information
- and use it to the benefit of the organisation 
+Giving decision rights to agents incentivises them to acquire information and use it to the benefit of the organisation 
 \shape italic
 \color black
 but also to their private benefit
@@ -8412,8 +8673,7 @@ Shifting agency
 
 \begin_deeper
 \begin_layout Itemize
-in most organisations rules require an additional layer of agents to enforce
- them
+in most organisations rules require an additional layer of agents to enforce them
 \end_layout
 
 \begin_layout Itemize
@@ -8456,10 +8716,10 @@ What we know
 \end_layout
 
 \begin_layout Itemize
-A number of studies show that cross-sectional variation is consistent with
- the predictions of agency theory 
+A number of studies show that cross-sectional variation is consistent with the predictions of agency theory 
 \size footnotesize
-(Acemoglu et al 07, Bloom et al 12) 
+(Acemoglu et al 07,
+ Bloom et al 12) 
 \size default
 
 \begin_inset VSpace medskip
@@ -8469,14 +8729,18 @@ A number of studies show that cross-sectional variation is consistent with
 \end_layout
 
 \begin_layout Itemize
-Yet, there is a positive correlation between autonomy and performance
+Yet,
+ there is a positive correlation between autonomy and performance
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 across organisations 
 \size footnotesize
-(Bandiera, Prat and Valletti 09, Rasul&Rogger 18, Rasul et al 19)
+(Bandiera,
+ Prat and Valletti 09,
+ Rasul&Rogger 18,
+ Rasul et al 19)
 \size default
  
 \end_layout
@@ -8485,7 +8749,8 @@ across organisations
 within organisations 
 \size footnotesize
 \color black
-(Duflo et al 17, Wu 18)
+(Duflo et al 17,
+ Wu 18)
 \end_layout
 
 \end_deeper
@@ -8515,8 +8780,7 @@ This paper
 
 \emph on
 \color black
-Design a field experiment to exogenously shift authority to lower tier bureaucra
-ts 
+Design a field experiment to exogenously shift authority to lower tier bureaucrats 
 \emph default
 \color inherit
 
@@ -8527,8 +8791,7 @@ ts
 \end_layout
 
 \begin_layout Itemize
-Cross-randomise with performance pay to study the interaction between the
- two
+Cross-randomise with performance pay to study the interaction between the two
 \end_layout
 
 \end_deeper
@@ -8544,7 +8807,8 @@ Cross-randomise with performance pay to study the interaction between the
 status open
 
 \begin_layout Plain Layout
-Setting: Public Procurement
+Setting:
+ Public Procurement
 \end_layout
 
 \end_inset
@@ -8564,7 +8828,8 @@ status open
 
 \end_inset
 
-Textbook example of moral hazard: 
+Textbook example of moral hazard:
+ 
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -8618,11 +8883,13 @@ Spending on public procurement as GDP share in 2015 (OECD):
 
 \begin_deeper
 \begin_layout Itemize
-United States: 9.35%
+United States:
+ 9.35%
 \end_layout
 
 \begin_layout Itemize
-Average OECD country: 13.18%
+Average OECD country:
+ 13.18%
 \end_layout
 
 \end_deeper
@@ -8659,12 +8926,12 @@ Strict auditing and monitoring is necessary to avoid private capture..
 
 \begin_deeper
 \begin_layout Itemize
-OECD Third Principle for Integrity in Public Procurement: 
+OECD Third Principle for Integrity in Public Procurement:
+ 
 \begin_inset Quotes eld
 \end_inset
 
-The management of public funds should be monitored by internal control and
- internal audit bodies.
+The management of public funds should be monitored by internal control and internal audit bodies.
 \begin_inset Quotes erd
 \end_inset
 
@@ -8678,8 +8945,9 @@ The management of public funds should be monitored by internal control and
 
 \begin_deeper
 \begin_layout Itemize
-Kelman (1990), Procurement and Public Management: The Fear of Discretion
- and the Quality of Government Performance
+Kelman (1990),
+ Procurement and Public Management:
+ The Fear of Discretion and the Quality of Government Performance
 \end_layout
 
 \end_deeper
@@ -8696,7 +8964,9 @@ Kelman (1990), Procurement and Public Management: The Fear of Discretion
 status open
 
 \begin_layout Plain Layout
-Procurement in Punjab, Pakistan: Agents and Supervisors
+Procurement in Punjab,
+ Pakistan:
+ Agents and Supervisors
 \end_layout
 
 \end_inset
@@ -8718,8 +8988,11 @@ Procurement Officers
 \end_layout
 
 \begin_layout Itemize
-POs are allocated budget under different accounting heads (salary, repairs,
- etc.), including procurement, by the Finance Department
+POs are allocated budget under different accounting heads (salary,
+ repairs,
+ etc.),
+ including procurement,
+ by the Finance Department
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -8799,7 +9072,8 @@ The Procurement Process for Generic Goods
 status open
 
 \begin_layout Plain Layout
-Model: Agents and Supervisors
+Model:
+ Agents and Supervisors
 \end_layout
 
 \end_inset
@@ -8817,7 +9091,8 @@ define
 \end_layout
 
 \begin_layout Itemize
-under autonomy, the price paid depends only on the PO's alignment 
+under autonomy,
+ the price paid depends only on the PO's alignment 
 \begin_inset Formula $p_{M}>p_{A}$
 \end_inset
 
@@ -8829,8 +9104,10 @@ under autonomy, the price paid depends only on the PO's alignment
 \end_layout
 
 \begin_layout Itemize
-under monitoring, the outcome depends on the type of both agents: better
- types reduce the purchase price: 
+under monitoring,
+ the outcome depends on the type of both agents:
+ better types reduce the purchase price:
+ 
 \begin_inset Formula $p_{MM}>p_{AM}>p_{AA}$
 \end_inset
 
@@ -8929,7 +9206,8 @@ for
 \begin_inset Formula $p_{M}-p_{MA}>0$
 \end_inset
 
-), 
+),
+ 
 \end_layout
 
 \end_deeper
@@ -8949,7 +9227,8 @@ for
 status open
 
 \begin_layout Plain Layout
-Treatment effects, in theory
+Treatment effects,
+ in theory
 \end_layout
 
 \end_inset
@@ -8986,7 +9265,8 @@ Treatment effects, in theory
 status open
 
 \begin_layout Plain Layout
-Design: Autonomy Treatment
+Design:
+ Autonomy Treatment
 \end_layout
 
 \end_inset
@@ -9028,8 +9308,9 @@ Cash in hand allow POs to pay vendors without AG pre-approval
 
 \begin_deeper
 \begin_layout Itemize
-Rs 100,000 (USD 1k) , 10% of budget; median (mean) purchase value 1,000
- (3,062)
+Rs 100,000 (USD 1k) ,
+ 10% of budget;
+ median (mean) purchase value 1,000 (3,062)
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9085,7 +9366,8 @@ Procurement Process Under Autonomy Treatment
 status open
 
 \begin_layout Plain Layout
-Design: Incentive Treatment
+Design:
+ Incentive Treatment
 \end_layout
 
 \end_inset
@@ -9099,8 +9381,9 @@ Design: Incentive Treatment
 \end_layout
 
 \begin_layout Itemize
-awarded by a commission made of: senior private sector auditor & head PPRA
- (co-chair), representatives of all departments (10 members)
+awarded by a commission made of:
+ senior private sector auditor & head PPRA (co-chair),
+ representatives of all departments (10 members)
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9123,7 +9406,9 @@ gold
 \begin_inset Quotes erd
 \end_inset
 
-: 2 months wages, to the top 7.5%
+:
+ 2 months wages,
+ to the top 7.5%
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9138,7 +9423,9 @@ silver
 \begin_inset Quotes erd
 \end_inset
 
-: 1 month wages, to the next 22.5%
+:
+ 1 month wages,
+ to the next 22.5%
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9153,7 +9440,9 @@ bronze
 \begin_inset Quotes erd
 \end_inset
 
-: 0.5 month wages, to the next 45%
+:
+ 0.5 month wages,
+ to the next 45%
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9191,8 +9480,9 @@ Sample
 
 \begin_deeper
 \begin_layout Itemize
-688 Procurement Officers in charge of procurement of 778 Public Bodies (88%
- in charge of 1 PB, 10% 2, 2% 3 or more)
+688 Procurement Officers in charge of procurement of 778 Public Bodies (88% in charge of 1 PB,
+ 10% 2,
+ 2% 3 or more)
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9222,7 +9512,8 @@ take-up 85% –> sample contains 587 POs
 \end_layout
 
 \begin_layout Itemize
-AG has offices in each district, responsible for POs in that district
+AG has offices in each district,
+ responsible for POs in that district
 \end_layout
 
 \end_deeper
@@ -9238,7 +9529,8 @@ AG has offices in each district, responsible for POs in that district
 status open
 
 \begin_layout Plain Layout
-Design: Randomization
+Design:
+ Randomization
 \end_layout
 
 \end_inset
@@ -9248,7 +9540,8 @@ Design: Randomization
 
 \begin_deeper
 \begin_layout Itemize
-Randomise POs in four groups, stratified by district and department
+Randomise POs in four groups,
+ stratified by district and department
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9256,7 +9549,8 @@ Randomise POs in four groups, stratified by district and department
 \end_layout
 
 \begin_layout Itemize
-Follow over two years, stagger the introduction
+Follow over two years,
+ stagger the introduction
 \end_layout
 
 \begin_layout Standard
@@ -9467,7 +9761,8 @@ Measuring Value for Money
 \begin_deeper
 \begin_layout Itemize
 Our sample covers all the generic (off-the-shelf) goods that POs buy (e.g.
- printer paper, soap..)
+ printer paper,
+ soap..)
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9497,7 +9792,8 @@ Measurable (with some effort!) and comparable performance
 \begin_layout Itemize
 
 \color black
-Most are sold in competitive markets, so everybody should pay the same price.
+Most are sold in competitive markets,
+ so everybody should pay the same price.
  And yet….
 \end_layout
 
@@ -9528,7 +9824,7 @@ POs Pay Different Prices for Exactly the Same Good
 \begin_inset Graphics
 	filename PaperScatter.pdf
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -9548,8 +9844,8 @@ POs Pay Different Prices for Exactly the Same Good
 status open
 
 \begin_layout Plain Layout
-Together with Punjab Procurement Regulatory Authority (PPRA) and Punjab
- Information Technology Board (PITB), we set up an E-Governance platform:
+Together with Punjab Procurement Regulatory Authority (PPRA) and Punjab Information Technology Board (PITB),
+ we set up an E-Governance platform:
  
 \color blue
 Punjab Online Procurement System
@@ -9598,7 +9894,8 @@ POPS Collects Detailed Spending Data
 
 \begin_deeper
 \begin_layout Itemize
-Through POPS, office staff enter detailed data on what they are buying
+Through POPS,
+ office staff enter detailed data on what they are buying
 \end_layout
 
 \begin_layout Standard
@@ -9675,18 +9972,17 @@ Generics account for 52% of the non wage budget for the average office
 
 \begin_deeper
 \begin_layout Itemize
-mean $94k, median $27k
+mean $94k,
+ median $27k
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-We rank 100+ distinct goods by unique number of POs buying them –> choose
- top 25 goods
+We rank 100+ distinct goods by unique number of POs buying them –> choose top 25 goods
 \end_layout
 
 \begin_layout Itemize
-21,503 purchases (total value $7.7m) that account for 50% of generics budget
- 
+21,503 purchases (total value $7.7m) that account for 50% of generics budget 
 \end_layout
 
 \begin_layout Itemize
@@ -9710,7 +10006,8 @@ the most common (paper) by 85%
 status open
 
 \begin_layout Plain Layout
-25 goods, 21,503 purchases
+25 goods,
+ 21,503 purchases
 \end_layout
 
 \end_inset
@@ -9745,7 +10042,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-25 goods, 21,503 purchases
+25 goods,
+ 21,503 purchases
 \end_layout
 
 \end_inset
@@ -9805,7 +10103,8 @@ p_{igto} & =\alpha+\sum_{k=1}^{3}\eta_{k}\text{Treatment}_{o}^{k}+\beta v_{igto}
 \begin_inset Formula $p_{igto}$
 \end_inset
 
- is log unit price, 
+ is log unit price,
+ 
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9816,7 +10115,8 @@ p_{igto} & =\alpha+\sum_{k=1}^{3}\eta_{k}\text{Treatment}_{o}^{k}+\beta v_{igto}
 \begin_inset Formula $q_{igto}$
 \end_inset
 
- (log) quantity purchased, 
+ (log) quantity purchased,
+ 
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9836,7 +10136,8 @@ variety
 \end_inset
 
  i.e.
- all the attributes that might affect price, 
+ all the attributes that might affect price,
+ 
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9847,7 +10148,8 @@ variety
 \begin_inset Formula $\delta_{s},\delta_{g}$
 \end_inset
 
- stratum, good FEs.
+ stratum,
+ good FEs.
  
 \begin_inset VSpace medskip
 \end_inset
@@ -9856,7 +10158,8 @@ variety
 \end_layout
 
 \begin_layout Itemize
-Weight by control expenditure shares, 
+Weight by control expenditure shares,
+ 
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9911,7 +10214,8 @@ p_{igto} & =\alpha+\sum_{k=1}^{3}\eta_{k}\text{Treatment}_{o}^{k}+\beta v_{igto}
 \begin_inset Formula $\eta_{k}$
 \end_inset
 
-: causal effect of treatment 
+:
+ causal effect of treatment 
 \begin_inset Formula $k$
 \end_inset
 
@@ -9938,8 +10242,7 @@ Experimental POs are a small fraction of total POs supervised
 \end_layout
 
 \begin_layout Itemize
-Effect on prices paid by control DDOs does not depend on number of treated
- in same office
+Effect on prices paid by control DDOs does not depend on number of treated in same office
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9957,7 +10260,8 @@ quality not affected by treatment.
 
 \begin_deeper
 \begin_layout Itemize
-no effect on quality, very similar Diff in Diff results
+no effect on quality,
+ very similar Diff in Diff results
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -10016,7 +10320,8 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Method 1: control for all goods' attributes in price regression (
+Method 1:
+ control for all goods' attributes in price regression (
 \emph on
 fine
 \emph default
@@ -10028,7 +10333,8 @@ fine
 \end_layout
 
 \begin_layout Itemize
-Method 1b: aggregate by 
+Method 1b:
+ aggregate by 
 \begin_inset Quotes eld
 \end_inset
 
@@ -10057,7 +10363,8 @@ p_{igto} & =\mathbf{X}_{igto}\lambda_{g}+\rho_{g}q_{igto}+\delta_{g}+\varepsilon
 \begin_inset Formula $q_{igto}$
 \end_inset
 
- is the quantity purchased, 
+ is the quantity purchased,
+ 
 \begin_inset Formula $\mathbf{X}_{igto}$
 \end_inset
 
@@ -10091,7 +10398,8 @@ s to control for quality
 
 \end_deeper
 \begin_layout Itemize
-Method 2: control for simpler measure of quality (
+Method 2:
+ control for simpler measure of quality (
 \emph on
 coarse
 \emph default
@@ -10133,7 +10441,9 @@ low
 
 \end_deeper
 \begin_layout Itemize
-Method 3: Use ML to a) find optimal coarseness; b) allow more nonlinearity
+Method 3:
+ Use ML to a) find optimal coarseness;
+ b) allow more nonlinearity
 \end_layout
 
 \end_deeper
@@ -11379,8 +11689,7 @@ p(Autonomy = Incentives)&       0.146&       0.077&       0.119&       0.119
 
 \begin_layout Plain Layout
 
-p(Both = Autonomy + Incentives)&       0.620&       0.552&       0.562&   
-    0.799
+p(Both = Autonomy + Incentives)&       0.620&       0.552&       0.562&       0.799
 \backslash
 
 \backslash
@@ -11441,7 +11750,7 @@ Benchmarking
 \align center
 \begin_inset Graphics
 	filename RateOfReturn.pdf
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -11450,9 +11759,7 @@ Benchmarking
 
 \begin_layout Standard
 \align center
-savings from the autonomy treatment from the offices in our experiment are
- sufficient to fund the operation of five schools or to add 75 hospital
- beds.
+savings from the autonomy treatment from the offices in our experiment are sufficient to fund the operation of five schools or to add 75 hospital beds.
  
 \end_layout
 
@@ -11481,12 +11788,14 @@ Open Questions
 \begin_layout Itemize
 
 \color black
-We found that autonomy reduce prices, leave quantity, quality and the compositio
-n of purchases unchanged
+We found that autonomy reduce prices,
+ leave quantity,
+ quality and the composition of purchases unchanged
 \end_layout
 
 \begin_layout Itemize
-Effect at least as large as incentives' on their own, at no cost
+Effect at least as large as incentives' on their own,
+ at no cost
 \end_layout
 
 \begin_layout Itemize
@@ -11547,7 +11856,8 @@ Treated POs devote more time to procurement
 status open
 
 \begin_layout Plain Layout
-They spend more time searching deals, less time with the AG
+They spend more time searching deals,
+ less time with the AG
 \end_layout
 
 \end_inset
@@ -11594,9 +11904,7 @@ Autonomy to PO= less power to AG
 \end_layout
 
 \begin_layout Itemize
-Theory shows that shifting authority will lower prices if the AG is relatively
- more inefficient or corrupt whilst incentives will only lower prices in
- the opposite case
+Theory shows that shifting authority will lower prices if the AG is relatively more inefficient or corrupt whilst incentives will only lower prices in the opposite case
 \begin_inset VSpace medskip
 \end_inset
 
@@ -11604,8 +11912,7 @@ Theory shows that shifting authority will lower prices if the AG is relatively
 \end_layout
 
 \begin_layout Itemize
-AG are district specific –> use control group before the experiment to compute
- share of transactions approved at the FYE (Liebman and Mahoney 16) 
+AG are district specific –> use control group before the experiment to compute share of transactions approved at the FYE (Liebman and Mahoney 16) 
 \end_layout
 
 \end_deeper
@@ -11635,7 +11942,7 @@ Identifying variation
 \begin_inset Graphics
 	filename shareJune.png
 	lyxscale 50
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -11734,7 +12041,8 @@ toprule
 \backslash
 multicolumn{10}{c}{
 \backslash
-textbf{Panel B: Incentives}} 
+textbf{Panel B:
+ Incentives}} 
 \backslash
 
 \backslash
@@ -11798,8 +12106,7 @@ multicolumn{1}{c}{(9)}
 
 \begin_layout Plain Layout
 
-                    &         OLS&          IV&   1st Stage&         OLS&
-          IV&   1st Stage&         OLS&          IV&   1st Stage
+                    &         OLS&          IV&   1st Stage&         OLS&          IV&   1st Stage&         OLS&          IV&   1st Stage
 \backslash
 
 \backslash
@@ -11815,8 +12122,7 @@ midrule
 
 \begin_layout Plain Layout
 
-Time Spent on Procurement&       0.001&      -0.008&            &       0.001&
-      -0.010&            &      -0.000&      -0.161&            
+Time Spent on Procurement&       0.001&      -0.008&            &       0.001&      -0.010&            &      -0.000&      -0.161&            
 \backslash
 
 \backslash
@@ -11825,8 +12131,7 @@ Time Spent on Procurement&       0.001&      -0.008&            &       0.001&
 
 \begin_layout Plain Layout
 
-                  &     (0.001)&     (0.005)&            &     (0.001)&   
-  (0.005)&            &     (0.002)&     (2.053)&            
+                  &     (0.001)&     (0.005)&            &     (0.001)&     (0.005)&            &     (0.002)&     (2.053)&            
 \backslash
 
 \backslash
@@ -11835,8 +12140,7 @@ Time Spent on Procurement&       0.001&      -0.008&            &       0.001&
 
 \begin_layout Plain Layout
 
-                  &            &     [0.011]&            &            & 
-    [0.001]&            &            &     [0.903]&            
+                  &            &     [0.011]&            &            &     [0.001]&            &            &     [0.903]&            
 \backslash
 
 \backslash
@@ -11847,8 +12151,7 @@ addlinespace
 
 \begin_layout Plain Layout
 
-Incentives           &            &            &       6.132&           
- &            &       8.335&            &            &      -0.330
+Incentives           &            &            &       6.132&            &            &       8.335&            &            &      -0.330
 \backslash
 
 \backslash
@@ -11857,8 +12160,7 @@ Incentives           &            &            &       6.132&
 
 \begin_layout Plain Layout
 
-                   &            &            &     (2.165)&            &
-            &     (2.464)&            &            &     (4.338)
+                   &            &            &     (2.165)&            &            &     (2.464)&            &            &     (4.338)
 \backslash
 
 \backslash
@@ -11867,8 +12169,7 @@ Incentives           &            &            &       6.132&
 
 \begin_layout Plain Layout
 
-                &            &            &     [0.013]&            &   
-         &     [0.004]&            &            &     [0.950]
+                &            &            &     [0.013]&            &            &     [0.004]&            &            &     [0.950]
 \backslash
 
 \backslash
@@ -11886,8 +12187,7 @@ midrule
 
 \begin_layout Plain Layout
 
-Observations         &       8,556&       8,556&       8,556&       6,355&
-       6,355&       6,355&       2,201&       2,201&       2,201
+Observations         &       8,556&       8,556&       8,556&       6,355&       6,355&       6,355&       2,201&       2,201&       2,201
 \backslash
 
 \backslash
@@ -11977,7 +12277,8 @@ toprule
 \backslash
 multicolumn{10}{c}{
 \backslash
-textbf{Panel A: Autonomy}} 
+textbf{Panel A:
+ Autonomy}} 
 \backslash
 
 \backslash
@@ -12041,8 +12342,7 @@ multicolumn{1}{c}{(9)}
 
 \begin_layout Plain Layout
 
-               &         OLS&          IV&   1st Stage&         OLS&   
-       IV&   1st Stage&         OLS&          IV&   1st Stage
+               &         OLS&          IV&   1st Stage&         OLS&          IV&   1st Stage&         OLS&          IV&   1st Stage
 \backslash
 
 \backslash
@@ -12053,8 +12353,7 @@ midrule
 
 \begin_layout Plain Layout
 
-Time Spent on Procurement&      -0.001&      -0.006&            &      -0.001&
-       0.014&            &      -0.001&      -0.012&            
+Time Spent on Procurement&      -0.001&      -0.006&            &      -0.001&       0.014&            &      -0.001&      -0.012&            
 \backslash
 
 \backslash
@@ -12063,8 +12362,7 @@ Time Spent on Procurement&      -0.001&      -0.006&            &      -0.001&
 
 \begin_layout Plain Layout
 
-                  &     (0.001)&     (0.005)&            &     (0.002)&   
-  (0.022)&            &     (0.001)&     (0.006)&            
+                  &     (0.001)&     (0.005)&            &     (0.002)&     (0.022)&            &     (0.001)&     (0.006)&            
 \backslash
 
 \backslash
@@ -12073,8 +12371,7 @@ Time Spent on Procurement&      -0.001&      -0.006&            &      -0.001&
 
 \begin_layout Plain Layout
 
-                   &            &     [0.022]&            &            &
-     [0.304]&            &            &     [0.001]&            
+                   &            &     [0.022]&            &            &     [0.304]&            &            &     [0.001]&            
 \backslash
 
 \backslash
@@ -12085,8 +12382,7 @@ addlinespace
 
 \begin_layout Plain Layout
 
-Autonomy             &            &            &       5.856&           
- &            &       3.785&            &            &       6.975
+Autonomy             &            &            &       5.856&            &            &       3.785&            &            &       6.975
 \backslash
 
 \backslash
@@ -12095,8 +12391,7 @@ Autonomy             &            &            &       5.856&
 
 \begin_layout Plain Layout
 
-                    &            &            &     (2.490)&            &
-            &     (4.930)&            &            &     (2.867)
+                    &            &            &     (2.490)&            &            &     (4.930)&            &            &     (2.867)
 \backslash
 
 \backslash
@@ -12105,8 +12400,7 @@ Autonomy             &            &            &       5.856&
 
 \begin_layout Plain Layout
 
-                  &            &            &     [0.043]&            & 
-           &     [0.510]&            &            &     [0.037]
+                  &            &            &     [0.043]&            &            &     [0.510]&            &            &     [0.037]
 \backslash
 
 \backslash
@@ -12124,8 +12418,7 @@ midrule
 
 \begin_layout Plain Layout
 
-Observations         &       9,727&       9,727&       9,727&       3,454&
-       3,454&       3,454&       6,273&       6,273&       6,273
+Observations         &       9,727&       9,727&       9,727&       3,454&       3,454&       3,454&       6,273&       6,273&       6,273
 \backslash
 
 \backslash
@@ -12315,13 +12608,13 @@ Autonomy might allow extreme corruption
 \end_layout
 
 \begin_layout Itemize
-One extreme event might be more damaging than the sum of many inefficient
- purchases
+One extreme event might be more damaging than the sum of many inefficient purchases
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-big scandals are visible, day-to-day inefficiency is not
+big scandals are visible,
+ day-to-day inefficiency is not
 \end_layout
 
 \end_deeper
@@ -12416,7 +12709,8 @@ Limits capture but also initiative
 \end_layout
 
 \begin_layout Itemize
-Creates two sets of agents: implementing agents and monitoring agents.
+Creates two sets of agents:
+ implementing agents and monitoring agents.
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -12435,7 +12729,8 @@ status open
 
 \end_inset
 
-Experimental results from procurement bureaucrats in Punjab, Pakistan show
+Experimental results from procurement bureaucrats in Punjab,
+ Pakistan show
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -12454,8 +12749,7 @@ status open
 
 \end_inset
 
-Granting authority to implementing agents helps by reducing overall capture
- 
+Granting authority to implementing agents helps by reducing overall capture 
 \end_layout
 
 \begin_layout Itemize
@@ -12491,7 +12785,8 @@ Autonomy works when monitors are
 \emph on
 ineffective
 \emph default
-; Incentives when they are 
+;
+ Incentives when they are 
 \emph on
 effective.
 \end_layout
@@ -12526,8 +12821,8 @@ status open
 
 \end_inset
 
-In general: allocation of authority and incentives to different sets of
- agents hinges on precise nature of agency problems.
+In general:
+ allocation of authority and incentives to different sets of agents hinges on precise nature of agency problems.
  Provide diagnostic tool
 \begin_inset VSpace smallskip
 \end_inset
@@ -12546,12 +12841,16 @@ status open
 
 \end_inset
 
-In the long run: autonomy might attract talent
+In the long run:
+ autonomy might attract talent
 \end_layout
 
 \end_deeper
 \begin_layout Subsection
-Duflo, Greenstone, Pande & Ryan (WP 2017): 
+Duflo,
+ Greenstone,
+ Pande & Ryan (WP 2017):
+ 
 \begin_inset ERT
 status open
 
@@ -12566,8 +12865,8 @@ textit{
 
 \end_inset
 
-The Value of Regulatory Discretion: Estimates from Environmental Inspections
- in India
+The Value of Regulatory Discretion:
+ Estimates from Environmental Inspections in India
 \begin_inset ERT
 status open
 
@@ -12586,7 +12885,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Introduction
+Duflo et al 2017:
+ Introduction
 \end_layout
 
 \end_inset
@@ -12604,17 +12904,19 @@ Why aren't the standards enforced?
 \end_layout
 
 \begin_layout Itemize
-Typical explanations: Lack of resources, corruption
+Typical explanations:
+ Lack of resources,
+ corruption
 \end_layout
 
 \begin_layout Itemize
-Gujarat Pollution Control Board (GPCB) has limited resources, so uses discretion
- to pick which plants to inspect.
+Gujarat Pollution Control Board (GPCB) has limited resources,
+ so uses discretion to pick which plants to inspect.
 \end_layout
 
 \begin_layout Itemize
-How does the regulator choose who to inspect? Would removing that discretion
- help or hurt enforcement?
+How does the regulator choose who to inspect?
+ Would removing that discretion help or hurt enforcement?
 \end_layout
 
 \begin_layout Itemize
@@ -12634,7 +12936,8 @@ Experiment and structural model in Gujarat to investigate these issues
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Context
+Duflo et al 2017:
+ Context
 \end_layout
 
 \end_inset
@@ -12648,24 +12951,27 @@ Industrial plants are subject to stringent air and water emissions standards
 \end_layout
 
 \begin_layout Itemize
-GPCB inspects plants to observe its condition, environmental management,
+GPCB inspects plants to observe its condition,
+ environmental management,
  and often collects pollution samples.
 \end_layout
 
 \begin_layout Itemize
 Regulation mandates routine inspection.
- Every 90 days for large- or medium-scale plants, and once a year for small-scal
-e plants.
+ Every 90 days for large- or medium-scale plants,
+ and once a year for small-scale plants.
 \end_layout
 
 \begin_layout Itemize
-At baseline, 42% of control plants inspected less than prescribed.
+At baseline,
+ 42% of control plants inspected less than prescribed.
 \end_layout
 
 \begin_layout Itemize
 Penalties can be harsh.
- Regulator can mandate installation of abatement equipment, require a bond
- be posted against future performance, order utilities disconnected.
+ Regulator can mandate installation of abatement equipment,
+ require a bond be posted against future performance,
+ order utilities disconnected.
 \end_layout
 
 \end_deeper
@@ -12681,7 +12987,8 @@ Penalties can be harsh.
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Experiment
+Duflo et al 2017:
+ Experiment
 \end_layout
 
 \end_inset
@@ -12695,8 +13002,8 @@ Experiment increased inspection frequency between August 2009 and May 2011
 \end_layout
 
 \begin_layout Itemize
-Identified population of 3,455 red-category (high pollution) small- and
- medium-scale plants in 3 regions (Ahmedabad, Surat & Valsad).
+Identified population of 3,455 red-category (high pollution) small- and medium-scale plants in 3 regions (Ahmedabad,
+ Surat & Valsad).
 \end_layout
 
 \begin_layout Itemize
@@ -12722,19 +13029,17 @@ Randomly assign inspection treatment stratifying by region
 \end_layout
 
 \begin_layout Itemize
-481 plants assigned to inspection guaranteed at least one annual inspection
- and up to 4 a year.
+481 plants assigned to inspection guaranteed at least one annual inspection and up to 4 a year.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-In Q1 assigned an initial inspection, and then each quarter inspected again
- w/pr 0.66,
+In Q1 assigned an initial inspection,
+ and then each quarter inspected again w/pr 0.66,
 \end_layout
 
 \begin_layout Itemize
-Additional inspections done by 3 recently retired GPCB scientists rehired
- for the project
+Additional inspections done by 3 recently retired GPCB scientists rehired for the project
 \end_layout
 
 \end_deeper
@@ -12764,7 +13069,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_1.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -12797,7 +13102,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_2.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -12830,7 +13135,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_3.png
-	height 101theight%
+	special height=1.01\textheight
 
 \end_inset
 
@@ -12863,7 +13168,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_4.png
-	height 101theight%
+	special height=1.01\textheight
 
 \end_inset
 
@@ -12929,7 +13234,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_6.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -12995,7 +13300,7 @@ Treatment doesn't increase inspection of severe violators
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_8.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13015,7 +13320,8 @@ Treatment doesn't increase inspection of severe violators
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Model
+Duflo et al 2017:
+ Model
 \end_layout
 
 \end_inset
@@ -13042,8 +13348,7 @@ plants choose whether to run abatement equipment
 \end_layout
 
 \begin_layout Enumerate
-regulator observes a signal of plant pollution and inspects plants by applying
- the targeting rule
+regulator observes a signal of plant pollution and inspects plants by applying the targeting rule
 \end_layout
 
 \end_deeper
@@ -13053,12 +13358,13 @@ Penalty stage
 
 \begin_deeper
 \begin_layout Enumerate
-Regulator acts as a regulatory machine, following exogenous rules for follow-up
+Regulator acts as a regulatory machine,
+ following exogenous rules for follow-up
 \end_layout
 
 \begin_layout Enumerate
-plants play a dynamic game against the machine, deciding whether to comply
- or risk future penalties
+plants play a dynamic game against the machine,
+ deciding whether to comply or risk future penalties
 \end_layout
 
 \end_deeper
@@ -13075,7 +13381,8 @@ plants play a dynamic game against the machine, deciding whether to comply
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Targeting Stage
+Duflo et al 2017:
+ Targeting Stage
 \end_layout
 
 \end_inset
@@ -13105,7 +13412,9 @@ where
 \begin_inset Formula $X_{j}$
 \end_inset
 
- are plant observables, and the shocks are normal: 
+ are plant observables,
+ and the shocks are normal:
+ 
 \begin_inset Formula $u_{1j}\sim\mathcal{N}\left(0,\sigma_{1}^{2}\right)$
 \end_inset
 
@@ -13121,12 +13430,14 @@ Regulator sets a targeting rule
 \begin_inset Formula $\mathcal{I}\left(u_{1j}\vert X_{j},T_{j},\theta_{T}\right)$
 \end_inset
 
- that assigns annual number of routine inspections as a function of the
- shock 
+ that assigns annual number of routine inspections as a function of the shock 
 \begin_inset Formula $u_{1j}$
 \end_inset
 
-, plant characteristics, treatment status, and targeting parameters 
+,
+ plant characteristics,
+ treatment status,
+ and targeting parameters 
 \begin_inset Formula $\theta_{T}$
 \end_inset
 
@@ -13134,11 +13445,13 @@ Regulator sets a targeting rule
 \end_layout
 
 \begin_layout Itemize
-Plants, know 
+Plants,
+ know 
 \begin_inset Formula $\mathcal{I}\left(\cdot\vert\cdot\right)$
 \end_inset
 
-, their 
+,
+ their 
 \begin_inset Formula $X_{j}$
 \end_inset
 
@@ -13158,7 +13471,8 @@ Plants also know their abatement cost
 \begin_inset Formula $c_{j}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\log c_{j}\sim\mathcal{N}\left(\mu_{c},\sigma_{c}^{2}\right)$
 \end_inset
 
@@ -13166,8 +13480,8 @@ Plants also know their abatement cost
 \begin_inset Formula $Run$
 \end_inset
 
- their equipment (which the regulator doesn't observe), which reduces their
- pollution to 
+ their equipment (which the regulator doesn't observe),
+ which reduces their pollution to 
 \begin_inset Formula 
 \[
 \log P_{jm}=\log\tilde{P}_{jm}+\phi_{2}Run,\quad\phi_{2}<0
@@ -13191,7 +13505,8 @@ Plants also know their abatement cost
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Targeting Stage
+Duflo et al 2017:
+ Targeting Stage
 \end_layout
 
 \end_inset
@@ -13201,13 +13516,11 @@ Duflo et al 2017: Targeting Stage
 
 \begin_deeper
 \begin_layout Itemize
-Summarize the costs of regulation to plants by a penalty value function
- 
+Summarize the costs of regulation to plants by a penalty value function 
 \begin_inset Formula $V_{0}\left(P_{jm}\right)$
 \end_inset
 
- giving the money value to the plant of an initial inspection that finds
- pollution 
+ giving the money value to the plant of an initial inspection that finds pollution 
 \begin_inset Formula $P_{jm}$
 \end_inset
 
@@ -13219,8 +13532,8 @@ If a plant expects to be inspected
 \begin_inset Formula $I_{j}$
 \end_inset
 
- times, the abatement equipment will be run if benefit exceeds maintenance
- costs
+ times,
+ the abatement equipment will be run if benefit exceeds maintenance costs
 \begin_inset Formula 
 \[
 Run^{*}=\mathbf{1}\left\{ I_{j}\times\left(V_{0}\left(P_{jm}\right)-V_{0}\left(\tilde{P}_{jm}\right)\right)>c_{j}\right\} 
@@ -13244,7 +13557,8 @@ Run^{*}=\mathbf{1}\left\{ I_{j}\times\left(V_{0}\left(P_{jm}\right)-V_{0}\left(\
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Targeting Stage
+Duflo et al 2017:
+ Targeting Stage
 \end_layout
 
 \end_inset
@@ -13270,7 +13584,8 @@ The rule depends on parameters
 \begin_inset Formula $\rho$
 \end_inset
 
- are exogenous, so regulator picks (vector) 
+ are exogenous,
+ so regulator picks (vector) 
 \begin_inset Formula $\lambda$
 \end_inset
 
@@ -13319,7 +13634,8 @@ For estimation assume
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Penalty Stage
+Duflo et al 2017:
+ Penalty Stage
 \end_layout
 
 \end_inset
@@ -13333,8 +13649,7 @@ We want to estimate the value function
 \begin_inset Formula $V_{0}\left(P_{jm}\right)$
 \end_inset
 
- by modeling the game after an initial inspection as a dynamic discrete
- choice problem.
+ by modeling the game after an initial inspection as a dynamic discrete choice problem.
 \end_layout
 
 \begin_layout Itemize
@@ -13342,7 +13657,8 @@ Game starts in round 1 with an initial inspection.
 \end_layout
 
 \begin_layout Itemize
-In subsequent rounds, plant 
+In subsequent rounds,
+ plant 
 \begin_inset Formula $j$
 \end_inset
 
@@ -13354,7 +13670,8 @@ In subsequent rounds, plant
 \end_layout
 
 \begin_layout Itemize
-When the plant moves, 
+When the plant moves,
+ 
 \end_layout
 
 \begin_deeper
@@ -13382,7 +13699,8 @@ Acts to minimize regulatory cost
 
 \end_deeper
 \begin_layout Itemize
-When the regulatory machine moves, 
+When the regulatory machine moves,
+ 
 \end_layout
 
 \begin_deeper
@@ -13395,8 +13713,8 @@ it has four actions
 \end_layout
 
 \begin_layout Itemize
-Regulatory machine: fixed probabilities of any action conditional on state
- (assume known to the plant)
+Regulatory machine:
+ fixed probabilities of any action conditional on state (assume known to the plant)
 \end_layout
 
 \end_deeper
@@ -13413,7 +13731,8 @@ Regulatory machine: fixed probabilities of any action conditional on state
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Penalty Stage
+Duflo et al 2017:
+ Penalty Stage
 \end_layout
 
 \end_inset
@@ -13446,7 +13765,8 @@ Duflo et al 2017: Penalty Stage
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Estimating Penalty Stage
+Duflo et al 2017:
+ Estimating Penalty Stage
 \end_layout
 
 \end_inset
@@ -13464,8 +13784,9 @@ Use maximum likelihood to estimate the game
 \end_layout
 
 \begin_layout Itemize
-The state space is the pollution reading, the last two actions by the regulator
- and the plant, and the game round 
+The state space is the pollution reading,
+ the last two actions by the regulator and the plant,
+ and the game round 
 \begin_inset Formula $t$
 \end_inset
 
@@ -13477,8 +13798,7 @@ Estimate transition probabilities using count estimator
 \end_layout
 
 \begin_layout Itemize
-Estimate action probabilities for the regulatory machine conditional on
- the state using multinomial logit.
+Estimate action probabilities for the regulatory machine conditional on the state using multinomial logit.
 \end_layout
 
 \end_deeper
@@ -13495,7 +13815,8 @@ status open
 
 \begin_layout Plain Layout
 Duflo et al.
- 2017: Estimating Penalty Stage
+ 2017:
+ Estimating Penalty Stage
 \end_layout
 
 \end_inset
@@ -13521,7 +13842,8 @@ the cost of inspections
 \begin_inset Formula $h\left(p_{jt}\right)$
 \end_inset
 
- cost if regulator picks punish: 
+ cost if regulator picks punish:
+ 
 \end_layout
 
 \begin_deeper
@@ -13544,11 +13866,14 @@ the cost of inspections
 \begin_inset Formula $k$
 \end_inset
 
-, cost of abatement equipment: 
+,
+ cost of abatement equipment:
+ 
 \begin_inset Formula $k=\$17,000$
 \end_inset
 
-, average cost observed in data
+,
+ average cost observed in data
 \end_layout
 
 \end_deeper
@@ -13577,7 +13902,8 @@ Now for each action
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Estimating Penalty Stage
+Duflo et al 2017:
+ Estimating Penalty Stage
 \end_layout
 
 \end_inset
@@ -13617,8 +13943,7 @@ where
 \end_layout
 
 \begin_layout Itemize
-The machine's action probabilities and the state transition probabilities
- are known to the plant
+The machine's action probabilities and the state transition probabilities are known to the plant
 \end_layout
 
 \end_deeper
@@ -13634,7 +13959,8 @@ The machine's action probabilities and the state transition probabilities
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Estimating Penalty Stage
+Duflo et al 2017:
+ Estimating Penalty Stage
 \end_layout
 
 \end_inset
@@ -13656,7 +13982,8 @@ V_{j}\left(s_{t}\right)=\max_{a\in A_{p}}v_{j}\left(a_{jt}\vert s_{t}\right)
 \end_layout
 
 \begin_layout Itemize
-By backward induction, solve for the state values given 
+By backward induction,
+ solve for the state values given 
 \begin_inset Formula $\theta_{p}=\left\{ \tau,\nu\right\} $
 \end_inset
 
@@ -13676,7 +14003,8 @@ By backward induction, solve for the state values given
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Estimating Penalty Stage
+Duflo et al 2017:
+ Estimating Penalty Stage
 \end_layout
 
 \end_inset
@@ -13714,7 +14042,8 @@ Estimate the conditional action probabilities with
 \end_layout
 
 \begin_layout Itemize
-Now, the likelihood of observing a set of 
+Now,
+ the likelihood of observing a set of 
 \begin_inset Formula $n$
 \end_inset
 
@@ -13742,7 +14071,8 @@ which can be maximized numerically
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Estimating the Targeting Stage
+Duflo et al 2017:
+ Estimating the Targeting Stage
 \end_layout
 
 \end_inset
@@ -13764,15 +14094,18 @@ Estimate by GMM using data on the number of inspections
 \begin_inset Formula $N_{j}$
 \end_inset
 
-, observables 
+,
+ observables 
 \begin_inset Formula $X_{j}$
 \end_inset
 
-, treatment status 
+,
+ treatment status 
 \begin_inset Formula $T_{j}$
 \end_inset
 
-, pollution 
+,
+ pollution 
 \begin_inset Formula $P_{j}$
 \end_inset
 
@@ -13800,7 +14133,8 @@ Estimate by GMM using data on the number of inspections
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Estimating the Targeting Stage
+Duflo et al 2017:
+ Estimating the Targeting Stage
 \end_layout
 
 \end_inset
@@ -13814,7 +14148,8 @@ Moments to use
 \end_layout
 
 \begin_layout Enumerate
-Pollution equation: Let 
+Pollution equation:
+ Let 
 \begin_inset Formula $Z_{j}=\left[\begin{array}{ccc}
 1 & X_{j} & T_{j}\end{array}\right]$
 \end_inset
@@ -13869,7 +14204,8 @@ g_{5}\left(\phi,\mu,\sigma\right) & =\mathbb{E}\left[c_{j}\vert Run=1,\phi,\mu,\
 status open
 
 \begin_layout Plain Layout
-Duflo et al 2017: Estimating the Targeting Stage
+Duflo et al 2017:
+ Estimating the Targeting Stage
 \end_layout
 
 \end_inset
@@ -13948,7 +14284,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_12.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13981,7 +14317,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_10.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -14014,7 +14350,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_11.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -14047,7 +14383,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_13.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -14080,7 +14416,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_14.png
-	height 105theight%
+	special height=1.05\textheight
 
 \end_inset
 
@@ -14146,7 +14482,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Dufloetal2017_16.png
-	height 105theight%
+	special height=1.05\textheight
 
 \end_inset
 
@@ -14155,7 +14491,8 @@ status open
 
 \end_deeper
 \begin_layout Subsection
-Khan, Khwaja & Olken (WP 2018) 
+Khan,
+ Khwaja & Olken (WP 2018) 
 \begin_inset ERT
 status open
 
@@ -14170,8 +14507,8 @@ textit{
 
 \end_inset
 
-Making Moves Matter: Experimental Evidence on Incentivizing Bureaucrats
- through Performance-Based Postings
+Making Moves Matter:
+ Experimental Evidence on Incentivizing Bureaucrats through Performance-Based Postings
 \begin_inset ERT
 status open
 
@@ -14190,7 +14527,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Introduction
+Khan et al 2018:
+ Introduction
 \end_layout
 
 \end_inset
@@ -14224,14 +14562,16 @@ One thing we might try and leverage is transfers
 
 \begin_deeper
 \begin_layout Itemize
-bureaucrats are transfered all the time, but largely because of personal/politic
-al connections, idiosyncratic preferences, or arbitrariness
+bureaucrats are transfered all the time,
+ but largely because of personal/political connections,
+ idiosyncratic preferences,
+ or arbitrariness
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Run an experiment in Punjab, Pakistan with property tax inspectors to test
- this.
+Run an experiment in Punjab,
+ Pakistan with property tax inspectors to test this.
 \end_layout
 
 \begin_layout Itemize
@@ -14255,7 +14595,8 @@ performance-ranked serial dictatorship
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Context
+Khan et al 2018:
+ Context
 \end_layout
 
 \end_inset
@@ -14265,7 +14606,8 @@ Khan et al 2018: Context
 
 \begin_deeper
 \begin_layout Itemize
-Study urban property tax in Punjab, Pakistan (population 110 million)
+Study urban property tax in Punjab,
+ Pakistan (population 110 million)
 \end_layout
 
 \begin_layout Itemize
@@ -14277,16 +14619,19 @@ About 1/3 inspectors is transferred each year
 \end_layout
 
 \begin_layout Itemize
-Inspectors care about where they are posted, the circles are very heterogeneous.
+Inspectors care about where they are posted,
+ the circles are very heterogeneous.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Size: 90th %ile has 3x properties of 10th %ile
+Size:
+ 90th %ile has 3x properties of 10th %ile
 \end_layout
 
 \begin_layout Itemize
-Ease of collecting taxes, opportunities for corruption
+Ease of collecting taxes,
+ opportunities for corruption
 \end_layout
 
 \begin_layout Itemize
@@ -14295,8 +14640,8 @@ Amenities
 
 \end_deeper
 \begin_layout Itemize
-Current transfer process is opaque and subject to political influence, so
- limited use as incentive.
+Current transfer process is opaque and subject to political influence,
+ so limited use as incentive.
 \end_layout
 
 \end_deeper
@@ -14312,7 +14657,8 @@ Current transfer process is opaque and subject to political influence, so
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Data
+Khan et al 2018:
+ Data
 \end_layout
 
 \end_inset
@@ -14342,21 +14688,21 @@ ask inspectors to rank all circles (average 10) in their district.
 \end_layout
 
 \begin_layout Itemize
-Told preferences would be used in treatments (incentive compatible to reveal
- true preferences) but before told treatment status
+Told preferences would be used in treatments (incentive compatible to reveal true preferences) but before told treatment status
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Calculate the allocation that makes no inspector worse off, and no inspector
- or group of inspectors would want to deviate (Shapley & Scarf, 1974).
- 15% of inspectors would move, and these individuals would move 30%iles
- up their preference ordering.
+Calculate the allocation that makes no inspector worse off,
+ and no inspector or group of inspectors would want to deviate (Shapley & Scarf,
+ 1974).
+ 15% of inspectors would move,
+ and these individuals would move 30%iles up their preference ordering.
 \end_layout
 
 \begin_layout Itemize
-15% relatively small, suggests that the incentive scheme will create both
- winners and losers.
+15% relatively small,
+ suggests that the incentive scheme will create both winners and losers.
 \end_layout
 
 \end_deeper
@@ -14385,7 +14731,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/KhanEtAl2018_1.png
-	height 95pheight%
+	special height=0.95\paperheight
 
 \end_inset
 
@@ -14418,7 +14764,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/KhanEtAl2018_2.png
-	height 95theight%
+	special height=0.95\textheight
 
 \end_inset
 
@@ -14438,7 +14784,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Treatment
+Khan et al 2018:
+ Treatment
 \end_layout
 
 \end_inset
@@ -14464,8 +14811,8 @@ Inspectors in MBTP scheme randomized into groups of 10 circles within districts.
 \end_layout
 
 \begin_layout Itemize
-Inspectors told they would be ranked based on performance, and then based
- on ranking they would be given a choic of circles within their group.
+Inspectors told they would be ranked based on performance,
+ and then based on ranking they would be given a choic of circles within their group.
 \end_layout
 
 \begin_layout Itemize
@@ -14474,11 +14821,13 @@ Performance based on 2 measures (randomized)
 
 \begin_deeper
 \begin_layout Enumerate
-Recovery: y-o-y percentage increase in tax collected
+Recovery:
+ y-o-y percentage increase in tax collected
 \end_layout
 
 \begin_layout Enumerate
-Demand: y-o-y percentage increase in assessed tax base
+Demand:
+ y-o-y percentage increase in assessed tax base
 \end_layout
 
 \end_deeper
@@ -14495,7 +14844,8 @@ Demand: y-o-y percentage increase in assessed tax base
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Modeling Incentives
+Khan et al 2018:
+ Modeling Incentives
 \end_layout
 
 \end_inset
@@ -14533,7 +14883,8 @@ growth rate in revenue is
 \begin_inset Formula $y_{i}=y_{i0}+e_{i}+\epsilon_{i}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\epsilon_{i}\sim iid$
 \end_inset
 
@@ -14549,7 +14900,8 @@ For a vector of outcomes
 \begin_inset Formula $\mathbf{y}$
 \end_inset
 
-, the PRSD mechanism yields an allocation 
+,
+ the PRSD mechanism yields an allocation 
 \begin_inset Formula $r_{i}\left(\mathbf{y},\mathbf{P}\right)$
 \end_inset
 
@@ -14609,7 +14961,8 @@ effort choice satisfies
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Influences on Incentives
+Khan et al 2018:
+ Influences on Incentives
 \end_layout
 
 \end_inset
@@ -14639,7 +14992,8 @@ imagine everyone has the same preferences.
 
 \begin_layout Enumerate
 Imagine nobody shares a first-choice with anyone else.
- Then they all get their first choice, and scheme provides 
+ Then they all get their first choice,
+ and scheme provides 
 \emph on
 no
 \emph default
@@ -14659,12 +15013,15 @@ Distribution of
 
 \begin_deeper
 \begin_layout Enumerate
-If they are all close together, then small effort changes can change ranks:
+If they are all close together,
+ then small effort changes can change ranks:
  strong incentives.
 \end_layout
 
 \begin_layout Enumerate
-If they are far apart, need lots of effort to change rank: weak incentives
+If they are far apart,
+ need lots of effort to change rank:
+ weak incentives
 \end_layout
 
 \end_deeper
@@ -14682,12 +15039,13 @@ With common preferences and common
 \begin_inset Formula $y_{0}$
 \end_inset
 
-, Lazear & Rosen (1981) show that you can replicate the efficient piece
- rate with a tournament
+,
+ Lazear & Rosen (1981) show that you can replicate the efficient piece rate with a tournament
 \end_layout
 
 \begin_layout Enumerate
-With general preferences, it's not clear how close we are to a piece rate.
+With general preferences,
+ it's not clear how close we are to a piece rate.
 \end_layout
 
 \end_deeper
@@ -14717,7 +15075,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/KhanEtAl2018_3.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -14737,7 +15095,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Marginal return to effort
+Khan et al 2018:
+ Marginal return to effort
 \end_layout
 
 \end_inset
@@ -14747,8 +15106,7 @@ Khan et al 2018: Marginal return to effort
 
 \begin_deeper
 \begin_layout Itemize
-Simulate the model under different assumptions about what the inspectors
- know about 
+Simulate the model under different assumptions about what the inspectors know about 
 \begin_inset Formula $\mathbf{P}$
 \end_inset
 
@@ -14764,7 +15122,8 @@ For a given effort vector
 \begin_inset Formula $\mathbf{e}$
 \end_inset
 
-, solve for the Nash equilibrium efforts.
+,
+ solve for the Nash equilibrium efforts.
 \end_layout
 
 \begin_layout Itemize
@@ -14776,7 +15135,8 @@ Need to parameterize
 \begin_inset Formula $u_{ij}$
 \end_inset
 
-: take ordinal preferences and linearize 
+:
+ take ordinal preferences and linearize 
 \begin_inset Formula $u_{ij}=1$
 \end_inset
 
@@ -14791,8 +15151,8 @@ Need to parameterize
 \begin_inset Formula $\mathbf{y}_{0}$
 \end_inset
 
-: regress revenue changes on 2 lags of revenu and tax base in the control
- group.
+:
+ regress revenue changes on 2 lags of revenu and tax base in the control group.
  get 
 \begin_inset Formula $\mathbf{y}_{0}$
 \end_inset
@@ -14830,7 +15190,8 @@ Evaluate the lhs of the FOC
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Marginal return to effort
+Khan et al 2018:
+ Marginal return to effort
 \end_layout
 
 \end_inset
@@ -14863,7 +15224,8 @@ Khan et al 2018: Marginal return to effort
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Marginal return to effort
+Khan et al 2018:
+ Marginal return to effort
 \end_layout
 
 \end_inset
@@ -14896,7 +15258,8 @@ Khan et al 2018: Marginal return to effort
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Marginal return to effort
+Khan et al 2018:
+ Marginal return to effort
 \end_layout
 
 \end_inset
@@ -14929,7 +15292,8 @@ Khan et al 2018: Marginal return to effort
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Experiment
+Khan et al 2018:
+ Experiment
 \end_layout
 
 \end_inset
@@ -14939,8 +15303,8 @@ Khan et al 2018: Experiment
 
 \begin_deeper
 \begin_layout Itemize
-At start of year 1, circles randomly assigned into groups of 9-11 circles
- within metropolitan area.
+At start of year 1,
+ circles randomly assigned into groups of 9-11 circles within metropolitan area.
  
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -14949,13 +15313,14 @@ At start of year 1, circles randomly assigned into groups of 9-11 circles
 \end_layout
 
 \begin_layout Itemize
-Randomized into treatment, control.
+Randomized into treatment,
+ control.
  Within treatment into recovery/demand measure of performance.
 \end_layout
 
 \begin_layout Itemize
-In year 2, groups rerandomized into treatment/control stratifying by year-1
- treatment status.
+In year 2,
+ groups rerandomized into treatment/control stratifying by year-1 treatment status.
 \end_layout
 
 \begin_layout Standard
@@ -14982,7 +15347,8 @@ In year 2, groups rerandomized into treatment/control stratifying by year-1
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Estimation
+Khan et al 2018:
+ Estimation
 \end_layout
 
 \end_inset
@@ -15008,7 +15374,8 @@ Estimate treatment effects in circle
 \end_layout
 
 \begin_layout Itemize
-Using model simulations, ge predicted equilibrium effort 
+Using model simulations,
+ ge predicted equilibrium effort 
 \begin_inset Formula $\tilde{e}_{i}$
 \end_inset
 
@@ -15050,7 +15417,8 @@ Estimate effect of re-randomizing with
 status open
 
 \begin_layout Plain Layout
-Khan et al 2018: Revenue Results
+Khan et al 2018:
+ Revenue Results
 \end_layout
 
 \end_inset
@@ -15096,7 +15464,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/KhanEtAl2018_9.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15129,7 +15497,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/KhanEtAl2018_10.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15162,7 +15530,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/KhanEtAl2018_11.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15195,7 +15563,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/KhanEtAl2018_12.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -15225,7 +15593,8 @@ Recruitment & Selection
 \end_layout
 
 \begin_layout Subsection
-Dal Bó, Finan & Rossi (QJE 2013) 
+Dal Bó,
+ Finan & Rossi (QJE 2013) 
 \begin_inset ERT
 status open
 
@@ -15240,8 +15609,8 @@ textit{
 
 \end_inset
 
-Strengthening State Capabilities: The Role of Financial Incentives in the
- Call to Public Service
+Strengthening State Capabilities:
+ The Role of Financial Incentives in the Call to Public Service
 \begin_inset ERT
 status open
 
@@ -15260,7 +15629,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Introduction
+Dal Bó et al 2013:
+ Introduction
 \end_layout
 
 \end_inset
@@ -15282,8 +15652,8 @@ Good
 \begin_inset Quotes erd
 \end_inset
 
- bureaucrats has many dimensions, how do pecuniary and non-pecuniary incentives
- of government jobs attract more or less of these dimensions?
+ bureaucrats has many dimensions,
+ how do pecuniary and non-pecuniary incentives of government jobs attract more or less of these dimensions?
 \end_layout
 
 \begin_layout Itemize
@@ -15315,7 +15685,8 @@ How do job location disadvantages affect recruitment?
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Context
+Dal Bó et al 2013:
+ Context
 \end_layout
 
 \end_inset
@@ -15325,17 +15696,18 @@ Dal Bó et al 2013: Context
 
 \begin_deeper
 \begin_layout Itemize
-2011: Regional Development Program (RDP) launched to increase state presence
+2011:
+ Regional Development Program (RDP) launched to increase state presence
 \end_layout
 
 \begin_layout Itemize
-Create network of 350 community development agents & 50 coordinators to
- identify needs in the community and report to federal government to get
- resources to meet demands.
+Create network of 350 community development agents & 50 coordinators to identify needs in the community and report to federal government to get resources to meet demands.
 \end_layout
 
 \begin_layout Itemize
-Program implemented in 10 regions, 167 municipalities, 000s of localities.
+Program implemented in 10 regions,
+ 167 municipalities,
+ 000s of localities.
 \end_layout
 
 \begin_layout Itemize
@@ -15356,7 +15728,8 @@ Each community development position is assigned to a particular municipality,
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Model
+Dal Bó et al 2013:
+ Model
 \end_layout
 
 \end_inset
@@ -15370,7 +15743,8 @@ Employer faces a residual labor supply of large number of workers.
 \end_layout
 
 \begin_layout Itemize
-2 periods, no discounting.
+2 periods,
+ no discounting.
  
 \end_layout
 
@@ -15387,7 +15761,8 @@ Worker decides whether to incur cost
 \end_layout
 
 \begin_layout Enumerate
-If worker interviewed, receives offer w/pr 
+If worker interviewed,
+ receives offer w/pr 
 \begin_inset Formula $\rho\in(0,1]$
 \end_inset
 
@@ -15427,7 +15802,8 @@ Utility from getting the job is
 \end_layout
 
 \begin_layout Itemize
-In period 2, accept if better than market opportunity with value 
+In period 2,
+ accept if better than market opportunity with value 
 \begin_inset Formula $v+\varepsilon$
 \end_inset
 
@@ -15457,7 +15833,8 @@ Shock
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Model
+Dal Bó et al 2013:
+ Model
 \end_layout
 
 \end_inset
@@ -15467,7 +15844,8 @@ Dal Bó et al 2013: Model
 
 \begin_deeper
 \begin_layout Itemize
-Solve the model backwards: Workers will accept if 
+Solve the model backwards:
+ Workers will accept if 
 \begin_inset Formula $v+\varepsilon\leq w+\pi$
 \end_inset
 
@@ -15518,7 +15896,8 @@ Assume
 \end_inset
 
  is fixed (at 1).
- In particular, doesn't depend on type of the worker.
+ In particular,
+ doesn't depend on type of the worker.
 \end_layout
 
 \end_deeper
@@ -15534,7 +15913,8 @@ Assume
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Effects on Applicant Pool
+Dal Bó et al 2013:
+ Effects on Applicant Pool
 \end_layout
 
 \end_inset
@@ -15552,22 +15932,22 @@ proposition 1
 \end_layout
 
 \begin_layout Enumerate
-Given the assumptions of our model, an increase in wages increases the size
- and average quality of the applicant pool.
+Given the assumptions of our model,
+ an increase in wages increases the size and average quality of the applicant pool.
 \end_layout
 
 \begin_layout Enumerate
-In the case where PSM and quality are independent in the population, an
- increase in wages decreases the average PSM of the applicant pool.
+In the case where PSM and quality are independent in the population,
+ an increase in wages decreases the average PSM of the applicant pool.
 \end_layout
 
 \begin_layout Enumerate
-In the case where PSM and quality are positively correlated according to
- the function 
+In the case where PSM and quality are positively correlated according to the function 
 \begin_inset Formula $m\left(\pi\right)$
 \end_inset
 
-, an increase in wages increases the average PSM of the applicant pool.
+,
+ an increase in wages increases the average PSM of the applicant pool.
 \end_layout
 
 \end_deeper
@@ -15583,7 +15963,8 @@ In the case where PSM and quality are positively correlated according to
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Effects on Recruitment
+Dal Bó et al 2013:
+ Effects on Recruitment
 \end_layout
 
 \end_inset
@@ -15593,7 +15974,8 @@ Dal Bó et al 2013: Effects on Recruitment
 
 \begin_deeper
 \begin_layout Itemize
-Simplify: 
+Simplify:
+ 
 \begin_inset Formula $\pi=0$
 \end_inset
 
@@ -15606,7 +15988,8 @@ Simplify:
 \begin_inset Formula $v\leq\bar{v}$
 \end_inset
 
- attend the interview, 
+ attend the interview,
+ 
 \begin_inset Formula $v>\bar{v}$
 \end_inset
 
@@ -15643,13 +16026,15 @@ proposition 2
 \end_layout
 
 \begin_layout Enumerate
-The measure of recruited candidates in our model, and the labor supplied
- to the firm in equilibrium, can be written as the product 
+The measure of recruited candidates in our model,
+ and the labor supplied to the firm in equilibrium,
+ can be written as the product 
 \begin_inset Formula $F\left(\bar{v}\right)\gamma\left(w,\bar{v}\right)$
 \end_inset
 
  of the applicant pool size and the conversion rate.
- Thus, the elasticity of labor supply facing the employer is 
+ Thus,
+ the elasticity of labor supply facing the employer is 
 \begin_inset Formula $\eta=\frac{dS}{sw}\frac{w}{S}=\frac{dF}{dw}\frac{w}{F}+\frac{d\gamma}{dw}\frac{w}{\gamma}\equiv\xi_{F\left(\bar{v}\right)}+\xi_{\gamma\left(w,\bar{v}\right)}$
 \end_inset
 
@@ -15657,8 +16042,8 @@ The measure of recruited candidates in our model, and the labor supplied
 \end_layout
 
 \begin_layout Enumerate
-Under the assumptions of the model, the elasticity of the applicant pool
- size is positive 
+Under the assumptions of the model,
+ the elasticity of the applicant pool size is positive 
 \begin_inset Formula $\left(\xi_{F\left(\bar{v}\right)}>0\right)$
 \end_inset
 
@@ -15682,7 +16067,8 @@ Under the assumptions of the model, the elasticity of the applicant pool
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Experiment
+Dal Bó et al 2013:
+ Experiment
 \end_layout
 
 \end_inset
@@ -15696,28 +16082,32 @@ Recruitment happened June - August 2011.
 \end_layout
 
 \begin_layout Itemize
-recruitment sites: 113 schools in 106 localities in 10 target regions received
- job postings.
+recruitment sites:
+ 113 schools in 106 localities in 10 target regions received job postings.
 \end_layout
 
 \begin_layout Itemize
-Job ad provided general description of the job, and a toll-free number and
- email address.
+Job ad provided general description of the job,
+ and a toll-free number and email address.
 \end_layout
 
 \begin_layout Itemize
 Respondents gave contact info and basic educ and employment history.
- Then, based on where they saw the ad, told the salary and a date/place
- for the interview.
+ Then,
+ based on where they saw the ad,
+ told the salary and a date/place for the interview.
 \end_layout
 
 \begin_layout Itemize
 1,920 individuals registered.
- 1,665 by phone, 208 by email, 47 did both.
+ 1,665 by phone,
+ 208 by email,
+ 47 did both.
 \end_layout
 
 \begin_layout Itemize
-Experiment 1: Salaries randomly allocated across recruitment sites.
+Experiment 1:
+ Salaries randomly allocated across recruitment sites.
 \end_layout
 
 \begin_deeper
@@ -15784,7 +16174,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/DalBoetal_1.png
-	height 104theight%
+	special height=1.04\textheight
 
 \end_inset
 
@@ -15804,7 +16194,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Experiment
+Dal Bó et al 2013:
+ Experiment
 \end_layout
 
 \end_inset
@@ -15814,8 +16205,8 @@ Dal Bó et al 2013: Experiment
 
 \begin_deeper
 \begin_layout Itemize
-During the interview, applicants did a 3-hour exam measuring personal characteri
-stics (more below).
+During the interview,
+ applicants did a 3-hour exam measuring personal characteristics (more below).
 \end_layout
 
 \begin_layout Itemize
@@ -15857,7 +16248,8 @@ Raven matrices used to measure IQ
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Experiment
+Dal Bó et al 2013:
+ Experiment
 \end_layout
 
 \end_inset
@@ -15871,7 +16263,8 @@ Scores below 7 deemed ineligible for job.
 \end_layout
 
 \begin_layout Itemize
-4 strata: 
+4 strata:
+ 
 \end_layout
 
 \begin_deeper
@@ -15893,9 +16286,7 @@ low wage & normal IQ
 
 \end_deeper
 \begin_layout Itemize
-The 350 vacancies randomied to one of these strata and then offers made
- randomly to applicants in that stratum (sometimes conditioning on knowing
- the local indigenous language as well)
+The 350 vacancies randomied to one of these strata and then offers made randomly to applicants in that stratum (sometimes conditioning on knowing the local indigenous language as well)
 \end_layout
 
 \begin_layout Itemize
@@ -15927,8 +16318,7 @@ A_{ics}=\gamma_{1}T_{c}+X_{i}^{\prime}\beta+\zeta_{s}+\epsilon_{ics}
 \end_layout
 
 \begin_layout Itemize
-and effect of municipality characteristics (since individuals randomly assigned
- to municipalities)
+and effect of municipality characteristics (since individuals randomly assigned to municipalities)
 \begin_inset Formula 
 \[
 A_{ics}=\gamma_{1}T_{c}+\gamma_{2}\left(T_{c}\times W_{m}\right)+\gamma_{3}W_{m}+X_{i}^{\prime}\beta+\zeta_{s}+\epsilon_{icms}
@@ -15952,7 +16342,8 @@ A_{ics}=\gamma_{1}T_{c}+\gamma_{2}\left(T_{c}\times W_{m}\right)+\gamma_{3}W_{m}
 status open
 
 \begin_layout Plain Layout
-Dal Bó et al 2013: Personality data
+Dal Bó et al 2013:
+ Personality data
 \end_layout
 
 \end_inset
@@ -15967,7 +16358,8 @@ Aptitude data
 
 \begin_deeper
 \begin_layout Itemize
-Outside wages: current/previous earnings.
+Outside wages:
+ current/previous earnings.
 \end_layout
 
 \begin_layout Itemize
@@ -15982,8 +16374,12 @@ Big 5
 \begin_inset Quotes erd
 \end_inset
 
- personality traits: openness to experience, conscientiousness, extraversion,
- agreeableness, neuroticism.
+ personality traits:
+ openness to experience,
+ conscientiousness,
+ extraversion,
+ agreeableness,
+ neuroticism.
 \end_layout
 
 \end_deeper
@@ -15993,13 +16389,19 @@ Public Service Motivation (PSM)
 
 \begin_deeper
 \begin_layout Enumerate
-Perry 1996 scale to elicit opinions of attractiveness of politics, public
- service, and prosocial activities.
+Perry 1996 scale to elicit opinions of attractiveness of politics,
+ public service,
+ and prosocial activities.
 \end_layout
 
 \begin_layout Enumerate
-6 modules: Attraction to Policy Making, Commitment to Policy Making, Social
- Justice, Civic Duty, Compassion, Self-Sacrifice
+6 modules:
+ Attraction to Policy Making,
+ Commitment to Policy Making,
+ Social Justice,
+ Civic Duty,
+ Compassion,
+ Self-Sacrifice
 \end_layout
 
 \end_deeper
@@ -16194,7 +16596,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/DalBoetal_9.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -16227,7 +16629,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/DalBoetal_10.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -16260,7 +16662,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/DalBoetal_11.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -16293,7 +16695,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/DalBoetal_12.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -16326,7 +16728,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/DalBoetal_13.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -16359,7 +16761,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/DalBoetal_14.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -16392,7 +16794,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/DalBoetal_15.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -16401,7 +16803,8 @@ status open
 
 \end_deeper
 \begin_layout Subsection
-Ashraf, Bandiera & Lee (2018) 
+Ashraf,
+ Bandiera & Lee (2018) 
 \begin_inset ERT
 status open
 
@@ -16416,8 +16819,10 @@ textit{
 
 \end_inset
 
-Losing Prosociality in the Quest for Talent? Sorting, Selection, and Productivit
-y in the Delivery of Public Services
+Losing Prosociality in the Quest for Talent?
+ Sorting,
+ Selection,
+ and Productivity in the Delivery of Public Services
 \begin_inset ERT
 status open
 
@@ -16436,7 +16841,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Ashraf et al 2018: Introduction
+Ashraf et al 2018:
+ Introduction
 \end_layout
 
 \end_inset
@@ -16446,8 +16852,9 @@ Ashraf et al 2018: Introduction
 
 \begin_deeper
 \begin_layout Itemize
-Over the course of the economic development of a nation, informal service
- providers are replaced with qualified, career professionals.
+Over the course of the economic development of a nation,
+ informal service providers are replaced with qualified,
+ career professionals.
 \end_layout
 
 \begin_layout Itemize
@@ -16456,18 +16863,17 @@ Create and foster an identity based on a career as a civil servant.
 \end_layout
 
 \begin_layout Itemize
-But does this displace providers whose identity is based on altruism towards
- beneficiaries?
+But does this displace providers whose identity is based on altruism towards beneficiaries?
 \end_layout
 
 \begin_layout Itemize
-If so, how does this affect the quality of service delivery and the welfare
- of citizens?
+If so,
+ how does this affect the quality of service delivery and the welfare of citizens?
 \end_layout
 
 \begin_layout Itemize
-This paper: an experiment with the government of Zambia reruiting nurses
- to test these questions.
+This paper:
+ an experiment with the government of Zambia reruiting nurses to test these questions.
 \end_layout
 
 \end_deeper
@@ -16483,7 +16889,8 @@ This paper: an experiment with the government of Zambia reruiting nurses
 status open
 
 \begin_layout Plain Layout
-Ashraf et al 2018: Context
+Ashraf et al 2018:
+ Context
 \end_layout
 
 \end_inset
@@ -16493,7 +16900,8 @@ Ashraf et al 2018: Context
 
 \begin_deeper
 \begin_layout Itemize
-Context: Delivery of health services in remote rural areas of Zambia
+Context:
+ Delivery of health services in remote rural areas of Zambia
 \end_layout
 
 \begin_layout Itemize
@@ -16510,8 +16918,7 @@ CHAs' main task is to visit households and refer them to health facilities
 \end_layout
 
 \begin_layout Itemize
-CHAs join the civil service and can advance to higher-ranked and better
- paid (nurses paid about double for e.g.) cadres
+CHAs join the civil service and can advance to higher-ranked and better paid (nurses paid about double for e.g.) cadres
 \end_layout
 
 \end_deeper
@@ -16527,7 +16934,8 @@ CHAs join the civil service and can advance to higher-ranked and better
 status open
 
 \begin_layout Plain Layout
-Ashraf et al 2018: Experiment
+Ashraf et al 2018:
+ Experiment
 \end_layout
 
 \end_inset
@@ -16537,8 +16945,7 @@ Ashraf et al 2018: Experiment
 
 \begin_deeper
 \begin_layout Itemize
-Hard to separate selection effect (who becomes a CHA) from the incentive
- effect (promotion incentives to perform well)
+Hard to separate selection effect (who becomes a CHA) from the incentive effect (promotion incentives to perform well)
 \end_layout
 
 \begin_layout Itemize
@@ -16546,7 +16953,8 @@ Design an experiment to separate the two things
 \end_layout
 
 \begin_layout Enumerate
-Selection: Use recruitment posters posted in public spaces.
+Selection:
+ Use recruitment posters posted in public spaces.
  Randomly vary content of poster:
 \end_layout
 
@@ -16561,9 +16969,10 @@ Othes emphasize community service
 
 \end_deeper
 \begin_layout Enumerate
-Shut down incentives: All successful applicants offered the same career
- opportunities on the job.
- All train together, all get the same information.
+Shut down incentives:
+ All successful applicants offered the same career opportunities on the job.
+ All train together,
+ all get the same information.
  
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -16597,7 +17006,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/AshrafEtAl2018_1.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -16617,7 +17026,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Ashraf et al 2018: Model
+Ashraf et al 2018:
+ Model
 \end_layout
 
 \end_inset
@@ -16651,7 +17061,8 @@ Individuals differ in ability
 \end_layout
 
 \begin_layout Itemize
-If work as CHA, produce health 
+If work as CHA,
+ produce health 
 \begin_inset Formula $H\left(a\right)$
 \end_inset
 
@@ -16712,7 +17123,8 @@ E\left(a,s\right)=p\left(a\right)U\left(a,s\right)-c>V\left(a\right)
 status open
 
 \begin_layout Plain Layout
-Ashraf et al 2018: Model
+Ashraf et al 2018:
+ Model
 \end_layout
 
 \end_inset
@@ -16744,7 +17156,8 @@ Assume that
 \begin_inset Formula $V$
 \end_inset
 
- suitable, then there's another threshold where 
+ suitable,
+ then there's another threshold where 
 \begin_inset Formula $E\left(\bar{a}\right)=V\left(\bar{a}\right)$
 \end_inset
 
@@ -16770,8 +17183,8 @@ Higher ability people apply now
 \end_layout
 
 \begin_layout Enumerate
-Low ability applicants might be discouraged since less likely to get the
- job: 
+Low ability applicants might be discouraged since less likely to get the job:
+ 
 \begin_inset Formula $\partial^{2}p/\partial a\partial M>0$
 \end_inset
 
@@ -16784,7 +17197,8 @@ Low ability applicants might be discouraged since less likely to get the
 \shape smallcaps
 result 1
 \shape default
-: 
+:
+ 
 \emph on
 Increasing material benefits 
 \begin_inset Formula $M$
@@ -16798,8 +17212,8 @@ Increasing material benefits
 \begin_inset Formula $\left(\partial\underline{a}/\partial M<0\right)$
 \end_inset
 
- and increase the total number of applicants, or (ii) discourage low ability
- applicants 
+ and increase the total number of applicants,
+ or (ii) discourage low ability applicants 
 \begin_inset Formula $\left(\partial\underline{a}/\partial M>0\right)$
 \end_inset
 
@@ -16819,7 +17233,8 @@ Increasing material benefits
 status open
 
 \begin_layout Plain Layout
-Ashraf et al 2018: Model
+Ashraf et al 2018:
+ Model
 \end_layout
 
 \end_inset
@@ -16870,9 +17285,9 @@ status open
 
 \end_inset
 
-Talent and pro-sociality are positively correlated for highest ability applicant
-s, and negatively correlated for lowst ability applicants, even when they're
- not correlated in the population.
+Talent and pro-sociality are positively correlated for highest ability applicants,
+ and negatively correlated for lowst ability applicants,
+ even when they're not correlated in the population.
 \end_layout
 
 \begin_layout Standard
@@ -16880,19 +17295,20 @@ s, and negatively correlated for lowst ability applicants, even when they're
 \shape smallcaps
 result 2
 \shape default
-: 
+:
+ 
 \emph on
 Under any 
 \begin_inset Formula $M$
 \end_inset
 
-, the most able applicant is also the most prosocial.
+,
+ the most able applicant is also the most prosocial.
  An increase in 
 \begin_inset Formula $M$
 \end_inset
 
- leaves the prosociality of the marginal applicant unchanged and has an
- ambiguous effect on the prosociality of the average applicant
+ leaves the prosociality of the marginal applicant unchanged and has an ambiguous effect on the prosociality of the average applicant
 \end_layout
 
 \end_deeper
@@ -16908,7 +17324,8 @@ Under any
 status open
 
 \begin_layout Plain Layout
-Ashraf et al 2018: Applicants and Selection
+Ashraf et al 2018:
+ Applicants and Selection
 \end_layout
 
 \end_inset
@@ -16923,8 +17340,8 @@ Recruitment drive
 \end_inset
 
  2,457 applications (average 7.3 for each position).
- 1,804 met eligbility requirements, 1,585 came for interview and answered
- questionnaire.
+ 1,804 met eligbility requirements,
+ 1,585 came for interview and answered questionnaire.
 \end_layout
 
 \begin_layout Itemize
@@ -16932,7 +17349,8 @@ Use grade 12 (o-level) exam scores as ability measure
 \end_layout
 
 \begin_layout Itemize
-For non-cognitive skills, use career ambition (
+For non-cognitive skills,
+ use career ambition (
 \begin_inset Quotes eld
 \end_inset
 
@@ -16952,8 +17370,8 @@ higher position in the Ministry
 \end_layout
 
 \begin_layout Itemize
-For pro-sociality, use self-reported willingness to stay in the community
- and 
+For pro-sociality,
+ use self-reported willingness to stay in the community and 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16966,7 +17384,8 @@ Inclusion of Others in Self (IOS)
 
 \begin_layout Itemize
 Selection panels chose 2 candidates to serve as CHA in the posts.
- Panels = district health official, health post's health center representatice,
+ Panels = district health official,
+ health post's health center representatice,
  3 members of the neighborhood health committee.
 \begin_inset Formula 
 \[
@@ -16979,11 +17398,13 @@ where
 \begin_inset Formula $s_{ih}=1$
 \end_inset
 
- if selected, 
+ if selected,
+ 
 \begin_inset Formula $C_{h}=1$
 \end_inset
 
- for treatment posts, 
+ for treatment posts,
+ 
 \begin_inset Formula $X_{i}^{j}=1$
 \end_inset
 
@@ -16995,7 +17416,8 @@ where
 \begin_inset Formula $j$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $N_{h}$
 \end_inset
 
@@ -17028,7 +17450,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/AshrafEtAl2018_2.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -17061,7 +17483,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/AshrafEtAl2018_3.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -17127,7 +17549,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/AshrafEtAl2018_5.png
-	height 104theight%
+	special height=1.04\textheight
 
 \end_inset
 
@@ -17147,7 +17569,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Ashraf et al 2018: Service Delivery
+Ashraf et al 2018:
+ Service Delivery
 \end_layout
 
 \end_inset
@@ -17157,8 +17580,8 @@ Ashraf et al 2018: Service Delivery
 
 \begin_deeper
 \begin_layout Itemize
-CHAs are required to keep records of all their visits, and issue receipts
- to households that they visit.
+CHAs are required to keep records of all their visits,
+ and issue receipts to households that they visit.
 \end_layout
 
 \begin_layout Itemize
@@ -17285,7 +17708,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Ashraf et al 2018: Service Utilization
+Ashraf et al 2018:
+ Service Utilization
 \end_layout
 
 \end_inset
@@ -17296,7 +17720,8 @@ Ashraf et al 2018: Service Utilization
 \begin_deeper
 \begin_layout Itemize
 The treatment increased health staff inputs.
- Does it also increase households' use of facilities? Health outcomes?
+ Does it also increase households' use of facilities?
+ Health outcomes?
 \end_layout
 
 \begin_layout Itemize
@@ -17404,7 +17829,9 @@ status open
 
 \end_deeper
 \begin_layout Subsection
-Leaver, Ozier, Serneels & Zeitlin (AER 2021) 
+Leaver,
+ Ozier,
+ Serneels & Zeitlin (AER 2021) 
 \begin_inset ERT
 status open
 
@@ -17419,8 +17846,9 @@ textit{
 
 \end_inset
 
-Recruitment, Effort and Retention Effects of Performance Contracts for Civil
- Servants: Experimental Evidence from Rwandan Primary Schools
+Recruitment,
+ Effort and Retention Effects of Performance Contracts for Civil Servants:
+ Experimental Evidence from Rwandan Primary Schools
 \begin_inset ERT
 status open
 
@@ -17439,7 +17867,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Motivation
+Leaver et al (2021):
+ Motivation
 \end_layout
 
 \end_inset
@@ -17449,17 +17878,18 @@ Leaver et al (2021): Motivation
 
 \begin_deeper
 \begin_layout Itemize
-Recruiting good people, motivating and retaining them are central challenges
- for any organization with significant labor inputs
+Recruiting good people,
+ motivating and retaining them are central challenges for any organization with significant labor inputs
 \end_layout
 
 \begin_layout Itemize
-Might Pay for Performance (P4P) be a good way of doing this? We know it
- can motivate teachers (Muralidharan & Sundararaman 2011)
+Might Pay for Performance (P4P) be a good way of doing this?
+ We know it can motivate teachers (Muralidharan & Sundararaman 2011)
 \end_layout
 
 \begin_layout Itemize
-Anti: 
+Anti:
+ 
 \end_layout
 
 \begin_deeper
@@ -17468,7 +17898,9 @@ crowd out pro-social mottivation
 \end_layout
 
 \begin_layout Itemize
-screen in the wrong people (Benabou & Tirole, 2003, 2006)
+screen in the wrong people (Benabou & Tirole,
+ 2003,
+ 2006)
 \end_layout
 
 \end_deeper
@@ -17503,7 +17935,8 @@ Work in Rwanda to conduct the first RCT to test for these effects together.
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Setting
+Leaver et al (2021):
+ Setting
 \end_layout
 
 \end_inset
@@ -17513,13 +17946,13 @@ Leaver et al (2021): Setting
 
 \begin_deeper
 \begin_layout Itemize
-Study looks at the cohort of teachers applying for state school positions
- in 6 districts in Rwanda in 2016
+Study looks at the cohort of teachers applying for state school positions in 6 districts in Rwanda in 2016
 \end_layout
 
 \begin_layout Itemize
-Districts group vacancies into Math and Science (TMS); Modern Languages
- (TML); and Social Studies (TSS).
+Districts group vacancies into Math and Science (TMS);
+ Modern Languages (TML);
+ and Social Studies (TSS).
 \end_layout
 
 \begin_layout Itemize
@@ -17539,7 +17972,8 @@ Small
 \begin_inset Formula $N$
 \end_inset
 
- for randomization, but spans 600+ hiring lines and >60% of hires that year.
+ for randomization,
+ but spans 600+ hiring lines and >60% of hires that year.
 \end_layout
 
 \end_deeper
@@ -17555,7 +17989,8 @@ Small
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Experimental Design
+Leaver et al (2021):
+ Experimental Design
 \end_layout
 
 \end_inset
@@ -17577,9 +18012,11 @@ advertizing
 \end_layout
 
 \begin_layout Enumerate
-Once people assigned to schools, re-randomize 
+Once people assigned to schools,
+ re-randomize 
 \emph on
-actual, experienced
+actual,
+ experienced
 \emph default
  contract.
 \end_layout
@@ -17640,7 +18077,8 @@ total
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): First Tier Randomization
+Leaver et al (2021):
+ First Tier Randomization
 \end_layout
 
 \end_inset
@@ -17658,8 +18096,9 @@ Randomized the advertizing of the jobs across the 18 (district
 \end_layout
 
 \begin_layout Itemize
-Advertized by radio, poster, flyer and had a person at the district education
- office to explain the contracts
+Advertized by radio,
+ poster,
+ flyer and had a person at the district education office to explain the contracts
 \end_layout
 
 \begin_layout Itemize
@@ -17691,7 +18130,8 @@ Successful candidates placeed in jobs during Feb/March 2016
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Second Tier Randomization
+Leaver et al (2021):
+ Second Tier Randomization
 \end_layout
 
 \end_inset
@@ -17701,16 +18141,18 @@ Leaver et al (2021): Second Tier Randomization
 
 \begin_deeper
 \begin_layout Itemize
-After all the new teachers had been placed, all of the schools were randomized
- into either P4P (85 schools) or FW (79 schools)
+After all the new teachers had been placed,
+ all of the schools were randomized into either P4P (85 schools) or FW (79 schools)
 \end_layout
 
 \begin_layout Itemize
-All teachers received the randomly assigned contract, both new and incumbents.
+All teachers received the randomly assigned contract,
+ both new and incumbents.
 \end_layout
 
 \begin_layout Itemize
-P4P contract: top 20% of teachers receive FRw 100K ($136 
+P4P contract:
+ top 20% of teachers receive FRw 100K ($136 
 \begin_inset Formula $\sim$
 \end_inset
 
@@ -17726,8 +18168,11 @@ pay for percentile
 \begin_inset Quotes erd
 \end_inset
 
-: Students' measured performance gains controling for student composition;
- b) teacher presence; c) lesson preparation; d) observed pedagogy
+:
+ Students' measured performance gains controling for student composition;
+ b) teacher presence;
+ c) lesson preparation;
+ d) observed pedagogy
 \end_layout
 
 \begin_layout Itemize
@@ -17735,7 +18180,9 @@ FW was bonus of FR2 20K for all teachers
 \end_layout
 
 \begin_layout Itemize
-Potential worry: disappointment, so offered FRw 80K 
+Potential worry:
+ disappointment,
+ so offered FRw 80K 
 \begin_inset Quotes eld
 \end_inset
 
@@ -17759,7 +18206,8 @@ retention bonus
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Hypotheses
+Leaver et al (2021):
+ Hypotheses
 \end_layout
 
 \end_inset
@@ -17769,7 +18217,8 @@ Leaver et al (2021): Hypotheses
 
 \begin_deeper
 \begin_layout Itemize
-With this design, the paper seeks to test the following hypotheses
+With this design,
+ the paper seeks to test the following hypotheses
 \end_layout
 
 \begin_layout Enumerate
@@ -17789,8 +18238,7 @@ placed
 \end_layout
 
 \begin_layout Enumerate
-Advertised P4P induces differentially intrinsically motivated recruits to
- be 
+Advertised P4P induces differentially intrinsically motivated recruits to be 
 \emph on
 placed
 \emph default
@@ -17798,18 +18246,15 @@ placed
 \end_layout
 
 \begin_layout Enumerate
-Advertised P4P selects in higher or lower performing teachers as measured
- by learning outcomes
+Advertised P4P selects in higher or lower performing teachers as measured by learning outcomes
 \end_layout
 
 \begin_layout Enumerate
-Experienced P4P creates incentives that affect teacher performance as measured
- by their students' learning outcomes
+Experienced P4P creates incentives that affect teacher performance as measured by their students' learning outcomes
 \end_layout
 
 \begin_layout Enumerate
-These selection and effort effects are apparent in the composite performance
- metric
+These selection and effort effects are apparent in the composite performance metric
 \end_layout
 
 \end_deeper
@@ -17825,7 +18270,8 @@ These selection and effort effects are apparent in the composite performance
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Analysis
+Leaver et al (2021):
+ Analysis
 \end_layout
 
 \end_inset
@@ -17835,16 +18281,17 @@ Leaver et al (2021): Analysis
 
 \begin_deeper
 \begin_layout Itemize
-As we saw above, there are 
+As we saw above,
+ there are 
 \begin_inset Formula $N=18$
 \end_inset
 
- labor markets, so power is a real concern
+ labor markets,
+ so power is a real concern
 \end_layout
 
 \begin_layout Itemize
-Exactly which empirical specification has the highest power to test the
- hypotehses above depends on features of the data that are unknown 
+Exactly which empirical specification has the highest power to test the hypotehses above depends on features of the data that are unknown 
 \series bold
 ex ante
 \series default
@@ -17864,7 +18311,8 @@ ex post
 \end_layout
 
 \begin_layout Itemize
-Solution: Blinding
+Solution:
+ Blinding
 \end_layout
 
 \begin_deeper
@@ -17878,19 +18326,19 @@ Researchers explored pre-specified designs in the blinded data
 \end_layout
 
 \begin_layout Itemize
-After updating PAP, researchers received true data and implemented power-maximiz
-ing designs
+After updating PAP,
+ researchers received true data and implemented power-maximizing designs
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Solution: Randomization Inference.
+Solution:
+ Randomization Inference.
  Central limit theorems won't work well with 
 \begin_inset Formula $N=18$
 \end_inset
 
- clusters so use RI instead (Imbens & Rubin 2015) which works even in finite
- samples by providing exact inference.
+ clusters so use RI instead (Imbens & Rubin 2015) which works even in finite samples by providing exact inference.
 \end_layout
 
 \end_deeper
@@ -17906,7 +18354,8 @@ Solution: Randomization Inference.
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Data
+Leaver et al (2021):
+ Data
 \end_layout
 
 \end_inset
@@ -17916,7 +18365,8 @@ Leaver et al (2021): Data
 
 \begin_deeper
 \begin_layout Itemize
-Applications: 2,184 applications (1,962 have teacher training so valid)
+Applications:
+ 2,184 applications (1,962 have teacher training so valid)
 \end_layout
 
 \begin_layout Standard
@@ -17943,7 +18393,8 @@ Applications: 2,184 applications (1,962 have teacher training so valid)
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Data
+Leaver et al (2021):
+ Data
 \end_layout
 
 \end_inset
@@ -17958,18 +18409,21 @@ Teacher attributes collected in Feb/Mar 2016 during baseline
 
 \begin_deeper
 \begin_layout Itemize
-Measures of intrinsic motivation: modified dictator game (Ashraf, Bandiera
- & Jack 2014)
+Measures of intrinsic motivation:
+ modified dictator game (Ashraf,
+ Bandiera & Jack 2014)
 \end_layout
 
 \begin_layout Itemize
-Grading task: Grade an exam script in 5 minutes.
+Grading task:
+ Grade an exam script in 5 minutes.
  Used to estimate a two-parameter Item Response Theory (IRT) model
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Student learning at baseline, end of 2016 and 2017 school years.
+Student learning at baseline,
+ end of 2016 and 2017 school years.
 \end_layout
 
 \begin_deeper
@@ -17999,7 +18453,8 @@ Estimate 2-parameter IRT model by Empirical Bayes for each student
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Teacher Inputs Data
+Leaver et al (2021):
+ Teacher Inputs Data
 \end_layout
 
 \end_inset
@@ -18052,7 +18507,8 @@ Teachers' scores for P4P based on average of these 3 plus student learning
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Composition Effects of P4P
+Leaver et al (2021):
+ Composition Effects of P4P
 \end_layout
 
 \end_inset
@@ -18085,7 +18541,8 @@ T^{KS}=sup_{y}\left|\hat{F}_{P4P}\left(y\right)-\hat{F}_{FW}\left(y\right)\right
 \end_layout
 
 \begin_layout Itemize
-Do inference by randomization inference: 
+Do inference by randomization inference:
+ 
 \end_layout
 
 \begin_deeper
@@ -18099,7 +18556,8 @@ Calculate
 \end_layout
 
 \begin_layout Itemize
-Then, repeatedly sample from the set of potential treatment assignments.
+Then,
+ repeatedly sample from the set of potential treatment assignments.
 \end_layout
 
 \begin_layout Itemize
@@ -18118,8 +18576,7 @@ For each assignment
 \begin_inset Formula $p-$
 \end_inset
 
-value is the share of such tests with larger absolute value than the one
- calculated in the data
+value is the share of such tests with larger absolute value than the one calculated in the data
 \end_layout
 
 \end_deeper
@@ -18148,7 +18605,8 @@ value of 0.909
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Composition Effects of P4P
+Leaver et al (2021):
+ Composition Effects of P4P
 \end_layout
 
 \end_inset
@@ -18161,7 +18619,7 @@ Leaver et al (2021): Composition Effects of P4P
 \align center
 \begin_inset Graphics
 	filename pictures/LeaverEtAL2021_03.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -18181,7 +18639,8 @@ Leaver et al (2021): Composition Effects of P4P
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Effects of P4P on skill and motivation
+Leaver et al (2021):
+ Effects of P4P on skill and motivation
 \end_layout
 
 \end_inset
@@ -18227,7 +18686,8 @@ where
 \end_layout
 
 \begin_layout Itemize
-Test statistic: t-statistic on 
+Test statistic:
+ t-statistic on 
 \begin_inset Formula $\tau_{A}$
 \end_inset
 
@@ -18248,7 +18708,8 @@ Test statistic: t-statistic on
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Effects of P4P on skill and motivation
+Leaver et al (2021):
+ Effects of P4P on skill and motivation
 \end_layout
 
 \end_inset
@@ -18261,7 +18722,7 @@ Leaver et al (2021): Effects of P4P on skill and motivation
 \align center
 \begin_inset Graphics
 	filename pictures/LeaverEtAL2021_04.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -18281,7 +18742,8 @@ Leaver et al (2021): Effects of P4P on skill and motivation
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Student Learning
+Leaver et al (2021):
+ Student Learning
 \end_layout
 
 \end_inset
@@ -18291,8 +18753,7 @@ Leaver et al (2021): Student Learning
 
 \begin_deeper
 \begin_layout Itemize
-Estimate dependence of students' results on teacher's advertised contract
- 
+Estimate dependence of students' results on teacher's advertised contract 
 \begin_inset Formula $T_{qd}^{A}$
 \end_inset
 
@@ -18320,11 +18781,13 @@ is performance of student
 \begin_inset Formula $b$
 \end_inset
 
-, stream 
+,
+ stream 
 \begin_inset Formula $k$
 \end_inset
 
-, school 
+,
+ school 
 \begin_inset Formula $s$
 \end_inset
 
@@ -18332,11 +18795,13 @@ is performance of student
 \begin_inset Formula $r$
 \end_inset
 
-; 
+;
+ 
 \begin_inset Formula $I_{j}$
 \end_inset
 
- is an incumbent dummy; and 
+ is an incumbent dummy;
+ and 
 \begin_inset Formula $\bar{z}_{ksr-1}$
 \end_inset
 
@@ -18380,7 +18845,8 @@ s by permuting the treatment assignments.
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Student Learning
+Leaver et al (2021):
+ Student Learning
 \end_layout
 
 \end_inset
@@ -18393,7 +18859,7 @@ Leaver et al (2021): Student Learning
 \align center
 \begin_inset Graphics
 	filename pictures/LeaverEtAL2021_05.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -18413,7 +18879,8 @@ Leaver et al (2021): Student Learning
 status open
 
 \begin_layout Plain Layout
-Leaver et al (2021): Effort effects
+Leaver et al (2021):
+ Effort effects
 \end_layout
 
 \end_inset
@@ -18454,7 +18921,8 @@ textit{
 
 \end_inset
 
-The Costs of Patronage: Evidence from the British Empire
+The Costs of Patronage:
+ Evidence from the British Empire
 \begin_inset ERT
 status open
 
@@ -18473,7 +18941,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Xu 2017: Introduction
+Xu 2017:
+ Introduction
 \end_layout
 
 \end_inset
@@ -18483,21 +18952,22 @@ Xu 2017: Introduction
 
 \begin_deeper
 \begin_layout Itemize
-Patronage has always been an important feature of the appointment of officials
- to public office.
+Patronage has always been an important feature of the appointment of officials to public office.
 \end_layout
 
 \begin_layout Itemize
-If principals have private information, patronage can be beneficial.
+If principals have private information,
+ patronage can be beneficial.
 \end_layout
 
 \begin_layout Itemize
-But if it disincentivizes subordinates, it's detrimental.
+But if it disincentivizes subordinates,
+ it's detrimental.
 \end_layout
 
 \begin_layout Itemize
-This project: Study impact of patronage on state performance in the Colonial
- Office of the British Empire.
+This project:
+ Study impact of patronage on state performance in the Colonial Office of the British Empire.
 \end_layout
 
 \end_deeper
@@ -18546,7 +19016,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Xu 2017: Context
+Xu 2017:
+ Context
 \end_layout
 
 \end_inset
@@ -18565,7 +19036,8 @@ overseas possessions
 \begin_inset Quotes erd
 \end_inset
 
- At the peak of British colonialism, the bureaucracy spanned the globe,
+ At the peak of British colonialism,
+ the bureaucracy spanned the globe,
  covering 1/5 of the world's land mass.
 \end_layout
 
@@ -18575,21 +19047,23 @@ Identifying variation comes from two sources
 
 \begin_layout Enumerate
 Ministerial turnover.
- The Colonial Office headed by the Secretary of State: a cabinet level political
- appointee.
- When the Prime Minister reshuffled the cabinet, or when there was an election,
+ The Colonial Office headed by the Secretary of State:
+ a cabinet level political appointee.
+ When the Prime Minister reshuffled the cabinet,
+ or when there was an election,
  the connectedness of serving governors changed.
 \end_layout
 
 \begin_layout Enumerate
 Changes in the appointment regime.
- The Secretary of State had discretion to appoint governors 1854-1930: the
- 
+ The Secretary of State had discretion to appoint governors 1854-1930:
+ the 
 \emph on
 patronage
 \emph default
  period.
- In 1930 replaced by a formal system of open recruitment, the 
+ In 1930 replaced by a formal system of open recruitment,
+ the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -18613,7 +19087,8 @@ Magna Carta of the Colonial Service
 status open
 
 \begin_layout Plain Layout
-Xu 2017: Data
+Xu 2017:
+ Data
 \end_layout
 
 \end_inset
@@ -18623,19 +19098,23 @@ Xu 2017: Data
 
 \begin_deeper
 \begin_layout Itemize
-Digitized data to construct an individual-level personnel dataset on the
- Colonial Office
+Digitized data to construct an individual-level personnel dataset on the Colonial Office
 \end_layout
 
 \begin_layout Enumerate
 Colonial Lists.
- Data on postings, backgrounds, and salaries of governors 1860–1966
+ Data on postings,
+ backgrounds,
+ and salaries of governors 1860–1966
 \end_layout
 
 \begin_layout Enumerate
 Blue Books 1821–1949.
  administrative statistics with detailed data on public finance (revenues,
- expenditures), demographics, trade and socio-economic statistic, and prices.
+ expenditures),
+ demographics,
+ trade and socio-economic statistic,
+ and prices.
 \end_layout
 
 \begin_layout Enumerate
@@ -18644,8 +19123,7 @@ Genealogical data.
 \end_layout
 
 \begin_layout Enumerate
-Genealogical data and family tree data from The Peerage to crease a family
- network of the British elite.
+Genealogical data and family tree data from The Peerage to crease a family network of the British elite.
  To measure connectedness.
 \end_layout
 
@@ -18728,7 +19206,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Xu 2017: Measuring Connectedness
+Xu 2017:
+ Measuring Connectedness
 \end_layout
 
 \end_inset
@@ -18749,8 +19228,8 @@ objective.
 
 \begin_layout Itemize
 exogenous.
- If high ability people both get promoted and make ties, then ties measure
- ability.
+ If high ability people both get promoted and make ties,
+ then ties measure ability.
 \end_layout
 
 \end_deeper
@@ -18764,7 +19243,8 @@ Membership of the aristocracy
 \end_layout
 
 \begin_layout Enumerate
-Attendance of elite schools (Eton, Oxbridge)
+Attendance of elite schools (Eton,
+ Oxbridge)
 \end_layout
 
 \end_deeper
@@ -18780,7 +19260,8 @@ Attendance of elite schools (Eton, Oxbridge)
 status open
 
 \begin_layout Plain Layout
-Xu 2017: Effect on Salaries
+Xu 2017:
+ Effect on Salaries
 \end_layout
 
 \end_inset
@@ -18818,8 +19299,8 @@ where
 \end_layout
 
 \begin_layout Itemize
-Is the effect driven by increasing the salary of a given job, or by moving
- governors around to higher paid jobs?
+Is the effect driven by increasing the salary of a given job,
+ or by moving governors around to higher paid jobs?
 \end_layout
 
 \begin_deeper
@@ -18828,7 +19309,8 @@ estimate the same equation but with colony FEs
 \end_layout
 
 \begin_layout Itemize
-If it's moving, what types of moves drive salary increases?
+If it's moving,
+ what types of moves drive salary increases?
 \end_layout
 
 \end_deeper
@@ -18911,7 +19393,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Xu 2017: Effects of Abolition of Patronage
+Xu 2017:
+ Effects of Abolition of Patronage
 \end_layout
 
 \end_inset
@@ -18978,7 +19461,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Xu 2017: Performance
+Xu 2017:
+ Performance
 \end_layout
 
 \end_inset
@@ -18988,8 +19472,8 @@ Xu 2017: Performance
 
 \begin_deeper
 \begin_layout Itemize
-If the performance of connected governors is also better, then the salary
- premium need not be problematic
+If the performance of connected governors is also better,
+ then the salary premium need not be problematic
 \end_layout
 
 \begin_layout Itemize
@@ -19009,8 +19493,7 @@ note that the
 \begin_inset Formula $\nu_{is}$
 \end_inset
 
- means use only within-appointment-spell shocks to connections (avoid problems
- with match-specific effects)
+ means use only within-appointment-spell shocks to connections (avoid problems with match-specific effects)
 \end_layout
 
 \end_deeper
@@ -19039,7 +19522,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Xu2017_8.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -19072,7 +19555,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/Xu2017_9.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -19125,7 +19608,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Xu 2017: Long-Run Effects
+Xu 2017:
+ Long-Run Effects
 \end_layout
 
 \end_inset
@@ -19151,7 +19635,8 @@ where
 \begin_inset Formula $C_{s}=\sum_{t}c_{I\left(s,t\right),t}$
 \end_inset
 
- denotes the number of years under a connected governor, 
+ denotes the number of years under a connected governor,
+ 
 \begin_inset Formula $i=I\left(s,t\right)$
 \end_inset
 
@@ -19180,7 +19665,8 @@ Construct an instrument based on
 
 \begin_deeper
 \begin_layout Enumerate
-Allocation rule: governorships limited to 6 years
+Allocation rule:
+ governorships limited to 6 years
 \end_layout
 
 \begin_layout Enumerate
@@ -19189,8 +19675,7 @@ Turnover of the secretary of state
 
 \end_deeper
 \begin_layout Itemize
-Share of connected governors with at least 6 years of tenure when a colony
- becomes vacant is an instrument:
+Share of connected governors with at least 6 years of tenure when a colony becomes vacant is an instrument:
 \begin_inset Formula 
 \[
 p_{t}=\frac{\sum_{i}\mathbf{1}\left\{ T_{it}\geq6\right\} \times c_{it}}{\sum_{i}\mathbf{1}\left\{ T_{it}\geq6\right\} }
@@ -19427,13 +19912,13 @@ Open Questions
 
 \begin_deeper
 \begin_layout Itemize
-How important is the policy that bureaucrats are implementing in determining
- their performance and who selectes into the bureaucracy?
+How important is the policy that bureaucrats are implementing in determining their performance and who selectes into the bureaucracy?
 \end_layout
 
 \begin_layout Itemize
-How should bureaucracies be organized? Hierarchically? How does corruption
- at one level of the bureaucracy interact with the other levels?
+How should bureaucracies be organized?
+ Hierarchically?
+ How does corruption at one level of the bureaucracy interact with the other levels?
 \end_layout
 
 \begin_layout Itemize
