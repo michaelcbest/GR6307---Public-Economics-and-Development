@@ -1,22 +1,15 @@
 
-2-AntiPoverty/.DS_Store
 .DS_Store
-<<<<<<< HEAD
-3-Personnel/#GR6307-3-Personnel.lyx#
-3-Personnel/.DS_Store
-=======
->>>>>>> 7ba3f02403cb0f20645adb9fdf628432cea713c0
-3-Personnel/.DS_Store
-<<<<<<< HEAD
-=======
-3-Personnel/.DS_Store
-.DS_Store
->>>>>>> 49789c3017e285f8aaf0b005b5b803380e391103
-.DS_Store
-.DS_Store
-3-Personnel/.DS_Store
-.DS_Store
-<<<<<<< HEAD
-=======
-.DS_Store
->>>>>>> 1302b97e786e83ca16bf89cae0d026ce100a8a89
+.lyx~
+**/*.lyx~
+.aux
+.bbl
+.bcf
+.blg
+.fdb_latexmk
+.fls
+.log
+.out
+.run.xml
+.synctex.gz
+
