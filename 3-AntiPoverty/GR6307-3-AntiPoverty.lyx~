@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -101,10 +101,10 @@
 \end_preamble
 \options notes=show,aspectratio=169
 \use_default_options false
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language english
 \language_package none
-\inputencoding auto
+\inputencoding auto-legacy
 \fontencoding T1
 \font_roman "cmr" "default"
 \font_sans "helvet" "default"
@@ -113,7 +113,9 @@
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -157,7 +159,9 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -173,11 +177,16 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -231,7 +240,7 @@ Michael Best
 \end_layout
 
 \begin_layout Date
-Spring 2024
+Spring 2025
 \begin_inset Newline newline
 \end_inset
 
@@ -486,8 +495,8 @@ textit{
 
 \end_inset
 
-Optimal Income Transfer Programs: Intensive Versus Extensive Labor Supply
- Responses
+Optimal Income Transfer Programs:
+ Intensive Versus Extensive Labor Supply Responses
 \begin_inset ERT
 status open
 
@@ -506,7 +515,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Overview
+Saez (2002):
+ Overview
 \end_layout
 
 \end_inset
@@ -541,7 +551,9 @@ lots
 \emph on
 Intensive
 \emph default
- margin: Work, but earn less pre-tax/transfer income
+ margin:
+ Work,
+ but earn less pre-tax/transfer income
 \begin_inset VSpace medskip
 \end_inset
 
@@ -554,6 +566,7 @@ Intensive
 Extensive 
 \emph default
 margin:
+
 \emph on
  
 \emph default
@@ -566,8 +579,7 @@ Stop working
 
 \end_deeper
 \begin_layout Itemize
-This paper takes an optimal-tax approach to the design of income support
- programs.
+This paper takes an optimal-tax approach to the design of income support programs.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -584,8 +596,8 @@ Simple theory with both intensive- and extensive- margins
 \end_layout
 
 \begin_layout Enumerate
-Apply to 2 types of policies: Negative income taxes and Earned Income Tax
- Credit
+Apply to 2 types of policies:
+ Negative income taxes and Earned Income Tax Credit
 \end_layout
 
 \begin_layout Enumerate
@@ -593,7 +605,8 @@ Conditions for EITC
 \begin_inset Formula $\succ$
 \end_inset
 
- NIT: Extensive margin responses stronger than intensive-
+ NIT:
+ Extensive margin responses stronger than intensive-
 \end_layout
 
 \begin_layout Enumerate
@@ -618,7 +631,8 @@ Calibration to US suggests EITC
 status open
 
 \begin_layout Plain Layout
-Saez (2002): NIT vs EITC
+Saez (2002):
+ NIT vs EITC
 \end_layout
 
 \end_inset
@@ -651,7 +665,8 @@ Saez (2002): NIT vs EITC
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Model Setup
+Saez (2002):
+ Model Setup
 \end_layout
 
 \end_inset
@@ -674,11 +689,13 @@ There are
 \end_layout
 
 \begin_layout Itemize
-Salaries: 
+Salaries:
+ 
 \begin_inset Formula $w_{0}=0$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $w_{1}<\ldots<w_{i}<\ldots w_{I}$
 \end_inset
 
@@ -725,7 +742,8 @@ proportion of individuals in occupation
 
 \begin_layout Itemize
 Individuals choose which occupation to work in.
- In principle, depending on consumption in every occupation:
+ In principle,
+ depending on consumption in every occupation:
 \begin_inset Formula 
 \[
 h_{i}=h_{i}\left(c_{0},c_{1},\ldots,c_{I}\right)
@@ -757,7 +775,8 @@ s embody all the behavioral responses
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Model Setup
+Saez (2002):
+ Model Setup
 \end_layout
 
 \end_inset
@@ -775,7 +794,8 @@ The government sets taxes to maximize welfare.
 \end_layout
 
 \begin_layout Itemize
-Subject to resource constraint: Has to finance 
+Subject to resource constraint:
+ Has to finance 
 \begin_inset Formula $H$
 \end_inset
 
@@ -807,7 +827,8 @@ NB not clear if
 \begin_inset Formula $g_{0}\lessgtr g_{1}$
 \end_inset
 
-: e.g.
+:
+ e.g.
  
 \begin_inset Quotes eld
 \end_inset
@@ -828,7 +849,8 @@ Lazy Poor
 \end_layout
 
 \begin_layout Itemize
-Weights are endogenous, depend on the tax schedule.
+Weights are endogenous,
+ depend on the tax schedule.
  Without income effects
 \begin_inset Formula 
 \[
@@ -853,7 +875,8 @@ Weights are endogenous, depend on the tax schedule.
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Only Extensive Margin
+Saez (2002):
+ Only Extensive Margin
 \end_layout
 
 \end_inset
@@ -880,7 +903,8 @@ Only
 \emph on
 extensive margin 
 \emph default
-choice: work as 
+choice:
+ work as 
 \begin_inset Formula $i$
 \end_inset
 
@@ -892,7 +916,8 @@ choice: work as
 \end_layout
 
 \begin_layout Itemize
-Without income effects, participation depends only on 
+Without income effects,
+ participation depends only on 
 \begin_inset Formula $c_{i}-c_{0}$
 \end_inset
 
@@ -933,7 +958,8 @@ Clearly
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Only Extensive Margin
+Saez (2002):
+ Only Extensive Margin
 \end_layout
 
 \end_inset
@@ -947,7 +973,8 @@ Saez (2002): Only Extensive Margin
 \emph on
 Proposition 1
 \emph default
-: The optimal tax schedule satisfies
+:
+ The optimal tax schedule satisfies
 \begin_inset Formula 
 \[
 \frac{T_{i}-T_{0}}{c_{i}-c_{0}}=\frac{1}{\eta_{i}}\left(1-g_{i}\right)
@@ -963,7 +990,8 @@ Proposition 1
 \end_layout
 
 \begin_layout Itemize
-Heuristic proof: Consider small increase 
+Heuristic proof:
+ Consider small increase 
 \begin_inset Formula $dT_{i}$
 \end_inset
 
@@ -981,7 +1009,8 @@ Heuristic proof: Consider small increase
 
 \begin_deeper
 \begin_layout Itemize
-Mechanical Effect: 
+Mechanical Effect:
+ 
 \begin_inset Formula $dM=\left(1-g_{i}\right)h_{i}dT_{i}$
 \end_inset
 
@@ -993,7 +1022,8 @@ Mechanical Effect:
 \end_layout
 
 \begin_layout Itemize
-Behavioral Effect: 
+Behavioral Effect:
+ 
 \begin_inset Formula $dB=\left(T_{i}-T_{0}\right)dh_{i}=-\left(T_{i}-T_{0}\right)h_{i}\eta_{i}\frac{dT_{i}}{\left(c_{i}-c_{0}\right)}$
 \end_inset
 
@@ -1005,7 +1035,8 @@ Behavioral Effect:
 \end_layout
 
 \begin_layout Itemize
-Optimality: 
+Optimality:
+ 
 \begin_inset Formula $dM+dB=0$
 \end_inset
 
@@ -1026,7 +1057,9 @@ Optimality:
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Extensive Margin: Implications for NIT vs EITC
+Saez (2002):
+ Extensive Margin:
+ Implications for NIT vs EITC
 \end_layout
 
 \end_inset
@@ -1036,8 +1069,9 @@ Saez (2002): Extensive Margin: Implications for NIT vs EITC
 
 \begin_deeper
 \begin_layout Itemize
-In the model with only extensive responses, NIT is always suboptimal, and
- EITC is usually optimal
+In the model with only extensive responses,
+ NIT is always suboptimal,
+ and EITC is usually optimal
 \end_layout
 
 \begin_layout Standard
@@ -1064,7 +1098,8 @@ In the model with only extensive responses, NIT is always suboptimal, and
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Only Intensive Margin
+Saez (2002):
+ Only Intensive Margin
 \end_layout
 
 \end_inset
@@ -1083,7 +1118,8 @@ Suppose now that people are only choosing how much to work.
 \end_layout
 
 \begin_layout Itemize
-Really, people in occupation 
+Really,
+ people in occupation 
 \begin_inset Formula $i$
 \end_inset
 
@@ -1103,7 +1139,8 @@ Really, people in occupation
 \end_layout
 
 \begin_layout Itemize
-Then (again, w/out income effects) we can write the employment shares 
+Then (again,
+ w/out income effects) we can write the employment shares 
 \begin_inset Formula $h_{i}\left(c_{i+1}-c_{i},c_{i}-c_{i-1}\right)$
 \end_inset
 
@@ -1139,7 +1176,8 @@ Now we can define the intensive elasticities
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Only Intensive Margin
+Saez (2002):
+ Only Intensive Margin
 \end_layout
 
 \end_inset
@@ -1149,7 +1187,8 @@ Saez (2002): Only Intensive Margin
 
 \begin_deeper
 \begin_layout Itemize
-Proposition 2: The optimal tax schedule satisifies
+Proposition 2:
+ The optimal tax schedule satisfies
 \begin_inset Formula 
 \[
 \frac{T_{i}-T_{i-1}}{c_{i}-c_{i-1}}=\frac{1}{\zeta_{i}}\frac{\left(1-g_{i}\right)h_{i}+\left(1-g_{i+1}\right)h_{i+1}+\ldots+\left(1-g_{I}\right)h_{I}}{h_{i}}
@@ -1165,11 +1204,13 @@ Proposition 2: The optimal tax schedule satisifies
 \end_layout
 
 \begin_layout Itemize
-Heuristic proof: Consider small increase in tax for all jobs above 
+Heuristic proof:
+ Consider small increase in tax for all jobs above 
 \begin_inset Formula $i$
 \end_inset
 
-: 
+:
+ 
 \begin_inset Formula $dT_{i}=dT_{i+1}=\ldots=dT_{I}=dT$
 \end_inset
 
@@ -1183,7 +1224,8 @@ Heuristic proof: Consider small increase in tax for all jobs above
 
 \begin_deeper
 \begin_layout Itemize
-Mechanical Effect: People above 
+Mechanical Effect:
+ People above 
 \begin_inset Formula $i$
 \end_inset
 
@@ -1204,7 +1246,8 @@ dM=\left(1-g_{i}\right)h_{i}+\left(1-g_{i+1}\right)h_{i+1}+\ldots+\left(1-g_{I}\
 \end_layout
 
 \begin_layout Itemize
-Behavioral effects: 
+Behavioral effects:
+ 
 \begin_inset Formula $dB=\left(T_{i}-T_{i-1}\right)dh_{i}=-\left(T_{i}-T_{i-1}\right)h_{i}\zeta_{i}\frac{dT}{c_{i}-c_{i-1}}$
 \end_inset
 
@@ -1216,7 +1259,8 @@ Behavioral effects:
 \end_layout
 
 \begin_layout Itemize
-Optimality: 
+Optimality:
+ 
 \begin_inset Formula $dM+dB=0$
 \end_inset
 
@@ -1237,7 +1281,9 @@ Optimality:
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Intensive Margin: Implications for NIT vs EITC
+Saez (2002):
+ Intensive Margin:
+ Implications for NIT vs EITC
 \end_layout
 
 \end_inset
@@ -1279,7 +1325,8 @@ Positive marginal tax (Negative Income Tax) iff
 \end_layout
 
 \begin_layout Itemize
-More generally, 
+More generally,
+ 
 \begin_inset Formula $g_{i}>g_{i+1}$
 \end_inset
 
@@ -1287,7 +1334,8 @@ More generally,
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- increasing marginal tax rates, and no negative marginal tax rates (no EITC)
+ increasing marginal tax rates,
+ and no negative marginal tax rates (no EITC)
 \end_layout
 
 \end_deeper
@@ -1303,7 +1351,8 @@ More generally,
 status open
 
 \begin_layout Plain Layout
-Saez (2002): Both Margins
+Saez (2002):
+ Both Margins
 \end_layout
 
 \end_inset
@@ -1313,7 +1362,8 @@ Saez (2002): Both Margins
 
 \begin_deeper
 \begin_layout Itemize
-In the model with both margins, the optimal tax schedule satisfies
+In the model with both margins,
+ the optimal tax schedule satisfies
 \begin_inset Formula 
 \[
 \frac{T_{i}-T_{i-1}}{c_{i}-c_{i-1}}=\frac{1}{\zeta_{i}h_{i}}\sum_{j=i}^{I}h_{j}\left[1-g_{j}-\eta_{j}\frac{T_{j}-T_{0}}{c_{j}-c_{0}}\right]
@@ -1325,8 +1375,8 @@ In the model with both margins, the optimal tax schedule satisfies
 \end_layout
 
 \begin_layout Itemize
-Ambiguous implications for optimal transfers: Depends on relative sizes
- of 
+Ambiguous implications for optimal transfers:
+ Depends on relative sizes of 
 \begin_inset Formula $\eta$
 \end_inset
 
@@ -1343,11 +1393,13 @@ Calibration:
 
 \begin_deeper
 \begin_layout Itemize
-Extensive elasticity: 
+Extensive elasticity:
+ 
 \begin_inset Formula $\eta\in\left\{ 0,0.5,1\right\} $
 \end_inset
 
- below $20K, 0 above $20K
+ below $20K,
+ 0 above $20K
 \end_layout
 
 \begin_layout Itemize
@@ -1355,7 +1407,8 @@ Intensive elasticity
 \begin_inset Formula $\zeta$
 \end_inset
 
-: Use traditional estimates of 
+:
+ Use traditional estimates of 
 \begin_inset Formula $\varepsilon=d\log y/d\log\left(1-\tau\right)$
 \end_inset
 
@@ -1364,7 +1417,8 @@ Intensive elasticity
 \begin_inset Formula $\varepsilon_{L}\in\left\{ 0,0.25,0.5\right\} $
 \end_inset
 
- below $20K, 
+ below $20K,
+ 
 \begin_inset Formula $\varepsilon_{H}\in\left\{ 0.25,0.5\right\} $
 \end_inset
 
@@ -1376,19 +1430,22 @@ No income effects.
 \end_layout
 
 \begin_layout Itemize
-Welfare: 
+Welfare:
+ 
 \begin_inset Formula $g\left(c\right)=1/\left(p\cdot c^{v}\right)$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $p$
 \end_inset
 
-=marginal value of public funds, higher 
+=marginal value of public funds,
+ higher 
 \begin_inset Formula $v$
 \end_inset
 
- = more redistributive prefrerences
+ = more redistributive preferences
 \end_layout
 
 \begin_layout Itemize
@@ -1420,7 +1477,7 @@ Income distribution calibrated using 1997 CPS and current tax schedule
 \align center
 \begin_inset Graphics
 	filename pictures/Saez 2002 3.png
-	height 93pheight%
+	special height=0.93\paperheight
 
 \end_inset
 
@@ -1452,7 +1509,9 @@ Tagging
 \begin_inset Quotes erd
 \end_inset
 
- as Applied to the Optimal Income Tax, Welfare Programs, and Manpower Planning
+ as Applied to the Optimal Income Tax,
+ Welfare Programs,
+ and Manpower Planning
 \begin_inset ERT
 status open
 
@@ -1471,7 +1530,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Akerlof (1978): Overview
+Akerlof (1978):
+ Overview
 \end_layout
 
 \end_inset
@@ -1489,7 +1549,8 @@ Contrast two extreme cases:
 \end_layout
 
 \begin_layout Enumerate
-Negative Income Tax: 
+Negative Income Tax:
+ 
 \begin_inset Formula $T=-\alpha\bar{Y}+tY$
 \end_inset
 
@@ -1498,7 +1559,8 @@ Negative Income Tax:
 \begin_inset Formula $\bar{Y}$
 \end_inset
 
- is per capita income, 
+ is per capita income,
+ 
 \begin_inset Formula $t$
 \end_inset
 
@@ -1523,7 +1585,8 @@ Giving the poor a bigger transfer
 \end_layout
 
 \begin_layout Enumerate
-Perfect tag: Imagine we can identify a group of size 
+Perfect tag:
+ Imagine we can identify a group of size 
 \begin_inset Formula $\beta n$
 \end_inset
 
@@ -1560,7 +1623,8 @@ Giving more to the poor only costs
 status open
 
 \begin_layout Plain Layout
-Akerlof (1978): Simple Optimal Tax Model
+Akerlof (1978):
+ Simple Optimal Tax Model
 \end_layout
 
 \end_inset
@@ -1570,7 +1634,8 @@ Akerlof (1978): Simple Optimal Tax Model
 
 \begin_deeper
 \begin_layout Itemize
-2 types of workers, skilled & unskilled.
+2 types of workers,
+ skilled & unskilled.
  Each 50% of the population
 \begin_inset VSpace bigskip
 \end_inset
@@ -1657,7 +1722,8 @@ Assume
 status open
 
 \begin_layout Plain Layout
-Akerlof (1978): Simple Optimal Tax Model
+Akerlof (1978):
+ Simple Optimal Tax Model
 \end_layout
 
 \end_inset
@@ -1721,7 +1787,8 @@ u\left(q_{D}-t_{D}^{*}\right)-\delta=u\left(q_{E}+t_{E}^{*}\right) & \quad\text{
 status open
 
 \begin_layout Plain Layout
-Akerlof (1978): Tagging in Simple Model
+Akerlof (1978):
+ Tagging in Simple Model
 \end_layout
 
 \end_inset
@@ -1731,7 +1798,8 @@ Akerlof (1978): Tagging in Simple Model
 
 \begin_deeper
 \begin_layout Itemize
-Introduce tagging: A proportion 
+Introduce tagging:
+ A proportion 
 \begin_inset Formula $\beta$
 \end_inset
 
@@ -1795,7 +1863,8 @@ T_{D}=\left(1-\beta\right)T_{E}+\beta\tau & \text{ if }u\left(q_{D}-T_{D}\right)
 status open
 
 \begin_layout Plain Layout
-Akerlof (1978): Tagging Optimum
+Akerlof (1978):
+ Tagging Optimum
 \end_layout
 
 \end_inset
@@ -1817,7 +1886,9 @@ u\left(q_{D}-T_{D}^{*}\right)-\delta=u\left(q_{E}+T_{E}^{*}\right)
 \end_layout
 
 \begin_layout Itemize
-More importantly, tagging allows more redistribution: 
+More importantly,
+ tagging allows more redistribution:
+ 
 \begin_inset Formula $\tau^{*}>t_{E}^{*}$
 \end_inset
 
@@ -1830,7 +1901,8 @@ More importantly, tagging allows more redistribution:
 
 \begin_deeper
 \begin_layout Itemize
-Rough proof by contradiction: Suppose that 
+Rough proof by contradiction:
+ Suppose that 
 \begin_inset Formula $\tau^{*}\leq T_{E}^{*}$
 \end_inset
 
@@ -1924,7 +1996,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Akerlof (1978): Tags
+Akerlof (1978):
+ Tags
 \end_layout
 
 \end_inset
@@ -1965,7 +2038,7 @@ Correlated with need.
 
 \begin_layout Enumerate
 Immutable.
- People can't endogenously aquire the tag
+ People can't endogenously acquire the tag
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -2012,7 +2085,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Nichols & Zeckhauser (1982): Overview
+Nichols & Zeckhauser (1982):
+ Overview
 \end_layout
 
 \end_inset
@@ -2022,7 +2096,8 @@ Nichols & Zeckhauser (1982): Overview
 
 \begin_deeper
 \begin_layout Itemize
-What instruments should the government use to redistribute? 
+What instruments should the government use to redistribute?
+ 
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -2046,7 +2121,8 @@ Akerlof (1978)
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- income taxes/cash transfers, but possibly dependent on 
+ income taxes/cash transfers,
+ but possibly dependent on 
 \emph on
 tags.
 \emph default
@@ -2058,7 +2134,9 @@ tags.
 \end_layout
 
 \begin_layout Itemize
-What about in-kind benefits? Commodity taxes/subsidies? Ordeals?
+What about in-kind benefits?
+ Commodity taxes/subsidies?
+ Ordeals?
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -2066,8 +2144,7 @@ What about in-kind benefits? Commodity taxes/subsidies? Ordeals?
 \end_layout
 
 \begin_layout Itemize
-This paper shows under what conditions to use these other instruments and
- how.
+This paper shows under what conditions to use these other instruments and how.
 \end_layout
 
 \end_deeper
@@ -2083,7 +2160,8 @@ This paper shows under what conditions to use these other instruments and
 status open
 
 \begin_layout Plain Layout
-Nichols & Zeckhauser (1982): Income Tax Benchmark
+Nichols & Zeckhauser (1982):
+ Income Tax Benchmark
 \end_layout
 
 \end_inset
@@ -2124,11 +2202,13 @@ Both individuals have the same utility
 \begin_inset Formula $U\left(C,E\right)$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $C=Y+T$
 \end_inset
 
- consumption, 
+ consumption,
+ 
 \begin_inset Formula $E$
 \end_inset
 
@@ -2136,11 +2216,13 @@ Both individuals have the same utility
 \end_layout
 
 \begin_layout Itemize
-Government can't see wages or hours, only income.
+Government can't see wages or hours,
+ only income.
 \end_layout
 
 \begin_layout Itemize
-Optimal policy takes the form: If 
+Optimal policy takes the form:
+ If 
 \begin_inset Formula $Y>\bar{Y}$
 \end_inset
 
@@ -2148,7 +2230,8 @@ Optimal policy takes the form: If
 \begin_inset Formula $T$
 \end_inset
 
-; if 
+;
+ if 
 \begin_inset Formula $Y\leq\bar{Y}$
 \end_inset
 
@@ -2172,7 +2255,8 @@ U\left(Y_{A}^{*}-T,Y_{A}^{*}/W_{A}\right)>U\left(\bar{Y}+T,\bar{Y}/W_{A}\right)
 \end_layout
 
 \begin_layout Itemize
-Result: 
+Result:
+ 
 \begin_inset Formula $\bar{Y}<Y_{B}^{*}$
 \end_inset
 
@@ -2197,7 +2281,8 @@ Result:
 status open
 
 \begin_layout Plain Layout
-Nichols & Zeckhauser (1982): Income Constraint
+Nichols & Zeckhauser (1982):
+ Income Constraint
 \end_layout
 
 \end_inset
@@ -2211,7 +2296,7 @@ Nichols & Zeckhauser (1982): Income Constraint
 \begin_inset Graphics
 	filename pictures/Nichols Zeckhauser 1.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -2231,7 +2316,8 @@ Nichols & Zeckhauser (1982): Income Constraint
 status open
 
 \begin_layout Plain Layout
-Nichols & Zeckhauser (1982): In-Kind Transfers
+Nichols & Zeckhauser (1982):
+ In-Kind Transfers
 \end_layout
 
 \end_inset
@@ -2241,8 +2327,7 @@ Nichols & Zeckhauser (1982): In-Kind Transfers
 
 \begin_deeper
 \begin_layout Itemize
-Can it be optimal to give some of the transfer through an in-kind transfer
- instead of its cash equivalent?
+Can it be optimal to give some of the transfer through an in-kind transfer instead of its cash equivalent?
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -2250,8 +2335,9 @@ Can it be optimal to give some of the transfer through an in-kind transfer
 \end_layout
 
 \begin_layout Itemize
-Usually, we think people must be at least as well off with the cash, so
- no.
+Usually,
+ we think people must be at least as well off with the cash,
+ so no.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -2260,8 +2346,11 @@ Usually, we think people must be at least as well off with the cash, so
 
 \begin_layout Itemize
 This is the case when demand depends only on its price and income (i.e.
- it's independent of leisure, ability, other observables).
- When it doesn't, it might act as a tag.
+ it's independent of leisure,
+ ability,
+ other observables).
+ When it doesn't,
+ it might act as a tag.
  N&Z call these 
 \emph on
 Indicator goods
@@ -2279,7 +2368,8 @@ Return to the simple income tax model.
 \begin_inset Formula $\bar{Y}+T$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $B$
 \end_inset
 
@@ -2296,7 +2386,8 @@ Return to the simple income tax model.
 \begin_inset Formula $A$
 \end_inset
 
- masquerades, she would only buy 
+ masquerades,
+ she would only buy 
 \begin_inset Formula $\hat{X}_{A}^{*}$
 \end_inset
 
@@ -2325,7 +2416,8 @@ Return to the simple income tax model.
 status open
 
 \begin_layout Plain Layout
-Nichols & Zeckhauser (1982): In-Kind Transfers
+Nichols & Zeckhauser (1982):
+ In-Kind Transfers
 \end_layout
 
 \end_inset
@@ -2339,7 +2431,7 @@ Nichols & Zeckhauser (1982): In-Kind Transfers
 \begin_inset Graphics
 	filename pictures/Nichols Zeckhauser 2.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -2359,7 +2451,8 @@ Nichols & Zeckhauser (1982): In-Kind Transfers
 status open
 
 \begin_layout Plain Layout
-Nichols & Zeckhauser (1982): In-Kind Transfers
+Nichols & Zeckhauser (1982):
+ In-Kind Transfers
 \end_layout
 
 \end_inset
@@ -2374,7 +2467,8 @@ Consider changing the transfer.
 \begin_inset Formula $\bar{X}$
 \end_inset
 
- in kind, remaining 
+ in kind,
+ remaining 
 \begin_inset Formula $T-\bar{X}$
 \end_inset
 
@@ -2390,7 +2484,8 @@ If
 \begin_inset Formula $\bar{X}<\hat{X}_{A}^{*}$
 \end_inset
 
-, no effect
+,
+ no effect
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -2406,7 +2501,8 @@ If
 \begin_inset Formula $B$
 \end_inset
 
- suffers no loss, but makes mimicry more costly for 
+ suffers no loss,
+ but makes mimicry more costly for 
 \begin_inset Formula $A$
 \end_inset
 
@@ -2450,8 +2546,8 @@ textit{
 
 \end_inset
 
-Workfare versus Welfare: Incentive Arguments for Work Requirements in Poverty-Al
-leviation Programs
+Workfare versus Welfare:
+ Incentive Arguments for Work Requirements in Poverty-Alleviation Programs
 \begin_inset ERT
 status open
 
@@ -2470,7 +2566,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Overview
+Besley & Coate (1992):
+ Overview
 \end_layout
 
 \end_inset
@@ -2488,7 +2585,9 @@ Should people who receive transfers be required to work in exchange?
 \end_layout
 
 \begin_layout Itemize
-Common policy, but is it efficient? 2 possible reasons
+Common policy,
+ but is it efficient?
+ 2 possible reasons
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -2501,7 +2600,8 @@ Common policy, but is it efficient? 2 possible reasons
 Screening
 \emph default
 .
- When we can't (easily) observe earnings (ability), work requirement 
+ When we can't (easily) observe earnings (ability),
+ work requirement 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
@@ -2526,8 +2626,8 @@ Deterrence.
 \end_layout
 
 \begin_layout Itemize
-B&C formalize this, provide sufficient conditions for workfare to dominate
- cash transfers.
+B&C formalize this,
+ provide sufficient conditions for workfare to dominate cash transfers.
 \end_layout
 
 \end_deeper
@@ -2543,7 +2643,8 @@ B&C formalize this, provide sufficient conditions for workfare to dominate
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Model
+Besley & Coate (1992):
+ Model
 \end_layout
 
 \end_inset
@@ -2584,7 +2685,8 @@ Besley & Coate (1992): Model
 \end_layout
 
 \begin_layout Itemize
-Poverty-alleviation program: 
+Poverty-alleviation program:
+ 
 \begin_inset Formula $\left\{ b_{i},c_{i}\right\} _{i=L,H}$
 \end_inset
 
@@ -2610,8 +2712,7 @@ PAP costs
 \end_inset
 
 .
- Government objective is to minimize cost of guaranteeing everyone income
- 
+ Government objective is to minimize cost of guaranteeing everyone income 
 \begin_inset Formula $z$
 \end_inset
 
@@ -2631,7 +2732,8 @@ PAP costs
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Model
+Besley & Coate (1992):
+ Model
 \end_layout
 
 \end_inset
@@ -2707,7 +2809,8 @@ v\left(b,c,a_{i}\right)=b+y\left(c,a_{i}\right)-h\left(l\left(c,a_{i}\right)+c\r
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Model
+Besley & Coate (1992):
+ Model
 \end_layout
 
 \end_inset
@@ -2761,7 +2864,8 @@ y\left(0,a_{H}\right)>z>y\left(0,a_{L}\right)
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): First-best benchmark
+Besley & Coate (1992):
+ First-best benchmark
 \end_layout
 
 \end_inset
@@ -2787,7 +2891,8 @@ Now the government has to satisfy two constraints:
 \end_layout
 
 \begin_layout Enumerate
-Participation constraints: 
+Participation constraints:
+ 
 \begin_inset Formula $v\left(b_{i},c_{i},a_{i}\right)\geq v\left(0,0,a_{i}\right),\;i=L,H$
 \end_inset
 
@@ -2802,7 +2907,8 @@ Participation constraints:
 \begin_inset Formula $L$
 \end_inset
 
- types must escape poverty: 
+ types must escape poverty:
+ 
 \begin_inset Formula $b_{L}+y\left(c_{L},a_{L}\right)\geq z$
 \end_inset
 
@@ -2814,15 +2920,17 @@ Participation constraints:
 \shape smallcaps
 proposition 1
 \shape default
-: 
+:
+ 
 \emph on
 Cost-minimizing PSP is a welfare program.
- Low-ability individuals are offered a cash transfer that is just high enough
- to get them out of poverty, 
+ Low-ability individuals are offered a cash transfer that is just high enough to get them out of poverty,
+ 
 \begin_inset Formula $z-y\left(0,a_{L}\right)$
 \end_inset
 
-, and high-ability individuals are offered no benefits.
+,
+ and high-ability individuals are offered no benefits.
 \end_layout
 
 \end_deeper
@@ -2838,7 +2946,8 @@ Cost-minimizing PSP is a welfare program.
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Screening
+Besley & Coate (1992):
+ Screening
 \end_layout
 
 \end_inset
@@ -2848,11 +2957,13 @@ Besley & Coate (1992): Screening
 
 \begin_deeper
 \begin_layout Itemize
-Now suppose, govt only knows 
+Now suppose,
+ govt only knows 
 \begin_inset Formula $\gamma$
 \end_inset
 
-, the proportion of 
+,
+ the proportion of 
 \begin_inset Formula $L$
 \end_inset
 
@@ -2876,7 +2987,9 @@ v\left(b_{L},c_{L},a_{L}\right)\geq v\left(b_{H},c_{H},a_{L}\right)\quad v\left(
 \end_layout
 
 \begin_layout Itemize
-Note, without work requirements, these imply 
+Note,
+ without work requirements,
+ these imply 
 \begin_inset Formula $b_{L}=b_{H}$
 \end_inset
 
@@ -2900,11 +3013,13 @@ The work requirement will allow the government to screen because
 \end_layout
 
 \begin_layout Itemize
-But, the work requirement reduces the 
+But,
+ the work requirement reduces the 
 \begin_inset Formula $L$
 \end_inset
 
- types' income, so requires a bigger transfer to get them back to 
+ types' income,
+ so requires a bigger transfer to get them back to 
 \begin_inset Formula $y_{L}=z$
 \end_inset
 
@@ -2916,11 +3031,13 @@ But, the work requirement reduces the
 \end_layout
 
 \begin_layout Itemize
-Tradeoff of increasing work requirement: lower transfers to 
+Tradeoff of increasing work requirement:
+ lower transfers to 
 \begin_inset Formula $H$
 \end_inset
 
- to respect IC, and higher transfers to 
+ to respect IC,
+ and higher transfers to 
 \begin_inset Formula $L$
 \end_inset
 
@@ -2944,7 +3061,8 @@ Tradeoff of increasing work requirement: lower transfers to
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Screening
+Besley & Coate (1992):
+ Screening
 \end_layout
 
 \end_inset
@@ -2982,16 +3100,17 @@ v\left(0,0,a_{H}\right)=v\left(z-y\left(c_{L}^{s},a_{L}\right),c_{L}^{s},a_{H}\r
 \shape smallcaps
 proposition 2
 \shape default
-: 
+:
+ 
 \emph on
-If both income-generating abilities and incomes are unobservable, one of
- the following two PAPs is cost-minimizing: (i) (welfare) impose no work
- requirements and offer both ability groups a transfer of 
+If both income-generating abilities and incomes are unobservable,
+ one of the following two PAPs is cost-minimizing:
+ (i) (welfare) impose no work requirements and offer both ability groups a transfer of 
 \begin_inset Formula $z=y\left(0,a_{L}\right)$
 \end_inset
 
-; (ii) (workfare) offer self-categorized high-ability individuals no benefits
- and offer self-categorized low-ability individuals a transfer of 
+;
+ (ii) (workfare) offer self-categorized high-ability individuals no benefits and offer self-categorized low-ability individuals a transfer of 
 \begin_inset Formula $z-y\left(c_{L}^{s},a\right)$
 \end_inset
 
@@ -3000,8 +3119,7 @@ If both income-generating abilities and incomes are unobservable, one of
 \end_inset
 
 .
- A sufficient condition for the workfare solution to be cost-minimizing
- is that 
+ A sufficient condition for the workfare solution to be cost-minimizing is that 
 \begin_inset Formula $a_{L}<\left(1-\gamma\right)a_{H}$
 \end_inset
 
@@ -3021,7 +3139,8 @@ If both income-generating abilities and incomes are unobservable, one of
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Screening
+Besley & Coate (1992):
+ Screening
 \end_layout
 
 \end_inset
@@ -3031,8 +3150,7 @@ Besley & Coate (1992): Screening
 
 \begin_deeper
 \begin_layout Itemize
-In the previous case we assumed the government can't observe earnings (so
- transfers can't depend on earnings).
+In the previous case we assumed the government can't observe earnings (so transfers can't depend on earnings).
  
 \begin_inset VSpace smallskip
 \end_inset
@@ -3045,12 +3163,14 @@ When the government
 \emph on
 can
 \emph default
- observe earnings, to mimic the low type, the high type must reduce her
- earnings to 
+ observe earnings,
+ to mimic the low type,
+ the high type must reduce her earnings to 
 \begin_inset Formula $y\left(c_{L},a_{L}\right)$
 \end_inset
 
-, requiring labor supply 
+,
+ requiring labor supply 
 \begin_inset Formula $y\left(c_{L},a_{L}\right)/a_{H}$
 \end_inset
 
@@ -3090,7 +3210,8 @@ v\left(0,0,a_{H}\right)\geq z-h\left(\frac{y\left(0,a_{L}\right)}{a_{H}}\right)
 \end_layout
 
 \begin_layout Itemize
-If this condition isn't met, we have to satisfy the IC constraint
+If this condition isn't met,
+ we have to satisfy the IC constraint
 \begin_inset Formula 
 \[
 v\left(b_{H},c_{H},a_{H}\right)\geq b_{L}+y\left(c_{L},a_{L}\right)-h\left(\frac{y\left(c_{L},a_{L}\right)}{a_{H}}+c_{L}\right)
@@ -3114,7 +3235,8 @@ v\left(b_{H},c_{H},a_{H}\right)\geq b_{L}+y\left(c_{L},a_{L}\right)-h\left(\frac
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Screening
+Besley & Coate (1992):
+ Screening
 \end_layout
 
 \end_inset
@@ -3124,7 +3246,8 @@ Besley & Coate (1992): Screening
 
 \begin_deeper
 \begin_layout Itemize
-Again, define the separating work requirement that satisfies
+Again,
+ define the separating work requirement that satisfies
 \begin_inset Formula 
 \[
 v\left(0,0,a_{H}\right)=z-h\left(\frac{y\left(\hat{c}_{L}^{s},a_{L}\right)}{a_{H}}+\hat{c}_{L}^{s}\right)
@@ -3143,13 +3266,14 @@ v\left(0,0,a_{H}\right)=z-h\left(\frac{y\left(\hat{c}_{L}^{s},a_{L}\right)}{a_{H
 
 \shape smallcaps
 proposition 3:
+
 \shape default
  
 \emph on
-If income-generating abilities are unobservable, individuals' incomes are
- observable and the benchmark PAP is not implementable, one of the following
- two programs is cost-minimizing: (i) (welfare) impose no work requirements
- and offer self-categorized high-ability individuals a transfer of 
+If income-generating abilities are unobservable,
+ individuals' incomes are observable and the benchmark PAP is not implementable,
+ one of the following two programs is cost-minimizing:
+ (i) (welfare) impose no work requirements and offer self-categorized high-ability individuals a transfer of 
 \begin_inset Formula $z-h\left(y\left(0,a_{L}\right)/a_{H}\right)-v\left(0,0,a_{H}\right)$
 \end_inset
 
@@ -3157,8 +3281,8 @@ If income-generating abilities are unobservable, individuals' incomes are
 \begin_inset Formula $z-y\left(0,a_{L}\right)$
 \end_inset
 
-; (ii) (workfare) offer self-categorized high-ability individuals no benefits
- and offer self-categorized low-ability individuals a transfer of 
+;
+ (ii) (workfare) offer self-categorized high-ability individuals no benefits and offer self-categorized low-ability individuals a transfer of 
 \begin_inset Formula $z-y\left(\hat{c}_{L}^{s},a_{L}\right)$
 \end_inset
 
@@ -3167,8 +3291,7 @@ If income-generating abilities are unobservable, individuals' incomes are
 \end_inset
 
 .
- A sufficient condition for the workfare solution to be cost-minimizing
- is that 
+ A sufficient condition for the workfare solution to be cost-minimizing is that 
 \begin_inset Formula $\gamma a_{L}<\left(1-\gamma\right)h^{\prime}\left(\frac{y\left(0,a_{L}\right)}{a_{H}}\right)\left(1-\frac{a_{L}}{a_{H}}\right)$
 \end_inset
 
@@ -3188,7 +3311,8 @@ If income-generating abilities are unobservable, individuals' incomes are
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Deterrence
+Besley & Coate (1992):
+ Deterrence
 \end_layout
 
 \end_inset
@@ -3207,7 +3331,8 @@ Probability of being high ability is
 \begin_inset Formula $\pi\left(e\right)$
 \end_inset
 
- (strictly concave), costs 
+ (strictly concave),
+ costs 
 \begin_inset Formula $e$
 \end_inset
 
@@ -3258,7 +3383,8 @@ e^{*}\left(\chi\left(\cdot\right)\right)\quad\chi\left(b_{L},c_{L},b_{H},c_{H}\r
 status open
 
 \begin_layout Plain Layout
-Besley & Coate (1992): Deterrence
+Besley & Coate (1992):
+ Deterrence
 \end_layout
 
 \end_inset
@@ -3302,16 +3428,17 @@ Note that
 \begin_layout Itemize
 
 \shape smallcaps
-proposition 4: 
+proposition 4:
+ 
 \shape default
 \emph on
-If income-generating abilities are observable but depend partly on choices
- made earlier in life, the cost-minimizing PAP either imposes no work requiremen
-ts and offers low-ability individuals a transfer of 
+If income-generating abilities are observable but depend partly on choices made earlier in life,
+ the cost-minimizing PAP either imposes no work requirements and offers low-ability individuals a transfer of 
 \begin_inset Formula $z-y\left(0,a_{L}\right)$
 \end_inset
 
-, or imposes the maximal work requirement 
+,
+ or imposes the maximal work requirement 
 \begin_inset Formula $c_{L}^{m}$
 \end_inset
 
@@ -3324,7 +3451,9 @@ ts and offers low-ability individuals a transfer of
 
 \end_deeper
 \begin_layout Subsection
-Niehaus, Atanassova, Bertrand & Mullainathan (AEJ:Pol 2013) 
+Niehaus,
+ Atanassova,
+ Bertrand & Mullainathan (AEJ:Pol 2013) 
 \begin_inset ERT
 status open
 
@@ -3358,7 +3487,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Overview
+Niehaus et al (2013):
+ Overview
 \end_layout
 
 \end_inset
@@ -3368,8 +3498,7 @@ Niehaus et al (2013): Overview
 
 \begin_deeper
 \begin_layout Itemize
-How should targeting rules be designed when they must be implemented by
- corruptible agents?
+How should targeting rules be designed when they must be implemented by corruptible agents?
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -3377,8 +3506,7 @@ How should targeting rules be designed when they must be implemented by
 \end_layout
 
 \begin_layout Itemize
-Consider a proxy means test (PMT) that must be implemented by an official
- who may be corrupt.
+Consider a proxy means test (PMT) that must be implemented by an official who may be corrupt.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -3386,10 +3514,8 @@ Consider a proxy means test (PMT) that must be implemented by an official
 \end_layout
 
 \begin_layout Itemize
-Show that having more indicators (which makes identifying the poor easier
- statistically) can backfire if enforcement is weak, by making it easier
- to pretend that ineligible households are eligible and hence easier to
- receive bribes.
+Show that having more indicators (which makes identifying the poor easier statistically) can backfire if enforcement is weak,
+ by making it easier to pretend that ineligible households are eligible and hence easier to receive bribes.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -3414,7 +3540,8 @@ Test the theory with data on Below Poverty Line (BPL) cards in Karnataka,
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Households
+Niehaus et al (2013):
+ Households
 \end_layout
 
 \end_inset
@@ -3469,7 +3596,8 @@ Values the slot at
 \begin_inset Formula $v_{i}\sim G\left(v_{i}\right)$
 \end_inset
 
-, exponential with rate 
+,
+ exponential with rate 
 \begin_inset Formula $1/\eta$
 \end_inset
 
@@ -3502,7 +3630,8 @@ Joint distribution of attributes is
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Official
+Niehaus et al (2013):
+ Official
 \end_layout
 
 \end_inset
@@ -3516,7 +3645,8 @@ Principal would like to use
 \begin_inset Formula $y_{i}$
 \end_inset
 
- for targeting, but it's unobserved.
+ for targeting,
+ but it's unobserved.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -3524,7 +3654,8 @@ Principal would like to use
 \end_layout
 
 \begin_layout Itemize
-Instead, use easier to observe characteristics 
+Instead,
+ use easier to observe characteristics 
 \begin_inset Formula $\mathbf{x}$
 \end_inset
 
@@ -3540,7 +3671,8 @@ A targeting rule is a subset
 \begin_inset Formula $R\subseteq\mathbf{X}$
 \end_inset
 
-: A household is eligible iff 
+:
+ A household is eligible iff 
 \begin_inset Formula $\mathbf{x}_{i}\in R$
 \end_inset
 
@@ -3574,7 +3706,8 @@ Observes
 \begin_inset Formula $y_{i},\mathbf{x}_{i}$
 \end_inset
 
-, but not 
+,
+ but not 
 \begin_inset Formula $v_{i}$
 \end_inset
 
@@ -3607,7 +3740,8 @@ where
 \begin_inset Formula $i$
 \end_inset
 
- gets a slot; 
+ gets a slot;
+ 
 \begin_inset Formula $\left(\underline{\alpha},\overline{\alpha}\right)$
 \end_inset
 
@@ -3628,7 +3762,8 @@ where
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Official
+Niehaus et al (2013):
+ Official
 \end_layout
 
 \end_inset
@@ -3642,7 +3777,8 @@ If official violates
 \begin_inset Formula $R$
 \end_inset
 
-, he is caught with probability 
+,
+ he is caught with probability 
 \begin_inset Formula $\pi\left(a_{i},\mathbf{x}_{i},R\right)$
 \end_inset
 
@@ -3734,7 +3870,8 @@ c\left(y_{i},\mathbf{x}_{i}\right)=f\left[\pi\left(1,\mathbf{x}_{i},R\right)-\pi
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Official
+Niehaus et al (2013):
+ Official
 \end_layout
 
 \end_inset
@@ -3748,7 +3885,8 @@ The official's problem looks just like a monopolist's problem.
 \end_layout
 
 \begin_layout Itemize
-The solution will satisfy MR = MC, markups follow the rule 
+The solution will satisfy MR = MC,
+ markups follow the rule 
 \begin_inset Formula $\left(p-c\right)/p=-1/\epsilon$
 \end_inset
 
@@ -3805,8 +3943,10 @@ If
 \begin_inset Formula $f$
 \end_inset
 
- is sufficiently large, all eligible households get a slot at price 0.
- But might require arbitrarily harsh penalties, which seems unlikely.
+ is sufficiently large,
+ all eligible households get a slot at price 0.
+ But might require arbitrarily harsh penalties,
+ which seems unlikely.
 \end_layout
 
 \end_deeper
@@ -3823,7 +3963,8 @@ If
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Principal
+Niehaus et al (2013):
+ Principal
 \end_layout
 
 \end_inset
@@ -3892,7 +4033,8 @@ V\left(\left\{ p_{i}\right\} \right) & =\left(\underline{\omega}\eta-1\right)\in
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): When agency doesn't matter
+Niehaus et al (2013):
+ When agency doesn't matter
 \end_layout
 
 \end_inset
@@ -3902,7 +4044,8 @@ Niehaus et al (2013): When agency doesn't matter
 
 \begin_deeper
 \begin_layout Itemize
-Contrast with the case where the agent is completely honest, 
+Contrast with the case where the agent is completely honest,
+ 
 \begin_inset Formula $p_{i}=0$
 \end_inset
 
@@ -3910,7 +4053,8 @@ Contrast with the case where the agent is completely honest,
 \begin_inset Formula $\mathbf{x}_{i}\in R$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $p_{i}=\infty$
 \end_inset
 
@@ -3919,7 +4063,8 @@ Contrast with the case where the agent is completely honest,
 \end_inset
 
 .
- Now, principal solves
+ Now,
+ principal solves
 \begin_inset Formula 
 \begin{align*}
 \max_{R\subseteq\mathbf{X}} & \left(\underline{\omega}\eta-1\right)\int_{y_{i}=\underline{y}}\mathbf{1}\left\{ \mathbf{x}_{i}\in R\right\} dF\left(y_{i},\mathbf{x}_{i}\right)\\
@@ -3935,6 +4080,7 @@ Contrast with the case where the agent is completely honest,
 
 \shape smallcaps
 proposition 1:
+
 \shape default
  
 \emph on
@@ -4015,7 +4161,8 @@ If
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): When agency doesn't matter
+Niehaus et al (2013):
+ When agency doesn't matter
 \end_layout
 
 \end_inset
@@ -4025,8 +4172,8 @@ Niehaus et al (2013): When agency doesn't matter
 
 \begin_deeper
 \begin_layout Itemize
-In any of these cases agency issues are unimportant: Principal wants to
- use the statistically optimal rule.
+In any of these cases agency issues are unimportant:
+ Principal wants to use the statistically optimal rule.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -4034,7 +4181,8 @@ In any of these cases agency issues are unimportant: Principal wants to
 \end_layout
 
 \begin_layout Itemize
-Third case is the interesting one: What does 
+Third case is the interesting one:
+ What does 
 \emph on
 
 \begin_inset Formula $\pi\left(a_{i},\mathbf{x}_{i},R\right)=\tilde{\pi}\cdot\mathbf{1}\left\{ a_{i}\neq\mathbf{1}\left\{ \mathbf{x}_{i}\in R\right\} \right\} $
@@ -4055,7 +4203,8 @@ Principal detects deviations from
 \begin_inset Formula $\tilde{\pi}$
 \end_inset
 
-, 
+,
+ 
 \emph on
 regardless of what 
 \begin_inset Formula $R$
@@ -4110,8 +4259,7 @@ Then changing
 \begin_inset Formula $R$
 \end_inset
 
- to make one household eligible won't affect the probability that any other
- households get a slot.
+ to make one household eligible won't affect the probability that any other households get a slot.
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -4127,7 +4275,8 @@ Now question of what
 \begin_inset Formula $R$
 \end_inset
 
- includes eligible households, the statistical question.
+ includes eligible households,
+ the statistical question.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -4157,7 +4306,8 @@ Full verification of
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Means testing
+Niehaus et al (2013):
+ Means testing
 \end_layout
 
 \end_inset
@@ -4225,7 +4375,8 @@ Consider 2 policies:
 
 \begin_deeper
 \begin_layout Enumerate
-Universal eligibility: 
+Universal eligibility:
+ 
 \begin_inset Formula $R=\mathbf{X}$
 \end_inset
 
@@ -4237,7 +4388,8 @@ Universal eligibility:
 \end_layout
 
 \begin_layout Enumerate
-Means testing by official: 
+Means testing by official:
+ 
 \begin_inset Formula $R=\underline{y}$
 \end_inset
 
@@ -4266,7 +4418,8 @@ Let's work through the math of which one is better
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Means testing
+Niehaus et al (2013):
+ Means testing
 \end_layout
 
 \end_inset
@@ -4284,7 +4437,8 @@ Start with Universal Eligibility:
 \end_layout
 
 \begin_layout Itemize
-The poor: 
+The poor:
+ 
 \begin_inset Formula $c\left(\underline{y}\right)=f\left[0-\pi_{e}\right]\rightarrow p\left(\underline{y}\right)=\eta-f\pi_{e}$
 \end_inset
 
@@ -4296,7 +4450,8 @@ The poor:
 \end_layout
 
 \begin_layout Itemize
-The rich: 
+The rich:
+ 
 \begin_inset Formula $c\left(\overline{y}\right)=f\left[0-\pi_{e}\right]\rightarrow p\left(\overline{y}\right)=\eta-f\pi_{e}$
 \end_inset
 
@@ -4332,7 +4487,8 @@ V\left(UE\right)=\left(\underline{\omega}\eta-1\right)e^{\left(\frac{f\pi_{e}}{\
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Means testing
+Niehaus et al (2013):
+ Means testing
 \end_layout
 
 \end_inset
@@ -4350,7 +4506,8 @@ What about Means Testing?
 \end_layout
 
 \begin_layout Itemize
-The poor: 
+The poor:
+ 
 \begin_inset Formula $c\left(\underline{y}\right)=f\left[0-\pi_{t}\right]\rightarrow p\left(\underline{y}\right)=\eta-f\pi_{t}$
 \end_inset
 
@@ -4362,7 +4519,8 @@ The poor:
 \end_layout
 
 \begin_layout Itemize
-The rich: 
+The rich:
+ 
 \begin_inset Formula $c\left(\overline{y}\right)=f\left[\pi_{t}-0\right]\rightarrow p\left(\overline{y}\right)=f\pi_{t}+\eta$
 \end_inset
 
@@ -4398,7 +4556,8 @@ V\left(MT\right)=\left(\underline{\omega}\eta-1\right)e^{\left(\frac{f\pi_{t}}{\
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Means testing
+Niehaus et al (2013):
+ Means testing
 \end_layout
 
 \end_inset
@@ -4437,7 +4596,8 @@ With perfect enforcement or
 \begin_inset Formula $\pi_{t}=\pi_{e}$
 \end_inset
 
-, targeting is optimal.
+,
+ targeting is optimal.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -4461,7 +4621,8 @@ If exclusion errors are sufficiently costly (high
 \begin_inset Formula $\underline{\omega}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $F\left(\underline{y}\right)$
 \end_inset
 
@@ -4469,7 +4630,8 @@ If exclusion errors are sufficiently costly (high
 \begin_inset Formula $\overline{\omega}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $1-F\left(\overline{y}\right)$
 \end_inset
 
@@ -4489,7 +4651,8 @@ If exclusion errors are sufficiently costly (high
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Proxy Means Testing
+Niehaus et al (2013):
+ Proxy Means Testing
 \end_layout
 
 \end_inset
@@ -4512,7 +4675,8 @@ Now imagine that the principal wants to use land
 \end_layout
 
 \begin_layout Itemize
-Should she use both? Or just land?
+Should she use both?
+ Or just land?
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -4573,8 +4737,8 @@ Suppose the principal learns
 \end_layout
 
 \begin_layout Itemize
-If the principal learns enough to determine the household is incorrectly
- classified, she fines the official 
+If the principal learns enough to determine the household is incorrectly classified,
+ she fines the official 
 \begin_inset Formula $f$
 \end_inset
 
@@ -4594,7 +4758,8 @@ If the principal learns enough to determine the household is incorrectly
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Proxy Means Testing
+Niehaus et al (2013):
+ Proxy Means Testing
 \end_layout
 
 \end_inset
@@ -4606,7 +4771,8 @@ Niehaus et al (2013): Proxy Means Testing
 \begin_layout Itemize
 
 \shape smallcaps
-lemma 1: 
+lemma 1:
+ 
 \shape default
 \emph on
 Fix any 
@@ -4689,7 +4855,8 @@ Equate marginal benefits (
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Proxy Means Testing
+Niehaus et al (2013):
+ Proxy Means Testing
 \end_layout
 
 \end_inset
@@ -4717,7 +4884,8 @@ Is there a rule that uses
 \begin_layout Itemize
 
 \shape smallcaps
-proposition 2: 
+proposition 2:
+ 
 \shape default
 \emph on
 Given a fixed rule 
@@ -4728,7 +4896,8 @@ Given a fixed rule
 \begin_inset Formula $x^{2}$
 \end_inset
 
-, there exists 
+,
+ there exists 
 \begin_inset Formula $\phi_{2}^{*}\left(R\right)>0$
 \end_inset
 
@@ -4736,7 +4905,8 @@ Given a fixed rule
 \begin_inset Formula $\phi_{2}<\phi_{2}^{*}\left(R\right)$
 \end_inset
 
-, then rule 
+,
+ then rule 
 \begin_inset Formula $R_{1}$
 \end_inset
 
@@ -4754,7 +4924,8 @@ Given a fixed rule
 \end_layout
 
 \begin_layout Itemize
-Intuition: 
+Intuition:
+ 
 \end_layout
 
 \begin_deeper
@@ -4783,7 +4954,8 @@ ish
 \begin_inset Quotes erd
 \end_inset
 
- people: need to observe both 
+ people:
+ need to observe both 
 \begin_inset Formula $x^{1}$
 \end_inset
 
@@ -4803,7 +4975,8 @@ Using
 \begin_inset Formula $x^{2}$
 \end_inset
 
- is actually easier to enforce for very rich people: Observing 
+ is actually easier to enforce for very rich people:
+ Observing 
 \emph on
 either
 \emph default
@@ -4853,7 +5026,8 @@ Balance of effects depends on
 status open
 
 \begin_layout Plain Layout
-Niehaus et al (2013): Proxy Means Testing
+Niehaus et al (2013):
+ Proxy Means Testing
 \end_layout
 
 \end_inset
@@ -4874,7 +5048,8 @@ Is it always the case that having stronger enforcement increases welfare?
 \begin_layout Itemize
 
 \shape smallcaps
-proposition 3: 
+proposition 3:
+ 
 \shape default
 \emph on
 Let the probability of detecting a violation be constant (
@@ -4885,11 +5060,13 @@ Let the probability of detecting a violation be constant (
 \begin_inset Formula $a_{i}\neq\mathbf{1}\left\{ \mathbf{x}_{i}\in R\right\} $
 \end_inset
 
-), If 
+),
+ If 
 \begin_inset Formula $R$
 \end_inset
 
- perfectly targets the poor, then 
+ perfectly targets the poor,
+ then 
 \begin_inset Formula $\partial V/\partial f\geq0$
 \end_inset
 
@@ -4898,8 +5075,9 @@ Let the probability of detecting a violation be constant (
 \begin_inset Formula $R$
 \end_inset
 
- does not perfectly target the poor, so that there are some ineligible poor
- and some eligible rich, then there exist a scalar 
+ does not perfectly target the poor,
+ so that there are some ineligible poor and some eligible rich,
+ then there exist a scalar 
 \begin_inset Formula $f^{*}$
 \end_inset
 
@@ -4915,11 +5093,13 @@ Let the probability of detecting a violation be constant (
 \begin_inset Formula $f>f^{*}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\underline{\alpha}>\underline{\alpha}^{*}\left(f\right)$
 \end_inset
 
-, and 
+,
+ and 
 \begin_inset Formula $\overline{\alpha}<\overline{\alpha}^{*}\left(f\right)$
 \end_inset
 
@@ -4937,12 +5117,14 @@ Let the probability of detecting a violation be constant (
 \end_layout
 
 \begin_layout Itemize
-Intuition: 
+Intuition:
+ 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-If you have a perfect rule, you want to force the official to use it
+If you have a perfect rule,
+ you want to force the official to use it
 \begin_inset VSpace medskip
 \end_inset
 
@@ -4950,8 +5132,8 @@ If you have a perfect rule, you want to force the official to use it
 \end_layout
 
 \begin_layout Itemize
-If you have an imperfect rule, then how much you want to force the official
- to use it depends on how much you disagree about who is deserving.
+If you have an imperfect rule,
+ then how much you want to force the official to use it depends on how much you disagree about who is deserving.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -4959,16 +5141,18 @@ If you have an imperfect rule, then how much you want to force the official
 \end_layout
 
 \begin_layout Itemize
-If sufficiently aligned: 
+If sufficiently aligned:
+ 
 \begin_inset Formula $\underline{\alpha}$
 \end_inset
 
- is large, and 
+ is large,
+ and 
 \begin_inset Formula $\overline{\alpha}$
 \end_inset
 
- is small, then let the official use his discretion to violate your rule
- sometimes.
+ is small,
+ then let the official use his discretion to violate your rule sometimes.
 \end_layout
 
 \end_deeper
@@ -4987,7 +5171,9 @@ Evidence from Rich Countries
 \end_layout
 
 \begin_layout Subsection
-Chetty, Friedman & Saez (AER 2013): 
+Chetty,
+ Friedman & Saez (AER 2013):
+ 
 \begin_inset ERT
 status open
 
@@ -5002,8 +5188,7 @@ textit{
 
 \end_inset
 
-Using Differences in Knowledge Across Neighborhoods to Uncover the Impacts
- of the EITC on Earnings
+Using Differences in Knowledge Across Neighborhoods to Uncover the Impacts of the EITC on Earnings
 \begin_inset ERT
 status open
 
@@ -5022,7 +5207,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Chetty et al (2013): Overview
+Chetty et al (2013):
+ Overview
 \end_layout
 
 \end_inset
@@ -5064,8 +5250,7 @@ Very hard to estimate these market-level impacts.
 \end_layout
 
 \begin_layout Itemize
-Use variation across zip-codes in how many people are aware of EITC to estimate
- impact of EITC on the whole earnings distribution
+Use variation across zip-codes in how many people are aware of EITC to estimate impact of EITC on the whole earnings distribution
 \end_layout
 
 \end_deeper
@@ -5081,7 +5266,8 @@ Use variation across zip-codes in how many people are aware of EITC to estimate
 status open
 
 \begin_layout Plain Layout
-Chetty et al (2013): EITC
+Chetty et al (2013):
+ EITC
 \end_layout
 
 \end_inset
@@ -5115,7 +5301,8 @@ Chetty et al (2013): EITC
 status open
 
 \begin_layout Plain Layout
-Chetty et al (2013): EITC
+Chetty et al (2013):
+ EITC
 \end_layout
 
 \end_inset
@@ -5149,7 +5336,8 @@ Chetty et al (2013): EITC
 status open
 
 \begin_layout Plain Layout
-Chetty et al (2013): A Simple Model
+Chetty et al (2013):
+ A Simple Model
 \end_layout
 
 \end_inset
@@ -5159,7 +5347,8 @@ Chetty et al (2013): A Simple Model
 
 \begin_deeper
 \begin_layout Itemize
-Individuals make two choices: 
+Individuals make two choices:
+ 
 \end_layout
 
 \begin_deeper
@@ -5298,7 +5487,8 @@ Heterogeneity in
 status open
 
 \begin_layout Plain Layout
-Chetty et al (2013): A Simple Model
+Chetty et al (2013):
+ A Simple Model
 \end_layout
 
 \end_inset
@@ -5328,7 +5518,8 @@ In city
 \begin_inset Formula $c$
 \end_inset
 
-, fraction 
+,
+ fraction 
 \begin_inset Formula $\lambda_{c}$
 \end_inset
 
@@ -5408,7 +5599,8 @@ F_{c}\left(z\vert\boldsymbol{\tau}\neq\mathbf{0}\right)-F_{c}\left(z\vert\boldsy
 status open
 
 \begin_layout Plain Layout
-Chetty et al (2013): Empirical Strategy
+Chetty et al (2013):
+ Empirical Strategy
 \end_layout
 
 \end_inset
@@ -5438,7 +5630,8 @@ How to measure
 \begin_inset Formula $\lambda_{c}$
 \end_inset
 
-? Use the degree of sharp bunching at 
+?
+ Use the degree of sharp bunching at 
 \begin_inset Formula $K$
 \end_inset
 
@@ -5464,14 +5657,15 @@ How to measure
 \shape smallcaps
 assumption 1
 \shape default
- (Tax Knowledge): 
+ (Tax Knowledge):
+ 
 \emph on
-Individuals in neighborhoods with no sharp bunching at the kink have no
- knowledge of the policy’s marginal incentives and perceive 
+Individuals in neighborhoods with no sharp bunching at the kink have no knowledge of the policy’s marginal incentives and perceive 
 \begin_inset Formula $\boldsymbol{\tau}=0$
 \end_inset
 
-: 
+:
+ 
 \begin_inset Formula $\phi_{c}=0\Rightarrow\lambda_{c}=0$
 \end_inset
 
@@ -5479,8 +5673,7 @@ Individuals in neighborhoods with no sharp bunching at the kink have no
 \end_layout
 
 \begin_layout Itemize
-Under assumption 1 cities with no bunching reveal the distribution when
- there are no taxes:
+Under assumption 1 cities with no bunching reveal the distribution when there are no taxes:
 \begin_inset Formula 
 \[
 F_{c}\left(z\vert\boldsymbol{\tau}\neq\mathbf{0},\phi_{c}=0\right)=F_{c}\left(z\vert\boldsymbol{\tau}=\mathbf{0},\phi_{c}=0\right)
@@ -5504,7 +5697,8 @@ F_{c}\left(z\vert\boldsymbol{\tau}\neq\mathbf{0},\phi_{c}=0\right)=F_{c}\left(z\
 status open
 
 \begin_layout Plain Layout
-Chetty et al (2013): Empirical Strategy
+Chetty et al (2013):
+ Empirical Strategy
 \end_layout
 
 \end_inset
@@ -5526,10 +5720,10 @@ Can we use cities with no bunching as a counterfactual for cities with bunching?
 \shape smallcaps
 assumption 2A
 \shape default
- (Cross-Sectional Identification): 
+ (Cross-Sectional Identification):
+ 
 \emph on
-Individuals’ skills do not vary across cities with different levels of knowledge
- about the tax credit:
+Individuals’ skills do not vary across cities with different levels of knowledge about the tax credit:
 \begin_inset Formula 
 \[
 G\left(\alpha_{i}\vert\lambda_{c}\right)=G\left(\alpha_{i}\right)\:\forall\lambda_{c}
@@ -5571,7 +5765,8 @@ Now we can compare cities with and without bunching:
 status open
 
 \begin_layout Plain Layout
-Chetty et al (2013): Empirical Strategy
+Chetty et al (2013):
+ Empirical Strategy
 \end_layout
 
 \end_inset
@@ -5589,9 +5784,9 @@ Assumption 2A is strong (why?)
 \end_layout
 
 \begin_layout Itemize
-We can relax it by studying earnings changes when people become eligible
- for EITC.
- Here, use birth of first child which makes people eligible for EITC.
+We can relax it by studying earnings changes when people become eligible for EITC.
+ Here,
+ use birth of first child which makes people eligible for EITC.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -5603,11 +5798,11 @@ We can relax it by studying earnings changes when people become eligible
 \shape smallcaps
 assumption 2B
 \shape default
- (Panel Identification): 
+ (Panel Identification):
+ 
 \emph on
-Changes in skills when an individual becomes eligible for the credit do
- not vary across cities with different levels of knowledge about the tax
- credit:
+Changes in skills when an individual becomes eligible for the credit do not vary across cities with different levels of knowledge about the tax credit:
+
 \emph default
  
 \begin_inset Formula 
@@ -5646,7 +5841,8 @@ Under this assumption we can construct a difference in differences estimator:
 status open
 
 \begin_layout Plain Layout
-Chetty et al (2013): Data
+Chetty et al (2013):
+ Data
 \end_layout
 
 \end_inset
@@ -5657,11 +5853,13 @@ Chetty et al (2013): Data
 \begin_deeper
 \begin_layout Itemize
 Universe of US tax returns 1996-2009.
- Restrict to ppl with a dependent, income<$50K 
+ Restrict to ppl with a dependent,
+ income<$50K 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- 77.6 mn taxpayers, 1 bn obs.
+ 77.6 mn taxpayers,
+ 1 bn obs.
 \end_layout
 
 \begin_layout Standard
@@ -5669,7 +5867,7 @@ Universe of US tax returns 1996-2009.
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 3.png
 	lyxscale 30
-	height 85theight%
+	special height=0.85\textheight
 
 \end_inset
 
@@ -5694,7 +5892,7 @@ Universe of US tax returns 1996-2009.
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 4.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -5728,7 +5926,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 5.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -5762,7 +5960,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 6.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -5796,7 +5994,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 7.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -5830,7 +6028,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 8.png
 	lyxscale 30
-	height 91pheight%
+	special height=0.91\paperheight
 
 \end_inset
 
@@ -5864,7 +6062,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 9.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -5898,7 +6096,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 10.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -5936,7 +6134,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 11.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -5970,7 +6168,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 12.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -6004,7 +6202,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 13.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -6038,7 +6236,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 14.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -6072,7 +6270,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Chetty et al 2013 15.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -6130,7 +6328,8 @@ textit{
 
 \end_inset
 
-Who is Screened Out? Application Costs and the Targeting of Disability Programs
+Who is Screened Out?
+ Application Costs and the Targeting of Disability Programs
 \begin_inset ERT
 status open
 
@@ -6149,7 +6348,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Overview
+Deshpande & Li (2017):
+ Overview
 \end_layout
 
 \end_inset
@@ -6159,8 +6359,8 @@ Deshpande & Li (2017): Overview
 
 \begin_deeper
 \begin_layout Itemize
-When eligibility is hard to observe/verify, application costs can act as
- a screening device (ordeal).
+When eligibility is hard to observe/verify,
+ application costs can act as a screening device (ordeal).
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -6176,8 +6376,7 @@ Study this in the context of disability insurance.
 \end_layout
 
 \begin_layout Itemize
-Use closings of Social Security Administration offices to get variation
- in application costs.
+Use closings of Social Security Administration offices to get variation in application costs.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -6185,7 +6384,8 @@ Use closings of Social Security Administration offices to get variation
 \end_layout
 
 \begin_layout Itemize
-Find large impacts, 
+Find large impacts,
+ 
 \end_layout
 
 \begin_deeper
@@ -6203,8 +6403,7 @@ Targeting worsens
 
 \end_deeper
 \begin_layout Itemize
-Suggests social costs of closing SSA offices outweigh social benefits 5
- to 1
+Suggests social costs of closing SSA offices outweigh social benefits 5 to 1
 \end_layout
 
 \end_deeper
@@ -6220,7 +6419,8 @@ Suggests social costs of closing SSA offices outweigh social benefits 5
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): A Simple Framework
+Deshpande & Li (2017):
+ A Simple Framework
 \end_layout
 
 \end_inset
@@ -6259,7 +6459,8 @@ where
 \end_layout
 
 \begin_layout Itemize
-Rewrite: Targeting improves iff
+Rewrite:
+ Targeting improves iff
 \begin_inset Formula 
 \[
 1<\frac{\mathbb{P}\left(R\vert A,\eta^{\prime}\right)}{\mathbb{P}\left(R\vert A,\eta\right)}=\frac{\frac{\mathbb{P}\left(R\vert\eta^{\prime}\right)}{\mathbb{P}\left(A\vert\eta^{\prime}\right)}}{\frac{\mathbb{P}\left(R\vert\eta\right)}{\mathbb{P}\left(A\vert\eta\right)}}=\frac{\frac{\mathbb{P}\left(R\vert\eta^{\prime}\right)}{\mathbb{P}\left(R\vert\eta\right)}}{\frac{\mathbb{P}\left(A\vert\eta^{\prime}\right)}{\mathbb{P}\left(A\vert\eta\right)}}=\frac{\Delta_{R}+1}{\Delta_{A}=1}
@@ -6291,7 +6492,8 @@ where
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Context
+Deshpande & Li (2017):
+ Context
 \end_layout
 
 \end_inset
@@ -6301,12 +6503,13 @@ Deshpande & Li (2017): Context
 
 \begin_deeper
 \begin_layout Itemize
-To get Social Security Disability Insurance (SSDI) and Supplemental Security
- Income (SSI), you have to apply to the Social Security Administration.
+To get Social Security Disability Insurance (SSDI) and Supplemental Security Income (SSI),
+ you have to apply to the Social Security Administration.
 \end_layout
 
 \begin_layout Itemize
-They review medical/work history, determine eligibility.
+They review medical/work history,
+ determine eligibility.
 \end_layout
 
 \begin_layout Itemize
@@ -6338,7 +6541,8 @@ They review medical/work history, determine eligibility.
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): SSA Office Closures
+Deshpande & Li (2017):
+ SSA Office Closures
 \end_layout
 
 \end_inset
@@ -6372,7 +6576,8 @@ Deshpande & Li (2017): SSA Office Closures
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Data
+Deshpande & Li (2017):
+ Data
 \end_layout
 
 \end_inset
@@ -6444,8 +6649,9 @@ ZIP code of applicants
 
 \end_deeper
 \begin_layout Itemize
-Collapse by ZIP and assign each ZIP code a nearest, second nearest, and
- third nearest SSA office.
+Collapse by ZIP and assign each ZIP code a nearest,
+ second nearest,
+ and third nearest SSA office.
 \end_layout
 
 \end_deeper
@@ -6461,7 +6667,8 @@ Collapse by ZIP and assign each ZIP code a nearest, second nearest, and
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Empirical Approach
+Deshpande & Li (2017):
+ Empirical Approach
 \end_layout
 
 \end_inset
@@ -6471,8 +6678,8 @@ Deshpande & Li (2017): Empirical Approach
 
 \begin_deeper
 \begin_layout Itemize
-Compare applications and receipts in the ZIP codes where the office closed
- to ZIP codes where the office hasn't closed yet, but will do.
+Compare applications and receipts in the ZIP codes where the office closed to ZIP codes where the office hasn't closed yet,
+ but will do.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -6480,9 +6687,9 @@ Compare applications and receipts in the ZIP codes where the office closed
 \end_layout
 
 \begin_layout Itemize
-For each closure, take the ZIPs that experience the closure as treated,
- and ZIPS that experience a closure more than 2 years in the future are
- control
+For each closure,
+ take the ZIPs that experience the closure as treated,
+ and ZIPS that experience a closure more than 2 years in the future are control
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -6518,11 +6725,13 @@ where
 \begin_inset Formula $t$
 \end_inset
 
-; 
+;
+ 
 \begin_inset Formula $\alpha_{i}$
 \end_inset
 
- are ZIP FEs; 
+ are ZIP FEs;
+ 
 \begin_inset Formula $\gamma_{st}$
 \end_inset
 
@@ -6530,11 +6739,13 @@ where
 \begin_inset Formula $\times$
 \end_inset
 
-quarter FEs; 
+quarter FEs;
+ 
 \begin_inset Formula $Treated_{ic}$
 \end_inset
 
- indicates treatment; 
+ indicates treatment;
+ 
 \begin_inset Formula $D_{ct}^{\tau}$
 \end_inset
 
@@ -6558,7 +6769,8 @@ quarter FEs;
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Results
+Deshpande & Li (2017):
+ Results
 \end_layout
 
 \end_inset
@@ -6572,7 +6784,7 @@ Deshpande & Li (2017): Results
 \begin_inset Graphics
 	filename pictures/Deshpande Li 3.png
 	lyxscale 40
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -6592,7 +6804,8 @@ Deshpande & Li (2017): Results
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Subgroups
+Deshpande & Li (2017):
+ Subgroups
 \end_layout
 
 \end_inset
@@ -6606,7 +6819,7 @@ Deshpande & Li (2017): Subgroups
 \begin_inset Graphics
 	filename pictures/Deshpande Li 4.png
 	lyxscale 40
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -6626,7 +6839,8 @@ Deshpande & Li (2017): Subgroups
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Subgroups
+Deshpande & Li (2017):
+ Subgroups
 \end_layout
 
 \end_inset
@@ -6660,7 +6874,8 @@ Deshpande & Li (2017): Subgroups
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Subgroups
+Deshpande & Li (2017):
+ Subgroups
 \end_layout
 
 \end_inset
@@ -6694,7 +6909,8 @@ Deshpande & Li (2017): Subgroups
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Spillovers
+Deshpande & Li (2017):
+ Spillovers
 \end_layout
 
 \end_inset
@@ -6728,7 +6944,8 @@ Deshpande & Li (2017): Spillovers
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Mechanisms
+Deshpande & Li (2017):
+ Mechanisms
 \end_layout
 
 \end_inset
@@ -6760,8 +6977,7 @@ Y_{isct}=\alpha_{i}+\gamma_{st}+\beta Congestion_{ict}+\kappa Distance_{ict}+\de
 
 \end_deeper
 \begin_layout Itemize
-To overcome endogeneity (why?) use closures and difference with next-closest
- office as instruments:
+To overcome endogeneity (why?) use closures and difference with next-closest office as instruments:
 \begin_inset Formula 
 \begin{align*}
 Congestion_{isct} & =\alpha_{i}+\gamma_{st}+\beta_{1}\left(Treated_{ic}\times Post_{t}\times WDiff_{ic}\right)\\
@@ -6775,11 +6991,13 @@ where
 \begin_inset Formula $WDiff_{isc}$
 \end_inset
 
- is difference in walk-in times with now-closest office; 
+ is difference in walk-in times with now-closest office;
+ 
 \begin_inset Formula $TreatedNbr_{ic}$
 \end_inset
 
- indicates closing neighbor; 
+ indicates closing neighbor;
+ 
 \begin_inset Formula $DDiff_{ic}$
 \end_inset
 
@@ -6799,7 +7017,8 @@ where
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Mechanisms
+Deshpande & Li (2017):
+ Mechanisms
 \end_layout
 
 \end_inset
@@ -6833,7 +7052,8 @@ Deshpande & Li (2017): Mechanisms
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Welfare
+Deshpande & Li (2017):
+ Welfare
 \end_layout
 
 \end_inset
@@ -6855,7 +7075,8 @@ where
 \begin_inset Formula $b_{1}$
 \end_inset
 
- is net social benefit of providing benefits, 
+ is net social benefit of providing benefits,
+ 
 \begin_inset Formula $c_{1}$
 \end_inset
 
@@ -6921,7 +7142,8 @@ W\left(n\right) & =b_{r}\left(n\right)r\left(n\right)-b_{n}\left(n\right)\left[a
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Welfare
+Deshpande & Li (2017):
+ Welfare
 \end_layout
 
 \end_inset
@@ -6958,7 +7180,8 @@ W\left(n-1\right)-W\left(n\right) & =\underbrace{b_{1}\left[r\left(n-1\right)-r\
 status open
 
 \begin_layout Plain Layout
-Deshpande & Li (2017): Welfare
+Deshpande & Li (2017):
+ Welfare
 \end_layout
 
 \end_inset
@@ -6996,7 +7219,8 @@ textit{
 
 \end_inset
 
-Take-up and Targeting: Experimental Evidence from SNAP
+Take-up and Targeting:
+ Experimental Evidence from SNAP
 \begin_inset ERT
 status open
 
@@ -7015,7 +7239,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Overview
+Finkelstein & Notowidigdo (2019):
+ Overview
 \end_layout
 
 \end_inset
@@ -7075,8 +7300,8 @@ Ordeals
 \begin_inset Quotes erd
 \end_inset
 
- may serve as useful screens (Nichols & Zeckhauser 1982, Besley & Coate
- 1992)
+ may serve as useful screens (Nichols & Zeckhauser 1982,
+ Besley & Coate 1992)
 \begin_inset VSpace medskip
 \end_inset
 
@@ -7084,8 +7309,7 @@ Ordeals
 \end_layout
 
 \begin_layout Itemize
-Behavioral work suggesting ordeals have higher psychic costs for the poor
- 
+Behavioral work suggesting ordeals have higher psychic costs for the poor 
 \begin_inset Formula $\Rightarrow$
 \end_inset
 
@@ -7115,7 +7339,8 @@ Ultimately empirical question
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Overview
+Finkelstein & Notowidigdo (2019):
+ Overview
 \end_layout
 
 \end_inset
@@ -7133,7 +7358,8 @@ This paper:
 \end_layout
 
 \begin_layout Itemize
-framework for welfare effects of ordeal changes: How many people enrol?
+framework for welfare effects of ordeal changes:
+ How many people enroll?
  Which types of people?
 \begin_inset VSpace medskip
 \end_inset
@@ -7142,8 +7368,7 @@ framework for welfare effects of ordeal changes: How many people enrol?
 \end_layout
 
 \begin_layout Itemize
-Apply framework to RCT of interventions aimed at elderly non-participants
- in SNAP 
+Apply framework to RCT of interventions aimed at elderly non-participants in SNAP 
 \begin_inset VSpace medskip
 \end_inset
 
@@ -7195,7 +7420,8 @@ control
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Framework
+Finkelstein & Notowidigdo (2019):
+ Framework
 \end_layout
 
 \end_inset
@@ -7205,7 +7431,8 @@ Finkelstein & Notowidigdo (2019): Framework
 
 \begin_deeper
 \begin_layout Itemize
-2 types of individuals: 
+2 types of individuals:
+ 
 \begin_inset Formula $j\in\left\{ L,H\right\} $
 \end_inset
 
@@ -7213,7 +7440,8 @@ Finkelstein & Notowidigdo (2019): Framework
 \begin_inset Formula $\theta_{j}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\theta_{H}>\theta_{L}$
 \end_inset
 
@@ -7234,11 +7462,13 @@ Individuals choose hours
 \begin_inset Formula $\theta_{j}h_{j}$
 \end_inset
 
-, incurring taxes 
+,
+ incurring taxes 
 \begin_inset Formula $\tau\left(\theta_{j}h_{j}\right)$
 \end_inset
 
-, leading to net of tax earning 
+,
+ leading to net of tax earning 
 \begin_inset Formula $y_{j}\equiv\theta_{j}h_{j}-\tau\left(\theta_{j}h_{j}\right)$
 \end_inset
 
@@ -7291,7 +7521,8 @@ perceived
 \begin_inset Formula $\epsilon_{j}<0$
 \end_inset
 
-: underestimate benefits of applying
+:
+ underestimate benefits of applying
 \begin_inset VSpace medskip
 \end_inset
 
@@ -7323,7 +7554,8 @@ perceived
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Framework
+Finkelstein & Notowidigdo (2019):
+ Framework
 \end_layout
 
 \end_inset
@@ -7377,7 +7609,8 @@ Disutility from applying:
 \begin_inset Formula $c$
 \end_inset
 
-: individual-specific utility cost of applying.
+:
+ individual-specific utility cost of applying.
  has distribution 
 \begin_inset Formula $f_{j}\left(c\right)$
 \end_inset
@@ -7393,7 +7626,8 @@ Disutility from applying:
 \begin_inset Formula $\bar{\Lambda}$
 \end_inset
 
-: parameter affecting utility cost
+:
+ parameter affecting utility cost
 \begin_inset VSpace medskip
 \end_inset
 
@@ -7404,7 +7638,8 @@ Disutility from applying:
 \begin_inset Formula $\kappa_{j}$
 \end_inset
 
-: how this utility cost varies across types.
+:
+ how this utility cost varies across types.
  e.g.
  ordeals can impose greater utility cost on 
 \begin_inset Formula $H$
@@ -7435,7 +7670,8 @@ Disutility from applying:
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Framework
+Finkelstein & Notowidigdo (2019):
+ Framework
 \end_layout
 
 \end_inset
@@ -7461,7 +7697,8 @@ s work
 \begin_inset Formula $h_{j}^{A}$
 \end_inset
 
- hours if they apply, 
+ hours if they apply,
+ 
 \begin_inset Formula $h_{j}^{-A}$
 \end_inset
 
@@ -7473,7 +7710,8 @@ s work
 \end_layout
 
 \begin_layout Itemize
-Low types: assume 
+Low types:
+ assume 
 \begin_inset Formula $y_{j}^{A},y_{j}^{-A}<r^{*}$
 \end_inset
 
@@ -7485,11 +7723,13 @@ Low types: assume
 \end_layout
 
 \begin_layout Itemize
-High types: assume 
+High types:
+ assume 
 \begin_inset Formula $y_{j}^{-A}>r^{*}$
 \end_inset
 
- and to get the benefit, if apply 
+ and to get the benefit,
+ if apply 
 \begin_inset Formula $h_{H}^{A}=r^{*}/\theta_{H}$
 \end_inset
 
@@ -7544,7 +7784,8 @@ V_{j} & =\mathbb{P}\left(\text{apply}\right)\mathbb{E}\left[U\left(\right)\vert\
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Framework
+Finkelstein & Notowidigdo (2019):
+ Framework
 \end_layout
 
 \end_inset
@@ -7554,9 +7795,10 @@ Finkelstein & Notowidigdo (2019): Framework
 
 \begin_deeper
 \begin_layout Itemize
-Individuals' decisions create a fiscal externality: Their hours decisions
- change tax revenue and this has a social cost that they don't internalize.
- For people who apply, the fiscal externality is 
+Individuals' decisions create a fiscal externality:
+ Their hours decisions change tax revenue and this has a social cost that they don't internalize.
+ For people who apply,
+ the fiscal externality is 
 \begin_inset Formula $G_{j}^{A}=\tau\left(h_{j}^{A}\theta_{j}\right)$
 \end_inset
 
@@ -7581,7 +7823,8 @@ where
 \begin_inset Formula $A_{j}=F_{j}\left(c^{*}\right)$
 \end_inset
 
-, the expected number of applicants of type 
+,
+ the expected number of applicants of type 
 \begin_inset Formula $j$
 \end_inset
 
@@ -7617,7 +7860,8 @@ Planner chooses tax system
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Framework
+Finkelstein & Notowidigdo (2019):
+ Framework
 \end_layout
 
 \end_inset
@@ -7631,7 +7875,8 @@ Characterize the marginal effects on welfare of the two treatments.
 \end_layout
 
 \begin_layout Itemize
-Information treatment: Increase perceived benefits by 
+Information treatment:
+ Increase perceived benefits by 
 \begin_inset Formula $d\epsilon$
 \end_inset
 
@@ -7639,11 +7884,13 @@ Information treatment: Increase perceived benefits by
 \end_layout
 
 \begin_layout Itemize
-Information plus assistance: increase benefits 
+Information plus assistance:
+ increase benefits 
 \begin_inset Formula $d\epsilon$
 \end_inset
 
- and reduce cost of applying, 
+ and reduce cost of applying,
+ 
 \begin_inset Formula $-d\bar{\Lambda}$
 \end_inset
 
@@ -7675,7 +7922,8 @@ Define:
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Framework
+Finkelstein & Notowidigdo (2019):
+ Framework
 \end_layout
 
 \end_inset
@@ -7711,7 +7959,8 @@ We can write the effect of the information treatment on welfare as
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Framework
+Finkelstein & Notowidigdo (2019):
+ Framework
 \end_layout
 
 \end_inset
@@ -7747,7 +7996,8 @@ We can write the effect of the information plus assistance treatment as
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Framework
+Finkelstein & Notowidigdo (2019):
+ Framework
 \end_layout
 
 \end_inset
@@ -7761,7 +8011,8 @@ Define targeting as
 \begin_inset Formula $e=E_{L}/\left(E_{L}+E_{H}\right)$
 \end_inset
 
-, the share of enrollees who are 
+,
+ the share of enrollees who are 
 \begin_inset Formula $L$
 \end_inset
 
@@ -7783,13 +8034,12 @@ Then a treatment
 \begin_layout Itemize
 
 \emph on
-Holding constant the change in applications due to an intervention, the
- change in social welfare in response to an improvement in targeting 
+Holding constant the change in applications due to an intervention,
+ the change in social welfare in response to an improvement in targeting 
 \begin_inset Formula $\left(de/dT>0\right)$
 \end_inset
 
- from an Information Only (or Information Plus Assistance) treatment is
- given by the following expression:
+ from an Information Only (or Information Plus Assistance) treatment is given by the following expression:
 \begin_inset Formula 
 \begin{align*}
 \left.\frac{\partial}{\partial\left(de/dT\right)}\left(\frac{dW}{dT}\right)\right|_{\frac{dA}{dT}} & =\left[\left(\mu_{L}-\mu_{H}\right)+\left(G_{L}^{A}-G_{L}^{-A}\right)-\left(G_{H}^{A}-G_{H}^{-A}\right)\right]\\
@@ -7807,12 +8057,12 @@ Note this is increasing in
 \end_inset
 
 .
- Sufficient condition for better targeting to increase private welfare is
- 
+ Sufficient condition for better targeting to increase private welfare is 
 \begin_inset Formula $\epsilon_{L}\leq\epsilon_{H}\leq0$
 \end_inset
 
- with at least 1 strict inequality, or 
+ with at least 1 strict inequality,
+ or 
 \begin_inset Formula $\epsilon_{H}=\epsilon_{L}<0$
 \end_inset
 
@@ -7832,7 +8082,8 @@ Note this is increasing in
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Empirical Setting
+Finkelstein & Notowidigdo (2019):
+ Empirical Setting
 \end_layout
 
 \end_inset
@@ -7850,9 +8101,13 @@ Work with households aged 60 or over in Pennsylvania in 2016
 \end_layout
 
 \begin_layout Itemize
-To enroll in SNAP, individuals must complete an application, provide documents
- verifying circumstances, and do an interview (in person or by phone).
- Provide info on income, various household expenses (medical expenses, rent,
+To enroll in SNAP,
+ individuals must complete an application,
+ provide documents verifying circumstances,
+ and do an interview (in person or by phone).
+ Provide info on income,
+ various household expenses (medical expenses,
+ rent,
  utilities etc).
 \begin_inset VSpace medskip
 \end_inset
@@ -7861,7 +8116,8 @@ To enroll in SNAP, individuals must complete an application, provide documents
 \end_layout
 
 \begin_layout Itemize
-Once enrolled, eligible for 36 months of benefits.
+Once enrolled,
+ eligible for 36 months of benefits.
  Benefits are a decreasing function of net income.
 \begin_inset VSpace medskip
 \end_inset
@@ -7886,7 +8142,8 @@ SNAP benefits average 15% of annual income for eligible households.
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Interventions
+Finkelstein & Notowidigdo (2019):
+ Interventions
 \end_layout
 
 \end_inset
@@ -7896,13 +8153,12 @@ Finkelstein & Notowidigdo (2019): Interventions
 
 \begin_deeper
 \begin_layout Itemize
-Partnered with Benefits Data Trust (BDT), a national non-profit working
- to help people access benefits.
+Partnered with Benefits Data Trust (BDT),
+ a national non-profit working to help people access benefits.
 \end_layout
 
 \begin_layout Itemize
-State of Pennsylvania provided BDT admin data on individuals aged >60 and
- on Medicaid but not SNAP.
+State of Pennsylvania provided BDT admin data on individuals aged >60 and on Medicaid but not SNAP.
  Likely to be eligible for SNAP.
 \end_layout
 
@@ -7911,16 +8167,17 @@ Randomized the 30K individuals into equally-sized groups.
 \end_layout
 
 \begin_layout Itemize
-Information Treatment got outreach materials informing them of likely SNAP
- eligibility and benefits they might receive, and info on how to call DHS
- to apply.
+Information Treatment got outreach materials informing them of likely SNAP eligibility and benefits they might receive,
+ and info on how to call DHS to apply.
 \end_layout
 
 \begin_layout Itemize
-Assistance component: Info Treatment contained BDT number.
- If individuals call BDT, they help with the application.
- Advise on documents, can populate and submit application on their behalf
- etc.
+Assistance component:
+ Info Treatment contained BDT number.
+ If individuals call BDT,
+ they help with the application.
+ Advise on documents,
+ can populate and submit application on their behalf etc.
 \end_layout
 
 \begin_layout Itemize
@@ -7928,8 +8185,9 @@ BDT submitted
 \begin_inset Formula $\sim70\%$
 \end_inset
 
- of applications in this treatment arm, spent on average 47 mins on phone
- with applicants, 30 with those who don't end up applying.
+ of applications in this treatment arm,
+ spent on average 47 mins on phone with applicants,
+ 30 with those who don't end up applying.
 \end_layout
 
 \end_deeper
@@ -7959,7 +8217,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename pictures/FinkelsteinNoto01.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -7993,7 +8251,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename pictures/FinkelsteinNoto02.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -8061,7 +8319,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename pictures/FinkelsteinNoto04.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -8095,7 +8353,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename pictures/FinkelsteinNoto05.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -8129,7 +8387,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename pictures/FinkelsteinNoto06.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -8163,7 +8421,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename pictures/FinkelsteinNoto07.png
 	lyxscale 50
-	height 90theight%
+	special height=0.9\textheight
 
 \end_inset
 
@@ -8197,7 +8455,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename pictures/FinkelsteinNoto08.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -8231,7 +8489,7 @@ Finkelstein & Notowidigdo (2019)
 \begin_inset Graphics
 	filename pictures/FinkelsteinNoto09.png
 	lyxscale 50
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -8251,7 +8509,8 @@ Finkelstein & Notowidigdo (2019)
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Interpreting Results
+Finkelstein & Notowidigdo (2019):
+ Interpreting Results
 \end_layout
 
 \end_inset
@@ -8304,7 +8563,8 @@ Expressions for welfare effects are as before but mechanical effect becomes
 \begin_inset Formula $B_{min}=\$16/\text{month}$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\overline{B}=\$178/\text{month}$
 \end_inset
 
@@ -8332,7 +8592,8 @@ Expressions for welfare effects are as before but mechanical effect becomes
 \end_layout
 
 \begin_layout Itemize
-Baseline: Fiscal externality is public cost of processing applications:
+Baseline:
+ Fiscal externality is public cost of processing applications:
  
 \begin_inset Formula $G_{L}^{A}=G_{H}^{A}=-g=-\$267$
 \end_inset
@@ -8345,8 +8606,7 @@ Baseline: Fiscal externality is public cost of processing applications:
 \end_layout
 
 \begin_layout Itemize
-First-order approximation to expected utility and time cost of applying
- of $75 yields 
+First-order approximation to expected utility and time cost of applying of $75 yields 
 \begin_inset Formula $\epsilon_{L}=-0.98$
 \end_inset
 
@@ -8370,7 +8630,8 @@ First-order approximation to expected utility and time cost of applying
 status open
 
 \begin_layout Plain Layout
-Finkelstein & Notowidigdo (2019): Interpreting Results
+Finkelstein & Notowidigdo (2019):
+ Interpreting Results
 \end_layout
 
 \end_inset
@@ -8414,9 +8675,7 @@ To make statements about social welfare impact of interventions need
 
 \end_deeper
 \begin_layout Itemize
-Write welfare effect as ratio of marginal benefits (private welfare increase)
- to marginal social costs (mech and fiscal externality) and use these approximat
-ions to get
+Write welfare effect as ratio of marginal benefits (private welfare increase) to marginal social costs (mech and fiscal externality) and use these approximations to get
 \size small
 
 \begin_inset Formula 
@@ -8442,11 +8701,15 @@ Targeting in Developing Countries
 
 \end_inset
 
-Targeting in Developing Countries: Who gets the Benefit?
+Targeting in Developing Countries:
+ Who gets the Benefit?
 \end_layout
 
 \begin_layout Subsection
-Alatas, Banerjee, Hanna, Olken & Tobias (AER 2012) 
+Alatas,
+ Banerjee,
+ Hanna,
+ Olken & Tobias (AER 2012) 
 \begin_inset ERT
 status open
 
@@ -8461,7 +8724,8 @@ textit{
 
 \end_inset
 
-Targeting the Poor: Evidence from a Field Experiment in Indonesia
+Targeting the Poor:
+ Evidence from a Field Experiment in Indonesia
 \begin_inset ERT
 status open
 
@@ -8480,7 +8744,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): Overview
+Alatas et al (2012):
+ Overview
 \end_layout
 
 \end_inset
@@ -8498,8 +8763,8 @@ How effective are proxy means tests (PMT) in practice in a developing country?
 \end_layout
 
 \begin_layout Itemize
-In particular, do communities know more than the proxies and can that be
- leveraged to improve targeting?
+In particular,
+ do communities know more than the proxies and can that be leveraged to improve targeting?
 \begin_inset VSpace medskip
 \end_inset
 
@@ -8507,7 +8772,8 @@ In particular, do communities know more than the proxies and can that be
 \end_layout
 
 \begin_layout Itemize
-What is the tradeoff? 
+What is the tradeoff?
+ 
 \end_layout
 
 \begin_deeper
@@ -8523,7 +8789,7 @@ Assets capture permanent income.
 \end_layout
 
 \begin_layout Itemize
-Poor PMT seen as ilegitimate by community.
+Poor PMT seen as illegitimate by community.
  
 \begin_inset VSpace medskip
 \end_inset
@@ -8568,7 +8834,8 @@ This paper does an experiment in Indonesia to explore this
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): Experimental Design
+Alatas et al (2012):
+ Experimental Design
 \end_layout
 
 \end_inset
@@ -8578,7 +8845,8 @@ Alatas et al (2012): Experimental Design
 
 \begin_deeper
 \begin_layout Itemize
-Indonesia has a large targeted cash transfer: Bantuan Langsung Tunai (BLT)
+Indonesia has a large targeted cash transfer:
+ Bantuan Langsung Tunai (BLT)
 \end_layout
 
 \begin_deeper
@@ -8587,7 +8855,8 @@ Provides $10/month to 19 million households
 \end_layout
 
 \begin_layout Itemize
-Seen as badly targeted: WB estimates 45% of funds go to nonpoor households,
+Seen as badly targeted:
+ WB estimates 45% of funds go to nonpoor households,
  47% of poor excluded.
 \begin_inset VSpace medskip
 \end_inset
@@ -8602,16 +8871,20 @@ For the experiment sample
 
 \begin_deeper
 \begin_layout Itemize
-640 villages in 3 provinces (North Sumatra, South Sulawesi, Central Java).
+640 villages in 3 provinces (North Sumatra,
+ South Sulawesi,
+ Central Java).
  
 \end_layout
 
 \begin_layout Itemize
-Within each, sample a neighborhood.
+Within each,
+ sample a neighborhood.
 \end_layout
 
 \begin_layout Itemize
-30% urban, 70% rural
+30% urban,
+ 70% rural
 \begin_inset VSpace medskip
 \end_inset
 
@@ -8620,13 +8893,13 @@ Within each, sample a neighborhood.
 
 \end_deeper
 \begin_layout Itemize
-In each village, 
+In each village,
+ 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Government and an Indonesian NGO Mitra Samya implemented an unconditional
- cash transfer.
+Government and an Indonesian NGO Mitra Samya implemented an unconditional cash transfer.
  
 \end_layout
 
@@ -8657,7 +8930,8 @@ Overall number of beneficiaries set in advance
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): Experimental Design
+Alatas et al (2012):
+ Experimental Design
 \end_layout
 
 \end_inset
@@ -8681,8 +8955,11 @@ T1
 PMT
 \emph default
 .
- Government used 49 indicators (home attributes, assets, hh composition,
- education, occupation etc) and a regression to create poverty scores.
+ Government used 49 indicators (home attributes,
+ assets,
+ hh composition,
+ education,
+ occupation etc) and a regression to create poverty scores.
  Enumerators collect this data and generate poverty scores.
  Lowest scores got the transfer.
 \end_layout
@@ -8703,9 +8980,9 @@ Community Targeting.
 
 \emph default
  Facilitator holds community meeting.
- List all households in the village and go through them one by one to rank
- them by poverty.
- After ranking finalized, quota of beneficiaries revealed.
+ List all households in the village and go through them one by one to rank them by poverty.
+ After ranking finalized,
+ quota of beneficiaries revealed.
 \end_layout
 
 \begin_layout Itemize
@@ -8746,17 +9023,18 @@ Community subtreatments:
 
 \begin_deeper
 \begin_layout Itemize
-Elite capture: Either whole community or only elite invited to the meeting
+Elite capture:
+ Either whole community or only elite invited to the meeting
 \end_layout
 
 \begin_layout Itemize
-Randomize the order in which households are ranked to test for effort effects
- (fatigue).
+Randomize the order in which households are ranked to test for effort effects (fatigue).
 \end_layout
 
 \begin_layout Itemize
-Preferences: Some meetings in the day (more women) others in the evening
- (more men), others place high emphasis on poverty.
+Preferences:
+ Some meetings in the day (more women) others in the evening (more men),
+ others place high emphasis on poverty.
 \end_layout
 
 \end_deeper
@@ -8773,7 +9051,8 @@ Preferences: Some meetings in the day (more women) others in the evening
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): Randomization
+Alatas et al (2012):
+ Randomization
 \end_layout
 
 \end_inset
@@ -8783,7 +9062,8 @@ Alatas et al (2012): Randomization
 
 \begin_deeper
 \begin_layout Itemize
-To ensure balance, create 51 strata by geography.
+To ensure balance,
+ create 51 strata by geography.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -8800,8 +9080,8 @@ Randomize 640 subvillages into the 3 main treatments.
 \end_layout
 
 \begin_layout Itemize
-Randomize the community and hybrid villages into subtreatments, stratifying
- by stratum 
+Randomize the community and hybrid villages into subtreatments,
+ stratifying by stratum 
 \begin_inset Formula $\times$
 \end_inset
 
@@ -8827,7 +9107,9 @@ Nov/Dec 2008.
 \end_layout
 
 \begin_layout Itemize
-Dec 2008/ Jan 2009: Implement treatments, create beneficiary lists
+Dec 2008/ Jan 2009:
+ Implement treatments,
+ create beneficiary lists
 \begin_inset VSpace medskip
 \end_inset
 
@@ -8835,7 +9117,9 @@ Dec 2008/ Jan 2009: Implement treatments, create beneficiary lists
 \end_layout
 
 \begin_layout Itemize
-Feb 2009: Distribute funds, interview village heads
+Feb 2009:
+ Distribute funds,
+ interview village heads
 \begin_inset VSpace medskip
 \end_inset
 
@@ -8843,7 +9127,8 @@ Feb 2009: Distribute funds, interview village heads
 \end_layout
 
 \begin_layout Itemize
-March 2009: Endline survey
+March 2009:
+ Endline survey
 \end_layout
 
 \end_deeper
@@ -8860,7 +9145,8 @@ March 2009: Endline survey
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): Randomization
+Alatas et al (2012):
+ Randomization
 \end_layout
 
 \end_inset
@@ -8894,7 +9180,8 @@ Alatas et al (2012): Randomization
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): BLT targeting
+Alatas et al (2012):
+ BLT targeting
 \end_layout
 
 \end_inset
@@ -8908,7 +9195,7 @@ Alatas et al (2012): BLT targeting
 \begin_inset Graphics
 	filename pictures/Alatas et al 2012 2.png
 	lyxscale 30
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -8928,7 +9215,8 @@ Alatas et al (2012): BLT targeting
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): Targeting Results
+Alatas et al (2012):
+ Targeting Results
 \end_layout
 
 \end_inset
@@ -8962,7 +9250,8 @@ Alatas et al (2012): Targeting Results
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): Targeting Results
+Alatas et al (2012):
+ Targeting Results
 \end_layout
 
 \end_inset
@@ -8996,7 +9285,8 @@ Alatas et al (2012): Targeting Results
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): Elite Capture
+Alatas et al (2012):
+ Elite Capture
 \end_layout
 
 \end_inset
@@ -9014,8 +9304,7 @@ Include elite subtreatment.
 \end_layout
 
 \begin_layout Itemize
-Also estimate whether households connected to the elite are more likely
- to receive the transfer.
+Also estimate whether households connected to the elite are more likely to receive the transfer.
 \begin_inset Formula 
 \begin{align*}
 ERROR_{ivk} & =\alpha+\beta_{1}COMMUNITY_{ivk}+\beta_{2}HYBRID_{ivk}\\
@@ -9048,7 +9337,7 @@ ERROR_{ivk} & =\alpha+\beta_{1}COMMUNITY_{ivk}+\beta_{2}HYBRID_{ivk}\\
 \begin_inset Graphics
 	filename pictures/Alatas et al 2012 5.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -9068,7 +9357,8 @@ ERROR_{ivk} & =\alpha+\beta_{1}COMMUNITY_{ivk}+\beta_{2}HYBRID_{ivk}\\
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2012): Alternative Welfare Metrics
+Alatas et al (2012):
+ Alternative Welfare Metrics
 \end_layout
 
 \end_inset
@@ -9085,12 +9375,12 @@ Alatas et al (2012): Alternative Welfare Metrics
 
 
 \size default
-, 
+,
+ 
 \begin_inset Formula $RANKCORR_{vkR}$
 \end_inset
 
- is rank correlation between targeting rank list and well-being measure
- 
+ is rank correlation between targeting rank list and well-being measure 
 \begin_inset Formula $R$
 \end_inset
 
@@ -9170,7 +9460,7 @@ status open
 \begin_inset Graphics
 	filename pictures/Alatas et al 2012 8.png
 	lyxscale 30
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -9213,7 +9503,11 @@ status open
 
 \end_deeper
 \begin_layout Subsection
-Alatas, Banerjee, Hanna, Olken, Purnamasari & Wai-Poi (JPE 2016) 
+Alatas,
+ Banerjee,
+ Hanna,
+ Olken,
+ Purnamasari & Wai-Poi (JPE 2016) 
 \begin_inset ERT
 status open
 
@@ -9228,7 +9522,8 @@ textit{
 
 \end_inset
 
-Self-Targeting: Evidence from a Field Experiment in Indonesia
+Self-Targeting:
+ Evidence from a Field Experiment in Indonesia
 \begin_inset ERT
 status open
 
@@ -9247,7 +9542,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Overview
+Alatas et al (2016):
+ Overview
 \end_layout
 
 \end_inset
@@ -9257,8 +9553,7 @@ Alatas et al (2016): Overview
 
 \begin_deeper
 \begin_layout Itemize
-Do application costs (ordeals a la Nichols & Zeckhauser) improve targeting
- in a developing country context?
+Do application costs (ordeals a la Nichols & Zeckhauser) improve targeting in a developing country context?
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9266,7 +9561,8 @@ Do application costs (ordeals a la Nichols & Zeckhauser) improve targeting
 \end_layout
 
 \begin_layout Itemize
-If so, how big should application costs be?
+If so,
+ how big should application costs be?
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -9282,8 +9578,7 @@ Implement an experiment in Indonesia to learn about this.
 \end_layout
 
 \begin_layout Itemize
-Use experimental results together with a model to learn about selection
- margins and effects of alternative policies.
+Use experimental results together with a model to learn about selection margins and effects of alternative policies.
 \end_layout
 
 \end_deeper
@@ -9299,7 +9594,8 @@ Use experimental results together with a model to learn about selection
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Setting
+Alatas et al (2016):
+ Setting
 \end_layout
 
 \end_inset
@@ -9309,7 +9605,8 @@ Alatas et al (2016): Setting
 
 \begin_deeper
 \begin_layout Itemize
-Study a large transfer program in Indonesia: Program Keluarga Harapan (PKH)
+Study a large transfer program in Indonesia:
+ Program Keluarga Harapan (PKH)
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9317,8 +9614,8 @@ Study a large transfer program in Indonesia: Program Keluarga Harapan (PKH)
 \end_layout
 
 \begin_layout Itemize
-Targeted at households with consumption/capita < 80% of poverty line, and
- with pregnant woman/children 0-5/children with <9 years of schooling.
+Targeted at households with consumption/capita < 80% of poverty line,
+ and with pregnant woman/children 0-5/children with <9 years of schooling.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9334,7 +9631,7 @@ Recipients get $67–$250/year (3.5–13% of avg consumption)
 \end_layout
 
 \begin_layout Itemize
-2.4 million househlods enrolled in 2013.
+2.4 million households enrolled in 2013.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9342,7 +9639,8 @@ Recipients get $67–$250/year (3.5–13% of avg consumption)
 \end_layout
 
 \begin_layout Itemize
-Targeting is hard: per-capita consumption is hard to observe.
+Targeting is hard:
+ per-capita consumption is hard to observe.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9356,7 +9654,8 @@ The government does a PMT.
 
 \begin_deeper
 \begin_layout Itemize
-Every 3 years, stats bureau does a nationwide survey.
+Every 3 years,
+ stats bureau does a nationwide survey.
 \end_layout
 
 \begin_layout Itemize
@@ -9387,7 +9686,8 @@ Generate district-level formula for predicting consumption.
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Targeting
+Alatas et al (2016):
+ Targeting
 \end_layout
 
 \end_inset
@@ -9401,7 +9701,7 @@ Alatas et al (2016): Targeting
 \begin_inset Graphics
 	filename pictures/Alatas et al 2016 1.png
 	lyxscale 40
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -9421,7 +9721,8 @@ Alatas et al (2016): Targeting
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Targeting
+Alatas et al (2016):
+ Targeting
 \end_layout
 
 \end_inset
@@ -9434,7 +9735,7 @@ Alatas et al (2016): Targeting
 \align center
 \begin_inset Graphics
 	filename pictures/Alatas et al 2016 2.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -9454,7 +9755,8 @@ Alatas et al (2016): Targeting
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Experiment Design
+Alatas et al (2016):
+ Experiment Design
 \end_layout
 
 \end_inset
@@ -9468,12 +9770,14 @@ PKH expanded to new areas in 2011
 \end_layout
 
 \begin_layout Itemize
-Work in six districts (2 each in Lampung, South Sumatra, and Central Java)
+Work in six districts (2 each in Lampung,
+ South Sumatra,
+ and Central Java)
 \end_layout
 
 \begin_layout Itemize
-randomly select 400 villages stratifying to have 30% urban, 70% rural and
- by geography.
+randomly select 400 villages stratifying to have 30% urban,
+ 70% rural and by geography.
 \end_layout
 
 \begin_layout Itemize
@@ -9490,7 +9794,8 @@ T1
 \emph on
 Automatic Screening
 \emph default
-: Government enumerators make list of potentially poor households.
+:
+ Government enumerators make list of potentially poor households.
  Administer survey.
  Computer generated scores below cutoff for that district 
 \begin_inset Formula $\rightarrow$
@@ -9512,13 +9817,15 @@ T2
  
 \emph on
 Self-Targeting:
+
 \emph default
- The test was the same, but households had to go to a central registration
- station to apply.
- Meetings held in each village to publicize the program, and emphasize that
- survey would be verified.
- On predetermined day, housholds could visit office from 8AM-5PM, get a
- number and line up for their interview.
+ The test was the same,
+ but households had to go to a central registration station to apply.
+ Meetings held in each village to publicize the program,
+ and emphasize that survey would be verified.
+ On predetermined day,
+ households could visit office from 8AM-5PM,
+ get a number and line up for their interview.
 \end_layout
 
 \begin_layout Itemize
@@ -9538,7 +9845,8 @@ Within Self-targeting treatment also cary distance between village and office.
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Experimental Design
+Alatas et al (2016):
+ Experimental Design
 \end_layout
 
 \end_inset
@@ -9571,7 +9879,8 @@ Alatas et al (2016): Experimental Design
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Timing
+Alatas et al (2016):
+ Timing
 \end_layout
 
 \end_inset
@@ -9584,7 +9893,7 @@ Alatas et al (2016): Timing
 \align center
 \begin_inset Graphics
 	filename pictures/Alatas et al 2016 4.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -9604,7 +9913,8 @@ Alatas et al (2016): Timing
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Model
+Alatas et al (2016):
+ Model
 \end_layout
 
 \end_inset
@@ -9615,7 +9925,8 @@ Alatas et al (2016): Model
 \begin_deeper
 \begin_layout Itemize
 Households live for two periods.
- risk neutral, care about consumption.
+ risk neutral,
+ care about consumption.
 \end_layout
 
 \begin_layout Itemize
@@ -9628,7 +9939,8 @@ Per-period income of
 \begin_inset Formula $y^{o}$
 \end_inset
 
- is observable to the government, so 
+ is observable to the government,
+ so 
 \begin_inset Formula $y=y^{o}+y^{u}$
 \end_inset
 
@@ -9648,11 +9960,13 @@ Applying for the transfer costs
 \end_layout
 
 \begin_layout Itemize
-If apply, receive the transfer with probability 
+If apply,
+ receive the transfer with probability 
 \begin_inset Formula $\mu\left(y^{o}\right)$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\mu^{\prime}\leq0$
 \end_inset
 
@@ -9665,7 +9979,8 @@ Even observable income measured with error by PMT so
 \begin_inset Formula $\mu\left(y^{o}\right)=\mathbb{P}\left(y^{o}+\pi<y^{*}\right)$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $\pi$
 \end_inset
 
@@ -9678,7 +9993,8 @@ Even observable income measured with error by PMT so
 
 \begin_deeper
 \begin_layout Itemize
-sophisticated: Understand 
+sophisticated:
+ Understand 
 \begin_inset Formula $\mu\left(y^{o}\right)$
 \end_inset
 
@@ -9686,7 +10002,8 @@ sophisticated: Understand
 \end_layout
 
 \begin_layout Itemize
-unsophisticated: Know 
+unsophisticated:
+ Know 
 \begin_inset Formula $\lambda\left(y\right)$
 \end_inset
 
@@ -9732,7 +10049,8 @@ Households also get a utility shock
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Application decision
+Alatas et al (2016):
+ Application decision
 \end_layout
 
 \end_inset
@@ -9766,7 +10084,8 @@ y-c\left(l,y\right)+\lambda\left(y\right)\delta\left(y+b\right)+\left[1-\lambda\
 \end_layout
 
 \begin_layout Itemize
-If households don't apply, they have EU 
+If households don't apply,
+ they have EU 
 \begin_inset Formula $y+\delta y$
 \end_inset
 
@@ -9786,7 +10105,8 @@ Expected gain from applying for the sophisticated hhs is
 \end_layout
 
 \begin_layout Itemize
-For unsophisticated, it's
+For unsophisticated,
+ it's
 \begin_inset Formula 
 \[
 -c\left(l,y\right)+\lambda\left(y\right)\delta b+\varepsilon\equiv h\left(y,l\right)+\varepsilon
@@ -9810,7 +10130,8 @@ For unsophisticated, it's
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Application decision
+Alatas et al (2016):
+ Application decision
 \end_layout
 
 \end_inset
@@ -9867,7 +10188,8 @@ where
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Application cost
+Alatas et al (2016):
+ Application cost
 \end_layout
 
 \end_inset
@@ -9877,7 +10199,8 @@ Alatas et al (2016): Application cost
 
 \begin_deeper
 \begin_layout Itemize
-Simple benchmark: 
+Simple benchmark:
+ 
 \end_layout
 
 \begin_deeper
@@ -9957,7 +10280,8 @@ Consider
 \begin_inset Formula $y_{2}>y_{1}$
 \end_inset
 
-: They show up at relative rates
+:
+ They show up at relative rates
 \begin_inset Formula 
 \[
 \frac{1-F\left(\tau l\phi y_{1}-\delta\lambda\left(y_{1}\right)b\right)}{1-F\left(\tau l\phi y_{2}-\delta\lambda\left(y_{2}\right)b\right)}
@@ -9965,7 +10289,8 @@ Consider
 
 \end_inset
 
-the higher this is, the better targeted the transfer
+the higher this is,
+ the better targeted the transfer
 \end_layout
 
 \end_deeper
@@ -9981,7 +10306,8 @@ the higher this is, the better targeted the transfer
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Application cost
+Alatas et al (2016):
+ Application cost
 \end_layout
 
 \end_inset
@@ -9995,7 +10321,9 @@ Now consider increasing the ordeal
 \begin_inset Formula $l$
 \end_inset
 
-: Differentiating, targeting improves iff
+:
+ Differentiating,
+ targeting improves iff
 \begin_inset Formula 
 \[
 \frac{f\left(\tau l\phi y_{2}-\delta\lambda\left(y_{2}\right)b\right)}{1-F\left(\tau l\phi y_{2}-\delta\lambda\left(y_{2}\right)b\right)}\tau\phi y_{2}-\frac{f\left(\tau l\phi y_{1}-\delta\lambda\left(y_{1}\right)b\right)}{1-F\left(\tau l\phi y_{1}-\delta\lambda\left(y_{1}\right)b\right)}\tau\phi y_{1}>0
@@ -10007,8 +10335,8 @@ Now consider increasing the ordeal
 \end_layout
 
 \begin_layout Itemize
-More generally, a sufficient condition for targeting efficiency to be improving
- as 
+More generally,
+ a sufficient condition for targeting efficiency to be improving as 
 \begin_inset Formula $l$
 \end_inset
 
@@ -10032,7 +10360,8 @@ This rules out thick tailed income distributions.
 \end_layout
 
 \begin_layout Itemize
-More generally, shows that single crossing 
+More generally,
+ shows that single crossing 
 \begin_inset Formula $\left(c_{ly}>0\right)$
 \end_inset
 
@@ -10052,7 +10381,8 @@ More generally, shows that single crossing
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Nonlinear application cost
+Alatas et al (2016):
+ Nonlinear application cost
 \end_layout
 
 \end_inset
@@ -10067,32 +10397,41 @@ Application costs may affect poor and rich households differently.
 \end_layout
 
 \begin_layout Itemize
-To capture this, put a kink in the application cost: There are two ways
- to get to the office, by bus or walking.
+To capture this,
+ put a kink in the application cost:
+ There are two ways to get to the office,
+ by bus or walking.
 \end_layout
 
 \begin_layout Itemize
-Walking: calorie cost 
+Walking:
+ calorie cost 
 \begin_inset Formula $\gamma l$
 \end_inset
 
-; time cost 
+;
+ time cost 
 \begin_inset Formula $\tau lw$
 \end_inset
 
-: slow but cheap
+:
+ slow but cheap
 \end_layout
 
 \begin_layout Itemize
-Bus: fixed cost 
+Bus:
+ fixed cost 
 \begin_inset Formula $\nu$
 \end_inset
 
-; time cost 
+;
+ time cost 
 \begin_inset Formula $\lambda w$
 \end_inset
 
-: fast but costly: 
+:
+ fast but costly:
+ 
 \begin_inset Formula $\lambda<\tau$
 \end_inset
 
@@ -10135,7 +10474,8 @@ Effect of change in
 \begin_inset Formula $l$
 \end_inset
 
- also stronger for people who walk, who are on average poorer.
+ also stronger for people who walk,
+ who are on average poorer.
 \end_layout
 
 \end_deeper
@@ -10151,7 +10491,8 @@ Effect of change in
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Sophistication
+Alatas et al (2016):
+ Sophistication
 \end_layout
 
 \end_inset
@@ -10187,7 +10528,8 @@ How does unobserved income
 
 \begin_deeper
 \begin_layout Itemize
-For sophisticated hhs, only effect is through 
+For sophisticated hhs,
+ only effect is through 
 \begin_inset Formula $c\left(l,y^{o}+y^{u}\right)$
 \end_inset
 
@@ -10195,7 +10537,8 @@ For sophisticated hhs, only effect is through
 \end_layout
 
 \begin_layout Itemize
-For unsophisticated, both through 
+For unsophisticated,
+ both through 
 \begin_inset Formula $\lambda\left(y^{o}+y^{u}\right)$
 \end_inset
 
@@ -10224,8 +10567,7 @@ expect more selection on unobservables for unsophisticated HHs
 
 \end_deeper
 \begin_layout Itemize
-Selection on unobservables is good though when income is poorly observed
- by PMT:
+Selection on unobservables is good though when income is poorly observed by PMT:
 \end_layout
 
 \begin_deeper
@@ -10250,7 +10592,8 @@ status open
 
 \end_inset
 
- benefit of unsophisticated households? Secret PMT formula?
+ benefit of unsophisticated households?
+ Secret PMT formula?
 \end_layout
 
 \end_deeper
@@ -10267,7 +10610,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Self-Selection
+Alatas et al (2016):
+ Self-Selection
 \end_layout
 
 \end_inset
@@ -10280,7 +10624,7 @@ Alatas et al (2016): Self-Selection
 \align center
 \begin_inset Graphics
 	filename pictures/Alatas et al 2016 5.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10300,7 +10644,8 @@ Alatas et al (2016): Self-Selection
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Selection on Observables
+Alatas et al (2016):
+ Selection on Observables
 \end_layout
 
 \end_inset
@@ -10313,7 +10658,7 @@ Alatas et al (2016): Selection on Observables
 \align center
 \begin_inset Graphics
 	filename pictures/Alatas et al 2016 6.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10333,7 +10678,8 @@ Alatas et al (2016): Selection on Observables
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Selection on Unobservables
+Alatas et al (2016):
+ Selection on Unobservables
 \end_layout
 
 \end_inset
@@ -10346,7 +10692,7 @@ Alatas et al (2016): Selection on Unobservables
 \align center
 \begin_inset Graphics
 	filename pictures/Alatas et al 2016 7.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10366,7 +10712,8 @@ Alatas et al (2016): Selection on Unobservables
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Self-Selection
+Alatas et al (2016):
+ Self-Selection
 \end_layout
 
 \end_inset
@@ -10376,7 +10723,8 @@ Alatas et al (2016): Self-Selection
 
 \begin_deeper
 \begin_layout Itemize
-Logit: 
+Logit:
+ 
 \begin_inset Formula $\mathbb{P}\left(\text{show-up}_{i}=1\right)=\exp\left(\alpha+\gamma y_{i}^{o}+\psi y_{i}^{u}\right)/1+\exp\left(\alpha+\gamma y_{i}^{o}+\psi y_{i}^{u}\right)$
 \end_inset
 
@@ -10407,7 +10755,8 @@ Logit:
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Self-Targeting vs Automatic
+Alatas et al (2016):
+ Self-Targeting vs Automatic
 \end_layout
 
 \end_inset
@@ -10420,7 +10769,7 @@ Alatas et al (2016): Self-Targeting vs Automatic
 \align center
 \begin_inset Graphics
 	filename pictures/Alatas et al 2016 9.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -10440,7 +10789,8 @@ Alatas et al (2016): Self-Targeting vs Automatic
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Self-Targeting vs Automatic
+Alatas et al (2016):
+ Self-Targeting vs Automatic
 \end_layout
 
 \end_inset
@@ -10484,7 +10834,8 @@ Alatas et al (2016): Self-Targeting vs Automatic
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Changing the Ordeal
+Alatas et al (2016):
+ Changing the Ordeal
 \end_layout
 
 \end_inset
@@ -10529,7 +10880,8 @@ Compare far (average 1.83 km) to close (0.27 km) subtreatments
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Model and Mechanisms
+Alatas et al (2016):
+ Model and Mechanisms
 \end_layout
 
 \end_inset
@@ -10567,7 +10919,8 @@ Assumptions:
 \end_layout
 
 \begin_layout Itemize
-Unsophisticated beliefs: probit 
+Unsophisticated beliefs:
+ probit 
 \begin_inset Formula $\lambda\left(y\right)=\Phi\left(\gamma+\pi y\right)$
 \end_inset
 
@@ -10597,7 +10950,8 @@ status open
 
 \end_inset
 
-5 parameters to fit: 
+5 parameters to fit:
+ 
 \begin_inset Formula $v_{\varepsilon},\sigma_{\varepsilon},\alpha,\lambda\left(y\right),\gamma,\pi$
 \end_inset
 
@@ -10609,7 +10963,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Speciffy 
+Specify 
 \begin_inset Formula $c\left(y_{i},l_{i}\right)=\text{wage}_{i}\times\left(\text{traveltime}_{i}+\text{waitingtime}\right)+\text{travelmoney}_{i}$
 \end_inset
 
@@ -10629,7 +10983,8 @@ Speciffy
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Model and Mechanisms
+Alatas et al (2016):
+ Model and Mechanisms
 \end_layout
 
 \end_inset
@@ -10714,7 +11069,8 @@ Show-up rates in top/bottom quartiles of distance
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Model Parameters
+Alatas et al (2016):
+ Model Parameters
 \end_layout
 
 \end_inset
@@ -10747,7 +11103,8 @@ Alatas et al (2016): Model Parameters
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Mechanisms
+Alatas et al (2016):
+ Mechanisms
 \end_layout
 
 \end_inset
@@ -10791,7 +11148,8 @@ Alatas et al (2016): Mechanisms
 status open
 
 \begin_layout Plain Layout
-Alatas et al (2016): Alternative Policies
+Alatas et al (2016):
+ Alternative Policies
 \end_layout
 
 \end_inset
@@ -10839,8 +11197,8 @@ textit{
 
 \end_inset
 
-The (lack of) Distortionary Effects of Proxy-Means Tests: Results from a
- Nationwide Experiment in Indonesia
+The (lack of) Distortionary Effects of Proxy-Means Tests:
+ Results from a Nationwide Experiment in Indonesia
 \begin_inset ERT
 status open
 
@@ -10859,7 +11217,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Overview
+Banerjee et al (2018):
+ Overview
 \end_layout
 
 \end_inset
@@ -10877,8 +11236,8 @@ Proxy-means tests are a very common way to target transfers.
 \end_layout
 
 \begin_layout Itemize
-We might expect that these tests induce behavioral responses, distorting
- consumption baskets.
+We might expect that these tests induce behavioral responses,
+ distorting consumption baskets.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -10936,7 +11295,8 @@ Look at administrative data on sales to assess
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Setting
+Banerjee et al (2018):
+ Setting
 \end_layout
 
 \end_inset
@@ -10946,8 +11306,7 @@ Banerjee et al (2018): Setting
 
 \begin_deeper
 \begin_layout Itemize
-Indonesia conducts nationwide censuses of the poor approximately every 3
- years.
+Indonesia conducts nationwide censuses of the poor approximately every 3 years.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -10955,8 +11314,7 @@ Indonesia conducts nationwide censuses of the poor approximately every 3
 \end_layout
 
 \begin_layout Itemize
-Proxy-means testing determines households' eligibility for transfer programs
- from cash transfers to health insurance.
+Proxy-means testing determines households' eligibility for transfer programs from cash transfers to health insurance.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -10964,8 +11322,10 @@ Proxy-means testing determines households' eligibility for transfer programs
 \end_layout
 
 \begin_layout Itemize
-Most recent census: June-August 2015, covered 25 mn households, 92 mn individual
-s.
+Most recent census:
+ June-August 2015,
+ covered 25 mn households,
+ 92 mn individuals.
 \begin_inset VSpace medskip
 \end_inset
 
@@ -10973,12 +11333,14 @@ s.
 \end_layout
 
 \begin_layout Itemize
-Experiment: Add 2 questions to the survey:
+Experiment:
+ Add 2 questions to the survey:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-either: Q on flat-screen TV ownership or # rooms in the house
+either:
+ Q on flat-screen TV ownership or # rooms in the house
 \begin_inset VSpace medskip
 \end_inset
 
@@ -10986,7 +11348,8 @@ either: Q on flat-screen TV ownership or # rooms in the house
 \end_layout
 
 \begin_layout Enumerate
-either: Q on # active SIM cards or whether have 
+either:
+ Q on # active SIM cards or whether have 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11003,8 +11366,7 @@ swan neck
 
 \end_deeper
 \begin_layout Itemize
-Households probably believe that these additional questions will be used
- to determine benefit eligibility
+Households probably believe that these additional questions will be used to determine benefit eligibility
 \begin_inset VSpace medskip
 \end_inset
 
@@ -11040,7 +11402,8 @@ Randomized across the 34 provinces (stratifying by 5 regions).
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Randomization
+Banerjee et al (2018):
+ Randomization
 \end_layout
 
 \end_inset
@@ -11073,7 +11436,8 @@ Banerjee et al (2018): Randomization
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Data
+Banerjee et al (2018):
+ Data
 \end_layout
 
 \end_inset
@@ -11087,8 +11451,7 @@ Use 3 main datasets
 \end_layout
 
 \begin_layout Enumerate
-household survey data (SUSENAS) for March 2016 and March 2017 (300k households
- each).
+household survey data (SUSENAS) for March 2016 and March 2017 (300k households each).
  Worked with Statistics agency to add relevant questions.
 \begin_inset VSpace bigskip
 \end_inset
@@ -11110,8 +11473,7 @@ month.
 \end_layout
 
 \begin_layout Enumerate
-Yearly active SIM cards by province for 2015–2017 from Ministry of Information
- and Communications.
+Yearly active SIM cards by province for 2015–2017 from Ministry of Information and Communications.
 \end_layout
 
 \end_deeper
@@ -11127,7 +11489,8 @@ Yearly active SIM cards by province for 2015–2017 from Ministry of Information
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Effect on Self-Reported Assets
+Banerjee et al (2018):
+ Effect on Self-Reported Assets
 \end_layout
 
 \end_inset
@@ -11194,13 +11557,14 @@ Include strata fixed effects
 \end_layout
 
 \begin_layout Enumerate
-Code 1,388 asset variables from 2007-2015 SUSENAS surveys and average by
- district 
+Code 1,388 asset variables from 2007-2015 SUSENAS surveys and average by district 
 \begin_inset Formula $\times$
 \end_inset
 
  urbanization.
- Use double-LASSO to select controls (Belloni, Chernozhukov & Hansen, 2014)
+ Use double-LASSO to select controls (Belloni,
+ Chernozhukov & Hansen,
+ 2014)
 \end_layout
 
 \end_deeper
@@ -11217,7 +11581,8 @@ Code 1,388 asset variables from 2007-2015 SUSENAS surveys and average by
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Effect on Self-Reported Assets
+Banerjee et al (2018):
+ Effect on Self-Reported Assets
 \end_layout
 
 \end_inset
@@ -11230,7 +11595,7 @@ Banerjee et al (2018): Effect on Self-Reported Assets
 \align center
 \begin_inset Graphics
 	filename pictures/BanerjeeEtAl2018_03.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -11250,7 +11615,8 @@ Banerjee et al (2018): Effect on Self-Reported Assets
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Effect on Self-Reported Assets
+Banerjee et al (2018):
+ Effect on Self-Reported Assets
 \end_layout
 
 \end_inset
@@ -11263,7 +11629,7 @@ Banerjee et al (2018): Effect on Self-Reported Assets
 \align center
 \begin_inset Graphics
 	filename pictures/BanerjeeEtAl2018_04.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -11283,7 +11649,8 @@ Banerjee et al (2018): Effect on Self-Reported Assets
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Effect on Self-Reported Assets
+Banerjee et al (2018):
+ Effect on Self-Reported Assets
 \end_layout
 
 \end_inset
@@ -11293,14 +11660,15 @@ Banerjee et al (2018): Effect on Self-Reported Assets
 
 \begin_deeper
 \begin_layout Itemize
-Why only lie for TV? Redo PMT adding in these 4 attributes.
+Why only lie for TV?
+ Redo PMT adding in these 4 attributes.
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename pictures/BanerjeeEtAl2018_02.png
-	height 88theight%
+	special height=0.88\textheight
 
 \end_inset
 
@@ -11320,7 +11688,8 @@ Why only lie for TV? Redo PMT adding in these 4 attributes.
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Effect on Asset Acquisition
+Banerjee et al (2018):
+ Effect on Asset Acquisition
 \end_layout
 
 \end_inset
@@ -11351,7 +11720,10 @@ where
 \begin_inset Formula $g$
 \end_inset
 
- (TV-cell, TV-toilet, room-cell, room-toilet)
+ (TV-cell,
+ TV-toilet,
+ room-cell,
+ room-toilet)
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -11387,7 +11759,8 @@ panel-corrected model with AR(1) errors.
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Effect on Asset Acquisition
+Banerjee et al (2018):
+ Effect on Asset Acquisition
 \end_layout
 
 \end_inset
@@ -11400,7 +11773,7 @@ Banerjee et al (2018): Effect on Asset Acquisition
 \align center
 \begin_inset Graphics
 	filename pictures/BanerjeeEtAl2018_05.png
-	height 90theight%
+	special height=0.9\textheight
 
 \end_inset
 
@@ -11420,7 +11793,8 @@ Banerjee et al (2018): Effect on Asset Acquisition
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Effect on Asset Acquisition
+Banerjee et al (2018):
+ Effect on Asset Acquisition
 \end_layout
 
 \end_inset
@@ -11454,7 +11828,8 @@ in province-level data separately in each year.
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Effect on Asset Acquisition
+Banerjee et al (2018):
+ Effect on Asset Acquisition
 \end_layout
 
 \end_inset
@@ -11467,7 +11842,7 @@ Banerjee et al (2018): Effect on Asset Acquisition
 \align center
 \begin_inset Graphics
 	filename pictures/BanerjeeEtAl2018_06.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -11487,7 +11862,8 @@ Banerjee et al (2018): Effect on Asset Acquisition
 status open
 
 \begin_layout Plain Layout
-Banerjee et al (2018): Effect on Asset Acquisition
+Banerjee et al (2018):
+ Effect on Asset Acquisition
 \end_layout
 
 \end_inset
@@ -11509,7 +11885,10 @@ Banerjee et al (2018): Effect on Asset Acquisition
 
 \end_deeper
 \begin_layout Subsection
-Haushofer, Niehaus, Paramo, Miguel & Walker (2022) 
+Haushofer,
+ Niehaus,
+ Paramo,
+ Miguel & Walker (2022) 
 \begin_inset ERT
 status open
 
@@ -11543,7 +11922,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Motivation
+Haushofer Et Al (2022):
+ Motivation
 \end_layout
 
 \end_inset
@@ -11562,26 +11942,29 @@ deprived
 \begin_inset Quotes erd
 \end_inset
 
- (low wealth/consumption/living standards etc) households (Alatas et al
- 2012; Blumenstock et al 2015; Brown et al 2018; hanna & Olken 2018,...)
+ (low wealth/consumption/living standards etc) households (Alatas et al 2012;
+ Blumenstock et al 2015;
+ Brown et al 2018;
+ hanna & Olken 2018,...)
 \end_layout
 
 \begin_layout Itemize
 But there's more to it than just looking for currently deprived households.
- In general we also want to consider how much each household would benefit
- from assistance.
+ In general we also want to consider how much each household would benefit from assistance.
 \end_layout
 
 \begin_layout Itemize
-Accumulating evidence of heterogeneous treatment effects, even of cash assistanc
-e (de Mel et al 2008; Hussam et al 2022; Haushofer & Shapiro 2016)
+Accumulating evidence of heterogeneous treatment effects,
+ even of cash assistance (de Mel et al 2008;
+ Hussam et al 2022;
+ Haushofer & Shapiro 2016)
 \end_layout
 
 \begin_layout Itemize
 This paper combines these insights.
- Build on ML methods to identify heterogeneity of treatment effects (Wager
- & Athey 2018; Chernozukhov et al 2018; Athey et al 2019) and conceptual
- framework to think about targeting on deprivation or on impact.
+ Build on ML methods to identify heterogeneity of treatment effects (Wager & Athey 2018;
+ Chernozukhov et al 2018;
+ Athey et al 2019) and conceptual framework to think about targeting on deprivation or on impact.
 \end_layout
 
 \end_deeper
@@ -11597,7 +11980,8 @@ This paper combines these insights.
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Model
+Haushofer Et Al (2022):
+ Model
 \end_layout
 
 \end_inset
@@ -11623,7 +12007,8 @@ where
 \begin_inset Formula $Y_{h,t}$
 \end_inset
 
- is outcome (consumption, wealth etc) in period 
+ is outcome (consumption,
+ wealth etc) in period 
 \begin_inset Formula $t$
 \end_inset
 
@@ -11691,7 +12076,8 @@ where
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Model
+Haushofer Et Al (2022):
+ Model
 \end_layout
 
 \end_inset
@@ -11713,7 +12099,8 @@ Government can't observe each household's
 \end_layout
 
 \begin_layout Itemize
-Instead, observe 
+Instead,
+ observe 
 \end_layout
 
 \begin_deeper
@@ -11726,7 +12113,8 @@ baseline covariates
 \end_layout
 
 \begin_layout Itemize
-Realized outcomes from an experimental sub-sample: 
+Realized outcomes from an experimental sub-sample:
+ 
 \begin_inset Formula $Y_{h,t}^{T_{h}}$
 \end_inset
 
@@ -11743,7 +12131,8 @@ Select a rule
 \end_layout
 
 \begin_layout Itemize
-With the experimental data, the planner can form predictions
+With the experimental data,
+ the planner can form predictions
 \begin_inset Formula 
 \begin{align*}
 \hat{Y}_{t}^{0}\left(X_{h}\right) & \text{ of }\mathbb{E}\left[Y_{h,t}^{0}\vert X_{h},t\right]\\
@@ -11768,7 +12157,8 @@ With the experimental data, the planner can form predictions
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Model
+Haushofer Et Al (2022):
+ Model
 \end_layout
 
 \end_inset
@@ -11778,7 +12168,8 @@ Haushofer Et Al (2022): Model
 
 \begin_deeper
 \begin_layout Itemize
-With the predictions, the planner can target.
+With the predictions,
+ the planner can target.
 \end_layout
 
 \begin_layout Itemize
@@ -11795,7 +12186,8 @@ r^{D}\left(X_{h}\right)=\mathbf{1}\left(\hat{Y}_{0}^{0}\left(X_{h}\right)\leq q_
 \end_layout
 
 \begin_layout Itemize
-or; e.g.
+or;
+ e.g.
  target impact:
 \begin_inset Formula 
 \[
@@ -11833,7 +12225,8 @@ r^{*}\left(X_{h}\right) & =\mathbf{1}\left(d\hat{W}_{h}\geq q_{1-\phi}^{d\hat{W}
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Intervention
+Haushofer Et Al (2022):
+ Intervention
 \end_layout
 
 \end_inset
@@ -11859,7 +12252,8 @@ GD defines households with thatched roofs as eligible
 \end_inset
 
  35-40% of hhs eligible.
- Eligible hhs receive $1,000: 75% of mean annual expenditures
+ Eligible hhs receive $1,000:
+ 75% of mean annual expenditures
 \end_layout
 
 \begin_layout Itemize
@@ -11868,12 +12262,15 @@ GD defines households with thatched roofs as eligible
 
 \begin_deeper
 \begin_layout Enumerate
-randomly assign 33 sub-locations to high saturation, 35 to low-saturation
+randomly assign 33 sub-locations to high saturation,
+ 35 to low-saturation
 \end_layout
 
 \begin_layout Enumerate
-in High saturation sub-locations, 2/3 villages treated.
- In low, 1/3.
+in High saturation sub-locations,
+ 2/3 villages treated.
+ In low,
+ 1/3.
 \end_layout
 
 \end_deeper
@@ -11882,8 +12279,10 @@ Baseline and endline surveys
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- 4,749 eligible households with both baseline & endline data on PMT inputs
- (hh size, children's ages, asset ownership, employment status etc)
+ 4,749 eligible households with both baseline & endline data on PMT inputs (hh size,
+ children's ages,
+ asset ownership,
+ employment status etc)
 \end_layout
 
 \end_deeper
@@ -11899,7 +12298,8 @@ Baseline and endline surveys
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Empirical Approach
+Haushofer Et Al (2022):
+ Empirical Approach
 \end_layout
 
 \end_inset
@@ -11909,7 +12309,9 @@ Haushofer Et Al (2022): Empirical Approach
 
 \begin_deeper
 \begin_layout Itemize
-Split data into 4 parts: Hi/Lo deprivation; and Hi/Lo impact:
+Split data into 4 parts:
+ Hi/Lo deprivation;
+ and Hi/Lo impact:
 \begin_inset Newline newline
 \end_inset
 
@@ -11944,7 +12346,8 @@ Use
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Empirical Approach
+Haushofer Et Al (2022):
+ Empirical Approach
 \end_layout
 
 \end_inset
@@ -11966,8 +12369,7 @@ Learn Conditional Average Treatment Effect (CATE) function
 \begin_inset Formula $\mathbb{E}\left[Y_{h,t}^{1}-Y_{h,t}^{0}\vert X_{h},t\right]$
 \end_inset
 
- through causal forests using generalized random forests (GRF) by Athey
- et al (2019)
+ through causal forests using generalized random forests (GRF) by Athey et al (2019)
 \end_layout
 
 \begin_layout Itemize
@@ -11991,10 +12393,12 @@ predicted
 \end_layout
 
 \begin_layout Itemize
-This creates a problem: We classified households using predictions, so we
- will tend to suffer from a 
+This creates a problem:
+ We classified households using predictions,
+ so we will tend to suffer from a 
 \emph on
-winner's curse: 
+winner's curse:
+ 
 \emph default
 Large outliers drive classification.
  e.g.
@@ -12002,8 +12406,8 @@ Large outliers drive classification.
 \begin_inset Formula $Y_{h}^{0}-\hat{Y}_{h}^{0}$
 \end_inset
 
- will tend to be classified as deprived, but then we'll overestimate deprivation
- of deprived group.
+ will tend to be classified as deprived,
+ but then we'll overestimate deprivation of deprived group.
 \end_layout
 
 \end_deeper
@@ -12019,7 +12423,8 @@ Large outliers drive classification.
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Empirical Approach
+Haushofer Et Al (2022):
+ Empirical Approach
 \end_layout
 
 \end_inset
@@ -12054,8 +12459,8 @@ Bootstrap confidence intervals
 \end_layout
 
 \begin_layout Enumerate
-Follow Chernozukhov et al (2018): CIs implied by median standard errors
- of OLS averages across replications
+Follow Chernozukhov et al (2018):
+ CIs implied by median standard errors of OLS averages across replications
 \end_layout
 
 \begin_layout Enumerate
@@ -12076,7 +12481,8 @@ Randomization inference CI under sharp null of no heterogeneity
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Results
+Haushofer Et Al (2022):
+ Results
 \end_layout
 
 \end_inset
@@ -12089,7 +12495,7 @@ Haushofer Et Al (2022): Results
 \align center
 \begin_inset Graphics
 	filename pictures/HaushoferEtAl2022_02.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -12109,7 +12515,8 @@ Haushofer Et Al (2022): Results
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Results
+Haushofer Et Al (2022):
+ Results
 \end_layout
 
 \end_inset
@@ -12122,7 +12529,7 @@ Haushofer Et Al (2022): Results
 \align center
 \begin_inset Graphics
 	filename pictures/HaushoferEtAl2022_03.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -12142,7 +12549,8 @@ Haushofer Et Al (2022): Results
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Results
+Haushofer Et Al (2022):
+ Results
 \end_layout
 
 \end_inset
@@ -12154,7 +12562,7 @@ Haushofer Et Al (2022): Results
 \begin_layout Standard
 \begin_inset Graphics
 	filename pictures/HaushoferEtAl2022_04.png
-	height 97theight%
+	special height=0.97\textheight
 
 \end_inset
 
@@ -12174,7 +12582,8 @@ Haushofer Et Al (2022): Results
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): Optimal Policy
+Haushofer Et Al (2022):
+ Optimal Policy
 \end_layout
 
 \end_inset
@@ -12226,7 +12635,8 @@ Haushofer Et Al (2022): Optimal Policy
 status open
 
 \begin_layout Plain Layout
-Haushofer Et Al (2022): In the Paper...
+Haushofer Et Al (2022):
+ In the Paper...
 \end_layout
 
 \end_inset
@@ -12262,11 +12672,15 @@ Transfer Design
 
 \end_inset
 
-Transfer Design: What is the Benefit?
+Transfer Design:
+ What is the Benefit?
 \end_layout
 
 \begin_layout Subsection
-Bryan, Chowdhury, Mobarak, Morten & Smits (2021) 
+Bryan,
+ Chowdhury,
+ Mobarak,
+ Morten & Smits (2021) 
 \begin_inset ERT
 status open
 
@@ -12300,7 +12714,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Bryan Et Al (2021): Motivation
+Bryan Et Al (2021):
+ Motivation
 \end_layout
 
 \end_inset
@@ -12328,8 +12743,8 @@ better
 \end_layout
 
 \begin_layout Itemize
-If the behavior has a social benefit larger than its cost and would not
- be undertaken in the absence of the condition, CCT can be better than UCT
+If the behavior has a social benefit larger than its cost and would not be undertaken in the absence of the condition,
+ CCT can be better than UCT
 \end_layout
 
 \begin_layout Itemize
@@ -12342,13 +12757,11 @@ But CCT also requires monitoring compliance with the condition.
 \end_layout
 
 \begin_layout Itemize
-Economic theory also suggests CCT can be distortionary if households undertake
- behavior with higher social cost than benefit in order to satisfy conditions
+Economic theory also suggests CCT can be distortionary if households undertake behavior with higher social cost than benefit in order to satisfy conditions
 \end_layout
 
 \begin_layout Itemize
-This paper presents theory and an experiment on migration to study these
- issues.
+This paper presents theory and an experiment on migration to study these issues.
 \end_layout
 
 \end_deeper
@@ -12364,7 +12777,8 @@ This paper presents theory and an experiment on migration to study these
 status open
 
 \begin_layout Plain Layout
-Bryan Et Al (2021): Theory
+Bryan Et Al (2021):
+ Theory
 \end_layout
 
 \end_inset
@@ -12403,7 +12817,8 @@ social
 \begin_inset Formula $i$
 \end_inset
 
- migrating, measured in $
+ migrating,
+ measured in $
 \end_layout
 
 \begin_layout Itemize
@@ -12422,6 +12837,7 @@ perceived
 
 \series bold
 Under-investment:
+
 \series default
  
 \begin_inset Formula $z_{i}\geq0$
@@ -12431,7 +12847,8 @@ Under-investment:
 \begin_inset Formula $\hat{z}_{i}<0$
 \end_inset
 
-: Household 
+:
+ Household 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12439,13 +12856,15 @@ should
 \begin_inset Quotes erd
 \end_inset
 
- migrate, but does not
+ migrate,
+ but does not
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Over-investment: 
+Over-investment:
+ 
 \series default
 
 \begin_inset Formula $z_{i}<0$
@@ -12455,7 +12874,8 @@ Over-investment:
 \begin_inset Formula $\hat{z}_{i}\geq0$
 \end_inset
 
-: Household 
+:
+ Household 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12463,11 +12883,13 @@ shouldn't
 \begin_inset Quotes erd
 \end_inset
 
- migrate, but it does
+ migrate,
+ but it does
 \end_layout
 
 \begin_layout Itemize
-Model can capture behavioral biases, (network) externalities etc.
+Model can capture behavioral biases,
+ (network) externalities etc.
 \end_layout
 
 \end_deeper
@@ -12483,7 +12905,8 @@ Model can capture behavioral biases, (network) externalities etc.
 status open
 
 \begin_layout Plain Layout
-Bryan Et Al (2021): Theory
+Bryan Et Al (2021):
+ Theory
 \end_layout
 
 \end_inset
@@ -12493,8 +12916,7 @@ Bryan Et Al (2021): Theory
 
 \begin_deeper
 \begin_layout Itemize
-Assume away income effects and we can consider a CCT that pays households
- 
+Assume away income effects and we can consider a CCT that pays households 
 \begin_inset Formula $m$
 \end_inset
 
@@ -12544,13 +12966,15 @@ distortionary effect
 \begin_layout Itemize
 
 \emph on
-Claim: 
+Claim:
+ 
 \emph default
 In a community of 
 \begin_inset Formula $N$
 \end_inset
 
- households, order them such that 
+ households,
+ order them such that 
 \begin_inset Formula $\hat{z}_{1}<\hat{z}_{2}<\ldots<\hat{z}_{N}$
 \end_inset
 
@@ -12559,16 +12983,17 @@ In a community of
 \begin_inset Formula $z_{1}<z_{2}<\ldots<z_{N}$
 \end_inset
 
- then the social welfare gain from a CCT will be either i) monotonically
- increasing in 
+ then the social welfare gain from a CCT will be either i) monotonically increasing in 
 \begin_inset Formula $m$
 \end_inset
 
-; ii) monotonically decreasing in 
+;
+ ii) monotonically decreasing in 
 \begin_inset Formula $m$
 \end_inset
 
-; or iii) inverted-U shape in 
+;
+ or iii) inverted-U shape in 
 \begin_inset Formula $m$
 \end_inset
 
@@ -12588,7 +13013,8 @@ In a community of
 status open
 
 \begin_layout Plain Layout
-Bryan Et Al (2021): Theory
+Bryan Et Al (2021):
+ Theory
 \end_layout
 
 \end_inset
@@ -12601,7 +13027,7 @@ Bryan Et Al (2021): Theory
 \align center
 \begin_inset Graphics
 	filename pictures/BryanEtAl01.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -12621,7 +13047,8 @@ Bryan Et Al (2021): Theory
 status open
 
 \begin_layout Plain Layout
-Bryan Et Al (2021): Experimental Design
+Bryan Et Al (2021):
+ Experimental Design
 \end_layout
 
 \end_inset
@@ -12635,7 +13062,8 @@ Labor demand/wages are low during pre-harvest season in many places
 \end_layout
 
 \begin_layout Itemize
-Rural Eastern Indonesia, West Timor one such area.
+Rural Eastern Indonesia,
+ West Timor one such area.
  Some households send seasonal migrants to cities.
 \end_layout
 
@@ -12644,11 +13072,14 @@ Sampled 5 villages in Timor Tengga Utara (TTU) Regency in West Timor.
 \end_layout
 
 \begin_layout Itemize
-855 households interviewed, and 775 eligible: (i) 
+855 households interviewed,
+ and 775 eligible:
+ (i) 
 \begin_inset Formula $\geq1$
 \end_inset
 
- hh member aged 21+; (ii) land 
+ hh member aged 21+;
+ (ii) land 
 \begin_inset Formula $\leq200$
 \end_inset
 
@@ -12660,16 +13091,18 @@ Households randomized into either UCT of IDR 150K (
 \begin_inset Formula $\sim$
 \end_inset
 
-$10) with no conditions; or CCT.
- CCT had to migrate, received half of transfer in origin village and half
- in the destination.
- Randomized into 3 groups: (1) Low (IDR 150K); (2) High (IDR 300K); (3)
- Low with surprise (unexpected extra 225K in destination)
+$10) with no conditions;
+ or CCT.
+ CCT had to migrate,
+ received half of transfer in origin village and half in the destination.
+ Randomized into 3 groups:
+ (1) Low (IDR 150K);
+ (2) High (IDR 300K);
+ (3) Low with surprise (unexpected extra 225K in destination)
 \end_layout
 
 \begin_layout Itemize
-Need (3) to try and disentangle selection effects they are interested in
- from direct effect of larger transfer.
+Need (3) to try and disentangle selection effects they are interested in from direct effect of larger transfer.
 \end_layout
 
 \end_deeper
@@ -12698,7 +13131,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename pictures/BryanEtAl02.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -12740,7 +13173,10 @@ status open
 
 \end_deeper
 \begin_layout Subsection
-Balboni, Bandiera, Burgess, Ghatak & Heil (2022) 
+Balboni,
+ Bandiera,
+ Burgess,
+ Ghatak & Heil (2022) 
 \begin_inset ERT
 status open
 
@@ -12775,7 +13211,8 @@ status open
 
 \begin_layout Plain Layout
 Balboni et al.
- (2022): Motivation
+ (2022):
+ Motivation
 \end_layout
 
 \end_inset
@@ -12802,8 +13239,8 @@ Most poor individuals are employed but have low earnings.
 \end_layout
 
 \begin_layout Enumerate
-The poor have the same opportunities as everyone else, so it must be that
- they have traits that are unsuitable for other occupations.
+The poor have the same opportunities as everyone else,
+ so it must be that they have traits that are unsuitable for other occupations.
 \end_layout
 
 \begin_layout Enumerate
@@ -12820,13 +13257,11 @@ Distinguishing between these two hypotheses is
 hard
 \emph default
 .
- Both have the same predictions for equilibrium allocation of people across
- occupations.
+ Both have the same predictions for equilibrium allocation of people across occupations.
 \end_layout
 
 \begin_layout Itemize
-To tell them apart need to observe what happens when you cross the threshold
- level of affluence to escape poverty trap.
+To tell them apart need to observe what happens when you cross the threshold level of affluence to escape poverty trap.
  
 \end_layout
 
@@ -12854,7 +13289,8 @@ status open
 
 \begin_layout Plain Layout
 Balboni et al.
- (2022): Setting
+ (2022):
+ Setting
 \end_layout
 
 \end_inset
@@ -12864,15 +13300,14 @@ Balboni et al.
 
 \begin_deeper
 \begin_layout Itemize
-Test for poverty traps using BRAC's Targeting the Ultra-Poor (TUP) program
- in Bangladesh.
+Test for poverty traps using BRAC's Targeting the Ultra-Poor (TUP) program in Bangladesh.
 \end_layout
 
 \begin_layout Itemize
 Bandiera et al.
- (2017) study impacts using data on 23K hhs in 1,309 villages in 13 poorest
- districts.
- Of these, 6K hhs are considered 
+ (2017) study impacts using data on 23K hhs in 1,309 villages in 13 poorest districts.
+ Of these,
+ 6K hhs are considered 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12884,13 +13319,14 @@ extremely poor
 \end_layout
 
 \begin_layout Itemize
-Program offers one-off transfer of productive assets (a cow in 91% of cases)
- and training to use it to women from ultra-poor hhs.
+Program offers one-off transfer of productive assets (a cow in 91% of cases) and training to use it to women from ultra-poor hhs.
 \end_layout
 
 \begin_layout Itemize
-Baseline survey in 2007, then follow-ups in 2009, 2011, 2014 and 2018 (11
- years!)
+Baseline survey in 2007,
+ then follow-ups in 2009,
+ 2011,
+ 2014 and 2018 (11 years!)
 \end_layout
 
 \end_deeper
@@ -12920,7 +13356,7 @@ status open
 \begin_inset Graphics
 	filename pictures/BalboniEtAl01.png
 	lyxscale 60
-	height 95pheight%
+	special height=0.95\paperheight
 
 \end_inset
 
@@ -12940,7 +13376,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Baseline Wealth Distribution
+Balboni Et Al (2022):
+ Baseline Wealth Distribution
 \end_layout
 
 \end_inset
@@ -12953,7 +13390,7 @@ Balboni Et Al (2022): Baseline Wealth Distribution
 \align center
 \begin_inset Graphics
 	filename pictures/BalboniEtAl02.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -12973,7 +13410,8 @@ Balboni Et Al (2022): Baseline Wealth Distribution
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Baseline Wealth Distribution After Transfers
+Balboni Et Al (2022):
+ Baseline Wealth Distribution After Transfers
 \end_layout
 
 \end_inset
@@ -12986,7 +13424,7 @@ Balboni Et Al (2022): Baseline Wealth Distribution After Transfers
 \align center
 \begin_inset Graphics
 	filename pictures/BalboniEtAl03.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13006,7 +13444,8 @@ Balboni Et Al (2022): Baseline Wealth Distribution After Transfers
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Model
+Balboni Et Al (2022):
+ Model
 \end_layout
 
 \end_inset
@@ -13055,7 +13494,8 @@ Define steady state(s) as fixed point(s) of
 \begin_inset Formula $\Phi_{i}\left(\cdot\right)$
 \end_inset
 
-: 
+:
+ 
 \begin_inset Formula $K_{i}^{*}=\Phi_{i}\left(K_{i}^{*}\right)$
 \end_inset
 
@@ -13075,7 +13515,8 @@ Define steady state(s) as fixed point(s) of
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Model
+Balboni Et Al (2022):
+ Model
 \end_layout
 
 \end_inset
@@ -13089,7 +13530,7 @@ Balboni Et Al (2022): Model
 \begin_inset Graphics
 	filename pictures/BalboniEtAl04.png
 	lyxscale 60
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13109,7 +13550,9 @@ Balboni Et Al (2022): Model
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Are There Poverty Traps? Method
+Balboni Et Al (2022):
+ Are There Poverty Traps?
+ Method
 \end_layout
 
 \end_inset
@@ -13123,12 +13566,13 @@ Proceed in 2 steps
 \end_layout
 
 \begin_layout Enumerate
-Is there a globally concave transition equation? Use Komarova & Hidalgo
- (2019) nonparametric shape test
+Is there a globally concave transition equation?
+ Use Komarova & Hidalgo (2019) nonparametric shape test
 \end_layout
 
 \begin_layout Enumerate
-If not, try and find the threshold 
+If not,
+ try and find the threshold 
 \begin_inset Formula $\hat{K}$
 \end_inset
 
@@ -13136,8 +13580,8 @@ If not, try and find the threshold
 \end_layout
 
 \begin_layout Itemize
-In practise, do this by estimating transition equation non-parametrically
- and then finding its intersection with the 45-degree line numerically.
+In practice,
+ do this by estimating transition equation non-parametrically and then finding its intersection with the 45-degree line numerically.
 \end_layout
 
 \end_deeper
@@ -13153,7 +13597,8 @@ In practise, do this by estimating transition equation non-parametrically
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Transition Equation in Treatment Villages
+Balboni Et Al (2022):
+ Transition Equation in Treatment Villages
 \end_layout
 
 \end_inset
@@ -13166,7 +13611,7 @@ Balboni Et Al (2022): Transition Equation in Treatment Villages
 \align center
 \begin_inset Graphics
 	filename pictures/BalboniEtAl05.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13186,7 +13631,8 @@ Balboni Et Al (2022): Transition Equation in Treatment Villages
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Transition Equation in Control Villages
+Balboni Et Al (2022):
+ Transition Equation in Control Villages
 \end_layout
 
 \end_inset
@@ -13199,7 +13645,7 @@ Balboni Et Al (2022): Transition Equation in Control Villages
 \align center
 \begin_inset Graphics
 	filename pictures/BalboniEtAl06.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13219,7 +13665,8 @@ Balboni Et Al (2022): Transition Equation in Control Villages
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Dynamics of Wealth
+Balboni Et Al (2022):
+ Dynamics of Wealth
 \end_layout
 
 \end_inset
@@ -13269,7 +13716,8 @@ Define
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Wealth Dynamics in the short run
+Balboni Et Al (2022):
+ Wealth Dynamics in the short run
 \end_layout
 
 \end_inset
@@ -13282,7 +13730,7 @@ Balboni Et Al (2022): Wealth Dynamics in the short run
 \align center
 \begin_inset Graphics
 	filename pictures/BalboniEtAl07.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13302,7 +13750,8 @@ Balboni Et Al (2022): Wealth Dynamics in the short run
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Wealth Dynamics in the longer run
+Balboni Et Al (2022):
+ Wealth Dynamics in the longer run
 \end_layout
 
 \end_inset
@@ -13336,7 +13785,8 @@ Balboni Et Al (2022): Wealth Dynamics in the longer run
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Quantifying Misallocation
+Balboni Et Al (2022):
+ Quantifying Misallocation
 \end_layout
 
 \end_inset
@@ -13346,9 +13796,11 @@ Balboni Et Al (2022): Quantifying Misallocation
 
 \begin_deeper
 \begin_layout Itemize
-If there are poverty traps, then how much efficiency is lost due to poverty?
+If there are poverty traps,
+ then how much efficiency is lost due to poverty?
  i.e.
- what if there were no capital constraints? Turn to a model
+ what if there were no capital constraints?
+ Turn to a model
 \end_layout
 
 \begin_layout Itemize
@@ -13356,7 +13808,7 @@ Individuals allocate time endowment
 \begin_inset Formula $R$
 \end_inset
 
- between self-employment in livestock rearin 
+ between self-employment in livestock rearing 
 \begin_inset Formula $l$
 \end_inset
 
@@ -13386,11 +13838,13 @@ Production of livestock is
 \end_layout
 
 \begin_layout Itemize
-Face constraints: demand on labor market 
+Face constraints:
+ demand on labor market 
 \begin_inset Formula $h\leq\bar{H}$
 \end_inset
 
-, and supply on labor market 
+,
+ and supply on labor market 
 \begin_inset Formula $h^{\prime}\leq\bar{N}$
 \end_inset
 
@@ -13422,7 +13876,8 @@ Make functional form assumptions so that individuals solve
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Quantifying Misallocation
+Balboni Et Al (2022):
+ Quantifying Misallocation
 \end_layout
 
 \end_inset
@@ -13450,8 +13905,7 @@ The model is calibrated to recover each individual's
 \begin_inset Formula $A,\,\psi_{l},\,\psi_{h}$
 \end_inset
 
- by using the baseline and year-2 data on hours devoted to each occupation
- and assuming a production function
+ by using the baseline and year-2 data on hours devoted to each occupation and assuming a production function
 \begin_inset Formula 
 \[
 f\left(\bar{k}_{i}\right)g\left(l_{i}+h_{i}^{\prime}\right)=\left(ak_{i}^{2}+bk_{i}\right)\left(l_{i}+h_{i}^{\prime}\right)^{\beta}
@@ -13475,7 +13929,8 @@ f\left(\bar{k}_{i}\right)g\left(l_{i}+h_{i}^{\prime}\right)=\left(ak_{i}^{2}+bk_
 status open
 
 \begin_layout Plain Layout
-Balboni Et Al (2022): Quantifying Misallocation
+Balboni Et Al (2022):
+ Quantifying Misallocation
 \end_layout
 
 \end_inset
@@ -13488,7 +13943,7 @@ Balboni Et Al (2022): Quantifying Misallocation
 \align center
 \begin_inset Graphics
 	filename pictures/BalboniEtAl09.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -13497,7 +13952,8 @@ Balboni Et Al (2022): Quantifying Misallocation
 
 \end_deeper
 \begin_layout Subsection
-Cunha, De Giorgi & Jayachandran (2017) 
+Cunha,
+ De Giorgi & Jayachandran (2017) 
 \begin_inset ERT
 status open
 
@@ -13531,7 +13987,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Overview
+Cunha et al (2017):
+ Overview
 \end_layout
 
 \end_inset
@@ -13557,7 +14014,8 @@ In-kind transfers could do better at targeting.
 \end_layout
 
 \begin_layout Itemize
-Cash transfers have lower admin costs, and give recipients freedom to choose.
+Cash transfers have lower admin costs,
+ and give recipients freedom to choose.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -13565,7 +14023,8 @@ Cash transfers have lower admin costs, and give recipients freedom to choose.
 \end_layout
 
 \begin_layout Itemize
-Also: transfers may affect prices.
+Also:
+ transfers may affect prices.
 \end_layout
 
 \begin_deeper
@@ -13582,8 +14041,8 @@ cash transfers increase demand for normal goods
 \end_layout
 
 \begin_layout Itemize
-in-kind transfers increase demand for normal goods, but also increase supply
- 
+in-kind transfers increase demand for normal goods,
+ but also increase supply 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
@@ -13612,7 +14071,8 @@ Test this in an experiment in Mexico.
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Conceptual Framework
+Cunha et al (2017):
+ Conceptual Framework
 \end_layout
 
 \end_inset
@@ -13644,8 +14104,8 @@ Think of partially-closed village economies.
 \end_layout
 
 \begin_layout Itemize
-Local suppliers are shopkeepers, supplying packaged food bought from outside
- the village.
+Local suppliers are shopkeepers,
+ supplying packaged food bought from outside the village.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -13653,7 +14113,8 @@ Local suppliers are shopkeepers, supplying packaged food bought from outside
 \end_layout
 
 \begin_layout Itemize
-Case 1: Perfect competition
+Case 1:
+ Perfect competition
 \end_layout
 
 \begin_deeper
@@ -13666,7 +14127,9 @@ Cash transfer of
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- demand shifts out, prices go up: 
+ demand shifts out,
+ prices go up:
+ 
 \begin_inset Formula $\partial p/\partial X_{Cash}>0$
 \end_inset
 
@@ -13717,7 +14180,7 @@ In-kind transfer with value
 \align center
 \begin_inset Graphics
 	filename pictures/Cunha et al 1.png
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -13741,7 +14204,7 @@ In-kind transfer with value
 \align center
 \begin_inset Graphics
 	filename pictures/Cunha et al 2.png
-	height 90pheight%
+	special height=0.9\paperheight
 
 \end_inset
 
@@ -13761,7 +14224,8 @@ In-kind transfer with value
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Conceptual Framework
+Cunha et al (2017):
+ Conceptual Framework
 \end_layout
 
 \end_inset
@@ -13771,7 +14235,8 @@ Cunha et al (2017): Conceptual Framework
 
 \begin_deeper
 \begin_layout Itemize
-Case 3: Cournot-Nash.
+Case 3:
+ Cournot-Nash.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -13799,7 +14264,8 @@ Case 3: Cournot-Nash.
 \end_layout
 
 \begin_layout Itemize
-Equilibrium prices: 
+Equilibrium prices:
+ 
 \begin_inset Formula $p=\left(d+Nc\right)/\left(N+1\right)$
 \end_inset
 
@@ -13833,7 +14299,8 @@ Transfer changes
 \end_layout
 
 \begin_layout Itemize
-In a more general Cournot model, can show dependence on degree of competition
+In a more general Cournot model,
+ can show dependence on degree of competition
 \begin_inset Formula 
 \begin{align*}
 \frac{\partial^{2}p}{\partial N\partial X_{Cash}} & <0\\
@@ -13858,7 +14325,8 @@ In a more general Cournot model, can show dependence on degree of competition
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Context
+Cunha et al (2017):
+ Context
 \end_layout
 
 \end_inset
@@ -13876,7 +14344,8 @@ Study Programa de Apoyo Alimentario (PAL) in Mexico
 \end_layout
 
 \begin_layout Itemize
-Operates in 5,000 very poor, rural villages in Mexico.
+Operates in 5,000 very poor,
+ rural villages in Mexico.
  
 \begin_inset VSpace bigskip
 \end_inset
@@ -13885,7 +14354,8 @@ Operates in 5,000 very poor, rural villages in Mexico.
 \end_layout
 
 \begin_layout Itemize
-Villages eligible if population under 2.5K, and classified as highly marginalized.
+Villages eligible if population under 2.5K,
+ and classified as highly marginalized.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -13906,12 +14376,20 @@ PAL provides monthly in-kind allotment:
 
 \begin_deeper
 \begin_layout Itemize
-7 basics (corn flour, rice, beans, pasta, biscuits, fortified milk powder,
+7 basics (corn flour,
+ rice,
+ beans,
+ pasta,
+ biscuits,
+ fortified milk powder,
  vegetable oil)
 \end_layout
 
 \begin_layout Itemize
-2-4 supplements (canned tuna/sardines, lentils, corn starch, chocolate powder,
+2-4 supplements (canned tuna/sardines,
+ lentils,
+ corn starch,
+ chocolate powder,
  cereal)
 \begin_inset VSpace bigskip
 \end_inset
@@ -13937,7 +14415,8 @@ Allotment inframarginal for most households (consumption > allotment)
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Experimental Design
+Cunha et al (2017):
+ Experimental Design
 \end_layout
 
 \end_inset
@@ -13947,7 +14426,8 @@ Cunha et al (2017): Experimental Design
 
 \begin_deeper
 \begin_layout Itemize
-During roll-out of the program, 208 villages randomly selected
+During roll-out of the program,
+ 208 villages randomly selected
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -13955,7 +14435,9 @@ During roll-out of the program, 208 villages randomly selected
 \end_layout
 
 \begin_layout Itemize
-Each village randomly assigned to in-kind, cash, or control.
+Each village randomly assigned to in-kind,
+ cash,
+ or control.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -13979,7 +14461,8 @@ Cash transfer is
 \begin_inset Formula $\sim8\%$
 \end_inset
 
- of recipients' income, 
+ of recipients' income,
+ 
 \begin_inset Formula $7\%$
 \end_inset
 
@@ -13991,7 +14474,8 @@ Cash transfer is
 \end_layout
 
 \begin_layout Itemize
-Value of the in-kind transfer: Market value is MX$ 206
+Value of the in-kind transfer:
+ Market value is MX$ 206
 \end_layout
 
 \begin_deeper
@@ -14000,13 +14484,14 @@ Value of the in-kind transfer: Market value is MX$ 206
 \end_layout
 
 \begin_layout Itemize
-35 pesos of extra consumption of transferred goods (extra-marginal, value
- at 2/3 discount)
+35 pesos of extra consumption of transferred goods (extra-marginal,
+ value at 2/3 discount)
 \end_layout
 
 \begin_layout Itemize
-55 pesos not consumed, presumably resold (extra-marginal, assume transaction
- costs of selling 2/3 of value)
+55 pesos not consumed,
+ presumably resold (extra-marginal,
+ assume transaction costs of selling 2/3 of value)
 \end_layout
 
 \begin_layout Itemize
@@ -14030,7 +14515,8 @@ Value of the in-kind transfer: Market value is MX$ 206
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): PAL transfer
+Cunha et al (2017):
+ PAL transfer
 \end_layout
 
 \end_inset
@@ -14063,7 +14549,8 @@ Cunha et al (2017): PAL transfer
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Data and Empirical Strategy
+Cunha et al (2017):
+ Data and Empirical Strategy
 \end_layout
 
 \end_inset
@@ -14097,7 +14584,8 @@ where
 \begin_inset Formula $v$
 \end_inset
 
-, 
+,
+ 
 \begin_inset Formula $I_{gv}$
 \end_inset
 
@@ -14119,7 +14607,8 @@ Data from surveys of stores and households.
 \end_layout
 
 \begin_layout Itemize
-Survey data on prices of 66 food items from stores, markets.
+Survey data on prices of 66 food items from stores,
+ markets.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -14136,8 +14625,7 @@ Price data missing for 19% of village-goods.
 \end_layout
 
 \begin_layout Itemize
-End up with 360 stores in 194 villages and 12,940 good-village-store observation
-s
+End up with 360 stores in 194 villages and 12,940 good-village-store observations
 \end_layout
 
 \end_deeper
@@ -14153,7 +14641,8 @@ s
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Price Effects
+Cunha et al (2017):
+ Price Effects
 \end_layout
 
 \end_inset
@@ -14186,7 +14675,8 @@ Cunha et al (2017): Price Effects
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Persistence
+Cunha et al (2017):
+ Persistence
 \end_layout
 
 \end_inset
@@ -14199,7 +14689,7 @@ Cunha et al (2017): Persistence
 \align center
 \begin_inset Graphics
 	filename pictures/Cunha et al 5.png
-	height 95theight%
+	special height=0.95\textheight
 
 \end_inset
 
@@ -14219,7 +14709,8 @@ Cunha et al (2017): Persistence
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Heterogeneity
+Cunha et al (2017):
+ Heterogeneity
 \end_layout
 
 \end_inset
@@ -14252,7 +14743,8 @@ Cunha et al (2017): Heterogeneity
 status open
 
 \begin_layout Plain Layout
-Cunha et al (2017): Effects on Producers
+Cunha et al (2017):
+ Effects on Producers
 \end_layout
 
 \end_inset
@@ -14265,7 +14757,7 @@ Cunha et al (2017): Effects on Producers
 \align center
 \begin_inset Graphics
 	filename pictures/Cunha et al 7.png
-	height 100theight%
+	special height=1.0\textheight
 
 \end_inset
 
@@ -14292,8 +14784,8 @@ Open Questions
 
 \begin_deeper
 \begin_layout Itemize
-How do transfers interact with labor market formality? Should transfers
- be made conditional on having (previously held) formal work?
+How do transfers interact with labor market formality?
+ Should transfers be made conditional on having (previously held) formal work?
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -14301,8 +14793,8 @@ How do transfers interact with labor market formality? Should transfers
 \end_layout
 
 \begin_layout Itemize
-How can governments reduce the administrative burden of enforcing conditionality
-/eligibility? What role does technology play in this?
+How can governments reduce the administrative burden of enforcing conditionality/eligibility?
+ What role does technology play in this?
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -14319,8 +14811,10 @@ What types of transfer programs face the fewest political economy challenges?
 \end_layout
 
 \begin_layout Itemize
-Who should administer transfer programs? What level of government? How much
- to rely on self-reporting? 
+Who should administer transfer programs?
+ What level of government?
+ How much to rely on self-reporting?
+ 
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -14328,8 +14822,8 @@ Who should administer transfer programs? What level of government? How much
 \end_layout
 
 \begin_layout Itemize
-How much do eligibility requirements reduce incentives to graduate out of
- eligibility? To stay in rural areas?
+How much do eligibility requirements reduce incentives to graduate out of eligibility?
+ To stay in rural areas?
 \end_layout
 
 \end_deeper
