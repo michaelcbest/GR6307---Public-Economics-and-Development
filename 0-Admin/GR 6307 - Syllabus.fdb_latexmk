@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber GR 6307 - Syllabus"] 1772221521 "GR 6307 - Syllabus.bcf" "GR 6307 - Syllabus.bbl" "GR 6307 - Syllabus" 1772221529
-  "GR 6307 - Syllabus.bcf" 1772221529 130613 be7956fec0114f435c817c7f006fc303 ""
+["biber GR 6307 - Syllabus"] 1772221521 "GR 6307 - Syllabus.bcf" "GR 6307 - Syllabus.bbl" "GR 6307 - Syllabus" 1773062319
+  "GR 6307 - Syllabus.bcf" 1773062319 130613 be7956fec0114f435c817c7f006fc303 ""
   "readinglist.bib" 1772221509 52626 21cddbc79234940ba4293368ca0ee066 ""
   (generated)
   "GR 6307 - Syllabus.blg"
   "GR 6307 - Syllabus.bbl"
-["pdflatex"] 1772221526 "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.pdf" "GR 6307 - Syllabus" 1772221529
-  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.aux" 1772221529 16582 42eafb445379692c88fa6761658a9821 ""
-  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" 1772221518 12026 93f946fae64013ca144f3325b2bfbce2 ""
+["pdflatex"] 1773062316 "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.pdf" "GR 6307 - Syllabus" 1773062319
+  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.aux" 1773062319 16582 42eafb445379692c88fa6761658a9821 ""
+  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.tex" 1773062316 12026 498793843743f93019e0bc6a698f8d48 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1480098668 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1480098668 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -111,17 +111,17 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1631030269 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1631030321 4220279 3e8e839a2cd078c1c911536d795f7946 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "GR 6307 - Syllabus.aux" 1772221529 16582 42eafb445379692c88fa6761658a9821 ""
+  "GR 6307 - Syllabus.aux" 1773062319 16582 42eafb445379692c88fa6761658a9821 ""
   "GR 6307 - Syllabus.bbl" 1772221523 266071 3f6ee5009c3c600cdb38079d3adb9f2f "biber GR 6307 - Syllabus"
-  "GR 6307 - Syllabus.out" 1772221529 1344 ae05436051b6b79fc34485b86a682a1f ""
-  "GR 6307 - Syllabus.run.xml" 1772221529 2452 bc349a9ff2390b166b343cecf8e4d799 ""
-  "GR 6307 - Syllabus.tex" 1772221518 12026 93f946fae64013ca144f3325b2bfbce2 ""
+  "GR 6307 - Syllabus.out" 1773062319 1344 ae05436051b6b79fc34485b86a682a1f ""
+  "GR 6307 - Syllabus.run.xml" 1773062319 2452 bc349a9ff2390b166b343cecf8e4d799 ""
+  "GR 6307 - Syllabus.tex" 1773062316 12026 498793843743f93019e0bc6a698f8d48 ""
   (generated)
-  "GR 6307 - Syllabus.pdf"
-  "GR 6307 - Syllabus.aux"
-  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.pdf"
-  "GR 6307 - Syllabus.log"
-  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.log"
   "GR 6307 - Syllabus.out"
-  "GR 6307 - Syllabus.bcf"
+  "GR 6307 - Syllabus.aux"
   "GR 6307 - Syllabus.run.xml"
+  "GR 6307 - Syllabus.pdf"
+  "GR 6307 - Syllabus.log"
+  "GR 6307 - Syllabus.bcf"
+  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.log"
+  "/Users/michaelbest/Documents/GitHub/GR6307---Public-Economics-and-Development/0-Admin/GR 6307 - Syllabus.pdf"
